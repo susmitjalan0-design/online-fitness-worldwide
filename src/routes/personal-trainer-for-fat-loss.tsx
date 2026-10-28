@@ -178,7 +178,8 @@ function FatLossPage() {
             </h2>
             <ul className="prose-links mt-4 space-y-3 text-base leading-relaxed sm:text-lg">
               <li>
-                <strong>Return.</strong> Coming back after a long break: 45 minutes, 12 alternate-day sessions a month.
+                <strong>Return.</strong> Coming back after a long break: 45 minutes, 12 alternate-day sessions a month.{" "}
+                <a href="/getting-back-into-exercise">How Return works</a>.
               </li>
               <li>
                 <strong>Iron Hour.</strong> Strength first: 60 minutes, 1:1. Set-up, warm-up, primary lift, accessories, cool-down.{" "}

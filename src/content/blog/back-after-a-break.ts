@@ -763,4 +763,5 @@ export const backAfterBreakPost: BlogPost = {
   about: "Getting back into exercise after a long break",
   sources: BACK_SOURCES,
   copy: BACK_COPY,
+  programLink: { href: "/getting-back-into-exercise", label: "How Return works: getting back into exercise, coached live" },
 };

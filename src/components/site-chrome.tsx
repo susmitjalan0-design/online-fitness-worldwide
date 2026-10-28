@@ -58,6 +58,9 @@ export function SiteFooter({ children }: { children?: ReactNode }) {
           <a href="/personal-trainer-for-fat-loss" className="inline-flex min-h-11 items-center text-bone underline-offset-4 hover:underline">
             Fat loss coaching
           </a>
+          <a href="/getting-back-into-exercise" className="inline-flex min-h-11 items-center text-bone underline-offset-4 hover:underline">
+            Back after a break
+          </a>
           <a href="/blog" className="inline-flex min-h-11 items-center text-bone underline-offset-4 hover:underline">
             Blog
           </a>
