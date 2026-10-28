@@ -156,7 +156,7 @@ export function NoteDialog({ note, onClose }: { note: SessionNote | null; onClos
 
   return createPortal(
     <div
-      className="fixed inset-0 z-[80] grid place-items-end bg-[#0c0b09]/75 px-4 py-4 sm:place-items-center"
+      className="fixed inset-0 z-[80] grid place-items-end bg-[#06070a]/75 px-4 py-4 sm:place-items-center"
       role="presentation"
       onPointerDown={(event) => {
         if (event.target !== event.currentTarget) return;

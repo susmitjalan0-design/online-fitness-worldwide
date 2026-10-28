@@ -191,7 +191,7 @@ export function BookDialog({ open, onOpenChange, initialProgramId, initialSlotId
   return (
     <Dialog.Root open={open} onOpenChange={onOpenChange}>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 z-50 bg-[#0c0b09]/70" />
+        <Dialog.Overlay className="fixed inset-0 z-50 bg-[#06070a]/70" />
         <Dialog.Content className="safe-bottom fixed inset-x-0 bottom-0 z-50 flex max-h-[92dvh] w-full flex-col overflow-hidden rounded-t-2xl border border-line bg-ink-2 text-ink shadow-none sm:inset-auto sm:top-1/2 sm:left-1/2 sm:w-full sm:max-w-lg sm:-translate-x-1/2 sm:-translate-y-1/2 sm:rounded-2xl">
           <LocalePass />
           <div className="flex items-start justify-between gap-3 border-b border-line px-4 py-4 sm:px-5">

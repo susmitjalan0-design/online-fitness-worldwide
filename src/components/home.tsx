@@ -760,7 +760,7 @@ export function HomePage() {
                 />
               );
             })}
-            <div className="absolute inset-0 bg-[#14120f]/82" />
+            <div className="absolute inset-0 bg-[#06070a]/82" />
           </div>
           <div className="shell band relative grid items-start gap-8 lg:grid-cols-2 lg:gap-12">
             <div className="min-w-0">
@@ -893,6 +893,11 @@ export function HomePage() {
               <li>
                 <a href="/personal-trainer-for-fat-loss" className="inline-flex min-h-11 items-center underline underline-offset-4">
                   Personal trainer for fat loss
+                </a>
+              </li>
+              <li>
+                <a href="/getting-back-into-exercise" className="inline-flex min-h-11 items-center underline underline-offset-4">
+                  Getting back into exercise
                 </a>
               </li>
               <li>

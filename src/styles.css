@@ -90,7 +90,7 @@
     color: var(--color-ink);
   }
 
-  /* Visible on light (5.4:1) and, via .on-dark, on ink (6.3:1). */
+  /* Logo blue. Visible on light (#0147d6, 6.2:1 on bone) and, via .on-dark, on ink (#3d7bff, 5.3:1). */
   :focus-visible {
     outline: 3px solid var(--color-copper);
     outline-offset: 3px;
@@ -123,7 +123,7 @@
 }
 
 @layer components {
-  /* Section label with a short logo-orange bar, echoing the heavy, squared stroke of the mark. */
+  /* Section label with a short logo-blue bar, echoing the heavy, squared stroke of the J in the mark. */
   .eyebrow {
     display: inline-flex;
     align-items: center;
@@ -141,7 +141,7 @@
 
   /*
    * Badge in the shape of the logo tile: ink rounded square (about 22% corner,
-   * like rx 7 on the 32px favicon) with an orange figure. Used for list numbers.
+   * like rx 7 on the 32px favicon) with a logo-blue figure (5.3:1 on ink). Used for list numbers.
    */
   .mark-badge {
     border-radius: 22%;
@@ -149,7 +149,7 @@
     letter-spacing: -0.02em;
   }
 
-  /* Bulleted lists: logo-orange, heavy markers. Decorative only; text stays ink. */
+  /* Bulleted lists: logo-blue, heavy markers. Decorative only; text stays ink. */
   .list-mark li::marker {
     color: var(--color-copper-2);
     font-weight: 800;
@@ -157,7 +157,7 @@
 
   /*
    * Ink call-to-action cards get the J's crossbar: a short, heavy, square
-   * logo-orange bar on the top edge, at the start side (flips in RTL).
+   * logo-blue bar on the top edge, at the start side (flips in RTL).
    */
   .mark-cap {
     position: relative;
@@ -177,7 +177,7 @@
       inset-inline-start: 2rem;
     }
   }
-  /* Cards lift a little and pick up the logo orange on hover. */
+  /* Cards lift a little and pick up the logo blue on hover. */
   .card-lift {
     transition:
       border-color 160ms ease,
@@ -187,10 +187,10 @@
   .card-lift:hover,
   .card-lift:focus-within {
     border-color: color-mix(in srgb, var(--color-copper-2) 55%, var(--color-line));
-    box-shadow: 0 10px 28px -20px rgba(18, 17, 14, 0.45);
+    box-shadow: 0 10px 28px -20px rgba(6, 7, 10, 0.45);
   }
 
-  /* Inline links in long-form copy: ink text with a logo-orange underline. */
+  /* Inline links in long-form copy: ink text with a logo-blue underline; deeper blue on hover (6.2:1). */
   .prose-links a {
     text-decoration: underline;
     text-decoration-color: var(--color-copper-2);
@@ -273,11 +273,11 @@
   box-shadow: inset 0 -2px 0 var(--color-copper-2);
 }
 
-/* Logo orange with ink text (6.3:1). For calls to action on ink or bone. */
+/* Logo blue (#3d7bff) with ink text (5.3:1). For calls to action on ink or bone. */
 .btn-accent {
   background: var(--color-copper-2);
   color: var(--color-ink);
-  box-shadow: inset 0 -2px 0 rgba(18, 17, 14, 0.25);
+  box-shadow: inset 0 -2px 0 rgba(6, 7, 10, 0.25);
 }
 
 .btn-light {
