@@ -14,6 +14,27 @@ export const BUSINESS_ID = `${SITE_URL}/#business`;
 export const COACH_ID = `${SITE_URL}/#coach`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
 
+/**
+ * Shared social card: public/og.jpg (1200×630 JPEG, checked 28 Oct 2026).
+ * Absolute URL on the canonical domain, as Open Graph and X require.
+ */
+export const OG_IMAGE = {
+  url: `${SITE_URL}/og.jpg`,
+  width: 1200,
+  height: 630,
+  type: "image/jpeg",
+  alt: "JALAN Personal Training wordmark on a dark wall, with a lamp and a kettlebell.",
+} as const;
+
+/** The same image as a schema.org ImageObject, for Article and other JSON-LD. */
+export const ogImageLd = {
+  "@type": "ImageObject",
+  url: OG_IMAGE.url,
+  width: OG_IMAGE.width,
+  height: OG_IMAGE.height,
+  caption: OG_IMAGE.alt,
+};
+
 export type Alternate = { hrefLang: string; path: string };
 
 export type SeoInput = {
@@ -48,9 +69,16 @@ export function seoHead(input: SeoInput) {
     { property: "og:description", content: input.description },
     { property: "og:url", content: url },
     { property: "og:locale", content: input.ogLocale ?? "en_IN" },
-    { name: "twitter:card", content: "summary" },
+    { property: "og:image", content: OG_IMAGE.url },
+    { property: "og:image:type", content: OG_IMAGE.type },
+    { property: "og:image:width", content: String(OG_IMAGE.width) },
+    { property: "og:image:height", content: String(OG_IMAGE.height) },
+    { property: "og:image:alt", content: OG_IMAGE.alt },
+    { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: input.title },
     { name: "twitter:description", content: input.description },
+    { name: "twitter:image", content: OG_IMAGE.url },
+    { name: "twitter:image:alt", content: OG_IMAGE.alt },
   ];
   if (input.publishedTime) meta.push({ property: "article:published_time", content: input.publishedTime });
   if (input.modifiedTime) meta.push({ property: "article:modified_time", content: input.modifiedTime });

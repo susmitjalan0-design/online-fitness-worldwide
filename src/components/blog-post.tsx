@@ -19,6 +19,7 @@ import {
   breadcrumbLd,
   businessLd,
   coachLd,
+  ogImageLd,
   seoHead,
 } from "@/lib/seo";
 
@@ -64,6 +65,7 @@ export function postHead(post: BlogPost, lang: PostLang) {
         datePublished: post.published,
         dateModified: post.modified,
         mainEntityOfPage: absoluteUrl(path),
+        image: { ...ogImageLd },
         author: { ...coachLd },
         publisher: { ...businessLd },
         about: { "@type": "Thing", name: post.about },
@@ -190,7 +192,9 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
                   </div>
                   <div>
                     <dt className="text-xs font-semibold tracking-widest text-copper uppercase">{copy.labels.how}</dt>
-                    <dd className="mt-1">{item.how}</dd>
+                    <dd className="mt-1">
+                      <Cited text={item.how} label={sourceLabel} />
+                    </dd>
                   </div>
                   <div>
                     <dt className="text-xs font-semibold tracking-widest text-copper uppercase">{copy.labels.dose}</dt>
@@ -230,6 +234,17 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
               {copy.coached.map((line) => (
                 <p key={line}>{line}</p>
               ))}
+              {lang === "en" && post.programLink ? (
+                <p>
+                  <a
+                    href={post.programLink.href}
+                    className="inline-flex min-h-11 items-center gap-1.5 font-semibold text-bone underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper-2"
+                  >
+                    {post.programLink.label}
+                    <ArrowUpRight className="size-4 shrink-0" aria-hidden="true" />
+                  </a>
+                </p>
+              ) : null}
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="/#programs" className="btn-accent inline-flex min-h-12 items-center gap-1 rounded-full px-6 text-sm font-semibold">

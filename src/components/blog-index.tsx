@@ -10,7 +10,7 @@ import {
   postPathFor,
   type PostLang,
 } from "@/content/blog/shared";
-import { absoluteUrl, WEBSITE_ID, breadcrumbLd, businessLd, seoHead } from "@/lib/seo";
+import { absoluteUrl, WEBSITE_ID, breadcrumbLd, businessLd, ogImageLd, seoHead } from "@/lib/seo";
 
 /** head() for /blog and /{lang}/blog: own title, description, canonical, reciprocal hreflang, Blog + BreadcrumbList JSON-LD. */
 export function blogIndexHead(lang: PostLang) {
@@ -39,6 +39,7 @@ export function blogIndexHead(lang: PostLang) {
           description: post.copy[lang].metaDescription,
           url: absoluteUrl(postPathFor(post.slug, lang)),
           inLanguage: lang,
+          image: { ...ogImageLd },
           datePublished: post.published,
           dateModified: post.modified,
         })),
