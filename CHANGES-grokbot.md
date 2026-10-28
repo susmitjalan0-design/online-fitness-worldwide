@@ -2,6 +2,64 @@
 
 Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 
+## 28 Oct 2026 (IST): og:image, /getting-back-into-exercise, one-dumbbell post, blue-logo clean-up
+
+### SEO: social card
+- `public/og.jpg` is on the branch (via `binary-parts/`). Checked after restore: a 1200×630 JPEG.
+- `seoHead` (`src/lib/seo.ts`) now sends on every page: `og:image` (`https://onlinefitness.com/og.jpg`, the absolute URL on the `SITE_URL` canonical domain), `og:image:type`, `og:image:width` 1200, `og:image:height` 630, `og:image:alt`, `twitter:card=summary_large_image`, `twitter:image` and `twitter:image:alt`. New exports `OG_IMAGE` and `ogImageLd`.
+- Article JSON-LD (`postHead`) and each BlogPosting in the blog index JSON-LD now carry `image` (ImageObject, 1200×630).
+
+### New landing page: `/getting-back-into-exercise`
+- `src/routes/getting-back-into-exercise.tsx`, ported from the prototype in `/workspace/jalanpt/site/getting-back-into-exercise`, using the same pattern as `/personal-trainer-for-fat-loss`. It targets "getting back into exercise after a long break" and leads to Return: 45 minutes, 12 alternate-day sessions a month, at home on Meet/Zoom/FaceTime, Hindi or English, IST.
+- Copy is the prototype's, with short lines. Sections: "Don't pick up where you left off", "How Return runs", "Not the right fit?" (Iron Hour, Lean Reset, Open Floor, Consultation), FAQ (the prototype's 3 questions, plus number of sessions, cost with no price, and where to start), Read next, and the consultation card (30 minutes, not training). No prices, results or quotes. Credentials line, no endorsement.
+- JSON-LD: Service (provider = the business), FAQPage (6 questions) and BreadcrumbList. English only (hreflang `en` + `x-default`).
+- Internal links: the content-page footer ("Back after a break"), the home footer ("Getting back into exercise"), the fat-loss page's Return line ("How Return works"), and the English long-break post's coached card (new optional `programLink` on `BlogPost`, shown only in English because the page is English). The page itself links to the long-break post and to `/personal-trainer-for-fat-loss`.
+
+### Blog
+- New post: **"Best home workouts with one dumbbell: 7 exercises and a sample week"** at `/blog/best-home-workouts-with-one-dumbbell`. It targets "home workouts with one dumbbell" / "one dumbbell workout at home" and leads into Iron Hour (set-up 0, warm-up 4, primary 14, accessories 28, cool-down 50). Return, Lean Reset, Open Floor and the Consultation are named.
+- Localised versions are at `/{ar,hi,es,zh,ja,gu}/blog/best-home-workouts-with-one-dumbbell`. Arabic renders `lang="ar" dir="rtl"`. Each version has its own title, description and canonical, plus the full reciprocal hreflang set (7 languages and x-default). JSON-LD: Article (with image, citations and translation links), ItemList and BreadcrumbList, via the shared `postHead`.
+- The 7 items: goblet squat, Romanian deadlift (two legs, then one), rear-foot-elevated split squat, one-arm row, one-arm floor press (then push-ups), half-kneeling one-arm overhead press, suitcase carry.
+- "How do you make one dumbbell hard enough?" covers: ACSM's 2–10% rule, and what to do with a fixed dumbbell instead (reps, then sets, then a harder version). Light loads to failure gave similar muscle growth, but heavy loads built more maximal strength, so it says plainly that one light dumbbell has a ceiling for top-end strength. You don't need to go to failure. Slow reps are a tool, not magic.
+- Content is in `src/content/blog/one-dumbbell.ts` (export `oneDumbbellPost`). Sources, all real; metadata and findings checked against Europe PMC records and abstracts on 28 Oct 2026 (WHO's "2 or more days" checked in the Bull et al. 2020 full text, PMC7719906):
+  1. WHO guidelines on physical activity and sedentary behaviour (2020): https://www.who.int/publications/i/item/9789240015128
+  2. ACSM position stand, Progression models in resistance training for healthy adults, MSSE 2009;41(3):687–708: https://doi.org/10.1249/MSS.0b013e3181915670
+  3. Schoenfeld, Grgic, Ogborn & Krieger, low- vs high-load training, J Strength Cond Res 2017;31(12):3508–3523: https://doi.org/10.1519/JSC.0000000000002200 (21 studies).
+  4. Refalo et al., proximity-to-failure and hypertrophy, Sports Med 2023;53(3):649–665: https://doi.org/10.1007/s40279-022-01784-y (15 studies; trivial edge for set failure vs non-failure, no edge for momentary failure).
+  5. Schoenfeld, Ogborn & Krieger, repetition duration and hypertrophy, Sports Med 2015;45(4):577–585: https://doi.org/10.1007/s40279-015-0304-0 (8 studies; 0.5–8 s per rep similar).
+  6. Speirs et al., unilateral vs bilateral squat training, J Strength Cond Res 2016;30(2):386–392: https://doi.org/10.1519/JSC.0000000000001096 (18 academy rugby players, 5 weeks; similar gains). **Labelled as small, in trained athletes.**
+  7. Riebe et al., ACSM preparticipation screening, MSSE 2015;47(11):2473–2479: https://doi.org/10.1249/MSS.0000000000000664
+- The sample week (A/B/A) is labelled "Sample only. Not a prescription." No client results, no quotes, no prices. Credentials line (ASCA Level 1 and ACE; neither body endorses the business or the article). Safety note: ACSM screening; check the dumbbell (collars on adjustables) and the floor; stop for sharp pain; get advice first with a back or shoulder problem, in pregnancy or after recently giving birth.
+- `src/content/blog/index.ts` lists seven posts, newest first. Blog index descriptions (all 7 languages, `BLOG_INDEX_COPY`) now lead with the one-dumbbell post.
+- New routes: `src/routes/blog.best-home-workouts-with-one-dumbbell.tsx` and `src/routes/$lang.blog.best-home-workouts-with-one-dumbbell.tsx` (`/en/...` and unknown codes return 404). `src/routeTree.gen.ts` is the file the TanStack Router plugin generated during this run's build (not hand-edited).
+- **Bug fix (found in verification):** `{n}` citations in an item's "How" field were printed as raw text, as in "…by the NHS definition.{2}" in the long-break post (7 places, all languages). The How field now renders linked citations like Why and Dose.
+
+### SEO: sitemap
+- `public/sitemap.xml`: 59 URLs. Home, the two landing pages, 7 blog indexes and 7 language URLs for each of the 7 posts, with reciprocal `xhtml:link` hreflang and x-default (landing pages list `en` + x-default). Home, indexes and landing pages `lastmod` 2026-10-28.
+
+### Theme polish (real logo: ink #030406, blue #014ffe)
+- Leftover orange wording removed from `src/styles.css` comments (`.eyebrow`, `.mark-badge`, `.list-mark`, `.mark-cap`, `.card-lift`, `.prose-links`, `.btn-accent`). They now say logo blue, and the contrast notes are corrected to the real values: #0147d6 is 6.2:1 on bone, and #3d7bff is 5.3:1 against ink (the old comments said 5.4:1 and 6.3:1, the orange figures).
+- Warm-brown shadows from the old ink (`rgba(18,17,14,…)` on `.card-lift` and `.btn-accent`) now use the real ink (`rgba(6,7,10,…)`). Warm overlays `#14120f` (the hour section photo) and `#0c0b09` (book and note dialogs) now use ink `#06070a`. Same opacity, so text contrast is unchanged or slightly higher.
+- No `#e07a3d` or `#9c4615` left anywhere in `src/` or `public/` SVGs.
+
+### Programs (facts unchanged)
+- Iron Hour 60 min 1:1; Lean Reset 20 sessions/month 1:1; Return 45 min, 12 alternate-day sessions/month; Open Floor small group; Consultation 30 min, not training. No prices anywhere; booking holds a time, fee agreed directly.
+
+### Verified this run
+- Restored the binaries with `node scripts/restore-binaries.mjs`, so the build used the real images, not placeholders. Built a copy of the branch with `vite build` and a local-only verify config: a stub for the missing `src/lib/preview-host-bridge.ts`, no PWA plugin, and the Nitro `node-server` preset. The build passed (Node 20 on the box). The stub and config are not committed.
+- The built server returned 200 for `/`, `/blog`, `/ar/blog`, `/getting-back-into-exercise`, `/personal-trainer-for-fat-loss`, the new post in all 7 languages, `/og.jpg` and `/sitemap.xml`. It returned 404 for `/xx/blog/best-home-workouts-with-one-dumbbell` and `/en/blog/best-home-workouts-with-one-dumbbell`.
+- I checked all 59 sitemap URLs. Every page has one title and one canonical, and every JSON-LD block parses. Every post page has exactly 8 hreflang `<link>`s, and no raw `{n}` markers are left. Every page has the og:image set and `summary_large_image`. The Arabic post renders `<html lang="ar" dir="rtl">`. I took headless Chrome screenshots at 390px of the landing page and the Arabic post, and the layout and RTL look right.
+- `tsc --noEmit`: the same 14 errors before and after (all from the missing platform files: grok-pwa, preview bridge, app-data, auth, multiplayer). ESLint on the changed files shows no errors, only the existing fast-refresh warning in `blog-post.tsx`.
+- The real `npm run build` from a clean clone still fails, because the same platform files are missing.
+
+### Still open (needs Susmit)
+- Build blockers: `scripts/grok-pwa-shared.mjs`, `src/lib/preview-host-bridge.ts`, and the auth, app-data and multiplayer files are still missing.
+- `og.jpg` is the warm, copper-lit "JALAN Personal Training" card. It does not match the blue logo. Consider a blue and near-black 1200×630 version. Keep the same path and size, and no code change is needed.
+- Home stats band ("3500+ live sessions conducted", "4–5 average sessions per day", "10+ countries with 90% consistency"): still unverified. Confirm or remove.
+- `clientNotes`: labelled as samples. Replace with real, consented quotes or delete them before any are shown.
+- Four prototype landing pages are still not ported: `/online-strength-and-conditioning-coach` (natural links: the S&C post and the one-dumbbell post), `/online-personal-trainer-india`, `/online-personal-trainer-dubai` and `/online-personal-trainer-singapore`.
+- Native-speaker review of the ar, hi, es, zh, ja and gu versions of all seven posts, the blog index copy and `SOURCE_LABEL`.
+- Fonts: self-host, or load Devanagari only on Hindi pages, to cut a render-blocking request.
+
 ## 27 Oct 2026 (IST, late): real images from the cPanel zip, theme matched to the real logo
 
 ### Images
