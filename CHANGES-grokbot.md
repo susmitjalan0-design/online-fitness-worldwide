@@ -2,6 +2,62 @@
 
 Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 
+## 29 Oct 2026 (IST): /online-strength-and-conditioning-coach, travel bodyweight post, fonts per language
+
+### New landing page: `/online-strength-and-conditioning-coach`
+- `src/routes/online-strength-and-conditioning-coach.tsx`, ported from the prototype in `/workspace/jalanpt/site/online-strength-and-conditioning-coach`, same pattern as `/getting-back-into-exercise`. Title and description are the prototype's: "Online Strength and Conditioning Coach, Live 1:1 | Jalan PT". It targets "online strength and conditioning coach" and leads to Iron Hour: 60 minutes, 1:1, at home on Meet/Zoom/FaceTime, Hindi or English, IST.
+- Copy is the prototype's, with short lines. Sections: "Strength first", "The hour, minute by minute" (set-up 0, warm-up 4, primary 14, accessories 28, cool-down 50, as numbered logo-tile badges), "How Iron Hour runs", "Not the right fit?" (Return, Lean Reset, Open Floor, Consultation), FAQ (the prototype's 3 questions, plus form on video, cost with no price, and where to start), Read next, and the consultation card (30 minutes, not training). No prices, results or quotes. Credentials line (ASCA Level 1 and ACE; neither body endorses the business).
+- JSON-LD: Service (provider = the business), FAQPage (6 questions) and BreadcrumbList. English only (hreflang `en` + `x-default`).
+- Internal links in: the content-page footer ("Strength coaching"), the home footer ("Online strength and conditioning coach"), and the English coached card of the S&C beginners post, the one-dumbbell post and the new travel post (`programLink`). Links out: the S&C beginners, one-dumbbell, warm-up and cool-down posts, `/getting-back-into-exercise`, `/personal-trainer-for-fat-loss`, and Read next (which also picks up the travel post).
+
+### Blog
+- New post: **"Best bodyweight exercises for travel: 7 hotel-room moves and a sample week"** at `/blog/best-bodyweight-exercises-for-travel`. It targets "bodyweight exercises for travel" / "hotel room workout" and leads into Iron Hour (set-up 0, warm-up 4, primary 14, accessories 28, cool-down 50), coached in a hotel room on Meet/Zoom/FaceTime, on IST (Dubai 1½ hours behind, Singapore 2½ hours ahead). Return, Lean Reset, Open Floor and the Consultation are named.
+- Localised versions are at `/{ar,hi,es,zh,ja,gu}/blog/best-bodyweight-exercises-for-travel`. Arabic renders `lang="ar" dir="rtl"`. Each version has its own title, description and canonical, plus the full reciprocal hreflang set (7 languages and x-default). JSON-LD: Article (with image, citations and translation links), ItemList and BreadcrumbList, via the shared `postHead`.
+- The 7 items: rear-foot-elevated split squat (back foot on the bed), push-up (raised, then floor, then feet up), single-leg Romanian deadlift, backpack row, pike push-up, side plank, stair climbs or on-the-spot intervals.
+- "Is bodyweight enough? And how little keeps your gains?" covers: ACSM's 8–12 rep / 2–10% rule and changing the lever when there is no weight; light loads to failure gave similar muscle growth but heavy loads built more maximal strength (so bodyweight has a ceiling for top-end strength); and the Bickel maintenance trial, said with its age split (one-third or one-ninth of the training kept muscle size in 20–35-year-olds, not in 60–75-year-olds; strength largely held even with no training). Travel-day advice uses WHO's "replace sitting with activity of any intensity".
+- Content is in `src/content/blog/travel-bodyweight.ts` (export `travelBodyweightPost`). Sources, all real; title, journal, year, volume/pages and the finding checked against the Europe PMC record and abstract on 29 Oct 2026 (WHO's "2 or more days", "all major muscle groups" and "replacing sedentary time with physical activity of any intensity" checked in the Bull et al. 2020 full text, PMC7719906):
+  1. WHO guidelines on physical activity and sedentary behaviour (2020): https://www.who.int/publications/i/item/9789240015128
+  2. ACSM position stand, Progression models in resistance training for healthy adults, MSSE 2009;41(3):687–708: https://doi.org/10.1249/MSS.0b013e3181915670
+  3. Kikuchi & Nakazato, Low-load bench press and push-up induce similar muscle hypertrophy and strength gain, J Exerc Sci Fit 2017;15(1):37–42: https://doi.org/10.1016/j.jesf.2017.06.003 (18 young men, 9 per group, 8 weeks, twice weekly; push-ups adjusted to 40% 1RM load comparable to bench press at 40% 1RM). **Labelled as small.**
+  4. Calatayud et al., Bench press and push-up at comparable levels of muscle activity results in similar strength gains, J Strength Cond Res 2015;29(1):246–253: https://doi.org/10.1519/JSC.0000000000000589 (30 students with advanced training experience, 5 weeks, 6RM band push-up vs 6RM bench press; similar strength gains). **Labelled as small.**
+  5. Schoenfeld, Grgic, Ogborn & Krieger, low- vs high-load training, J Strength Cond Res 2017;31(12):3508–3523: https://doi.org/10.1519/JSC.0000000000002200 (21 studies).
+  6. Bickel, Cross & Bamman, Exercise dosing to retain resistance training adaptations in young and older adults, MSSE 2011;43(7):1177–1187: https://doi.org/10.1249/MSS.0b013e318207c15d (70 adults; 16 weeks at 3 days/week, then 32 weeks of detraining or one-third or one-ninth of the dose).
+  7. Jenkins et al., Do stair climbing exercise "snacks" improve cardiorespiratory fitness?, Appl Physiol Nutr Metab 2019;44(6):681–684: https://doi.org/10.1139/apnm-2018-0675 (sedentary young adults, 12 per group, 3 × 60 steps a day, 3 days/week, 6 weeks; peak VO2 up, modest). **Said to be modest.**
+  8. Riebe et al., ACSM preparticipation screening, MSSE 2015;47(11):2473–2479: https://doi.org/10.1249/MSS.0000000000000664
+- The sample travel week (A/B/A around a travel day) is labelled "Sample only. Not a prescription." No client results, no quotes, no prices. Credentials line (ASCA Level 1 and ACE; neither body endorses the business or the article). Safety note: ACSM screening; a chair without wheels against a wall; check the floor; hold the stair rail; anyone with a past blood clot or a doctor's warning about clots asks their doctor about long flights; stop for sharp pain; advice first with a joint problem, in pregnancy or after recently giving birth.
+- `src/content/blog/index.ts` lists eight posts, newest first. Blog index descriptions (all 7 languages, `BLOG_INDEX_COPY`) now lead with the travel post.
+- New routes: `src/routes/blog.best-bodyweight-exercises-for-travel.tsx` and `src/routes/$lang.blog.best-bodyweight-exercises-for-travel.tsx` (`/en/...` and unknown codes return 404). `src/routeTree.gen.ts` is the file the TanStack Router plugin generated during this run's build (not hand-edited).
+
+### Speed: fonts per language (open item since 22 Oct)
+- The root used to load Noto Sans Devanagari together with Outfit on every page, as one render-blocking Google Fonts stylesheet. Now the root loads Outfit only (`BASE_FONT_HREF` in the new `src/lib/fonts.ts`).
+- `seoHead` adds the script font for the page language only: Noto Sans Devanagari on `/hi/...`, Noto Sans Gujarati on `/gu/...`, Noto Sans Arabic on `/ar/...` (the Gujarati and Arabic pages used to fall back to system fonts, often without an 800 weight for headings). Google serves each family in unicode-range slices, so only the script's slices download.
+- Home page: Devanagari is no longer requested up front. `src/studio/region.tsx` loads it client-side (`loadScriptFont("hi")`) when the visitor switches the copy to Hindi, or on return visits with Hindi saved. Until it arrives, the Hindi text shows in the system Devanagari font (`display=swap`).
+- Chinese and Japanese keep the system CJK fonts (no multi-MB web font). English, Spanish, Chinese, Japanese pages and all landing pages now send one font stylesheet instead of the Outfit+Devanagari bundle. All four stylesheet URLs were checked to return 200.
+- Theme unchanged and still matched to the logo (ink #06070a, blue #0147d6 / #3d7bff). No orange added.
+
+### SEO: sitemap
+- `public/sitemap.xml`: 67 URLs. Home, the three landing pages, 7 blog indexes and 7 language URLs for each of the 8 posts, with reciprocal `xhtml:link` hreflang and x-default (landing pages list `en` + x-default). Home, indexes, landing pages and the new post `lastmod` 2026-10-29.
+
+### Programs (facts unchanged)
+- Iron Hour 60 min 1:1; Lean Reset 20 sessions/month 1:1; Return 45 min, 12 alternate-day sessions/month; Open Floor small group; Consultation 30 min, not training. No prices anywhere; booking holds a time, fee agreed directly.
+
+### Verified this run
+- Restored the binaries with `node scripts/restore-binaries.mjs` and built a copy of the branch with `vite build` and the local-only verify config (stub for the missing `src/lib/preview-host-bridge.ts`, no PWA plugin, Nitro `node-server` preset; not committed). The build passed (Node 20 on the box).
+- The built server returned 200 for all 67 sitemap URLs, including `/online-strength-and-conditioning-coach` and the new post in all 7 languages. It returned 404 for `/en/blog/best-bodyweight-exercises-for-travel`, `/xx/blog/best-bodyweight-exercises-for-travel` and `/en/blog`.
+- On all 67 sitemap URLs: one title, one canonical (matching the sitemap URL), every JSON-LD block parses, every post page has exactly 8 hreflang `<link>`s, no raw `{n}` markers, and Arabic pages render `<html lang="ar" dir="rtl">`. Font links checked in the HTML: `/` and English/es/zh/ja pages load Outfit only; `/hi/...` adds Devanagari, `/gu/...` Gujarati, `/ar/...` Arabic. The coach page links are present in the English S&C, one-dumbbell and travel posts and in both footers.
+- Headless Chrome screenshots at 390px of the landing page and the Arabic post: layout and RTL look right.
+- `tsc --noEmit`: the same 14 errors as before (all from the missing platform files). ESLint on the changed files: no new errors (the one error, `no-control-regex` in `src/studio/region.tsx`, was already there), only the existing fast-refresh warnings.
+- The real `npm run build` from a clean clone still fails, because the same platform files are missing.
+
+### Still open (needs Susmit)
+- Build blockers: `scripts/grok-pwa-shared.mjs`, `src/lib/preview-host-bridge.ts`, and the auth, app-data and multiplayer files are still missing.
+- `og.jpg` is the warm, copper-lit card and does not match the blue logo. A blue and near-black 1200×630 version at the same path needs no code change.
+- Home stats band ("3500+ live sessions conducted", "4–5 average sessions per day", "10+ countries with 90% consistency"): still unverified. Confirm or remove.
+- `clientNotes`: labelled as samples. Replace with real, consented quotes or delete them before any are shown.
+- Three prototype landing pages are still not ported: `/online-personal-trainer-india`, `/online-personal-trainer-dubai` and `/online-personal-trainer-singapore` (the travel post is a natural link for Dubai and Singapore).
+- Native-speaker review of the ar, hi, es, zh, ja and gu versions of all eight posts, the blog index copy and `SOURCE_LABEL`.
+- Fonts: Outfit is still a third-party, render-blocking Google Fonts request on every page. Self-hosting it (woff2 via `binary-parts/`, with `font-display: swap` and a preload) would remove the extra origin; not done because the font files would add another restore step to the build.
+
 ## 28 Oct 2026 (IST): og:image, /getting-back-into-exercise, one-dumbbell post, blue-logo clean-up
 
 ### SEO: social card
