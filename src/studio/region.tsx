@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useLayoutEffect, useMemo, useRef,
 import { translateCopy } from "@/lib/translate.functions";
 import { hindiOf } from "@/studio/hindi";
 import { slotStart } from "@/studio/time";
+import { loadScriptFont } from "@/lib/fonts";
 
 export const REGIONS = [
   { code: "IST", lang: "en-IN", label: "English (India)", short: "EN · IN", timeZone: "Asia/Kolkata", spell: "gb" },
@@ -114,6 +115,8 @@ export function RegionProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     document.documentElement.lang = script === "hi" ? "hi" : (region?.lang ?? "en");
+    // Devanagari is not loaded up front any more (src/lib/fonts.ts); fetch it when the copy turns Hindi.
+    if (script === "hi") loadScriptFont("hi");
   }, [region, script]);
 
   useEffect(() => {

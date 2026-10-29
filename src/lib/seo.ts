@@ -5,6 +5,9 @@
  * SITE_URL is the intended production domain. Change it here once and every
  * canonical, og:url, hreflang link and JSON-LD id follows.
  */
+
+import { scriptFontLinks } from "@/lib/fonts";
+
 export const SITE_URL = "https://onlinefitness.com";
 export const SITE_NAME = "Jalan PT";
 export const BRAND_ALT = "Online Fitness Worldwide";
@@ -87,6 +90,8 @@ export function seoHead(input: SeoInput) {
   for (const alt of input.alternates ?? []) {
     links.push({ rel: "alternate", hrefLang: alt.hrefLang, href: absoluteUrl(alt.path) });
   }
+  // Script font (Devanagari, Gujarati, Arabic) only on pages in that language.
+  links.push(...scriptFontLinks(input.lang));
 
   const scripts = (input.jsonLd ?? []).map((data) => ({
     type: "application/ld+json",

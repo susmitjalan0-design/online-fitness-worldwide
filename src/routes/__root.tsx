@@ -3,6 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 import { isPostLang, LANG_META } from "@/content/blog/shared";
+import { BASE_FONT_HREF } from "@/lib/fonts";
 
 // Fallbacks only. Every route sets its own title, description, canonical and JSON-LD (see src/lib/seo.ts).
 const APP_NAME = "Jalan PT · Online Fitness Worldwide";
@@ -30,10 +31,8 @@ export const Route = createRootRoute({
       { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;700;800&family=Outfit:wght@400;500;640;800&display=swap",
-      },
+      // Outfit only. Devanagari, Gujarati and Arabic load on their own language pages (src/lib/fonts.ts).
+      { rel: "stylesheet", href: BASE_FONT_HREF },
     ],
     scripts: [
       {
