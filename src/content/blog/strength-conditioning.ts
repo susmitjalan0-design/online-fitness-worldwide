@@ -795,4 +795,5 @@ export const strengthConditioningPost: BlogPost = {
   about: "Strength and conditioning exercises for beginners",
   sources: SC_SOURCES,
   copy: { en, ar, hi, es, zh, ja, gu },
+  programLink: { href: "/online-strength-and-conditioning-coach", label: "How Iron Hour works: online strength and conditioning, coached live" },
 };

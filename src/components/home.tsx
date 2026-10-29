@@ -901,6 +901,11 @@ export function HomePage() {
                 </a>
               </li>
               <li>
+                <a href="/online-strength-and-conditioning-coach" className="inline-flex min-h-11 items-center underline underline-offset-4">
+                  Online strength and conditioning coach
+                </a>
+              </li>
+              <li>
                 <a href="/blog" className="inline-flex min-h-11 items-center underline underline-offset-4">
                   All articles
                 </a>
