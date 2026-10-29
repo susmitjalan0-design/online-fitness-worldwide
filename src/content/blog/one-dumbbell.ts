@@ -780,4 +780,5 @@ export const oneDumbbellPost: BlogPost = {
   about: "Home workouts with one dumbbell",
   sources: DB_SOURCES,
   copy: { en, ar, hi, es, zh, ja, gu },
+  programLink: { href: "/online-strength-and-conditioning-coach", label: "How Iron Hour works: online strength and conditioning, coached live" },
 };
