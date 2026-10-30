@@ -11,6 +11,9 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as GettingBackIntoExerciseRouteImport } from './routes/getting-back-into-exercise'
+import { Route as OnlinePersonalTrainerDubaiRouteImport } from './routes/online-personal-trainer-dubai'
+import { Route as OnlinePersonalTrainerIndiaRouteImport } from './routes/online-personal-trainer-india'
+import { Route as OnlinePersonalTrainerSingaporeRouteImport } from './routes/online-personal-trainer-singapore'
 import { Route as OnlineStrengthAndConditioningCoachRouteImport } from './routes/online-strength-and-conditioning-coach'
 import { Route as PersonalTrainerForFatLossRouteImport } from './routes/personal-trainer-for-fat-loss'
 import { Route as BlogIndexRouteImport } from './routes/blog.index'
@@ -20,6 +23,7 @@ import { Route as BlogBestExercisesAfterALongBreakRouteImport } from './routes/b
 import { Route as BlogBestExercisesForDeskWorkersRouteImport } from './routes/blog.best-exercises-for-desk-workers'
 import { Route as BlogBestHomeWorkoutsWithOneDumbbellRouteImport } from './routes/blog.best-home-workouts-with-one-dumbbell'
 import { Route as BlogBestStrengthAndConditioningExercisesForBeginnersRouteImport } from './routes/blog.best-strength-and-conditioning-exercises-for-beginners'
+import { Route as BlogBestStrengthExercisesForRunnersRouteImport } from './routes/blog.best-strength-exercises-for-runners'
 import { Route as BlogBestStrengthExercisesForWomenOver40RouteImport } from './routes/blog.best-strength-exercises-for-women-over-40'
 import { Route as BlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport } from './routes/blog.best-warm-up-exercises-before-strength-training'
 import { Route as LangBlogIndexRouteImport } from './routes/$lang.blog.index'
@@ -29,6 +33,7 @@ import { Route as LangBlogBestExercisesAfterALongBreakRouteImport } from './rout
 import { Route as LangBlogBestExercisesForDeskWorkersRouteImport } from './routes/$lang.blog.best-exercises-for-desk-workers'
 import { Route as LangBlogBestHomeWorkoutsWithOneDumbbellRouteImport } from './routes/$lang.blog.best-home-workouts-with-one-dumbbell'
 import { Route as LangBlogBestStrengthAndConditioningExercisesForBeginnersRouteImport } from './routes/$lang.blog.best-strength-and-conditioning-exercises-for-beginners'
+import { Route as LangBlogBestStrengthExercisesForRunnersRouteImport } from './routes/$lang.blog.best-strength-exercises-for-runners'
 import { Route as LangBlogBestStrengthExercisesForWomenOver40RouteImport } from './routes/$lang.blog.best-strength-exercises-for-women-over-40'
 import { Route as LangBlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport } from './routes/$lang.blog.best-warm-up-exercises-before-strength-training'
 
@@ -42,6 +47,24 @@ const GettingBackIntoExerciseRoute = GettingBackIntoExerciseRouteImport.update({
   path: '/getting-back-into-exercise',
   getParentRoute: () => rootRouteImport,
 } as any)
+const OnlinePersonalTrainerDubaiRoute =
+  OnlinePersonalTrainerDubaiRouteImport.update({
+    id: '/online-personal-trainer-dubai',
+    path: '/online-personal-trainer-dubai',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlinePersonalTrainerIndiaRoute =
+  OnlinePersonalTrainerIndiaRouteImport.update({
+    id: '/online-personal-trainer-india',
+    path: '/online-personal-trainer-india',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const OnlinePersonalTrainerSingaporeRoute =
+  OnlinePersonalTrainerSingaporeRouteImport.update({
+    id: '/online-personal-trainer-singapore',
+    path: '/online-personal-trainer-singapore',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const OnlineStrengthAndConditioningCoachRoute =
   OnlineStrengthAndConditioningCoachRouteImport.update({
     id: '/online-strength-and-conditioning-coach',
@@ -93,6 +116,12 @@ const BlogBestStrengthAndConditioningExercisesForBeginnersRoute =
   BlogBestStrengthAndConditioningExercisesForBeginnersRouteImport.update({
     id: '/blog/best-strength-and-conditioning-exercises-for-beginners',
     path: '/blog/best-strength-and-conditioning-exercises-for-beginners',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogBestStrengthExercisesForRunnersRoute =
+  BlogBestStrengthExercisesForRunnersRouteImport.update({
+    id: '/blog/best-strength-exercises-for-runners',
+    path: '/blog/best-strength-exercises-for-runners',
     getParentRoute: () => rootRouteImport,
   } as any)
 const BlogBestStrengthExercisesForWomenOver40Route =
@@ -148,6 +177,12 @@ const LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute =
     path: '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners',
     getParentRoute: () => rootRouteImport,
   } as any)
+const LangBlogBestStrengthExercisesForRunnersRoute =
+  LangBlogBestStrengthExercisesForRunnersRouteImport.update({
+    id: '/$lang/blog/best-strength-exercises-for-runners',
+    path: '/$lang/blog/best-strength-exercises-for-runners',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const LangBlogBestStrengthExercisesForWomenOver40Route =
   LangBlogBestStrengthExercisesForWomenOver40RouteImport.update({
     id: '/$lang/blog/best-strength-exercises-for-women-over-40',
@@ -164,6 +199,9 @@ const LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute =
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/getting-back-into-exercise': typeof GettingBackIntoExerciseRoute
+  '/online-personal-trainer-dubai': typeof OnlinePersonalTrainerDubaiRoute
+  '/online-personal-trainer-india': typeof OnlinePersonalTrainerIndiaRoute
+  '/online-personal-trainer-singapore': typeof OnlinePersonalTrainerSingaporeRoute
   '/online-strength-and-conditioning-coach': typeof OnlineStrengthAndConditioningCoachRoute
   '/personal-trainer-for-fat-loss': typeof PersonalTrainerForFatLossRoute
   '/blog/best-bodyweight-exercises-for-travel': typeof BlogBestBodyweightExercisesForTravelRoute
@@ -172,6 +210,7 @@ export interface FileRoutesByFullPath {
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/blog/': typeof BlogIndexRoute
@@ -181,6 +220,7 @@ export interface FileRoutesByFullPath {
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/$lang/blog/': typeof LangBlogIndexRoute
@@ -188,6 +228,9 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/getting-back-into-exercise': typeof GettingBackIntoExerciseRoute
+  '/online-personal-trainer-dubai': typeof OnlinePersonalTrainerDubaiRoute
+  '/online-personal-trainer-india': typeof OnlinePersonalTrainerIndiaRoute
+  '/online-personal-trainer-singapore': typeof OnlinePersonalTrainerSingaporeRoute
   '/online-strength-and-conditioning-coach': typeof OnlineStrengthAndConditioningCoachRoute
   '/personal-trainer-for-fat-loss': typeof PersonalTrainerForFatLossRoute
   '/blog/best-bodyweight-exercises-for-travel': typeof BlogBestBodyweightExercisesForTravelRoute
@@ -196,6 +239,7 @@ export interface FileRoutesByTo {
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/blog': typeof BlogIndexRoute
@@ -205,6 +249,7 @@ export interface FileRoutesByTo {
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/$lang/blog': typeof LangBlogIndexRoute
@@ -213,6 +258,9 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/getting-back-into-exercise': typeof GettingBackIntoExerciseRoute
+  '/online-personal-trainer-dubai': typeof OnlinePersonalTrainerDubaiRoute
+  '/online-personal-trainer-india': typeof OnlinePersonalTrainerIndiaRoute
+  '/online-personal-trainer-singapore': typeof OnlinePersonalTrainerSingaporeRoute
   '/online-strength-and-conditioning-coach': typeof OnlineStrengthAndConditioningCoachRoute
   '/personal-trainer-for-fat-loss': typeof PersonalTrainerForFatLossRoute
   '/blog/best-bodyweight-exercises-for-travel': typeof BlogBestBodyweightExercisesForTravelRoute
@@ -221,6 +269,7 @@ export interface FileRoutesById {
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/blog/': typeof BlogIndexRoute
@@ -230,6 +279,7 @@ export interface FileRoutesById {
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/$lang/blog/': typeof LangBlogIndexRoute
@@ -239,6 +289,9 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/getting-back-into-exercise'
+    | '/online-personal-trainer-dubai'
+    | '/online-personal-trainer-india'
+    | '/online-personal-trainer-singapore'
     | '/online-strength-and-conditioning-coach'
     | '/personal-trainer-for-fat-loss'
     | '/blog/best-bodyweight-exercises-for-travel'
@@ -247,6 +300,7 @@ export interface FileRouteTypes {
     | '/blog/best-exercises-for-desk-workers'
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
     | '/blog/'
@@ -256,6 +310,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-exercises-for-desk-workers'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
     | '/$lang/blog/'
@@ -263,6 +318,9 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/getting-back-into-exercise'
+    | '/online-personal-trainer-dubai'
+    | '/online-personal-trainer-india'
+    | '/online-personal-trainer-singapore'
     | '/online-strength-and-conditioning-coach'
     | '/personal-trainer-for-fat-loss'
     | '/blog/best-bodyweight-exercises-for-travel'
@@ -271,6 +329,7 @@ export interface FileRouteTypes {
     | '/blog/best-exercises-for-desk-workers'
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
     | '/blog'
@@ -280,6 +339,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-exercises-for-desk-workers'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
     | '/$lang/blog'
@@ -287,6 +347,9 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/getting-back-into-exercise'
+    | '/online-personal-trainer-dubai'
+    | '/online-personal-trainer-india'
+    | '/online-personal-trainer-singapore'
     | '/online-strength-and-conditioning-coach'
     | '/personal-trainer-for-fat-loss'
     | '/blog/best-bodyweight-exercises-for-travel'
@@ -295,6 +358,7 @@ export interface FileRouteTypes {
     | '/blog/best-exercises-for-desk-workers'
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
     | '/blog/'
@@ -304,6 +368,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-exercises-for-desk-workers'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
     | '/$lang/blog/'
@@ -312,6 +377,9 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   GettingBackIntoExerciseRoute: typeof GettingBackIntoExerciseRoute
+  OnlinePersonalTrainerDubaiRoute: typeof OnlinePersonalTrainerDubaiRoute
+  OnlinePersonalTrainerIndiaRoute: typeof OnlinePersonalTrainerIndiaRoute
+  OnlinePersonalTrainerSingaporeRoute: typeof OnlinePersonalTrainerSingaporeRoute
   OnlineStrengthAndConditioningCoachRoute: typeof OnlineStrengthAndConditioningCoachRoute
   PersonalTrainerForFatLossRoute: typeof PersonalTrainerForFatLossRoute
   BlogBestBodyweightExercisesForTravelRoute: typeof BlogBestBodyweightExercisesForTravelRoute
@@ -320,6 +388,7 @@ export interface RootRouteChildren {
   BlogBestExercisesForDeskWorkersRoute: typeof BlogBestExercisesForDeskWorkersRoute
   BlogBestHomeWorkoutsWithOneDumbbellRoute: typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   BlogBestStrengthAndConditioningExercisesForBeginnersRoute: typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  BlogBestStrengthExercisesForRunnersRoute: typeof BlogBestStrengthExercisesForRunnersRoute
   BlogBestStrengthExercisesForWomenOver40Route: typeof BlogBestStrengthExercisesForWomenOver40Route
   BlogBestWarmUpExercisesBeforeStrengthTrainingRoute: typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   BlogIndexRoute: typeof BlogIndexRoute
@@ -329,6 +398,7 @@ export interface RootRouteChildren {
   LangBlogBestExercisesForDeskWorkersRoute: typeof LangBlogBestExercisesForDeskWorkersRoute
   LangBlogBestHomeWorkoutsWithOneDumbbellRoute: typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute: typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  LangBlogBestStrengthExercisesForRunnersRoute: typeof LangBlogBestStrengthExercisesForRunnersRoute
   LangBlogBestStrengthExercisesForWomenOver40Route: typeof LangBlogBestStrengthExercisesForWomenOver40Route
   LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute: typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   LangBlogIndexRoute: typeof LangBlogIndexRoute
@@ -348,6 +418,27 @@ declare module '@tanstack/react-router' {
       path: '/getting-back-into-exercise'
       fullPath: '/getting-back-into-exercise'
       preLoaderRoute: typeof GettingBackIntoExerciseRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-personal-trainer-dubai': {
+      id: '/online-personal-trainer-dubai'
+      path: '/online-personal-trainer-dubai'
+      fullPath: '/online-personal-trainer-dubai'
+      preLoaderRoute: typeof OnlinePersonalTrainerDubaiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-personal-trainer-india': {
+      id: '/online-personal-trainer-india'
+      path: '/online-personal-trainer-india'
+      fullPath: '/online-personal-trainer-india'
+      preLoaderRoute: typeof OnlinePersonalTrainerIndiaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-personal-trainer-singapore': {
+      id: '/online-personal-trainer-singapore'
+      path: '/online-personal-trainer-singapore'
+      fullPath: '/online-personal-trainer-singapore'
+      preLoaderRoute: typeof OnlinePersonalTrainerSingaporeRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/online-strength-and-conditioning-coach': {
@@ -413,6 +504,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogBestStrengthAndConditioningExercisesForBeginnersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/best-strength-exercises-for-runners': {
+      id: '/blog/best-strength-exercises-for-runners'
+      path: '/blog/best-strength-exercises-for-runners'
+      fullPath: '/blog/best-strength-exercises-for-runners'
+      preLoaderRoute: typeof BlogBestStrengthExercisesForRunnersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/best-strength-exercises-for-women-over-40': {
       id: '/blog/best-strength-exercises-for-women-over-40'
       path: '/blog/best-strength-exercises-for-women-over-40'
@@ -476,6 +574,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$lang/blog/best-strength-exercises-for-runners': {
+      id: '/$lang/blog/best-strength-exercises-for-runners'
+      path: '/$lang/blog/best-strength-exercises-for-runners'
+      fullPath: '/$lang/blog/best-strength-exercises-for-runners'
+      preLoaderRoute: typeof LangBlogBestStrengthExercisesForRunnersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/$lang/blog/best-strength-exercises-for-women-over-40': {
       id: '/$lang/blog/best-strength-exercises-for-women-over-40'
       path: '/$lang/blog/best-strength-exercises-for-women-over-40'
@@ -496,6 +601,9 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   GettingBackIntoExerciseRoute: GettingBackIntoExerciseRoute,
+  OnlinePersonalTrainerDubaiRoute: OnlinePersonalTrainerDubaiRoute,
+  OnlinePersonalTrainerIndiaRoute: OnlinePersonalTrainerIndiaRoute,
+  OnlinePersonalTrainerSingaporeRoute: OnlinePersonalTrainerSingaporeRoute,
   OnlineStrengthAndConditioningCoachRoute:
     OnlineStrengthAndConditioningCoachRoute,
   PersonalTrainerForFatLossRoute: PersonalTrainerForFatLossRoute,
@@ -509,6 +617,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogBestHomeWorkoutsWithOneDumbbellRoute,
   BlogBestStrengthAndConditioningExercisesForBeginnersRoute:
     BlogBestStrengthAndConditioningExercisesForBeginnersRoute,
+  BlogBestStrengthExercisesForRunnersRoute:
+    BlogBestStrengthExercisesForRunnersRoute,
   BlogBestStrengthExercisesForWomenOver40Route:
     BlogBestStrengthExercisesForWomenOver40Route,
   BlogBestWarmUpExercisesBeforeStrengthTrainingRoute:
@@ -526,6 +636,8 @@ const rootRouteChildren: RootRouteChildren = {
     LangBlogBestHomeWorkoutsWithOneDumbbellRoute,
   LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute:
     LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute,
+  LangBlogBestStrengthExercisesForRunnersRoute:
+    LangBlogBestStrengthExercisesForRunnersRoute,
   LangBlogBestStrengthExercisesForWomenOver40Route:
     LangBlogBestStrengthExercisesForWomenOver40Route,
   LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute:
