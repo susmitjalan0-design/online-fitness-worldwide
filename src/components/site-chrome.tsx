@@ -64,6 +64,15 @@ export function SiteFooter({ children }: { children?: ReactNode }) {
           <a href="/online-strength-and-conditioning-coach" className="inline-flex min-h-11 items-center text-bone underline-offset-4 hover:underline">
             Strength coaching
           </a>
+          <a href="/online-personal-trainer-india" className="inline-flex min-h-11 items-center text-bone underline-offset-4 hover:underline">
+            India
+          </a>
+          <a href="/online-personal-trainer-dubai" className="inline-flex min-h-11 items-center text-bone underline-offset-4 hover:underline">
+            Dubai
+          </a>
+          <a href="/online-personal-trainer-singapore" className="inline-flex min-h-11 items-center text-bone underline-offset-4 hover:underline">
+            Singapore
+          </a>
           <a href="/blog" className="inline-flex min-h-11 items-center text-bone underline-offset-4 hover:underline">
             Blog
           </a>

@@ -13,11 +13,11 @@ import {
   Flame,
   Globe,
   Languages,
+  Laptop,
   Layers,
   Menu,
   MessageSquare,
   PersonStanding,
-  Repeat,
   RotateCcw,
   Scale,
   Shield,
@@ -529,17 +529,17 @@ export function HomePage() {
                 <Video className="size-4 sm:size-5" aria-hidden="true" />
               </span>
               <div className="min-w-0">
-                <p className="font-display text-xl leading-none sm:text-2xl">3500+</p>
-                <p className="mt-1 text-xs leading-snug text-ink/80 sm:text-sm">live sessions conducted</p>
+                <p className="font-display text-xl leading-none sm:text-2xl">Live 1:1</p>
+                <p className="mt-1 text-xs leading-snug text-ink/80 sm:text-sm">Or a small group, on video.</p>
               </div>
             </li>
             <li className="flex min-w-0 items-center gap-2.5 border-t border-line pt-4 sm:gap-3 lg:border-t-0 lg:border-l lg:pt-0 lg:pr-6 lg:pl-6">
               <span className="grid size-9 shrink-0 place-items-center rounded-2xl border border-line sm:size-11">
-                <Repeat className="size-4 sm:size-5" aria-hidden="true" />
+                <Laptop className="size-4 sm:size-5" aria-hidden="true" />
               </span>
               <div className="min-w-0">
-                <p className="font-display text-xl leading-none sm:text-2xl">4–5</p>
-                <p className="mt-1 text-xs leading-snug text-ink/80 sm:text-sm">average sessions per day</p>
+                <p className="font-display text-xl leading-none sm:text-2xl">On video</p>
+                <p className="mt-1 text-xs leading-snug text-ink/80 sm:text-sm">Meet, Zoom or FaceTime.</p>
               </div>
             </li>
             <li className="flex min-w-0 items-center gap-2.5 border-t border-l border-line pt-4 pl-3 sm:gap-3 lg:border-t-0 lg:pt-0 lg:pl-6">
@@ -547,8 +547,8 @@ export function HomePage() {
                 <Globe className="size-4 sm:size-5" aria-hidden="true" />
               </span>
               <div className="min-w-0">
-                <p className="font-display text-xl leading-none sm:text-2xl">10+</p>
-                <p className="mt-1 text-xs leading-snug text-ink/80 sm:text-sm">countries with 90% consistency</p>
+                <p className="font-display text-xl leading-none sm:text-2xl">IST</p>
+                <p className="mt-1 text-xs leading-snug text-ink/80 sm:text-sm">From Pune. Hindi or English.</p>
               </div>
             </li>
           </ul>
@@ -903,6 +903,21 @@ export function HomePage() {
               <li>
                 <a href="/online-strength-and-conditioning-coach" className="inline-flex min-h-11 items-center underline underline-offset-4">
                   Online strength and conditioning coach
+                </a>
+              </li>
+              <li>
+                <a href="/online-personal-trainer-india" className="inline-flex min-h-11 items-center underline underline-offset-4">
+                  Online personal trainer in India
+                </a>
+              </li>
+              <li>
+                <a href="/online-personal-trainer-dubai" className="inline-flex min-h-11 items-center underline underline-offset-4">
+                  Online personal trainer in Dubai
+                </a>
+              </li>
+              <li>
+                <a href="/online-personal-trainer-singapore" className="inline-flex min-h-11 items-center underline underline-offset-4">
+                  Online personal trainer in Singapore
                 </a>
               </li>
               <li>
