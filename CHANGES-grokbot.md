@@ -2,6 +2,79 @@
 
 Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 
+## 30 Oct 2026 (IST), batch 9: India, Dubai and Singapore pages, runners post, home stats band
+
+### New landing pages: `/online-personal-trainer-india`, `/online-personal-trainer-dubai`, `/online-personal-trainer-singapore`
+- Ported from the prototypes in `/workspace/jalanpt/site/online-personal-trainer-*`. Titles and descriptions are the prototype's, for example "Online Personal Trainer in Dubai, Live 1:1 at Home | Jalan PT".
+- The three pages share one component, `src/components/country-landing.tsx` (`CountryLandingPage` + `countryHead`). Copy and facts live in `src/content/country-pages.ts`. Each route file (`src/routes/online-personal-trainer-{india,dubai,singapore}.tsx`) is 9 lines.
+- Sections: breadcrumb, eyebrow, one h1 and short lead lines; "Same clock" (India) or "The clock" (Dubai and Singapore); "A coach on the call"; "Pick a program" (cards link to the Iron Hour, Lean Reset and Return pages; Open Floor goes to `/#programs`); FAQ; Read next; "Also coaching" (links to the other two country pages); the consultation card (30 minutes, not training); and the credentials line (neither body endorses the business).
+- Time zones: Dubai is 1½ hours behind IST and Singapore is 2½ hours ahead. Neither place uses daylight saving. The example-conversion table from the prototype is now a real `<table>` with a `<caption>` ("Example conversions only. Not set slots") and `<th scope="col">` headers. All 10 rows were checked: IST is UTC+5:30, GST UTC+4, SGT UTC+8.
+- Singapore leads with Lean Reset. India and Dubai lead with Iron Hour (the prototype's order). Read next leads with the desk-workers and one-dumbbell posts (India), or with the travel post (Dubai, Singapore).
+- FAQ: the prototype's questions, plus "What do I need at home?", "Where do I start?" and, for Dubai, "I travel a lot". The cost answer gives no price: booking holds a time and the fee is agreed directly. No results, numbers or quotes.
+- JSON-LD on each page: Service (provider = the business; `areaServed` is Country India, City Dubai in the UAE, or Country Singapore), FAQPage (6 questions) and BreadcrumbList. English only (hreflang `en` + `x-default`).
+- Internal links in: the content-page footer (India, Dubai, Singapore) and the home footer ("Online personal trainer in …").
+
+### Home stats band: unverified numbers removed
+- Removed "3500+ live sessions conducted", "4–5 average sessions per day" and "10+ countries with 90% consistency". None of them had a source, and they had been flagged since 22 Oct.
+- The band now states only facts from the brief: "Mon–Sat · Morning, midday, evening." (unchanged), "Live 1:1 · Or a small group, on video.", "On video · Meet, Zoom or FaceTime." and "IST · From Pune. Hindi or English."
+- Hindi strings were added to `src/studio/hindi.ts` and the three old ones removed. The third icon is now `Laptop` instead of `Repeat`.
+- **If the old numbers are real and you can back them up, they can go back.** It's one commit to revert, in `src/components/home.tsx` and `src/studio/hindi.ts`.
+
+### Blog
+- New post: **"Best strength exercises for runners: 7 moves and a sample week"** at `/blog/best-strength-exercises-for-runners`. It targets "strength exercises for runners" / "strength training for runners" and leads into Iron Hour (set-up 0, warm-up 4, primary 14, accessories 28, cool-down 50). It also names Return, Lean Reset, Open Floor and the Consultation. The English coached card links to `/online-strength-and-conditioning-coach` (`programLink`).
+- Localised versions are at `/{ar,hi,es,zh,ja,gu}/blog/best-strength-exercises-for-runners`. Arabic renders `lang="ar" dir="rtl"`. Each version has its own title, description and canonical, plus the full reciprocal hreflang set (7 languages and x-default). JSON-LD comes from the shared `postHead`: Article, ItemList and BreadcrumbList.
+- The 7 items: squat (goblet, then barbell), Romanian deadlift, rear-foot-elevated split squat, single-leg calf raise (straight and bent knee), single-leg glute bridge, side plank, and pogo hops and skips.
+- The section "How often, how heavy, and will it slow me down?" covers:
+  - 2–3 sessions a week (Blagrove).
+  - ACSM's 8–12 rep / 2–10% rule, and building up to the heavier sets of 4 used in the squat trial.
+  - No bulking: body composition was unharmed in the review, and there was no change in body or lean mass over 40 weeks (Beattie).
+  - Injuries are "promising, not promised". Lauersen found strength training cut sports injuries to under a third across many sports, not only runners. The Toresdahl 2020 RCT in 720 first-time marathoners found that a self-guided 10-minute routine did not reduce injuries that stopped people finishing (7.1% vs 7.3%). That null result is reported plainly.
+- Content is in `src/content/blog/runners-strength.ts` (export `runnersStrengthPost`). All 10 sources are real. Title, authors, journal, year, volume/pages and the finding used were checked against each Europe PMC record and abstract on 30 Oct 2026, and each DOI was confirmed as registered at doi.org (WHO page returns 200):
+  1. WHO guidelines on physical activity and sedentary behaviour (2020): https://www.who.int/publications/i/item/9789240015128
+  2. ACSM position stand, Progression models in resistance training for healthy adults, MSSE 2009;41(3):687–708: https://doi.org/10.1249/MSS.0b013e3181915670
+  3. Blagrove, Howatson & Hayes, Strength training and the physiological determinants of middle- and long-distance running: systematic review, Sports Med 2018;48(5):1117–1149: https://doi.org/10.1007/s40279-017-0835-7 (24 studies; running economy generally 2–8% better; 1.5–10 km time trials tended to improve; "not a consistent finding"; body composition not negatively affected; 2–3 sessions/week suggested).
+  4. Balsalobre-Fernández, Santos-Concejero & Grivas, Strength training and running economy in highly trained runners: meta-analysis, J Strength Cond Res 2016;30(8):2361–2368: https://doi.org/10.1519/JSC.0000000000001316 (5 studies, 93 runners; 2–4 lower-body lifts plus up to 200 jumps and 5–10 short sprints, 2–3×/week for 8–12 weeks; large effect).
+  5. Støren, Helgerud, Støa & Hoff, Maximal strength training improves running economy in distance runners, MSSE 2008;40(6):1087–1092: https://doi.org/10.1249/MSS.0b013e318168da2f (17 well-trained runners; half-squats 4×4RM, 3×/week, 8 weeks; running economy +5.0%, time to exhaustion at maximal aerobic speed +21.3%; no change in VO2max or body weight). **Labelled as small.**
+  6. Beattie, Carson, Lyons, Rossiter & Kenny, Strength training and performance indicators in distance runners, J Strength Cond Res 2017;31(1):9–23: https://doi.org/10.1519/JSC.0000000000001464 (20 competitive runners, 40 weeks; stronger and more economical; no change in body composition).
+  7. Lauersen, Bertelsen & Andersen, Exercise interventions to prevent sports injuries: meta-analysis of RCTs, Br J Sports Med 2014;48(11):871–877: https://doi.org/10.1136/bjsports-2013-092538 (25 trials, 26,610 participants; strength training RR 0.315, stretching no effect). **Said to be across sports, not only runners.**
+  8. Toresdahl et al., Strength training program to prevent injuries in runners of the New York City Marathon: randomized study, Sports Health 2020;12(1):74–79: https://doi.org/10.1177/1941738119877180 (720 first-time marathoners; 10-minute self-guided program 3×/week; overuse injury causing non-completion 7.1% vs 7.3%, RR 0.97; 20 of 52 overuse major injuries were bone stress injuries).
+  9. Toresdahl et al., Strength and flexibility self-assessment and subsequent training injuries among NYC Marathon runners, Clin J Sport Med 2025;35(4):471–477: https://doi.org/10.1097/JSM.0000000000001370 (867 runners; holding a single-leg glute bridge on the weaker side for 20–29 s or ≥30 s was linked to lower overuse-injury risk than 0–9 s). **Labelled as observational and self-reported: a link, not a cause.**
+  10. Riebe et al., ACSM preparticipation screening, MSSE 2015;47(11):2473–2479: https://doi.org/10.1249/MSS.0000000000000664
+- The sample running week (quality runs on Tuesday and Friday, with strength A and B on those same days) is labelled "Sample only. Not a prescription." The coaching line "Lift on hard days, so easy days stay easy" is given as advice, not as a research finding.
+- No client results, quotes or prices. The post carries the credentials line (ASCA Level 1 and ACE; neither body endorses the business or the article).
+- Safety note: ACSM screening; don't ramp up lifting and running in the same weeks; get shin, foot or hip pain that worsens with running checked (bone stress injuries were a common reason for not finishing in source 8); stop for sharp pain; get advice first with a joint problem, in pregnancy or after recently giving birth.
+- `src/content/blog/index.ts` lists nine posts, newest first. The blog index descriptions (`BLOG_INDEX_COPY`, all 7 languages) now lead with the runners post. The home footer's "From the blog" shows the two newest posts (runners, travel). Read next on `/online-strength-and-conditioning-coach` picks the runners post up automatically.
+- New routes: `src/routes/blog.best-strength-exercises-for-runners.tsx` and `src/routes/$lang.blog.best-strength-exercises-for-runners.tsx` (`/en/...` and unknown codes return 404). `src/routeTree.gen.ts` is the file the TanStack Router plugin generated during this run's build (not hand-edited).
+
+### SEO: sitemap
+- `public/sitemap.xml`: 77 URLs. That is home, six landing pages, 7 blog indexes, and 7 language URLs for each of the 9 posts, with reciprocal `xhtml:link` hreflang and x-default (landing pages list `en` + x-default). `lastmod` is 2026-10-30 for home, the blog indexes, the three new pages and the new post.
+
+### Programs (facts unchanged)
+- Iron Hour 60 min 1:1; Lean Reset 20 sessions/month 1:1; Return 45 min, 12 alternate-day sessions/month; Open Floor small group; Consultation 30 min, not training. No prices anywhere; booking holds a time, fee agreed directly.
+
+### Verified this run
+- Built a copy of the branch, with the binaries restored, using `vite build` and the local-only verify config: a stub for the missing `src/lib/preview-host-bridge.ts`, no PWA plugin, and the Nitro `node-server` preset (not committed). The build passed (Node 20 on the box).
+- The built server returned 200 for all 77 sitemap URLs. It returned 404 for `/en/blog/best-strength-exercises-for-runners`, `/xx/blog/best-strength-exercises-for-runners` and `/online-personal-trainer-uk`.
+- On all 77 URLs:
+  - one title, one h1 and one canonical (matching the sitemap URL);
+  - every JSON-LD block parses;
+  - every post page has exactly 8 hreflang `<link>`s;
+  - no raw `{n}` markers;
+  - Arabic pages render `dir="rtl"`.
+- The home page no longer contains "3500" or "countries with". The three country links are in the home footer.
+- Headless Chrome screenshots: the Dubai page at 390px (the table fits, no horizontal scroll), the Arabic runners post at 390px (RTL correct, citation links render), and the home page at 1280px (new stats band).
+- `tsc --noEmit`: the same 14 errors as before, all from the missing platform files. ESLint on the changed files: no errors, and one fast-refresh warning in `country-landing.tsx` (same kind as `blog-post.tsx`).
+- The real `npm run build` from a clean clone still fails, because the same platform files are missing.
+
+### Still open (needs Susmit)
+- Build blockers: `scripts/grok-pwa-shared.mjs`, `src/lib/preview-host-bridge.ts`, and the auth, app-data and multiplayer files are still missing.
+- `og.jpg` is the warm, copper-lit card and does not match the blue logo. A blue and near-black 1200×630 version at the same path needs no code change.
+- Home stats: the unverified numbers are gone (see above). Restore them only with a source.
+- `clientNotes`: labelled as samples. Replace them with real, consented quotes or delete them before any are shown.
+- Native-speaker review of the ar, hi, es, zh, ja and gu versions of all nine posts, the blog index copy and `SOURCE_LABEL`. One specific item: older Arabic posts give Return's "alternate days" as "يوماً بعد يوم", which can read as "day after day". The runners post uses "بالتناوب: يوم تمرين ويوم راحة". The 7 older strings should be checked.
+- Fonts: Outfit is still a third-party, render-blocking Google Fonts request on every page (self-hosting not done this batch).
+- The country pages are English only. Hindi versions of the India page (and Arabic for Dubai) would be the next step, if wanted.
+
 ## 29 Oct 2026 (IST): /online-strength-and-conditioning-coach, travel bodyweight post, fonts per language
 
 ### New landing page: `/online-strength-and-conditioning-coach`
@@ -435,13 +508,13 @@ Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 ## Please check (facts I did not change)
 - `src/studio/content.ts` has `clientNotes`: eight named first-person quotes that read like testimonials. They are not rendered anywhere today. Delete them, or confirm they are real and have consent. (Labelled as samples 25 Oct.)
 - ~~The Iron Hour card says "20 sessions a month".~~ Fixed 23 Oct.
-- The home stats band claims "3500+ live sessions", "4–5 average sessions per day" and "10+ countries with 90% consistency". Confirm these are accurate.
+- ~~The home stats band claims "3500+ live sessions", "4–5 average sessions per day" and "10+ countries with 90% consistency".~~ Removed 30 Oct (unsourced); restore only with a source.
 - ~~Return is not a program card or a booking option yet.~~ Added 23 Oct.
 
 ## Suggested next steps
 1. Restore the missing platform files and images so `npm run build` works from a clean clone.
 2. Add a 1200×630 `og.jpg` and set `og:image` and `twitter:card=summary_large_image` in `seoHead`.
-3. Port the prototype landing pages from `/workspace/jalanpt/site` as routes: ~~`/personal-trainer-for-fat-loss`~~ (done 25 Oct, from the brief), `/getting-back-into-exercise`, `/online-strength-and-conditioning-coach`, `/online-personal-trainer-india`, `/online-personal-trainer-dubai`, `/online-personal-trainer-singapore`. Add them to the sitemap.
+3. ~~Port the prototype landing pages from `/workspace/jalanpt/site` as routes~~: all six done (`/personal-trainer-for-fat-loss` 25 Oct, `/getting-back-into-exercise` 28 Oct, `/online-strength-and-conditioning-coach` 29 Oct, India/Dubai/Singapore 30 Oct), all in the sitemap.
 4. ~~Add Return as a program card and a booking option.~~ Done 23 Oct.
 5. Get a native speaker to review the ar, hi, es, zh, ja and gu translations before launch.
 6. Point DNS for onlinefitness.com at the host before shipping canonicals. Earlier notes say GoDaddy NS had lame delegation.
