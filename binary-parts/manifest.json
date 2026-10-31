@@ -86,6 +86,12 @@
     ]
   },
   {
+    "out": "public/og-card.jpg",
+    "parts": [
+      "binary-parts/parts/public__og-card.jpg.000"
+    ]
+  },
+  {
     "out": "public/__grok/icon-180.png",
     "parts": [
       "binary-parts/parts/public____grok__icon-180.png.000"

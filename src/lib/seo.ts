@@ -18,15 +18,18 @@ export const COACH_ID = `${SITE_URL}/#coach`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
 
 /**
- * Shared social card: public/og.jpg (1200×630 JPEG, checked 28 Oct 2026).
+ * Shared social card: public/og-card.jpg (1200×630 JPEG, made 31 Oct 2026 from
+ * the real logo, src/assets/ofw-logo.png, on the site's bone and ink with the
+ * logo blue). Restored from binary-parts like the other images. The older
+ * copper-lit public/og.jpg is still in the repo but no longer referenced.
  * Absolute URL on the canonical domain, as Open Graph and X require.
  */
 export const OG_IMAGE = {
-  url: `${SITE_URL}/og.jpg`,
+  url: `${SITE_URL}/og-card.jpg`,
   width: 1200,
   height: 630,
   type: "image/jpeg",
-  alt: "JALAN Personal Training wordmark on a dark wall, with a lamp and a kettlebell.",
+  alt: "Online Fitness Worldwide logo above the line \"Live 1:1 and small-group coaching on video\", with Jalan PT, Google Meet, Zoom, FaceTime, Pune, IST, Hindi or English.",
 } as const;
 
 /** The same image as a schema.org ImageObject, for Article and other JSON-LD. */
@@ -119,6 +122,7 @@ export const coachLd = {
   "@type": "Person",
   "@id": COACH_ID,
   name: COACH_NAME,
+  url: `${SITE_URL}/`,
   jobTitle: "Online strength and conditioning coach",
   worksFor: { "@id": BUSINESS_ID },
   knowsLanguage: ["en", "hi"],

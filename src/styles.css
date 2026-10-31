@@ -137,6 +137,12 @@
     flex-shrink: 0;
     border-radius: 0;
     background: var(--color-copper-2);
+    /* Angled end, like the blue diagonal stroke of the W in the logo. Mirrors in RTL. */
+    clip-path: polygon(0 0, 100% 0, calc(100% - 4px) 100%, 0 100%);
+  }
+
+  [dir="rtl"] .eyebrow::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 4px 100%);
   }
 
   /*
@@ -171,6 +177,10 @@
     width: 3.5rem;
     height: 6px;
     background: var(--color-copper-2);
+    clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+  }
+  [dir="rtl"] .mark-cap::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 6px 100%);
   }
   @media (min-width: 640px) {
     .mark-cap::before {
