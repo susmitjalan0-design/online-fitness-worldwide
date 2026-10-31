@@ -2,6 +2,71 @@
 
 Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 
+## 31 Oct 2026 (IST), batch 10: over-60s strength post, blue social card, Arabic "alternate days" fix
+
+### Blog
+- New post: **"Best strength exercises for over 60s: 7 moves and a sample week"** at `/blog/best-strength-exercises-for-over-60s`. It targets "strength exercises for over 60s" / "strength training for seniors". It leads into Return (45 minutes, 12 alternate-day sessions a month), and the English coached card links to `/getting-back-into-exercise` (`programLink`). It also names Iron Hour (set-up 0, warm-up 4, primary 14, accessories 28, cool-down 50), Lean Reset, Open Floor and the Consultation.
+- Localised versions are at `/{ar,hi,es,zh,ja,gu}/blog/best-strength-exercises-for-over-60s`. Arabic renders `lang="ar" dir="rtl"`. Each version has its own title, description and canonical, plus the full reciprocal hreflang set (7 languages and x-default). JSON-LD comes from the shared `postHead`: Article, ItemList and BreadcrumbList.
+- The 7 items: sit-to-stand from a chair, step-up on the bottom stair, hip hinge with dumbbells or a bag, push-up (wall, then counter, then a low step), one-arm row, carry, and balance (feet together, heel-to-toe, one leg) at the kitchen counter.
+- The section "How often, how heavy, and is it too late?" covers:
+  - 2–3 strength sessions a week (most of the 121 Cochrane trials), plus balance to reach WHO's 3 or more days.
+  - ACSM's 8–12 rep / 2–10% rule, and no breath-holding.
+  - Not too late: strength and muscle size went up in trials of people 75 and over, and strength even in those 80 and over (Grgic).
+  - "Stand up fast, sit down slow": power training was linked to a modest extra gain in function. **Labelled as low-certainty evidence.**
+  - Some joint pain and muscle soreness is common at the start; serious problems were rare in the Cochrane review.
+- Falls are said carefully: balance and functional exercises cut the rate of falls by 24%; adding strength work probably cut it by 34%; **strength training alone had an uncertain effect on falls**, so the post does both.
+- Content is in `src/content/blog/over-60-strength.ts` (export `over60StrengthPost`). All 9 sources are real. Title, authors, journal, year, volume/pages and the finding used were checked against each Europe PMC record and abstract on 31 Oct 2026, and each DOI was confirmed as registered at doi.org (WHO page returns 200). WHO's older-adult wording was checked in the Bull et al. 2020 full text (PMC7719906).
+  1. WHO guidelines on physical activity and sedentary behaviour (2020): https://www.who.int/publications/i/item/9789240015128 (adults 65+: "varied multicomponent physical activity that emphasises functional balance and strength training at moderate or greater intensity on 3 or more days a week, to enhance functional capacity and to prevent falls").
+  2. ACSM position stand, Progression models in resistance training for healthy adults, MSSE 2009;41(3):687–708: https://doi.org/10.1249/MSS.0b013e3181915670
+  3. Liu & Latham, Progressive resistance strength training for improving physical function in older adults, Cochrane 2009;(3):CD002759: https://doi.org/10.1002/14651858.CD002759.pub2 (121 trials, 6,700 participants; mostly 2–3×/week at high intensity; large effect on strength; moderate-to-large for getting out of a chair; modest for gait speed; serious adverse events rare, none reported as directly caused by the exercise).
+  4. Sherrington et al., Exercise for preventing falls in older people living in the community, Cochrane 2019;1:CD012424: https://doi.org/10.1002/14651858.CD012424.pub2 (108 RCTs, 23,407 participants, average age 76; balance and functional exercises RaR 0.76; multiple types probably RaR 0.66; resistance alone uncertain).
+  5. Grgic et al., Resistance training on muscle size and strength in very elderly adults, Sports Med 2020;50(11):1983–1999: https://doi.org/10.1007/s40279-020-01331-7 (22 studies, 75+; strength and whole-muscle size up; 80+ subgroup strength up).
+  6. Fiatarone et al., Exercise training and nutritional supplementation for physical frailty in very elderly people, NEJM 1994;330(25):1769–1775: https://doi.org/10.1056/NEJM199406233302501 (100 frail nursing-home residents, mean age 87.1, 10 weeks; strength +113%, gait velocity +11.8%, stair-climbing power +28.4%). **Labelled as one small trial in very old, frail people.**
+  7. Balachandran et al., Power training vs traditional strength training on physical function in older adults, JAMA Netw Open 2022;5(5):e2211623: https://doi.org/10.1001/jamanetworkopen.2022.11623 (20 RCTs, 566 adults, mean age 70.1; SMD 0.30, low certainty).
+  8. Guralnik et al., A short physical performance battery assessing lower extremity function, J Gerontol 1994;49(2):M85–M94: https://doi.org/10.1093/geronj/49.2.M85 (more than 5,000 people aged 71+; balance, 8-foot walk, 5 chair rises; strongly associated with disability; predicted short-term mortality and nursing-home admission). **Labelled as a link, not a cause.**
+  9. Riebe et al., ACSM preparticipation screening, MSSE 2015;47(11):2473–2479: https://doi.org/10.1249/MSS.0000000000000664
+- The sample week (Strength A Monday and Friday, B Wednesday, walks between, balance every day) is labelled "Sample only. Not a prescription." No client results, quotes or prices. Credentials line (ASCA Level 1 and ACE; neither body endorses the business or the article).
+- Safety note: ACSM screening; a sturdy chair against a wall, a counter or rail within reach, clear floor, good light, shoes with grip; breathe out as you lift; with osteoporosis, a joint replacement or a recent fall, ask a doctor or physiotherapist first; stop for chest pain, dizziness or sharp pain.
+- The English title and h1 say "over 60s" (no hyphen, with a non-breaking space in the h1) so the heading doesn't break as "over-/60s" on phones. The slug keeps the hyphen.
+- `src/content/blog/index.ts` lists ten posts, newest first. `BLOG_INDEX_COPY` descriptions lead with the new post in all 7 languages. The home footer's "From the blog" shows the two newest posts (over 60s, runners).
+- New routes: `src/routes/blog.best-strength-exercises-for-over-60s.tsx` and `src/routes/$lang.blog.best-strength-exercises-for-over-60s.tsx` (`/en/...` and unknown codes return 404). `src/routeTree.gen.ts` is the file the TanStack Router plugin generated during this run's build (not hand-edited).
+
+### Internal links
+- `/getting-back-into-exercise`: new line in "How Return runs" ("Over 60? Read the 7 best strength exercises for over 60s"). Read next now leads with the long-break post, then the over-60s post, then the two newest others. New FAQ "I'm over 60. Is it too late?" (no numbers, no promise; medical clearance with a heart, metabolic or kidney condition or symptoms). FAQPage JSON-LD now has 7 questions.
+- The India, Dubai and Singapore pages and `/online-strength-and-conditioning-coach` pick the new post up in Read next automatically (newest first). `/personal-trainer-for-fat-loss` lists every post.
+
+### Translation fix: Arabic "alternate days" (open since batch 9)
+- The 8 older posts gave Return's "alternate days" as "يوماً بعد يوم", which can read as "day after day". All 8 now use the runners post's wording, "بالتناوب: يوم تمرين ويوم راحة" (alternating: a training day and a rest day): desk workers, long break, women over 40, warm-up, S&C beginners, cool-down, one dumbbell, travel. No other strings changed. Post `modified` dates were left as they were (one Arabic phrase).
+
+### SEO and theme: social card matched to the logo
+- New `public/og-card.jpg` (1200×630 JPEG, 56 KB): the real logo (`src/assets/ofw-logo.png`) on the site's bone background, "Live 1:1 and small-group coaching on video" in Outfit, and an ink band with a logo-blue rule: "Jalan PT", "Google Meet · Zoom · FaceTime", "Pune · IST", "Hindi or English". No prices, numbers or claims.
+- It ships like the other images: base64 in `binary-parts/parts/public__og-card.jpg.000`, listed in `binary-parts/manifest.json`, restored by `node scripts/restore-binaries.mjs`. The binary itself is not committed.
+- `OG_IMAGE` in `src/lib/seo.ts` now points at `/og-card.jpg`, with new alt text. That covers og:image, twitter:image and the Article `image` on every page. The old copper `public/og.jpg` is untouched and no longer referenced. **If you'd rather keep the old card, or have a designed one, change the one URL in `OG_IMAGE`.**
+- Structured data: the coach `Person` (Article `author` on every post) now has a `url`, as Google's article guidance recommends.
+- Theme: the eyebrow bar and the CTA-card crossbar (`.mark-cap`) now have an angled end, echoing the blue diagonal of the W in the logo. Both mirror in RTL. Colours unchanged (ink #06070a, blue #0147d6 / #3d7bff). No orange.
+
+### SEO: sitemap
+- `public/sitemap.xml`: 84 URLs. That is home, six landing pages (three of them the country pages), 7 blog indexes, and 7 language URLs for each of the 10 posts, with reciprocal `xhtml:link` hreflang and x-default (landing pages list `en` + x-default). `lastmod` 2026-10-31 for home, `/getting-back-into-exercise`, the 7 blog indexes and the new post.
+
+### Programs (facts unchanged)
+- Iron Hour 60 min 1:1; Lean Reset 20 sessions/month 1:1; Return 45 min, 12 alternate-day sessions/month; Open Floor small group; Consultation 30 min, not training. No prices anywhere; booking holds a time, fee agreed directly.
+
+### Verified this run
+- Restored the binaries with `node scripts/restore-binaries.mjs` (including the new `og-card.jpg`, byte-identical to the source) and built a copy of the branch with `vite build` and the local-only verify config (stub for the missing `src/lib/preview-host-bridge.ts`, no PWA plugin, Nitro `node-server` preset; not committed). The build passed (Node 20 on the box).
+- The built server returned 200 for all 84 sitemap URLs, and 404 for `/en/blog/best-strength-exercises-for-over-60s` and `/xx/blog/best-strength-exercises-for-over-60s`. `/og-card.jpg` returned 200 as `image/jpeg`.
+- On all 84 sitemap URLs: one title, one h1, one canonical (matching the sitemap URL), every JSON-LD block parses, og:image is `og-card.jpg`, every post page has exactly 8 hreflang `<link>`s, no raw `{n}` markers, and Arabic pages render `dir="rtl"`. New post: headings go h1 → h2 → h3 with no skips; citation links 1–9 all have a matching `#source-n`; no `<img>` without alt. No page contains "يوماً بعد يوم".
+- Headless Chrome screenshots: the English post at 390px (h1 keeps "over 60s" together), the Arabic post at 390px (RTL, angled eyebrow bar mirrored), and `/getting-back-into-exercise` at 1280px (new link, FAQ and Read next).
+- `tsc --noEmit`: the same 14 errors as before, all from the missing platform files. ESLint on the changed files: no errors.
+- The real `npm run build` from a clean clone still fails, because the same platform files are missing.
+
+### Still open (needs Susmit)
+- Build blockers: `scripts/grok-pwa-shared.mjs`, `src/lib/preview-host-bridge.ts`, and the auth, app-data and multiplayer files are still missing.
+- Social card: `og-card.jpg` is a clean, logo-based card made on the box. It replaces the copper `og.jpg` in the tags. Swap in a designed version at the same path if you have one.
+- `clientNotes`: labelled as samples. Replace them with real, consented quotes or delete them before any are shown.
+- Native-speaker review of the ar, hi, es, zh, ja and gu versions of all ten posts, the blog index copy and `SOURCE_LABEL`. The Arabic "alternate days" wording is now the same in every post, but still needs a native check.
+- Fonts: Outfit is still a third-party, render-blocking Google Fonts request on every page. Self-hosting needs a woff2 file in the repo (through binary-parts, like the images); not done this batch.
+- The country pages are English only. Hindi versions of the India page (and Arabic for Dubai) would be the next step, if wanted.
+
 ## 30 Oct 2026 (IST), batch 9: India, Dubai and Singapore pages, runners post, home stats band
 
 ### New landing pages: `/online-personal-trainer-india`, `/online-personal-trainer-dubai`, `/online-personal-trainer-singapore`
