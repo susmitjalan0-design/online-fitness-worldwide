@@ -23,6 +23,7 @@ import { Route as BlogBestExercisesAfterALongBreakRouteImport } from './routes/b
 import { Route as BlogBestExercisesForDeskWorkersRouteImport } from './routes/blog.best-exercises-for-desk-workers'
 import { Route as BlogBestHomeWorkoutsWithOneDumbbellRouteImport } from './routes/blog.best-home-workouts-with-one-dumbbell'
 import { Route as BlogBestStrengthAndConditioningExercisesForBeginnersRouteImport } from './routes/blog.best-strength-and-conditioning-exercises-for-beginners'
+import { Route as BlogBestStrengthExercisesForOver60sRouteImport } from './routes/blog.best-strength-exercises-for-over-60s'
 import { Route as BlogBestStrengthExercisesForRunnersRouteImport } from './routes/blog.best-strength-exercises-for-runners'
 import { Route as BlogBestStrengthExercisesForWomenOver40RouteImport } from './routes/blog.best-strength-exercises-for-women-over-40'
 import { Route as BlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport } from './routes/blog.best-warm-up-exercises-before-strength-training'
@@ -33,6 +34,7 @@ import { Route as LangBlogBestExercisesAfterALongBreakRouteImport } from './rout
 import { Route as LangBlogBestExercisesForDeskWorkersRouteImport } from './routes/$lang.blog.best-exercises-for-desk-workers'
 import { Route as LangBlogBestHomeWorkoutsWithOneDumbbellRouteImport } from './routes/$lang.blog.best-home-workouts-with-one-dumbbell'
 import { Route as LangBlogBestStrengthAndConditioningExercisesForBeginnersRouteImport } from './routes/$lang.blog.best-strength-and-conditioning-exercises-for-beginners'
+import { Route as LangBlogBestStrengthExercisesForOver60sRouteImport } from './routes/$lang.blog.best-strength-exercises-for-over-60s'
 import { Route as LangBlogBestStrengthExercisesForRunnersRouteImport } from './routes/$lang.blog.best-strength-exercises-for-runners'
 import { Route as LangBlogBestStrengthExercisesForWomenOver40RouteImport } from './routes/$lang.blog.best-strength-exercises-for-women-over-40'
 import { Route as LangBlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport } from './routes/$lang.blog.best-warm-up-exercises-before-strength-training'
@@ -118,6 +120,12 @@ const BlogBestStrengthAndConditioningExercisesForBeginnersRoute =
     path: '/blog/best-strength-and-conditioning-exercises-for-beginners',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogBestStrengthExercisesForOver60sRoute =
+  BlogBestStrengthExercisesForOver60sRouteImport.update({
+    id: '/blog/best-strength-exercises-for-over-60s',
+    path: '/blog/best-strength-exercises-for-over-60s',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogBestStrengthExercisesForRunnersRoute =
   BlogBestStrengthExercisesForRunnersRouteImport.update({
     id: '/blog/best-strength-exercises-for-runners',
@@ -177,6 +185,12 @@ const LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute =
     path: '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners',
     getParentRoute: () => rootRouteImport,
   } as any)
+const LangBlogBestStrengthExercisesForOver60sRoute =
+  LangBlogBestStrengthExercisesForOver60sRouteImport.update({
+    id: '/$lang/blog/best-strength-exercises-for-over-60s',
+    path: '/$lang/blog/best-strength-exercises-for-over-60s',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const LangBlogBestStrengthExercisesForRunnersRoute =
   LangBlogBestStrengthExercisesForRunnersRouteImport.update({
     id: '/$lang/blog/best-strength-exercises-for-runners',
@@ -210,6 +224,7 @@ export interface FileRoutesByFullPath {
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
@@ -220,6 +235,7 @@ export interface FileRoutesByFullPath {
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
@@ -239,6 +255,7 @@ export interface FileRoutesByTo {
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
@@ -249,6 +266,7 @@ export interface FileRoutesByTo {
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
@@ -269,6 +287,7 @@ export interface FileRoutesById {
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
@@ -279,6 +298,7 @@ export interface FileRoutesById {
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
@@ -300,6 +320,7 @@ export interface FileRouteTypes {
     | '/blog/best-exercises-for-desk-workers'
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/blog/best-strength-exercises-for-over-60s'
     | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
@@ -310,6 +331,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-exercises-for-desk-workers'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/$lang/blog/best-strength-exercises-for-over-60s'
     | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
@@ -329,6 +351,7 @@ export interface FileRouteTypes {
     | '/blog/best-exercises-for-desk-workers'
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/blog/best-strength-exercises-for-over-60s'
     | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
@@ -339,6 +362,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-exercises-for-desk-workers'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/$lang/blog/best-strength-exercises-for-over-60s'
     | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
@@ -358,6 +382,7 @@ export interface FileRouteTypes {
     | '/blog/best-exercises-for-desk-workers'
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/blog/best-strength-exercises-for-over-60s'
     | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
@@ -368,6 +393,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-exercises-for-desk-workers'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/$lang/blog/best-strength-exercises-for-over-60s'
     | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
@@ -388,6 +414,7 @@ export interface RootRouteChildren {
   BlogBestExercisesForDeskWorkersRoute: typeof BlogBestExercisesForDeskWorkersRoute
   BlogBestHomeWorkoutsWithOneDumbbellRoute: typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   BlogBestStrengthAndConditioningExercisesForBeginnersRoute: typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  BlogBestStrengthExercisesForOver60sRoute: typeof BlogBestStrengthExercisesForOver60sRoute
   BlogBestStrengthExercisesForRunnersRoute: typeof BlogBestStrengthExercisesForRunnersRoute
   BlogBestStrengthExercisesForWomenOver40Route: typeof BlogBestStrengthExercisesForWomenOver40Route
   BlogBestWarmUpExercisesBeforeStrengthTrainingRoute: typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
@@ -398,6 +425,7 @@ export interface RootRouteChildren {
   LangBlogBestExercisesForDeskWorkersRoute: typeof LangBlogBestExercisesForDeskWorkersRoute
   LangBlogBestHomeWorkoutsWithOneDumbbellRoute: typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute: typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  LangBlogBestStrengthExercisesForOver60sRoute: typeof LangBlogBestStrengthExercisesForOver60sRoute
   LangBlogBestStrengthExercisesForRunnersRoute: typeof LangBlogBestStrengthExercisesForRunnersRoute
   LangBlogBestStrengthExercisesForWomenOver40Route: typeof LangBlogBestStrengthExercisesForWomenOver40Route
   LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute: typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
@@ -504,6 +532,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogBestStrengthAndConditioningExercisesForBeginnersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/best-strength-exercises-for-over-60s': {
+      id: '/blog/best-strength-exercises-for-over-60s'
+      path: '/blog/best-strength-exercises-for-over-60s'
+      fullPath: '/blog/best-strength-exercises-for-over-60s'
+      preLoaderRoute: typeof BlogBestStrengthExercisesForOver60sRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/best-strength-exercises-for-runners': {
       id: '/blog/best-strength-exercises-for-runners'
       path: '/blog/best-strength-exercises-for-runners'
@@ -574,6 +609,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$lang/blog/best-strength-exercises-for-over-60s': {
+      id: '/$lang/blog/best-strength-exercises-for-over-60s'
+      path: '/$lang/blog/best-strength-exercises-for-over-60s'
+      fullPath: '/$lang/blog/best-strength-exercises-for-over-60s'
+      preLoaderRoute: typeof LangBlogBestStrengthExercisesForOver60sRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/$lang/blog/best-strength-exercises-for-runners': {
       id: '/$lang/blog/best-strength-exercises-for-runners'
       path: '/$lang/blog/best-strength-exercises-for-runners'
@@ -617,6 +659,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogBestHomeWorkoutsWithOneDumbbellRoute,
   BlogBestStrengthAndConditioningExercisesForBeginnersRoute:
     BlogBestStrengthAndConditioningExercisesForBeginnersRoute,
+  BlogBestStrengthExercisesForOver60sRoute:
+    BlogBestStrengthExercisesForOver60sRoute,
   BlogBestStrengthExercisesForRunnersRoute:
     BlogBestStrengthExercisesForRunnersRoute,
   BlogBestStrengthExercisesForWomenOver40Route:
@@ -636,6 +680,8 @@ const rootRouteChildren: RootRouteChildren = {
     LangBlogBestHomeWorkoutsWithOneDumbbellRoute,
   LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute:
     LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute,
+  LangBlogBestStrengthExercisesForOver60sRoute:
+    LangBlogBestStrengthExercisesForOver60sRoute,
   LangBlogBestStrengthExercisesForRunnersRoute:
     LangBlogBestStrengthExercisesForRunnersRoute,
   LangBlogBestStrengthExercisesForWomenOver40Route:

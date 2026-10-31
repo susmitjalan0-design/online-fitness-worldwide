@@ -20,6 +20,9 @@ const DESCRIPTION =
 const WA_TEXT = "Hi Susmit, I read the getting back into exercise page and want to book a consultation";
 const BREAK_POST_SLUG = "best-exercises-after-a-long-break";
 const BREAK_POST_PATH = postPathFor(BREAK_POST_SLUG, "en");
+const OVER_60_POST_PATH = postPathFor("best-strength-exercises-for-over-60s", "en");
+/** Read next leads with the long-break post, then the over-60s post. */
+const LEAD_SLUGS: readonly string[] = [BREAK_POST_SLUG, "best-strength-exercises-for-over-60s"];
 
 const FAQS = [
   {
@@ -29,6 +32,10 @@ const FAQS = [
   {
     q: "I've had an injury, surgery or a baby. Can I still start?",
     a: "Get clearance from your doctor first. Then tell me all of it in the consultation, and we plan around it.",
+  },
+  {
+    q: "I'm over 60. Is it too late?",
+    a: "No. Strength training still works after 60, including in trials of people aged 75 and over. Return's rest day between sessions suits a steady start. A heart, metabolic or kidney condition, or symptoms like chest pain or dizziness? Get medical clearance first.",
   },
   {
     q: "Why alternate days?",
@@ -105,8 +112,8 @@ export const Route = createFileRoute("/getting-back-into-exercise")({
 function GettingBackPage() {
   const wa = `https://wa.me/${WHATSAPP_E164}?text=${encodeURIComponent(WA_TEXT)}`;
   const reads = [
-    ...BLOG_POSTS.filter((post) => post.slug === BREAK_POST_SLUG),
-    ...BLOG_POSTS.filter((post) => post.slug !== BREAK_POST_SLUG).slice(0, 3),
+    ...LEAD_SLUGS.flatMap((slug) => BLOG_POSTS.filter((post) => post.slug === slug)),
+    ...BLOG_POSTS.filter((post) => !LEAD_SLUGS.includes(post.slug)).slice(0, 2),
   ];
   return (
     <div className="min-h-screen bg-bone text-ink" lang="en" dir="ltr">
@@ -177,6 +184,9 @@ function GettingBackPage() {
               </li>
               <li>
                 Want to start on your own first? <a href={BREAK_POST_PATH}>Read the 7 best exercises after a long break</a>.
+              </li>
+              <li>
+                Over 60? <a href={OVER_60_POST_PATH}>Read the 7 best strength exercises for over 60s</a>.
               </li>
             </ul>
           </section>
