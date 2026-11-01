@@ -30,6 +30,7 @@ const SC_POST_PATH = postPathFor("best-strength-and-conditioning-exercises-for-b
 const DB_POST_PATH = postPathFor("best-home-workouts-with-one-dumbbell", "en");
 const WARM_POST_PATH = postPathFor("best-warm-up-exercises-before-strength-training", "en");
 const COOL_POST_PATH = postPathFor("best-cool-down-stretches-after-strength-training", "en");
+const CORE_BACK_POST_PATH = postPathFor("best-core-exercises-for-lower-back-health", "en");
 
 const HOUR = [
   { min: "00", name: "Set-up", text: "Camera, space, kit. Whole body in frame." },
@@ -226,6 +227,10 @@ function StrengthCoachPage() {
               </li>
               <li>
                 New to all of it? <a href={SC_POST_PATH}>Read the 7 best strength and conditioning exercises for beginners</a>.
+              </li>
+              <li>
+                Core work goes in the accessories, from minute 28. On your own days:{" "}
+                <a href={CORE_BACK_POST_PATH}>the 7 best core exercises for lower back health</a>.
               </li>
             </ul>
           </section>

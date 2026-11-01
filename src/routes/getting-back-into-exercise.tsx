@@ -21,6 +21,7 @@ const WA_TEXT = "Hi Susmit, I read the getting back into exercise page and want 
 const BREAK_POST_SLUG = "best-exercises-after-a-long-break";
 const BREAK_POST_PATH = postPathFor(BREAK_POST_SLUG, "en");
 const OVER_60_POST_PATH = postPathFor("best-strength-exercises-for-over-60s", "en");
+const CORE_BACK_POST_PATH = postPathFor("best-core-exercises-for-lower-back-health", "en");
 /** Read next leads with the long-break post, then the over-60s post. */
 const LEAD_SLUGS: readonly string[] = [BREAK_POST_SLUG, "best-strength-exercises-for-over-60s"];
 
@@ -187,6 +188,10 @@ function GettingBackPage() {
               </li>
               <li>
                 Over 60? <a href={OVER_60_POST_PATH}>Read the 7 best strength exercises for over 60s</a>.
+              </li>
+              <li>
+                Back been sore? Once your doctor or physio says exercise is fine,{" "}
+                <a href={CORE_BACK_POST_PATH}>read the 7 best core exercises for lower back health</a>.
               </li>
             </ul>
           </section>

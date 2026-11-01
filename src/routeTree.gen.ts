@@ -19,6 +19,7 @@ import { Route as PersonalTrainerForFatLossRouteImport } from './routes/personal
 import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as BlogBestBodyweightExercisesForTravelRouteImport } from './routes/blog.best-bodyweight-exercises-for-travel'
 import { Route as BlogBestCoolDownStretchesAfterStrengthTrainingRouteImport } from './routes/blog.best-cool-down-stretches-after-strength-training'
+import { Route as BlogBestCoreExercisesForLowerBackHealthRouteImport } from './routes/blog.best-core-exercises-for-lower-back-health'
 import { Route as BlogBestExercisesAfterALongBreakRouteImport } from './routes/blog.best-exercises-after-a-long-break'
 import { Route as BlogBestExercisesForDeskWorkersRouteImport } from './routes/blog.best-exercises-for-desk-workers'
 import { Route as BlogBestHomeWorkoutsWithOneDumbbellRouteImport } from './routes/blog.best-home-workouts-with-one-dumbbell'
@@ -30,6 +31,7 @@ import { Route as BlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport } fro
 import { Route as LangBlogIndexRouteImport } from './routes/$lang.blog.index'
 import { Route as LangBlogBestBodyweightExercisesForTravelRouteImport } from './routes/$lang.blog.best-bodyweight-exercises-for-travel'
 import { Route as LangBlogBestCoolDownStretchesAfterStrengthTrainingRouteImport } from './routes/$lang.blog.best-cool-down-stretches-after-strength-training'
+import { Route as LangBlogBestCoreExercisesForLowerBackHealthRouteImport } from './routes/$lang.blog.best-core-exercises-for-lower-back-health'
 import { Route as LangBlogBestExercisesAfterALongBreakRouteImport } from './routes/$lang.blog.best-exercises-after-a-long-break'
 import { Route as LangBlogBestExercisesForDeskWorkersRouteImport } from './routes/$lang.blog.best-exercises-for-desk-workers'
 import { Route as LangBlogBestHomeWorkoutsWithOneDumbbellRouteImport } from './routes/$lang.blog.best-home-workouts-with-one-dumbbell'
@@ -94,6 +96,12 @@ const BlogBestCoolDownStretchesAfterStrengthTrainingRoute =
   BlogBestCoolDownStretchesAfterStrengthTrainingRouteImport.update({
     id: '/blog/best-cool-down-stretches-after-strength-training',
     path: '/blog/best-cool-down-stretches-after-strength-training',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogBestCoreExercisesForLowerBackHealthRoute =
+  BlogBestCoreExercisesForLowerBackHealthRouteImport.update({
+    id: '/blog/best-core-exercises-for-lower-back-health',
+    path: '/blog/best-core-exercises-for-lower-back-health',
     getParentRoute: () => rootRouteImport,
   } as any)
 const BlogBestExercisesAfterALongBreakRoute =
@@ -161,6 +169,12 @@ const LangBlogBestCoolDownStretchesAfterStrengthTrainingRoute =
     path: '/$lang/blog/best-cool-down-stretches-after-strength-training',
     getParentRoute: () => rootRouteImport,
   } as any)
+const LangBlogBestCoreExercisesForLowerBackHealthRoute =
+  LangBlogBestCoreExercisesForLowerBackHealthRouteImport.update({
+    id: '/$lang/blog/best-core-exercises-for-lower-back-health',
+    path: '/$lang/blog/best-core-exercises-for-lower-back-health',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const LangBlogBestExercisesAfterALongBreakRoute =
   LangBlogBestExercisesAfterALongBreakRouteImport.update({
     id: '/$lang/blog/best-exercises-after-a-long-break',
@@ -220,6 +234,7 @@ export interface FileRoutesByFullPath {
   '/personal-trainer-for-fat-loss': typeof PersonalTrainerForFatLossRoute
   '/blog/best-bodyweight-exercises-for-travel': typeof BlogBestBodyweightExercisesForTravelRoute
   '/blog/best-cool-down-stretches-after-strength-training': typeof BlogBestCoolDownStretchesAfterStrengthTrainingRoute
+  '/blog/best-core-exercises-for-lower-back-health': typeof BlogBestCoreExercisesForLowerBackHealthRoute
   '/blog/best-exercises-after-a-long-break': typeof BlogBestExercisesAfterALongBreakRoute
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
@@ -231,6 +246,7 @@ export interface FileRoutesByFullPath {
   '/blog/': typeof BlogIndexRoute
   '/$lang/blog/best-bodyweight-exercises-for-travel': typeof LangBlogBestBodyweightExercisesForTravelRoute
   '/$lang/blog/best-cool-down-stretches-after-strength-training': typeof LangBlogBestCoolDownStretchesAfterStrengthTrainingRoute
+  '/$lang/blog/best-core-exercises-for-lower-back-health': typeof LangBlogBestCoreExercisesForLowerBackHealthRoute
   '/$lang/blog/best-exercises-after-a-long-break': typeof LangBlogBestExercisesAfterALongBreakRoute
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
@@ -251,6 +267,7 @@ export interface FileRoutesByTo {
   '/personal-trainer-for-fat-loss': typeof PersonalTrainerForFatLossRoute
   '/blog/best-bodyweight-exercises-for-travel': typeof BlogBestBodyweightExercisesForTravelRoute
   '/blog/best-cool-down-stretches-after-strength-training': typeof BlogBestCoolDownStretchesAfterStrengthTrainingRoute
+  '/blog/best-core-exercises-for-lower-back-health': typeof BlogBestCoreExercisesForLowerBackHealthRoute
   '/blog/best-exercises-after-a-long-break': typeof BlogBestExercisesAfterALongBreakRoute
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
@@ -262,6 +279,7 @@ export interface FileRoutesByTo {
   '/blog': typeof BlogIndexRoute
   '/$lang/blog/best-bodyweight-exercises-for-travel': typeof LangBlogBestBodyweightExercisesForTravelRoute
   '/$lang/blog/best-cool-down-stretches-after-strength-training': typeof LangBlogBestCoolDownStretchesAfterStrengthTrainingRoute
+  '/$lang/blog/best-core-exercises-for-lower-back-health': typeof LangBlogBestCoreExercisesForLowerBackHealthRoute
   '/$lang/blog/best-exercises-after-a-long-break': typeof LangBlogBestExercisesAfterALongBreakRoute
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
@@ -283,6 +301,7 @@ export interface FileRoutesById {
   '/personal-trainer-for-fat-loss': typeof PersonalTrainerForFatLossRoute
   '/blog/best-bodyweight-exercises-for-travel': typeof BlogBestBodyweightExercisesForTravelRoute
   '/blog/best-cool-down-stretches-after-strength-training': typeof BlogBestCoolDownStretchesAfterStrengthTrainingRoute
+  '/blog/best-core-exercises-for-lower-back-health': typeof BlogBestCoreExercisesForLowerBackHealthRoute
   '/blog/best-exercises-after-a-long-break': typeof BlogBestExercisesAfterALongBreakRoute
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
@@ -294,6 +313,7 @@ export interface FileRoutesById {
   '/blog/': typeof BlogIndexRoute
   '/$lang/blog/best-bodyweight-exercises-for-travel': typeof LangBlogBestBodyweightExercisesForTravelRoute
   '/$lang/blog/best-cool-down-stretches-after-strength-training': typeof LangBlogBestCoolDownStretchesAfterStrengthTrainingRoute
+  '/$lang/blog/best-core-exercises-for-lower-back-health': typeof LangBlogBestCoreExercisesForLowerBackHealthRoute
   '/$lang/blog/best-exercises-after-a-long-break': typeof LangBlogBestExercisesAfterALongBreakRoute
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
@@ -316,6 +336,7 @@ export interface FileRouteTypes {
     | '/personal-trainer-for-fat-loss'
     | '/blog/best-bodyweight-exercises-for-travel'
     | '/blog/best-cool-down-stretches-after-strength-training'
+    | '/blog/best-core-exercises-for-lower-back-health'
     | '/blog/best-exercises-after-a-long-break'
     | '/blog/best-exercises-for-desk-workers'
     | '/blog/best-home-workouts-with-one-dumbbell'
@@ -327,6 +348,7 @@ export interface FileRouteTypes {
     | '/blog/'
     | '/$lang/blog/best-bodyweight-exercises-for-travel'
     | '/$lang/blog/best-cool-down-stretches-after-strength-training'
+    | '/$lang/blog/best-core-exercises-for-lower-back-health'
     | '/$lang/blog/best-exercises-after-a-long-break'
     | '/$lang/blog/best-exercises-for-desk-workers'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
@@ -347,6 +369,7 @@ export interface FileRouteTypes {
     | '/personal-trainer-for-fat-loss'
     | '/blog/best-bodyweight-exercises-for-travel'
     | '/blog/best-cool-down-stretches-after-strength-training'
+    | '/blog/best-core-exercises-for-lower-back-health'
     | '/blog/best-exercises-after-a-long-break'
     | '/blog/best-exercises-for-desk-workers'
     | '/blog/best-home-workouts-with-one-dumbbell'
@@ -358,6 +381,7 @@ export interface FileRouteTypes {
     | '/blog'
     | '/$lang/blog/best-bodyweight-exercises-for-travel'
     | '/$lang/blog/best-cool-down-stretches-after-strength-training'
+    | '/$lang/blog/best-core-exercises-for-lower-back-health'
     | '/$lang/blog/best-exercises-after-a-long-break'
     | '/$lang/blog/best-exercises-for-desk-workers'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
@@ -378,6 +402,7 @@ export interface FileRouteTypes {
     | '/personal-trainer-for-fat-loss'
     | '/blog/best-bodyweight-exercises-for-travel'
     | '/blog/best-cool-down-stretches-after-strength-training'
+    | '/blog/best-core-exercises-for-lower-back-health'
     | '/blog/best-exercises-after-a-long-break'
     | '/blog/best-exercises-for-desk-workers'
     | '/blog/best-home-workouts-with-one-dumbbell'
@@ -389,6 +414,7 @@ export interface FileRouteTypes {
     | '/blog/'
     | '/$lang/blog/best-bodyweight-exercises-for-travel'
     | '/$lang/blog/best-cool-down-stretches-after-strength-training'
+    | '/$lang/blog/best-core-exercises-for-lower-back-health'
     | '/$lang/blog/best-exercises-after-a-long-break'
     | '/$lang/blog/best-exercises-for-desk-workers'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
@@ -410,6 +436,7 @@ export interface RootRouteChildren {
   PersonalTrainerForFatLossRoute: typeof PersonalTrainerForFatLossRoute
   BlogBestBodyweightExercisesForTravelRoute: typeof BlogBestBodyweightExercisesForTravelRoute
   BlogBestCoolDownStretchesAfterStrengthTrainingRoute: typeof BlogBestCoolDownStretchesAfterStrengthTrainingRoute
+  BlogBestCoreExercisesForLowerBackHealthRoute: typeof BlogBestCoreExercisesForLowerBackHealthRoute
   BlogBestExercisesAfterALongBreakRoute: typeof BlogBestExercisesAfterALongBreakRoute
   BlogBestExercisesForDeskWorkersRoute: typeof BlogBestExercisesForDeskWorkersRoute
   BlogBestHomeWorkoutsWithOneDumbbellRoute: typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
@@ -421,6 +448,7 @@ export interface RootRouteChildren {
   BlogIndexRoute: typeof BlogIndexRoute
   LangBlogBestBodyweightExercisesForTravelRoute: typeof LangBlogBestBodyweightExercisesForTravelRoute
   LangBlogBestCoolDownStretchesAfterStrengthTrainingRoute: typeof LangBlogBestCoolDownStretchesAfterStrengthTrainingRoute
+  LangBlogBestCoreExercisesForLowerBackHealthRoute: typeof LangBlogBestCoreExercisesForLowerBackHealthRoute
   LangBlogBestExercisesAfterALongBreakRoute: typeof LangBlogBestExercisesAfterALongBreakRoute
   LangBlogBestExercisesForDeskWorkersRoute: typeof LangBlogBestExercisesForDeskWorkersRoute
   LangBlogBestHomeWorkoutsWithOneDumbbellRoute: typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
@@ -504,6 +532,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogBestCoolDownStretchesAfterStrengthTrainingRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/best-core-exercises-for-lower-back-health': {
+      id: '/blog/best-core-exercises-for-lower-back-health'
+      path: '/blog/best-core-exercises-for-lower-back-health'
+      fullPath: '/blog/best-core-exercises-for-lower-back-health'
+      preLoaderRoute: typeof BlogBestCoreExercisesForLowerBackHealthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/best-exercises-after-a-long-break': {
       id: '/blog/best-exercises-after-a-long-break'
       path: '/blog/best-exercises-after-a-long-break'
@@ -581,6 +616,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LangBlogBestCoolDownStretchesAfterStrengthTrainingRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$lang/blog/best-core-exercises-for-lower-back-health': {
+      id: '/$lang/blog/best-core-exercises-for-lower-back-health'
+      path: '/$lang/blog/best-core-exercises-for-lower-back-health'
+      fullPath: '/$lang/blog/best-core-exercises-for-lower-back-health'
+      preLoaderRoute: typeof LangBlogBestCoreExercisesForLowerBackHealthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/$lang/blog/best-exercises-after-a-long-break': {
       id: '/$lang/blog/best-exercises-after-a-long-break'
       path: '/$lang/blog/best-exercises-after-a-long-break'
@@ -653,6 +695,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogBestBodyweightExercisesForTravelRoute,
   BlogBestCoolDownStretchesAfterStrengthTrainingRoute:
     BlogBestCoolDownStretchesAfterStrengthTrainingRoute,
+  BlogBestCoreExercisesForLowerBackHealthRoute:
+    BlogBestCoreExercisesForLowerBackHealthRoute,
   BlogBestExercisesAfterALongBreakRoute: BlogBestExercisesAfterALongBreakRoute,
   BlogBestExercisesForDeskWorkersRoute: BlogBestExercisesForDeskWorkersRoute,
   BlogBestHomeWorkoutsWithOneDumbbellRoute:
@@ -672,6 +716,8 @@ const rootRouteChildren: RootRouteChildren = {
     LangBlogBestBodyweightExercisesForTravelRoute,
   LangBlogBestCoolDownStretchesAfterStrengthTrainingRoute:
     LangBlogBestCoolDownStretchesAfterStrengthTrainingRoute,
+  LangBlogBestCoreExercisesForLowerBackHealthRoute:
+    LangBlogBestCoreExercisesForLowerBackHealthRoute,
   LangBlogBestExercisesAfterALongBreakRoute:
     LangBlogBestExercisesAfterALongBreakRoute,
   LangBlogBestExercisesForDeskWorkersRoute:
