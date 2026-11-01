@@ -2,6 +2,74 @@
 
 Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 
+## 1 Nov 2026 (IST), batch 11: core exercises for lower back health, exact logo colours, image sizes and new-tab labels
+
+### Blog
+- New post: **"Best core exercises for lower back health: 7 moves and a sample week"** at `/blog/best-core-exercises-for-lower-back-health`. It targets "core exercises for lower back" / "exercises for lower back health" and ties to "getting back into exercise" and "personal trainer at home". It leads into Return (45 minutes, 12 alternate-day sessions a month), "cleared to train" only, and the English coached card links to `/getting-back-into-exercise` (`programLink`). It also names Iron Hour (set-up 0, warm-up 4, primary 14, accessories 28, cool-down 50), Lean Reset, Open Floor and the Consultation.
+- **Careful, non-medical framing.** The intro says the list is for keeping a back strong and is not a treatment, and sends anyone in pain to "Before you start" first. The coached card says "I'm a coach, not a doctor or physio". "Before you start" gives the NHS's see-a-doctor signs (no better after a few weeks, stops daily activities, not eased by rest or worse at night, unexplained weight loss) and its urgent signs (symptoms in both legs, numbness around the genitals or bottom, new bladder or bowel trouble, chest pain, fever or feeling unwell, sudden severe or fast-worsening pain, pain after a serious accident). It also covers ACSM screening, asking a doctor or physio about pregnancy, recent birth, recent back surgery or a diagnosed spine condition, and stopping if pain spreads down a leg or gets sharply worse.
+- Localised versions are at `/{ar,hi,es,zh,ja,gu}/blog/best-core-exercises-for-lower-back-health`. Arabic renders `lang="ar" dir="rtl"` and uses "بالتناوب: يوم تمرين ويوم راحة" for Return. Each version has its own title, description and canonical, plus the full reciprocal hreflang set (7 languages and x-default). JSON-LD comes from the shared `postHead`: Article, ItemList and BreadcrumbList.
+- The 7 items: dead bug, bird dog, side plank (knees, then feet), glute bridge, Pallof press with a band (forearm plank if no band), suitcase carry, and hip hinge, then Romanian deadlift.
+- The section "Which exercise is best, how often, and should it hurt?" covers:
+  - No single exercise wins: "core" motor control exercise was no better than other exercise (Cochrane, 29 trials, 2,431 people).
+  - Pilates ranked highest for pain, and strength and core stability work highest for function; stretching alone did no better than no treatment. **Labelled as low-quality evidence.**
+  - Size of effect: exercise probably reduces long-term low back pain by about 15 points on a 0–100 scale versus no treatment; the effect on function was smaller ("Useful. Not magic.").
+  - Prevention: exercise alone cut the risk of low back pain by 33% (8 trials, 1,634 people), with strength plus stretching or aerobic work 2–3 times a week suggested. Exercise with education lowered the risk of an episode; education alone, back belts and shoe insoles didn't appear to.
+  - ACSM's 8–12 rep / 2–10% rule.
+  - Soreness: most reported side effects were minor, such as muscle soreness. Pain that gets worse means stop and see a doctor (NHS).
+- Content is in `src/content/blog/core-lower-back.ts` (export `coreBackPost`). All 10 sources are real and were opened on 1 Nov 2026. For each paper, title, authors, journal, year, volume/pages and the finding used were checked against the Europe PMC record and abstract, and each DOI was confirmed as registered at doi.org. The WHO, NICE and NHS pages each returned 200, and the wording used was checked on the page (WHO's recommendation text via the guideline's recommendations table).
+  1. WHO guideline for non-surgical management of chronic primary low back pain in adults in primary and community care settings (2023): https://www.who.int/publications/i/item/9789240081789 ("A structured exercise therapy or programme may be offered as part of care to adults, including older people, with CPLBP"; conditional recommendation, low-certainty evidence).
+  2. NICE NG59, Low back pain and sciatica in over 16s (2016, last updated 29 July 2026): https://www.nice.org.uk/guidance/ng59 (1.2.2: consider a group exercise programme for a specific episode or flare-up).
+  3. NHS, Back pain (page last reviewed 5 March 2026): https://www.nhs.uk/conditions/back-pain/ (usually improves within a few weeks; stay active; don't stay in bed for long periods; see-a-GP, urgent and emergency signs; stop if pain gets worse).
+  4. Hayden et al., Exercise therapy for chronic low back pain, Cochrane 2021;9(9):CD009790: https://doi.org/10.1002/14651858.CD009790.pub2 (249 trials; pain MD −15.2 on 0–100 vs no treatment/usual care/placebo, moderate certainty; function MD −6.8; harms mostly minor, e.g. muscle soreness).
+  5. Owen et al., Which specific modes of exercise training are most effective for treating low back pain? Network meta-analysis, Br J Sports Med 2020;54(21):1279–1287: https://doi.org/10.1136/bjsports-2019-100886 (89 studies, 5,578 patients; Pilates for pain, resistance and stabilisation/motor control for function; stretching and McKenzie not different from true control; low-quality evidence).
+  6. Saragiotto et al., Motor control exercise for chronic non-specific low-back pain, Cochrane 2016;(1):CD012004: https://doi.org/10.1002/14651858.CD012004 (29 trials, 2,431 people; similar outcomes to other exercise; choice by preference, cost and safety).
+  7. Shiri, Coggon & Falah-Hassani, Exercise for the prevention of low back pain, Am J Epidemiol 2018;187(5):1093–1101: https://doi.org/10.1093/aje/kwx337 (exercise alone RR 0.67, 8 RCTs, n = 1,634; strengthening with stretching or aerobic exercise 2–3 times a week).
+  8. Steffens et al., Prevention of low back pain, JAMA Intern Med 2016;176(2):199–208: https://doi.org/10.1001/jamainternmed.2015.7431 (exercise plus education RR 0.55, moderate quality; education alone, back belts, shoe insoles no effect).
+  9. ACSM position stand, Progression models in resistance training for healthy adults, MSSE 2009;41(3):687–708: https://doi.org/10.1249/MSS.0b013e3181915670
+  10. Riebe et al., ACSM preparticipation screening, MSSE 2015;47(11):2473–2479: https://doi.org/10.1249/MSS.0000000000000664
+- The sample week (Core A Monday and Friday, Core B Wednesday, walks between, swimming/yoga/Pilates optional on Saturday) is labelled "Sample only. Not a prescription." No client results, quotes or prices. Credentials line (ASCA Level 1 and ACE; neither body endorses the business or the article).
+- `src/content/blog/index.ts` lists eleven posts, newest first. `BLOG_INDEX_COPY` descriptions lead with the new post in all 7 languages. The home footer's "From the blog" now shows the core post and the over-60s post.
+- New routes: `src/routes/blog.best-core-exercises-for-lower-back-health.tsx` and `src/routes/$lang.blog.best-core-exercises-for-lower-back-health.tsx` (`/en/...` and unknown codes return 404). `src/routeTree.gen.ts` is the file the TanStack Router plugin generated during this run's build (not hand-edited).
+
+### Internal links
+- `/getting-back-into-exercise`: new line in "How Return runs": "Back been sore? Once your doctor or physio says exercise is fine, read the 7 best core exercises for lower back health."
+- `/online-strength-and-conditioning-coach`: new line in "How Iron Hour runs": "Core work goes in the accessories, from minute 28. On your own days: the 7 best core exercises for lower back health."
+- The India, Dubai and Singapore pages, the fat-loss page, every post's "More from the blog" and the home footer pick the new post up automatically (newest first).
+
+### SEO, accessibility and speed
+- **Image sizes (layout shift):** the home page's images now carry their real intrinsic `width`/`height`, so the browser reserves space before they load: header and footer logo 1840×330, the hero video-call image 1287×782, coach photo 1500×1800, ASCA logo 800×368, ACE logo 417×120. The content-page header logo said `160×44` (ratio 3.6), but the file is 1840×330 (ratio 5.6). It now has the real size. Displayed sizes are unchanged (CSS still sets the height).
+- **New-tab links:** every source link and the WhatsApp button on post pages open in a new tab. Each now has a visually hidden "(opens in a new tab)" note in the page's language (`NEW_TAB_LABEL` in `shared.ts`, 7 languages), so screen-reader users aren't surprised.
+- New post checked: headings go h1 → h2 → h3 with no skips; citation links 1–10 all have a matching `#source-n`; no `<img>` without alt.
+
+### Theme: exact logo colours
+- The logo's own pixels were sampled (`src/assets/ofw-logo.png`): the ink is #030406 and the blue is #014ffe. `--color-ink` is now #030406 (was #06070a). The same change applies to `theme-color` in `__root.tsx`, the ink-based shadows in `styles.css`, and the home, booking and note overlays, which now use the `ink` token instead of a hard-coded hex.
+- New token `--color-logo: #014ffe` (the exact logo blue). It now draws the eyebrow bar, list bullets, the card hover border and the underline of inline links in long copy. On bone it is 5.0:1, against 3.3:1 for the lifted blue used before, so the marks and underlines are clearer. Marks on ink keep the lifted blue #3d7bff (the exact blue is only 3.5:1 on ink). Text colours are unchanged. No orange.
+- Not changed: `src/lib/og/site.json` still says `06070a`. It is written by the platform's brand-asset task, so it was left alone.
+
+### SEO: sitemap
+- `public/sitemap.xml`: 91 URLs. That is home, six landing pages, 7 blog indexes, and 7 language URLs for each of the 11 posts, with reciprocal `xhtml:link` hreflang and x-default (landing pages list `en` + x-default). `lastmod` 2026-11-01 for home, `/getting-back-into-exercise`, `/online-strength-and-conditioning-coach`, the 7 blog indexes and the new post.
+
+### Programs (facts unchanged)
+- Iron Hour 60 min 1:1; Lean Reset 20 sessions/month 1:1; Return 45 min, 12 alternate-day sessions/month; Open Floor small group; Consultation 30 min, not training. No prices anywhere; booking holds a time, fee agreed directly.
+
+### Verified this run
+- `node_modules` was gone from the box, so I reinstalled it with `npm@10 install --legacy-peer-deps`. The lockfile is local only and not committed. Then I restored the binaries with `node scripts/restore-binaries.mjs` and built a copy of the branch with `vite build` and the local-only verify config (stub for the missing `src/lib/preview-host-bridge.ts`, no PWA plugin, Nitro `node-server` preset; not committed). The build passed (Node 24 on the box).
+- The built server returned 200 for all 91 sitemap URLs, and 404 for `/en/blog/best-core-exercises-for-lower-back-health` and `/xx/blog/best-core-exercises-for-lower-back-health`.
+- On all 91 sitemap URLs: one title, one description, one h1, one canonical (matching the sitemap URL), every JSON-LD block parses, og:image is `og-card.jpg`, every post page has exactly 8 hreflang `<link>`s, no raw `{n}` markers, Arabic pages render `dir="rtl"`, and no page contains "يوماً بعد يوم". The new post in en, ar and gu (and hi, es, zh, ja) has Article, ItemList and BreadcrumbList JSON-LD.
+- Headless Chrome screenshots: the English and Arabic posts at 390px (RTL correct, citation links render), and `/getting-back-into-exercise` at 1280px.
+- `tsc --noEmit`: the same 14 errors as before, all from the missing platform files. ESLint on the changed files: no errors (the same fast-refresh warning in `blog-post.tsx` as before).
+- The real `npm run build` from a clean clone still fails, because the same platform files are missing.
+
+### Still open (needs Susmit)
+- Build blockers: `scripts/grok-pwa-shared.mjs`, `src/lib/preview-host-bridge.ts`, and the auth, app-data and multiplayer files are still missing.
+- Back-pain post: it is careful and sourced, but it touches health. Please read "Before you start" and the coached card and confirm you're happy with the wording. A physio's read would be ideal. The urgent-care signs come from the NHS (UK). The post says "get urgent medical help" and names no phone number, so it works in India, Dubai and Singapore.
+- Social card: `og-card.jpg` is a clean, logo-based card made on the box. Swap in a designed version at the same path if you have one.
+- `clientNotes`: labelled as samples. Replace them with real, consented quotes or delete them before any are shown.
+- Native-speaker review of the ar, hi, es, zh, ja and gu versions of all eleven posts, the blog index copy, `SOURCE_LABEL` and the new `NEW_TAB_LABEL`.
+- Fonts: Outfit is still a third-party, render-blocking Google Fonts request on every page. Self-hosting needs a woff2 file in the repo (through binary-parts); not done this batch.
+- The country pages are English only. Hindi versions of the India page (and Arabic for Dubai) would be the next step, if wanted.
+- There is no `.gitignore` in the repo, so `node_modules`, `.output` and lockfiles show up as untracked after a local install. A short `.gitignore` would help, if you want one.
+
 ## 31 Oct 2026 (IST), batch 10: over-60s strength post, blue social card, Arabic "alternate days" fix
 
 ### Blog
@@ -578,9 +646,12 @@ Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 
 ## Suggested next steps
 1. Restore the missing platform files and images so `npm run build` works from a clean clone.
-2. Add a 1200×630 `og.jpg` and set `og:image` and `twitter:card=summary_large_image` in `seoHead`.
+2. ~~Add a 1200×630 social card and set `og:image` and `twitter:card=summary_large_image` in `seoHead`.~~ Done 28 Oct; logo-based `og-card.jpg` 31 Oct. A designed card can replace it at the same path.
 3. ~~Port the prototype landing pages from `/workspace/jalanpt/site` as routes~~: all six done (`/personal-trainer-for-fat-loss` 25 Oct, `/getting-back-into-exercise` 28 Oct, `/online-strength-and-conditioning-coach` 29 Oct, India/Dubai/Singapore 30 Oct), all in the sitemap.
 4. ~~Add Return as a program card and a booking option.~~ Done 23 Oct.
 5. Get a native speaker to review the ar, hi, es, zh, ja and gu translations before launch.
 6. Point DNS for onlinefitness.com at the host before shipping canonicals. Earlier notes say GoDaddy NS had lame delegation.
-7. Next blog post ideas: "Best home workouts with one dumbbell", "Best exercises for back pain at a desk". (~~Women over 40~~ done 24 Oct. ~~Warm-up before strength training~~ done 25 Oct. ~~Strength and conditioning for beginners~~ done 26 Oct.)
+7. Next blog post ideas: "Best strength exercises for busy parents", "Best mobility exercises for hips and shoulders", "Best exercises for posture". (~~Women over 40~~ done 24 Oct. ~~Warm-up before strength training~~ done 25 Oct. ~~Strength and conditioning for beginners~~ done 26 Oct. ~~Home workouts with one dumbbell~~ done 28 Oct. ~~Core exercises for lower back health~~ done 1 Nov; it covers the back-pain angle, so a separate "back pain at a desk" post would overlap.)
+8. Get a physio or doctor to read the "Before you start" section of the lower back post.
+9. Add a `.gitignore` (`node_modules`, `.output`, local lockfiles, `public/__grok/`) so local installs stop showing as untracked.
+10. Self-host Outfit (woff2 via binary-parts) to drop the render-blocking Google Fonts request.
