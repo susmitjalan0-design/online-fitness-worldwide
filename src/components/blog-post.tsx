@@ -6,6 +6,7 @@ import {
   alternatesFor,
   blogIndexPathFor,
   LANG_META,
+  NEW_TAB_LABEL,
   POST_LANGS,
   postPathFor,
   RELATED_LABEL,
@@ -103,6 +104,7 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
   const related = BLOG_POSTS.filter((other) => other.slug !== post.slug);
   const { dir } = LANG_META[lang];
   const sourceLabel = SOURCE_LABEL[lang];
+  const newTab = NEW_TAB_LABEL[lang];
   const wa = `https://wa.me/${WHATSAPP_E164}?text=${encodeURIComponent(copy.labels.whatsappText)}`;
 
   return (
@@ -253,6 +255,7 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
               </a>
               <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-wa inline-flex min-h-12 items-center rounded-full px-6 text-sm font-semibold">
                 {copy.labels.whatsapp}
+                <span className="sr-only"> ({newTab})</span>
               </a>
             </div>
           </section>
@@ -271,6 +274,10 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
                 <span className="tabular-nums">[{index + 1}]</span> {source.cite}{" "}
                 <a href={source.url} target="_blank" rel="noopener noreferrer" className="break-all text-copper underline underline-offset-2">
                   {source.url}
+                  <span className="sr-only" lang={lang} dir={dir}>
+                    {" "}
+                    ({newTab})
+                  </span>
                 </a>
               </li>
             ))}
