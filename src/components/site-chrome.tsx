@@ -17,7 +17,7 @@ export function SiteHeader({
     <header className="border-b border-line bg-ink-2">
       <div className="shell flex h-16 items-center justify-between gap-4">
         <a href="/" className="flex items-center" aria-label={`Online Fitness Worldwide, Jalan PT: ${homeLabel}`}>
-          <img src={ofwLogo} alt="" width={160} height={44} decoding="async" className="h-8 w-auto sm:h-10" />
+          <img src={ofwLogo} alt="" width={1840} height={330} decoding="async" className="h-8 w-auto sm:h-10" />
         </a>
         <nav aria-label="Site" className="flex items-center gap-5 text-sm">
           <a href="/#programs" className="inline-flex min-h-11 items-center text-mist hover:text-ink" lang="en">

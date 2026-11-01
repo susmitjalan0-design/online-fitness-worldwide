@@ -21,7 +21,7 @@ export const Route = createRootRoute({
       { property: "og:description", content: APP_DESCRIPTION },
       { name: "twitter:title", content: APP_NAME },
       { name: "twitter:description", content: APP_DESCRIPTION },
-      { name: "theme-color", content: "#06070a" },
+      { name: "theme-color", content: "#030406" },
       { name: "author", content: "Susmit Jalan" },
     ],
     links: [

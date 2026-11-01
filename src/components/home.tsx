@@ -210,6 +210,8 @@ function LiveCall() {
     <img
       src={laptopCall}
       alt="A training set on a live video call, full body in frame, with the coach demonstrating a squat"
+      width={1287}
+      height={782}
       className="mx-auto h-auto w-full"
       fetchPriority="high"
       decoding="async"
@@ -444,7 +446,7 @@ export function HomePage() {
         <div className="border-b border-line bg-ink-2/95 backdrop-blur">
           <div className="shell flex h-16 items-center justify-between gap-3">
             <a href="#top" className="flex items-center">
-              <img src={ofwLogo} alt="Online Fitness Worldwide, Jalan PT" className="h-8 w-auto sm:h-10 lg:h-11" />
+              <img src={ofwLogo} alt="Online Fitness Worldwide, Jalan PT" width={1840} height={330} decoding="async" className="h-8 w-auto sm:h-10 lg:h-11" />
             </a>
             <nav className="hidden items-center gap-6 text-sm text-mist lg:flex">
               {navLinks.map((link) => (
@@ -718,14 +720,14 @@ export function HomePage() {
               <h2 className="mt-3 font-display text-4xl leading-tight sm:text-5xl">Susmit Jalan</h2>
             </div>
             <div className="md:row-span-2">
-              <img src={coachPhoto} alt="Coach Susmit Jalan" loading="lazy" decoding="async" className="aspect-[3/4] w-full max-w-sm rounded-[1.35rem] object-cover object-[center_30%]" />
+              <img src={coachPhoto} alt="Coach Susmit Jalan" width={1500} height={1800} loading="lazy" decoding="async" className="aspect-[3/4] w-full max-w-sm rounded-[1.35rem] object-cover object-[center_30%]" />
               <ul className="mt-4 space-y-4">
                 <li className="flex items-center gap-3">
-                  <img src={ascaLogo} alt="Australian Strength and Conditioning Association (ASCA)" loading="lazy" decoding="async" className="h-11 w-auto shrink-0" />
+                  <img src={ascaLogo} alt="Australian Strength and Conditioning Association (ASCA)" width={800} height={368} loading="lazy" decoding="async" className="h-11 w-auto shrink-0" />
                   <span className="text-sm font-medium">Level 1 · Strength and Conditioning</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <img src={aceLogo} alt="American Council on Exercise (ACE)" loading="lazy" decoding="async" className="h-7 w-auto shrink-0" />
+                  <img src={aceLogo} alt="American Council on Exercise (ACE)" width={417} height={120} loading="lazy" decoding="async" className="h-7 w-auto shrink-0" />
                   <span className="text-sm font-medium">Anatomy and Biomechanics</span>
                 </li>
               </ul>
@@ -760,7 +762,7 @@ export function HomePage() {
                 />
               );
             })}
-            <div className="absolute inset-0 bg-[#06070a]/82" />
+            <div className="absolute inset-0 bg-ink/82" />
           </div>
           <div className="shell band relative grid items-start gap-8 lg:grid-cols-2 lg:gap-12">
             <div className="min-w-0">
@@ -872,7 +874,7 @@ export function HomePage() {
       <footer className="bg-white">
         <div className="shell grid gap-8 py-12 md:grid-cols-[minmax(0,1fr)_auto]">
           <div>
-            <img src={ofwLogo} alt="Online Fitness Worldwide, Jalan PT" loading="lazy" decoding="async" className="h-12 w-auto sm:h-16" />
+            <img src={ofwLogo} alt="Online Fitness Worldwide, Jalan PT" width={1840} height={330} loading="lazy" decoding="async" className="h-12 w-auto sm:h-16" />
             <p className="mt-4 max-w-md text-sm leading-relaxed text-mist">
               Jalan PT, Pune. Live online coaching on Meet, Zoom or FaceTime, in Hindi or English, on IST.
             </p>
