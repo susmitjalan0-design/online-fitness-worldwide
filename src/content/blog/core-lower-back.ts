@@ -1,0 +1,835 @@
+/**
+ * Blog post: "Best core exercises for lower back health".
+ * Citations in copy are written as {n} and point at CORE_BACK_SOURCES[n - 1].
+ * Every number in the copy comes from a cited source (title, authors, journal,
+ * year, volume/pages and finding checked against the Europe PMC record and
+ * abstract, and each DOI checked as registered at doi.org, on 1 Nov 2026; the
+ * WHO, NICE and NHS pages opened and checked the same day). No client results,
+ * no quotes, no prices. Low-quality evidence is labelled as such in the copy.
+ * This is general information, not treatment: the copy says when to see a
+ * doctor, and when to get urgent help, from the NHS page. Translations were
+ * drafted for this batch and need a native-speaker review before launch (see
+ * CHANGES-grokbot.md).
+ */
+
+import { type BlogPost, type PostCopy } from "./shared";
+
+export const CORE_BACK_SLUG = "best-core-exercises-for-lower-back-health";
+export const CORE_BACK_PUBLISHED = "2026-11-01";
+export const CORE_BACK_MODIFIED = "2026-11-01";
+
+export const CORE_BACK_SOURCES = [
+  {
+    cite: "World Health Organization. WHO guideline for non-surgical management of chronic primary low back pain in adults in primary and community care settings. Geneva: WHO; 2023.",
+    url: "https://www.who.int/publications/i/item/9789240081789",
+  },
+  {
+    cite: "National Institute for Health and Care Excellence. Low back pain and sciatica in over 16s: assessment and management. NICE guideline NG59. London: NICE; 2016 (last updated 2026).",
+    url: "https://www.nice.org.uk/guidance/ng59",
+  },
+  {
+    cite: "NHS. Back pain. NHS website; page last reviewed 5 March 2026.",
+    url: "https://www.nhs.uk/conditions/back-pain/",
+  },
+  {
+    cite: "Hayden JA, Ellis J, Ogilvie R, Malmivaara A, van Tulder MW. Exercise therapy for chronic low back pain. Cochrane Database Syst Rev. 2021;9(9):CD009790.",
+    url: "https://doi.org/10.1002/14651858.CD009790.pub2",
+  },
+  {
+    cite: "Owen PJ, Miller CT, Mundell NL, et al. Which specific modes of exercise training are most effective for treating low back pain? Network meta-analysis. Br J Sports Med. 2020;54(21):1279–1287.",
+    url: "https://doi.org/10.1136/bjsports-2019-100886",
+  },
+  {
+    cite: "Saragiotto BT, Maher CG, Yamato TP, et al. Motor control exercise for chronic non-specific low-back pain. Cochrane Database Syst Rev. 2016;(1):CD012004.",
+    url: "https://doi.org/10.1002/14651858.CD012004",
+  },
+  {
+    cite: "Shiri R, Coggon D, Falah-Hassani K. Exercise for the prevention of low back pain: systematic review and meta-analysis of controlled trials. Am J Epidemiol. 2018;187(5):1093–1101.",
+    url: "https://doi.org/10.1093/aje/kwx337",
+  },
+  {
+    cite: "Steffens D, Maher CG, Pereira LS, et al. Prevention of low back pain: a systematic review and meta-analysis. JAMA Intern Med. 2016;176(2):199–208.",
+    url: "https://doi.org/10.1001/jamainternmed.2015.7431",
+  },
+  {
+    cite: "American College of Sports Medicine. Position stand: Progression models in resistance training for healthy adults. Med Sci Sports Exerc. 2009;41(3):687–708.",
+    url: "https://doi.org/10.1249/MSS.0b013e3181915670",
+  },
+  {
+    cite: "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+    url: "https://doi.org/10.1249/MSS.0000000000000664",
+  },
+] as const;
+
+const en: PostCopy = {
+  metaTitle: "Best Core Exercises for Lower Back Health: 7 Moves and a Sample Week | Jalan PT",
+  metaDescription:
+    "The 7 best core exercises for lower back health: dead bugs, bird dogs, side planks, carries and the hip hinge. What the research says, when to see a doctor, and a sample week.",
+  h1: "Best core exercises for lower back health: 7 moves and a sample week",
+  dek: "Your core is more than abs. Front, sides, back and hips, working together. Train it 2 to 3 times a week. And know when to see a doctor first.",
+  updated: "Updated 1 November 2026",
+  byline: "By Susmit Jalan, coach at Jalan PT, Pune.",
+  credentialsNote:
+    "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+  labels: {
+    home: "Home",
+    blog: "Blog",
+    why: "Why",
+    how: "How",
+    dose: "Dose",
+    sources: "Sources",
+    readIn: "Read this in",
+    programs: "See the programs",
+    whatsapp: "Ask on WhatsApp",
+    whatsappText: "Hi Susmit, I read the article on core exercises for lower back health and want to book a consultation",
+    skip: "Skip to content",
+    crumb: "Best core exercises for lower back health",
+  },
+  intro: [
+    "Back pain is common. Most of it gets better on its own within a few weeks. Sometimes it lasts longer, or keeps coming back.{3}",
+    "The NHS advice: stay active, and keep up your daily activities. Don't stay in bed for long periods.{3}",
+    "Exercise is one thing the guidelines agree on. WHO says a structured exercise programme may be offered to adults with long-term low back pain. That is a conditional recommendation, on low-certainty evidence.{1} NICE suggests group exercise for a flare-up.{2}",
+    "This list is for keeping a back strong. It is not a treatment. If your back hurts now, read “Before you start” at the end first.",
+    "You need a mat, a resistance band, a dumbbell or a loaded bag, and 25 to 30 minutes.",
+  ],
+  listHeading: "The 7 best core exercises for lower back health",
+  items: [
+    {
+      name: "Dead bug",
+      why: "The trunk holds still while the arms and legs move. That is the job your core does all day.",
+      how: "Lie on your back. Arms up to the ceiling. Hips and knees bent at 90 degrees. Lower back gently on the floor. Breathe out, reach one arm back and the opposite leg long. Only as far as your back stays down. Return. Switch.",
+      dose: "2 to 3 sets of 6 to 10 each side. Slow.",
+    },
+    {
+      name: "Bird dog",
+      why: "The same idea, face down. The back muscles and glutes hold the spine steady while you reach.",
+      how: "Hands under shoulders, knees under hips. Reach one arm forward and the opposite leg back, until both are level with your body. No twist. No arched back. Hold 5 seconds. Return. Switch.",
+      dose: "2 to 3 sets of 6 to 8 each side, with a 5-second hold.",
+    },
+    {
+      name: "Side plank, knees then feet",
+      why: "The sides of your trunk stop you bending sideways. They work every time you carry something in one hand.",
+      how: "On your side, elbow under shoulder, knees bent. Lift your hips until you are a straight line from head to knees. Keep breathing. When 30 seconds is easy, straighten the legs and go from the feet.",
+      dose: "2 to 3 holds of 15 to 30 seconds each side.",
+    },
+    {
+      name: "Glute bridge",
+      why: "Strong glutes let the hips do the lifting, so the lower back doesn't have to.",
+      how: "On your back, knees bent, feet flat. Squeeze your glutes and lift your hips until knees, hips and shoulders line up. Ribs down. Don't arch. Pause. Lower slowly. Easy? One leg at a time.",
+      dose: "3 sets of 8 to 12.{9}",
+    },
+    {
+      name: "Pallof press with a band",
+      why: "The core's other job: not twisting when something pulls you sideways. A child on one hip. A heavy door. A bag on one shoulder.",
+      how: "Band anchored at chest height, to a door anchor or a solid post. Stand side-on to it. Hold the band at your chest. Press it straight out. Don't let it turn you. Hold 2 seconds. Bring it back. No band? Do a forearm plank instead.",
+      dose: "2 to 3 sets of 8 to 10 each side. Plank: 2 to 3 holds of 20 to 30 seconds.",
+    },
+    {
+      name: "Suitcase carry",
+      why: "One weight, one hand. Your trunk has to stay upright against it. Core training while you walk.",
+      how: "A dumbbell, a kettlebell or a loaded bag in one hand. Stand tall, shoulders level. Walk slowly. Don't lean away from the weight. Switch hands.",
+      dose: "3 to 4 walks of 20 to 30 metres, or 30 seconds, each hand.",
+    },
+    {
+      name: "Hip hinge, then Romanian deadlift",
+      why: "Lifting from the floor is part of life. The hinge teaches you to bend at the hips with a long back. Then it makes your legs and glutes strong enough to do it. In a large analysis of trials in long-term low back pain, strength training ranked among the best exercise types for physical function. The evidence was low quality.{5}",
+      how: "Start with a broomstick along your back: head, upper back and tailbone touching it. Soft knees. Push your hips back until you feel your hamstrings. Stand up by squeezing your glutes. Then do it holding a dumbbell or a bag in front of your thighs.",
+      dose: "3 sets of 8 to 12. Add weight only when your back stays long on every rep.{9}",
+    },
+  ],
+  enoughHeading: "Which exercise is best, how often, and should it hurt?",
+  enough: [
+    "No single exercise wins. A Cochrane review of 29 trials (2,431 people) found that “core” motor control exercise was no better than other kinds of exercise for long-term low back pain. The authors said the choice can come down to preference, cost and safety.{6}",
+    "A network analysis of 89 studies (5,578 people with long-term low back pain) ranked Pilates highest for pain, and strength training and core stability work highest for function. Stretching alone did no better than no treatment. The evidence was low quality.{5} So this list mixes core control with strength.",
+    "How much does it help? A Cochrane review of 249 trials found exercise probably reduces long-term low back pain compared with no treatment: by about 15 points on a 0 to 100 scale. The effect on daily function was smaller.{4} Useful. Not magic.",
+    "Prevention counts too. In 8 trials with 1,634 people, exercise alone cut the risk of low back pain by 33%. The authors suggest strength work with stretching or aerobic exercise, 2 to 3 times a week.{7} Another review found exercise with education lowered the risk of an episode. Education alone, back belts and shoe insoles didn't appear to.{8}",
+    "Progress it like any strength work. Start with a version you can do 8 to 12 good reps of. When you beat the target by 1 or 2 reps, add a little: 2 to 10% more load, or a harder version.{9}",
+    "Should it hurt? Some muscle soreness the next day is normal. In the Cochrane review, most reported side effects were minor, such as muscle soreness.{4} Pain that gets worse is different. Stop, and see a doctor.{3}",
+  ],
+  sampleHeading: "A sample week for a stronger back",
+  sampleLabel: "Sample only. Not a prescription. Adjust it to your body, your health and your history.",
+  sample: [
+    "Monday: Core A. Warm-up, dead bug, side plank, glute bridge, suitcase carry.",
+    "Tuesday: a brisk walk.",
+    "Wednesday: Core B. Warm-up, bird dog, Pallof press, hip hinge, suitcase carry.",
+    "Thursday: a walk, or rest.",
+    "Friday: Core A again.",
+    "Saturday: a longer walk, or something you enjoy. Swimming, yoga, Pilates.",
+    "Sunday: rest.",
+    "A rest day between core days. Long day at a desk? Get up and move often.",
+  ],
+  coachedHeading: "Want it coached live?",
+  coached: [
+    "Coming back after a sore back, and cleared to train? Return fits. 45 minutes, 12 alternate-day sessions a month. A rest day between sessions, every time. We rebuild movement first, then add load. I'm a coach, not a doctor or physio. If you have a diagnosis, we work within their advice.",
+    "Prefer the full hour? Iron Hour is 60 minutes, 1:1. Set-up at minute 0: mat and camera placed so I can see your whole body, side-on for hinges. Warm-up from minute 4. The primary lift at 14. Accessories at 28: carries, side planks, bird dogs. Cool-down at 50.",
+    "Lean Reset is 20 sessions a month, 1:1. Open Floor is a small group.",
+    "Coached live on Google Meet, Zoom or FaceTime. From Pune. In Hindi or English. On IST. Not sure yet? Start with a 30-minute consultation. It is a conversation, not training. Booking holds a time. The fee is agreed directly.",
+  ],
+  safetyHeading: "Before you start",
+  safety:
+    "General information, not medical advice. See a doctor if back pain hasn't improved after a few weeks, stops you doing everyday things, doesn't ease with rest or is worse at night, or comes with weight loss you can't explain. Get urgent medical help for back pain with pain, tingling, weakness or numbness in both legs; loss of feeling around your genitals or bottom; new trouble controlling your bladder or bowels; chest pain; fever or feeling generally unwell; sudden severe pain, or pain getting worse quickly; or pain after a serious accident.{3} ACSM's screening model says: if you are inactive, have no symptoms and no known heart, metabolic or kidney disease, you can start light to moderate exercise without medical clearance and build up gradually. If you have one of those conditions, or symptoms, get medical clearance first.{10} Pregnant, recently given birth, recent back surgery or a diagnosed spine condition? Ask your doctor or physiotherapist which moves suit you. Stop if pain spreads down a leg or gets sharply worse.",
+};
+
+const ar: PostCopy = {
+  metaTitle: "أفضل تمارين الجذع لصحة أسفل الظهر: 7 تمارين ونموذج لأسبوع | Jalan PT",
+  metaDescription:
+    "أفضل 7 تمارين للجذع لصحة أسفل الظهر: الحشرة الميتة، وتمرين الطائر والكلب، واللوح الجانبي، والحمل، وثني الورك. ماذا تقول الأبحاث، ومتى تراجع الطبيب، مع نموذج لأسبوع.",
+  h1: "أفضل تمارين الجذع لصحة أسفل الظهر: 7 تمارين ونموذج لأسبوع",
+  dek: "الجذع أكثر من عضلات البطن. الأمام والجانبان والظهر والوركان، تعمل معاً. درّبه 2 إلى 3 مرات في الأسبوع. واعرف متى تراجع الطبيب أولاً.",
+  updated: "تم التحديث في 1 نوفمبر 2026",
+  byline: "بقلم سوسميت جالان، مدرب في Jalan PT، بونه.",
+  credentialsNote:
+    "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+  labels: {
+    home: "الرئيسية",
+    blog: "المدونة",
+    why: "لماذا",
+    how: "كيف",
+    dose: "الجرعة",
+    sources: "المصادر",
+    readIn: "اقرأ بلغة أخرى",
+    programs: "اطّلع على البرامج",
+    whatsapp: "اسأل عبر واتساب",
+    whatsappText: "مرحباً سوسميت، قرأت مقال تمارين الجذع لصحة أسفل الظهر وأريد حجز استشارة",
+    skip: "انتقل إلى المحتوى",
+    crumb: "أفضل تمارين الجذع لصحة أسفل الظهر",
+  },
+  intro: [
+    "ألم الظهر شائع. ومعظمه يتحسّن من تلقاء نفسه خلال بضعة أسابيع. وأحياناً يستمر أطول، أو يعود مرة بعد مرة.{3}",
+    "نصيحة هيئة الصحة البريطانية (NHS): ابقَ نشيطاً، وواصل أنشطتك اليومية. لا تبقَ في السرير لفترات طويلة.{3}",
+    "التمرين من الأمور القليلة التي تتفق عليها الإرشادات. تقول منظمة الصحة العالمية إنه يمكن تقديم برنامج تمارين منظّم للبالغين المصابين بألم أسفل الظهر المزمن. وهي توصية مشروطة، مبنية على أدلة منخفضة اليقين.{1} ويقترح المعهد الوطني البريطاني للصحة والرعاية (NICE) التمارين الجماعية عند نوبة الألم.{2}",
+    "هذه القائمة للحفاظ على ظهر قوي. وليست علاجاً. إن كان ظهرك يؤلمك الآن، فاقرأ «قبل أن تبدأ» في النهاية أولاً.",
+    "تحتاج حصيرة، وشريط مقاومة، ودمبل أو حقيبة محمّلة، ومن 25 إلى 30 دقيقة.",
+  ],
+  listHeading: "أفضل 7 تمارين للجذع لصحة أسفل الظهر",
+  items: [
+    {
+      name: "الحشرة الميتة (Dead bug)",
+      why: "الجذع ثابت بينما تتحرك الذراعان والساقان. هذا هو عمل الجذع طوال اليوم.",
+      how: "استلقِ على ظهرك. الذراعان نحو السقف. الوركان والركبتان مثنية بزاوية 90 درجة. أسفل الظهر ملامس للأرض برفق. ازفر، ومدّ ذراعاً إلى الخلف والساق المقابلة إلى الأمام. فقط إلى الحد الذي يبقى فيه ظهرك على الأرض. عُد. بدّل.",
+      dose: "من 2 إلى 3 مجموعات من 6 إلى 10 لكل جانب. ببطء.",
+    },
+    {
+      name: "الطائر والكلب (Bird dog)",
+      why: "الفكرة نفسها، ووجهك إلى الأرض. عضلات الظهر والألوية تثبّت العمود الفقري وأنت تمدّ أطرافك.",
+      how: "اليدان تحت الكتفين، والركبتان تحت الوركين. مدّ ذراعاً إلى الأمام والساق المقابلة إلى الخلف، حتى تصبحا على مستوى جسمك. بلا التواء. بلا تقوّس في الظهر. اثبت 5 ثوانٍ. عُد. بدّل.",
+      dose: "من 2 إلى 3 مجموعات من 6 إلى 8 لكل جانب، مع ثبات 5 ثوانٍ.",
+    },
+    {
+      name: "اللوح الجانبي، على الركبتين ثم على القدمين",
+      why: "جانبا الجذع يمنعانك من الانحناء جانباً. ويعملان كلما حملت شيئاً بيد واحدة.",
+      how: "على جانبك، المرفق تحت الكتف، والركبتان مثنيتان. ارفع وركيك حتى يصبح جسمك خطاً مستقيماً من الرأس إلى الركبتين. واصل التنفس. عندما تصبح 30 ثانية سهلة، افرد الساقين وارتكز على القدمين.",
+      dose: "من 2 إلى 3 مرات ثبات من 15 إلى 30 ثانية لكل جانب.",
+    },
+    {
+      name: "جسر الألوية",
+      why: "الألوية القوية تجعل الوركين يقومان بالرفع، فلا يضطر أسفل الظهر إلى ذلك.",
+      how: "على ظهرك، الركبتان مثنيتان، والقدمان على الأرض. اشدد الألوية وارفع وركيك حتى تصطف الركبتان والوركان والكتفان. الأضلاع إلى الأسفل. لا تقوّس ظهرك. توقّف لحظة. انزل ببطء. سهل؟ ساق واحدة في كل مرة.",
+      dose: "3 مجموعات من 8 إلى 12.{9}",
+    },
+    {
+      name: "ضغطة بالوف (Pallof press) بشريط المقاومة",
+      why: "العمل الآخر للجذع: ألّا يلتفّ حين يشدّك شيء إلى الجانب. طفل على وركك. باب ثقيل. حقيبة على كتف واحد.",
+      how: "الشريط مثبّت على ارتفاع الصدر، بمثبّت باب أو بعمود متين. قف وجانبك إليه. أمسك الشريط عند صدرك. ادفعه إلى الأمام مباشرة. لا تدعه يديرك. اثبت ثانيتين. أعده. لا شريط؟ اعمل لوحاً أمامياً على الساعدين بدلاً منه.",
+      dose: "من 2 إلى 3 مجموعات من 8 إلى 10 لكل جانب. اللوح: من 2 إلى 3 مرات ثبات من 20 إلى 30 ثانية.",
+    },
+    {
+      name: "حمل الحقيبة بيد واحدة (Suitcase carry)",
+      why: "وزن واحد، بيد واحدة. على جذعك أن يبقى مستقيماً في وجهه. تدريب للجذع وأنت تمشي.",
+      how: "دمبل أو كيتلبل أو حقيبة محمّلة في يد واحدة. قف مستقيماً، والكتفان متساويان. امشِ ببطء. لا تمِل بعيداً عن الوزن. بدّل اليدين.",
+      dose: "من 3 إلى 4 مسافات من 20 إلى 30 متراً، أو 30 ثانية، لكل يد.",
+    },
+    {
+      name: "ثني الورك، ثم الرفعة الرومانية",
+      why: "الرفع من الأرض جزء من الحياة. ثني الورك يعلّمك أن تنحني من الوركين وظهرك ممدود. ثم يقوّي ساقيك وألويتك بما يكفي لذلك. في تحليل كبير لتجارب على ألم أسفل الظهر المزمن، جاء تدريب القوة بين أفضل أنواع التمارين للوظيفة البدنية. وكانت الأدلة منخفضة الجودة.{5}",
+      how: "ابدأ بعصا مكنسة على طول ظهرك: الرأس وأعلى الظهر وعظم العصعص تلامسها. ركبتان لينتان. ادفع وركيك إلى الخلف حتى تشعر بأوتار الركبة. قف بشدّ الألوية. ثم كرّرها وأنت تمسك دمبل أو حقيبة أمام فخذيك.",
+      dose: "3 مجموعات من 8 إلى 12. أضف وزناً فقط عندما يبقى ظهرك ممدوداً في كل تكرار.{9}",
+    },
+  ],
+  enoughHeading: "أيّ تمرين هو الأفضل، وكم مرة، وهل يجب أن يؤلم؟",
+  enough: [
+    "لا يوجد تمرين واحد يتفوّق. وجدت مراجعة كوكرين لـ 29 تجربة (2,431 شخصاً) أن تمارين التحكم الحركي «للجذع» لم تكن أفضل من أنواع التمارين الأخرى لألم أسفل الظهر المزمن. وقال الباحثون إن الاختيار يمكن أن يعتمد على التفضيل والتكلفة والأمان.{6}",
+    "صنّف تحليل شبكي لـ 89 دراسة (5,578 شخصاً يعانون ألم أسفل الظهر المزمن) البيلاتس في المرتبة الأولى للألم، وتدريب القوة وتمارين ثبات الجذع في المرتبة الأولى للوظيفة. ولم تكن الإطالة وحدها أفضل من عدم العلاج. وكانت الأدلة منخفضة الجودة.{5} لذلك تجمع هذه القائمة بين التحكم في الجذع والقوة.",
+    "كم يساعد؟ وجدت مراجعة كوكرين لـ 249 تجربة أن التمرين يخفّف على الأرجح ألم أسفل الظهر المزمن مقارنة بعدم العلاج: بنحو 15 نقطة على مقياس من 0 إلى 100. وكان الأثر على الوظيفة اليومية أصغر.{4} مفيد. وليس سحراً.",
+    "الوقاية مهمة أيضاً. في 8 تجارب شملت 1,634 شخصاً، خفّض التمرين وحده خطر ألم أسفل الظهر بنسبة 33%. ويقترح الباحثون تمارين القوة مع الإطالة أو التمارين الهوائية، 2 إلى 3 مرات في الأسبوع.{7} ووجدت مراجعة أخرى أن التمرين مع التثقيف خفّض خطر حدوث نوبة. أما التثقيف وحده وأحزمة الظهر ونعال الأحذية الطبية فلم يبدُ أنها تقي.{8}",
+    "طوّره كأي تدريب قوة. ابدأ بنسخة تستطيع أداء 8 إلى 12 تكراراً جيداً منها. عندما تتجاوز الهدف بتكرار أو اثنين، أضف قليلاً: حملاً أكثر بنسبة 2 إلى 10%، أو نسخة أصعب.{9}",
+    "هل يجب أن يؤلم؟ بعض ألم العضلات في اليوم التالي أمر طبيعي. في مراجعة كوكرين، كانت معظم الآثار الجانبية المُبلّغ عنها بسيطة، مثل ألم العضلات.{4} أما الألم الذي يزداد سوءاً فأمر مختلف. توقّف، وراجع الطبيب.{3}",
+  ],
+  sampleHeading: "نموذج لأسبوع من أجل ظهر أقوى",
+  sampleLabel: "نموذج فقط. ليس وصفة. عدّله بحسب جسمك وصحتك وتاريخك.",
+  sample: [
+    "الاثنين: الجذع A. إحماء، الحشرة الميتة، اللوح الجانبي، جسر الألوية، حمل الحقيبة.",
+    "الثلاثاء: مشي سريع.",
+    "الأربعاء: الجذع B. إحماء، الطائر والكلب، ضغطة بالوف، ثني الورك، حمل الحقيبة.",
+    "الخميس: مشي، أو راحة.",
+    "الجمعة: الجذع A مرة أخرى.",
+    "السبت: مشي أطول، أو شيء تستمتع به. السباحة، اليوغا، البيلاتس.",
+    "الأحد: راحة.",
+    "يوم راحة بين أيام تمارين الجذع. يوم طويل على المكتب؟ قم وتحرّك كثيراً.",
+  ],
+  coachedHeading: "تريد تدريباً مباشراً؟",
+  coached: [
+    "عائد بعد ألم في الظهر، وحصلت على الإذن بالتدريب؟ برنامج Return يناسبك. 45 دقيقة، 12 جلسة في الشهر بالتناوب: يوم تمرين ويوم راحة. نعيد بناء الحركة أولاً، ثم نضيف الحمل. أنا مدرب، لست طبيباً ولا أخصائي علاج طبيعي. إن كان لديك تشخيص، نعمل ضمن نصيحتهم.",
+    "تفضّل الساعة كاملة؟ Iron Hour مدته 60 دقيقة، فردياً. التجهيز في الدقيقة 0: الحصيرة والكاميرا بحيث أرى جسمك كاملاً، ومن الجانب لتمارين ثني الورك. الإحماء من الدقيقة 4. التمرين الأساسي في الدقيقة 14. التمارين المساعدة في 28: الحمل، واللوح الجانبي، والطائر والكلب. التهدئة في 50.",
+    "Lean Reset عشرون جلسة في الشهر، فردياً. Open Floor مجموعة صغيرة.",
+    "تدريب مباشر عبر Google Meet أو Zoom أو FaceTime. من بونه. بالهندية أو الإنجليزية. بتوقيت الهند (IST). لم تقرّر بعد؟ ابدأ باستشارة مدتها 30 دقيقة. هي محادثة، لا تدريب. الحجز يثبّت موعداً فقط. والرسوم يُتفق عليها مباشرة.",
+  ],
+  safetyHeading: "قبل أن تبدأ",
+  safety:
+    "معلومات عامة، وليست نصيحة طبية. راجع الطبيب إذا لم يتحسّن ألم الظهر بعد بضعة أسابيع، أو منعك من أنشطتك اليومية، أو لم يخفّ بالراحة أو كان أسوأ في الليل، أو جاء مع فقدان وزن لا تعرف سببه. اطلب مساعدة طبية عاجلة إذا رافق ألمَ الظهر ألمٌ أو وخز أو ضعف أو خدر في الساقين كلتيهما؛ أو فقدان الإحساس حول الأعضاء التناسلية أو فتحة الشرج؛ أو صعوبة جديدة في التحكم بالمثانة أو الأمعاء؛ أو ألم في الصدر؛ أو حمّى أو شعور عام بالتوعّك؛ أو ألم شديد مفاجئ، أو ألم يزداد سوءاً بسرعة؛ أو ألم بعد حادث خطير.{3} يقول نموذج الفحص المسبق من ACSM: إن كنت غير نشيط، وبلا أعراض، وبلا مرض معروف في القلب أو الأيض أو الكلى، يمكنك أن تبدأ تمريناً خفيفاً إلى معتدل دون إذن طبي وأن تزيده تدريجياً. إن كانت لديك إحدى هذه الحالات، أو أعراض، فاحصل على إذن طبي أولاً.{10} حامل، أو أنجبتِ حديثاً، أو أجريت جراحة في الظهر مؤخراً، أو لديك حالة مشخّصة في العمود الفقري؟ اسأل طبيبك أو أخصائي العلاج الطبيعي أيّ التمارين تناسبك. توقّف إذا امتد الألم إلى الساق أو ازداد بحدّة.",
+};
+
+const hi: PostCopy = {
+  metaTitle: "लोअर बैक की सेहत के लिए बेस्ट कोर एक्सरसाइज़: 7 मूव्स और एक सैंपल हफ़्ता | Jalan PT",
+  metaDescription:
+    "लोअर बैक की सेहत के लिए 7 बेस्ट कोर एक्सरसाइज़: डेड बग, बर्ड डॉग, साइड प्लैंक, कैरी और हिप हिंज। रिसर्च क्या कहती है, डॉक्टर को कब दिखाएँ, और एक सैंपल हफ़्ता।",
+  h1: "लोअर बैक की सेहत के लिए बेस्ट कोर एक्सरसाइज़: 7 मूव्स और एक सैंपल हफ़्ता",
+  dek: "कोर सिर्फ़ ऐब्स नहीं है। आगे, साइड, पीठ और हिप्स, सब साथ काम करते हैं। हफ़्ते में 2 से 3 बार ट्रेन करें। और जानें कि पहले डॉक्टर को कब दिखाना है।",
+  updated: "अपडेट: 1 नवंबर 2026",
+  byline: "सुस्मित जालान, कोच, Jalan PT, पुणे।",
+  credentialsNote:
+    "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+  labels: {
+    home: "होम",
+    blog: "ब्लॉग",
+    why: "क्यों",
+    how: "कैसे",
+    dose: "डोज़",
+    sources: "स्रोत",
+    readIn: "इसे इस भाषा में पढ़ें",
+    programs: "प्रोग्राम देखें",
+    whatsapp: "WhatsApp पर पूछें",
+    whatsappText: "नमस्ते सुस्मित, मैंने लोअर बैक के लिए कोर एक्सरसाइज़ का लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    skip: "सामग्री पर जाएँ",
+    crumb: "लोअर बैक की सेहत के लिए बेस्ट कोर एक्सरसाइज़",
+  },
+  intro: [
+    "पीठ दर्द आम है। ज़्यादातर यह कुछ हफ़्तों में अपने-आप ठीक हो जाता है। कभी-कभी ज़्यादा समय तक रहता है, या बार-बार लौटता है।{3}",
+    "NHS (ब्रिटेन की स्वास्थ्य सेवा) की सलाह: एक्टिव रहें, और रोज़ के काम जारी रखें। लंबे समय तक बिस्तर पर न रहें।{3}",
+    "एक्सरसाइज़ उन बातों में है जिन पर गाइडलाइंस सहमत हैं। WHO कहता है कि लंबे समय से चल रहे लोअर बैक दर्द वाले वयस्कों को एक संरचित एक्सरसाइज़ प्रोग्राम दिया जा सकता है। यह एक शर्तों वाली सिफ़ारिश है, कम निश्चितता वाले सबूतों पर।{1} NICE (ब्रिटेन) दर्द बढ़ने के दौर में ग्रुप एक्सरसाइज़ का सुझाव देता है।{2}",
+    "यह लिस्ट पीठ को मज़बूत रखने के लिए है। यह इलाज नहीं है। अगर अभी पीठ में दर्द है, तो पहले आख़िर में “शुरू करने से पहले” पढ़ें।",
+    "आपको चाहिए एक मैट, एक रेज़िस्टेंस बैंड, एक डम्बल या भरा हुआ बैग, और 25 से 30 मिनट।",
+  ],
+  listHeading: "लोअर बैक की सेहत के लिए 7 बेस्ट कोर एक्सरसाइज़",
+  items: [
+    {
+      name: "डेड बग",
+      why: "हाथ-पैर चलते हैं और धड़ स्थिर रहता है। यही काम आपका कोर दिन भर करता है।",
+      how: "पीठ के बल लेटें। हाथ छत की ओर। हिप्स और घुटने 90 डिग्री पर मुड़े हुए। लोअर बैक हल्के से ज़मीन पर। साँस छोड़ें, एक हाथ पीछे और उल्टा पैर सीधा आगे ले जाएँ। बस उतना, जितने में पीठ ज़मीन पर रहे। वापस आएँ। साइड बदलें।",
+      dose: "हर साइड 6 से 10 के 2 से 3 सेट। धीरे।",
+    },
+    {
+      name: "बर्ड डॉग",
+      why: "वही आइडिया, पेट के बल। पीठ की मसल्स और ग्लूट्स रीढ़ को स्थिर रखते हैं, जब आप हाथ-पैर फैलाते हैं।",
+      how: "हाथ कंधों के नीचे, घुटने हिप्स के नीचे। एक हाथ आगे और उल्टा पैर पीछे फैलाएँ, जब तक दोनों शरीर की सीध में न आ जाएँ। कोई घुमाव नहीं। पीठ में कमान नहीं। 5 सेकंड होल्ड। वापस आएँ। साइड बदलें।",
+      dose: "हर साइड 6 से 8 के 2 से 3 सेट, 5 सेकंड होल्ड के साथ।",
+    },
+    {
+      name: "साइड प्लैंक, पहले घुटनों पर फिर पैरों पर",
+      why: "धड़ की साइड की मसल्स आपको बगल में झुकने से रोकती हैं। हर बार जब आप एक हाथ में कुछ उठाते हैं, ये काम करती हैं।",
+      how: "करवट लेकर, कोहनी कंधे के नीचे, घुटने मुड़े हुए। हिप्स उठाएँ जब तक सिर से घुटनों तक एक सीधी लाइन न बने। साँस लेते रहें। जब 30 सेकंड आसान लगें, पैर सीधे करें और पैरों पर करें।",
+      dose: "हर साइड 15 से 30 सेकंड के 2 से 3 होल्ड।",
+    },
+    {
+      name: "ग्लूट ब्रिज",
+      why: "मज़बूत ग्लूट्स से उठाने का काम हिप्स करते हैं, लोअर बैक को नहीं करना पड़ता।",
+      how: "पीठ के बल, घुटने मुड़े, पैर ज़मीन पर। ग्लूट्स कसें और हिप्स उठाएँ जब तक घुटने, हिप्स और कंधे एक लाइन में न हों। पसलियाँ नीचे। कमान न बनाएँ। रुकें। धीरे नीचे आएँ। आसान? एक पैर से।",
+      dose: "8 से 12 के 3 सेट।{9}",
+    },
+    {
+      name: "बैंड के साथ पैलॉफ़ प्रेस",
+      why: "कोर का दूसरा काम: जब कुछ आपको बगल में खींचे, तब न मुड़ना। कूल्हे पर बच्चा। भारी दरवाज़ा। एक कंधे पर बैग।",
+      how: "बैंड छाती की ऊँचाई पर बँधा हो, डोर एंकर या किसी मज़बूत खंभे से। उसकी ओर साइड करके खड़े हों। बैंड को छाती पर पकड़ें। सीधा आगे दबाएँ। उसे आपको घुमाने न दें। 2 सेकंड होल्ड। वापस लाएँ। बैंड नहीं? उसकी जगह कोहनियों पर प्लैंक करें।",
+      dose: "हर साइड 8 से 10 के 2 से 3 सेट। प्लैंक: 20 से 30 सेकंड के 2 से 3 होल्ड।",
+    },
+    {
+      name: "सूटकेस कैरी",
+      why: "एक वज़न, एक हाथ। धड़ को उसके ख़िलाफ़ सीधा रहना पड़ता है। चलते-चलते कोर ट्रेनिंग।",
+      how: "एक हाथ में डम्बल, केटलबेल या भरा हुआ बैग। सीधे खड़े हों, कंधे बराबर। धीरे चलें। वज़न से दूर न झुकें। हाथ बदलें।",
+      dose: "हर हाथ 20 से 30 मीटर की, या 30 सेकंड की, 3 से 4 वॉक।",
+    },
+    {
+      name: "हिप हिंज, फिर रोमानियन डेडलिफ़्ट",
+      why: "ज़मीन से कुछ उठाना ज़िंदगी का हिस्सा है। हिंज सिखाता है कि पीठ लंबी रखकर हिप्स से झुकें। फिर यह पैरों और ग्लूट्स को इसके लिए मज़बूत बनाता है। लंबे लोअर बैक दर्द पर ट्रायल्स के एक बड़े एनालिसिस में स्ट्रेंथ ट्रेनिंग शारीरिक काम-काज के लिए सबसे अच्छे एक्सरसाइज़ प्रकारों में रही। सबूत कम गुणवत्ता के थे।{5}",
+      how: "पीठ पर एक झाड़ू का डंडा रखकर शुरू करें: सिर, ऊपरी पीठ और टेलबोन उसे छुएँ। घुटने ढीले। हिप्स पीछे धकेलें जब तक हैमस्ट्रिंग में खिंचाव न लगे। ग्लूट्स कसकर खड़े हों। फिर यही जाँघों के आगे डम्बल या बैग पकड़कर करें।",
+      dose: "8 से 12 के 3 सेट। वज़न तभी बढ़ाएँ जब हर रेप में पीठ लंबी रहे।{9}",
+    },
+  ],
+  enoughHeading: "कौन-सी एक्सरसाइज़ सबसे अच्छी, कितनी बार, और क्या दर्द होना चाहिए?",
+  enough: [
+    "कोई एक एक्सरसाइज़ सबसे ऊपर नहीं है। 29 ट्रायल्स (2,431 लोग) के एक Cochrane रिव्यू में “कोर” मोटर कंट्रोल एक्सरसाइज़ लंबे लोअर बैक दर्द के लिए दूसरी एक्सरसाइज़ से बेहतर नहीं निकली। लेखकों ने कहा कि चुनाव पसंद, ख़र्च और सुरक्षा पर हो सकता है।{6}",
+    "89 स्टडीज़ (लंबे लोअर बैक दर्द वाले 5,578 लोग) के एक नेटवर्क एनालिसिस ने दर्द के लिए पिलाटेस को, और काम-काज के लिए स्ट्रेंथ ट्रेनिंग और कोर स्टेबिलिटी को सबसे ऊपर रखा। सिर्फ़ स्ट्रेचिंग, बिना इलाज से बेहतर नहीं रही। सबूत कम गुणवत्ता के थे।{5} इसलिए यह लिस्ट कोर कंट्रोल और स्ट्रेंथ को मिलाती है।",
+    "कितनी मदद करती है? 249 ट्रायल्स के एक Cochrane रिव्यू में पाया गया कि एक्सरसाइज़ बिना इलाज की तुलना में लंबे लोअर बैक दर्द को शायद कम करती है: 0 से 100 के स्केल पर लगभग 15 पॉइंट। रोज़ के काम-काज पर असर इससे कम था।{4} काम की चीज़। जादू नहीं।",
+    "बचाव भी मायने रखता है। 1,634 लोगों वाले 8 ट्रायल्स में अकेले एक्सरसाइज़ से लोअर बैक दर्द का जोखिम 33% कम हुआ। लेखक हफ़्ते में 2 से 3 बार स्ट्रेंथ वर्क के साथ स्ट्रेचिंग या एरोबिक एक्सरसाइज़ का सुझाव देते हैं।{7} एक और रिव्यू में एक्सरसाइज़ और जानकारी साथ मिलकर दर्द के दौर का जोखिम कम करती दिखी। अकेले जानकारी, बैक बेल्ट और जूतों के इनसोल से बचाव नहीं दिखा।{8}",
+    "इसे किसी भी स्ट्रेंथ वर्क की तरह आगे बढ़ाएँ। ऐसे वर्ज़न से शुरू करें जिसके 8 से 12 अच्छे रेप हो सकें। जब टारगेट से 1 या 2 रेप ज़्यादा हो जाएँ, थोड़ा बढ़ाएँ: 2 से 10% ज़्यादा वज़न, या कठिन वर्ज़न।{9}",
+    "क्या दर्द होना चाहिए? अगले दिन मसल्स में थोड़ा दर्द सामान्य है। Cochrane रिव्यू में ज़्यादातर बताए गए साइड इफ़ेक्ट मामूली थे, जैसे मसल्स में दर्द।{4} जो दर्द बढ़ता जाए, वह अलग बात है। रुकें, और डॉक्टर को दिखाएँ।{3}",
+  ],
+  sampleHeading: "मज़बूत पीठ के लिए एक सैंपल हफ़्ता",
+  sampleLabel: "सिर्फ़ सैंपल। प्रिस्क्रिप्शन नहीं। अपने शरीर, अपनी सेहत और अपने इतिहास के हिसाब से बदलें।",
+  sample: [
+    "सोमवार: कोर A। वार्म-अप, डेड बग, साइड प्लैंक, ग्लूट ब्रिज, सूटकेस कैरी।",
+    "मंगलवार: तेज़ वॉक।",
+    "बुधवार: कोर B। वार्म-अप, बर्ड डॉग, पैलॉफ़ प्रेस, हिप हिंज, सूटकेस कैरी।",
+    "गुरुवार: वॉक, या आराम।",
+    "शुक्रवार: फिर से कोर A।",
+    "शनिवार: लंबी वॉक, या कुछ जो आपको पसंद हो। तैराकी, योग, पिलाटेस।",
+    "रविवार: आराम।",
+    "कोर के दिनों के बीच एक दिन आराम। डेस्क पर लंबा दिन? बार-बार उठें और चलें।",
+  ],
+  coachedHeading: "लाइव कोचिंग चाहिए?",
+  coached: [
+    "पीठ दर्द के बाद लौट रहे हैं, और ट्रेनिंग की इजाज़त मिल गई है? Return सही बैठता है। 45 मिनट, महीने में 12 सेशन, एक दिन छोड़कर। हर बार सेशन के बीच एक दिन आराम। पहले मूवमेंट दोबारा बनाते हैं, फिर वज़न जोड़ते हैं। मैं कोच हूँ, डॉक्टर या फ़िज़ियो नहीं। अगर डायग्नोसिस है, तो हम उनकी सलाह के भीतर काम करते हैं।",
+    "पूरा घंटा चाहिए? Iron Hour 60 मिनट का है, 1:1। मिनट 0 पर सेट-अप: मैट और कैमरा ऐसे कि मुझे पूरा शरीर दिखे, हिंज के लिए साइड से। मिनट 4 से वार्म-अप। मिनट 14 पर मुख्य लिफ़्ट। 28 पर एक्सेसरीज़: कैरी, साइड प्लैंक, बर्ड डॉग। 50 पर कूल-डाउन।",
+    "Lean Reset महीने में 20 सेशन, 1:1। Open Floor एक छोटा ग्रुप है।",
+    "Google Meet, Zoom या FaceTime पर लाइव कोचिंग। पुणे से। हिंदी या अंग्रेज़ी में। IST पर। अभी तय नहीं? 30 मिनट के कंसल्टेशन से शुरू करें। यह बातचीत है, ट्रेनिंग नहीं। बुकिंग सिर्फ़ समय रोकती है। फ़ीस सीधे तय होती है।",
+  ],
+  safetyHeading: "शुरू करने से पहले",
+  safety:
+    "सामान्य जानकारी, मेडिकल सलाह नहीं। डॉक्टर को दिखाएँ अगर पीठ दर्द कुछ हफ़्तों में ठीक न हो, रोज़ के काम रोक दे, आराम से कम न हो या रात में बढ़े, या बिना वजह वज़न घटने के साथ हो। तुरंत मेडिकल मदद लें अगर पीठ दर्द के साथ दोनों पैरों में दर्द, झनझनाहट, कमज़ोरी या सुन्नपन हो; जननांगों या गुदा के आसपास संवेदना चली जाए; पेशाब या मल पर नियंत्रण में नई दिक़्क़त हो; छाती में दर्द हो; बुख़ार हो या आम तौर पर तबीयत ख़राब लगे; अचानक तेज़ दर्द हो, या दर्द तेज़ी से बढ़े; या किसी गंभीर दुर्घटना के बाद दर्द हो।{3} ACSM का स्क्रीनिंग मॉडल कहता है: अगर आप एक्टिव नहीं हैं, कोई लक्षण नहीं है और दिल, मेटाबॉलिक या किडनी की कोई ज्ञात बीमारी नहीं है, तो आप बिना मेडिकल क्लियरेंस के हल्की से मध्यम एक्सरसाइज़ शुरू करके धीरे-धीरे बढ़ा सकते हैं। अगर इनमें से कोई बीमारी या लक्षण है, तो पहले मेडिकल क्लियरेंस लें।{10} गर्भवती हैं, हाल में बच्चा हुआ है, हाल में पीठ की सर्जरी हुई है, या रीढ़ की कोई डायग्नोस्ड समस्या है? अपने डॉक्टर या फ़िज़ियोथेरेपिस्ट से पूछें कि कौन-से मूव्स आपके लिए ठीक हैं। अगर दर्द पैर में नीचे फैले या अचानक तेज़ हो, तो रुक जाएँ।",
+};
+
+const es: PostCopy = {
+  metaTitle: "Mejores ejercicios de core para la salud lumbar: 7 ejercicios y una semana de ejemplo | Jalan PT",
+  metaDescription:
+    "Los 7 mejores ejercicios de core para la salud de la zona lumbar: dead bug, bird dog, plancha lateral, cargas y bisagra de cadera. Qué dice la investigación, cuándo ir al médico y una semana de ejemplo.",
+  h1: "Mejores ejercicios de core para la salud lumbar: 7 ejercicios y una semana de ejemplo",
+  dek: "El core es más que abdominales. Delante, los lados, la espalda y las caderas, trabajando juntos. Entrénalo 2 o 3 veces por semana. Y sabe cuándo ir antes al médico.",
+  updated: "Actualizado el 1 de noviembre de 2026",
+  byline: "Por Susmit Jalan, entrenador en Jalan PT, Pune.",
+  credentialsNote:
+    "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+  labels: {
+    home: "Inicio",
+    blog: "Blog",
+    why: "Por qué",
+    how: "Cómo",
+    dose: "Dosis",
+    sources: "Fuentes",
+    readIn: "Leer en",
+    programs: "Ver los programas",
+    whatsapp: "Pregunta por WhatsApp",
+    whatsappText: "Hola Susmit, leí el artículo sobre ejercicios de core para la salud lumbar y quiero reservar una consulta",
+    skip: "Saltar al contenido",
+    crumb: "Mejores ejercicios de core para la salud lumbar",
+  },
+  intro: [
+    "El dolor de espalda es frecuente. La mayoría mejora solo en unas semanas. A veces dura más, o vuelve una y otra vez.{3}",
+    "El consejo del NHS (el sistema de salud británico): mantente activo y sigue con tus actividades diarias. No te quedes en la cama durante mucho tiempo.{3}",
+    "El ejercicio es algo en lo que coinciden las guías. La OMS dice que se puede ofrecer un programa de ejercicio estructurado a adultos con dolor lumbar crónico. Es una recomendación condicional, con evidencia de certeza baja.{1} El NICE británico sugiere ejercicio en grupo durante una crisis de dolor.{2}",
+    "Esta lista es para mantener la espalda fuerte. No es un tratamiento. Si ahora te duele la espalda, lee primero «Antes de empezar», al final.",
+    "Necesitas una esterilla, una banda elástica, una mancuerna o una bolsa con peso, y de 25 a 30 minutos.",
+  ],
+  listHeading: "Los 7 mejores ejercicios de core para la salud lumbar",
+  items: [
+    {
+      name: "Dead bug (bicho muerto)",
+      why: "El tronco se queda quieto mientras se mueven brazos y piernas. Es el trabajo que hace tu core todo el día.",
+      how: "Túmbate boca arriba. Brazos hacia el techo. Caderas y rodillas dobladas a 90 grados. La zona lumbar apoyada suavemente en el suelo. Suelta el aire y lleva un brazo atrás y la pierna contraria estirada. Solo hasta donde la espalda siga apoyada. Vuelve. Cambia.",
+      dose: "2 a 3 series de 6 a 10 por lado. Lento.",
+    },
+    {
+      name: "Bird dog (cuadrupedia con extensión)",
+      why: "La misma idea, boca abajo. Los músculos de la espalda y los glúteos mantienen la columna estable mientras te estiras.",
+      how: "Manos bajo los hombros, rodillas bajo las caderas. Estira un brazo hacia delante y la pierna contraria hacia atrás, hasta que queden a la altura del cuerpo. Sin girar. Sin arquear la espalda. Aguanta 5 segundos. Vuelve. Cambia.",
+      dose: "2 a 3 series de 6 a 8 por lado, aguantando 5 segundos.",
+    },
+    {
+      name: "Plancha lateral, de rodillas y luego de pies",
+      why: "Los lados del tronco evitan que te dobles hacia un lado. Trabajan cada vez que llevas algo en una mano.",
+      how: "De lado, codo bajo el hombro, rodillas dobladas. Sube la cadera hasta formar una línea recta de la cabeza a las rodillas. Sigue respirando. Cuando 30 segundos sean fáciles, estira las piernas y apóyate en los pies.",
+      dose: "2 a 3 aguantes de 15 a 30 segundos por lado.",
+    },
+    {
+      name: "Puente de glúteo",
+      why: "Unos glúteos fuertes hacen que la cadera haga el esfuerzo, y no la zona lumbar.",
+      how: "Boca arriba, rodillas dobladas, pies apoyados. Aprieta los glúteos y sube la cadera hasta alinear rodillas, cadera y hombros. Costillas abajo. No arquees. Pausa. Baja despacio. ¿Fácil? Con una pierna.",
+      dose: "3 series de 8 a 12.{9}",
+    },
+    {
+      name: "Press Pallof con banda",
+      why: "El otro trabajo del core: no girar cuando algo tira de ti hacia un lado. Un niño en la cadera. Una puerta pesada. Una bolsa en un hombro.",
+      how: "Banda anclada a la altura del pecho, en un anclaje de puerta o un poste firme. Ponte de lado. Sujeta la banda en el pecho. Empújala recta hacia delante. No dejes que te gire. Aguanta 2 segundos. Vuelve. ¿Sin banda? Haz una plancha sobre antebrazos.",
+      dose: "2 a 3 series de 8 a 10 por lado. Plancha: 2 a 3 aguantes de 20 a 30 segundos.",
+    },
+    {
+      name: "Paseo con maleta (suitcase carry)",
+      why: "Un peso, una mano. El tronco tiene que mantenerse recto contra él. Core mientras caminas.",
+      how: "Una mancuerna, una kettlebell o una bolsa con peso en una mano. Erguido, hombros nivelados. Camina despacio. No te inclines hacia el otro lado. Cambia de mano.",
+      dose: "3 a 4 recorridos de 20 a 30 metros, o 30 segundos, con cada mano.",
+    },
+    {
+      name: "Bisagra de cadera y luego peso muerto rumano",
+      why: "Levantar cosas del suelo es parte de la vida. La bisagra te enseña a doblarte desde la cadera con la espalda larga. Luego hace que piernas y glúteos sean lo bastante fuertes. En un gran análisis de ensayos en dolor lumbar crónico, el entrenamiento de fuerza quedó entre los mejores tipos de ejercicio para la función física. La evidencia era de baja calidad.{5}",
+      how: "Empieza con un palo de escoba a lo largo de la espalda: cabeza, parte alta de la espalda y coxis tocándolo. Rodillas suaves. Lleva la cadera atrás hasta notar los isquiotibiales. Sube apretando los glúteos. Después, hazlo con una mancuerna o una bolsa delante de los muslos.",
+      dose: "3 series de 8 a 12. Añade peso solo cuando la espalda se mantenga larga en cada repetición.{9}",
+    },
+  ],
+  enoughHeading: "¿Qué ejercicio es mejor, con qué frecuencia y debería doler?",
+  enough: [
+    "Ningún ejercicio gana por sí solo. Una revisión Cochrane de 29 ensayos (2.431 personas) vio que el ejercicio de control motor «de core» no era mejor que otros tipos de ejercicio para el dolor lumbar crónico. Los autores dijeron que la elección puede depender de la preferencia, el coste y la seguridad.{6}",
+    "Un análisis en red de 89 estudios (5.578 personas con dolor lumbar crónico) puso el pilates en primer lugar para el dolor, y la fuerza y el trabajo de estabilidad del core en primer lugar para la función. Estirar solo no fue mejor que no hacer nada. La evidencia era de baja calidad.{5} Por eso esta lista mezcla control del core y fuerza.",
+    "¿Cuánto ayuda? Una revisión Cochrane de 249 ensayos encontró que el ejercicio probablemente reduce el dolor lumbar crónico frente a no tratarlo: unos 15 puntos en una escala de 0 a 100. El efecto sobre la función diaria fue menor.{4} Útil. No es magia.",
+    "La prevención también cuenta. En 8 ensayos con 1.634 personas, el ejercicio solo redujo un 33% el riesgo de dolor lumbar. Los autores sugieren fuerza con estiramientos o ejercicio aeróbico, 2 o 3 veces por semana.{7} Otra revisión encontró que el ejercicio con educación reducía el riesgo de un episodio. La educación sola, las fajas lumbares y las plantillas no parecieron prevenirlo.{8}",
+    "Progrésalo como cualquier trabajo de fuerza. Empieza con una versión de la que puedas hacer 8 a 12 buenas repeticiones. Cuando superes el objetivo en 1 o 2, añade un poco: un 2 a 10% más de carga, o una versión más difícil.{9}",
+    "¿Debería doler? Algo de agujetas al día siguiente es normal. En la revisión Cochrane, la mayoría de los efectos adversos descritos fueron leves, como el dolor muscular.{4} El dolor que empeora es otra cosa. Para y ve al médico.{3}",
+  ],
+  sampleHeading: "Una semana de ejemplo para una espalda más fuerte",
+  sampleLabel: "Solo un ejemplo. No es una prescripción. Ajústalo a tu cuerpo, tu salud y tu historia.",
+  sample: [
+    "Lunes: Core A. Calentamiento, dead bug, plancha lateral, puente de glúteo, paseo con maleta.",
+    "Martes: caminata a buen ritmo.",
+    "Miércoles: Core B. Calentamiento, bird dog, press Pallof, bisagra de cadera, paseo con maleta.",
+    "Jueves: caminar, o descanso.",
+    "Viernes: Core A otra vez.",
+    "Sábado: una caminata más larga, o algo que disfrutes. Nadar, yoga, pilates.",
+    "Domingo: descanso.",
+    "Un día de descanso entre días de core. ¿Un día largo en la mesa? Levántate y muévete a menudo.",
+  ],
+  coachedHeading: "¿Lo quieres con entrenador en directo?",
+  coached: [
+    "¿Vuelves tras un dolor de espalda y ya tienes el visto bueno para entrenar? Return encaja. 45 minutos, 12 sesiones al mes en días alternos. Siempre un día de descanso entre sesiones. Primero reconstruimos el movimiento, luego añadimos carga. Soy entrenador, no médico ni fisioterapeuta. Si tienes un diagnóstico, trabajamos dentro de sus indicaciones.",
+    "¿Prefieres la hora completa? Iron Hour son 60 minutos, 1:1. Preparación en el minuto 0: esterilla y cámara colocadas para que vea todo tu cuerpo, de lado para las bisagras. Calentamiento desde el minuto 4. El ejercicio principal en el 14. Accesorios en el 28: cargas, planchas laterales, bird dogs. Vuelta a la calma en el 50.",
+    "Lean Reset son 20 sesiones al mes, 1:1. Open Floor es un grupo pequeño.",
+    "En directo por Google Meet, Zoom o FaceTime. Desde Pune. En hindi o inglés. En horario IST. ¿Aún no lo tienes claro? Empieza con una consulta de 30 minutos. Es una conversación, no un entrenamiento. La reserva solo guarda una hora. La tarifa se acuerda directamente.",
+  ],
+  safetyHeading: "Antes de empezar",
+  safety:
+    "Información general, no consejo médico. Ve al médico si el dolor de espalda no ha mejorado en unas semanas, te impide hacer tus cosas del día, no cede con el reposo o empeora por la noche, o viene con una pérdida de peso que no te explicas. Busca atención médica urgente si el dolor de espalda viene con dolor, hormigueo, debilidad o entumecimiento en las dos piernas; pérdida de sensibilidad alrededor de los genitales o el ano; problemas nuevos para controlar la vejiga o el intestino; dolor en el pecho; fiebre o malestar general; dolor intenso repentino, o que empeora rápido; o dolor tras un accidente grave.{3} El modelo de cribado del ACSM dice: si eres inactivo, no tienes síntomas ni enfermedad conocida del corazón, metabólica o renal, puedes empezar con ejercicio ligero a moderado sin autorización médica e ir subiendo poco a poco. Si tienes una de esas enfermedades, o síntomas, consigue primero la autorización médica.{10} ¿Embarazada, parto reciente, cirugía de espalda reciente o una afección de columna diagnosticada? Pregunta a tu médico o fisioterapeuta qué ejercicios te convienen. Para si el dolor baja por una pierna o empeora de golpe.",
+};
+
+const zh: PostCopy = {
+  metaTitle: "有益下背部健康的最佳核心训练：7个动作和一周示例 | Jalan PT",
+  metaDescription:
+    "有益下背部健康的7个最佳核心训练：死虫式、鸟狗式、侧平板、负重行走和髋铰链。研究怎么说、何时该看医生，以及一周训练示例。",
+  h1: "有益下背部健康的最佳核心训练：7个动作和一周示例",
+  dek: "核心不只是腹肌。前侧、两侧、背部和髋部，一起工作。每周练2到3次。也要知道什么时候应该先看医生。",
+  updated: "更新于2026年11月1日",
+  byline: "作者：Susmit Jalan，Jalan PT教练，浦那。",
+  credentialsNote:
+    "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+  labels: {
+    home: "首页",
+    blog: "博客",
+    why: "为什么",
+    how: "怎么做",
+    dose: "训练量",
+    sources: "参考来源",
+    readIn: "其他语言版本",
+    programs: "查看课程",
+    whatsapp: "通过WhatsApp咨询",
+    whatsappText: "你好Susmit，我读了关于下背部健康核心训练的文章，想预约一次咨询",
+    skip: "跳到正文",
+    crumb: "有益下背部健康的最佳核心训练",
+  },
+  intro: [
+    "背痛很常见。大多数会在几周内自行好转。有时会持续更久，或反复出现。{3}",
+    "英国国民医疗服务体系（NHS）的建议：保持活动，继续日常活动。不要长时间卧床。{3}",
+    "运动是各大指南都认同的一点。世界卫生组织表示，可以为慢性下背痛的成年人提供有组织的运动方案。这是一项有条件的推荐，证据确定性低。{1}英国国家卫生与临床优化研究所（NICE）建议在疼痛发作期进行团体运动。{2}",
+    "这份清单是为了让背部保持强壮。它不是治疗。如果你现在背痛，请先读文末的“开始之前”。",
+    "你需要一张垫子、一条弹力带、一个哑铃或装了重物的包，以及25到30分钟。",
+  ],
+  listHeading: "有益下背部健康的7个最佳核心训练",
+  items: [
+    {
+      name: "死虫式（Dead bug）",
+      why: "手臂和腿在动，躯干保持不动。这正是核心一整天在做的事。",
+      how: "仰卧。双臂指向天花板。髋和膝屈曲90度。下背轻贴地面。呼气，一侧手臂向后伸，对侧腿向前伸直。只伸到背部还能贴地的程度。还原。换边。",
+      dose: "每侧6到10次，2到3组。慢。",
+    },
+    {
+      name: "鸟狗式（Bird dog）",
+      why: "同样的思路，换成俯身。背部肌肉和臀肌在你伸展时稳住脊柱。",
+      how: "双手在肩膀正下方，膝盖在髋部正下方。一侧手臂向前、对侧腿向后伸，直到与身体平齐。不要扭转。不要塌腰拱背。保持5秒。还原。换边。",
+      dose: "每侧6到8次，2到3组，每次保持5秒。",
+    },
+    {
+      name: "侧平板，先跪姿再脚撑",
+      why: "躯干两侧防止你向侧面弯。每次单手提东西时，它们都在工作。",
+      how: "侧卧，手肘在肩膀正下方，屈膝。抬起髋部，直到从头到膝成一条直线。保持呼吸。当30秒变得轻松，伸直双腿，改用双脚支撑。",
+      dose: "每侧保持15到30秒，2到3次。",
+    },
+    {
+      name: "臀桥",
+      why: "臀肌强壮，就由髋部来发力，下背不用代劳。",
+      how: "仰卧，屈膝，双脚踩地。收紧臀肌，抬起髋部，直到膝、髋、肩成一线。肋骨下沉。不要拱腰。停顿。慢慢放下。太轻松？改为单腿。",
+      dose: "8到12次，3组。{9}",
+    },
+    {
+      name: "弹力带Pallof推",
+      why: "核心的另一项工作：有东西把你往侧面拉时，不被带着扭转。抱孩子在一侧髋上。推一扇沉重的门。单肩背包。",
+      how: "弹力带固定在胸口高度，用门锚或结实的柱子。侧身站立。双手在胸前握住弹力带。向正前方推出。别让它把你拉转。保持2秒。收回。没有弹力带？改做前臂平板支撑。",
+      dose: "每侧8到10次，2到3组。平板支撑：保持20到30秒，2到3次。",
+    },
+    {
+      name: "单侧负重行走（Suitcase carry）",
+      why: "一个重物，一只手。躯干必须对抗它保持直立。边走边练核心。",
+      how: "单手拿哑铃、壶铃或装了重物的包。站直，双肩水平。慢慢走。不要向另一侧倾斜。换手。",
+      dose: "每只手走20到30米或30秒，3到4趟。",
+    },
+    {
+      name: "髋铰链，然后罗马尼亚硬拉",
+      why: "从地上拿东西是生活的一部分。髋铰链教你保持背部伸展、从髋部屈身。然后让腿和臀部强壮到足以做到。在一项针对慢性下背痛试验的大型分析中，力量训练在改善身体功能的运动类型中名列前茅。证据质量低。{5}",
+      how: "先把一根扫帚杆贴在背上：头、上背和尾骨都碰到它。膝盖微屈。髋部向后推，直到感觉到腘绳肌。收紧臀肌站起来。然后在大腿前方拿着哑铃或包来做。",
+      dose: "8到12次，3组。只有当每一次背部都保持伸展时才加重。{9}",
+    },
+  ],
+  enoughHeading: "哪个动作最好，多久练一次，应该疼吗？",
+  enough: [
+    "没有哪一个动作独占鳌头。一项纳入29项试验（2,431人）的Cochrane综述发现，针对慢性下背痛，“核心”运动控制训练并不比其他运动更好。作者表示，可以根据个人偏好、费用和安全性来选择。{6}",
+    "一项纳入89项研究（5,578名慢性下背痛患者）的网状分析中，普拉提在缓解疼痛方面排名最高，力量训练和核心稳定训练在改善功能方面排名最高。单纯拉伸并不比不治疗更好。证据质量低。{5}所以这份清单把核心控制和力量结合起来。",
+    "能帮多少？一项纳入249项试验的Cochrane综述发现，与不治疗相比，运动很可能减轻慢性下背痛：在0到100的量表上约15分。对日常功能的影响更小。{4}有用，但不是魔法。",
+    "预防也很重要。在8项共1,634人的试验中，单纯运动使下背痛风险降低了33%。作者建议每周2到3次，力量训练配合拉伸或有氧运动。{7}另一项综述发现，运动加健康教育降低了发作风险。单纯教育、护腰带和鞋垫似乎没有预防作用。{8}",
+    "像任何力量训练一样逐步进阶。从能做8到12次标准动作的版本开始。当你比目标多做1到2次，就加一点：负荷增加2%到10%，或换更难的版本。{9}",
+    "应该疼吗？第二天有些肌肉酸痛是正常的。在Cochrane综述中，报告的不良反应大多轻微，比如肌肉酸痛。{4}越来越重的疼痛就是另一回事了。停下来，去看医生。{3}",
+  ],
+  sampleHeading: "让背部更强壮的一周示例",
+  sampleLabel: "仅为示例，不是处方。请根据你的身体、健康状况和经历调整。",
+  sample: [
+    "周一：核心A。热身、死虫式、侧平板、臀桥、单侧负重行走。",
+    "周二：快走。",
+    "周三：核心B。热身、鸟狗式、Pallof推、髋铰链、单侧负重行走。",
+    "周四：散步，或休息。",
+    "周五：再做一次核心A。",
+    "周六：走得更久一些，或做你喜欢的运动。游泳、瑜伽、普拉提。",
+    "周日：休息。",
+    "两次核心训练之间休息一天。在办公桌前坐了一整天？经常起来活动。",
+  ],
+  coachedHeading: "想要实时指导？",
+  coached: [
+    "背痛之后重新开始，并且已获准训练？Return很适合。每次45分钟，每月12次，隔天一次。每两次之间都休息一天。我们先重建动作，再增加负荷。我是教练，不是医生或理疗师。如果你有诊断，我们会在他们的建议范围内训练。",
+    "想要完整的一小时？Iron Hour是60分钟，一对一。第0分钟准备：摆好垫子和摄像头，让我能看到你的全身，做髋铰链时从侧面拍。第4分钟开始热身。第14分钟进入主项。第28分钟做辅助练习：负重行走、侧平板、鸟狗式。第50分钟放松。",
+    "Lean Reset每月20次，一对一。Open Floor是小组课。",
+    "通过Google Meet、Zoom或FaceTime实时指导。来自浦那。印地语或英语。按印度标准时间（IST）。还没决定？先从30分钟的咨询开始。那是一次交谈，不是训练。预约只是保留一个时间。费用直接商定。",
+  ],
+  safetyHeading: "开始之前",
+  safety:
+    "一般信息，不是医疗建议。如果背痛几周后没有好转、影响日常活动、休息后不缓解或夜间加重，或伴有不明原因的体重下降，请去看医生。如果背痛同时出现以下情况，请立即就医：双腿疼痛、刺痛、无力或麻木；生殖器或肛门周围失去感觉；新出现的膀胱或排便控制问题；胸痛；发烧或全身不适；突然剧痛，或疼痛迅速加重；或在严重事故后出现疼痛。{3}ACSM的运动前筛查模型指出：如果你平时不运动、没有症状，也没有已知的心脏、代谢或肾脏疾病，可以在没有医疗许可的情况下从低到中等强度开始，逐步增加。如果有上述疾病或症状，请先取得医疗许可。{10}怀孕、刚生产、近期做过背部手术，或有已确诊的脊柱疾病？请询问医生或理疗师哪些动作适合你。如果疼痛向腿部放射或突然加剧，请停止。",
+};
+
+const ja: PostCopy = {
+  metaTitle: "腰の健康のためのベスト体幹トレーニング：7種目と1週間の例 | Jalan PT",
+  metaDescription:
+    "腰の健康のためのベスト体幹トレーニング7選：デッドバグ、バードドッグ、サイドプランク、キャリー、ヒップヒンジ。研究が示すこと、医師に相談すべきとき、1週間の例。",
+  h1: "腰の健康のためのベスト体幹トレーニング：7種目と1週間の例",
+  dek: "体幹は腹筋だけではありません。前、横、背中、股関節が一緒に働きます。週2〜3回鍛えましょう。そして、先に医師に相談すべきときを知っておきましょう。",
+  updated: "2026年11月1日更新",
+  byline: "執筆：Susmit Jalan（Jalan PT コーチ、プネー）",
+  credentialsNote:
+    "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+  labels: {
+    home: "ホーム",
+    blog: "ブログ",
+    why: "なぜ",
+    how: "やり方",
+    dose: "回数・量",
+    sources: "出典",
+    readIn: "他の言語で読む",
+    programs: "プログラムを見る",
+    whatsapp: "WhatsAppで質問する",
+    whatsappText: "こんにちは Susmit さん、腰の健康のための体幹トレーニングの記事を読みました。相談を予約したいです",
+    skip: "本文へスキップ",
+    crumb: "腰の健康のためのベスト体幹トレーニング",
+  },
+  intro: [
+    "腰痛はよくあることです。ほとんどは数週間で自然に良くなります。長引いたり、繰り返したりすることもあります。{3}",
+    "英国の国民保健サービス（NHS）の助言：活動的に過ごし、日常の活動を続けること。長い時間ベッドで過ごさないこと。{3}",
+    "運動は、各ガイドラインが一致している点のひとつです。WHOは、慢性腰痛のある成人に構造化された運動プログラムを提供してもよいとしています。確実性の低いエビデンスに基づく条件付き推奨です。{1}英国のNICEは、痛みが強まった時期のグループ運動を提案しています。{2}",
+    "このリストは腰を強く保つためのものです。治療ではありません。いま腰が痛むなら、まず最後の「始める前に」を読んでください。",
+    "必要なのは、マット、トレーニングバンド、ダンベルか重りを入れたバッグ、そして25〜30分です。",
+  ],
+  listHeading: "腰の健康のためのベスト体幹トレーニング7選",
+  items: [
+    {
+      name: "デッドバグ",
+      why: "腕と脚が動く間、胴体は動かない。これが体幹が一日中している仕事です。",
+      how: "仰向けに寝る。腕は天井へ。股関節と膝は90度に曲げる。腰はそっと床につける。息を吐きながら、片腕を後ろへ、反対の脚を前へ伸ばす。腰が床から離れない範囲だけ。戻す。反対側。",
+      dose: "左右各6〜10回を2〜3セット。ゆっくり。",
+    },
+    {
+      name: "バードドッグ",
+      why: "同じ考え方を、うつ伏せの姿勢で。手足を伸ばす間、背中の筋肉とお尻が背骨を安定させます。",
+      how: "手は肩の真下、膝は股関節の真下。片腕を前へ、反対の脚を後ろへ、体と同じ高さまで伸ばす。ねじらない。腰を反らせない。5秒キープ。戻す。反対側。",
+      dose: "左右各6〜8回を2〜3セット、5秒キープ付き。",
+    },
+    {
+      name: "サイドプランク、膝から足へ",
+      why: "胴体の横の筋肉は、体が横に曲がるのを防ぎます。片手で物を持つたびに働いています。",
+      how: "横向きになり、肘は肩の真下、膝は曲げる。頭から膝まで一直線になるまでお尻を持ち上げる。呼吸は続ける。30秒が楽になったら、脚を伸ばして足で支える。",
+      dose: "左右各15〜30秒キープを2〜3回。",
+    },
+    {
+      name: "グルートブリッジ",
+      why: "お尻が強ければ、持ち上げる仕事は股関節がしてくれる。腰が代わりに頑張らなくて済みます。",
+      how: "仰向けで膝を曲げ、足裏は床に。お尻を締めて、膝・股関節・肩が一直線になるまで持ち上げる。肋骨は下げたまま。腰を反らさない。一時停止。ゆっくり下ろす。楽なら片脚で。",
+      dose: "8〜12回を3セット。{9}",
+    },
+    {
+      name: "バンドでパロフプレス",
+      why: "体幹のもうひとつの仕事：横に引っ張られても、ねじれないこと。腰に抱いた子ども。重いドア。片方の肩にかけたバッグ。",
+      how: "バンドを胸の高さに固定する（ドアアンカーか、しっかりした柱）。横向きに立つ。バンドを胸の前で持つ。まっすぐ前へ押し出す。体を回されない。2秒キープ。戻す。バンドがなければ、代わりに肘をついたプランク。",
+      dose: "左右各8〜10回を2〜3セット。プランク：20〜30秒キープを2〜3回。",
+    },
+    {
+      name: "スーツケースキャリー",
+      why: "重り1つ、片手で。胴体はそれに負けずにまっすぐ立っていなければならない。歩きながらの体幹トレーニングです。",
+      how: "ダンベル、ケトルベル、重りを入れたバッグを片手に。まっすぐ立ち、肩は水平に。ゆっくり歩く。重りと反対側に傾かない。手を替える。",
+      dose: "片手ずつ20〜30メートル、または30秒を3〜4本。",
+    },
+    {
+      name: "ヒップヒンジ、それからルーマニアンデッドリフト",
+      why: "床から物を持ち上げるのは生活の一部です。ヒンジは、背中を長く保ったまま股関節から曲げることを教えてくれる。そして脚とお尻をそれができる強さにする。慢性腰痛の試験をまとめた大規模な分析では、身体機能について筋力トレーニングが上位の運動タイプでした。エビデンスの質は低いものでした。{5}",
+      how: "まずほうきの柄を背中に沿わせる：頭、背中の上部、尾骨がつくように。膝は軽く曲げる。ハムストリングに伸びを感じるまでお尻を後ろへ引く。お尻を締めて立ち上がる。次に、太ももの前でダンベルかバッグを持って行う。",
+      dose: "8〜12回を3セット。毎回背中が長く保てるときだけ重さを足す。{9}",
+    },
+  ],
+  enoughHeading: "どの種目がベスト？頻度は？痛くていい？",
+  enough: [
+    "これひとつで勝つ種目はありません。29件の試験（2,431人）をまとめたコクランレビューでは、慢性腰痛に対して「体幹」のモーターコントロール運動は他の運動より優れてはいませんでした。著者らは、好み、費用、安全性で選んでよいとしています。{6}",
+    "89件の研究（慢性腰痛のある5,578人）のネットワーク解析では、痛みにはピラティスが、機能には筋力トレーニングと体幹安定性トレーニングが最上位でした。ストレッチだけでは、治療なしと差がありませんでした。エビデンスの質は低いものでした。{5}だからこのリストは体幹のコントロールと筋力を組み合わせています。",
+    "どのくらい効く？249件の試験をまとめたコクランレビューでは、運動は治療なしと比べて慢性腰痛をおそらく減らす：0〜100のスケールで約15ポイント。日常の機能への効果はそれより小さいものでした。{4}役に立つ。でも魔法ではない。",
+    "予防も大事です。1,634人を含む8件の試験で、運動だけで腰痛のリスクが33%下がりました。著者らは、筋力トレーニングにストレッチか有酸素運動を組み合わせて週2〜3回を勧めています。{7}別のレビューでは、運動と教育の組み合わせで腰痛エピソードのリスクが下がりました。教育だけ、腰ベルト、靴の中敷きには予防効果は見られませんでした。{8}",
+    "筋トレと同じように段階的に。8〜12回きれいにできるバージョンから始める。目標を1〜2回上回ったら、少し足す：負荷を2〜10%増やすか、難しいバージョンにする。{9}",
+    "痛くていい？翌日に少し筋肉痛があるのは普通です。コクランレビューでは、報告された有害事象のほとんどは筋肉痛のような軽いものでした。{4}悪化していく痛みは別です。中止して、医師に相談してください。{3}",
+  ],
+  sampleHeading: "強い腰のための1週間の例",
+  sampleLabel: "あくまで例です。処方ではありません。体、健康状態、これまでの経過に合わせて調整してください。",
+  sample: [
+    "月曜：体幹A。ウォームアップ、デッドバグ、サイドプランク、グルートブリッジ、スーツケースキャリー。",
+    "火曜：早歩き。",
+    "水曜：体幹B。ウォームアップ、バードドッグ、パロフプレス、ヒップヒンジ、スーツケースキャリー。",
+    "木曜：ウォーキング、または休み。",
+    "金曜：もう一度体幹A。",
+    "土曜：長めのウォーキング、または好きな運動。水泳、ヨガ、ピラティス。",
+    "日曜：休み。",
+    "体幹の日の間に1日休み。デスクで長い一日？こまめに立って動きましょう。",
+  ],
+  coachedHeading: "ライブで指導を受けたい？",
+  coached: [
+    "腰痛のあとで再開する、そしてトレーニングの許可が出ている？Return が合います。45分、月12回、1日おき。セッションの間には必ず休みの日。まず動きを作り直し、それから負荷を足します。私はコーチで、医師や理学療法士ではありません。診断がある場合は、その助言の範囲で進めます。",
+    "1時間しっかりやりたい？Iron Hour は60分、1対1。0分にセットアップ：マットとカメラを全身が見えるように配置、ヒンジは横から。4分からウォームアップ。14分にメイン種目。28分に補助種目：キャリー、サイドプランク、バードドッグ。50分にクールダウン。",
+    "Lean Reset は月20回、1対1。Open Floor は少人数グループです。",
+    "Google Meet、Zoom、FaceTime でライブ指導。プネーから。ヒンディー語か英語で。インド標準時（IST）で。まだ迷っている？30分の相談から始めましょう。会話であって、トレーニングではありません。予約は時間を押さえるだけ。料金は直接決めます。",
+  ],
+  safetyHeading: "始める前に",
+  safety:
+    "一般的な情報であり、医学的な助言ではありません。腰痛が数週間たっても良くならない、日常生活に支障がある、休んでも楽にならないか夜に悪化する、原因不明の体重減少を伴う、といった場合は医師に相談してください。腰痛に加えて次のような症状があれば、すぐに医療機関へ：両脚の痛み、しびれ、脱力、感覚の鈍さ；性器や肛門まわりの感覚がない；排尿や排便のコントロールに新たな問題；胸の痛み；発熱や全身の不調；突然の激しい痛み、または急速に悪化する痛み；重大な事故のあとの痛み。{3}ACSMのスクリーニングモデルによると：運動習慣がなく、症状がなく、心臓・代謝・腎臓の病気が知られていなければ、医師の許可なしに軽〜中程度の運動を始め、少しずつ増やせます。これらの病気や症状がある場合は、先に医師の許可を得てください。{10}妊娠中、出産後まもない、最近腰の手術を受けた、背骨の病気と診断されている？どの種目が合うか医師か理学療法士に相談してください。痛みが脚に広がる、または急に強くなったら中止してください。",
+};
+
+const gu: PostCopy = {
+  metaTitle: "લોઅર બૅકના સ્વાસ્થ્ય માટે બેસ્ટ કોર કસરતો: 7 મૂવ્સ અને એક સેમ્પલ અઠવાડિયું | Jalan PT",
+  metaDescription:
+    "લોઅર બૅકના સ્વાસ્થ્ય માટે 7 બેસ્ટ કોર કસરતો: ડેડ બગ, બર્ડ ડૉગ, સાઇડ પ્લૅન્ક, કૅરી અને હિપ હિન્જ. રિસર્ચ શું કહે છે, ડૉક્ટરને ક્યારે બતાવવું, અને એક સેમ્પલ અઠવાડિયું.",
+  h1: "લોઅર બૅકના સ્વાસ્થ્ય માટે બેસ્ટ કોર કસરતો: 7 મૂવ્સ અને એક સેમ્પલ અઠવાડિયું",
+  dek: "કોર એટલે ફક્ત ઍબ્સ નહીં. આગળ, બાજુઓ, પીઠ અને હિપ્સ, બધું સાથે કામ કરે છે. અઠવાડિયે 2 થી 3 વાર ટ્રેન કરો. અને જાણો કે પહેલાં ડૉક્ટરને ક્યારે બતાવવું.",
+  updated: "અપડેટ: 1 નવેમ્બર 2026",
+  byline: "સુસ્મિત જાલાન, કોચ, Jalan PT, પુણે.",
+  credentialsNote:
+    "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+  labels: {
+    home: "હોમ",
+    blog: "બ્લોગ",
+    why: "શા માટે",
+    how: "કેવી રીતે",
+    dose: "ડોઝ",
+    sources: "સ્રોતો",
+    readIn: "આ ભાષામાં વાંચો",
+    programs: "પ્રોગ્રામ જુઓ",
+    whatsapp: "WhatsApp પર પૂછો",
+    whatsappText: "નમસ્તે સુસ્મિત, મેં લોઅર બૅક માટે કોર કસરતોનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    skip: "સામગ્રી પર જાઓ",
+    crumb: "લોઅર બૅકના સ્વાસ્થ્ય માટે બેસ્ટ કોર કસરતો",
+  },
+  intro: [
+    "પીઠનો દુખાવો સામાન્ય છે. મોટા ભાગે તે થોડાં અઠવાડિયાંમાં જાતે સારો થઈ જાય છે. ક્યારેક લાંબો ચાલે છે, અથવા વારંવાર પાછો આવે છે.{3}",
+    "NHS (બ્રિટનની આરોગ્ય સેવા)ની સલાહ: સક્રિય રહો, અને રોજનાં કામ ચાલુ રાખો. લાંબા સમય સુધી પથારીમાં ન રહો.{3}",
+    "કસરત એ બાબત છે જેના પર ગાઇડલાઇન્સ સહમત છે. WHO કહે છે કે લાંબા સમયથી લોઅર બૅકના દુખાવાવાળા પુખ્તોને એક વ્યવસ્થિત કસરત પ્રોગ્રામ આપી શકાય. આ શરતી ભલામણ છે, ઓછી નિશ્ચિતતાવાળા પુરાવા પર.{1} NICE (બ્રિટન) દુખાવો વધે ત્યારે ગ્રુપ કસરતનું સૂચન કરે છે.{2}",
+    "આ યાદી પીઠને મજબૂત રાખવા માટે છે. એ સારવાર નથી. જો અત્યારે પીઠ દુખતી હોય, તો પહેલાં છેલ્લે આપેલું “શરૂ કરતાં પહેલાં” વાંચો.",
+    "તમારે જોઈએ એક મૅટ, એક રેઝિસ્ટન્સ બૅન્ડ, એક ડમ્બેલ કે ભરેલી બૅગ, અને 25 થી 30 મિનિટ.",
+  ],
+  listHeading: "લોઅર બૅકના સ્વાસ્થ્ય માટે 7 બેસ્ટ કોર કસરતો",
+  items: [
+    {
+      name: "ડેડ બગ",
+      why: "હાથ-પગ હલે છે અને ધડ સ્થિર રહે છે. આ જ કામ તમારો કોર આખો દિવસ કરે છે.",
+      how: "પીઠ પર સૂઈ જાઓ. હાથ છત તરફ. હિપ્સ અને ઘૂંટણ 90 ડિગ્રીએ વાળેલા. લોઅર બૅક હળવેથી જમીન પર. શ્વાસ છોડો, એક હાથ પાછળ અને સામેનો પગ સીધો આગળ લંબાવો. એટલું જ, જેટલામાં પીઠ જમીન પર રહે. પાછા આવો. બાજુ બદલો.",
+      dose: "દરેક બાજુ 6 થી 10 ના 2 થી 3 સેટ. ધીમે.",
+    },
+    {
+      name: "બર્ડ ડૉગ",
+      why: "એ જ વિચાર, પેટ નીચે રાખીને. તમે હાથ-પગ લંબાવો ત્યારે પીઠના સ્નાયુઓ અને ગ્લૂટ્સ કરોડને સ્થિર રાખે છે.",
+      how: "હાથ ખભા નીચે, ઘૂંટણ હિપ્સ નીચે. એક હાથ આગળ અને સામેનો પગ પાછળ લંબાવો, જ્યાં સુધી બંને શરીરની સીધમાં આવે. વળ નહીં. પીઠમાં કમાન નહીં. 5 સેકન્ડ હોલ્ડ. પાછા આવો. બાજુ બદલો.",
+      dose: "દરેક બાજુ 6 થી 8 ના 2 થી 3 સેટ, 5 સેકન્ડ હોલ્ડ સાથે.",
+    },
+    {
+      name: "સાઇડ પ્લૅન્ક, પહેલાં ઘૂંટણ પર પછી પગ પર",
+      why: "ધડની બાજુના સ્નાયુઓ તમને બાજુમાં વળતા રોકે છે. દર વખતે એક હાથમાં કંઈ ઉપાડો ત્યારે એ કામ કરે છે.",
+      how: "પડખે, કોણી ખભા નીચે, ઘૂંટણ વાળેલા. માથાથી ઘૂંટણ સુધી સીધી લાઇન બને ત્યાં સુધી હિપ્સ ઉપાડો. શ્વાસ ચાલુ રાખો. 30 સેકન્ડ સહેલી લાગે ત્યારે પગ સીધા કરો અને પગ પર કરો.",
+      dose: "દરેક બાજુ 15 થી 30 સેકન્ડના 2 થી 3 હોલ્ડ.",
+    },
+    {
+      name: "ગ્લૂટ બ્રિજ",
+      why: "મજબૂત ગ્લૂટ્સ હોય તો ઉપાડવાનું કામ હિપ્સ કરે, લોઅર બૅકને નહીં કરવું પડે.",
+      how: "પીઠ પર, ઘૂંટણ વાળેલા, પગ જમીન પર. ગ્લૂટ્સ કસો અને હિપ્સ ઉપાડો જ્યાં સુધી ઘૂંટણ, હિપ્સ અને ખભા એક લાઇનમાં આવે. પાંસળીઓ નીચે. કમાન ન કરો. થોભો. ધીમેથી નીચે આવો. સહેલું? એક પગે.",
+      dose: "8 થી 12 ના 3 સેટ.{9}",
+    },
+    {
+      name: "બૅન્ડ સાથે પૅલોફ પ્રેસ",
+      why: "કોરનું બીજું કામ: કંઈ તમને બાજુમાં ખેંચે ત્યારે ન વળવું. કેડ પર બાળક. ભારે દરવાજો. એક ખભે બૅગ.",
+      how: "બૅન્ડ છાતીની ઊંચાઈએ બાંધેલું, ડોર ઍન્કર કે મજબૂત થાંભલા સાથે. એની તરફ બાજુ રાખીને ઊભા રહો. બૅન્ડ છાતી પાસે પકડો. સીધું આગળ ધકેલો. એને તમને ફેરવવા ન દો. 2 સેકન્ડ હોલ્ડ. પાછું લાવો. બૅન્ડ નથી? એની જગ્યાએ કોણી પર પ્લૅન્ક કરો.",
+      dose: "દરેક બાજુ 8 થી 10 ના 2 થી 3 સેટ. પ્લૅન્ક: 20 થી 30 સેકન્ડના 2 થી 3 હોલ્ડ.",
+    },
+    {
+      name: "સૂટકેસ કૅરી",
+      why: "એક વજન, એક હાથ. ધડે એની સામે સીધું રહેવું પડે છે. ચાલતાં ચાલતાં કોર ટ્રેનિંગ.",
+      how: "એક હાથમાં ડમ્બેલ, કેટલબેલ કે ભરેલી બૅગ. સીધા ઊભા રહો, ખભા સરખા. ધીમે ચાલો. વજનથી દૂર ન ઝૂકો. હાથ બદલો.",
+      dose: "દરેક હાથે 20 થી 30 મીટર, અથવા 30 સેકન્ડની, 3 થી 4 વૉક.",
+    },
+    {
+      name: "હિપ હિન્જ, પછી રોમાનિયન ડેડલિફ્ટ",
+      why: "જમીન પરથી કંઈ ઉપાડવું જીવનનો ભાગ છે. હિન્જ શીખવે છે કે પીઠ લાંબી રાખીને હિપ્સથી વળવું. પછી એ પગ અને ગ્લૂટ્સને એ માટે પૂરતા મજબૂત બનાવે છે. લાંબા લોઅર બૅક દુખાવા પરના ટ્રાયલ્સના એક મોટા એનાલિસિસમાં, શારીરિક કામકાજ માટે સ્ટ્રેન્થ ટ્રેનિંગ શ્રેષ્ઠ કસરત પ્રકારોમાં હતી. પુરાવાની ગુણવત્તા ઓછી હતી.{5}",
+      how: "પીઠ પર સાવરણીનો દાંડો રાખીને શરૂ કરો: માથું, ઉપલી પીઠ અને ટેલબોન એને અડે. ઘૂંટણ ઢીલા. હૅમસ્ટ્રિંગમાં ખેંચાણ લાગે ત્યાં સુધી હિપ્સ પાછળ ધકેલો. ગ્લૂટ્સ કસીને ઊભા થાઓ. પછી એ જ સાથળ આગળ ડમ્બેલ કે બૅગ પકડીને કરો.",
+      dose: "8 થી 12 ના 3 સેટ. વજન ત્યારે જ વધારો જ્યારે દરેક રેપમાં પીઠ લાંબી રહે.{9}",
+    },
+  ],
+  enoughHeading: "કઈ કસરત શ્રેષ્ઠ, કેટલી વાર, અને શું દુખવું જોઈએ?",
+  enough: [
+    "કોઈ એક કસરત સૌથી ઉપર નથી. 29 ટ્રાયલ્સ (2,431 લોકો)ના એક Cochrane રિવ્યૂમાં “કોર” મોટર કંટ્રોલ કસરત લાંબા લોઅર બૅક દુખાવા માટે બીજી કસરતો કરતાં વધુ સારી ન નીકળી. લેખકોએ કહ્યું કે પસંદગી રુચિ, ખર્ચ અને સલામતી પર થઈ શકે.{6}",
+    "89 સ્ટડીઝ (લાંબા લોઅર બૅક દુખાવાવાળા 5,578 લોકો)ના એક નેટવર્ક એનાલિસિસે દુખાવા માટે પિલાટેસને, અને કામકાજ માટે સ્ટ્રેન્થ ટ્રેનિંગ અને કોર સ્ટેબિલિટીને સૌથી ઉપર રાખ્યાં. ફક્ત સ્ટ્રેચિંગ, સારવાર વગરની સ્થિતિ કરતાં વધુ સારું ન રહ્યું. પુરાવાની ગુણવત્તા ઓછી હતી.{5} એટલે આ યાદી કોર કંટ્રોલ અને સ્ટ્રેન્થને ભેગાં કરે છે.",
+    "કેટલી મદદ કરે છે? 249 ટ્રાયલ્સના એક Cochrane રિવ્યૂમાં જોવા મળ્યું કે સારવાર વગરની સરખામણીમાં કસરત લાંબા લોઅર બૅક દુખાવાને કદાચ ઘટાડે છે: 0 થી 100 ના સ્કેલ પર લગભગ 15 પૉઇન્ટ. રોજના કામકાજ પર અસર એનાથી ઓછી હતી.{4} કામની વસ્તુ. જાદુ નહીં.",
+    "બચાવ પણ મહત્વનો છે. 1,634 લોકોવાળા 8 ટ્રાયલ્સમાં ફક્ત કસરતથી લોઅર બૅક દુખાવાનું જોખમ 33% ઘટ્યું. લેખકો અઠવાડિયે 2 થી 3 વાર સ્ટ્રેન્થ વર્ક સાથે સ્ટ્રેચિંગ કે ઍરોબિક કસરતનું સૂચન કરે છે.{7} બીજા એક રિવ્યૂમાં કસરત અને માહિતી સાથે મળીને દુખાવાના દૌરનું જોખમ ઘટતું દેખાયું. ફક્ત માહિતી, બૅક બેલ્ટ અને જૂતાંના ઇનસોલથી બચાવ ન દેખાયો.{8}",
+    "એને કોઈ પણ સ્ટ્રેન્થ વર્કની જેમ આગળ વધારો. એવા વર્ઝનથી શરૂ કરો જેના 8 થી 12 સારા રેપ થઈ શકે. ટાર્ગેટથી 1 કે 2 રેપ વધુ થાય ત્યારે થોડું વધારો: 2 થી 10% વધુ વજન, અથવા અઘરું વર્ઝન.{9}",
+    "શું દુખવું જોઈએ? બીજા દિવસે સ્નાયુઓમાં થોડો દુખાવો સામાન્ય છે. Cochrane રિવ્યૂમાં નોંધાયેલી મોટા ભાગની આડઅસરો નાની હતી, જેમ કે સ્નાયુઓનો દુખાવો.{4} જે દુખાવો વધતો જાય, એ જુદી વાત છે. રોકાઈ જાઓ, અને ડૉક્ટરને બતાવો.{3}",
+  ],
+  sampleHeading: "મજબૂત પીઠ માટે એક સેમ્પલ અઠવાડિયું",
+  sampleLabel: "માત્ર સેમ્પલ. પ્રિસ્ક્રિપ્શન નથી. તમારા શરીર, તમારા સ્વાસ્થ્ય અને તમારા ઇતિહાસ મુજબ બદલો.",
+  sample: [
+    "સોમવાર: કોર A. વૉર્મ-અપ, ડેડ બગ, સાઇડ પ્લૅન્ક, ગ્લૂટ બ્રિજ, સૂટકેસ કૅરી.",
+    "મંગળવાર: ઝડપી વૉક.",
+    "બુધવાર: કોર B. વૉર્મ-અપ, બર્ડ ડૉગ, પૅલોફ પ્રેસ, હિપ હિન્જ, સૂટકેસ કૅરી.",
+    "ગુરુવાર: વૉક, અથવા આરામ.",
+    "શુક્રવાર: ફરીથી કોર A.",
+    "શનિવાર: લાંબી વૉક, અથવા કંઈક જે તમને ગમે. તરવું, યોગ, પિલાટેસ.",
+    "રવિવાર: આરામ.",
+    "કોરના દિવસો વચ્ચે એક દિવસ આરામ. ડેસ્ક પર લાંબો દિવસ? વારંવાર ઊભા થાઓ અને હલો.",
+  ],
+  coachedHeading: "લાઇવ કોચિંગ જોઈએ છે?",
+  coached: [
+    "પીઠના દુખાવા પછી પાછા આવો છો, અને ટ્રેનિંગની મંજૂરી મળી ગઈ છે? Return બરાબર બેસે છે. 45 મિનિટ, મહિને 12 સેશન, એકાંતરે દિવસે. દર વખતે સેશન વચ્ચે એક દિવસ આરામ. પહેલાં મૂવમેન્ટ ફરી બનાવીએ છીએ, પછી વજન ઉમેરીએ છીએ. હું કોચ છું, ડૉક્ટર કે ફિઝિયો નહીં. જો ડાયગ્નોસિસ હોય, તો અમે એમની સલાહની અંદર કામ કરીએ છીએ.",
+    "આખો કલાક જોઈએ છે? Iron Hour 60 મિનિટનું છે, 1:1. મિનિટ 0 પર સેટ-અપ: મૅટ અને કૅમેરા એવી રીતે કે મને આખું શરીર દેખાય, હિન્જ માટે બાજુથી. મિનિટ 4 થી વૉર્મ-અપ. મિનિટ 14 પર મુખ્ય લિફ્ટ. 28 પર એક્સેસરીઝ: કૅરી, સાઇડ પ્લૅન્ક, બર્ડ ડૉગ. 50 પર કૂલ-ડાઉન.",
+    "Lean Reset મહિને 20 સેશન, 1:1. Open Floor નાનું ગ્રુપ છે.",
+    "Google Meet, Zoom કે FaceTime પર લાઇવ કોચિંગ. પુણેથી. હિન્દી કે અંગ્રેજીમાં. IST પર. હજુ નક્કી નથી? 30 મિનિટના કન્સલ્ટેશનથી શરૂ કરો. એ વાતચીત છે, ટ્રેનિંગ નહીં. બુકિંગ ફક્ત સમય રોકે છે. ફી સીધી નક્કી થાય છે.",
+  ],
+  safetyHeading: "શરૂ કરતાં પહેલાં",
+  safety:
+    "સામાન્ય માહિતી, તબીબી સલાહ નહીં. ડૉક્ટરને બતાવો જો પીઠનો દુખાવો થોડાં અઠવાડિયાંમાં સારો ન થાય, રોજનાં કામ રોકે, આરામથી ઓછો ન થાય કે રાત્રે વધે, અથવા કારણ વગર વજન ઘટવા સાથે હોય. તરત તબીબી મદદ લો જો પીઠના દુખાવા સાથે બંને પગમાં દુખાવો, ઝણઝણાટી, નબળાઈ કે સુન્નપણું હોય; જનનાંગો કે ગુદાની આસપાસ સંવેદના જતી રહે; પેશાબ કે મળ પર કાબૂમાં નવી તકલીફ હોય; છાતીમાં દુખાવો હોય; તાવ હોય કે સામાન્ય રીતે તબિયત ખરાબ લાગે; અચાનક તીવ્ર દુખાવો હોય, કે દુખાવો ઝડપથી વધે; અથવા કોઈ ગંભીર અકસ્માત પછી દુખાવો હોય.{3} ACSM ના સ્ક્રીનિંગ મોડલ મુજબ: જો તમે નિષ્ક્રિય છો, કોઈ લક્ષણ નથી અને હૃદય, મેટાબોલિક કે કિડનીની કોઈ જાણીતી બીમારી નથી, તો તમે તબીબી મંજૂરી વગર હળવી થી મધ્યમ કસરત શરૂ કરીને ધીમે ધીમે વધારી શકો છો. જો આમાંની કોઈ બીમારી કે લક્ષણો હોય, તો પહેલાં તબીબી મંજૂરી લો.{10} ગર્ભવતી છો, તાજેતરમાં બાળક થયું છે, તાજેતરમાં પીઠની સર્જરી થઈ છે, કે કરોડની કોઈ નિદાન થયેલી સમસ્યા છે? તમારા ડૉક્ટર કે ફિઝિયોથેરાપિસ્ટને પૂછો કે કઈ મૂવ્સ તમારા માટે યોગ્ય છે. દુખાવો પગમાં નીચે ફેલાય કે અચાનક તીવ્ર બને તો રોકાઈ જાઓ.",
+};
+
+export const coreBackPost: BlogPost = {
+  slug: CORE_BACK_SLUG,
+  published: CORE_BACK_PUBLISHED,
+  modified: CORE_BACK_MODIFIED,
+  about: "Core exercises for lower back health",
+  sources: CORE_BACK_SOURCES,
+  copy: { en, ar, hi, es, zh, ja, gu },
+  programLink: { href: "/getting-back-into-exercise", label: "How Return works: 45 minutes, 12 alternate-day sessions a month" },
+};
