@@ -2,6 +2,80 @@
 
 Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 
+## 2 Nov 2026 (IST), batch 12: grip strength post, "Jump to" links with item anchors, shorter meta descriptions
+
+### Blog
+- New post: **"Best exercises for grip strength: 7 moves and a sample week"** at `/blog/best-exercises-for-grip-strength`. It targets "exercises for grip strength" / "grip strength exercises" and ties to "online strength and conditioning coach" and "personal trainer at home". It leads into Iron Hour (60 min 1:1; set-up 0, warm-up 4, primary 14, accessories 28 "where carries, hangs and holds go", cool-down 50), and the English coached card links to `/online-strength-and-conditioning-coach` (`programLink`). It also names Lean Reset, Return (45 minutes, 12 alternate-day sessions a month), Open Floor and the Consultation.
+- Localised versions are at `/{ar,hi,es,zh,ja,gu}/blog/best-exercises-for-grip-strength`. Arabic renders `lang="ar" dir="rtl"` and uses "بالتناوب: يوم تمرين ويوم راحة" for Return. Each version has its own title, description and canonical, plus the full reciprocal hreflang set (7 languages and x-default). JSON-LD comes from the shared `postHead`: Article, ItemList and BreadcrumbList.
+- The 7 items: farmer's carry, dead hang (only from a bar rated for your weight; feet on a stool to make it easier), towel row, pinch hold (plates or thick books), wrist curl and reverse wrist curl, squeeze (hand gripper or soft ball), and finger extensions with a rubber band.
+- The section "How often, how heavy, and what grip tells you" covers:
+  - WHO: muscle-strengthening on 2 or more days a week; grip goes at the end of 2–3 strength sessions, not every day.
+  - ACSM's 8–12 rep / 2–10% rule; for holds, add seconds first, then weight.
+  - Does it work? Exercise raised grip in older adults, but the gain was small (24 trials, 3,018 people, average age 73). Task-specific and mixed programmes looked best.
+  - Grip and health: PURE (139,691 adults aged 35–70, 17 countries including India and the UAE; every 5 kg less grip linked to 16% higher all-cause mortality over about 4 years), UK Biobank (half a million aged 40–69) and the Honolulu Heart Program (6,089 men; weakest third more than twice as likely to have self-care disability 25 years later).
+  - **All labelled as links, not causes.** The intro quotes the PURE authors' own caution that more research is needed to test whether getting stronger lowers the risk. A later line says weak grip goes with weak muscles overall, illness and poor nutrition, so squeezing a gripper alone won't undo that.
+  - EWGSOP2 sarcopenia cut-offs (under 27 kg men, under 16 kg women, on a dynamometer) are given as a clinic test, not a home one, with "ask your doctor" if worried about losing strength.
+- Content is in `src/content/blog/grip-strength.ts` (export `gripStrengthPost`). All 9 sources are real and were checked on 2 Nov 2026. For each paper, title, authors, journal, year, volume/pages and the finding used were checked against the Europe PMC record and abstract (the EWGSOP2 cut-offs against the full text, PMC6322506), and each DOI was confirmed as registered at doi.org. The WHO page returned 200. The PURE country list was checked in the Lancet press release on EurekAlert.
+  1. WHO guidelines on physical activity and sedentary behaviour (2020): https://www.who.int/publications/i/item/9789240015128
+  2. Leong et al., Prognostic value of grip strength: PURE study, Lancet 2015;386(9990):266–273: https://doi.org/10.1016/S0140-6736(14)62000-6 (HR 1.16 per 5 kg lower grip for all-cause mortality; stronger predictor than systolic blood pressure; "further research is needed … to test whether improvement in strength reduces mortality").
+  3. Celis-Morales et al., Grip strength and cardiovascular, respiratory and cancer outcomes and all-cause mortality, UK Biobank, BMJ 2018;361:k1651: https://doi.org/10.1136/bmj.k1651
+  4. Rantanen et al., Midlife hand grip strength as a predictor of old age disability, JAMA 1999;281(6):558–560: https://doi.org/10.1001/jama.281.6.558
+  5. Bohannon, Grip strength: an indispensable biomarker for older adults, Clin Interv Aging 2019;14:1681–1691: https://doi.org/10.2147/CIA.S194543
+  6. Cruz-Jentoft et al., Sarcopenia: revised European consensus (EWGSOP2), Age Ageing 2019;48(1):16–31: https://doi.org/10.1093/ageing/afy169
+  7. Labott et al., Effects of exercise training on handgrip strength in older adults: meta-analytical review, Gerontology 2019;65(6):686–698: https://doi.org/10.1159/000501203 (24 trials, 3,018 participants, SMD 0.28, small).
+  8. ACSM position stand, Progression models in resistance training for healthy adults, MSSE 2009;41(3):687–708: https://doi.org/10.1249/MSS.0b013e3181915670
+  9. Riebe et al., ACSM preparticipation screening, MSSE 2015;47(11):2473–2479: https://doi.org/10.1249/MSS.0000000000000664
+- The sample week (strength Monday, Wednesday and Friday with two grip moves at the end of each, walks between, carrying the shopping on Saturday, never two hard grip days in a row) is labelled "Sample only. Not a prescription." No client results, quotes or prices. Credentials line (ASCA Level 1 and ACE; neither body endorses the business or the article).
+- Safety note: ACSM screening; breathe through every hold (no breath-holding, especially with high blood pressure); ask a doctor or physiotherapist first with hand, wrist, elbow or shoulder pain, arthritis in the hands, a recent injury or surgery, or numbness or tingling in the fingers; hang only from a fixed bar rated for your weight and step down onto a stool; stop for sharp pain, numbness or tingling.
+- `src/content/blog/index.ts` lists twelve posts, newest first. The home footer's "From the blog" picks up the grip post automatically (two newest: grip, core).
+- New routes: `src/routes/blog.best-exercises-for-grip-strength.tsx` and `src/routes/$lang.blog.best-exercises-for-grip-strength.tsx` (`/en/...` and unknown codes return 404). `src/routeTree.gen.ts` is the file the TanStack Router plugin generated during this run's build (not hand-edited).
+
+### Internal links
+- `/online-strength-and-conditioning-coach`: new line in "How Iron Hour runs": "Carries and hangs go in there too. Grip on your own days: the 7 best exercises for grip strength."
+- `/getting-back-into-exercise`: new line in "How Return runs": "Shopping bags feel heavier than they used to? Read the 7 best exercises for grip strength."
+- Every post's "More from the blog", `/blog` in all 7 languages, the country pages, the fat-loss page and the home footer pick the new post up automatically (newest first).
+
+### SEO, accessibility and speed
+- **Item anchors and ItemList URLs (every post, every language).** Each of the 7 list cards now has a stable id (`#item-1` … `#item-7`), and each `ListItem` in the ItemList JSON-LD now carries a `url` pointing at that anchor (for example `https://onlinefitness.com/blog/best-exercises-for-grip-strength#item-3`). That is the shape Google's list guidance asks for, and it lets search results and shares deep-link to one exercise.
+- **"Jump to" links (every post, every language).** Under each list heading there is now a short `nav` of numbered chips, one per item, linking to those anchors. Its accessible name is localised ("Jump to: …", new `JUMP_LABEL` in `shared.ts`, 7 languages). Chips are at least 44px tall (tap target). Cards have `scroll-mt-24` so a jumped-to card isn't hidden at the top. Smooth scrolling for in-page jumps is on, and the existing reduced-motion rule turns it off.
+- **Meta descriptions trimmed to 160 characters or fewer** where they ran long, so Google is less likely to cut them mid-sentence:
+  - The blog index in all 7 languages. It used to list every post title and grew with each batch (over 400 characters in English). It is now one fixed line per language (English: "Short, sourced training notes from an online personal trainer in Pune: the best exercises for strength, grip, core and getting back into it, with sample weeks."). The Blog JSON-LD still lists every post.
+  - English: core / lower back (175 to 158), over 60s (173 to 155), runners (173 to 159), travel (166 to 156).
+  - Spanish: core (202 to 153), desk workers (162 to 156), one dumbbell (201 to 145), over 60s (211 to 159), runners (220 to 159), travel (215 to 159), warm-up (178 to 152), women over 40 (181 to 151).
+  - `/online-personal-trainer-singapore` (171 to 150): "Live online personal training for Singapore, coached from Pune on Meet, Zoom or FaceTime. 1:1 or small group, Hindi or English. 2½ hours ahead of IST."
+  - No facts changed. Post `modified` dates were left as they were (meta text only).
+- New post checked: headings go h1 → h2 → h3 with no skips; citation links 1–9 all have a matching `#source-n`; no `<img>` without alt.
+
+### Theme: logo blue on the new list navigation
+- `.jump-chip`: bone pill with a hairline border that turns into a 2px exact logo-blue (#014ffe, 5.0:1 on bone) ring on hover and focus, matching the card hover. Numbers are in the deeper logo blue (#0147d6) with tabular figures.
+- `.card-lift:target`: the card you jumped to (from a chip or a search result) gets a 4px logo-blue edge on the start side and a 1px logo-blue outline. It mirrors in RTL. No new colours, no orange.
+
+### SEO: sitemap
+- `public/sitemap.xml`: 98 URLs. That is home, six landing pages, 7 blog indexes, and 7 language URLs for each of the 12 posts, with reciprocal `xhtml:link` hreflang and x-default (landing pages list `en` + x-default). `lastmod` 2026-11-02 for home, `/getting-back-into-exercise`, `/online-strength-and-conditioning-coach`, the 7 blog indexes and the new post.
+
+### Programs (facts unchanged)
+- Iron Hour 60 min 1:1; Lean Reset 20 sessions/month 1:1; Return 45 min, 12 alternate-day sessions/month; Open Floor small group; Consultation 30 min, not training. No prices anywhere; booking holds a time, fee agreed directly.
+
+### Verified this run
+- Built a copy of the branch with `vite build` and the local-only verify config (stub for the missing `src/lib/preview-host-bridge.ts`, no PWA plugin, Nitro `node-server` preset; not committed), using the restored binaries already on the box. The build passed (Node 24).
+- The real `npm run build` still fails, with the same error as before: `Could not resolve './grok-pwa-shared.mjs' in scripts/grok-pwa-plugin.mjs`. The platform files are still missing.
+- The built server returned 200 for all 98 sitemap URLs, and 404 for `/en/blog/best-exercises-for-grip-strength` and `/xx/blog/best-exercises-for-grip-strength`.
+- On all 98 sitemap URLs: one title, one description, one h1, one canonical (matching the sitemap URL), every JSON-LD block parses, og:image is `og-card.jpg`, every post page has exactly 8 hreflang `<link>`s, no raw `{n}` markers, and Arabic pages render `dir="rtl"`. On every post page in every language: 7 `#item-n` cards, 7 "Jump to" links, and 7 ItemList URLs that match the page's own URL.
+- Headless Chrome screenshots of the English and Arabic posts at 390px: chips wrap cleanly, and RTL is correct.
+- `tsc --noEmit`: the same 14 errors as before, all from the missing platform files. ESLint on the changed files: no errors (the same fast-refresh warning in `blog-post.tsx` as before).
+
+### Still open (needs Susmit)
+- Build blockers: `scripts/grok-pwa-shared.mjs`, `src/lib/preview-host-bridge.ts`, and the auth, app-data and multiplayer files are still missing, so `npm run build` fails from a clean clone.
+- Grip post: it quotes mortality and disability links. They are framed as observational, with the authors' own caution, but please read the "what grip tells you" section and confirm you're happy with the tone. The EWGSOP2 cut-offs are clinic numbers. Remove them if you'd rather not show numbers readers might self-test against.
+- Back-pain post: still worth a physio's read of "Before you start".
+- Meta descriptions in Hindi, Gujarati and Arabic: several still run 160–200 characters (for example Hindi and Gujarati over 60s, Hindi women over 40). Devanagari and Gujarati character counts include vowel signs, so the real display width is shorter, but a native speaker could tighten them during the translation review.
+- Social card: `og-card.jpg` is a clean, logo-based card made on the box. Swap in a designed version at the same path if you have one.
+- `clientNotes`: labelled as samples. Replace them with real, consented quotes or delete them before any are shown.
+- Native-speaker review of the ar, hi, es, zh, ja and gu versions of all twelve posts, the blog index copy, `SOURCE_LABEL`, `NEW_TAB_LABEL` and the new `JUMP_LABEL`.
+- Fonts: Outfit is still a third-party, render-blocking Google Fonts request on every page. Self-hosting needs a woff2 file in the repo (through binary-parts).
+- The country pages are English only. Hindi versions of the India page (and Arabic for Dubai) would be the next step, if wanted.
+- There is no `.gitignore` in the repo, so `node_modules`, `.output` and lockfiles show up as untracked after a local install.
+
 ## 1 Nov 2026 (IST), batch 11: core exercises for lower back health, exact logo colours, image sizes and new-tab labels
 
 ### Blog
@@ -651,7 +725,7 @@ Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 4. ~~Add Return as a program card and a booking option.~~ Done 23 Oct.
 5. Get a native speaker to review the ar, hi, es, zh, ja and gu translations before launch.
 6. Point DNS for onlinefitness.com at the host before shipping canonicals. Earlier notes say GoDaddy NS had lame delegation.
-7. Next blog post ideas: "Best strength exercises for busy parents", "Best mobility exercises for hips and shoulders", "Best exercises for posture". (~~Women over 40~~ done 24 Oct. ~~Warm-up before strength training~~ done 25 Oct. ~~Strength and conditioning for beginners~~ done 26 Oct. ~~Home workouts with one dumbbell~~ done 28 Oct. ~~Core exercises for lower back health~~ done 1 Nov; it covers the back-pain angle, so a separate "back pain at a desk" post would overlap.)
+7. Next blog post ideas: "Best strength exercises for busy parents", "Best mobility exercises for hips and shoulders", "Best exercises for posture". (~~Grip strength~~ done 2 Nov. ~~Women over 40~~ done 24 Oct. ~~Warm-up before strength training~~ done 25 Oct. ~~Strength and conditioning for beginners~~ done 26 Oct. ~~Home workouts with one dumbbell~~ done 28 Oct. ~~Core exercises for lower back health~~ done 1 Nov; it covers the back-pain angle, so a separate "back pain at a desk" post would overlap.)
 8. Get a physio or doctor to read the "Before you start" section of the lower back post.
 9. Add a `.gitignore` (`node_modules`, `.output`, local lockfiles, `public/__grok/`) so local installs stop showing as untracked.
 10. Self-host Outfit (woff2 via binary-parts) to drop the render-blocking Google Fonts request.
