@@ -22,6 +22,7 @@ import { Route as BlogBestCoolDownStretchesAfterStrengthTrainingRouteImport } fr
 import { Route as BlogBestCoreExercisesForLowerBackHealthRouteImport } from './routes/blog.best-core-exercises-for-lower-back-health'
 import { Route as BlogBestExercisesAfterALongBreakRouteImport } from './routes/blog.best-exercises-after-a-long-break'
 import { Route as BlogBestExercisesForDeskWorkersRouteImport } from './routes/blog.best-exercises-for-desk-workers'
+import { Route as BlogBestExercisesForGripStrengthRouteImport } from './routes/blog.best-exercises-for-grip-strength'
 import { Route as BlogBestHomeWorkoutsWithOneDumbbellRouteImport } from './routes/blog.best-home-workouts-with-one-dumbbell'
 import { Route as BlogBestStrengthAndConditioningExercisesForBeginnersRouteImport } from './routes/blog.best-strength-and-conditioning-exercises-for-beginners'
 import { Route as BlogBestStrengthExercisesForOver60sRouteImport } from './routes/blog.best-strength-exercises-for-over-60s'
@@ -34,6 +35,7 @@ import { Route as LangBlogBestCoolDownStretchesAfterStrengthTrainingRouteImport 
 import { Route as LangBlogBestCoreExercisesForLowerBackHealthRouteImport } from './routes/$lang.blog.best-core-exercises-for-lower-back-health'
 import { Route as LangBlogBestExercisesAfterALongBreakRouteImport } from './routes/$lang.blog.best-exercises-after-a-long-break'
 import { Route as LangBlogBestExercisesForDeskWorkersRouteImport } from './routes/$lang.blog.best-exercises-for-desk-workers'
+import { Route as LangBlogBestExercisesForGripStrengthRouteImport } from './routes/$lang.blog.best-exercises-for-grip-strength'
 import { Route as LangBlogBestHomeWorkoutsWithOneDumbbellRouteImport } from './routes/$lang.blog.best-home-workouts-with-one-dumbbell'
 import { Route as LangBlogBestStrengthAndConditioningExercisesForBeginnersRouteImport } from './routes/$lang.blog.best-strength-and-conditioning-exercises-for-beginners'
 import { Route as LangBlogBestStrengthExercisesForOver60sRouteImport } from './routes/$lang.blog.best-strength-exercises-for-over-60s'
@@ -116,6 +118,12 @@ const BlogBestExercisesForDeskWorkersRoute =
     path: '/blog/best-exercises-for-desk-workers',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogBestExercisesForGripStrengthRoute =
+  BlogBestExercisesForGripStrengthRouteImport.update({
+    id: '/blog/best-exercises-for-grip-strength',
+    path: '/blog/best-exercises-for-grip-strength',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogBestHomeWorkoutsWithOneDumbbellRoute =
   BlogBestHomeWorkoutsWithOneDumbbellRouteImport.update({
     id: '/blog/best-home-workouts-with-one-dumbbell',
@@ -187,6 +195,12 @@ const LangBlogBestExercisesForDeskWorkersRoute =
     path: '/$lang/blog/best-exercises-for-desk-workers',
     getParentRoute: () => rootRouteImport,
   } as any)
+const LangBlogBestExercisesForGripStrengthRoute =
+  LangBlogBestExercisesForGripStrengthRouteImport.update({
+    id: '/$lang/blog/best-exercises-for-grip-strength',
+    path: '/$lang/blog/best-exercises-for-grip-strength',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const LangBlogBestHomeWorkoutsWithOneDumbbellRoute =
   LangBlogBestHomeWorkoutsWithOneDumbbellRouteImport.update({
     id: '/$lang/blog/best-home-workouts-with-one-dumbbell',
@@ -237,6 +251,7 @@ export interface FileRoutesByFullPath {
   '/blog/best-core-exercises-for-lower-back-health': typeof BlogBestCoreExercisesForLowerBackHealthRoute
   '/blog/best-exercises-after-a-long-break': typeof BlogBestExercisesAfterALongBreakRoute
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
+  '/blog/best-exercises-for-grip-strength': typeof BlogBestExercisesForGripStrengthRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
   '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
@@ -249,6 +264,7 @@ export interface FileRoutesByFullPath {
   '/$lang/blog/best-core-exercises-for-lower-back-health': typeof LangBlogBestCoreExercisesForLowerBackHealthRoute
   '/$lang/blog/best-exercises-after-a-long-break': typeof LangBlogBestExercisesAfterALongBreakRoute
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
+  '/$lang/blog/best-exercises-for-grip-strength': typeof LangBlogBestExercisesForGripStrengthRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
   '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
@@ -270,6 +286,7 @@ export interface FileRoutesByTo {
   '/blog/best-core-exercises-for-lower-back-health': typeof BlogBestCoreExercisesForLowerBackHealthRoute
   '/blog/best-exercises-after-a-long-break': typeof BlogBestExercisesAfterALongBreakRoute
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
+  '/blog/best-exercises-for-grip-strength': typeof BlogBestExercisesForGripStrengthRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
   '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
@@ -282,6 +299,7 @@ export interface FileRoutesByTo {
   '/$lang/blog/best-core-exercises-for-lower-back-health': typeof LangBlogBestCoreExercisesForLowerBackHealthRoute
   '/$lang/blog/best-exercises-after-a-long-break': typeof LangBlogBestExercisesAfterALongBreakRoute
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
+  '/$lang/blog/best-exercises-for-grip-strength': typeof LangBlogBestExercisesForGripStrengthRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
   '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
@@ -304,6 +322,7 @@ export interface FileRoutesById {
   '/blog/best-core-exercises-for-lower-back-health': typeof BlogBestCoreExercisesForLowerBackHealthRoute
   '/blog/best-exercises-after-a-long-break': typeof BlogBestExercisesAfterALongBreakRoute
   '/blog/best-exercises-for-desk-workers': typeof BlogBestExercisesForDeskWorkersRoute
+  '/blog/best-exercises-for-grip-strength': typeof BlogBestExercisesForGripStrengthRoute
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
   '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
@@ -316,6 +335,7 @@ export interface FileRoutesById {
   '/$lang/blog/best-core-exercises-for-lower-back-health': typeof LangBlogBestCoreExercisesForLowerBackHealthRoute
   '/$lang/blog/best-exercises-after-a-long-break': typeof LangBlogBestExercisesAfterALongBreakRoute
   '/$lang/blog/best-exercises-for-desk-workers': typeof LangBlogBestExercisesForDeskWorkersRoute
+  '/$lang/blog/best-exercises-for-grip-strength': typeof LangBlogBestExercisesForGripStrengthRoute
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
   '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
@@ -339,6 +359,7 @@ export interface FileRouteTypes {
     | '/blog/best-core-exercises-for-lower-back-health'
     | '/blog/best-exercises-after-a-long-break'
     | '/blog/best-exercises-for-desk-workers'
+    | '/blog/best-exercises-for-grip-strength'
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
     | '/blog/best-strength-exercises-for-over-60s'
@@ -351,6 +372,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-core-exercises-for-lower-back-health'
     | '/$lang/blog/best-exercises-after-a-long-break'
     | '/$lang/blog/best-exercises-for-desk-workers'
+    | '/$lang/blog/best-exercises-for-grip-strength'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
     | '/$lang/blog/best-strength-exercises-for-over-60s'
@@ -372,6 +394,7 @@ export interface FileRouteTypes {
     | '/blog/best-core-exercises-for-lower-back-health'
     | '/blog/best-exercises-after-a-long-break'
     | '/blog/best-exercises-for-desk-workers'
+    | '/blog/best-exercises-for-grip-strength'
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
     | '/blog/best-strength-exercises-for-over-60s'
@@ -384,6 +407,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-core-exercises-for-lower-back-health'
     | '/$lang/blog/best-exercises-after-a-long-break'
     | '/$lang/blog/best-exercises-for-desk-workers'
+    | '/$lang/blog/best-exercises-for-grip-strength'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
     | '/$lang/blog/best-strength-exercises-for-over-60s'
@@ -405,6 +429,7 @@ export interface FileRouteTypes {
     | '/blog/best-core-exercises-for-lower-back-health'
     | '/blog/best-exercises-after-a-long-break'
     | '/blog/best-exercises-for-desk-workers'
+    | '/blog/best-exercises-for-grip-strength'
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
     | '/blog/best-strength-exercises-for-over-60s'
@@ -417,6 +442,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-core-exercises-for-lower-back-health'
     | '/$lang/blog/best-exercises-after-a-long-break'
     | '/$lang/blog/best-exercises-for-desk-workers'
+    | '/$lang/blog/best-exercises-for-grip-strength'
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
     | '/$lang/blog/best-strength-exercises-for-over-60s'
@@ -439,6 +465,7 @@ export interface RootRouteChildren {
   BlogBestCoreExercisesForLowerBackHealthRoute: typeof BlogBestCoreExercisesForLowerBackHealthRoute
   BlogBestExercisesAfterALongBreakRoute: typeof BlogBestExercisesAfterALongBreakRoute
   BlogBestExercisesForDeskWorkersRoute: typeof BlogBestExercisesForDeskWorkersRoute
+  BlogBestExercisesForGripStrengthRoute: typeof BlogBestExercisesForGripStrengthRoute
   BlogBestHomeWorkoutsWithOneDumbbellRoute: typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   BlogBestStrengthAndConditioningExercisesForBeginnersRoute: typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
   BlogBestStrengthExercisesForOver60sRoute: typeof BlogBestStrengthExercisesForOver60sRoute
@@ -451,6 +478,7 @@ export interface RootRouteChildren {
   LangBlogBestCoreExercisesForLowerBackHealthRoute: typeof LangBlogBestCoreExercisesForLowerBackHealthRoute
   LangBlogBestExercisesAfterALongBreakRoute: typeof LangBlogBestExercisesAfterALongBreakRoute
   LangBlogBestExercisesForDeskWorkersRoute: typeof LangBlogBestExercisesForDeskWorkersRoute
+  LangBlogBestExercisesForGripStrengthRoute: typeof LangBlogBestExercisesForGripStrengthRoute
   LangBlogBestHomeWorkoutsWithOneDumbbellRoute: typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute: typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
   LangBlogBestStrengthExercisesForOver60sRoute: typeof LangBlogBestStrengthExercisesForOver60sRoute
@@ -553,6 +581,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogBestExercisesForDeskWorkersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/best-exercises-for-grip-strength': {
+      id: '/blog/best-exercises-for-grip-strength'
+      path: '/blog/best-exercises-for-grip-strength'
+      fullPath: '/blog/best-exercises-for-grip-strength'
+      preLoaderRoute: typeof BlogBestExercisesForGripStrengthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/best-home-workouts-with-one-dumbbell': {
       id: '/blog/best-home-workouts-with-one-dumbbell'
       path: '/blog/best-home-workouts-with-one-dumbbell'
@@ -637,6 +672,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LangBlogBestExercisesForDeskWorkersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$lang/blog/best-exercises-for-grip-strength': {
+      id: '/$lang/blog/best-exercises-for-grip-strength'
+      path: '/$lang/blog/best-exercises-for-grip-strength'
+      fullPath: '/$lang/blog/best-exercises-for-grip-strength'
+      preLoaderRoute: typeof LangBlogBestExercisesForGripStrengthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/$lang/blog/best-home-workouts-with-one-dumbbell': {
       id: '/$lang/blog/best-home-workouts-with-one-dumbbell'
       path: '/$lang/blog/best-home-workouts-with-one-dumbbell'
@@ -699,6 +741,7 @@ const rootRouteChildren: RootRouteChildren = {
     BlogBestCoreExercisesForLowerBackHealthRoute,
   BlogBestExercisesAfterALongBreakRoute: BlogBestExercisesAfterALongBreakRoute,
   BlogBestExercisesForDeskWorkersRoute: BlogBestExercisesForDeskWorkersRoute,
+  BlogBestExercisesForGripStrengthRoute: BlogBestExercisesForGripStrengthRoute,
   BlogBestHomeWorkoutsWithOneDumbbellRoute:
     BlogBestHomeWorkoutsWithOneDumbbellRoute,
   BlogBestStrengthAndConditioningExercisesForBeginnersRoute:
@@ -722,6 +765,8 @@ const rootRouteChildren: RootRouteChildren = {
     LangBlogBestExercisesAfterALongBreakRoute,
   LangBlogBestExercisesForDeskWorkersRoute:
     LangBlogBestExercisesForDeskWorkersRoute,
+  LangBlogBestExercisesForGripStrengthRoute:
+    LangBlogBestExercisesForGripStrengthRoute,
   LangBlogBestHomeWorkoutsWithOneDumbbellRoute:
     LangBlogBestHomeWorkoutsWithOneDumbbellRoute,
   LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute:

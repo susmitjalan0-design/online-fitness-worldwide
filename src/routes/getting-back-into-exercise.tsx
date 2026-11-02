@@ -22,6 +22,7 @@ const BREAK_POST_SLUG = "best-exercises-after-a-long-break";
 const BREAK_POST_PATH = postPathFor(BREAK_POST_SLUG, "en");
 const OVER_60_POST_PATH = postPathFor("best-strength-exercises-for-over-60s", "en");
 const CORE_BACK_POST_PATH = postPathFor("best-core-exercises-for-lower-back-health", "en");
+const GRIP_POST_PATH = postPathFor("best-exercises-for-grip-strength", "en");
 /** Read next leads with the long-break post, then the over-60s post. */
 const LEAD_SLUGS: readonly string[] = [BREAK_POST_SLUG, "best-strength-exercises-for-over-60s"];
 
@@ -192,6 +193,9 @@ function GettingBackPage() {
               <li>
                 Back been sore? Once your doctor or physio says exercise is fine,{" "}
                 <a href={CORE_BACK_POST_PATH}>read the 7 best core exercises for lower back health</a>.
+              </li>
+              <li>
+                Shopping bags feel heavier than they used to? <a href={GRIP_POST_PATH}>Read the 7 best exercises for grip strength</a>.
               </li>
             </ul>
           </section>

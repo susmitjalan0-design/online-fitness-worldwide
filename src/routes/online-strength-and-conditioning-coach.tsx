@@ -28,6 +28,7 @@ const LEAD_SLUGS = [
 ];
 const SC_POST_PATH = postPathFor("best-strength-and-conditioning-exercises-for-beginners", "en");
 const DB_POST_PATH = postPathFor("best-home-workouts-with-one-dumbbell", "en");
+const GRIP_POST_PATH = postPathFor("best-exercises-for-grip-strength", "en");
 const WARM_POST_PATH = postPathFor("best-warm-up-exercises-before-strength-training", "en");
 const COOL_POST_PATH = postPathFor("best-cool-down-stretches-after-strength-training", "en");
 const CORE_BACK_POST_PATH = postPathFor("best-core-exercises-for-lower-back-health", "en");
@@ -231,6 +232,10 @@ function StrengthCoachPage() {
               <li>
                 Core work goes in the accessories, from minute 28. On your own days:{" "}
                 <a href={CORE_BACK_POST_PATH}>the 7 best core exercises for lower back health</a>.
+              </li>
+              <li>
+                Carries and hangs go in there too. Grip on your own days:{" "}
+                <a href={GRIP_POST_PATH}>the 7 best exercises for grip strength</a>.
               </li>
             </ul>
           </section>
