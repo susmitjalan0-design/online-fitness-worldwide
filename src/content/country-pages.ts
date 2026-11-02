@@ -156,7 +156,7 @@ export const SINGAPORE: CountryPage = {
   path: "/online-personal-trainer-singapore",
   title: "Online Personal Trainer in Singapore, Live 1:1 at Home | Jalan PT",
   description:
-    "Live online personal training for Singapore, coached from Pune on Meet, Zoom or FaceTime. Strength, fat loss or a return after a break. Singapore is 2½ hours ahead of IST.",
+    "Live online personal training for Singapore, coached from Pune on Meet, Zoom or FaceTime. 1:1 or small group, Hindi or English. 2½ hours ahead of IST.",
   crumb: "Online personal trainer in Singapore",
   eyebrow: "Singapore · Live online coaching",
   h1: "An online personal trainer for Singapore.",

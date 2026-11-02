@@ -111,6 +111,11 @@
     text-underline-offset: 0.2em;
   }
 
+  /* In-page jumps (citations, "Jump to" chips) glide; the reduced-motion rule below turns this off. */
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+
   /* Arabic and CJK read better without wide tracking or tight leading. */
   [lang="ar"] .tracking-widest,
   [lang="zh"] .tracking-widest,
@@ -204,6 +209,35 @@
   .card-lift:focus-within {
     border-color: color-mix(in srgb, var(--color-logo) 55%, var(--color-line));
     box-shadow: 0 10px 28px -20px rgba(3, 4, 6, 0.45);
+  }
+
+  /*
+   * "Jump to" chips above each blog list: bone pill, hairline border, and the
+   * exact logo blue on hover/focus (5.0:1 on bone), like the card hover.
+   */
+  .jump-chip {
+    background: var(--color-ink-2);
+    color: var(--color-ink);
+    box-shadow: inset 0 0 0 1px var(--color-line);
+    transition: box-shadow 160ms ease;
+  }
+
+  .jump-chip:hover,
+  .jump-chip:focus-visible {
+    box-shadow: inset 0 0 0 2px var(--color-logo);
+  }
+
+  /* The card you jumped to (from a chip or a search result link) gets the logo-blue edge on the start side. Mirrors in RTL. */
+  .card-lift:target {
+    box-shadow:
+      inset 4px 0 0 var(--color-logo),
+      0 0 0 1px var(--color-logo);
+  }
+
+  [dir="rtl"] .card-lift:target {
+    box-shadow:
+      inset -4px 0 0 var(--color-logo),
+      0 0 0 1px var(--color-logo);
   }
 
   /* Inline links in long-form copy: ink text with an exact logo-blue underline (5.0:1 on bone, was 3.3:1); deeper blue on hover (6.2:1). */

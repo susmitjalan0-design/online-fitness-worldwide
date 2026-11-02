@@ -5,6 +5,7 @@ import { BLOG_POSTS } from "@/content/blog";
 import {
   alternatesFor,
   blogIndexPathFor,
+  JUMP_LABEL,
   LANG_META,
   NEW_TAB_LABEL,
   POST_LANGS,
@@ -38,6 +39,11 @@ function Cited({ text, label = "Source" }: { text: string; label?: string }): Re
       </sup>
     );
   });
+}
+
+/** Stable anchor for list item n (1-based in the URL): #item-1 ... #item-7. Used by the ItemList JSON-LD and the cards. */
+function itemAnchor(index: number): string {
+  return `item-${index + 1}`;
 }
 
 export function postHead(post: BlogPost, lang: PostLang) {
@@ -86,7 +92,12 @@ export function postHead(post: BlogPost, lang: PostLang) {
         inLanguage: lang,
         numberOfItems: copy.items.length,
         itemListOrder: "https://schema.org/ItemListOrderAscending",
-        itemListElement: copy.items.map((item, index) => ({ "@type": "ListItem", position: index + 1, name: item.name })),
+        itemListElement: copy.items.map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: item.name,
+          url: `${absoluteUrl(path)}#${itemAnchor(index)}`,
+        })),
       },
       breadcrumbLd([
         { name: copy.labels.home, path: "/" },
@@ -176,9 +187,23 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
           </div>
 
           <h2 className="mt-12 font-display text-3xl">{copy.listHeading}</h2>
+          <nav aria-label={`${JUMP_LABEL[lang]}: ${copy.listHeading}`} className="mt-5">
+            <ol className="flex flex-wrap gap-2 text-sm">
+              {copy.items.map((item, index) => (
+                <li key={item.name}>
+                  <a href={`#${itemAnchor(index)}`} className="jump-chip inline-flex min-h-11 items-center gap-2 rounded-full px-4">
+                    <span className="font-semibold text-copper tabular-nums" aria-hidden="true">
+                      {index + 1}
+                    </span>
+                    <span>{item.name}</span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
           <ol className="mt-6 space-y-6">
             {copy.items.map((item, index) => (
-              <li key={item.name} className="card-lift rounded-2xl border border-line bg-ink-2 p-5 sm:p-6">
+              <li key={item.name} id={itemAnchor(index)} className="card-lift scroll-mt-24 rounded-2xl border border-line bg-ink-2 p-5 sm:p-6">
                 <h3 className="flex items-baseline gap-3 font-display text-2xl">
                   <span className="mark-badge grid size-9 shrink-0 place-items-center bg-ink text-base text-copper-2 tabular-nums" aria-hidden="true">
                     {index + 1}
