@@ -11,6 +11,7 @@ import {
   POST_LANGS,
   postPathFor,
   RELATED_LABEL,
+  SEE_ALSO_LABEL,
   SOURCE_LABEL,
   type BlogPost,
   type PostLang,
@@ -113,10 +114,47 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
   const postPath = (l: PostLang) => postPathFor(post.slug, l);
   const blogPath = blogIndexPathFor(lang);
   const related = BLOG_POSTS.filter((other) => other.slug !== post.slug);
+  const seeAlso = (post.seeAlso ?? [])
+    .map((slug) => BLOG_POSTS.find((other) => other.slug === slug))
+    .filter((other): other is BlogPost => Boolean(other));
   const { dir } = LANG_META[lang];
   const sourceLabel = SOURCE_LABEL[lang];
   const newTab = NEW_TAB_LABEL[lang];
   const wa = `https://wa.me/${WHATSAPP_E164}?text=${encodeURIComponent(copy.labels.whatsappText)}`;
+
+  const coachedSection = (
+    <section aria-labelledby="coached" className="mark-cap mt-12 rounded-3xl bg-ink p-6 text-bone sm:p-8">
+      <h2 id="coached" className="font-display text-3xl text-bone">
+        {copy.coachedHeading}
+      </h2>
+      <div className="mt-4 space-y-3 leading-relaxed text-bone/90">
+        {copy.coached.map((line) => (
+          <p key={line}>{line}</p>
+        ))}
+        {lang === "en" && post.programLink ? (
+          <p>
+            <a
+              href={post.programLink.href}
+              className="inline-flex min-h-11 items-center gap-1.5 font-semibold text-bone underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper-2"
+            >
+              {post.programLink.label}
+              <ArrowUpRight className="size-4 shrink-0" aria-hidden="true" />
+            </a>
+          </p>
+        ) : null}
+      </div>
+      <div className="mt-6 flex flex-wrap gap-3">
+        <a href="/#programs" className="btn-accent inline-flex min-h-12 items-center gap-1 rounded-full px-6 text-sm font-semibold">
+          {copy.labels.programs}
+          <ArrowUpRight className="size-4 rtl:-scale-x-100" aria-hidden="true" />
+        </a>
+        <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-wa inline-flex min-h-12 items-center rounded-full px-6 text-sm font-semibold">
+          {copy.labels.whatsapp}
+          <span className="sr-only"> ({newTab})</span>
+        </a>
+      </div>
+    </section>
+  );
 
   return (
     <div className="min-h-screen bg-bone text-ink" lang={lang} dir={dir}>
@@ -186,6 +224,20 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
             ))}
           </div>
 
+          {seeAlso.length > 0 ? (
+            <p className="mt-6 text-base leading-relaxed">
+              <span className="font-semibold">{SEE_ALSO_LABEL[lang]}:</span>{" "}
+              {seeAlso.map((other, index) => (
+                <Fragment key={other.slug}>
+                  {index > 0 ? " · " : null}
+                  <a href={postPathFor(other.slug, lang)} className="text-copper underline underline-offset-4">
+                    {other.copy[lang].h1}
+                  </a>
+                </Fragment>
+              ))}
+            </p>
+          ) : null}
+
           <h2 className="mt-12 font-display text-3xl">{copy.listHeading}</h2>
           <nav aria-label={`${JUMP_LABEL[lang]}: ${copy.listHeading}`} className="mt-5">
             <ol className="flex flex-wrap gap-2 text-sm">
@@ -234,6 +286,8 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
             ))}
           </ol>
 
+          {post.ctaMid ? coachedSection : null}
+
           <h2 className="mt-12 font-display text-3xl">{copy.enoughHeading}</h2>
           <div className="mt-4 space-y-4 text-base leading-relaxed sm:text-lg">
             {copy.enough.map((line) => (
@@ -253,37 +307,7 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
             </ul>
           </div>
 
-          <section aria-labelledby="coached" className="mark-cap mt-12 rounded-3xl bg-ink p-6 text-bone sm:p-8">
-            <h2 id="coached" className="font-display text-3xl text-bone">
-              {copy.coachedHeading}
-            </h2>
-            <div className="mt-4 space-y-3 leading-relaxed text-bone/90">
-              {copy.coached.map((line) => (
-                <p key={line}>{line}</p>
-              ))}
-              {lang === "en" && post.programLink ? (
-                <p>
-                  <a
-                    href={post.programLink.href}
-                    className="inline-flex min-h-11 items-center gap-1.5 font-semibold text-bone underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper-2"
-                  >
-                    {post.programLink.label}
-                    <ArrowUpRight className="size-4 shrink-0" aria-hidden="true" />
-                  </a>
-                </p>
-              ) : null}
-            </div>
-            <div className="mt-6 flex flex-wrap gap-3">
-              <a href="/#programs" className="btn-accent inline-flex min-h-12 items-center gap-1 rounded-full px-6 text-sm font-semibold">
-                {copy.labels.programs}
-                <ArrowUpRight className="size-4 rtl:-scale-x-100" aria-hidden="true" />
-              </a>
-              <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-wa inline-flex min-h-12 items-center rounded-full px-6 text-sm font-semibold">
-                {copy.labels.whatsapp}
-                <span className="sr-only"> ({newTab})</span>
-              </a>
-            </div>
-          </section>
+          {post.ctaMid ? null : coachedSection}
 
           <h2 className="mt-12 font-display text-2xl">{copy.safetyHeading}</h2>
           <p className="mt-3 text-base leading-relaxed text-mist">

@@ -60,6 +60,17 @@ export const JUMP_LABEL: Record<PostLang, string> = {
   gu: "સીધા જાઓ",
 };
 
+/** Label for the "See also" line under the intro (links to closely related posts), per language. */
+export const SEE_ALSO_LABEL: Record<PostLang, string> = {
+  en: "See also",
+  ar: "انظر أيضاً",
+  hi: "यह भी देखें",
+  es: "Véase también",
+  zh: "另见",
+  ja: "関連記事",
+  gu: "આ પણ જુઓ",
+};
+
 export function isPostLang(value: string): value is PostLang {
   return (POST_LANGS as readonly string[]).includes(value);
 }
@@ -255,4 +266,8 @@ export type BlogPost = {
   copy: Record<PostLang, PostCopy>;
   /** Optional link from the English "Want it coached live?" card to a program landing page (English only). */
   programLink?: { href: string; label: string };
+  /** Put the "Want it coached live?" call to action straight after the list (mid-article) instead of after the sample. */
+  ctaMid?: boolean;
+  /** Slugs of closely related posts, shown as a "See also" line under the intro in each language. */
+  seeAlso?: readonly string[];
 };
