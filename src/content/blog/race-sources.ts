@@ -26,7 +26,6 @@ export const SRC = {
   hyroxRace: { cite: "HYROX. The Fitness Race (race format, divisions, weights, distances and repetitions). Official site; accessed 2 Nov 2026.", url: "https://hyrox.com/the-fitness-race/" },
   hyroxGuj: { cite: "HYROX India. INDUSIND BANK HYROX Gujarat, 26–28 Nov 2026, Helipad Exhibition Center, Gandhinagar. Official event page; accessed 2 Nov 2026.", url: "https://hyrox.co.in/event/hyrox-gujarat/" },
   hyroxNoida: { cite: "HYROX India. HYROX Noida, 15–17 Jan 2027, IEML (India Expo Mart), Greater Noida. Official event page; accessed 2 Nov 2026.", url: "https://hyrox.co.in/event/hyrox-noida/" },
-  hyroxBlr: { cite: "HYROX India. HYROX Bengaluru, May 2027. Official event page (the page shows 19–23 May 2027 in its header and 12–16 May elsewhere); accessed 2 Nov 2026.", url: "https://hyrox.co.in/event/hyrox-bengaluru/" },
   hyroxIndia: { cite: "HYROX India. Events by HYROX India (upcoming and past events, Season 26/27). Official ticketing page; accessed 2 Nov 2026.", url: "https://india.hyrox.co.in/" },
   hyroxHome: { cite: "HYROX. Our Sport is HYROX (races in 2025, find a race). Official site; accessed 2 Nov 2026.", url: "https://hyrox.co.in/" },
 
@@ -42,12 +41,18 @@ export const SRC = {
   yoddhaFind: { cite: "The Yoddha Race. Find a Race (city dates, ticket contents). Official site; accessed 2 Nov 2026.", url: "https://theyoddharace.com/find-race" },
   yoddhaPrize: { cite: "The Yoddha Race. Prizes (Season 3: no regional prize money; leaderboard decides who reaches the finale). Official site; accessed 2 Nov 2026.", url: "https://theyoddharace.com/prize" },
 
+  crossfitWhat: { cite: "CrossFit. What is CrossFit? (methodology, coaching, scaling, more than 9,000 affiliate gyms). Official site; accessed 2 Nov 2026.", url: "https://www.crossfit.com/what-is-crossfit" },
+  crossfitGuide27: { cite: "CrossFit Games. A Guide To Competing in CrossFit in 2027 (Open, Quarterfinals, Semifinals, Games; registration and dates). 21 Oct 2026; accessed 2 Nov 2026.", url: "https://games.crossfit.com/article/a-guide-to-competing-in-crossfit-in-2027" },
+  crossfitDates27: { cite: "CrossFit Games. 2027 CrossFit Open Dates Revealed (27.1 on 17 Feb, 27.2 on 24 Feb, 27.3 on 3 Mar). 23 Jul 2026; accessed 2 Nov 2026.", url: "https://games.crossfit.com/article/2027-crossfit-open-dates-revealed" },
+  dekaWorld: { cite: "Spartan. 2026 DEKA World Championship, Fort Worth, Texas, 10–13 Dec 2026 (formats, schedule, qualification, public DEKA STRONG heats). Official site; accessed 2 Nov 2026.", url: "https://www.spartan.com/en/deka/championships/world" },
+  dekaSpain: { cite: "DEKA Spain and Portugal. Events (Tenerife 21–22 Nov 2026 to Alicante 31 Oct 2027). Official ticketing site; accessed 2 Nov 2026.", url: "https://tickets-esdk.spartan.com/" },
+  dekaKracey: { cite: "Kracey. What Is DEKA FIT? The 10 Zones, Weights and Finish Times (third-party analysis of 14,580 ranked results on the 2026 DEKA global leaderboard to 13 Sep 2026). Not an official figure; 17 Sep 2026; accessed 2 Nov 2026.", url: "https://kracey.com/blog/deka-fit-guide" },
   dekaHome: { cite: "Spartan. DEKA: the formats and the 10 zones. Official site; accessed 2 Nov 2026.", url: "https://www.spartan.com/en/deka/" },
   dekaFormats: { cite: "Spartan. DEKA Competition Formats: STRONG, MILE, FIT, Ultra, ATLAS. Official site; accessed 2 Nov 2026.", url: "https://www.spartan.com/en/deka/competition-formats" },
   dekaPhil: { cite: "Spartan. DEKA philosophy (why ten zones, and the zone order). Official site; accessed 2 Nov 2026.", url: "https://www.spartan.com/en/life/deka/deka-philosophy" },
   dekaRules: { cite: "Spartan DEKA. Rules of Competition, v20261015 (formats, zone standards, age groups). Official PDF; accessed 2 Nov 2026.", url: "https://assets.ctfassets.net/1bk7n9wtl2gh/1WYS3n1NiTPtSUSalgOd85/db80c736fea07afc410c9aa4df445a9d/DEKA_Rules_of_Competition_v20261015.pdf" },
   dekaFind: { cite: "Spartan. Find a Race (DEKA World Championship, Fort Worth, 10–13 Dec 2026, and other DEKA events). Official site; accessed 2 Nov 2026.", url: "https://www.spartan.com/en/race/find-race/" },
-  dekaThai: { cite: "DEKA Thailand. Events (Bangkok DEKA FIT, 31 Oct and 1 Nov 2026). Official ticketing site; accessed 2 Nov 2026.", url: "https://tickets-thdk.spartan.com/" },
+  dekaThai: { cite: "DEKA Thailand. Events (Bangkok DEKA FIT, 1 Nov 2026). Official ticketing site; accessed 2 Nov 2026.", url: "https://tickets-thdk.spartan.com/" },
   dekaDubai: { cite: "Spartan Arabia. 2026 DEKA FIT Coca-Cola Arena, Dubai, 26 Sep 2026. Official event page; accessed 2 Nov 2026.", url: "https://arabia.spartan.com/en/race/detail/11253/overview" },
 
   who: { cite: "World Health Organization. WHO guidelines on physical activity and sedentary behaviour. Geneva: WHO; 2020.", url: "https://www.who.int/publications/i/item/9789240015128" },

@@ -181,7 +181,12 @@ export const SAFETY_HEADING: Record<PostLang, string> = {
 type Trio = { why: string; how: string; dose: string };
 
 /** Ready-made names for the three fields on each list card. */
-export const CARD_LABELS: Record<"explain" | "train" | "compare" | "plan", Record<PostLang, Trio>> = {
+const THREE: Record<PostLang, Trio> = Object.fromEntries(
+  (["en", "ar", "hi", "es", "zh", "ja", "gu"] as const).map((l) => [l, { why: "HYROX", how: "DEKA", dose: "ATHX" }]),
+) as Record<PostLang, Trio>;
+
+export const CARD_LABELS: Record<"explain" | "train" | "compare" | "plan" | "three", Record<PostLang, Trio>> = {
+  three: THREE,
   explain: {
     en: { why: "What it is", how: "What you do", dose: "Good to know" },
     ar: { why: "ما هو", how: "ماذا تفعل", dose: "مفيد أن تعرف" },

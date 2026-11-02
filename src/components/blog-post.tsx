@@ -4,6 +4,11 @@ import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { BLOG_POSTS } from "@/content/blog";
 import {
   alternatesFor,
+  CLUSTER_HEADING,
+  CLUSTER_HUB_TAG,
+  CLUSTER_HERE,
+  HYBRID_CLUSTER,
+  HYBRID_HUB,
   blogIndexPathFor,
   JUMP_LABEL,
   LANG_META,
@@ -26,11 +31,19 @@ import {
   seoHead,
 } from "@/lib/seo";
 
+/** Latin words and numbers inside right-to-left text. Each run is isolated so units, names and numbers keep their order. */
+const LATIN_RUN = /([A-Za-z0-9](?:[A-Za-z0-9.,:×/%+\-–]*[A-Za-z0-9%])?(?: [A-Za-z0-9](?:[A-Za-z0-9.,:×/%+\-–]*[A-Za-z0-9%])?)*)/g;
+
+function Bidi({ text, rtl }: { text: string; rtl: boolean }): ReactNode {
+  if (!rtl) return text;
+  return text.split(LATIN_RUN).map((part, index) => (index % 2 === 1 ? <bdi key={index}>{part}</bdi> : <Fragment key={index}>{part}</Fragment>));
+}
+
 /** Turns "text{1}{3}" into text with linked superscript citations. `label` is the localised word for "Source". */
-function Cited({ text, label = "Source" }: { text: string; label?: string }): ReactNode {
+function Cited({ text, label = "Source", rtl = false }: { text: string; label?: string; rtl?: boolean }): ReactNode {
   const parts = text.split(/\{(\d+)\}/);
   return parts.map((part, index) => {
-    if (index % 2 === 0) return <Fragment key={index}>{part}</Fragment>;
+    if (index % 2 === 0) return <Bidi key={index} text={part} rtl={rtl} />;
     const n = Number(part);
     return (
       <sup key={index} className="ms-0.5">
@@ -113,7 +126,11 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
   const copy = post.copy[lang];
   const postPath = (l: PostLang) => postPathFor(post.slug, l);
   const blogPath = blogIndexPathFor(lang);
-  const related = BLOG_POSTS.filter((other) => other.slug !== post.slug);
+  const inCluster = (slug: string) => (HYBRID_CLUSTER as readonly string[]).includes(slug);
+  const clusterPosts = post.slug && inCluster(post.slug)
+    ? HYBRID_CLUSTER.map((slug) => BLOG_POSTS.find((other) => other.slug === slug)).filter((other): other is BlogPost => Boolean(other))
+    : [];
+  const related = BLOG_POSTS.filter((other) => other.slug !== post.slug && !(clusterPosts.length > 0 && inCluster(other.slug)));
   const seeAlso = (post.seeAlso ?? [])
     .map((slug) => BLOG_POSTS.find((other) => other.slug === slug))
     .filter((other): other is BlogPost => Boolean(other));
@@ -143,16 +160,19 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
           </p>
         ) : null}
       </div>
-      <div className="mt-6 flex flex-wrap gap-3">
-        <a href="/#programs" className="btn-accent inline-flex min-h-12 items-center gap-1 rounded-full px-6 text-sm font-semibold">
-          {copy.labels.programs}
-          <ArrowUpRight className="size-4 rtl:-scale-x-100" aria-hidden="true" />
-        </a>
-        <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-wa inline-flex min-h-12 items-center rounded-full px-6 text-sm font-semibold">
+      <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3">
+        <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-accent inline-flex min-h-12 items-center gap-1 rounded-full px-6 text-sm font-semibold">
           {copy.labels.whatsapp}
+          <ArrowUpRight className="size-4 rtl:-scale-x-100" aria-hidden="true" />
           <span className="sr-only"> ({newTab})</span>
         </a>
+        <a href="/#programs" className="inline-flex min-h-11 items-center gap-1 text-sm font-semibold text-bone underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper-2">
+          {copy.labels.programs}
+        </a>
       </div>
+      <p className="mt-5 border-t border-bone/20 pt-4 text-xs leading-relaxed text-bone/70">
+        <Bidi text={copy.credentialsNote} rtl={dir === "rtl"} />
+      </p>
     </section>
   );
 
@@ -219,7 +239,7 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
           <div className="prose-links mt-8 space-y-4 text-base leading-relaxed sm:text-lg">
             {copy.intro.map((line) => (
               <p key={line}>
-                <Cited text={line} label={sourceLabel} />
+                <Cited rtl={dir === "rtl"} text={line} label={sourceLabel} />
               </p>
             ))}
           </div>
@@ -266,19 +286,19 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
                   <div>
                     <dt className="text-xs font-semibold tracking-widest text-copper uppercase">{copy.labels.why}</dt>
                     <dd className="mt-1">
-                      <Cited text={item.why} label={sourceLabel} />
+                      <Cited rtl={dir === "rtl"} text={item.why} label={sourceLabel} />
                     </dd>
                   </div>
                   <div>
                     <dt className="text-xs font-semibold tracking-widest text-copper uppercase">{copy.labels.how}</dt>
                     <dd className="mt-1">
-                      <Cited text={item.how} label={sourceLabel} />
+                      <Cited rtl={dir === "rtl"} text={item.how} label={sourceLabel} />
                     </dd>
                   </div>
                   <div>
                     <dt className="text-xs font-semibold tracking-widest text-copper uppercase">{copy.labels.dose}</dt>
                     <dd className="mt-1">
-                      <Cited text={item.dose} label={sourceLabel} />
+                      <Cited rtl={dir === "rtl"} text={item.dose} label={sourceLabel} />
                     </dd>
                   </div>
                 </dl>
@@ -292,7 +312,7 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
           <div className="mt-4 space-y-4 text-base leading-relaxed sm:text-lg">
             {copy.enough.map((line) => (
               <p key={line}>
-                <Cited text={line} label={sourceLabel} />
+                <Cited rtl={dir === "rtl"} text={line} label={sourceLabel} />
               </p>
             ))}
           </div>
@@ -311,10 +331,8 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
 
           <h2 className="mt-12 font-display text-2xl">{copy.safetyHeading}</h2>
           <p className="mt-3 text-base leading-relaxed text-mist">
-            <Cited text={copy.safety} label={sourceLabel} />
+            <Cited rtl={dir === "rtl"} text={copy.safety} label={sourceLabel} />
           </p>
-
-          <p className="mt-6 text-sm leading-relaxed text-mist">{copy.credentialsNote}</p>
 
           <h2 className="mt-12 font-display text-2xl">{copy.labels.sources}</h2>
           <ol className="mt-4 space-y-3 text-sm leading-relaxed" lang="en" dir="ltr">
@@ -331,6 +349,33 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
               </li>
             ))}
           </ol>
+
+          {clusterPosts.length > 0 ? (
+            <nav aria-labelledby="cluster" className="mt-12 rounded-2xl border border-line bg-ink-2 p-5">
+              <h2 id="cluster" className="font-display text-2xl">
+                {CLUSTER_HEADING[lang]}
+              </h2>
+              <ul className="mt-4 space-y-3">
+                {clusterPosts.map((other) => (
+                  <li key={other.slug}>
+                    {other.slug === post.slug ? (
+                      <span aria-current="page" className="font-semibold">
+                        {other.copy[lang].h1} <span className="text-sm font-normal text-mist">({CLUSTER_HERE[lang]})</span>
+                      </span>
+                    ) : (
+                      <a href={postPathFor(other.slug, lang)} className="group inline-flex items-start gap-2 text-base font-semibold underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper">
+                        <span>
+                          {other.copy[lang].h1}
+                          {other.slug === HYBRID_HUB ? <span className="text-sm font-normal text-mist"> ({CLUSTER_HUB_TAG[lang]})</span> : null}
+                        </span>
+                        <ArrowUpRight className="mt-1 size-4 shrink-0 rtl:-scale-x-100" aria-hidden="true" />
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          ) : null}
 
           {related.length > 0 ? (
             <nav aria-labelledby="related" className="mt-12 border-t border-line pt-8">

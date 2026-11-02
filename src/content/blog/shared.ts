@@ -71,6 +71,48 @@ export const SEE_ALSO_LABEL: Record<PostLang, string> = {
   gu: "આ પણ જુઓ",
 };
 
+/** Topic cluster: the hybrid fitness race guide. The hub is the comparison post; every other race post is a spoke that links to it, and it links to every spoke. */
+export const HYBRID_HUB = "hyrox-vs-deka-vs-athx";
+export const HYBRID_CLUSTER = [
+  "hyrox-vs-deka-vs-athx",
+  "what-is-hyrox",
+  "hyrox-training-plan-for-beginners",
+  "how-to-train-for-hyrox-at-home",
+  "hyrox-vs-crossfit",
+  "deka-fit-mile-strong-guide",
+  "what-is-athx",
+] as const;
+
+export const CLUSTER_HEADING: Record<PostLang, string> = {
+  en: "The hybrid fitness race guide",
+  ar: "دليل سباقات اللياقة الهجينة",
+  hi: "हाइब्रिड फ़िटनेस रेस गाइड",
+  es: "Guía de carreras de fitness híbrido",
+  zh: "混合体能赛指南",
+  ja: "ハイブリッド・フィットネスレース ガイド",
+  gu: "હાઇબ્રિડ ફિટનેસ રેસ ગાઇડ",
+};
+
+export const CLUSTER_HUB_TAG: Record<PostLang, string> = {
+  en: "start here: the comparison",
+  ar: "ابدأ من هنا: المقارنة",
+  hi: "यहाँ से शुरू करें: तुलना",
+  es: "empieza aquí: la comparación",
+  zh: "从这里开始：对比",
+  ja: "まずはここから：比較",
+  gu: "અહીંથી શરૂ કરો: સરખામણી",
+};
+
+export const CLUSTER_HERE: Record<PostLang, string> = {
+  en: "you are here",
+  ar: "أنت هنا",
+  hi: "आप यहाँ हैं",
+  es: "estás aquí",
+  zh: "当前文章",
+  ja: "この記事",
+  gu: "તમે અહીં છો",
+};
+
 export function isPostLang(value: string): value is PostLang {
   return (POST_LANGS as readonly string[]).includes(value);
 }
