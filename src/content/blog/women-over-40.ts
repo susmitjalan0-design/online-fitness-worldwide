@@ -361,7 +361,7 @@ const hi: PostCopy = {
 const es: PostCopy = {
   metaTitle: "Mejores ejercicios de fuerza para mujeres de más de 40: 7 | Jalan PT",
   metaDescription:
-    "Los 7 mejores ejercicios de fuerza para mujeres de más de 40, para músculo, hueso y equilibrio. Qué dicen la OMS, el NHS, el ACSM y la investigación ósea, más una semana de ejemplo.",
+    "Los 7 mejores ejercicios de fuerza para mujeres de más de 40: músculo, hueso y equilibrio. Qué dicen la OMS, el NHS y el ACSM, y una semana de ejemplo.",
   h1: "Mejores ejercicios de fuerza para mujeres de más de 40: 7 para empezar",
   dek: "Los cuarenta no son una señal de alarma. Son un buen momento para empezar a levantar peso en serio.",
   updated: "Actualizado el 24 de octubre de 2026",

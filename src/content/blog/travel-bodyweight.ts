@@ -52,7 +52,7 @@ export const TRAVEL_SOURCES = [
 const en: PostCopy = {
   metaTitle: "Best Bodyweight Exercises for Travel: 7 Hotel-Room Moves | Jalan PT",
   metaDescription:
-    "The 7 best bodyweight exercises for travel and hotel-room workouts. How to make no-kit training hard enough, how little keeps your gains on a trip, and a sample week.",
+    "The 7 best bodyweight exercises for travel and hotel-room workouts. How to make no-kit training hard enough, how little keeps your gains, and a sample week.",
   h1: "Best bodyweight exercises for travel: 7 hotel-room moves and a sample week",
   dek: "No gym. No kit. A bed, a chair, a backpack and the floor. Seven moves that travel with you.",
   updated: "Updated 29 October 2026",
@@ -367,7 +367,7 @@ const hi: PostCopy = {
 const es: PostCopy = {
   metaTitle: "Mejores ejercicios con peso corporal para viajar: 7 en el hotel | Jalan PT",
   metaDescription:
-    "Los 7 mejores ejercicios con peso corporal para viajar y entrenar en la habitación del hotel. Cómo hacer que entrenar sin material cueste lo suficiente, cuánto basta para no perder lo ganado y una semana de ejemplo.",
+    "Los 7 mejores ejercicios con peso corporal para viajar y para el hotel: cómo hacer que cueste sin material, cuánto basta para no perder lo ganado y una semana.",
   h1: "Mejores ejercicios con peso corporal para viajar: 7 movimientos para la habitación del hotel y una semana de ejemplo",
   dek: "Sin gimnasio. Sin material. Una cama, una silla, una mochila y el suelo. Siete ejercicios que viajan contigo.",
   updated: "Actualizado el 29 de octubre de 2026",

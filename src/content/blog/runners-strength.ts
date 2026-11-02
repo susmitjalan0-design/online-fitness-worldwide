@@ -62,7 +62,7 @@ export const RUNNERS_SOURCES = [
 const en: PostCopy = {
   metaTitle: "Best Strength Exercises for Runners: 7 Moves and a Sample Week | Jalan PT",
   metaDescription:
-    "The 7 best strength exercises for runners, from squats to calf raises and hops. What the research says on running economy and injuries, how often to lift, and a sample week.",
+    "The 7 best strength exercises for runners, from squats to calf raises and hops. The research on running economy and injuries, how often to lift, a sample week.",
   h1: "Best strength exercises for runners: 7 moves and a sample week",
   dek: "Running builds the engine. Lifting builds the frame around it. Two short sessions a week, next to your runs.",
   updated: "Updated 30 October 2026",
@@ -383,7 +383,7 @@ const hi: PostCopy = {
 const es: PostCopy = {
   metaTitle: "Mejores ejercicios de fuerza para corredores: 7 y una semana | Jalan PT",
   metaDescription:
-    "Los 7 mejores ejercicios de fuerza para corredores, de la sentadilla a las elevaciones de gemelo y los saltos. Qué dice la investigación sobre economía de carrera y lesiones, cada cuánto entrenar y una semana de ejemplo.",
+    "Los 7 mejores ejercicios de fuerza para corredores: sentadilla, gemelos y saltos. Qué dice la investigación sobre economía de carrera y lesiones, y una semana.",
   h1: "Mejores ejercicios de fuerza para corredores: 7 movimientos y una semana de ejemplo",
   dek: "Correr construye el motor. Levantar construye el chasis. Dos sesiones cortas a la semana, junto a tus carreras.",
   updated: "Actualizado el 30 de octubre de 2026",

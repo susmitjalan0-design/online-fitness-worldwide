@@ -353,7 +353,7 @@ const hi: PostCopy = {
 const es: PostCopy = {
   metaTitle: "Mejores ejercicios de calentamiento antes de la fuerza: 7 | Jalan PT",
   metaDescription:
-    "Los 7 mejores ejercicios de calentamiento antes del entrenamiento de fuerza. Qué dicen el NHS, la AHA y la investigación, cuánto debe durar y una rutina de ejemplo de 10 minutos.",
+    "Los 7 mejores ejercicios de calentamiento antes de la fuerza. Qué dicen el NHS, la AHA y la investigación, cuánto debe durar y una rutina de 10 minutos.",
   h1: "Mejores ejercicios de calentamiento antes del entrenamiento de fuerza: 7 para empezar",
   dek: "Diez minutos. Cuerpo caliente, patrón ensayado, listo para la primera serie pesada.",
   updated: "Actualizado el 25 de octubre de 2026",
