@@ -1,0 +1,830 @@
+/**
+ * Blog post: "Best exercises for grip strength".
+ * Citations in copy are written as {n} and point at GRIP_SOURCES[n - 1].
+ * Every number in the copy comes from a cited source (title, authors, journal,
+ * year, volume/pages and finding checked against the Europe PMC record and
+ * abstract, and each DOI checked as registered at doi.org, on 2 Nov 2026; the
+ * WHO page opened the same day; the PURE country list checked in the Lancet's
+ * press release). The grip-and-health studies are observational: the copy
+ * calls them links, not causes, and repeats the PURE authors' own caution.
+ * No client results, no quotes, no prices. Translations were drafted for this
+ * batch and need a native-speaker review before launch (see CHANGES-grokbot.md).
+ */
+
+import { type BlogPost, type PostCopy } from "./shared";
+
+export const GRIP_SLUG = "best-exercises-for-grip-strength";
+export const GRIP_PUBLISHED = "2026-11-02";
+export const GRIP_MODIFIED = "2026-11-02";
+
+export const GRIP_SOURCES = [
+  {
+    cite: "World Health Organization. WHO guidelines on physical activity and sedentary behaviour. Geneva: WHO; 2020.",
+    url: "https://www.who.int/publications/i/item/9789240015128",
+  },
+  {
+    cite: "Leong DP, Teo KK, Rangarajan S, et al. Prognostic value of grip strength: findings from the Prospective Urban Rural Epidemiology (PURE) study. Lancet. 2015;386(9990):266–273.",
+    url: "https://doi.org/10.1016/S0140-6736(14)62000-6",
+  },
+  {
+    cite: "Celis-Morales CA, Welsh P, Lyall DM, et al. Associations of grip strength with cardiovascular, respiratory, and cancer outcomes and all cause mortality: prospective cohort study of half a million UK Biobank participants. BMJ. 2018;361:k1651.",
+    url: "https://doi.org/10.1136/bmj.k1651",
+  },
+  {
+    cite: "Rantanen T, Guralnik JM, Foley D, et al. Midlife hand grip strength as a predictor of old age disability. JAMA. 1999;281(6):558–560.",
+    url: "https://doi.org/10.1001/jama.281.6.558",
+  },
+  {
+    cite: "Bohannon RW. Grip strength: an indispensable biomarker for older adults. Clin Interv Aging. 2019;14:1681–1691.",
+    url: "https://doi.org/10.2147/CIA.S194543",
+  },
+  {
+    cite: "Cruz-Jentoft AJ, Bahat G, Bauer J, et al. Sarcopenia: revised European consensus on definition and diagnosis. Age Ageing. 2019;48(1):16–31.",
+    url: "https://doi.org/10.1093/ageing/afy169",
+  },
+  {
+    cite: "Labott BK, Bucht H, Morat M, Morat T, Donath L. Effects of exercise training on handgrip strength in older adults: a meta-analytical review. Gerontology. 2019;65(6):686–698.",
+    url: "https://doi.org/10.1159/000501203",
+  },
+  {
+    cite: "American College of Sports Medicine. Position stand: Progression models in resistance training for healthy adults. Med Sci Sports Exerc. 2009;41(3):687–708.",
+    url: "https://doi.org/10.1249/MSS.0b013e3181915670",
+  },
+  {
+    cite: "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+    url: "https://doi.org/10.1249/MSS.0000000000000664",
+  },
+] as const;
+
+const en: PostCopy = {
+  metaTitle: "Best Exercises for Grip Strength: 7 Moves and a Sample Week | Jalan PT",
+  metaDescription:
+    "The 7 best exercises for grip strength: carries, hangs, towel rows, pinch holds and wrist curls. What the research says, how often to train, and a sample week.",
+  h1: "Best exercises for grip strength: 7 moves and a sample week",
+  dek: "Grip carries the shopping, opens the jar, holds the bar. Train it 2 to 3 times a week, at the end of your strength work. Ten minutes is enough.",
+  updated: "Updated 2 November 2026",
+  byline: "By Susmit Jalan, coach at Jalan PT, Pune.",
+  credentialsNote:
+    "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+  labels: {
+    home: "Home",
+    blog: "Blog",
+    why: "Why",
+    how: "How",
+    dose: "Dose",
+    sources: "Sources",
+    readIn: "Read this in",
+    programs: "See the programs",
+    whatsapp: "Ask on WhatsApp",
+    whatsappText: "Hi Susmit, I read the article on exercises for grip strength and want to book a consultation",
+    skip: "Skip to content",
+    crumb: "Best exercises for grip strength",
+  },
+  intro: [
+    "Grip is the strength in your hands and forearms. You use it all day. Bags, jars, children, a heavy door.",
+    "Researchers like it because it is quick to measure: one squeeze on a hand dynamometer. Grip tells you a lot about your overall strength.{5}",
+    "In the PURE study, 139,691 adults aged 35 to 70 in 17 countries, including India and the UAE, had their grip tested. Over about 4 years, every 5 kg less grip was linked to a 16% higher risk of death from any cause.{2}",
+    "That is a link, not proof. The authors say more research is needed to test whether getting stronger lowers that risk.{2} So we don't chase a number. We train the whole body, and the hands with it.",
+    "You need a dumbbell or two (or bags of water), a towel, a rubber band and 10 minutes after your strength work.",
+  ],
+  listHeading: "The 7 best exercises for grip strength",
+  items: [
+    {
+      name: "Farmer's carry",
+      why: "Heavy in both hands, and walk. The hands squeeze, the forearms burn, the shoulders and trunk hold you tall. The most useful grip exercise there is.",
+      how: "A dumbbell, a kettlebell or a bag of water in each hand. Stand tall. Shoulders down. Walk slowly, short steps. Put them down before your grip gives out, not after.",
+      dose: "3 to 4 walks of 20 to 30 metres, or 30 to 40 seconds.",
+    },
+    {
+      name: "Dead hang",
+      why: "Your body weight, held by your hands. It builds grip that lasts, and it works the whole hand at once.",
+      how: "Only from a pull-up bar or a frame rated for your weight. Step up from a stool. Hands shoulder-width. Hang with shoulders gently engaged, not shrugged to your ears. Too hard? Keep your feet on the stool and take some weight off.",
+      dose: "3 hangs of 10 to 30 seconds. Rest a minute between.",
+    },
+    {
+      name: "Towel row",
+      why: "A towel is a thick, soft handle. Your fingers have to work much harder to hold it. Your back gets a row at the same time.",
+      how: "Loop a small towel through a dumbbell handle, or around a band. Hold both ends in one hand. Other hand on a chair or bench. Row it to your hip. Lower slowly.",
+      dose: "3 sets of 8 to 12 each side.{8}",
+    },
+    {
+      name: "Pinch hold",
+      why: "Most grip work forgets the thumb. Pinching trains it. Think of carrying a laptop or a tray by the edge.",
+      how: "Two weight plates, smooth sides out. Or two thick books, or one heavy book by its spine. Pinch between fingers and thumb, arm long by your side. Hold.",
+      dose: "3 holds of 15 to 30 seconds each hand.",
+    },
+    {
+      name: "Wrist curl and reverse wrist curl",
+      why: "The muscles that bend and lift your wrist sit in your forearm. Training both sides keeps them balanced.",
+      how: "Sit. Forearm on your thigh, wrist just past your knee. A light dumbbell or a water bottle. Palm up: curl the wrist up, lower slowly. Then palm down: lift the back of your hand, lower slowly. Small range. No jerking.",
+      dose: "2 to 3 sets of 12 to 15 each way. Light.",
+    },
+    {
+      name: "Squeeze: hand gripper or soft ball",
+      why: "Closing the hand hard, again and again. Simple, and you can do it at a desk.",
+      how: "A hand gripper you can close for 8 to 12 reps, or a soft ball or rolled-up towel. Squeeze hard. Hold 2 to 3 seconds. Open slowly.",
+      dose: "2 to 3 sets of 8 to 12 squeezes each hand. When 12 is easy, use a stiffer gripper.{8}",
+    },
+    {
+      name: "Finger extensions with a rubber band",
+      why: "Six moves of squeezing. One of opening. Hands that type all day and grip all session need the other side too.",
+      how: "Put a thick rubber band around your fingers and thumb, near the tips. Open the hand wide against it. Hold one second. Close slowly.",
+      dose: "2 to 3 sets of 15 to 20 each hand.",
+    },
+  ],
+  enoughHeading: "How often, how heavy, and what grip tells you",
+  enough: [
+    "WHO advises muscle-strengthening work for all the major muscle groups on 2 or more days a week.{1} Grip fits inside that. Add it to the end of 2 or 3 strength sessions. Not every day: hands and forearms need rest days too.",
+    "Use the same rule as any strength work. Pick a load or a version you can do 8 to 12 good reps with. When you beat the target by 1 or 2 reps, add a little: 2 to 10% more load.{8} For holds, add seconds first, then weight.",
+    "Does grip training work? In a review of 24 trials with 3,018 older adults (average age 73), exercise programmes raised grip strength. The gain was small.{7} Programmes that trained the task directly, or mixed several kinds of exercise, looked best.{7} That is why this list does both.",
+    "Grip is linked to more than hands. In half a million UK adults aged 40 to 69, lower grip went with a higher risk of dying from any cause, and from heart disease, lung disease and several cancers.{3} In 6,089 healthy men aged 45 to 68, the weakest third by grip were more than twice as likely as the strongest third to have trouble caring for themselves 25 years later.{4}",
+    "These are links, not causes. Weak grip often goes with weak muscles overall, and with illness and poor nutrition.{5} Squeezing a gripper won't undo that on its own. Strength work for the whole body is the point. Grip is a good way to check on it.",
+    "Doctors use grip too. In Europe's definition of sarcopenia (age-related muscle loss), low grip strength is the first sign to look for: under 27 kg for men and under 16 kg for women, on a hand dynamometer.{6} That is a clinic test, not a home one. If you are worried about losing strength, ask your doctor.",
+  ],
+  sampleHeading: "A sample week with grip work",
+  sampleLabel: "Sample only. Not a prescription. Adjust it to your body, your health and your history.",
+  sample: [
+    "Monday: strength session, then farmer's carry and pinch hold.",
+    "Tuesday: a brisk walk.",
+    "Wednesday: strength session, then towel row and dead hang.",
+    "Thursday: rest, or a walk. Finger extensions at your desk if you type a lot.",
+    "Friday: strength session, then wrist curls and the squeeze.",
+    "Saturday: carry the shopping home. That counts.",
+    "Sunday: rest.",
+    "Grip on 2 or 3 days, never two hard grip days in a row.",
+  ],
+  coachedHeading: "Want it coached live?",
+  coached: [
+    "Iron Hour is 60 minutes, 1:1. Set-up at minute 0: camera placed so I can see your hands and your whole body. Warm-up from minute 4. The primary lift at 14. Accessories at 28: this is where carries, hangs and holds go. Cool-down at 50.",
+    "Lean Reset is 20 sessions a month, 1:1. Open Floor is a small group.",
+    "Coming back after a long break? Return is 45 minutes, 12 alternate-day sessions a month. We build the base first, grip included.",
+    "Coached live on Google Meet, Zoom or FaceTime. From Pune. In Hindi or English. On IST. Not sure yet? Start with a 30-minute consultation. It is a conversation, not training. Booking holds a time. The fee is agreed directly.",
+  ],
+  safetyHeading: "Before you start",
+  safety:
+    "General information, not medical advice. ACSM's screening model says: if you are inactive, have no symptoms and no known heart, metabolic or kidney disease, you can start light to moderate exercise without medical clearance and build up gradually. If you have one of those conditions, or symptoms, get medical clearance first.{9} Breathe through every hold. Don't hold your breath, especially with high blood pressure. Have hand, wrist, elbow or shoulder pain, arthritis in your hands, a recent injury or surgery, or numbness or tingling in your fingers? Ask your doctor or physiotherapist which moves suit you first. Hang only from a bar that is fixed and rated for your weight, and step down onto a stool, don't drop. Stop if you get sharp pain, or numbness or tingling in your hand.",
+};
+
+const ar: PostCopy = {
+  metaTitle: "أفضل تمارين لقوة القبضة: 7 تمارين ونموذج لأسبوع | Jalan PT",
+  metaDescription:
+    "أفضل 7 تمارين لقوة القبضة: الحمل، والتعلّق، والتجديف بالمنشفة، والقبض بالأصابع، وثني الرسغ. ماذا تقول الأبحاث عن القبضة، وكم مرة تدرّبها، مع نموذج لأسبوع.",
+  h1: "أفضل تمارين لقوة القبضة: 7 تمارين ونموذج لأسبوع",
+  dek: "القبضة تحمل المشتريات، وتفتح البرطمان، وتمسك القضيب. درّبها 2 إلى 3 مرات في الأسبوع، في نهاية تمارين القوة. عشر دقائق تكفي.",
+  updated: "تم التحديث في 2 نوفمبر 2026",
+  byline: "بقلم سوسميت جالان، مدرب في Jalan PT، بونه.",
+  credentialsNote:
+    "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+  labels: {
+    home: "الرئيسية",
+    blog: "المدونة",
+    why: "لماذا",
+    how: "كيف",
+    dose: "الجرعة",
+    sources: "المصادر",
+    readIn: "اقرأ بلغة أخرى",
+    programs: "اطّلع على البرامج",
+    whatsapp: "اسأل عبر واتساب",
+    whatsappText: "مرحباً سوسميت، قرأت مقال تمارين قوة القبضة وأريد حجز استشارة",
+    skip: "انتقل إلى المحتوى",
+    crumb: "أفضل تمارين لقوة القبضة",
+  },
+  intro: [
+    "القبضة هي القوة في يديك وساعديك. تستخدمها طوال اليوم. الحقائب، والبرطمانات، والأطفال، والباب الثقيل.",
+    "يحبها الباحثون لأنها سريعة القياس: ضغطة واحدة على جهاز قياس قوة اليد (الدينامومتر). وتخبرك القبضة بالكثير عن قوتك العامة.{5}",
+    "في دراسة PURE، قيست قبضة 139,691 بالغاً تتراوح أعمارهم بين 35 و70 عاماً في 17 دولة، منها الهند والإمارات. وعلى مدى نحو 4 سنوات، ارتبط كل نقص بمقدار 5 كغ في القبضة بزيادة 16% في خطر الوفاة لأي سبب.{2}",
+    "هذا ارتباط، وليس دليلاً. يقول الباحثون إن هناك حاجة إلى مزيد من الأبحاث لاختبار ما إذا كانت زيادة القوة تخفّض هذا الخطر.{2} لذلك لا نطارد رقماً. ندرّب الجسم كله، واليدين معه.",
+    "تحتاج دمبلاً أو اثنين (أو أكياس ماء)، ومنشفة، وشريطاً مطاطياً، و10 دقائق بعد تمارين القوة.",
+  ],
+  listHeading: "أفضل 7 تمارين لقوة القبضة",
+  items: [
+    {
+      name: "مشية المزارع (Farmer's carry)",
+      why: "وزن ثقيل في اليدين، وامشِ. اليدان تضغطان، والساعدان يحترقان، والكتفان والجذع يبقونك مستقيماً. أنفع تمرين للقبضة على الإطلاق.",
+      how: "دمبل أو كيتلبل أو كيس ماء في كل يد. قف مستقيماً. الكتفان إلى الأسفل. امشِ ببطء، بخطوات قصيرة. ضع الوزن قبل أن تفلت قبضتك، لا بعدها.",
+      dose: "من 3 إلى 4 مسافات من 20 إلى 30 متراً، أو من 30 إلى 40 ثانية.",
+    },
+    {
+      name: "التعلّق (Dead hang)",
+      why: "وزن جسمك، تحمله يداك. يبني قبضة تدوم، ويشغّل اليد كلها مرة واحدة.",
+      how: "فقط من قضيب عقلة أو إطار مخصّص لتحمّل وزنك. اصعد من على كرسي صغير. اليدان بعرض الكتفين. تعلّق والكتفان مشدودتان برفق، لا مرفوعتان نحو الأذنين. صعب جداً؟ أبقِ قدميك على الكرسي وخفّف جزءاً من الوزن.",
+      dose: "3 مرات تعلّق من 10 إلى 30 ثانية. دقيقة راحة بينها.",
+    },
+    {
+      name: "التجديف بالمنشفة",
+      why: "المنشفة مقبض سميك ولين. على أصابعك أن تعمل أكثر بكثير لتمسكها. وظهرك يأخذ تمرين تجديف في الوقت نفسه.",
+      how: "مرّر منشفة صغيرة عبر مقبض دمبل، أو حول شريط مقاومة. أمسك الطرفين بيد واحدة. اليد الأخرى على كرسي أو مقعد. اسحبها نحو وركك. انزل ببطء.",
+      dose: "3 مجموعات من 8 إلى 12 لكل جانب.{8}",
+    },
+    {
+      name: "القبض بالأصابع (Pinch hold)",
+      why: "معظم تمارين القبضة تنسى الإبهام. القبض بالأصابع يدرّبه. فكّر في حمل حاسوب محمول أو صينية من الحافة.",
+      how: "قرصا أوزان، والجانبان الأملسان إلى الخارج. أو كتابان سميكان، أو كتاب ثقيل من كعبه. اقبض بين الأصابع والإبهام، والذراع ممدودة بجانبك. اثبت.",
+      dose: "3 مرات ثبات من 15 إلى 30 ثانية لكل يد.",
+    },
+    {
+      name: "ثني الرسغ وثنيه العكسي",
+      why: "العضلات التي تثني الرسغ وترفعه موجودة في الساعد. تدريب الجهتين يبقيها متوازنة.",
+      how: "اجلس. الساعد على فخذك، والرسغ بعد الركبة مباشرة. دمبل خفيف أو زجاجة ماء. الكف إلى الأعلى: اثنِ الرسغ إلى الأعلى، وانزل ببطء. ثم الكف إلى الأسفل: ارفع ظهر يدك، وانزل ببطء. مدى صغير. بلا اندفاع.",
+      dose: "من 2 إلى 3 مجموعات من 12 إلى 15 في كل اتجاه. خفيف.",
+    },
+    {
+      name: "الضغط: قابض يد أو كرة لينة",
+      why: "إغلاق اليد بقوة، مرة بعد مرة. بسيط، ويمكنك فعله على المكتب.",
+      how: "قابض يد تستطيع إغلاقه من 8 إلى 12 مرة، أو كرة لينة أو منشفة ملفوفة. اضغط بقوة. اثبت من 2 إلى 3 ثوانٍ. افتح ببطء.",
+      dose: "من 2 إلى 3 مجموعات من 8 إلى 12 ضغطة لكل يد. عندما تصبح 12 سهلة، استخدم قابضاً أصلب.{8}",
+    },
+    {
+      name: "فتح الأصابع بشريط مطاطي",
+      why: "ستة تمارين للضغط. وواحد للفتح. اليدان اللتان تكتبان طوال اليوم وتقبضان طوال الجلسة تحتاجان الجهة الأخرى أيضاً.",
+      how: "ضع شريطاً مطاطياً سميكاً حول أصابعك وإبهامك، قرب الأطراف. افتح يدك على اتساعها ضده. اثبت ثانية. أغلق ببطء.",
+      dose: "من 2 إلى 3 مجموعات من 15 إلى 20 لكل يد.",
+    },
+  ],
+  enoughHeading: "كم مرة، وبأي ثقل، وماذا تخبرك القبضة",
+  enough: [
+    "توصي منظمة الصحة العالمية بتمارين تقوية العضلات لكل المجموعات العضلية الرئيسية في يومين أو أكثر في الأسبوع.{1} القبضة جزء من ذلك. أضفها إلى نهاية 2 أو 3 جلسات قوة. لا كل يوم: اليدان والساعدان تحتاجان أيام راحة أيضاً.",
+    "استخدم القاعدة نفسها كأي تدريب قوة. اختر حملاً أو نسخة تستطيع أداء 8 إلى 12 تكراراً جيداً منها. عندما تتجاوز الهدف بتكرار أو اثنين، أضف قليلاً: حملاً أكثر بنسبة 2 إلى 10%.{8} في تمارين الثبات، أضف ثوانيَ أولاً، ثم وزناً.",
+    "هل ينفع تدريب القبضة؟ في مراجعة لـ 24 تجربة شملت 3,018 من كبار السن (متوسط العمر 73)، رفعت برامج التمارين قوة القبضة. وكانت الزيادة صغيرة.{7} وبدت البرامج التي تدرّب المهمة مباشرة، أو تمزج أنواعاً عدة من التمارين، الأفضل.{7} لهذا تجمع هذه القائمة بين الاثنين.",
+    "القبضة مرتبطة بأكثر من اليدين. في نصف مليون بالغ في المملكة المتحدة تتراوح أعمارهم بين 40 و69 عاماً، ارتبطت القبضة الأضعف بخطر أعلى للوفاة لأي سبب، وبسبب أمراض القلب والرئة وعدة أنواع من السرطان.{3} وفي 6,089 رجلاً سليماً تتراوح أعمارهم بين 45 و68 عاماً، كان الثلث الأضعف قبضةً أكثر من ضعف الثلث الأقوى عرضةً لصعوبة العناية بأنفسهم بعد 25 عاماً.{4}",
+    "هذه ارتباطات، وليست أسباباً. القبضة الضعيفة تأتي غالباً مع عضلات ضعيفة عموماً، ومع المرض وسوء التغذية.{5} الضغط على قابض يد لن يغيّر ذلك وحده. الهدف هو تدريب القوة للجسم كله. والقبضة طريقة جيدة للاطمئنان عليه.",
+    "الأطباء يستخدمون القبضة أيضاً. في التعريف الأوروبي لضمور العضلات المرتبط بالعمر (الساركوبينيا)، القبضة الضعيفة هي أول علامة يُبحث عنها: أقل من 27 كغ للرجال وأقل من 16 كغ للنساء، على جهاز قياس قوة اليد.{6} هذا فحص في العيادة، لا في البيت. إن كنت قلقاً من فقدان القوة، فاسأل طبيبك.",
+  ],
+  sampleHeading: "نموذج لأسبوع مع تمارين القبضة",
+  sampleLabel: "نموذج فقط. ليس وصفة. عدّله بحسب جسمك وصحتك وتاريخك.",
+  sample: [
+    "الاثنين: جلسة قوة، ثم مشية المزارع والقبض بالأصابع.",
+    "الثلاثاء: مشي سريع.",
+    "الأربعاء: جلسة قوة، ثم التجديف بالمنشفة والتعلّق.",
+    "الخميس: راحة، أو مشي. فتح الأصابع على مكتبك إن كنت تكتب كثيراً.",
+    "الجمعة: جلسة قوة، ثم ثني الرسغ والضغط.",
+    "السبت: احمل المشتريات إلى البيت. هذا يُحتسب.",
+    "الأحد: راحة.",
+    "القبضة في يومين أو 3، ولا يومين صعبين للقبضة متتاليين أبداً.",
+  ],
+  coachedHeading: "تريد تدريباً مباشراً؟",
+  coached: [
+    "Iron Hour مدته 60 دقيقة، فردياً. التجهيز في الدقيقة 0: الكاميرا بحيث أرى يديك وجسمك كاملاً. الإحماء من الدقيقة 4. التمرين الأساسي في الدقيقة 14. التمارين المساعدة في 28: هنا يأتي الحمل والتعلّق والثبات. التهدئة في 50.",
+    "Lean Reset عشرون جلسة في الشهر، فردياً. Open Floor مجموعة صغيرة.",
+    "عائد بعد انقطاع طويل؟ برنامج Return مدته 45 دقيقة، 12 جلسة في الشهر بالتناوب: يوم تمرين ويوم راحة. نبني الأساس أولاً، والقبضة منه.",
+    "تدريب مباشر عبر Google Meet أو Zoom أو FaceTime. من بونه. بالهندية أو الإنجليزية. بتوقيت الهند (IST). لم تقرّر بعد؟ ابدأ باستشارة مدتها 30 دقيقة. هي محادثة، لا تدريب. الحجز يثبّت موعداً فقط. والرسوم يُتفق عليها مباشرة.",
+  ],
+  safetyHeading: "قبل أن تبدأ",
+  safety:
+    "معلومات عامة، وليست نصيحة طبية. يقول نموذج الفحص المسبق من ACSM: إن كنت غير نشيط، وبلا أعراض، وبلا مرض معروف في القلب أو الأيض أو الكلى، يمكنك أن تبدأ تمريناً خفيفاً إلى معتدل دون إذن طبي وأن تزيده تدريجياً. إن كانت لديك إحدى هذه الحالات، أو أعراض، فاحصل على إذن طبي أولاً.{9} تنفّس خلال كل ثبات. لا تحبس نفسك، خصوصاً مع ارتفاع ضغط الدم. لديك ألم في اليد أو الرسغ أو المرفق أو الكتف، أو التهاب مفاصل في اليدين، أو إصابة أو جراحة حديثة، أو خدر أو وخز في الأصابع؟ اسأل طبيبك أو أخصائي العلاج الطبيعي أولاً أيّ التمارين تناسبك. تعلّق فقط من قضيب مثبّت ومخصّص لتحمّل وزنك، وانزل على كرسي صغير، لا تقفز. توقّف إذا شعرت بألم حاد، أو خدر أو وخز في يدك.",
+};
+
+const hi: PostCopy = {
+  metaTitle: "ग्रिप स्ट्रेंथ के लिए बेस्ट एक्सरसाइज़: 7 मूव्स और एक सैंपल हफ़्ता | Jalan PT",
+  metaDescription:
+    "ग्रिप स्ट्रेंथ के लिए 7 बेस्ट एक्सरसाइज़: कैरी, हैंग, टॉवल रो, पिंच होल्ड और रिस्ट कर्ल। ग्रिप पर रिसर्च क्या कहती है, कितनी बार ट्रेन करें, और एक सैंपल हफ़्ता।",
+  h1: "ग्रिप स्ट्रेंथ के लिए बेस्ट एक्सरसाइज़: 7 मूव्स और एक सैंपल हफ़्ता",
+  dek: "ग्रिप सामान उठाती है, जार खोलती है, बार पकड़ती है। हफ़्ते में 2 से 3 बार ट्रेन करें, स्ट्रेंथ वर्क के आख़िर में। दस मिनट काफ़ी हैं।",
+  updated: "अपडेट: 2 नवंबर 2026",
+  byline: "सुस्मित जालान, कोच, Jalan PT, पुणे।",
+  credentialsNote:
+    "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+  labels: {
+    home: "होम",
+    blog: "ब्लॉग",
+    why: "क्यों",
+    how: "कैसे",
+    dose: "डोज़",
+    sources: "स्रोत",
+    readIn: "इसे इस भाषा में पढ़ें",
+    programs: "प्रोग्राम देखें",
+    whatsapp: "WhatsApp पर पूछें",
+    whatsappText: "नमस्ते सुस्मित, मैंने ग्रिप स्ट्रेंथ एक्सरसाइज़ का लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    skip: "सामग्री पर जाएँ",
+    crumb: "ग्रिप स्ट्रेंथ के लिए बेस्ट एक्सरसाइज़",
+  },
+  intro: [
+    "ग्रिप यानी आपके हाथों और फ़ोरआर्म्स की ताक़त। आप इसे दिन भर इस्तेमाल करते हैं। थैले, जार, बच्चे, भारी दरवाज़ा।",
+    "रिसर्चर्स को यह पसंद है क्योंकि इसे नापना आसान है: हैंड डायनामोमीटर पर एक बार दबाना। ग्रिप आपकी पूरी ताक़त के बारे में बहुत कुछ बताती है।{5}",
+    "PURE स्टडी में 17 देशों के, जिनमें भारत और UAE भी थे, 35 से 70 साल के 139,691 वयस्कों की ग्रिप नापी गई। लगभग 4 साल में, ग्रिप में हर 5 kg की कमी किसी भी वजह से मौत के 16% ज़्यादा जोखिम से जुड़ी थी।{2}",
+    "यह एक संबंध है, सबूत नहीं। लेखक कहते हैं कि यह जाँचने के लिए और रिसर्च चाहिए कि ताक़त बढ़ाने से यह जोखिम घटता है या नहीं।{2} इसलिए हम किसी नंबर के पीछे नहीं भागते। हम पूरे शरीर को ट्रेन करते हैं, और साथ में हाथों को।",
+    "आपको चाहिए एक या दो डम्बल (या पानी की थैलियाँ), एक तौलिया, एक रबर बैंड, और स्ट्रेंथ वर्क के बाद 10 मिनट।",
+  ],
+  listHeading: "ग्रिप स्ट्रेंथ के लिए 7 बेस्ट एक्सरसाइज़",
+  items: [
+    {
+      name: "फ़ार्मर्स कैरी",
+      why: "दोनों हाथों में भारी वज़न, और चलें। हाथ दबाते हैं, फ़ोरआर्म्स जलते हैं, कंधे और धड़ आपको सीधा रखते हैं। ग्रिप की सबसे काम की एक्सरसाइज़।",
+      how: "हर हाथ में एक डम्बल, केटलबेल या पानी की थैली। सीधे खड़े हों। कंधे नीचे। धीरे चलें, छोटे क़दम। ग्रिप छूटने से पहले नीचे रखें, बाद में नहीं।",
+      dose: "20 से 30 मीटर की, या 30 से 40 सेकंड की, 3 से 4 वॉक।",
+    },
+    {
+      name: "डेड हैंग",
+      why: "आपके शरीर का वज़न, आपके हाथों पर। इससे टिकाऊ ग्रिप बनती है, और पूरा हाथ एक साथ काम करता है।",
+      how: "सिर्फ़ ऐसे पुल-अप बार या फ़्रेम से, जो आपका वज़न झेलने के लिए बना हो। एक स्टूल से ऊपर चढ़ें। हाथ कंधों जितने चौड़े। कंधे हल्के से कसे रखकर लटकें, कानों तक उचकाए हुए नहीं। बहुत मुश्किल? पैर स्टूल पर रखें और थोड़ा वज़न कम करें।",
+      dose: "10 से 30 सेकंड के 3 हैंग। बीच में एक मिनट आराम।",
+    },
+    {
+      name: "टॉवल रो",
+      why: "तौलिया एक मोटा, नरम हैंडल है। उसे पकड़ने के लिए उँगलियों को कहीं ज़्यादा मेहनत करनी पड़ती है। साथ में पीठ की रो भी हो जाती है।",
+      how: "एक छोटा तौलिया डम्बल के हैंडल से, या बैंड के चारों ओर से निकालें। दोनों सिरे एक हाथ में पकड़ें। दूसरा हाथ कुर्सी या बेंच पर। हिप की ओर खींचें। धीरे नीचे लाएँ।",
+      dose: "हर साइड 8 से 12 के 3 सेट।{8}",
+    },
+    {
+      name: "पिंच होल्ड",
+      why: "ज़्यादातर ग्रिप वर्क अँगूठे को भूल जाता है। पिंच उसे ट्रेन करता है। जैसे लैपटॉप या ट्रे को किनारे से पकड़ना।",
+      how: "दो वेट प्लेट्स, चिकनी साइड बाहर। या दो मोटी किताबें, या एक भारी किताब उसकी जिल्द से। उँगलियों और अँगूठे के बीच दबाएँ, हाथ बगल में सीधा। होल्ड करें।",
+      dose: "हर हाथ 15 से 30 सेकंड के 3 होल्ड।",
+    },
+    {
+      name: "रिस्ट कर्ल और रिवर्स रिस्ट कर्ल",
+      why: "कलाई को मोड़ने और उठाने वाली मसल्स फ़ोरआर्म में होती हैं। दोनों तरफ़ ट्रेन करने से वे संतुलित रहती हैं।",
+      how: "बैठ जाएँ। फ़ोरआर्म जाँघ पर, कलाई घुटने से थोड़ी आगे। एक हल्का डम्बल या पानी की बोतल। हथेली ऊपर: कलाई ऊपर मोड़ें, धीरे नीचे लाएँ। फिर हथेली नीचे: हाथ का पिछला हिस्सा उठाएँ, धीरे नीचे लाएँ। छोटी रेंज। झटका नहीं।",
+      dose: "हर दिशा 12 से 15 के 2 से 3 सेट। हल्का।",
+    },
+    {
+      name: "स्क्वीज़: हैंड ग्रिपर या नरम गेंद",
+      why: "हाथ को ज़ोर से बंद करना, बार-बार। आसान, और डेस्क पर भी हो सकता है।",
+      how: "ऐसा हैंड ग्रिपर जिसे आप 8 से 12 बार बंद कर सकें, या नरम गेंद या लपेटा हुआ तौलिया। ज़ोर से दबाएँ। 2 से 3 सेकंड होल्ड। धीरे खोलें।",
+      dose: "हर हाथ 8 से 12 स्क्वीज़ के 2 से 3 सेट। जब 12 आसान लगें, सख़्त ग्रिपर लें।{8}",
+    },
+    {
+      name: "रबर बैंड के साथ फ़िंगर एक्सटेंशन",
+      why: "छह मूव्स दबाने के। एक खोलने का। जो हाथ दिन भर टाइप करते हैं और पूरे सेशन पकड़ते हैं, उन्हें दूसरी तरफ़ भी चाहिए।",
+      how: "उँगलियों और अँगूठे के सिरों के पास एक मोटा रबर बैंड डालें। उसके ख़िलाफ़ हाथ पूरा खोलें। एक सेकंड होल्ड। धीरे बंद करें।",
+      dose: "हर हाथ 15 से 20 के 2 से 3 सेट।",
+    },
+  ],
+  enoughHeading: "कितनी बार, कितना भारी, और ग्रिप क्या बताती है",
+  enough: [
+    "WHO हफ़्ते में 2 या ज़्यादा दिन सभी बड़े मसल ग्रुप्स के लिए मसल-स्ट्रेंथनिंग की सलाह देता है।{1} ग्रिप इसी में आती है। इसे 2 या 3 स्ट्रेंथ सेशन के आख़िर में जोड़ें। हर दिन नहीं: हाथों और फ़ोरआर्म्स को भी आराम के दिन चाहिए।",
+    "वही नियम अपनाएँ जो किसी भी स्ट्रेंथ वर्क में। ऐसा वज़न या वर्ज़न चुनें जिसके 8 से 12 अच्छे रेप हो सकें। जब टारगेट से 1 या 2 रेप ज़्यादा हो जाएँ, थोड़ा बढ़ाएँ: 2 से 10% ज़्यादा वज़न।{8} होल्ड में पहले सेकंड बढ़ाएँ, फिर वज़न।",
+    "क्या ग्रिप ट्रेनिंग काम करती है? 3,018 बुज़ुर्गों (औसत उम्र 73) वाले 24 ट्रायल्स के एक रिव्यू में एक्सरसाइज़ प्रोग्राम्स से ग्रिप स्ट्रेंथ बढ़ी। बढ़त छोटी थी।{7} जो प्रोग्राम सीधे वही काम ट्रेन करते थे, या कई तरह की एक्सरसाइज़ मिलाते थे, वे सबसे अच्छे दिखे।{7} इसीलिए यह लिस्ट दोनों करती है।",
+    "ग्रिप सिर्फ़ हाथों से नहीं जुड़ी। ब्रिटेन के 40 से 69 साल के पाँच लाख वयस्कों में कम ग्रिप किसी भी वजह से मौत के, और दिल की बीमारी, फेफड़ों की बीमारी और कई कैंसर से मौत के ज़्यादा जोखिम के साथ थी।{3} 45 से 68 साल के 6,089 स्वस्थ पुरुषों में, सबसे कमज़ोर ग्रिप वाले एक-तिहाई लोगों को 25 साल बाद अपनी देखभाल में दिक़्क़त होने की संभावना सबसे मज़बूत एक-तिहाई से दोगुनी से भी ज़्यादा थी।{4}",
+    "ये संबंध हैं, कारण नहीं। कमज़ोर ग्रिप अक्सर पूरे शरीर की कमज़ोर मसल्स के साथ, और बीमारी और कम पोषण के साथ आती है।{5} सिर्फ़ ग्रिपर दबाने से यह नहीं बदलेगा। असली बात पूरे शरीर का स्ट्रेंथ वर्क है। ग्रिप उसे जाँचने का अच्छा तरीक़ा है।",
+    "डॉक्टर भी ग्रिप देखते हैं। सार्कोपीनिया (उम्र के साथ मसल्स घटना) की यूरोपीय परिभाषा में कम ग्रिप सबसे पहला संकेत है: पुरुषों के लिए 27 kg से कम और महिलाओं के लिए 16 kg से कम, हैंड डायनामोमीटर पर।{6} यह क्लिनिक का टेस्ट है, घर का नहीं। अगर ताक़त घटने की चिंता है, तो अपने डॉक्टर से पूछें।",
+  ],
+  sampleHeading: "ग्रिप वर्क के साथ एक सैंपल हफ़्ता",
+  sampleLabel: "सिर्फ़ सैंपल। प्रिस्क्रिप्शन नहीं। अपने शरीर, अपनी सेहत और अपने इतिहास के हिसाब से बदलें।",
+  sample: [
+    "सोमवार: स्ट्रेंथ सेशन, फिर फ़ार्मर्स कैरी और पिंच होल्ड।",
+    "मंगलवार: तेज़ वॉक।",
+    "बुधवार: स्ट्रेंथ सेशन, फिर टॉवल रो और डेड हैंग।",
+    "गुरुवार: आराम, या वॉक। ज़्यादा टाइप करते हैं तो डेस्क पर फ़िंगर एक्सटेंशन।",
+    "शुक्रवार: स्ट्रेंथ सेशन, फिर रिस्ट कर्ल और स्क्वीज़।",
+    "शनिवार: सामान घर तक उठाकर लाएँ। यह भी गिना जाता है।",
+    "रविवार: आराम।",
+    "ग्रिप 2 या 3 दिन, लगातार दो भारी ग्रिप वाले दिन कभी नहीं।",
+  ],
+  coachedHeading: "लाइव कोचिंग चाहिए?",
+  coached: [
+    "Iron Hour 60 मिनट का है, 1:1। मिनट 0 पर सेट-अप: कैमरा ऐसे कि मुझे आपके हाथ और पूरा शरीर दिखे। मिनट 4 से वार्म-अप। मिनट 14 पर मुख्य लिफ़्ट। 28 पर एक्सेसरीज़: कैरी, हैंग और होल्ड यहीं आते हैं। 50 पर कूल-डाउन।",
+    "Lean Reset महीने में 20 सेशन, 1:1। Open Floor एक छोटा ग्रुप है।",
+    "लंबे ब्रेक के बाद लौट रहे हैं? Return 45 मिनट का है, महीने में 12 सेशन, एक दिन छोड़कर। पहले बेस बनाते हैं, ग्रिप समेत।",
+    "Google Meet, Zoom या FaceTime पर लाइव कोचिंग। पुणे से। हिंदी या अंग्रेज़ी में। IST पर। अभी तय नहीं? 30 मिनट के कंसल्टेशन से शुरू करें। यह बातचीत है, ट्रेनिंग नहीं। बुकिंग सिर्फ़ समय रोकती है। फ़ीस सीधे तय होती है।",
+  ],
+  safetyHeading: "शुरू करने से पहले",
+  safety:
+    "सामान्य जानकारी, मेडिकल सलाह नहीं। ACSM का स्क्रीनिंग मॉडल कहता है: अगर आप एक्टिव नहीं हैं, कोई लक्षण नहीं है और दिल, मेटाबॉलिक या किडनी की कोई ज्ञात बीमारी नहीं है, तो आप बिना मेडिकल क्लियरेंस के हल्की से मध्यम एक्सरसाइज़ शुरू करके धीरे-धीरे बढ़ा सकते हैं। अगर इनमें से कोई बीमारी या लक्षण है, तो पहले मेडिकल क्लियरेंस लें।{9} हर होल्ड में साँस लेते रहें। साँस न रोकें, ख़ासकर हाई ब्लड प्रेशर में। हाथ, कलाई, कोहनी या कंधे में दर्द, हाथों में आर्थराइटिस, हाल की चोट या सर्जरी, या उँगलियों में सुन्नपन या झनझनाहट है? पहले अपने डॉक्टर या फ़िज़ियोथेरेपिस्ट से पूछें कि कौन-से मूव्स आपके लिए ठीक हैं। सिर्फ़ ऐसे बार से लटकें जो मज़बूती से लगा हो और आपका वज़न झेलने के लिए बना हो, और स्टूल पर उतरें, कूदें नहीं। तेज़ दर्द हो, या हाथ में सुन्नपन या झनझनाहट हो, तो रुक जाएँ।",
+};
+
+const es: PostCopy = {
+  metaTitle: "Mejores ejercicios para la fuerza de agarre: 7 ejercicios y una semana | Jalan PT",
+  metaDescription:
+    "Los 7 mejores ejercicios para la fuerza de agarre: paseo del granjero, colgarse, remo con toalla, pinza y curl de muñeca. Cada cuánto y una semana de ejemplo.",
+  h1: "Mejores ejercicios para la fuerza de agarre: 7 ejercicios y una semana de ejemplo",
+  dek: "El agarre lleva la compra, abre el bote, sujeta la barra. Entrénalo 2 o 3 veces por semana, al final de tu trabajo de fuerza. Con diez minutos basta.",
+  updated: "Actualizado el 2 de noviembre de 2026",
+  byline: "Por Susmit Jalan, entrenador en Jalan PT, Pune.",
+  credentialsNote:
+    "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+  labels: {
+    home: "Inicio",
+    blog: "Blog",
+    why: "Por qué",
+    how: "Cómo",
+    dose: "Dosis",
+    sources: "Fuentes",
+    readIn: "Leer en",
+    programs: "Ver los programas",
+    whatsapp: "Pregunta por WhatsApp",
+    whatsappText: "Hola Susmit, leí el artículo sobre ejercicios para la fuerza de agarre y quiero reservar una consulta",
+    skip: "Saltar al contenido",
+    crumb: "Mejores ejercicios para la fuerza de agarre",
+  },
+  intro: [
+    "El agarre es la fuerza de tus manos y antebrazos. La usas todo el día. Bolsas, botes, niños, una puerta pesada.",
+    "A los investigadores les gusta porque se mide rápido: un apretón en un dinamómetro de mano. El agarre dice mucho de tu fuerza general.{5}",
+    "En el estudio PURE se midió el agarre de 139.691 adultos de 35 a 70 años en 17 países, entre ellos India y los Emiratos Árabes Unidos. En unos 4 años, cada 5 kg menos de agarre se asoció con un 16% más de riesgo de muerte por cualquier causa.{2}",
+    "Es una asociación, no una prueba. Los autores dicen que hace falta más investigación para comprobar si ganar fuerza reduce ese riesgo.{2} Así que no perseguimos un número. Entrenamos todo el cuerpo, y las manos con él.",
+    "Necesitas una o dos mancuernas (o garrafas de agua), una toalla, una goma elástica y 10 minutos después de tu trabajo de fuerza.",
+  ],
+  listHeading: "Los 7 mejores ejercicios para la fuerza de agarre",
+  items: [
+    {
+      name: "Paseo del granjero",
+      why: "Peso en las dos manos, y a caminar. Las manos aprietan, los antebrazos arden, los hombros y el tronco te mantienen erguido. El ejercicio de agarre más útil que hay.",
+      how: "Una mancuerna, una kettlebell o una garrafa de agua en cada mano. Erguido. Hombros abajo. Camina despacio, pasos cortos. Suelta el peso antes de que falle el agarre, no después.",
+      dose: "3 a 4 recorridos de 20 a 30 metros, o de 30 a 40 segundos.",
+    },
+    {
+      name: "Colgarse de la barra (dead hang)",
+      why: "Tu peso corporal, sujeto por tus manos. Crea un agarre que aguanta y trabaja toda la mano a la vez.",
+      how: "Solo de una barra de dominadas o una estructura preparada para tu peso. Sube desde un taburete. Manos al ancho de los hombros. Cuélgate con los hombros suavemente activos, no encogidos hacia las orejas. ¿Muy difícil? Deja los pies en el taburete y quítate algo de peso.",
+      dose: "3 colgadas de 10 a 30 segundos. Un minuto de descanso entre ellas.",
+    },
+    {
+      name: "Remo con toalla",
+      why: "Una toalla es un asa gruesa y blanda. Los dedos tienen que trabajar mucho más para sujetarla. Y la espalda hace un remo a la vez.",
+      how: "Pasa una toalla pequeña por el asa de una mancuerna, o alrededor de una banda. Sujeta los dos extremos con una mano. La otra mano en una silla o un banco. Tira hacia la cadera. Baja despacio.",
+      dose: "3 series de 8 a 12 por lado.{8}",
+    },
+    {
+      name: "Agarre en pinza",
+      why: "Casi todo el trabajo de agarre olvida el pulgar. La pinza lo entrena. Piensa en llevar un portátil o una bandeja por el borde.",
+      how: "Dos discos, con las caras lisas hacia fuera. O dos libros gruesos, o un libro pesado por el lomo. Pinza entre los dedos y el pulgar, brazo estirado al costado. Aguanta.",
+      dose: "3 aguantes de 15 a 30 segundos con cada mano.",
+    },
+    {
+      name: "Curl de muñeca y curl de muñeca invertido",
+      why: "Los músculos que doblan y levantan la muñeca están en el antebrazo. Entrenar los dos lados los mantiene equilibrados.",
+      how: "Sentado. Antebrazo sobre el muslo, la muñeca justo pasada la rodilla. Una mancuerna ligera o una botella de agua. Palma arriba: sube la muñeca, baja despacio. Luego palma abajo: levanta el dorso de la mano, baja despacio. Recorrido corto. Sin tirones.",
+      dose: "2 a 3 series de 12 a 15 en cada sentido. Ligero.",
+    },
+    {
+      name: "Apretón: handgrip o pelota blanda",
+      why: "Cerrar la mano con fuerza, una y otra vez. Sencillo, y lo puedes hacer en la mesa de trabajo.",
+      how: "Un handgrip que puedas cerrar de 8 a 12 veces, o una pelota blanda o una toalla enrollada. Aprieta fuerte. Aguanta 2 o 3 segundos. Abre despacio.",
+      dose: "2 a 3 series de 8 a 12 apretones con cada mano. Cuando 12 sean fáciles, usa un handgrip más duro.{8}",
+    },
+    {
+      name: "Extensión de dedos con goma elástica",
+      why: "Seis ejercicios de apretar. Uno de abrir. Unas manos que escriben todo el día y agarran toda la sesión necesitan también el otro lado.",
+      how: "Pon una goma elástica gruesa alrededor de los dedos y el pulgar, cerca de las puntas. Abre la mano del todo contra ella. Aguanta un segundo. Cierra despacio.",
+      dose: "2 a 3 series de 15 a 20 con cada mano.",
+    },
+  ],
+  enoughHeading: "Cada cuánto, cuánto peso y qué dice el agarre",
+  enough: [
+    "La OMS recomienda trabajo de fortalecimiento muscular para todos los grandes grupos musculares 2 o más días por semana.{1} El agarre entra ahí. Añádelo al final de 2 o 3 sesiones de fuerza. No todos los días: manos y antebrazos también necesitan descanso.",
+    "Usa la misma regla que en cualquier trabajo de fuerza. Elige un peso o una versión con la que hagas 8 a 12 buenas repeticiones. Cuando superes el objetivo en 1 o 2, añade un poco: un 2 a 10% más de carga.{8} En los aguantes, primero suma segundos y luego peso.",
+    "¿Funciona entrenar el agarre? En una revisión de 24 ensayos con 3.018 personas mayores (edad media 73 años), los programas de ejercicio aumentaron la fuerza de agarre. La mejora fue pequeña.{7} Los programas que entrenaban la tarea directamente, o mezclaban varios tipos de ejercicio, parecían los mejores.{7} Por eso esta lista hace las dos cosas.",
+    "El agarre se asocia con algo más que las manos. En medio millón de adultos británicos de 40 a 69 años, un agarre menor se asoció con más riesgo de morir por cualquier causa, y por enfermedad cardiovascular, respiratoria y varios cánceres.{3} En 6.089 hombres sanos de 45 a 68 años, el tercio con menos agarre tuvo más del doble de probabilidades que el tercio más fuerte de tener problemas para cuidarse solo 25 años después.{4}",
+    "Son asociaciones, no causas. Un agarre débil suele ir con músculos débiles en general, y con enfermedad y mala nutrición.{5} Apretar un handgrip no lo arregla por sí solo. Lo que importa es la fuerza de todo el cuerpo. El agarre es una buena forma de comprobarla.",
+    "Los médicos también usan el agarre. En la definición europea de sarcopenia (pérdida de músculo con la edad), un agarre bajo es lo primero que se busca: menos de 27 kg en hombres y menos de 16 kg en mujeres, con dinamómetro de mano.{6} Es una prueba de consulta, no de casa. Si te preocupa perder fuerza, pregunta a tu médico.",
+  ],
+  sampleHeading: "Una semana de ejemplo con trabajo de agarre",
+  sampleLabel: "Solo un ejemplo. No es una prescripción. Ajústalo a tu cuerpo, tu salud y tu historia.",
+  sample: [
+    "Lunes: sesión de fuerza, luego paseo del granjero y agarre en pinza.",
+    "Martes: caminata a buen ritmo.",
+    "Miércoles: sesión de fuerza, luego remo con toalla y colgarse de la barra.",
+    "Jueves: descanso, o caminar. Extensión de dedos en la mesa si escribes mucho.",
+    "Viernes: sesión de fuerza, luego curl de muñeca y apretón.",
+    "Sábado: lleva la compra a casa. Eso cuenta.",
+    "Domingo: descanso.",
+    "Agarre 2 o 3 días, nunca dos días duros de agarre seguidos.",
+  ],
+  coachedHeading: "¿Lo quieres con entrenador en directo?",
+  coached: [
+    "Iron Hour son 60 minutos, 1:1. Preparación en el minuto 0: cámara colocada para que vea tus manos y todo tu cuerpo. Calentamiento desde el minuto 4. El ejercicio principal en el 14. Accesorios en el 28: aquí van los paseos, las colgadas y los aguantes. Vuelta a la calma en el 50.",
+    "Lean Reset son 20 sesiones al mes, 1:1. Open Floor es un grupo pequeño.",
+    "¿Vuelves tras un parón largo? Return son 45 minutos, 12 sesiones al mes en días alternos. Primero construimos la base, agarre incluido.",
+    "En directo por Google Meet, Zoom o FaceTime. Desde Pune. En hindi o inglés. En horario IST. ¿Aún no lo tienes claro? Empieza con una consulta de 30 minutos. Es una conversación, no un entrenamiento. La reserva solo guarda una hora. La tarifa se acuerda directamente.",
+  ],
+  safetyHeading: "Antes de empezar",
+  safety:
+    "Información general, no consejo médico. El modelo de cribado del ACSM dice: si eres inactivo, no tienes síntomas ni enfermedad conocida del corazón, metabólica o renal, puedes empezar con ejercicio ligero a moderado sin autorización médica e ir subiendo poco a poco. Si tienes una de esas enfermedades, o síntomas, consigue primero la autorización médica.{9} Respira durante cada aguante. No contengas la respiración, sobre todo con la tensión alta. ¿Dolor en la mano, la muñeca, el codo o el hombro, artritis en las manos, una lesión o cirugía reciente, o adormecimiento u hormigueo en los dedos? Pregunta primero a tu médico o fisioterapeuta qué ejercicios te convienen. Cuélgate solo de una barra fija y preparada para tu peso, y baja a un taburete, no te dejes caer. Para si notas dolor agudo, o adormecimiento u hormigueo en la mano.",
+};
+
+const zh: PostCopy = {
+  metaTitle: "提升握力的最佳训练：7个动作和一周示例 | Jalan PT",
+  metaDescription:
+    "提升握力的7个最佳训练：农夫行走、悬挂、毛巾划船、捏握和腕弯举。研究怎么说握力、多久练一次，以及一周训练示例。",
+  h1: "提升握力的最佳训练：7个动作和一周示例",
+  dek: "握力拎起购物袋，拧开罐子，抓住横杠。每周练2到3次，放在力量训练的最后。十分钟就够。",
+  updated: "更新于2026年11月2日",
+  byline: "作者：Susmit Jalan，Jalan PT教练，浦那。",
+  credentialsNote:
+    "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+  labels: {
+    home: "首页",
+    blog: "博客",
+    why: "为什么",
+    how: "怎么做",
+    dose: "训练量",
+    sources: "参考来源",
+    readIn: "其他语言版本",
+    programs: "查看课程",
+    whatsapp: "通过WhatsApp咨询",
+    whatsappText: "你好Susmit，我读了关于握力训练的文章，想预约一次咨询",
+    skip: "跳到正文",
+    crumb: "提升握力的最佳训练",
+  },
+  intro: [
+    "握力就是你双手和前臂的力量。你整天都在用它。提袋子、开罐子、抱孩子、推一扇沉重的门。",
+    "研究人员喜欢它，因为测起来很快：在握力计上用力握一下。握力能反映你整体力量的很多信息。{5}",
+    "在PURE研究中，17个国家（包括印度和阿联酋）的139,691名35到70岁成年人接受了握力测试。在约4年里，握力每低5公斤，任何原因导致的死亡风险就高16%。{2}",
+    "这是关联，不是证据。作者表示，还需要更多研究来检验变得更强是否能降低这一风险。{2}所以我们不追一个数字。我们练全身，双手也一起练。",
+    "你需要一两个哑铃（或装水的桶），一条毛巾，一根橡皮筋，以及力量训练后的10分钟。",
+  ],
+  listHeading: "提升握力的7个最佳训练",
+  items: [
+    {
+      name: "农夫行走",
+      why: "双手拿重物，走起来。手在握，前臂在烧，肩和躯干让你保持挺直。最实用的握力训练。",
+      how: "每只手拿一个哑铃、壶铃或一桶水。站直。肩膀下沉。慢慢走，小步走。在握不住之前放下，不要等到握不住。",
+      dose: "走20到30米或30到40秒，3到4趟。",
+    },
+    {
+      name: "悬挂（Dead hang）",
+      why: "用双手承担你的体重。练出持久的握力，并且整只手同时发力。",
+      how: "只在能承受你体重的单杠或架子上做。踩着凳子上去。双手与肩同宽。悬挂时肩膀轻轻收紧，不要耸到耳朵边。太难？把脚留在凳子上，减掉一部分体重。",
+      dose: "悬挂10到30秒，3次。中间休息一分钟。",
+    },
+    {
+      name: "毛巾划船",
+      why: "毛巾是一个又粗又软的把手。手指得更用力才能握住。背部同时也做了划船。",
+      how: "把一条小毛巾穿过哑铃把手，或绕过弹力带。单手握住两端。另一只手撑在椅子或凳子上。拉向髋部。慢慢放下。",
+      dose: "每侧8到12次，3组。{8}",
+    },
+    {
+      name: "捏握（Pinch hold）",
+      why: "大多数握力训练都忘了拇指。捏握专门练它。想象捏着边缘拿笔记本电脑或托盘。",
+      how: "两片杠铃片，光滑面朝外。或两本厚书，或捏住一本重书的书脊。用手指和拇指捏住，手臂自然垂在身侧。保持。",
+      dose: "每只手保持15到30秒，3次。",
+    },
+    {
+      name: "腕弯举和反向腕弯举",
+      why: "让手腕屈曲和抬起的肌肉都在前臂上。两侧都练，保持平衡。",
+      how: "坐下。前臂放在大腿上，手腕刚好伸出膝盖。拿一个轻哑铃或一瓶水。掌心朝上：手腕向上卷起，慢慢放下。再掌心朝下：抬起手背，慢慢放下。幅度小。不要甩。",
+      dose: "每个方向12到15次，2到3组。用轻重量。",
+    },
+    {
+      name: "握紧：握力器或软球",
+      why: "用力握拳，一次又一次。简单，在办公桌前也能做。",
+      how: "选一个你能握合8到12次的握力器，或一个软球、一条卷起的毛巾。用力握紧。保持2到3秒。慢慢松开。",
+      dose: "每只手8到12次，2到3组。12次变轻松后，换更硬的握力器。{8}",
+    },
+    {
+      name: "橡皮筋张指",
+      why: "六个动作在握。一个在张。整天打字、整节课都在抓握的手，也需要练另一面。",
+      how: "把一根粗橡皮筋套在手指和拇指靠近指尖的地方。对抗它把手完全张开。保持一秒。慢慢合上。",
+      dose: "每只手15到20次，2到3组。",
+    },
+  ],
+  enoughHeading: "多久练一次、用多重，以及握力告诉你什么",
+  enough: [
+    "世界卫生组织建议每周至少2天进行涉及所有主要肌群的肌肉强化训练。{1}握力训练就包含在其中。把它加在2到3次力量训练的最后。不要每天练：手和前臂也需要休息日。",
+    "和任何力量训练用同一个规则。选一个你能做8到12次标准动作的重量或版本。当你比目标多做1到2次，就加一点：负荷增加2%到10%。{8}静态保持类动作，先加时间，再加重量。",
+    "握力训练有用吗？一项纳入24项试验、3,018名老年人（平均年龄73岁）的综述中，运动方案提高了握力。提升幅度小。{7}直接针对该任务训练、或结合多种运动形式的方案效果看起来最好。{7}所以这份清单两者都做。",
+    "握力关联的不只是双手。在50万名40到69岁的英国成年人中，握力较低与更高的全因死亡风险，以及心血管疾病、呼吸系统疾病和多种癌症的死亡风险相关。{3}在6,089名45到68岁的健康男性中，握力最弱的三分之一在25年后出现生活自理困难的可能性，是最强三分之一的两倍以上。{4}",
+    "这些是关联，不是因果。握力弱往往伴随着全身肌肉弱，也伴随着疾病和营养不良。{5}光捏握力器改变不了这些。关键是全身的力量训练。握力是检查它的一个好方法。",
+    "医生也会看握力。在欧洲的肌少症（与年龄相关的肌肉流失）定义中，握力低是首先要查的指标：用握力计测量，男性低于27公斤，女性低于16公斤。{6}这是诊室里的检查，不是在家做的。如果你担心力量在下降，请咨询医生。",
+  ],
+  sampleHeading: "包含握力训练的一周示例",
+  sampleLabel: "仅为示例，不是处方。请根据你的身体、健康状况和经历调整。",
+  sample: [
+    "周一：力量训练，然后农夫行走和捏握。",
+    "周二：快走。",
+    "周三：力量训练，然后毛巾划船和悬挂。",
+    "周四：休息，或散步。如果你打字多，在办公桌前做橡皮筋张指。",
+    "周五：力量训练，然后腕弯举和握紧。",
+    "周六：把买的东西拎回家。这也算。",
+    "周日：休息。",
+    "每周练握力2到3天，绝不连续两天高强度练握力。",
+  ],
+  coachedHeading: "想要实时指导？",
+  coached: [
+    "Iron Hour是60分钟，一对一。第0分钟准备：摆好摄像头，让我能看到你的双手和全身。第4分钟开始热身。第14分钟进入主项。第28分钟做辅助练习：负重行走、悬挂和静态保持都放在这里。第50分钟放松。",
+    "Lean Reset每月20次，一对一。Open Floor是小组课。",
+    "长期中断后重新开始？Return每次45分钟，每月12次，隔天一次。我们先打基础，握力也包括在内。",
+    "通过Google Meet、Zoom或FaceTime实时指导。来自浦那。印地语或英语。按印度标准时间（IST）。还没决定？先从30分钟的咨询开始。那是一次交谈，不是训练。预约只是保留一个时间。费用直接商定。",
+  ],
+  safetyHeading: "开始之前",
+  safety:
+    "一般信息，不是医疗建议。ACSM的运动前筛查模型指出：如果你平时不运动、没有症状，也没有已知的心脏、代谢或肾脏疾病，可以在没有医疗许可的情况下从低到中等强度开始，逐步增加。如果有上述疾病或症状，请先取得医疗许可。{9}每次静态保持都要持续呼吸。不要憋气，尤其是有高血压时。手、手腕、肘部或肩部疼痛，手部关节炎，近期受伤或手术，或者手指麻木、刺痛？请先询问医生或理疗师哪些动作适合你。只在固定牢靠、能承受你体重的横杠上悬挂，下来时踩到凳子上，不要直接跳下。如果出现剧痛，或手部麻木、刺痛，请停止。",
+};
+
+const ja: PostCopy = {
+  metaTitle: "握力を鍛えるベストエクササイズ：7種目と1週間の例 | Jalan PT",
+  metaDescription:
+    "握力を鍛えるベストエクササイズ7選：ファーマーズキャリー、ぶら下がり、タオルロウ、ピンチホールド、リストカール。握力について研究が示すこと、頻度、1週間の例。",
+  h1: "握力を鍛えるベストエクササイズ：7種目と1週間の例",
+  dek: "握力は買い物袋を持ち、瓶のふたを開け、バーを握ります。週2〜3回、筋トレの最後に鍛えましょう。10分で十分です。",
+  updated: "2026年11月2日更新",
+  byline: "執筆：Susmit Jalan（Jalan PT コーチ、プネー）",
+  credentialsNote:
+    "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+  labels: {
+    home: "ホーム",
+    blog: "ブログ",
+    why: "なぜ",
+    how: "やり方",
+    dose: "回数・量",
+    sources: "出典",
+    readIn: "他の言語で読む",
+    programs: "プログラムを見る",
+    whatsapp: "WhatsAppで質問する",
+    whatsappText: "こんにちは Susmit さん、握力を鍛えるエクササイズの記事を読みました。相談を予約したいです",
+    skip: "本文へスキップ",
+    crumb: "握力を鍛えるベストエクササイズ",
+  },
+  intro: [
+    "握力は、手と前腕の力です。一日中使っています。バッグ、瓶、子ども、重いドア。",
+    "研究者が握力を好むのは、すぐに測れるから。握力計を一度握るだけです。握力は全身の筋力について多くを教えてくれます。{5}",
+    "PURE研究では、インドやUAEを含む17か国で、35〜70歳の成人139,691人の握力が測定されました。約4年の間に、握力が5kg低いごとに、あらゆる原因による死亡リスクが16%高くなっていました。{2}",
+    "これは関連であって、証明ではありません。著者らは、筋力を高めることでこのリスクが下がるかを確かめるには、さらに研究が必要だとしています。{2}だから数字は追いかけません。全身を鍛え、手も一緒に鍛えます。",
+    "必要なのは、ダンベル1〜2個（または水を入れたボトルやタンク）、タオル1枚、輪ゴム1本、そして筋トレ後の10分です。",
+  ],
+  listHeading: "握力を鍛えるベストエクササイズ7選",
+  items: [
+    {
+      name: "ファーマーズキャリー",
+      why: "両手に重いものを持って歩く。手は握り、前腕は熱くなり、肩と体幹が体をまっすぐ保ちます。いちばん実用的な握力トレーニングです。",
+      how: "両手にダンベル、ケトルベル、または水を入れたタンク。まっすぐ立つ。肩は下げる。ゆっくり、小さな歩幅で歩く。握力が尽きる前に下ろす。尽きてからではなく。",
+      dose: "20〜30メートル、または30〜40秒を3〜4本。",
+    },
+    {
+      name: "ぶら下がり（デッドハング）",
+      why: "自分の体重を手で支える。長く持つ握力がつき、手全体が一度に働きます。",
+      how: "体重に耐えられる懸垂バーやフレームでのみ行う。踏み台から上がる。手は肩幅。肩は軽く引き締め、耳まですくめない。きつすぎる？足を踏み台に残して、体重の一部を逃がす。",
+      dose: "10〜30秒のぶら下がりを3回。間に1分休む。",
+    },
+    {
+      name: "タオルロウ",
+      why: "タオルは太くて柔らかいハンドル。握り続けるには指がずっと多く働きます。同時に背中のロウにもなります。",
+      how: "小さなタオルをダンベルのハンドルか、バンドに通す。両端を片手で持つ。もう片方の手は椅子かベンチに。腰に向かって引く。ゆっくり下ろす。",
+      dose: "左右各8〜12回を3セット。{8}",
+    },
+    {
+      name: "ピンチホールド",
+      why: "握力トレーニングの多くは親指を忘れています。ピンチは親指を鍛えます。ノートパソコンやお盆を縁でつまんで持つ感覚です。",
+      how: "プレート2枚を、平らな面を外側にして。または厚い本2冊、重い本1冊を背の部分で。指と親指でつまみ、腕は体の横にまっすぐ。キープ。",
+      dose: "片手ずつ15〜30秒キープを3回。",
+    },
+    {
+      name: "リストカールとリバースリストカール",
+      why: "手首を曲げる筋肉も、反らす筋肉も前腕にあります。両方鍛えてバランスを保ちます。",
+      how: "座る。前腕を太ももに乗せ、手首はひざの少し先に。軽いダンベルか水のペットボトル。手のひらを上に：手首を巻き上げ、ゆっくり下ろす。次に手のひらを下に：手の甲を持ち上げ、ゆっくり下ろす。動きは小さく。反動は使わない。",
+      dose: "それぞれ12〜15回を2〜3セット。軽めに。",
+    },
+    {
+      name: "スクイーズ：ハンドグリッパーかやわらかいボール",
+      why: "手を強く閉じる、何度も。シンプルで、デスクでもできます。",
+      how: "8〜12回閉じられるハンドグリッパー、またはやわらかいボールか丸めたタオル。強く握る。2〜3秒キープ。ゆっくり開く。",
+      dose: "片手ずつ8〜12回を2〜3セット。12回が楽になったら、硬いグリッパーへ。{8}",
+    },
+    {
+      name: "輪ゴムで指を開く",
+      why: "握る種目が6つ。開く種目が1つ。一日中タイピングし、セッション中ずっと握っている手には、反対側も必要です。",
+      how: "太い輪ゴムを指と親指の先近くにかける。輪ゴムに逆らって手を大きく開く。1秒キープ。ゆっくり閉じる。",
+      dose: "片手ずつ15〜20回を2〜3セット。",
+    },
+  ],
+  enoughHeading: "頻度、重さ、そして握力が教えてくれること",
+  enough: [
+    "WHOは、主要な筋群すべてを使う筋力強化運動を週2日以上行うよう勧めています。{1}握力トレーニングはその中に入ります。2〜3回の筋トレの最後に加えましょう。毎日ではなく：手と前腕にも休みの日が必要です。",
+    "ほかの筋トレと同じルールで。8〜12回きれいにできる重さかバージョンを選ぶ。目標を1〜2回上回ったら、少し足す：負荷を2〜10%増やす。{8}キープ系の種目は、まず秒数を、それから重さを足します。",
+    "握力トレーニングは効く？高齢者3,018人（平均73歳）を対象にした24件の試験のレビューでは、運動プログラムで握力が上がりました。上がり幅は小さいものでした。{7}その動作を直接鍛えるプログラムや、複数の運動を組み合わせたプログラムが最もよさそうでした。{7}だからこのリストは両方を行います。",
+    "握力が関係するのは手だけではありません。40〜69歳の英国の成人50万人では、握力が低いほど、あらゆる原因による死亡、そして心血管疾患、呼吸器疾患、いくつかのがんによる死亡のリスクが高くなっていました。{3}45〜68歳の健康な男性6,089人では、握力が最も弱い3分の1は、最も強い3分の1に比べて、25年後に身の回りのことが難しくなる可能性が2倍以上でした。{4}",
+    "これらは関連であって、原因ではありません。握力が弱いことは、全身の筋力の弱さや、病気、栄養不足と一緒に見られることが多いのです。{5}グリッパーを握るだけでは、それは変わりません。大事なのは全身の筋トレ。握力はそれを確かめるよい方法です。",
+    "医師も握力を見ます。欧州のサルコペニア（加齢による筋肉の減少）の定義では、握力の低さが最初に確認するサインです：握力計で男性27kg未満、女性16kg未満。{6}これは診察室での検査で、家でするものではありません。筋力の低下が心配なら、医師に相談してください。",
+  ],
+  sampleHeading: "握力トレーニングを入れた1週間の例",
+  sampleLabel: "あくまで例です。処方ではありません。体、健康状態、これまでの経過に合わせて調整してください。",
+  sample: [
+    "月曜：筋トレのあと、ファーマーズキャリーとピンチホールド。",
+    "火曜：早歩き。",
+    "水曜：筋トレのあと、タオルロウとぶら下がり。",
+    "木曜：休み、またはウォーキング。タイピングが多いなら、デスクで指を開く運動。",
+    "金曜：筋トレのあと、リストカールとスクイーズ。",
+    "土曜：買い物袋を持って帰る。これも数に入ります。",
+    "日曜：休み。",
+    "握力は週2〜3日。きつい握力の日を2日続けない。",
+  ],
+  coachedHeading: "ライブで指導を受けたい？",
+  coached: [
+    "Iron Hour は60分、1対1。0分にセットアップ：手と全身が見えるようにカメラを配置。4分からウォームアップ。14分にメイン種目。28分に補助種目：キャリー、ぶら下がり、キープ系はここに入ります。50分にクールダウン。",
+    "Lean Reset は月20回、1対1。Open Floor は少人数グループです。",
+    "長いブランクからの再開？Return は45分、月12回、1日おき。まず土台を作ります。握力も含めて。",
+    "Google Meet、Zoom、FaceTime でライブ指導。プネーから。ヒンディー語か英語で。インド標準時（IST）で。まだ迷っている？30分の相談から始めましょう。会話であって、トレーニングではありません。予約は時間を押さえるだけ。料金は直接決めます。",
+  ],
+  safetyHeading: "始める前に",
+  safety:
+    "一般的な情報であり、医学的な助言ではありません。ACSMのスクリーニングモデルによると：運動習慣がなく、症状がなく、心臓・代謝・腎臓の病気が知られていなければ、医師の許可なしに軽〜中程度の運動を始め、少しずつ増やせます。これらの病気や症状がある場合は、先に医師の許可を得てください。{9}キープ中も呼吸を続ける。息を止めない。特に高血圧がある場合は。手、手首、ひじ、肩の痛み、手の関節炎、最近のけがや手術、指のしびれやピリピリ感がある？先に医師か理学療法士に、どの種目が合うか相談してください。ぶら下がりは、しっかり固定され体重に耐えられるバーでのみ。下りるときは踏み台に足をつけ、飛び降りない。鋭い痛み、手のしびれやピリピリ感が出たら中止してください。",
+};
+
+const gu: PostCopy = {
+  metaTitle: "ગ્રિપ સ્ટ્રેન્થ માટે બેસ્ટ કસરતો: 7 મૂવ્સ અને એક સેમ્પલ અઠવાડિયું | Jalan PT",
+  metaDescription:
+    "ગ્રિપ સ્ટ્રેન્થ માટે 7 બેસ્ટ કસરતો: કૅરી, હૅંગ, ટુવાલ રો, પિંચ હોલ્ડ અને રિસ્ટ કર્લ. રિસર્ચ શું કહે છે, કેટલી વાર ટ્રેન કરવું, અને એક સેમ્પલ અઠવાડિયું.",
+  h1: "ગ્રિપ સ્ટ્રેન્થ માટે બેસ્ટ કસરતો: 7 મૂવ્સ અને એક સેમ્પલ અઠવાડિયું",
+  dek: "ગ્રિપ થેલીઓ ઉપાડે છે, બરણી ખોલે છે, બાર પકડે છે. અઠવાડિયે 2 થી 3 વાર ટ્રેન કરો, સ્ટ્રેન્થ વર્કના અંતે. દસ મિનિટ પૂરતી છે.",
+  updated: "અપડેટ: 2 નવેમ્બર 2026",
+  byline: "સુસ્મિત જાલાન, કોચ, Jalan PT, પુણે.",
+  credentialsNote:
+    "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+  labels: {
+    home: "હોમ",
+    blog: "બ્લોગ",
+    why: "શા માટે",
+    how: "કેવી રીતે",
+    dose: "ડોઝ",
+    sources: "સ્રોતો",
+    readIn: "આ ભાષામાં વાંચો",
+    programs: "પ્રોગ્રામ જુઓ",
+    whatsapp: "WhatsApp પર પૂછો",
+    whatsappText: "નમસ્તે સુસ્મિત, મેં ગ્રિપ સ્ટ્રેન્થની કસરતોનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    skip: "સામગ્રી પર જાઓ",
+    crumb: "ગ્રિપ સ્ટ્રેન્થ માટે બેસ્ટ કસરતો",
+  },
+  intro: [
+    "ગ્રિપ એટલે તમારા હાથ અને ફોરઆર્મની તાકાત. તમે એ આખો દિવસ વાપરો છો. થેલીઓ, બરણીઓ, બાળકો, ભારે દરવાજો.",
+    "રિસર્ચર્સને એ ગમે છે કારણ કે એ માપવી સહેલી છે: હૅન્ડ ડાયનામોમીટર પર એક વાર દબાવવું. ગ્રિપ તમારી કુલ તાકાત વિશે ઘણું કહે છે.{5}",
+    "PURE સ્ટડીમાં 17 દેશોના, જેમાં ભારત અને UAE પણ હતા, 35 થી 70 વર્ષના 139,691 પુખ્તોની ગ્રિપ માપવામાં આવી. લગભગ 4 વર્ષમાં, ગ્રિપમાં દર 5 kgનો ઘટાડો કોઈ પણ કારણે મૃત્યુના 16% વધુ જોખમ સાથે જોડાયેલો હતો.{2}",
+    "આ એક સંબંધ છે, સાબિતી નહીં. લેખકો કહે છે કે તાકાત વધારવાથી આ જોખમ ઘટે છે કે નહીં, એ ચકાસવા વધુ રિસર્ચ જોઈએ.{2} એટલે અમે કોઈ આંકડા પાછળ નથી દોડતા. અમે આખા શરીરને ટ્રેન કરીએ છીએ, અને સાથે હાથને.",
+    "તમારે જોઈએ એક કે બે ડમ્બેલ (કે પાણીના કૅન), એક ટુવાલ, એક રબર બૅન્ડ, અને સ્ટ્રેન્થ વર્ક પછી 10 મિનિટ.",
+  ],
+  listHeading: "ગ્રિપ સ્ટ્રેન્થ માટે 7 બેસ્ટ કસરતો",
+  items: [
+    {
+      name: "ફાર્મર્સ કૅરી",
+      why: "બંને હાથમાં ભારે વજન, અને ચાલો. હાથ દબાવે છે, ફોરઆર્મ બળે છે, ખભા અને ધડ તમને સીધા રાખે છે. ગ્રિપની સૌથી કામની કસરત.",
+      how: "દરેક હાથમાં એક ડમ્બેલ, કેટલબેલ કે પાણીનું કૅન. સીધા ઊભા રહો. ખભા નીચે. ધીમે ચાલો, નાનાં પગલાં. ગ્રિપ છૂટે એ પહેલાં નીચે મૂકો, પછી નહીં.",
+      dose: "20 થી 30 મીટર, અથવા 30 થી 40 સેકન્ડની, 3 થી 4 વૉક.",
+    },
+    {
+      name: "ડેડ હૅંગ",
+      why: "તમારા શરીરનું વજન, તમારા હાથ પર. એનાથી ટકાઉ ગ્રિપ બને છે, અને આખો હાથ એક સાથે કામ કરે છે.",
+      how: "ફક્ત એવા પુલ-અપ બાર કે ફ્રેમ પરથી, જે તમારું વજન ઝીલવા બનેલું હોય. સ્ટૂલ પરથી ઉપર ચઢો. હાથ ખભા જેટલા પહોળા. ખભા હળવેથી કસીને લટકો, કાન સુધી ઉછાળેલા નહીં. બહુ અઘરું? પગ સ્ટૂલ પર રાખો અને થોડું વજન ઓછું કરો.",
+      dose: "10 થી 30 સેકન્ડના 3 હૅંગ. વચ્ચે એક મિનિટ આરામ.",
+    },
+    {
+      name: "ટુવાલ રો",
+      why: "ટુવાલ એક જાડું, નરમ હૅન્ડલ છે. એને પકડવા આંગળીઓએ ઘણી વધુ મહેનત કરવી પડે છે. સાથે પીઠની રો પણ થઈ જાય છે.",
+      how: "એક નાનો ટુવાલ ડમ્બેલના હૅન્ડલમાંથી, કે બૅન્ડની આસપાસથી કાઢો. બંને છેડા એક હાથમાં પકડો. બીજો હાથ ખુરશી કે બેન્ચ પર. હિપ તરફ ખેંચો. ધીમેથી નીચે લાવો.",
+      dose: "દરેક બાજુ 8 થી 12 ના 3 સેટ.{8}",
+    },
+    {
+      name: "પિંચ હોલ્ડ",
+      why: "મોટા ભાગનું ગ્રિપ વર્ક અંગૂઠાને ભૂલી જાય છે. પિંચ એને ટ્રેન કરે છે. જેમ લૅપટૉપ કે ટ્રેને કિનારીથી પકડવી.",
+      how: "બે વેટ પ્લેટ, લીસી બાજુ બહાર. અથવા બે જાડાં પુસ્તકો, અથવા એક ભારે પુસ્તક એની પીઠથી. આંગળીઓ અને અંગૂઠા વચ્ચે દબાવો, હાથ બાજુમાં સીધો. હોલ્ડ કરો.",
+      dose: "દરેક હાથે 15 થી 30 સેકન્ડના 3 હોલ્ડ.",
+    },
+    {
+      name: "રિસ્ટ કર્લ અને રિવર્સ રિસ્ટ કર્લ",
+      why: "કાંડું વાળતા અને ઉપાડતા સ્નાયુઓ ફોરઆર્મમાં હોય છે. બંને બાજુ ટ્રેન કરવાથી એ સંતુલિત રહે છે.",
+      how: "બેસો. ફોરઆર્મ સાથળ પર, કાંડું ઘૂંટણથી સહેજ આગળ. એક હળવું ડમ્બેલ કે પાણીની બોટલ. હથેળી ઉપર: કાંડું ઉપર વાળો, ધીમેથી નીચે લાવો. પછી હથેળી નીચે: હાથનો પાછલો ભાગ ઉપાડો, ધીમેથી નીચે લાવો. નાની રેન્જ. ઝટકો નહીં.",
+      dose: "દરેક દિશામાં 12 થી 15 ના 2 થી 3 સેટ. હળવું.",
+    },
+    {
+      name: "સ્ક્વીઝ: હૅન્ડ ગ્રિપર કે નરમ દડો",
+      why: "હાથ જોરથી બંધ કરવો, વારંવાર. સહેલું, અને ડેસ્ક પર પણ થઈ શકે.",
+      how: "એવું હૅન્ડ ગ્રિપર જે તમે 8 થી 12 વાર બંધ કરી શકો, અથવા નરમ દડો કે વાળેલો ટુવાલ. જોરથી દબાવો. 2 થી 3 સેકન્ડ હોલ્ડ. ધીમેથી ખોલો.",
+      dose: "દરેક હાથે 8 થી 12 સ્ક્વીઝના 2 થી 3 સેટ. 12 સહેલાં લાગે ત્યારે કડક ગ્રિપર લો.{8}",
+    },
+    {
+      name: "રબર બૅન્ડ સાથે ફિંગર એક્સ્ટેન્શન",
+      why: "છ મૂવ્સ દબાવવાની. એક ખોલવાની. જે હાથ આખો દિવસ ટાઇપ કરે અને આખું સેશન પકડે, એને બીજી બાજુ પણ જોઈએ.",
+      how: "આંગળીઓ અને અંગૂઠાના છેડા પાસે એક જાડું રબર બૅન્ડ ચડાવો. એની સામે હાથ પૂરો ખોલો. એક સેકન્ડ હોલ્ડ. ધીમેથી બંધ કરો.",
+      dose: "દરેક હાથે 15 થી 20 ના 2 થી 3 સેટ.",
+    },
+  ],
+  enoughHeading: "કેટલી વાર, કેટલું ભારે, અને ગ્રિપ શું કહે છે",
+  enough: [
+    "WHO અઠવાડિયે 2 કે વધુ દિવસ બધા મોટા સ્નાયુ જૂથો માટે મસલ-સ્ટ્રેન્થનિંગની સલાહ આપે છે.{1} ગ્રિપ એમાં જ આવે છે. એને 2 કે 3 સ્ટ્રેન્થ સેશનના અંતે ઉમેરો. દરરોજ નહીં: હાથ અને ફોરઆર્મને પણ આરામના દિવસ જોઈએ.",
+    "કોઈ પણ સ્ટ્રેન્થ વર્ક જેવો જ નિયમ વાપરો. એવું વજન કે વર્ઝન પસંદ કરો જેના 8 થી 12 સારા રેપ થઈ શકે. ટાર્ગેટથી 1 કે 2 રેપ વધુ થાય ત્યારે થોડું વધારો: 2 થી 10% વધુ વજન.{8} હોલ્ડમાં પહેલાં સેકન્ડ વધારો, પછી વજન.",
+    "શું ગ્રિપ ટ્રેનિંગ કામ કરે છે? 3,018 વડીલો (સરેરાશ ઉંમર 73) વાળા 24 ટ્રાયલ્સના એક રિવ્યૂમાં કસરતના પ્રોગ્રામથી ગ્રિપ સ્ટ્રેન્થ વધી. વધારો નાનો હતો.{7} જે પ્રોગ્રામ સીધું એ જ કામ ટ્રેન કરતા, કે ઘણા પ્રકારની કસરત ભેગી કરતા, એ સૌથી સારા દેખાયા.{7} એટલે આ યાદી બંને કરે છે.",
+    "ગ્રિપ ફક્ત હાથ સાથે નથી જોડાયેલી. બ્રિટનના 40 થી 69 વર્ષના પાંચ લાખ પુખ્તોમાં ઓછી ગ્રિપ કોઈ પણ કારણે મૃત્યુના, અને હૃદયરોગ, ફેફસાંના રોગ અને કેટલાંક કૅન્સરથી મૃત્યુના વધુ જોખમ સાથે હતી.{3} 45 થી 68 વર્ષના 6,089 સ્વસ્થ પુરુષોમાં, સૌથી નબળી ગ્રિપવાળા એક-તૃતીયાંશ લોકોને 25 વર્ષ પછી પોતાની સંભાળ લેવામાં તકલીફ થવાની શક્યતા સૌથી મજબૂત એક-તૃતીયાંશ કરતાં બમણીથી પણ વધુ હતી.{4}",
+    "આ સંબંધો છે, કારણો નહીં. નબળી ગ્રિપ ઘણી વાર આખા શરીરના નબળા સ્નાયુઓ સાથે, અને બીમારી અને ઓછા પોષણ સાથે આવે છે.{5} ફક્ત ગ્રિપર દબાવવાથી એ નહીં બદલાય. ખરી વાત આખા શરીરનું સ્ટ્રેન્થ વર્ક છે. ગ્રિપ એને ચકાસવાની સારી રીત છે.",
+    "ડૉક્ટરો પણ ગ્રિપ જુએ છે. સાર્કોપીનિયા (ઉંમર સાથે સ્નાયુ ઘટવા)ની યુરોપિયન વ્યાખ્યામાં ઓછી ગ્રિપ સૌથી પહેલો સંકેત છે: પુરુષો માટે 27 kgથી ઓછી અને મહિલાઓ માટે 16 kgથી ઓછી, હૅન્ડ ડાયનામોમીટર પર.{6} આ ક્લિનિકનો ટેસ્ટ છે, ઘરનો નહીં. તાકાત ઘટવાની ચિંતા હોય, તો તમારા ડૉક્ટરને પૂછો.",
+  ],
+  sampleHeading: "ગ્રિપ વર્ક સાથે એક સેમ્પલ અઠવાડિયું",
+  sampleLabel: "માત્ર સેમ્પલ. પ્રિસ્ક્રિપ્શન નથી. તમારા શરીર, તમારા સ્વાસ્થ્ય અને તમારા ઇતિહાસ મુજબ બદલો.",
+  sample: [
+    "સોમવાર: સ્ટ્રેન્થ સેશન, પછી ફાર્મર્સ કૅરી અને પિંચ હોલ્ડ.",
+    "મંગળવાર: ઝડપી વૉક.",
+    "બુધવાર: સ્ટ્રેન્થ સેશન, પછી ટુવાલ રો અને ડેડ હૅંગ.",
+    "ગુરુવાર: આરામ, અથવા વૉક. બહુ ટાઇપ કરતા હો તો ડેસ્ક પર ફિંગર એક્સ્ટેન્શન.",
+    "શુક્રવાર: સ્ટ્રેન્થ સેશન, પછી રિસ્ટ કર્લ અને સ્ક્વીઝ.",
+    "શનિવાર: ખરીદીની થેલીઓ ઘર સુધી ઉપાડી લાવો. એ પણ ગણાય.",
+    "રવિવાર: આરામ.",
+    "ગ્રિપ 2 કે 3 દિવસ, સળંગ બે ભારે ગ્રિપવાળા દિવસ ક્યારેય નહીં.",
+  ],
+  coachedHeading: "લાઇવ કોચિંગ જોઈએ છે?",
+  coached: [
+    "Iron Hour 60 મિનિટનું છે, 1:1. મિનિટ 0 પર સેટ-અપ: કૅમેરા એવી રીતે કે મને તમારા હાથ અને આખું શરીર દેખાય. મિનિટ 4 થી વૉર્મ-અપ. મિનિટ 14 પર મુખ્ય લિફ્ટ. 28 પર એક્સેસરીઝ: કૅરી, હૅંગ અને હોલ્ડ અહીં જ આવે છે. 50 પર કૂલ-ડાઉન.",
+    "Lean Reset મહિને 20 સેશન, 1:1. Open Floor નાનું ગ્રુપ છે.",
+    "લાંબા બ્રેક પછી પાછા આવો છો? Return 45 મિનિટનું છે, મહિને 12 સેશન, એકાંતરે દિવસે. પહેલાં બેઝ બનાવીએ છીએ, ગ્રિપ સહિત.",
+    "Google Meet, Zoom કે FaceTime પર લાઇવ કોચિંગ. પુણેથી. હિન્દી કે અંગ્રેજીમાં. IST પર. હજુ નક્કી નથી? 30 મિનિટના કન્સલ્ટેશનથી શરૂ કરો. એ વાતચીત છે, ટ્રેનિંગ નહીં. બુકિંગ ફક્ત સમય રોકે છે. ફી સીધી નક્કી થાય છે.",
+  ],
+  safetyHeading: "શરૂ કરતાં પહેલાં",
+  safety:
+    "સામાન્ય માહિતી, તબીબી સલાહ નહીં. ACSM ના સ્ક્રીનિંગ મોડલ મુજબ: જો તમે નિષ્ક્રિય છો, કોઈ લક્ષણ નથી અને હૃદય, મેટાબોલિક કે કિડનીની કોઈ જાણીતી બીમારી નથી, તો તમે તબીબી મંજૂરી વગર હળવી થી મધ્યમ કસરત શરૂ કરીને ધીમે ધીમે વધારી શકો છો. જો આમાંની કોઈ બીમારી કે લક્ષણો હોય, તો પહેલાં તબીબી મંજૂરી લો.{9} દરેક હોલ્ડમાં શ્વાસ ચાલુ રાખો. શ્વાસ ન રોકો, ખાસ કરીને હાઈ બ્લડ પ્રેશરમાં. હાથ, કાંડા, કોણી કે ખભામાં દુખાવો, હાથમાં આર્થ્રાઇટિસ, તાજેતરની ઈજા કે સર્જરી, કે આંગળીઓમાં સુન્નપણું કે ઝણઝણાટી છે? પહેલાં તમારા ડૉક્ટર કે ફિઝિયોથેરાપિસ્ટને પૂછો કે કઈ મૂવ્સ તમારા માટે યોગ્ય છે. ફક્ત એવા બાર પરથી લટકો જે મજબૂત રીતે લાગેલો હોય અને તમારું વજન ઝીલવા બનેલો હોય, અને સ્ટૂલ પર ઊતરો, કૂદો નહીં. તીવ્ર દુખાવો થાય, કે હાથમાં સુન્નપણું કે ઝણઝણાટી થાય, તો રોકાઈ જાઓ.",
+};
+
+export const gripStrengthPost: BlogPost = {
+  slug: GRIP_SLUG,
+  published: GRIP_PUBLISHED,
+  modified: GRIP_MODIFIED,
+  about: "Exercises for grip strength",
+  sources: GRIP_SOURCES,
+  copy: { en, ar, hi, es, zh, ja, gu },
+  programLink: { href: "/online-strength-and-conditioning-coach", label: "How Iron Hour works: online strength and conditioning, coached live" },
+};

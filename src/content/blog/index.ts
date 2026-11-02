@@ -2,6 +2,7 @@ import { backAfterBreakPost } from "./back-after-a-break";
 import { coolDownPost } from "./cool-down";
 import { coreBackPost } from "./core-lower-back";
 import { deskWorkersPost } from "./desk-workers";
+import { gripStrengthPost } from "./grip-strength";
 import { oneDumbbellPost } from "./one-dumbbell";
 import { over60StrengthPost } from "./over-60-strength";
 import { runnersStrengthPost } from "./runners-strength";
@@ -13,6 +14,7 @@ import type { BlogPost } from "./shared";
 
 /** Every post, newest first. The blog index, related links and sitemap follow this list. */
 export const BLOG_POSTS: BlogPost[] = [
+  gripStrengthPost,
   coreBackPost,
   over60StrengthPost,
   runnersStrengthPost,
@@ -26,4 +28,4 @@ export const BLOG_POSTS: BlogPost[] = [
   deskWorkersPost,
 ];
 
-export { backAfterBreakPost, coolDownPost, coreBackPost, deskWorkersPost, oneDumbbellPost, over60StrengthPost, runnersStrengthPost, strengthConditioningPost, travelBodyweightPost, warmUpPost, womenOver40Post };
+export { backAfterBreakPost, coolDownPost, coreBackPost, deskWorkersPost, gripStrengthPost, oneDumbbellPost, over60StrengthPost, runnersStrengthPost, strengthConditioningPost, travelBodyweightPost, warmUpPost, womenOver40Post };
