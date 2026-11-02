@@ -33,6 +33,7 @@ export const SRC = {
   hyroxFind: { cite: "HYROX. Find My Race (global race calendar and filters). Official site; accessed 2 Nov 2026.", url: "https://hyrox.com/find-my-race/" },
   hyroxRules: { cite: "HYROX. Singles Rulebook, 2026/27 season (stations, weights, divisions, age groups, penalties, minimum age). Official PDF; accessed 2 Nov 2026. Current rulebooks: hyrox.com/rulebook.", url: "https://hyroxbenelux.com/wp-content/uploads/2026/06/26_27_HYROX_RulebookSingles_EN_FINAL.pdf" },
   hyroxSsac: { cite: "HYROX. Sports Science Report 2025 (simulated Open race, 11 recreational athletes; run and station time split). Official PDF; accessed 2 Nov 2026.", url: "https://hyrox.com/wp-content/uploads/2025/12/SSAC-Report.pdf" },
+  hyroxPrep: { cite: "HYROX. Best HYROX Preparation (running share, simulating the race, pacing, rest and hydration). Official site; accessed 2 Nov 2026.", url: "https://hyrox.com/best-hyrox-preparation/" },
   hyroxGujCom: { cite: "HYROX. INDUSIND BANK HYROX Gujarat: event page, venue, provisional schedule, race package. Official site; accessed 2 Nov 2026.", url: "https://hyrox.com/event/hyrox-gujarat/" },
   roxtimes: { cite: "RoxTimes. Benchmarks: typical HYROX finishes by division (third-party analysis of 1,274,586 official finishes, seasons 2024/25 to 2026/27). Not an official figure; accessed 2 Nov 2026.", url: "https://www.roxtimes.com/benchmarks" },
 

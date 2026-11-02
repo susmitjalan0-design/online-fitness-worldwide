@@ -12,10 +12,12 @@ import { warmUpPost } from "./warm-up";
 import { womenOver40Post } from "./women-over-40";
 import { hyroxPlanPost } from "./hyrox-training-plan";
 import { whatIsHyroxPost } from "./what-is-hyrox";
+import { hyroxHomePost } from "./how-to-train-for-hyrox-at-home";
 import type { BlogPost } from "./shared";
 
 /** Every post, newest first. The blog index, related links and sitemap follow this list. */
 export const BLOG_POSTS: BlogPost[] = [
+  hyroxHomePost,
   whatIsHyroxPost,
   hyroxPlanPost,
   gripStrengthPost,
@@ -32,4 +34,4 @@ export const BLOG_POSTS: BlogPost[] = [
   deskWorkersPost,
 ];
 
-export { whatIsHyroxPost, hyroxPlanPost, backAfterBreakPost, coolDownPost, coreBackPost, deskWorkersPost, gripStrengthPost, oneDumbbellPost, over60StrengthPost, runnersStrengthPost, strengthConditioningPost, travelBodyweightPost, warmUpPost, womenOver40Post };
+export { hyroxHomePost, whatIsHyroxPost, hyroxPlanPost, backAfterBreakPost, coolDownPost, coreBackPost, deskWorkersPost, gripStrengthPost, oneDumbbellPost, over60StrengthPost, runnersStrengthPost, strengthConditioningPost, travelBodyweightPost, warmUpPost, womenOver40Post };
