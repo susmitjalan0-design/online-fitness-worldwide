@@ -1,0 +1,2 @@
+Daily backup for 2 Nov 2026 (IST). Credential-free snapshot of shared work: research notes, social drafts, batch 13 change notes, and the uncommitted hybrid-race blog work (HYROX/ATHX) from the site working copy. Outreach contact logs and client protocols are not pushed here because this repo is public; they are in the emailed zip only.
+site-work-2026-11-02.zip.b64 holds every backed-up file (including the uncommitted HYROX/ATHX blog source). Restore with: base64 -d site-work-2026-11-02.zip.b64 > site-work.zip && unzip site-work.zip
