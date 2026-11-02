@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowUpRight } from "lucide-react";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { BLOG_POSTS } from "@/content/blog";
-import { postPathFor } from "@/content/blog/shared";
+import { HYBRID_CLUSTER, postPathFor } from "@/content/blog/shared";
 import { WHATSAPP_E164 } from "@/studio/content";
 import { absoluteUrl, breadcrumbLd, BUSINESS_ID, businessLd, seoHead } from "@/lib/seo";
 
@@ -19,6 +19,8 @@ const DESCRIPTION =
   "Months or years off? Return is live online coaching that rebuilds your base at home: 45 minutes, 12 alternate-day sessions a month. Hindi or English.";
 const WA_TEXT = "Hi Susmit, I read the getting back into exercise page and want to book a consultation";
 const BREAK_POST_SLUG = "best-exercises-after-a-long-break";
+/** Once the base is back, a first goal: training for a hybrid fitness race at home. */
+const RACE_READS = ["how-to-train-for-hyrox-at-home"];
 const BREAK_POST_PATH = postPathFor(BREAK_POST_SLUG, "en");
 const OVER_60_POST_PATH = postPathFor("best-strength-exercises-for-over-60s", "en");
 const CORE_BACK_POST_PATH = postPathFor("best-core-exercises-for-lower-back-health", "en");
@@ -115,7 +117,8 @@ function GettingBackPage() {
   const wa = `https://wa.me/${WHATSAPP_E164}?text=${encodeURIComponent(WA_TEXT)}`;
   const reads = [
     ...LEAD_SLUGS.flatMap((slug) => BLOG_POSTS.filter((post) => post.slug === slug)),
-    ...BLOG_POSTS.filter((post) => !LEAD_SLUGS.includes(post.slug)).slice(0, 2),
+    ...BLOG_POSTS.filter((post) => !LEAD_SLUGS.includes(post.slug) && !(HYBRID_CLUSTER as readonly string[]).includes(post.slug)).slice(0, 2),
+    ...RACE_READS.flatMap((slug) => BLOG_POSTS.filter((post) => post.slug === slug)),
   ];
   return (
     <div className="min-h-screen bg-bone text-ink" lang="en" dir="ltr">

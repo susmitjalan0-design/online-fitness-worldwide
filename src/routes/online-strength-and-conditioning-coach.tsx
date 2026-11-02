@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowUpRight } from "lucide-react";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { BLOG_POSTS } from "@/content/blog";
-import { postPathFor } from "@/content/blog/shared";
+import { HYBRID_CLUSTER, postPathFor } from "@/content/blog/shared";
 import { WHATSAPP_E164 } from "@/studio/content";
 import { absoluteUrl, breadcrumbLd, BUSINESS_ID, businessLd, seoHead } from "@/lib/seo";
 
@@ -26,6 +26,8 @@ const LEAD_SLUGS = [
   "best-warm-up-exercises-before-strength-training",
   "best-cool-down-stretches-after-strength-training",
 ];
+/** Hybrid fitness race guide: the hub, then the training plan. Strength-and-conditioning readers who are heading to a race. */
+const RACE_READS = ["hyrox-vs-deka-vs-athx", "hyrox-training-plan-for-beginners"];
 const SC_POST_PATH = postPathFor("best-strength-and-conditioning-exercises-for-beginners", "en");
 const DB_POST_PATH = postPathFor("best-home-workouts-with-one-dumbbell", "en");
 const GRIP_POST_PATH = postPathFor("best-exercises-for-grip-strength", "en");
@@ -126,7 +128,8 @@ function StrengthCoachPage() {
   const wa = `https://wa.me/${WHATSAPP_E164}?text=${encodeURIComponent(WA_TEXT)}`;
   const reads = [
     ...LEAD_SLUGS.flatMap((slug) => BLOG_POSTS.filter((post) => post.slug === slug)),
-    ...BLOG_POSTS.filter((post) => !LEAD_SLUGS.includes(post.slug)).slice(0, 1),
+    ...BLOG_POSTS.filter((post) => !LEAD_SLUGS.includes(post.slug) && !(HYBRID_CLUSTER as readonly string[]).includes(post.slug)).slice(0, 1),
+    ...RACE_READS.flatMap((slug) => BLOG_POSTS.filter((post) => post.slug === slug)),
   ];
   return (
     <div className="min-h-screen bg-bone text-ink" lang="en" dir="ltr">

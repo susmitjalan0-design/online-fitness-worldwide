@@ -29,8 +29,12 @@ import { Route as BlogBestStrengthExercisesForOver60sRouteImport } from './route
 import { Route as BlogBestStrengthExercisesForRunnersRouteImport } from './routes/blog.best-strength-exercises-for-runners'
 import { Route as BlogBestStrengthExercisesForWomenOver40RouteImport } from './routes/blog.best-strength-exercises-for-women-over-40'
 import { Route as BlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport } from './routes/blog.best-warm-up-exercises-before-strength-training'
+import { Route as BlogDekaFitMileStrongGuideRouteImport } from './routes/blog.deka-fit-mile-strong-guide'
 import { Route as BlogHowToTrainForHyroxAtHomeRouteImport } from './routes/blog.how-to-train-for-hyrox-at-home'
 import { Route as BlogHyroxTrainingPlanForBeginnersRouteImport } from './routes/blog.hyrox-training-plan-for-beginners'
+import { Route as BlogHyroxVsCrossfitRouteImport } from './routes/blog.hyrox-vs-crossfit'
+import { Route as BlogHyroxVsDekaVsAthxRouteImport } from './routes/blog.hyrox-vs-deka-vs-athx'
+import { Route as BlogWhatIsAthxRouteImport } from './routes/blog.what-is-athx'
 import { Route as BlogWhatIsHyroxRouteImport } from './routes/blog.what-is-hyrox'
 import { Route as LangBlogIndexRouteImport } from './routes/$lang.blog.index'
 import { Route as LangBlogBestBodyweightExercisesForTravelRouteImport } from './routes/$lang.blog.best-bodyweight-exercises-for-travel'
@@ -45,8 +49,12 @@ import { Route as LangBlogBestStrengthExercisesForOver60sRouteImport } from './r
 import { Route as LangBlogBestStrengthExercisesForRunnersRouteImport } from './routes/$lang.blog.best-strength-exercises-for-runners'
 import { Route as LangBlogBestStrengthExercisesForWomenOver40RouteImport } from './routes/$lang.blog.best-strength-exercises-for-women-over-40'
 import { Route as LangBlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport } from './routes/$lang.blog.best-warm-up-exercises-before-strength-training'
+import { Route as LangBlogDekaFitMileStrongGuideRouteImport } from './routes/$lang.blog.deka-fit-mile-strong-guide'
 import { Route as LangBlogHowToTrainForHyroxAtHomeRouteImport } from './routes/$lang.blog.how-to-train-for-hyrox-at-home'
 import { Route as LangBlogHyroxTrainingPlanForBeginnersRouteImport } from './routes/$lang.blog.hyrox-training-plan-for-beginners'
+import { Route as LangBlogHyroxVsCrossfitRouteImport } from './routes/$lang.blog.hyrox-vs-crossfit'
+import { Route as LangBlogHyroxVsDekaVsAthxRouteImport } from './routes/$lang.blog.hyrox-vs-deka-vs-athx'
+import { Route as LangBlogWhatIsAthxRouteImport } from './routes/$lang.blog.what-is-athx'
 import { Route as LangBlogWhatIsHyroxRouteImport } from './routes/$lang.blog.what-is-hyrox'
 
 const IndexRoute = IndexRouteImport.update({
@@ -166,6 +174,12 @@ const BlogBestWarmUpExercisesBeforeStrengthTrainingRoute =
     path: '/blog/best-warm-up-exercises-before-strength-training',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogDekaFitMileStrongGuideRoute =
+  BlogDekaFitMileStrongGuideRouteImport.update({
+    id: '/blog/deka-fit-mile-strong-guide',
+    path: '/blog/deka-fit-mile-strong-guide',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogHowToTrainForHyroxAtHomeRoute =
   BlogHowToTrainForHyroxAtHomeRouteImport.update({
     id: '/blog/how-to-train-for-hyrox-at-home',
@@ -178,6 +192,21 @@ const BlogHyroxTrainingPlanForBeginnersRoute =
     path: '/blog/hyrox-training-plan-for-beginners',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogHyroxVsCrossfitRoute = BlogHyroxVsCrossfitRouteImport.update({
+  id: '/blog/hyrox-vs-crossfit',
+  path: '/blog/hyrox-vs-crossfit',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogHyroxVsDekaVsAthxRoute = BlogHyroxVsDekaVsAthxRouteImport.update({
+  id: '/blog/hyrox-vs-deka-vs-athx',
+  path: '/blog/hyrox-vs-deka-vs-athx',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogWhatIsAthxRoute = BlogWhatIsAthxRouteImport.update({
+  id: '/blog/what-is-athx',
+  path: '/blog/what-is-athx',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BlogWhatIsHyroxRoute = BlogWhatIsHyroxRouteImport.update({
   id: '/blog/what-is-hyrox',
   path: '/blog/what-is-hyrox',
@@ -260,6 +289,12 @@ const LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute =
     path: '/$lang/blog/best-warm-up-exercises-before-strength-training',
     getParentRoute: () => rootRouteImport,
   } as any)
+const LangBlogDekaFitMileStrongGuideRoute =
+  LangBlogDekaFitMileStrongGuideRouteImport.update({
+    id: '/$lang/blog/deka-fit-mile-strong-guide',
+    path: '/$lang/blog/deka-fit-mile-strong-guide',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const LangBlogHowToTrainForHyroxAtHomeRoute =
   LangBlogHowToTrainForHyroxAtHomeRouteImport.update({
     id: '/$lang/blog/how-to-train-for-hyrox-at-home',
@@ -272,6 +307,22 @@ const LangBlogHyroxTrainingPlanForBeginnersRoute =
     path: '/$lang/blog/hyrox-training-plan-for-beginners',
     getParentRoute: () => rootRouteImport,
   } as any)
+const LangBlogHyroxVsCrossfitRoute = LangBlogHyroxVsCrossfitRouteImport.update({
+  id: '/$lang/blog/hyrox-vs-crossfit',
+  path: '/$lang/blog/hyrox-vs-crossfit',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangBlogHyroxVsDekaVsAthxRoute =
+  LangBlogHyroxVsDekaVsAthxRouteImport.update({
+    id: '/$lang/blog/hyrox-vs-deka-vs-athx',
+    path: '/$lang/blog/hyrox-vs-deka-vs-athx',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const LangBlogWhatIsAthxRoute = LangBlogWhatIsAthxRouteImport.update({
+  id: '/$lang/blog/what-is-athx',
+  path: '/$lang/blog/what-is-athx',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LangBlogWhatIsHyroxRoute = LangBlogWhatIsHyroxRouteImport.update({
   id: '/$lang/blog/what-is-hyrox',
   path: '/$lang/blog/what-is-hyrox',
@@ -298,8 +349,12 @@ export interface FileRoutesByFullPath {
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/blog/deka-fit-mile-strong-guide': typeof BlogDekaFitMileStrongGuideRoute
   '/blog/how-to-train-for-hyrox-at-home': typeof BlogHowToTrainForHyroxAtHomeRoute
   '/blog/hyrox-training-plan-for-beginners': typeof BlogHyroxTrainingPlanForBeginnersRoute
+  '/blog/hyrox-vs-crossfit': typeof BlogHyroxVsCrossfitRoute
+  '/blog/hyrox-vs-deka-vs-athx': typeof BlogHyroxVsDekaVsAthxRoute
+  '/blog/what-is-athx': typeof BlogWhatIsAthxRoute
   '/blog/what-is-hyrox': typeof BlogWhatIsHyroxRoute
   '/blog/': typeof BlogIndexRoute
   '/$lang/blog/best-bodyweight-exercises-for-travel': typeof LangBlogBestBodyweightExercisesForTravelRoute
@@ -314,8 +369,12 @@ export interface FileRoutesByFullPath {
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/$lang/blog/deka-fit-mile-strong-guide': typeof LangBlogDekaFitMileStrongGuideRoute
   '/$lang/blog/how-to-train-for-hyrox-at-home': typeof LangBlogHowToTrainForHyroxAtHomeRoute
   '/$lang/blog/hyrox-training-plan-for-beginners': typeof LangBlogHyroxTrainingPlanForBeginnersRoute
+  '/$lang/blog/hyrox-vs-crossfit': typeof LangBlogHyroxVsCrossfitRoute
+  '/$lang/blog/hyrox-vs-deka-vs-athx': typeof LangBlogHyroxVsDekaVsAthxRoute
+  '/$lang/blog/what-is-athx': typeof LangBlogWhatIsAthxRoute
   '/$lang/blog/what-is-hyrox': typeof LangBlogWhatIsHyroxRoute
   '/$lang/blog/': typeof LangBlogIndexRoute
 }
@@ -339,8 +398,12 @@ export interface FileRoutesByTo {
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/blog/deka-fit-mile-strong-guide': typeof BlogDekaFitMileStrongGuideRoute
   '/blog/how-to-train-for-hyrox-at-home': typeof BlogHowToTrainForHyroxAtHomeRoute
   '/blog/hyrox-training-plan-for-beginners': typeof BlogHyroxTrainingPlanForBeginnersRoute
+  '/blog/hyrox-vs-crossfit': typeof BlogHyroxVsCrossfitRoute
+  '/blog/hyrox-vs-deka-vs-athx': typeof BlogHyroxVsDekaVsAthxRoute
+  '/blog/what-is-athx': typeof BlogWhatIsAthxRoute
   '/blog/what-is-hyrox': typeof BlogWhatIsHyroxRoute
   '/blog': typeof BlogIndexRoute
   '/$lang/blog/best-bodyweight-exercises-for-travel': typeof LangBlogBestBodyweightExercisesForTravelRoute
@@ -355,8 +418,12 @@ export interface FileRoutesByTo {
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/$lang/blog/deka-fit-mile-strong-guide': typeof LangBlogDekaFitMileStrongGuideRoute
   '/$lang/blog/how-to-train-for-hyrox-at-home': typeof LangBlogHowToTrainForHyroxAtHomeRoute
   '/$lang/blog/hyrox-training-plan-for-beginners': typeof LangBlogHyroxTrainingPlanForBeginnersRoute
+  '/$lang/blog/hyrox-vs-crossfit': typeof LangBlogHyroxVsCrossfitRoute
+  '/$lang/blog/hyrox-vs-deka-vs-athx': typeof LangBlogHyroxVsDekaVsAthxRoute
+  '/$lang/blog/what-is-athx': typeof LangBlogWhatIsAthxRoute
   '/$lang/blog/what-is-hyrox': typeof LangBlogWhatIsHyroxRoute
   '/$lang/blog': typeof LangBlogIndexRoute
 }
@@ -381,8 +448,12 @@ export interface FileRoutesById {
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/blog/deka-fit-mile-strong-guide': typeof BlogDekaFitMileStrongGuideRoute
   '/blog/how-to-train-for-hyrox-at-home': typeof BlogHowToTrainForHyroxAtHomeRoute
   '/blog/hyrox-training-plan-for-beginners': typeof BlogHyroxTrainingPlanForBeginnersRoute
+  '/blog/hyrox-vs-crossfit': typeof BlogHyroxVsCrossfitRoute
+  '/blog/hyrox-vs-deka-vs-athx': typeof BlogHyroxVsDekaVsAthxRoute
+  '/blog/what-is-athx': typeof BlogWhatIsAthxRoute
   '/blog/what-is-hyrox': typeof BlogWhatIsHyroxRoute
   '/blog/': typeof BlogIndexRoute
   '/$lang/blog/best-bodyweight-exercises-for-travel': typeof LangBlogBestBodyweightExercisesForTravelRoute
@@ -397,8 +468,12 @@ export interface FileRoutesById {
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/$lang/blog/deka-fit-mile-strong-guide': typeof LangBlogDekaFitMileStrongGuideRoute
   '/$lang/blog/how-to-train-for-hyrox-at-home': typeof LangBlogHowToTrainForHyroxAtHomeRoute
   '/$lang/blog/hyrox-training-plan-for-beginners': typeof LangBlogHyroxTrainingPlanForBeginnersRoute
+  '/$lang/blog/hyrox-vs-crossfit': typeof LangBlogHyroxVsCrossfitRoute
+  '/$lang/blog/hyrox-vs-deka-vs-athx': typeof LangBlogHyroxVsDekaVsAthxRoute
+  '/$lang/blog/what-is-athx': typeof LangBlogWhatIsAthxRoute
   '/$lang/blog/what-is-hyrox': typeof LangBlogWhatIsHyroxRoute
   '/$lang/blog/': typeof LangBlogIndexRoute
 }
@@ -424,8 +499,12 @@ export interface FileRouteTypes {
     | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
+    | '/blog/deka-fit-mile-strong-guide'
     | '/blog/how-to-train-for-hyrox-at-home'
     | '/blog/hyrox-training-plan-for-beginners'
+    | '/blog/hyrox-vs-crossfit'
+    | '/blog/hyrox-vs-deka-vs-athx'
+    | '/blog/what-is-athx'
     | '/blog/what-is-hyrox'
     | '/blog/'
     | '/$lang/blog/best-bodyweight-exercises-for-travel'
@@ -440,8 +519,12 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
+    | '/$lang/blog/deka-fit-mile-strong-guide'
     | '/$lang/blog/how-to-train-for-hyrox-at-home'
     | '/$lang/blog/hyrox-training-plan-for-beginners'
+    | '/$lang/blog/hyrox-vs-crossfit'
+    | '/$lang/blog/hyrox-vs-deka-vs-athx'
+    | '/$lang/blog/what-is-athx'
     | '/$lang/blog/what-is-hyrox'
     | '/$lang/blog/'
   fileRoutesByTo: FileRoutesByTo
@@ -465,8 +548,12 @@ export interface FileRouteTypes {
     | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
+    | '/blog/deka-fit-mile-strong-guide'
     | '/blog/how-to-train-for-hyrox-at-home'
     | '/blog/hyrox-training-plan-for-beginners'
+    | '/blog/hyrox-vs-crossfit'
+    | '/blog/hyrox-vs-deka-vs-athx'
+    | '/blog/what-is-athx'
     | '/blog/what-is-hyrox'
     | '/blog'
     | '/$lang/blog/best-bodyweight-exercises-for-travel'
@@ -481,8 +568,12 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
+    | '/$lang/blog/deka-fit-mile-strong-guide'
     | '/$lang/blog/how-to-train-for-hyrox-at-home'
     | '/$lang/blog/hyrox-training-plan-for-beginners'
+    | '/$lang/blog/hyrox-vs-crossfit'
+    | '/$lang/blog/hyrox-vs-deka-vs-athx'
+    | '/$lang/blog/what-is-athx'
     | '/$lang/blog/what-is-hyrox'
     | '/$lang/blog'
   id:
@@ -506,8 +597,12 @@ export interface FileRouteTypes {
     | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
+    | '/blog/deka-fit-mile-strong-guide'
     | '/blog/how-to-train-for-hyrox-at-home'
     | '/blog/hyrox-training-plan-for-beginners'
+    | '/blog/hyrox-vs-crossfit'
+    | '/blog/hyrox-vs-deka-vs-athx'
+    | '/blog/what-is-athx'
     | '/blog/what-is-hyrox'
     | '/blog/'
     | '/$lang/blog/best-bodyweight-exercises-for-travel'
@@ -522,8 +617,12 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
+    | '/$lang/blog/deka-fit-mile-strong-guide'
     | '/$lang/blog/how-to-train-for-hyrox-at-home'
     | '/$lang/blog/hyrox-training-plan-for-beginners'
+    | '/$lang/blog/hyrox-vs-crossfit'
+    | '/$lang/blog/hyrox-vs-deka-vs-athx'
+    | '/$lang/blog/what-is-athx'
     | '/$lang/blog/what-is-hyrox'
     | '/$lang/blog/'
   fileRoutesById: FileRoutesById
@@ -548,8 +647,12 @@ export interface RootRouteChildren {
   BlogBestStrengthExercisesForRunnersRoute: typeof BlogBestStrengthExercisesForRunnersRoute
   BlogBestStrengthExercisesForWomenOver40Route: typeof BlogBestStrengthExercisesForWomenOver40Route
   BlogBestWarmUpExercisesBeforeStrengthTrainingRoute: typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  BlogDekaFitMileStrongGuideRoute: typeof BlogDekaFitMileStrongGuideRoute
   BlogHowToTrainForHyroxAtHomeRoute: typeof BlogHowToTrainForHyroxAtHomeRoute
   BlogHyroxTrainingPlanForBeginnersRoute: typeof BlogHyroxTrainingPlanForBeginnersRoute
+  BlogHyroxVsCrossfitRoute: typeof BlogHyroxVsCrossfitRoute
+  BlogHyroxVsDekaVsAthxRoute: typeof BlogHyroxVsDekaVsAthxRoute
+  BlogWhatIsAthxRoute: typeof BlogWhatIsAthxRoute
   BlogWhatIsHyroxRoute: typeof BlogWhatIsHyroxRoute
   BlogIndexRoute: typeof BlogIndexRoute
   LangBlogBestBodyweightExercisesForTravelRoute: typeof LangBlogBestBodyweightExercisesForTravelRoute
@@ -564,8 +667,12 @@ export interface RootRouteChildren {
   LangBlogBestStrengthExercisesForRunnersRoute: typeof LangBlogBestStrengthExercisesForRunnersRoute
   LangBlogBestStrengthExercisesForWomenOver40Route: typeof LangBlogBestStrengthExercisesForWomenOver40Route
   LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute: typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  LangBlogDekaFitMileStrongGuideRoute: typeof LangBlogDekaFitMileStrongGuideRoute
   LangBlogHowToTrainForHyroxAtHomeRoute: typeof LangBlogHowToTrainForHyroxAtHomeRoute
   LangBlogHyroxTrainingPlanForBeginnersRoute: typeof LangBlogHyroxTrainingPlanForBeginnersRoute
+  LangBlogHyroxVsCrossfitRoute: typeof LangBlogHyroxVsCrossfitRoute
+  LangBlogHyroxVsDekaVsAthxRoute: typeof LangBlogHyroxVsDekaVsAthxRoute
+  LangBlogWhatIsAthxRoute: typeof LangBlogWhatIsAthxRoute
   LangBlogWhatIsHyroxRoute: typeof LangBlogWhatIsHyroxRoute
   LangBlogIndexRoute: typeof LangBlogIndexRoute
 }
@@ -712,6 +819,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/deka-fit-mile-strong-guide': {
+      id: '/blog/deka-fit-mile-strong-guide'
+      path: '/blog/deka-fit-mile-strong-guide'
+      fullPath: '/blog/deka-fit-mile-strong-guide'
+      preLoaderRoute: typeof BlogDekaFitMileStrongGuideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/how-to-train-for-hyrox-at-home': {
       id: '/blog/how-to-train-for-hyrox-at-home'
       path: '/blog/how-to-train-for-hyrox-at-home'
@@ -724,6 +838,27 @@ declare module '@tanstack/react-router' {
       path: '/blog/hyrox-training-plan-for-beginners'
       fullPath: '/blog/hyrox-training-plan-for-beginners'
       preLoaderRoute: typeof BlogHyroxTrainingPlanForBeginnersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/hyrox-vs-crossfit': {
+      id: '/blog/hyrox-vs-crossfit'
+      path: '/blog/hyrox-vs-crossfit'
+      fullPath: '/blog/hyrox-vs-crossfit'
+      preLoaderRoute: typeof BlogHyroxVsCrossfitRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/hyrox-vs-deka-vs-athx': {
+      id: '/blog/hyrox-vs-deka-vs-athx'
+      path: '/blog/hyrox-vs-deka-vs-athx'
+      fullPath: '/blog/hyrox-vs-deka-vs-athx'
+      preLoaderRoute: typeof BlogHyroxVsDekaVsAthxRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/what-is-athx': {
+      id: '/blog/what-is-athx'
+      path: '/blog/what-is-athx'
+      fullPath: '/blog/what-is-athx'
+      preLoaderRoute: typeof BlogWhatIsAthxRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/blog/what-is-hyrox': {
@@ -824,6 +959,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$lang/blog/deka-fit-mile-strong-guide': {
+      id: '/$lang/blog/deka-fit-mile-strong-guide'
+      path: '/$lang/blog/deka-fit-mile-strong-guide'
+      fullPath: '/$lang/blog/deka-fit-mile-strong-guide'
+      preLoaderRoute: typeof LangBlogDekaFitMileStrongGuideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/$lang/blog/how-to-train-for-hyrox-at-home': {
       id: '/$lang/blog/how-to-train-for-hyrox-at-home'
       path: '/$lang/blog/how-to-train-for-hyrox-at-home'
@@ -836,6 +978,27 @@ declare module '@tanstack/react-router' {
       path: '/$lang/blog/hyrox-training-plan-for-beginners'
       fullPath: '/$lang/blog/hyrox-training-plan-for-beginners'
       preLoaderRoute: typeof LangBlogHyroxTrainingPlanForBeginnersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/blog/hyrox-vs-crossfit': {
+      id: '/$lang/blog/hyrox-vs-crossfit'
+      path: '/$lang/blog/hyrox-vs-crossfit'
+      fullPath: '/$lang/blog/hyrox-vs-crossfit'
+      preLoaderRoute: typeof LangBlogHyroxVsCrossfitRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/blog/hyrox-vs-deka-vs-athx': {
+      id: '/$lang/blog/hyrox-vs-deka-vs-athx'
+      path: '/$lang/blog/hyrox-vs-deka-vs-athx'
+      fullPath: '/$lang/blog/hyrox-vs-deka-vs-athx'
+      preLoaderRoute: typeof LangBlogHyroxVsDekaVsAthxRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/blog/what-is-athx': {
+      id: '/$lang/blog/what-is-athx'
+      path: '/$lang/blog/what-is-athx'
+      fullPath: '/$lang/blog/what-is-athx'
+      preLoaderRoute: typeof LangBlogWhatIsAthxRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/$lang/blog/what-is-hyrox': {
@@ -878,9 +1041,13 @@ const rootRouteChildren: RootRouteChildren = {
     BlogBestStrengthExercisesForWomenOver40Route,
   BlogBestWarmUpExercisesBeforeStrengthTrainingRoute:
     BlogBestWarmUpExercisesBeforeStrengthTrainingRoute,
+  BlogDekaFitMileStrongGuideRoute: BlogDekaFitMileStrongGuideRoute,
   BlogHowToTrainForHyroxAtHomeRoute: BlogHowToTrainForHyroxAtHomeRoute,
   BlogHyroxTrainingPlanForBeginnersRoute:
     BlogHyroxTrainingPlanForBeginnersRoute,
+  BlogHyroxVsCrossfitRoute: BlogHyroxVsCrossfitRoute,
+  BlogHyroxVsDekaVsAthxRoute: BlogHyroxVsDekaVsAthxRoute,
+  BlogWhatIsAthxRoute: BlogWhatIsAthxRoute,
   BlogWhatIsHyroxRoute: BlogWhatIsHyroxRoute,
   BlogIndexRoute: BlogIndexRoute,
   LangBlogBestBodyweightExercisesForTravelRoute:
@@ -907,9 +1074,13 @@ const rootRouteChildren: RootRouteChildren = {
     LangBlogBestStrengthExercisesForWomenOver40Route,
   LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute:
     LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute,
+  LangBlogDekaFitMileStrongGuideRoute: LangBlogDekaFitMileStrongGuideRoute,
   LangBlogHowToTrainForHyroxAtHomeRoute: LangBlogHowToTrainForHyroxAtHomeRoute,
   LangBlogHyroxTrainingPlanForBeginnersRoute:
     LangBlogHyroxTrainingPlanForBeginnersRoute,
+  LangBlogHyroxVsCrossfitRoute: LangBlogHyroxVsCrossfitRoute,
+  LangBlogHyroxVsDekaVsAthxRoute: LangBlogHyroxVsDekaVsAthxRoute,
+  LangBlogWhatIsAthxRoute: LangBlogWhatIsAthxRoute,
   LangBlogWhatIsHyroxRoute: LangBlogWhatIsHyroxRoute,
   LangBlogIndexRoute: LangBlogIndexRoute,
 }
