@@ -29,6 +29,7 @@ import { Route as BlogBestStrengthExercisesForOver60sRouteImport } from './route
 import { Route as BlogBestStrengthExercisesForRunnersRouteImport } from './routes/blog.best-strength-exercises-for-runners'
 import { Route as BlogBestStrengthExercisesForWomenOver40RouteImport } from './routes/blog.best-strength-exercises-for-women-over-40'
 import { Route as BlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport } from './routes/blog.best-warm-up-exercises-before-strength-training'
+import { Route as BlogHowToTrainForHyroxAtHomeRouteImport } from './routes/blog.how-to-train-for-hyrox-at-home'
 import { Route as BlogHyroxTrainingPlanForBeginnersRouteImport } from './routes/blog.hyrox-training-plan-for-beginners'
 import { Route as BlogWhatIsHyroxRouteImport } from './routes/blog.what-is-hyrox'
 import { Route as LangBlogIndexRouteImport } from './routes/$lang.blog.index'
@@ -44,6 +45,7 @@ import { Route as LangBlogBestStrengthExercisesForOver60sRouteImport } from './r
 import { Route as LangBlogBestStrengthExercisesForRunnersRouteImport } from './routes/$lang.blog.best-strength-exercises-for-runners'
 import { Route as LangBlogBestStrengthExercisesForWomenOver40RouteImport } from './routes/$lang.blog.best-strength-exercises-for-women-over-40'
 import { Route as LangBlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport } from './routes/$lang.blog.best-warm-up-exercises-before-strength-training'
+import { Route as LangBlogHowToTrainForHyroxAtHomeRouteImport } from './routes/$lang.blog.how-to-train-for-hyrox-at-home'
 import { Route as LangBlogHyroxTrainingPlanForBeginnersRouteImport } from './routes/$lang.blog.hyrox-training-plan-for-beginners'
 import { Route as LangBlogWhatIsHyroxRouteImport } from './routes/$lang.blog.what-is-hyrox'
 
@@ -164,6 +166,12 @@ const BlogBestWarmUpExercisesBeforeStrengthTrainingRoute =
     path: '/blog/best-warm-up-exercises-before-strength-training',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogHowToTrainForHyroxAtHomeRoute =
+  BlogHowToTrainForHyroxAtHomeRouteImport.update({
+    id: '/blog/how-to-train-for-hyrox-at-home',
+    path: '/blog/how-to-train-for-hyrox-at-home',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogHyroxTrainingPlanForBeginnersRoute =
   BlogHyroxTrainingPlanForBeginnersRouteImport.update({
     id: '/blog/hyrox-training-plan-for-beginners',
@@ -252,6 +260,12 @@ const LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute =
     path: '/$lang/blog/best-warm-up-exercises-before-strength-training',
     getParentRoute: () => rootRouteImport,
   } as any)
+const LangBlogHowToTrainForHyroxAtHomeRoute =
+  LangBlogHowToTrainForHyroxAtHomeRouteImport.update({
+    id: '/$lang/blog/how-to-train-for-hyrox-at-home',
+    path: '/$lang/blog/how-to-train-for-hyrox-at-home',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const LangBlogHyroxTrainingPlanForBeginnersRoute =
   LangBlogHyroxTrainingPlanForBeginnersRouteImport.update({
     id: '/$lang/blog/hyrox-training-plan-for-beginners',
@@ -284,6 +298,7 @@ export interface FileRoutesByFullPath {
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/blog/how-to-train-for-hyrox-at-home': typeof BlogHowToTrainForHyroxAtHomeRoute
   '/blog/hyrox-training-plan-for-beginners': typeof BlogHyroxTrainingPlanForBeginnersRoute
   '/blog/what-is-hyrox': typeof BlogWhatIsHyroxRoute
   '/blog/': typeof BlogIndexRoute
@@ -299,6 +314,7 @@ export interface FileRoutesByFullPath {
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/$lang/blog/how-to-train-for-hyrox-at-home': typeof LangBlogHowToTrainForHyroxAtHomeRoute
   '/$lang/blog/hyrox-training-plan-for-beginners': typeof LangBlogHyroxTrainingPlanForBeginnersRoute
   '/$lang/blog/what-is-hyrox': typeof LangBlogWhatIsHyroxRoute
   '/$lang/blog/': typeof LangBlogIndexRoute
@@ -323,6 +339,7 @@ export interface FileRoutesByTo {
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/blog/how-to-train-for-hyrox-at-home': typeof BlogHowToTrainForHyroxAtHomeRoute
   '/blog/hyrox-training-plan-for-beginners': typeof BlogHyroxTrainingPlanForBeginnersRoute
   '/blog/what-is-hyrox': typeof BlogWhatIsHyroxRoute
   '/blog': typeof BlogIndexRoute
@@ -338,6 +355,7 @@ export interface FileRoutesByTo {
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/$lang/blog/how-to-train-for-hyrox-at-home': typeof LangBlogHowToTrainForHyroxAtHomeRoute
   '/$lang/blog/hyrox-training-plan-for-beginners': typeof LangBlogHyroxTrainingPlanForBeginnersRoute
   '/$lang/blog/what-is-hyrox': typeof LangBlogWhatIsHyroxRoute
   '/$lang/blog': typeof LangBlogIndexRoute
@@ -363,6 +381,7 @@ export interface FileRoutesById {
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/blog/how-to-train-for-hyrox-at-home': typeof BlogHowToTrainForHyroxAtHomeRoute
   '/blog/hyrox-training-plan-for-beginners': typeof BlogHyroxTrainingPlanForBeginnersRoute
   '/blog/what-is-hyrox': typeof BlogWhatIsHyroxRoute
   '/blog/': typeof BlogIndexRoute
@@ -378,6 +397,7 @@ export interface FileRoutesById {
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  '/$lang/blog/how-to-train-for-hyrox-at-home': typeof LangBlogHowToTrainForHyroxAtHomeRoute
   '/$lang/blog/hyrox-training-plan-for-beginners': typeof LangBlogHyroxTrainingPlanForBeginnersRoute
   '/$lang/blog/what-is-hyrox': typeof LangBlogWhatIsHyroxRoute
   '/$lang/blog/': typeof LangBlogIndexRoute
@@ -404,6 +424,7 @@ export interface FileRouteTypes {
     | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
+    | '/blog/how-to-train-for-hyrox-at-home'
     | '/blog/hyrox-training-plan-for-beginners'
     | '/blog/what-is-hyrox'
     | '/blog/'
@@ -419,6 +440,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
+    | '/$lang/blog/how-to-train-for-hyrox-at-home'
     | '/$lang/blog/hyrox-training-plan-for-beginners'
     | '/$lang/blog/what-is-hyrox'
     | '/$lang/blog/'
@@ -443,6 +465,7 @@ export interface FileRouteTypes {
     | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
+    | '/blog/how-to-train-for-hyrox-at-home'
     | '/blog/hyrox-training-plan-for-beginners'
     | '/blog/what-is-hyrox'
     | '/blog'
@@ -458,6 +481,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
+    | '/$lang/blog/how-to-train-for-hyrox-at-home'
     | '/$lang/blog/hyrox-training-plan-for-beginners'
     | '/$lang/blog/what-is-hyrox'
     | '/$lang/blog'
@@ -482,6 +506,7 @@ export interface FileRouteTypes {
     | '/blog/best-strength-exercises-for-runners'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
+    | '/blog/how-to-train-for-hyrox-at-home'
     | '/blog/hyrox-training-plan-for-beginners'
     | '/blog/what-is-hyrox'
     | '/blog/'
@@ -497,6 +522,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-strength-exercises-for-runners'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
+    | '/$lang/blog/how-to-train-for-hyrox-at-home'
     | '/$lang/blog/hyrox-training-plan-for-beginners'
     | '/$lang/blog/what-is-hyrox'
     | '/$lang/blog/'
@@ -522,6 +548,7 @@ export interface RootRouteChildren {
   BlogBestStrengthExercisesForRunnersRoute: typeof BlogBestStrengthExercisesForRunnersRoute
   BlogBestStrengthExercisesForWomenOver40Route: typeof BlogBestStrengthExercisesForWomenOver40Route
   BlogBestWarmUpExercisesBeforeStrengthTrainingRoute: typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  BlogHowToTrainForHyroxAtHomeRoute: typeof BlogHowToTrainForHyroxAtHomeRoute
   BlogHyroxTrainingPlanForBeginnersRoute: typeof BlogHyroxTrainingPlanForBeginnersRoute
   BlogWhatIsHyroxRoute: typeof BlogWhatIsHyroxRoute
   BlogIndexRoute: typeof BlogIndexRoute
@@ -537,6 +564,7 @@ export interface RootRouteChildren {
   LangBlogBestStrengthExercisesForRunnersRoute: typeof LangBlogBestStrengthExercisesForRunnersRoute
   LangBlogBestStrengthExercisesForWomenOver40Route: typeof LangBlogBestStrengthExercisesForWomenOver40Route
   LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute: typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
+  LangBlogHowToTrainForHyroxAtHomeRoute: typeof LangBlogHowToTrainForHyroxAtHomeRoute
   LangBlogHyroxTrainingPlanForBeginnersRoute: typeof LangBlogHyroxTrainingPlanForBeginnersRoute
   LangBlogWhatIsHyroxRoute: typeof LangBlogWhatIsHyroxRoute
   LangBlogIndexRoute: typeof LangBlogIndexRoute
@@ -684,6 +712,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/how-to-train-for-hyrox-at-home': {
+      id: '/blog/how-to-train-for-hyrox-at-home'
+      path: '/blog/how-to-train-for-hyrox-at-home'
+      fullPath: '/blog/how-to-train-for-hyrox-at-home'
+      preLoaderRoute: typeof BlogHowToTrainForHyroxAtHomeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/hyrox-training-plan-for-beginners': {
       id: '/blog/hyrox-training-plan-for-beginners'
       path: '/blog/hyrox-training-plan-for-beginners'
@@ -789,6 +824,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$lang/blog/how-to-train-for-hyrox-at-home': {
+      id: '/$lang/blog/how-to-train-for-hyrox-at-home'
+      path: '/$lang/blog/how-to-train-for-hyrox-at-home'
+      fullPath: '/$lang/blog/how-to-train-for-hyrox-at-home'
+      preLoaderRoute: typeof LangBlogHowToTrainForHyroxAtHomeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/$lang/blog/hyrox-training-plan-for-beginners': {
       id: '/$lang/blog/hyrox-training-plan-for-beginners'
       path: '/$lang/blog/hyrox-training-plan-for-beginners'
@@ -836,6 +878,7 @@ const rootRouteChildren: RootRouteChildren = {
     BlogBestStrengthExercisesForWomenOver40Route,
   BlogBestWarmUpExercisesBeforeStrengthTrainingRoute:
     BlogBestWarmUpExercisesBeforeStrengthTrainingRoute,
+  BlogHowToTrainForHyroxAtHomeRoute: BlogHowToTrainForHyroxAtHomeRoute,
   BlogHyroxTrainingPlanForBeginnersRoute:
     BlogHyroxTrainingPlanForBeginnersRoute,
   BlogWhatIsHyroxRoute: BlogWhatIsHyroxRoute,
@@ -864,6 +907,7 @@ const rootRouteChildren: RootRouteChildren = {
     LangBlogBestStrengthExercisesForWomenOver40Route,
   LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute:
     LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute,
+  LangBlogHowToTrainForHyroxAtHomeRoute: LangBlogHowToTrainForHyroxAtHomeRoute,
   LangBlogHyroxTrainingPlanForBeginnersRoute:
     LangBlogHyroxTrainingPlanForBeginnersRoute,
   LangBlogWhatIsHyroxRoute: LangBlogWhatIsHyroxRoute,
