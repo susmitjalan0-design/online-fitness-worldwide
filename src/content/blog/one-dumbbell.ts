@@ -360,7 +360,7 @@ const hi: PostCopy = {
 const es: PostCopy = {
   metaTitle: "Mejores entrenamientos en casa con una mancuerna: 7 ejercicios | Jalan PT",
   metaDescription:
-    "Los 7 mejores ejercicios para entrenar en casa con una sola mancuerna. Cómo hacer que un peso ligero cueste lo suficiente, qué dice la investigación sobre repeticiones y ritmo, y una semana de ejemplo.",
+    "Los 7 mejores ejercicios en casa con una sola mancuerna: cómo hacer que un peso ligero cueste, qué dice la investigación y una semana de ejemplo.",
   h1: "Mejores entrenamientos en casa con una mancuerna: 7 ejercicios y una semana de ejemplo",
   dek: "Una mancuerna. Un poco de suelo. Siete ejercicios que cubren todo el cuerpo.",
   updated: "Actualizado el 28 de octubre de 2026",

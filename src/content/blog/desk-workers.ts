@@ -357,7 +357,7 @@ const hi: PostCopy = {
 const es: PostCopy = {
   metaTitle: "Mejores ejercicios para quien trabaja sentado: 7 movimientos | Jalan PT",
   metaDescription:
-    "Los mejores ejercicios para trabajadores de oficina: pausas para caminar, elevaciones con banda y sentadilla a la silla. Lo que dicen la OMS, el NHS y la ciencia.",
+    "Los mejores ejercicios para oficinistas: pausas para caminar, elevaciones con banda y sentadilla a la silla. Lo que dicen la OMS, el NHS y la investigación.",
   h1: "Los mejores ejercicios para quien trabaja en un escritorio: 7 movimientos que caben en la jornada",
   dek: "Trabajas sentado. Vale. Esto es lo que puedes hacer, en el orden en que lo entrenaría.",
   updated: "Actualizado el 22 de octubre de 2026",

@@ -59,7 +59,7 @@ export const OVER_60_SOURCES = [
 const en: PostCopy = {
   metaTitle: "Best Strength Exercises for Over 60s: 7 Moves and a Sample Week | Jalan PT",
   metaDescription:
-    "The 7 best strength exercises for over 60s: sit-to-stands, step-ups, carries and balance. What the research says about strength, falls and starting late, plus a sample week.",
+    "The 7 best strength exercises for over 60s: sit-to-stands, step-ups, carries and balance. What the research says on strength and falls, plus a sample week.",
   // Non-breaking space keeps "over 60s" together on narrow screens.
   h1: "Best strength exercises for over\u00a060s: 7 moves and a sample week",
   dek: "Strength gets you out of the chair, up the stairs and steady on your feet. You can still build it. A chair, a counter and three short sessions a week.",
@@ -381,7 +381,7 @@ const hi: PostCopy = {
 const es: PostCopy = {
   metaTitle: "Mejores ejercicios de fuerza para mayores de 60: 7 ejercicios y una semana | Jalan PT",
   metaDescription:
-    "Los 7 mejores ejercicios de fuerza para mayores de 60: levantarse de la silla, subir al escalón, cargar peso y equilibrio. Qué dice la investigación sobre fuerza, caídas y empezar tarde, y una semana de ejemplo.",
+    "Los 7 mejores ejercicios de fuerza para mayores de 60: levantarse de la silla, escalón, cargas y equilibrio. Qué dice la investigación y una semana de ejemplo.",
   h1: "Mejores ejercicios de fuerza para mayores de 60: 7 ejercicios y una semana de ejemplo",
   dek: "La fuerza es lo que te levanta de la silla, te sube la escalera y te mantiene firme sobre los pies. Todavía puedes construirla. Una silla, la encimera de la cocina y tres sesiones cortas a la semana.",
   updated: "Actualizado el 31 de octubre de 2026",

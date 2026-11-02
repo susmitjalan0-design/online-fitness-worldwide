@@ -64,7 +64,7 @@ export const CORE_BACK_SOURCES = [
 const en: PostCopy = {
   metaTitle: "Best Core Exercises for Lower Back Health: 7 Moves and a Sample Week | Jalan PT",
   metaDescription:
-    "The 7 best core exercises for lower back health: dead bugs, bird dogs, side planks, carries and the hip hinge. What the research says, when to see a doctor, and a sample week.",
+    "The 7 best core exercises for lower back health: dead bugs, bird dogs, side planks, carries, the hip hinge. The research, when to see a doctor, a sample week.",
   h1: "Best core exercises for lower back health: 7 moves and a sample week",
   dek: "Your core is more than abs. Front, sides, back and hips, working together. Train it 2 to 3 times a week. And know when to see a doctor first.",
   updated: "Updated 1 November 2026",
@@ -391,7 +391,7 @@ const hi: PostCopy = {
 const es: PostCopy = {
   metaTitle: "Mejores ejercicios de core para la salud lumbar: 7 ejercicios y una semana de ejemplo | Jalan PT",
   metaDescription:
-    "Los 7 mejores ejercicios de core para la salud de la zona lumbar: dead bug, bird dog, plancha lateral, cargas y bisagra de cadera. Qué dice la investigación, cuándo ir al médico y una semana de ejemplo.",
+    "Los 7 mejores ejercicios de core para la zona lumbar: dead bug, bird dog, plancha lateral, cargas y bisagra. Cuándo ir al médico y una semana de ejemplo.",
   h1: "Mejores ejercicios de core para la salud lumbar: 7 ejercicios y una semana de ejemplo",
   dek: "El core es más que abdominales. Delante, los lados, la espalda y las caderas, trabajando juntos. Entrénalo 2 o 3 veces por semana. Y sabe cuándo ir antes al médico.",
   updated: "Actualizado el 1 de noviembre de 2026",
