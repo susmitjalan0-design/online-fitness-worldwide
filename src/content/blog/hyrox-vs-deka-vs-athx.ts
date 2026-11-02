@@ -1,0 +1,624 @@
+/**
+ * Blog post (hub of the hybrid-race cluster): "HYROX vs DEKA vs ATHX: 7 differences that decide which to enter".
+ * Citations in copy are written as {n} and point at HYROX_VS_DEKA_VS_ATHX_SOURCES[n - 1].
+ * Facts come from each organiser's own pages and the DEKA rulebook v20261015, read on 2 Nov 2026 (IST).
+ * Finish-time figures are third party and say so. Nothing here implies a DEKA or ATHX event in India.
+ * No client results, no prices, no implied affiliation. Translations were drafted for this batch
+ * and need a native-speaker review.
+ */
+
+import { copyFor, RACE_MODIFIED, RACE_PUBLISHED, type Core } from "./common";
+import { SRC } from "./race-sources";
+import { POST_LANGS, type BlogPost, type PostCopy, type PostLang } from "./shared";
+
+export const HYROX_VS_DEKA_VS_ATHX_SLUG = "hyrox-vs-deka-vs-athx";
+
+export const HYROX_VS_DEKA_VS_ATHX_SOURCES = [
+  SRC.hyroxRace, // 1
+  SRC.hyroxRules, // 2
+  SRC.dekaFormats, // 3
+  SRC.dekaRules, // 4
+  SRC.athxHow, // 5
+  SRC.athxW26, // 6
+  SRC.athxW27, // 7
+  SRC.athxEvents, // 8
+  SRC.hyroxFind, // 9
+  SRC.roxtimes, // 10
+  SRC.dekaKracey, // 11
+  SRC.dekaWorld, // 12
+  SRC.dekaSpain, // 13
+  SRC.dekaFind, // 14
+  SRC.hyroxGuj, // 15
+  SRC.dekaDubai, // 16
+  SRC.dekaThai, // 17
+  SRC.riebe, // 18
+] as const;
+
+const en: Core = {
+  metaTitle: "HYROX vs DEKA vs ATHX: 7 Differences That Decide | Jalan PT",
+  metaDescription:
+    "HYROX vs DEKA vs ATHX side by side: format, running, scoring, shared movements, typical times, regions and divisions, from each organiser's own pages.",
+  h1: "HYROX vs DEKA vs ATHX: 7 differences that decide which to enter",
+  dek: "Three hybrid fitness events. They look alike. They are scored differently. Here is the side-by-side, from each organiser's own pages.",
+  crumb: "HYROX vs DEKA vs ATHX",
+  whatsappText: "Hi Susmit, I read the article on HYROX vs DEKA vs ATHX and want to book a consultation",
+  preset: "three",
+  intro: [
+    "You want to pick the right event, and show up ready.",
+    "Each card below has three lines, in this order: HYROX, DEKA, ATHX.",
+    "Facts come from each organiser's own pages and the DEKA rulebook v20261015, read on 2 November 2026. Weights: kg first, pounds in brackets (rounded).",
+    "Finish times are third party and are not comparable across formats. Dates change. Check each event page.",
+    "Independent comparison. Not an official post from any of the three.",
+  ],
+  listHeading: "HYROX vs DEKA vs ATHX: 7 differences",
+  items: [
+    {
+      name: "The format",
+      why: "Run 1 km, then one station. Eight times.{1}",
+      how: "Ten zones in a fixed order. FIT has a 500 m run before each zone. MILE has 160 m. STRONG has no running.{3}{4}",
+      dose: "A 2.5-hour session with six zones and three scored workouts: Strength, Endurance and MetCon X. Solo or pairs.{5}",
+    },
+    {
+      name: "The running",
+      why: "8,000 m in eight parts. If the venue makes a 1 km run several laps, the full distance is still run.{2}",
+      how: "FIT: 5,000 m. MILE: 1,600 m. STRONG: none.{4}",
+      dose: "No separate run leg. In 2026 Endurance mixes running and rowing for distance. In 2027 you run a set distance, then SkiErg for distance.{6}{7}",
+    },
+    {
+      name: "How you are scored",
+      why: "Finish time. Two-minute penalties, for example for the wrong station.{2}",
+      how: "Finish time plus penalties. Examples: 10 seconds per missed rep in zone 1, and 1:30 per missed push-and-pull length on the sled in zone 9. Less than 80% of a zone is an unofficial finish.{4}",
+      dose: "Three scores. In 2026: total weight lifted for Strength, total distance for Endurance, and time for MetCon X.{6}",
+    },
+    {
+      name: "Shared movements and loads",
+      why: "SkiErg 1,000 m. Sled push 50 m and pull 50 m. Row 1,000 m. Farmers carry 200 m: Open men 2 × 24 kg (53 lb), Open women 2 × 16 kg (35 lb). Burpee broad jumps 80 m.{1}{2}",
+      how: "Row 500 m. Ski 500 m. Sled push and pull 100 m, on a magnetic sled. Farmers carry 100 m: men 27.5 kg (60 lb) per hand, women 17.5 kg (40 lb) per hand. Weighted burpees, 20 reps.{4}",
+      dose: "The 2026 MetCon X has SkiErg, sandbag carry, walking lunges and burpee broad jumps.{6} The 2027 one swaps in RowErg, bench press and sandbag squats.{7}",
+    },
+    {
+      name: "Typical times",
+      why: "Third party, from 1,274,586 official finishes: typical Open men 1:27:59, Open women 1:36:00.{10} I found no official HYROX average.",
+      how: "Third party, from DEKA's 2026 leaderboard: median FIT time 48:20 for men and 54:32 for women. That analysis says DEKA publishes no average time.{11}",
+      dose: "No single finish time, so no matching benchmark. I found none published.",
+    },
+    {
+      name: "Where it runs",
+      why: "Everywhere. On 2 November 2026 the finder listed 66 events and 36 country options across five continents.{9} For example: London 2 to 6 Dec 2026, Dallas 18 to 22 Nov 2026, Dubai 27 to 28 Nov 2026, Singapore 26 to 29 Nov 2026.{9}",
+      how: "On the official pages I opened: the US (Atlanta 7 to 8 Nov 2026, Denver 27 Mar 2027), Spain and Portugal (Tenerife 21 to 22 Nov 2026, Lisboa 15 May 2027), and the World Championship in Fort Worth, 10 to 13 Dec 2026.{12}{13}{14} Past: Dubai on 26 Sep 2026 and Bangkok on 1 Nov 2026.{16}{17} I could not confirm a UK date on an official page.",
+      dose: "36 events in 14 countries on 2 November 2026, in Europe and the US. Examples: Amsterdam and Los Angeles 7 Nov 2026, the Finals in Lisbon 27 to 29 Nov 2026, London 23 to 24 Jan 2027.{8}",
+    },
+    {
+      name: "Who can enter, and the divisions",
+      why: "At least 16 on race day. Open, Pro, Doubles and Relay.{1}{2}",
+      how: "Adults from 14, and youth 10 to 13 with lighter loads. Elite and Age Group, and teams of 2 or 4. Your age is your age on 30 September of the season.{4}",
+      dose: "LITE, ATHX and PRO. Solo, or in pairs.{5}",
+    },
+  ],
+  enoughHeading: "How I'd choose, and what I won't claim",
+  enough: [
+    "You like a fixed course, a clock and a global calendar: look at HYROX.{1}{9}",
+    "You like ten fixed zones, with a short run or none: look at DEKA.{3}",
+    "You like heavy lifts, an engine test and a circuit in one session: look at ATHX.{5}",
+    "India: HYROX lists Gujarat on 26 to 28 November 2026 and Noida on 15 to 17 January 2027.{9}{15} I found no DEKA or ATHX listing in India.",
+    "Times here are third party and not comparable across formats. No client results, none implied. No prices.",
+  ],
+  sampleHeading: "A sample taster day, to feel the difference",
+  sample: [
+    "Warm-up, 10 minutes.",
+    "HYROX taste: 1 km easy run, 500 m SkiErg, 1 km easy run, 100 m carry.",
+    "DEKA taste: 20 box step-overs, 500 m row, 25 calories on a bike, 10 light burpees.",
+    "ATHX taste: 5 squats at a moderate load, 3 minutes of run and row, 10 burpee broad jumps.",
+    "Note which one you enjoyed. Stop when form breaks. It is a taste, not a test.",
+  ],
+  opener: "You want to pick the right event and arrive ready. You choose. I build the training around your week and coach it live.",
+  org: "HYROX, DEKA (Spartan) and ATHX",
+  safetyN: 18,
+  safetyExtra: "Sleds, carries, burpees and heavy lifts are hard on knees, back and shoulders. Build up over weeks. Ask a doctor first if you have a heart, blood-pressure or joint condition.",
+};
+
+const ar: Core = {
+  metaTitle: "HYROX أم DEKA أم ATHX: 7 فروق تحسم الاختيار | Jalan PT",
+  metaDescription: "HYROX وDEKA وATHX جنباً إلى جنب: الصيغة والجري والتقييم والحركات المشتركة والأزمنة المعتادة والمناطق والفئات، من صفحات كل جهة منظمة.",
+  h1: "HYROX أم DEKA أم ATHX: 7 فروق تحسم أيها تشارك فيه",
+  dek: "ثلاث فعاليات لياقة هجينة. تتشابه في الشكل. وتختلف في التقييم. إليك المقارنة جنباً إلى جنب، من صفحات كل جهة منظمة.",
+  crumb: "HYROX وDEKA وATHX",
+  whatsappText: "مرحباً سوسميت، قرأت مقال HYROX وDEKA وATHX وأريد حجز استشارة",
+  preset: "three",
+  intro: [
+    "تريد أن تختار الفعالية المناسبة، وأن تصل جاهزاً.",
+    "في كل بطاقة أدناه ثلاثة أسطر بهذا الترتيب: HYROX، ثم DEKA، ثم ATHX.",
+    "المعلومات من صفحات كل جهة منظمة ودليل DEKA الإصدار v20261015، قُرئت في 2 نوفمبر 2026. الأوزان: الكيلوغرام أولاً، والأرطال بين قوسين (مقرّبة).",
+    "أزمنة الإنهاء من طرف ثالث ولا تصح مقارنتها بين الصيغ. المواعيد تتغير. راجع صفحة كل فعالية.",
+    "مقارنة مستقلة. وليست مقالاً رسمياً من أي من الثلاثة.",
+  ],
+  listHeading: "HYROX وDEKA وATHX: 7 فروق",
+  items: [
+    {
+      name: "الصيغة",
+      why: "جري 1 كم، ثم محطة واحدة. ثماني مرات.{1}",
+      how: "عشر مناطق بترتيب ثابت. في FIT جري 500 م قبل كل منطقة. وفي MILE جري 160 م. وفي STRONG لا جري.{3}{4}",
+      dose: "جلسة من ساعتين ونصف بست مناطق وثلاثة تمارين تُحتسب: القوة والتحمل وMetCon X. فردياً أو ثنائياً.{5}",
+    },
+    {
+      name: "الجري",
+      why: "8000 م على ثمانية أجزاء. وإن جعلت القاعة جري 1 كم عدة لفات، فالمسافة كاملة تُجرى.{2}",
+      how: "FIT: 5000 م. MILE: 1600 م. STRONG: لا جري.{4}",
+      dose: "لا مرحلة جري منفصلة. في 2026 يجمع التحمل بين الجري والتجديف لأجل المسافة. وفي 2027 تجري مسافة محددة ثم SkiErg لأجل المسافة.{6}{7}",
+    },
+    {
+      name: "كيف تُحتسب النتيجة",
+      why: "زمن الإنهاء. وعقوبات دقيقتين، مثلاً لمحطة خاطئة.{2}",
+      how: "زمن الإنهاء مع عقوبات. أمثلة: 10 ثوانٍ لكل تكرار فائت في المنطقة 1، و1:30 لكل ذهاب وإياب فائت للزلاجة في المنطقة 9. وإتمام أقل من 80% من منطقة يعني إنهاءً غير رسمي.{4}",
+      dose: "ثلاث نتائج. في 2026: مجموع الوزن المرفوع للقوة، ومجموع المسافة للتحمل، والزمن لـ MetCon X.{6}",
+    },
+    {
+      name: "الحركات والأحمال المشتركة",
+      why: "SkiErg 1000 م. دفع الزلاجة 50 م وسحبها 50 م. تجديف 1000 م. حمل المزارع 200 م: رجال Open ‏2 × 24 كغ (53 رطلاً)، نساء Open ‏2 × 16 كغ (35 رطلاً). قفزات بيربي طويلة 80 م.{1}{2}",
+      how: "تجديف 500 م. SkiErg ‏500 م. دفع وسحب الزلاجة 100 م على زلاجة مغناطيسية. حمل المزارع 100 م: الرجال 27.5 كغ (60 رطلاً) لكل يد، النساء 17.5 كغ (40 رطلاً) لكل يد. بيربي بثقل، 20 تكراراً.{4}",
+      dose: "في MetCon X لعام 2026: SkiErg وحمل كيس رمل واندفاعات المشي وقفزات البيربي الطويلة.{6} وفي 2027 تدخل RowErg وضغط المقعد وسكوات كيس الرمل.{7}",
+    },
+    {
+      name: "الأزمنة المعتادة",
+      why: "من طرف ثالث، من 1,274,586 إنهاءً رسمياً: المعتاد لرجال Open ‏1:27:59 ولنساء Open ‏1:36:00.{10} لم أجد متوسطاً رسمياً من HYROX.",
+      how: "من طرف ثالث، من لوحة صدارة DEKA لعام 2026: الزمن الوسيط في FIT هو 48:20 للرجال و54:32 للنساء. ويقول ذلك التحليل إن DEKA لا تنشر زمناً متوسطاً.{11}",
+      dose: "لا زمن إنهاء واحد، فلا معيار مقابل. لم أجد أي معيار منشور.",
+    },
+    {
+      name: "أين تُقام",
+      why: "في كل مكان. في 2 نوفمبر 2026 عرض الباحث 66 فعالية و36 خيار دولة عبر خمس قارات.{9} مثلاً: لندن 2 إلى 6 ديسمبر 2026، دالاس 18 إلى 22 نوفمبر 2026، دبي 27 إلى 28 نوفمبر 2026، سنغافورة 26 إلى 29 نوفمبر 2026.{9}",
+      how: "في الصفحات الرسمية التي فتحتها: الولايات المتحدة (أتلانتا 7 إلى 8 نوفمبر 2026، دنفر 27 مارس 2027)، وإسبانيا والبرتغال (تينيريفي 21 إلى 22 نوفمبر 2026، لشبونة 15 مايو 2027)، وبطولة العالم في فورت وورث، 10 إلى 13 ديسمبر 2026.{12}{13}{14} وفعاليات سابقة: دبي في 26 سبتمبر 2026 وبانكوك في 1 نوفمبر 2026.{16}{17} لم أستطع تأكيد موعد في بريطانيا من صفحة رسمية.",
+      dose: "36 فعالية في 14 دولة في 2 نوفمبر 2026، في أوروبا والولايات المتحدة. مثلاً: أمستردام ولوس أنجلوس 7 نوفمبر 2026، النهائيات في لشبونة 27 إلى 29 نوفمبر 2026، لندن 23 إلى 24 يناير 2027.{8}",
+    },
+    {
+      name: "من يستطيع المشاركة، والفئات",
+      why: "16 سنة على الأقل يوم السباق. Open وPro وDoubles وRelay.{1}{2}",
+      how: "البالغون من 14 سنة، والناشئون من 10 إلى 13 بأحمال أخف. نخبة وفئات عمرية، وفرق من 2 أو 4. وعمرك هو عمرك في 30 سبتمبر من الموسم.{4}",
+      dose: "LITE وATHX وPRO. فردياً أو ثنائياً.{5}",
+    },
+  ],
+  enoughHeading: "كيف أختار، وما لن أدّعيه",
+  enough: [
+    "تحب مضماراً ثابتاً وساعة وتقويماً عالمياً: انظر إلى HYROX.{1}{9}",
+    "تحب عشر مناطق ثابتة، مع جري قصير أو بدونه: انظر إلى DEKA.{3}",
+    "تحب الأثقال الثقيلة واختبار المحرّك الهوائي ودائرة في جلسة واحدة: انظر إلى ATHX.{5}",
+    "الهند: تعرض HYROX غوجارات في 26 إلى 28 نوفمبر 2026 ونويدا في 15 إلى 17 يناير 2027.{9}{15} ولم أجد أي فعالية لـ DEKA أو ATHX مدرجة في الهند.",
+    "الأزمنة هنا من طرف ثالث ولا تصح مقارنتها بين الصيغ. لا نتائج عملاء، ولا إيحاء بها. لا أسعار.",
+  ],
+  sampleHeading: "يوم تذوّق نموذجي لتشعر بالفرق",
+  sample: [
+    "إحماء، 10 دقائق.",
+    "طعم HYROX: جري سهل 1 كم، SkiErg ‏500 م، جري سهل 1 كم، حمل 100 م.",
+    "طعم DEKA: 20 صعوداً على الصندوق، تجديف 500 م، 25 سعرة على الدراجة، 10 بيربي خفيفة.",
+    "طعم ATHX: 5 سكوات بحمل متوسط، 3 دقائق جري وتجديف، 10 قفزات بيربي طويلة.",
+    "دوّن أيها استمتعت به. توقف حين يختل الأداء. إنه تذوّق وليس اختباراً.",
+  ],
+  opener: "تريد أن تختار الفعالية المناسبة وتصل جاهزاً. أنت تختار. وأنا أبني التدريب حول أسبوعك وأدرّبك عليه مباشرة.",
+  org: "HYROX وDEKA (Spartan) وATHX",
+  safetyN: 18,
+  safetyExtra: "الزلاجات والحمل والبيربي والأثقال الثقيلة شاقة على الركبتين والظهر والكتفين. ابنِ نفسك على مدى أسابيع. اسأل طبيباً أولاً إن كانت لديك حالة في القلب أو الضغط أو المفاصل.",
+};
+
+const hi: Core = {
+  metaTitle: "HYROX बनाम DEKA बनाम ATHX: चुनाव तय करने वाले 7 अंतर | Jalan PT",
+  metaDescription: "HYROX, DEKA और ATHX आमने-सामने: फ़ॉर्मैट, दौड़, स्कोरिंग, साझा मूवमेंट, सामान्य समय, क्षेत्र और डिवीज़न, हर आयोजक के अपने पेजों से।",
+  h1: "HYROX बनाम DEKA बनाम ATHX: 7 अंतर जो तय करते हैं कि कौन-सा चुनें",
+  dek: "तीन हाइब्रिड फ़िटनेस इवेंट। देखने में मिलते-जुलते। स्कोरिंग अलग। यह आमने-सामने की तुलना है, हर आयोजक के अपने पेजों से।",
+  crumb: "HYROX, DEKA और ATHX",
+  whatsappText: "नमस्ते सुस्मित, मैंने HYROX, DEKA और ATHX की तुलना वाला लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+  preset: "three",
+  intro: [
+    "आप सही इवेंट चुनना चाहते हैं, और तैयार होकर पहुँचना चाहते हैं।",
+    "नीचे हर कार्ड में तीन पंक्तियाँ हैं, इसी क्रम में: HYROX, DEKA, ATHX।",
+    "तथ्य हर आयोजक के अपने पेजों और DEKA रूलबुक v20261015 से हैं, 2 नवंबर 2026 को पढ़े गए। वज़न: पहले किग्रा, कोष्ठक में पाउंड (राउंड किए हुए)।",
+    "फ़िनिश टाइम तीसरे पक्ष के हैं और फ़ॉर्मैट के बीच तुलनीय नहीं हैं। तारीख़ें बदलती हैं। हर इवेंट पेज देखें।",
+    "स्वतंत्र तुलना। तीनों में से किसी की आधिकारिक पोस्ट नहीं।",
+  ],
+  listHeading: "HYROX, DEKA और ATHX: 7 अंतर",
+  items: [
+    {
+      name: "फ़ॉर्मैट",
+      why: "1 किमी दौड़, फिर एक स्टेशन। आठ बार।{1}",
+      how: "तय क्रम में दस ज़ोन। FIT में हर ज़ोन से पहले 500 मीटर दौड़। MILE में 160 मीटर। STRONG में दौड़ नहीं।{3}{4}",
+      dose: "2.5 घंटे का सेशन, छह ज़ोन और तीन स्कोर होने वाले वर्कआउट: स्ट्रेंथ, एंड्योरेंस और MetCon X। अकेले या जोड़ी में।{5}",
+    },
+    {
+      name: "दौड़",
+      why: "आठ हिस्सों में 8,000 मीटर। अगर वेन्यू 1 किमी को कई चक्करों में बाँटे, तब भी पूरी दूरी दौड़नी होती है।{2}",
+      how: "FIT: 5,000 मीटर। MILE: 1,600 मीटर। STRONG: नहीं।{4}",
+      dose: "अलग से दौड़ का चरण नहीं। 2026 में एंड्योरेंस में दूरी के लिए दौड़ और रोइंग मिलाई जाती है। 2027 में तय दूरी दौड़ते हैं, फिर दूरी के लिए SkiErg।{6}{7}",
+    },
+    {
+      name: "स्कोर कैसे बनता है",
+      why: "फ़िनिश टाइम। दो मिनट की पेनल्टी, जैसे ग़लत स्टेशन पर।{2}",
+      how: "फ़िनिश टाइम और पेनल्टी। उदाहरण: ज़ोन 1 में छूटे हर रेप पर 10 सेकंड, और ज़ोन 9 में स्लेड की हर छूटी आने-जाने की लंबाई पर 1:30। किसी ज़ोन का 80% से कम काम अनौपचारिक फ़िनिश है।{4}",
+      dose: "तीन स्कोर। 2026 में: स्ट्रेंथ के लिए उठाया कुल वज़न, एंड्योरेंस के लिए कुल दूरी, और MetCon X के लिए समय।{6}",
+    },
+    {
+      name: "साझा मूवमेंट और लोड",
+      why: "SkiErg 1,000 मीटर। स्लेड पुश 50 मीटर और पुल 50 मीटर। रो 1,000 मीटर। फ़ार्मर्स कैरी 200 मीटर: ओपन पुरुष 2 × 24 किग्रा (53 lb), ओपन महिलाएँ 2 × 16 किग्रा (35 lb)। बर्पी ब्रॉड जंप 80 मीटर।{1}{2}",
+      how: "रो 500 मीटर। SkiErg 500 मीटर। मैग्नेटिक स्लेड पर पुश और पुल 100 मीटर। फ़ार्मर्स कैरी 100 मीटर: पुरुष हर हाथ में 27.5 किग्रा (60 lb), महिलाएँ हर हाथ में 17.5 किग्रा (40 lb)। वज़न के साथ बर्पी, 20 रेप।{4}",
+      dose: "2026 के MetCon X में SkiErg, सैंडबैग कैरी, वॉकिंग लंज और बर्पी ब्रॉड जंप हैं।{6} 2027 में RowErg, बेंच प्रेस और सैंडबैग स्क्वाट आ जाते हैं।{7}",
+    },
+    {
+      name: "सामान्य समय",
+      why: "तीसरे पक्ष से, 1,274,586 आधिकारिक फ़िनिश के आधार पर: सामान्य ओपन पुरुष 1:27:59, ओपन महिलाएँ 1:36:00।{10} मुझे HYROX का कोई आधिकारिक औसत नहीं मिला।",
+      how: "तीसरे पक्ष से, DEKA के 2026 लीडरबोर्ड के आधार पर: FIT का मध्यम समय पुरुषों के लिए 48:20 और महिलाओं के लिए 54:32। उस विश्लेषण के अनुसार DEKA कोई औसत समय प्रकाशित नहीं करता।{11}",
+      dose: "कोई एक फ़िनिश टाइम नहीं, इसलिए कोई तुलनीय बेंचमार्क नहीं। मुझे कोई प्रकाशित नहीं मिला।",
+    },
+    {
+      name: "कहाँ होता है",
+      why: "हर जगह। 2 नवंबर 2026 को फ़ाइंडर में पाँच महाद्वीपों में 66 इवेंट और 36 देशों के विकल्प थे।{9} उदाहरण: लंदन 2 से 6 दिसंबर 2026, डैलस 18 से 22 नवंबर 2026, दुबई 27 से 28 नवंबर 2026, सिंगापुर 26 से 29 नवंबर 2026।{9}",
+      how: "मेरे खोले आधिकारिक पेजों पर: अमेरिका (अटलांटा 7 से 8 नवंबर 2026, डेनवर 27 मार्च 2027), स्पेन और पुर्तगाल (टेनेरिफ़ 21 से 22 नवंबर 2026, लिस्बन 15 मई 2027), और फ़ोर्ट वर्थ में वर्ल्ड चैंपियनशिप, 10 से 13 दिसंबर 2026।{12}{13}{14} बीत चुके: दुबई 26 सितंबर 2026 और बैंकॉक 1 नवंबर 2026।{16}{17} मैं ब्रिटेन की तारीख़ किसी आधिकारिक पेज पर पक्की नहीं कर सका।",
+      dose: "2 नवंबर 2026 को 14 देशों में 36 इवेंट, यूरोप और अमेरिका में। उदाहरण: एम्स्टर्डम और लॉस एंजिलिस 7 नवंबर 2026, लिस्बन में फ़ाइनल्स 27 से 29 नवंबर 2026, लंदन 23 से 24 जनवरी 2027।{8}",
+    },
+    {
+      name: "कौन शामिल हो सकता है, और डिवीज़न",
+      why: "रेस के दिन कम से कम 16 साल। ओपन, प्रो, डबल्स और रिले।{1}{2}",
+      how: "वयस्क 14 साल से, और 10 से 13 साल के युवा हल्के लोड के साथ। एलीट और एज ग्रुप, और 2 या 4 की टीमें। आपकी उम्र सीज़न की 30 सितंबर को आपकी उम्र है।{4}",
+      dose: "LITE, ATHX और PRO। अकेले, या जोड़ी में।{5}",
+    },
+  ],
+  enoughHeading: "मैं कैसे चुनूँगा, और जो दावा नहीं करूँगा",
+  enough: [
+    "आपको तय कोर्स, घड़ी और वैश्विक कैलेंडर पसंद है: HYROX देखें।{1}{9}",
+    "आपको दस तय ज़ोन पसंद हैं, छोटी दौड़ के साथ या बिना: DEKA देखें।{3}",
+    "आपको भारी लिफ़्ट, इंजन टेस्ट और एक ही सेशन में सर्किट पसंद है: ATHX देखें।{5}",
+    "भारत: HYROX में 26 से 28 नवंबर 2026 को गुजरात और 15 से 17 जनवरी 2027 को नोएडा सूचीबद्ध हैं।{9}{15} मुझे भारत में DEKA या ATHX की कोई सूची नहीं मिली।",
+    "यहाँ के समय तीसरे पक्ष के हैं और फ़ॉर्मैट के बीच तुलनीय नहीं हैं। कोई क्लाइंट रिज़ल्ट नहीं, और न ही इशारा। कोई क़ीमत नहीं।",
+  ],
+  sampleHeading: "फ़र्क़ महसूस करने के लिए एक सैंपल टेस्टर दिन",
+  sample: [
+    "वार्म-अप, 10 मिनट।",
+    "HYROX का स्वाद: 1 किमी आसान दौड़, 500 मीटर SkiErg, 1 किमी आसान दौड़, 100 मीटर कैरी।",
+    "DEKA का स्वाद: 20 बॉक्स स्टेप-ओवर, 500 मीटर रो, बाइक पर 25 कैलोरी, 10 हल्की बर्पी।",
+    "ATHX का स्वाद: मध्यम लोड पर 5 स्क्वाट, 3 मिनट दौड़ और रो, 10 बर्पी ब्रॉड जंप।",
+    "ध्यान दें कौन-सा अच्छा लगा। फ़ॉर्म बिगड़े तो रुकें। यह स्वाद है, टेस्ट नहीं।",
+  ],
+  opener: "आप सही इवेंट चुनना चाहते हैं और तैयार होकर पहुँचना चाहते हैं। चुनाव आपका। ट्रेनिंग मैं आपके हफ़्ते के हिसाब से बनाता हूँ और लाइव कोच करता हूँ।",
+  org: "HYROX, DEKA (Spartan) और ATHX",
+  safetyN: 18,
+  safetyExtra: "स्लेड, कैरी, बर्पी और भारी लिफ़्ट घुटनों, पीठ और कंधों पर भारी पड़ते हैं। हफ़्तों में तैयारी करें। दिल, ब्लड प्रेशर या जोड़ों की समस्या हो तो पहले डॉक्टर से पूछें।",
+};
+
+const es: Core = {
+  metaTitle: "HYROX vs DEKA vs ATHX: 7 diferencias que deciden | Jalan PT",
+  metaDescription: "HYROX, DEKA y ATHX cara a cara: formato, carrera, puntuación, movimientos comunes, tiempos típicos, regiones y divisiones, con las páginas de cada organizador.",
+  h1: "HYROX vs DEKA vs ATHX: 7 diferencias que deciden cuál elegir",
+  dek: "Tres eventos de fitness híbrido. Se parecen. Se puntúan distinto. Aquí está la comparación cara a cara, con las páginas de cada organizador.",
+  crumb: "HYROX, DEKA y ATHX",
+  whatsappText: "Hola Susmit, leí el artículo sobre HYROX vs DEKA vs ATHX y quiero reservar una consulta",
+  preset: "three",
+  intro: [
+    "Quieres elegir el evento adecuado y llegar preparado.",
+    "Cada ficha de abajo tiene tres líneas, en este orden: HYROX, DEKA, ATHX.",
+    "Los datos vienen de las páginas de cada organizador y del reglamento de DEKA v20261015, leídos el 2 de noviembre de 2026. Pesos: primero kilos, y las libras entre paréntesis (redondeadas).",
+    "Los tiempos son de terceros y no son comparables entre formatos. Las fechas cambian. Mira la página de cada evento.",
+    "Comparación independiente. No es una publicación oficial de ninguno de los tres.",
+  ],
+  listHeading: "HYROX, DEKA y ATHX: 7 diferencias",
+  items: [
+    {
+      name: "El formato",
+      why: "Corres 1 km y haces una estación. Ocho veces.{1}",
+      how: "Diez zonas en orden fijo. FIT tiene 500 m de carrera antes de cada zona. MILE, 160 m. STRONG no tiene carrera.{3}{4}",
+      dose: "Una sesión de 2,5 horas con seis zonas y tres entrenamientos puntuables: Fuerza, Resistencia y MetCon X. En solitario o por parejas.{5}",
+    },
+    {
+      name: "La carrera",
+      why: "8.000 m en ocho partes. Si la sede convierte 1 km en varias vueltas, se corre igualmente la distancia completa.{2}",
+      how: "FIT: 5.000 m. MILE: 1.600 m. STRONG: ninguna.{4}",
+      dose: "Sin tramo de carrera aparte. En 2026 la Resistencia mezcla carrera y remo por distancia. En 2027 corres una distancia fija y luego SkiErg por distancia.{6}{7}",
+    },
+    {
+      name: "Cómo se puntúa",
+      why: "Tiempo final. Penalizaciones de dos minutos, por ejemplo por la estación equivocada.{2}",
+      how: "Tiempo final más penalizaciones. Ejemplos: 10 segundos por repetición fallada en la zona 1, y 1:30 por cada largo de empuje y arrastre fallado con el trineo en la zona 9. Menos del 80 % de una zona es un final no oficial.{4}",
+      dose: "Tres puntuaciones. En 2026: peso total levantado en Fuerza, distancia total en Resistencia y tiempo en MetCon X.{6}",
+    },
+    {
+      name: "Movimientos y cargas comunes",
+      why: "SkiErg 1.000 m. Empuje de trineo 50 m y arrastre 50 m. Remo 1.000 m. Paseo del granjero 200 m: hombres Open 2 × 24 kg (53 lb), mujeres Open 2 × 16 kg (35 lb). Burpees con salto largo 80 m.{1}{2}",
+      how: "Remo 500 m. Ski 500 m. Empuje y arrastre de trineo 100 m, en un trineo magnético. Paseo del granjero 100 m: hombres 27,5 kg (60 lb) por mano, mujeres 17,5 kg (40 lb) por mano. Burpees con peso, 20 repeticiones.{4}",
+      dose: "El MetCon X de 2026 lleva SkiErg, acarreo de saco, zancadas caminando y burpees con salto largo.{6} El de 2027 incorpora RowErg, press de banca y sentadillas con saco.{7}",
+    },
+    {
+      name: "Tiempos típicos",
+      why: "De terceros, sobre 1.274.586 finales oficiales: típico Open hombres 1:27:59, Open mujeres 1:36:00.{10} No encontré un promedio oficial de HYROX.",
+      how: "De terceros, a partir de la clasificación de DEKA de 2026: tiempo mediano en FIT 48:20 los hombres y 54:32 las mujeres. Ese análisis dice que DEKA no publica un tiempo medio.{11}",
+      dose: "No hay un tiempo final único, así que no hay una referencia equivalente. No encontré ninguna publicada.",
+    },
+    {
+      name: "Dónde se celebra",
+      why: "En todas partes. El 2 de noviembre de 2026 el buscador listaba 66 eventos y 36 opciones de país en cinco continentes.{9} Por ejemplo: Londres del 2 al 6 de diciembre de 2026, Dallas del 18 al 22 de noviembre de 2026, Dubái del 27 al 28 de noviembre de 2026, Singapur del 26 al 29 de noviembre de 2026.{9}",
+      how: "En las páginas oficiales que abrí: EE. UU. (Atlanta 7 al 8 de noviembre de 2026, Denver 27 de marzo de 2027), España y Portugal (Tenerife 21 al 22 de noviembre de 2026, Lisboa 15 de mayo de 2027) y el Mundial en Fort Worth, del 10 al 13 de diciembre de 2026.{12}{13}{14} Ya pasados: Dubái el 26 de septiembre de 2026 y Bangkok el 1 de noviembre de 2026.{16}{17} No pude confirmar una fecha en el Reino Unido en una página oficial.",
+      dose: "36 eventos en 14 países el 2 de noviembre de 2026, en Europa y EE. UU. Por ejemplo: Ámsterdam y Los Ángeles el 7 de noviembre de 2026, la final en Lisboa del 27 al 29 de noviembre de 2026, Londres del 23 al 24 de enero de 2027.{8}",
+    },
+    {
+      name: "Quién puede participar, y las divisiones",
+      why: "Al menos 16 años el día de la carrera. Open, Pro, Dobles y Relevo.{1}{2}",
+      how: "Adultos desde los 14, y jóvenes de 10 a 13 con cargas más ligeras. Élite y grupos de edad, y equipos de 2 o 4. Tu edad es la que tienes el 30 de septiembre de la temporada.{4}",
+      dose: "LITE, ATHX y PRO. En solitario o por parejas.{5}",
+    },
+  ],
+  enoughHeading: "Cómo elegiría yo, y lo que no voy a afirmar",
+  enough: [
+    "Te gusta un recorrido fijo, un reloj y un calendario global: mira HYROX.{1}{9}",
+    "Te gustan diez zonas fijas, con una carrera corta o sin ella: mira DEKA.{3}",
+    "Te gustan los levantamientos pesados, una prueba de motor y un circuito en una sola sesión: mira ATHX.{5}",
+    "India: HYROX lista Gujarat del 26 al 28 de noviembre de 2026 y Noida del 15 al 17 de enero de 2027.{9}{15} No encontré ningún evento de DEKA ni de ATHX listado en la India.",
+    "Los tiempos aquí son de terceros y no son comparables entre formatos. Sin resultados de clientes, ni insinuados. Sin precios.",
+  ],
+  sampleHeading: "Un día de cata de ejemplo, para notar la diferencia",
+  sample: [
+    "Calentamiento, 10 minutos.",
+    "Cata HYROX: 1 km de carrera suave, 500 m de SkiErg, 1 km de carrera suave, 100 m de acarreo.",
+    "Cata DEKA: 20 subidas al cajón, 500 m de remo, 25 calorías en bici, 10 burpees ligeros.",
+    "Cata ATHX: 5 sentadillas con carga moderada, 3 minutos de carrera y remo, 10 burpees con salto largo.",
+    "Anota cuál disfrutaste. Para cuando falle la técnica. Es una cata, no una prueba.",
+  ],
+  opener: "Quieres elegir el evento adecuado y llegar preparado. Tú eliges. Yo construyo el entrenamiento en torno a tu semana y te lo entreno en directo.",
+  org: "HYROX, DEKA (Spartan) y ATHX",
+  safetyN: 18,
+  safetyExtra: "Los trineos, los acarreos, los burpees y los levantamientos pesados castigan rodillas, espalda y hombros. Progresa durante semanas. Consulta antes con tu médico si tienes una afección del corazón, la tensión o las articulaciones.",
+};
+
+const zh: Core = {
+  metaTitle: "HYROX、DEKA与ATHX：决定选择的7个区别 | Jalan PT",
+  metaDescription: "HYROX、DEKA与ATHX并排对比：赛制、跑步、计分、共有动作、典型成绩、地区和组别，来自各主办方自己的页面。",
+  h1: "HYROX、DEKA与ATHX：决定参加哪个的7个区别",
+  dek: "三种混合体能赛事。看起来相似。计分方式不同。这里是并排对比，来自各主办方自己的页面。",
+  crumb: "HYROX、DEKA与ATHX",
+  whatsappText: "你好Susmit，我读了“HYROX、DEKA与ATHX”的对比文章，想预约一次咨询",
+  preset: "three",
+  intro: [
+    "你想选对赛事，并做好准备再上场。",
+    "下面每张卡片有三行，顺序是：HYROX、DEKA、ATHX。",
+    "事实来自各主办方自己的页面和DEKA规则手册v20261015，于2026年11月2日阅读。重量：先写公斤，磅数放括号里（四舍五入）。",
+    "完赛成绩来自第三方，不同赛制之间不可直接比较。日期会变。请查看各赛事页面。",
+    "独立对比。不是三者中任何一方的官方文章。",
+  ],
+  listHeading: "HYROX、DEKA与ATHX：7个区别",
+  items: [
+    {
+      name: "赛制",
+      why: "跑1公里，然后一个站点。共八次。{1}",
+      how: "固定顺序的十个区域。FIT每个区域前跑500米。MILE跑160米。STRONG不跑步。{3}{4}",
+      dose: "2.5小时的赛程，六个区域，三项计分训练：力量、耐力和MetCon X。个人或双人。{5}",
+    },
+    {
+      name: "跑步",
+      why: "分八段共8000米。如果场馆把1公里分成多圈，仍要跑完全程。{2}",
+      how: "FIT：5000米。MILE：1600米。STRONG：无。{4}",
+      dose: "没有单独的跑步段。2026年耐力项目把跑步和划船合在一起比距离。2027年先跑固定距离，再用SkiErg比距离。{6}{7}",
+    },
+    {
+      name: "怎么计分",
+      why: "完赛时间。两分钟罚时，例如做错站点。{2}",
+      how: "完赛时间加罚时。例如：区域1每漏一次扣10秒，区域9雪橇每漏一个推拉往返扣1分30秒。完成某区域不足80%算非正式完赛。{4}",
+      dose: "三项成绩。2026年：力量按举起的总重量，耐力按总距离，MetCon X按时间。{6}",
+    },
+    {
+      name: "共有的动作和负荷",
+      why: "SkiErg 1000米。推雪橇50米，拉雪橇50米。划船1000米。农夫行走200米：公开组男子2 × 24公斤（53磅），公开组女子2 × 16公斤（35磅）。波比跳远80米。{1}{2}",
+      how: "划船500米。SkiErg 500米。磁阻雪橇推拉100米。农夫行走100米：男子每手27.5公斤（60磅），女子每手17.5公斤（40磅）。负重波比，20次。{4}",
+      dose: "2026年的MetCon X有SkiErg、沙袋负重行走、行进箭步蹲和波比跳远。{6}2027年换成RowErg、卧推和沙袋深蹲。{7}",
+    },
+    {
+      name: "典型成绩",
+      why: "第三方数据，基于1,274,586次官方完赛：公开组男子典型成绩1:27:59，公开组女子1:36:00。{10}我没有找到HYROX官方的平均成绩。",
+      how: "第三方数据，基于DEKA 2026年排行榜：FIT的中位成绩男子48:20，女子54:32。该分析称DEKA不公布平均成绩。{11}",
+      dose: "没有单一完赛时间，所以没有对应的基准。我没有找到已公布的基准。",
+    },
+    {
+      name: "在哪里举办",
+      why: "到处都有。2026年11月2日，查询页列出五大洲的66场赛事和36个国家选项。{9}例如：伦敦2026年12月2至6日，达拉斯2026年11月18至22日，迪拜2026年11月27至28日，新加坡2026年11月26至29日。{9}",
+      how: "在我打开的官方页面上：美国（亚特兰大2026年11月7至8日，丹佛2027年3月27日），西班牙和葡萄牙（特内里费2026年11月21至22日，里斯本2027年5月15日），以及沃思堡世锦赛，2026年12月10至13日。{12}{13}{14}已结束的：迪拜2026年9月26日和曼谷2026年11月1日。{16}{17}我没能在官方页面上确认英国的日期。",
+      dose: "2026年11月2日有14个国家的36场赛事，在欧洲和美国。例如：阿姆斯特丹和洛杉矶2026年11月7日，里斯本总决赛2026年11月27至29日，伦敦2027年1月23至24日。{8}",
+    },
+    {
+      name: "谁可以参加，以及组别",
+      why: "比赛日至少16岁。公开组、精英组、双人和接力。{1}{2}",
+      how: "成人从14岁起，10至13岁青少年使用较轻的负荷。精英组和年龄组，以及2人或4人团队。你的年龄按赛季的9月30日计算。{4}",
+      dose: "LITE、ATHX和PRO。个人或双人。{5}",
+    },
+  ],
+  enoughHeading: "我会怎么选，以及我不会声称的事",
+  enough: [
+    "你喜欢固定赛道、计时和全球赛历：看看HYROX。{1}{9}",
+    "你喜欢十个固定区域，跑步很短或没有：看看DEKA。{3}",
+    "你喜欢大重量举重、有氧能力测试和一次完成的循环：看看ATHX。{5}",
+    "印度：HYROX列出2026年11月26至28日的古吉拉特和2027年1月15至17日的诺伊达。{9}{15}我没有找到DEKA或ATHX在印度的赛事列表。",
+    "这里的成绩来自第三方，不同赛制之间不可比较。没有客户成果，也不暗示。没有价格。",
+  ],
+  sampleHeading: "感受差异的体验日示例",
+  sample: [
+    "热身，10分钟。",
+    "HYROX体验：1公里轻松跑，500米SkiErg，1公里轻松跑，100米负重行走。",
+    "DEKA体验：20次跳箱，500米划船，动感单车25卡，10个轻重量波比。",
+    "ATHX体验：中等重量深蹲5次，跑步和划船3分钟，波比跳远10次。",
+    "记下你更喜欢哪个。动作变形就停。这是体验，不是测试。",
+  ],
+  opener: "你想选对赛事，并做好准备再上场。选择由你。我围绕你的一周来安排训练，并实时指导。",
+  org: "HYROX、DEKA（Spartan）和ATHX",
+  safetyN: 18,
+  safetyExtra: "雪橇、负重行走、波比和大重量举重对膝盖、背部和肩部负担较大。请用数周逐步加量。如果有心脏、血压或关节问题，请先咨询医生。",
+};
+
+const ja: Core = {
+  metaTitle: "HYROX・DEKA・ATHXを比較：選ぶ決め手になる7つの違い | Jalan PT",
+  metaDescription: "HYROX、DEKA、ATHXを並べて比較：形式、ラン、採点、共通する動き、典型的なタイム、地域、部門を、各主催者の公式ページから。",
+  h1: "HYROX・DEKA・ATHX：どれに出るかを決める7つの違い",
+  dek: "3つのハイブリッド・フィットネス大会。見た目は似ています。採点は違います。各主催者の公式ページからの横並び比較です。",
+  crumb: "HYROX・DEKA・ATHX",
+  whatsappText: "こんにちは Susmit さん、「HYROX・DEKA・ATHX」の比較記事を読みました。相談を予約したいです",
+  preset: "three",
+  intro: [
+    "合う大会を選んで、準備して臨みたい。",
+    "下のカードにはそれぞれ3行あり、順番は HYROX、DEKA、ATHX です。",
+    "事実は各主催者の公式ページと DEKA ルールブック v20261015 から。2026年11月2日に読んだものです。重量：kgを先に、ポンドはカッコ内（四捨五入）。",
+    "フィニッシュタイムは第三者のもので、形式をまたいだ比較はできません。日程は変わります。各大会ページを確認してください。",
+    "独立した比較です。3つのどれの公式記事でもありません。",
+  ],
+  listHeading: "HYROX・DEKA・ATHX：7つの違い",
+  items: [
+    {
+      name: "形式",
+      why: "1km走って1ステーション。これを8回。{1}",
+      how: "決まった順番の10ゾーン。FITは各ゾーンの前に500mのラン。MILEは160m。STRONGはランなし。{3}{4}",
+      dose: "2.5時間のセッションに6つのゾーンと、採点される3つのワークアウト：ストレングス、エンデュランス、MetCon X。個人またはペア。{5}",
+    },
+    {
+      name: "ラン",
+      why: "8つに分けて合計8,000m。会場が1kmを複数周にしても、全距離を走ります。{2}",
+      how: "FIT：5,000m。MILE：1,600m。STRONG：なし。{4}",
+      dose: "独立したランの区間はありません。2026年のエンデュランスは、ランとロウを組み合わせて距離を競います。2027年は決まった距離を走り、そのあとSkiErgで距離を競います。{6}{7}",
+    },
+    {
+      name: "採点のしかた",
+      why: "フィニッシュタイム。たとえば違うステーションをやると2分のペナルティ。{2}",
+      how: "フィニッシュタイムにペナルティを加算。例：ゾーン1は未達のレップ1回につき10秒、ゾーン9のスレッドは押して引く1往復の未達につき1分30秒。ゾーンの80%未満は非公式フィニッシュです。{4}",
+      dose: "3つのスコア。2026年：ストレングスは挙げた総重量、エンデュランスは総距離、MetCon Xはタイム。{6}",
+    },
+    {
+      name: "共通する動きと負荷",
+      why: "SkiErg 1,000m。スレッドプッシュ50m、プル50m。ロー1,000m。ファーマーズキャリー200m：オープン男子2 × 24kg（53lb）、オープン女子2 × 16kg（35lb）。バーピーブロードジャンプ80m。{1}{2}",
+      how: "ロー500m。スキー500m。マグネット式スレッドでのプッシュとプル100m。ファーマーズキャリー100m：男子は片手27.5kg（60lb）、女子は片手17.5kg（40lb）。ウェイト付きバーピー20回。{4}",
+      dose: "2026年のMetCon Xには、SkiErg、サンドバッグキャリー、ウォーキングランジ、バーピーブロードジャンプがあります。{6}2027年はRowErg、ベンチプレス、サンドバッグスクワットに入れ替わります。{7}",
+    },
+    {
+      name: "典型的なタイム",
+      why: "第三者データ。公式の1,274,586件のフィニッシュから：オープン男子の典型は1:27:59、オープン女子は1:36:00。{10}HYROXの公式な平均は見つかりませんでした。",
+      how: "第三者データ。DEKAの2026年ランキングから：FITの中央値は男子48:20、女子54:32。この分析によれば、DEKAは平均タイムを公表していません。{11}",
+      dose: "単一のフィニッシュタイムがないので、対応する基準もありません。公表されたものは見つかりませんでした。",
+    },
+    {
+      name: "開催地",
+      why: "世界中で。2026年11月2日時点で、検索には5大陸にわたる66大会、36か国の選択肢がありました。{9}例：ロンドン2026年12月2〜6日、ダラス2026年11月18〜22日、ドバイ2026年11月27〜28日、シンガポール2026年11月26〜29日。{9}",
+      how: "私が開いた公式ページでは：米国（アトランタ2026年11月7〜8日、デンバー2027年3月27日）、スペインとポルトガル（テネリフェ2026年11月21〜22日、リスボン2027年5月15日）、そしてフォートワースでの世界選手権、2026年12月10〜13日。{12}{13}{14}すでに終了：ドバイ2026年9月26日、バンコク2026年11月1日。{16}{17}英国の日程は公式ページで確認できませんでした。",
+      dose: "2026年11月2日時点で14か国36大会、ヨーロッパと米国です。例：アムステルダムとロサンゼルス2026年11月7日、リスボンのファイナル2026年11月27〜29日、ロンドン2027年1月23〜24日。{8}",
+    },
+    {
+      name: "誰が出られるか、そして部門",
+      why: "大会当日に16歳以上。オープン、プロ、ダブルス、リレー。{1}{2}",
+      how: "成人は14歳から、10〜13歳のユースは軽い負荷で。エリートとエイジグループ、2人または4人のチーム。年齢はシーズンの9月30日時点です。{4}",
+      dose: "LITE、ATHX、PRO。個人またはペア。{5}",
+    },
+  ],
+  enoughHeading: "私ならこう選びます。そして主張しないこと",
+  enough: [
+    "決まったコース、タイム、世界のカレンダーが好き：HYROXを見てください。{1}{9}",
+    "10の決まったゾーンが好き、ランは短いかなし：DEKAを見てください。{3}",
+    "重い挙上、持久力のテスト、1セッションのサーキットが好き：ATHXを見てください。{5}",
+    "インド：HYROXは2026年11月26〜28日のグジャラートと、2027年1月15〜17日のノイダを掲載しています。{9}{15}DEKAやATHXのインドでの掲載は見つかりませんでした。",
+    "ここのタイムは第三者のもので、形式をまたいだ比較はできません。クライアントの成果もなく、ほのめかしもありません。価格はなし。",
+  ],
+  sampleHeading: "違いを感じるためのお試しの日のサンプル",
+  sample: [
+    "ウォームアップ、10分。",
+    "HYROXの味見：1kmの楽なラン、SkiErg 500m、1kmの楽なラン、キャリー100m。",
+    "DEKAの味見：ボックスステップオーバー20回、ロー500m、バイク25カロリー、軽いバーピー10回。",
+    "ATHXの味見：中程度の重さでスクワット5回、ランとローを3分、バーピーブロードジャンプ10回。",
+    "どれが楽しかったか記録しましょう。フォームが崩れたらやめます。テストではなく味見です。",
+  ],
+  opener: "合う大会を選んで、準備して臨みたい。選ぶのはあなたです。私はあなたの1週間に合わせてトレーニングを組み、ライブで指導します。",
+  org: "HYROX、DEKA（Spartan）、ATHX",
+  safetyN: 18,
+  safetyExtra: "スレッド、キャリー、バーピー、重い挙上は、膝、腰、肩に負担がかかります。数週間かけて慣らしてください。心臓、血圧、関節に持病がある場合は、先に医師に相談を。",
+};
+
+const gu: Core = {
+  metaTitle: "HYROX વિ DEKA વિ ATHX: નક્કી કરતા 7 તફાવતો | Jalan PT",
+  metaDescription: "HYROX, DEKA અને ATHX સામસામે: ફોર્મેટ, દોડ, સ્કોરિંગ, સહિયારી મૂવમેન્ટ, સામાન્ય સમય, પ્રદેશો અને ડિવિઝન, દરેક આયોજકના પોતાના પેજ પરથી.",
+  h1: "HYROX વિ DEKA વિ ATHX: કયું પસંદ કરવું તે નક્કી કરતા 7 તફાવતો",
+  dek: "ત્રણ હાઇબ્રિડ ફિટનેસ ઇવેન્ટ. દેખાવમાં સરખી. સ્કોરિંગ અલગ. આ સામસામેની સરખામણી છે, દરેક આયોજકના પોતાના પેજ પરથી.",
+  crumb: "HYROX, DEKA અને ATHX",
+  whatsappText: "નમસ્તે સુસ્મિત, મેં HYROX, DEKA અને ATHX ની સરખામણીનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+  preset: "three",
+  intro: [
+    "તમે સાચી ઇવેન્ટ પસંદ કરવા માગો છો, અને તૈયાર થઈને પહોંચવા માગો છો.",
+    "નીચેના દરેક કાર્ડમાં ત્રણ પંક્તિઓ છે, આ ક્રમમાં: HYROX, DEKA, ATHX.",
+    "હકીકતો દરેક આયોજકના પોતાના પેજ અને DEKA રૂલબુક v20261015 માંથી છે, 2 નવેમ્બર 2026 ના રોજ વાંચેલી. વજન: પહેલાં કિગ્રા, કૌંસમાં પાઉન્ડ (રાઉન્ડ કરેલા).",
+    "ફિનિશ ટાઇમ ત્રીજા પક્ષના છે અને ફોર્મેટ વચ્ચે સરખાવી શકાય નહીં. તારીખો બદલાય છે. દરેક ઇવેન્ટ પેજ જુઓ.",
+    "સ્વતંત્ર સરખામણી. ત્રણમાંથી કોઈની સત્તાવાર પોસ્ટ નહીં.",
+  ],
+  listHeading: "HYROX, DEKA અને ATHX: 7 તફાવતો",
+  items: [
+    {
+      name: "ફોર્મેટ",
+      why: "1 કિમી દોડ, પછી એક સ્ટેશન. આઠ વાર.{1}",
+      how: "નક્કી ક્રમમાં દસ ઝોન. FIT માં દરેક ઝોન પહેલાં 500 મીટર દોડ. MILE માં 160 મીટર. STRONG માં દોડ નહીં.{3}{4}",
+      dose: "2.5 કલાકનું સેશન, છ ઝોન અને ત્રણ સ્કોર થતા વર્કઆઉટ: સ્ટ્રેન્થ, એન્ડ્યોરન્સ અને MetCon X. એકલા કે જોડીમાં.{5}",
+    },
+    {
+      name: "દોડ",
+      why: "આઠ ભાગમાં 8,000 મીટર. જો સ્થળ 1 કિમીને ઘણા ચક્કરમાં વહેંચે, તો પણ પૂરું અંતર દોડવાનું છે.{2}",
+      how: "FIT: 5,000 મીટર. MILE: 1,600 મીટર. STRONG: નહીં.{4}",
+      dose: "અલગ દોડનો તબક્કો નથી. 2026 માં એન્ડ્યોરન્સમાં અંતર માટે દોડ અને રોઇંગ ભેગાં છે. 2027 માં નક્કી અંતર દોડો છો, પછી અંતર માટે SkiErg.{6}{7}",
+    },
+    {
+      name: "સ્કોર કેવી રીતે બને છે",
+      why: "ફિનિશ ટાઇમ. બે મિનિટની પેનલ્ટી, જેમ કે ખોટા સ્ટેશન માટે.{2}",
+      how: "ફિનિશ ટાઇમ અને પેનલ્ટી. ઉદાહરણ: ઝોન 1 માં ચૂકેલા દરેક રેપ માટે 10 સેકન્ડ, અને ઝોન 9 માં સ્લેડની ચૂકેલી દરેક આવ-જાની લંબાઈ માટે 1:30. ઝોનનો 80% થી ઓછો ભાગ પૂરો કરવો એ બિનસત્તાવાર ફિનિશ છે.{4}",
+      dose: "ત્રણ સ્કોર. 2026 માં: સ્ટ્રેન્થ માટે ઉપાડેલું કુલ વજન, એન્ડ્યોરન્સ માટે કુલ અંતર, અને MetCon X માટે સમય.{6}",
+    },
+    {
+      name: "સહિયારી મૂવમેન્ટ અને લોડ",
+      why: "SkiErg 1,000 મીટર. સ્લેડ પુશ 50 મીટર અને પુલ 50 મીટર. રો 1,000 મીટર. ફાર્મર્સ કૅરી 200 મીટર: ઓપન પુરુષ 2 × 24 કિગ્રા (53 lb), ઓપન મહિલા 2 × 16 કિગ્રા (35 lb). બર્પી બ્રૉડ જમ્પ 80 મીટર.{1}{2}",
+      how: "રો 500 મીટર. સ્કી 500 મીટર. મેગ્નેટિક સ્લેડ પર પુશ અને પુલ 100 મીટર. ફાર્મર્સ કૅરી 100 મીટર: પુરુષ દરેક હાથમાં 27.5 કિગ્રા (60 lb), મહિલા દરેક હાથમાં 17.5 કિગ્રા (40 lb). વજન સાથે બર્પી, 20 રેપ.{4}",
+      dose: "2026 ના MetCon X માં SkiErg, સૅન્ડબૅગ કૅરી, વૉકિંગ લંજ અને બર્પી બ્રૉડ જમ્પ છે.{6} 2027 માં RowErg, બેન્ચ પ્રેસ અને સૅન્ડબૅગ સ્ક્વૉટ આવે છે.{7}",
+    },
+    {
+      name: "સામાન્ય સમય",
+      why: "ત્રીજા પક્ષ તરફથી, 1,274,586 સત્તાવાર ફિનિશ પરથી: સામાન્ય ઓપન પુરુષ 1:27:59, ઓપન મહિલા 1:36:00.{10} મને HYROX નો કોઈ સત્તાવાર સરેરાશ સમય મળ્યો નથી.",
+      how: "ત્રીજા પક્ષ તરફથી, DEKA ના 2026 લીડરબોર્ડ પરથી: FIT નો મધ્યમ સમય પુરુષો માટે 48:20 અને મહિલાઓ માટે 54:32. તે વિશ્લેષણ મુજબ DEKA સરેરાશ સમય પ્રકાશિત કરતું નથી.{11}",
+      dose: "કોઈ એક ફિનિશ ટાઇમ નથી, તેથી મેળ ખાતો બેન્ચમાર્ક નથી. મને કોઈ પ્રકાશિત મળ્યો નથી.",
+    },
+    {
+      name: "ક્યાં યોજાય છે",
+      why: "દરેક જગ્યાએ. 2 નવેમ્બર 2026 ના રોજ ફાઇન્ડરમાં પાંચ ખંડોમાં 66 ઇવેન્ટ અને 36 દેશ વિકલ્પો હતા.{9} ઉદાહરણ: લંડન 2 થી 6 ડિસેમ્બર 2026, ડલાસ 18 થી 22 નવેમ્બર 2026, દુબઈ 27 થી 28 નવેમ્બર 2026, સિંગાપોર 26 થી 29 નવેમ્બર 2026.{9}",
+      how: "મેં ખોલેલા સત્તાવાર પેજ પર: અમેરિકા (એટલાન્ટા 7 થી 8 નવેમ્બર 2026, ડેન્વર 27 માર્ચ 2027), સ્પેન અને પોર્ટુગલ (ટેનેરિફ 21 થી 22 નવેમ્બર 2026, લિસ્બન 15 મે 2027), અને ફોર્ટ વર્થમાં વર્લ્ડ ચૅમ્પિયનશિપ, 10 થી 13 ડિસેમ્બર 2026.{12}{13}{14} થઈ ગયેલી: દુબઈ 26 સપ્ટેમ્બર 2026 અને બૅંગકોક 1 નવેમ્બર 2026.{16}{17} બ્રિટનની તારીખ હું કોઈ સત્તાવાર પેજ પર પાકી કરી શક્યો નથી.",
+      dose: "2 નવેમ્બર 2026 ના રોજ 14 દેશોમાં 36 ઇવેન્ટ, યુરોપ અને અમેરિકામાં. ઉદાહરણ: એમ્સ્ટરડેમ અને લૉસ એન્જલસ 7 નવેમ્બર 2026, લિસ્બનમાં ફાઇનલ્સ 27 થી 29 નવેમ્બર 2026, લંડન 23 થી 24 જાન્યુઆરી 2027.{8}",
+    },
+    {
+      name: "કોણ ભાગ લઈ શકે, અને ડિવિઝન",
+      why: "રેસના દિવસે ઓછામાં ઓછા 16 વર્ષ. ઓપન, પ્રો, ડબલ્સ અને રિલે.{1}{2}",
+      how: "પુખ્ત 14 વર્ષથી, અને 10 થી 13 વર્ષના યુવા હળવા લોડ સાથે. એલિટ અને એજ ગ્રુપ, અને 2 કે 4 ની ટીમ. તમારી ઉંમર એટલે સીઝનની 30 સપ્ટેમ્બરે તમારી ઉંમર.{4}",
+      dose: "LITE, ATHX અને PRO. એકલા, અથવા જોડીમાં.{5}",
+    },
+  ],
+  enoughHeading: "હું કેવી રીતે પસંદ કરું, અને જે દાવો નહીં કરું",
+  enough: [
+    "તમને નક્કી કોર્સ, ઘડિયાળ અને વૈશ્વિક કૅલેન્ડર ગમે છે: HYROX જુઓ.{1}{9}",
+    "તમને દસ નક્કી ઝોન ગમે છે, ટૂંકી દોડ સાથે કે વગર: DEKA જુઓ.{3}",
+    "તમને ભારે લિફ્ટ, એન્જિન ટેસ્ટ અને એક જ સેશનમાં સર્કિટ ગમે છે: ATHX જુઓ.{5}",
+    "ભારત: HYROX માં 26 થી 28 નવેમ્બર 2026 ના રોજ ગુજરાત અને 15 થી 17 જાન્યુઆરી 2027 ના રોજ નોઇડા દર્શાવ્યાં છે.{9}{15} મને ભારતમાં DEKA કે ATHX ની કોઈ યાદી મળી નથી.",
+    "અહીંના સમય ત્રીજા પક્ષના છે અને ફોર્મેટ વચ્ચે સરખાવી શકાય નહીં. કોઈ ક્લાયન્ટ પરિણામ નથી, અને તેનો ઇશારો પણ નથી. કોઈ કિંમત નથી.",
+  ],
+  sampleHeading: "ફરક અનુભવવા માટે એક સેમ્પલ ચાખવાનો દિવસ",
+  sample: [
+    "વૉર્મ-અપ, 10 મિનિટ.",
+    "HYROX નો સ્વાદ: 1 કિમી સરળ દોડ, 500 મીટર SkiErg, 1 કિમી સરળ દોડ, 100 મીટર કૅરી.",
+    "DEKA નો સ્વાદ: 20 બૉક્સ સ્ટેપ-ઓવર, 500 મીટર રો, બાઇક પર 25 કૅલરી, 10 હળવી બર્પી.",
+    "ATHX નો સ્વાદ: મધ્યમ લોડ પર 5 સ્ક્વૉટ, 3 મિનિટ દોડ અને રો, 10 બર્પી બ્રૉડ જમ્પ.",
+    "નોંધો કયું ગમ્યું. ફૉર્મ બગડે ત્યારે અટકો. આ સ્વાદ છે, ટેસ્ટ નહીં.",
+  ],
+  opener: "તમે સાચી ઇવેન્ટ પસંદ કરવા માગો છો અને તૈયાર થઈને પહોંચવા માગો છો. પસંદગી તમારી. ટ્રેનિંગ હું તમારા અઠવાડિયા મુજબ બનાવું છું અને લાઇવ કોચ કરું છું.",
+  org: "HYROX, DEKA (Spartan) અને ATHX",
+  safetyN: 18,
+  safetyExtra: "સ્લેડ, કૅરી, બર્પી અને ભારે લિફ્ટ ઘૂંટણ, પીઠ અને ખભા પર ભારે પડે છે. અઠવાડિયાં સુધી ધીમે ધીમે તૈયારી કરો. હૃદય, બ્લડ પ્રેશર કે સાંધાની તકલીફ હોય તો પહેલાં ડૉક્ટરને પૂછો.",
+};
+
+const cores: Record<PostLang, Core> = { en, ar, hi, es, zh, ja, gu };
+const copy = Object.fromEntries(POST_LANGS.map((lang) => [lang, copyFor(lang, cores[lang])])) as Record<PostLang, PostCopy>;
+
+export const hyroxVsDekaVsAthxPost: BlogPost = {
+  slug: HYROX_VS_DEKA_VS_ATHX_SLUG,
+  published: RACE_PUBLISHED,
+  modified: RACE_MODIFIED,
+  about: "HYROX, DEKA and ATHX compared",
+  sources: HYROX_VS_DEKA_VS_ATHX_SOURCES,
+  copy,
+  ctaMid: true,
+  seeAlso: ["what-is-hyrox", "deka-fit-mile-strong-guide", "what-is-athx"],
+};
