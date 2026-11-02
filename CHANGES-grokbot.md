@@ -23,6 +23,8 @@ Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 ### Posts shipped
 - **HYROX training plan for beginners: 12 weeks, 7 rules that matter** (`/blog/hyrox-training-plan-for-beginners`; `src/content/blog/hyrox-training-plan.ts`). Sources: HYROX the-fitness-race page, HYROX 2026/27 Singles Rulebook (weights, age, wall-ball heights), HYROX Sports Science Report 2025 (86.2 min median: 51.2 run, 32.8 stations, 11 recreational athletes), HYROX Find My Race (66 events, 11 Nov 2026 to 10 Jun 2027, 36 country-filter options), RoxTimes benchmarks (third party, 1,274,586 finishes), WHO 2020, ACSM 2009 progression models, Schumann 2022, Nielsen 2014 (explicitly: exploratory, not statistically significant), Bosquet 2007, Riebe 2015. The 12-week plan is labelled a sample.
 
+- **What is HYROX? 7 things to know before your first race** (`/blog/what-is-hyrox`; `src/content/blog/what-is-hyrox.ts`). Sources: HYROX the-fitness-race page (format, stations, divisions, station descriptions), 2026/27 Singles Rulebook (8,000 m of running in eight segments, weights, age groups, 16+, 2-minute penalties, wall-ball standard and heights, World Championship qualification), HYROX India site (the organiser's own "80+ races, 550,000 athletes" claim, labelled as theirs), HYROX Find My Race (66 events, example cities and dates by region, World Championships Hong Kong 10–13 Jun 2027), Sports Science Report 2025, RoxTimes (third party), HYROX Gujarat event page (India as one section of seven). Not found, so said plainly: any official average or target time.
+
 ## 2 Nov 2026 (IST), batch 12: grip strength post, "Jump to" links with item anchors, shorter meta descriptions
 
 ### Blog
