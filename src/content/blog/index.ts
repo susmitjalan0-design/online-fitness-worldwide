@@ -13,10 +13,18 @@ import { womenOver40Post } from "./women-over-40";
 import { hyroxPlanPost } from "./hyrox-training-plan";
 import { whatIsHyroxPost } from "./what-is-hyrox";
 import { hyroxHomePost } from "./how-to-train-for-hyrox-at-home";
+import { hyroxVsCrossfitPost } from "./hyrox-vs-crossfit";
+import { hyroxVsDekaVsAthxPost } from "./hyrox-vs-deka-vs-athx";
+import { dekaGuidePost } from "./deka-fit-mile-strong-guide";
+import { whatIsAthxPost } from "./what-is-athx";
 import type { BlogPost } from "./shared";
 
 /** Every post, newest first. The blog index, related links and sitemap follow this list. */
 export const BLOG_POSTS: BlogPost[] = [
+  whatIsAthxPost,
+  dekaGuidePost,
+  hyroxVsDekaVsAthxPost,
+  hyroxVsCrossfitPost,
   hyroxHomePost,
   whatIsHyroxPost,
   hyroxPlanPost,
@@ -34,4 +42,4 @@ export const BLOG_POSTS: BlogPost[] = [
   deskWorkersPost,
 ];
 
-export { hyroxHomePost, whatIsHyroxPost, hyroxPlanPost, backAfterBreakPost, coolDownPost, coreBackPost, deskWorkersPost, gripStrengthPost, oneDumbbellPost, over60StrengthPost, runnersStrengthPost, strengthConditioningPost, travelBodyweightPost, warmUpPost, womenOver40Post };
+export { whatIsAthxPost, dekaGuidePost, hyroxVsDekaVsAthxPost, hyroxVsCrossfitPost, hyroxHomePost, whatIsHyroxPost, hyroxPlanPost, backAfterBreakPost, coolDownPost, coreBackPost, deskWorkersPost, gripStrengthPost, oneDumbbellPost, over60StrengthPost, runnersStrengthPost, strengthConditioningPost, travelBodyweightPost, warmUpPost, womenOver40Post };

@@ -80,7 +80,7 @@ const en: Core = {
     },
     {
       name: "India is one market among many",
-      why: "The finder lists IndusInd Bank HYROX Gujarat (Gandhinagar) on 26 to 28 November 2026, HYROX Noida on 15 to 17 January 2027, and HYROX Bengaluru in May 2027.{4}",
+      why: "The finder lists IndusInd Bank HYROX Gujarat (Gandhinagar) on 26 to 28 November 2026 and HYROX Noida on 15 to 17 January 2027.{4}",
       how: "The Gujarat page calls it HYROX's debut in Gujarat, after sell-out events in Delhi and Mumbai.{7}",
       dose: "Same format, same weights. Entry details are on each event page. I don't quote fees.",
     },
@@ -162,7 +162,7 @@ const ar: Core = {
     },
     {
       name: "الهند سوق واحد من أسواق كثيرة",
-      why: "يعرض الباحث IndusInd Bank HYROX Gujarat (غانديناغار) من 26 إلى 28 نوفمبر 2026، وHYROX Noida من 15 إلى 17 يناير 2027، وHYROX Bengaluru في مايو 2027.{4}",
+      why: "يعرض الباحث IndusInd Bank HYROX Gujarat (غانديناغار) من 26 إلى 28 نوفمبر 2026، وHYROX Noida من 15 إلى 17 يناير 2027.{4}",
       how: "تصف صفحة غوجارات الفعالية بأنها أول ظهور لـ HYROX في غوجارات، بعد فعاليات نفدت تذاكرها في دلهي ومومباي.{7}",
       dose: "الصيغة نفسها والأوزان نفسها. تفاصيل التسجيل في صفحة كل فعالية. لا أذكر الرسوم.",
     },
@@ -244,7 +244,7 @@ const hi: Core = {
     },
     {
       name: "भारत कई बाज़ारों में से एक है",
-      why: "फ़ाइंडर में IndusInd Bank HYROX Gujarat (गांधीनगर) 26 से 28 नवंबर 2026, HYROX Noida 15 से 17 जनवरी 2027, और HYROX Bengaluru मई 2027 में सूचीबद्ध हैं।{4}",
+      why: "फ़ाइंडर में IndusInd Bank HYROX Gujarat (गांधीनगर) 26 से 28 नवंबर 2026 को और HYROX Noida 15 से 17 जनवरी 2027 को सूचीबद्ध हैं।{4}",
       how: "गुजरात पेज इसे गुजरात में HYROX की शुरुआत कहता है, दिल्ली और मुंबई के सोल्ड-आउट इवेंट के बाद।{7}",
       dose: "वही फ़ॉर्मैट, वही वज़न। एंट्री की जानकारी हर इवेंट पेज पर है। मैं फ़ीस नहीं लिखता।",
     },
@@ -326,7 +326,7 @@ const es: Core = {
     },
     {
       name: "La India es un mercado entre muchos",
-      why: "El buscador lista IndusInd Bank HYROX Gujarat (Gandhinagar) del 26 al 28 de noviembre de 2026, HYROX Noida del 15 al 17 de enero de 2027 y HYROX Bengaluru en mayo de 2027.{4}",
+      why: "El buscador lista IndusInd Bank HYROX Gujarat (Gandhinagar) del 26 al 28 de noviembre de 2026, HYROX Noida del 15 al 17 de enero de 2027.{4}",
       how: "La página de Gujarat lo presenta como el debut de HYROX en Gujarat, tras eventos agotados en Delhi y Bombay.{7}",
       dose: "Mismo formato, mismos pesos. Los detalles de inscripción están en la página de cada evento. No cito tarifas.",
     },
@@ -408,7 +408,7 @@ const zh: Core = {
     },
     {
       name: "印度只是众多市场之一",
-      why: "查询页列出：IndusInd Bank HYROX Gujarat（甘地讷格尔）2026年11月26至28日，HYROX Noida 2027年1月15至17日，以及2027年5月的HYROX Bengaluru。{4}",
+      why: "查询页列出：IndusInd Bank HYROX Gujarat（甘地讷格尔）2026年11月26至28日，以及HYROX Noida 2027年1月15至17日。{4}",
       how: "古吉拉特页面称这是HYROX在古吉拉特邦的首秀，此前德里和孟买的赛事已售罄。{7}",
       dose: "赛制相同，重量相同。报名信息在各赛事页面。我不引用费用。",
     },
@@ -490,7 +490,7 @@ const ja: Core = {
     },
     {
       name: "インドは数ある市場のひとつ",
-      why: "検索には、IndusInd Bank HYROX Gujarat（ガンディナガル）2026年11月26〜28日、HYROX Noida 2027年1月15〜17日、HYROX Bengaluru 2027年5月が載っています。{4}",
+      why: "検索には、IndusInd Bank HYROX Gujarat（ガンディナガル）2026年11月26〜28日と、HYROX Noida 2027年1月15〜17日が載っています。{4}",
       how: "グジャラートのページは、デリーとムンバイの完売イベントに続く、グジャラート初のHYROXだとしています。{7}",
       dose: "形式も重量も同じです。エントリー情報は各イベントページにあります。参加費は書きません。",
     },
@@ -572,7 +572,7 @@ const gu: Core = {
     },
     {
       name: "ભારત ઘણાં બજારોમાંથી એક છે",
-      why: "ફાઇન્ડરમાં IndusInd Bank HYROX Gujarat (ગાંધીનગર) 26 થી 28 નવેમ્બર 2026, HYROX Noida 15 થી 17 જાન્યુઆરી 2027, અને HYROX Bengaluru મે 2027 માં દર્શાવ્યાં છે.{4}",
+      why: "ફાઇન્ડરમાં IndusInd Bank HYROX Gujarat (ગાંધીનગર) 26 થી 28 નવેમ્બર 2026 અને HYROX Noida 15 થી 17 જાન્યુઆરી 2027 દર્શાવ્યાં છે.{4}",
       how: "ગુજરાત પેજ તેને ગુજરાતમાં HYROX ની શરૂઆત કહે છે, દિલ્હી અને મુંબઈની સોલ્ડ-આઉટ ઇવેન્ટ પછી.{7}",
       dose: "એ જ ફૉર્મેટ, એ જ વજન. એન્ટ્રીની માહિતી દરેક ઇવેન્ટ પેજ પર છે. હું ફી લખતો નથી.",
     },
