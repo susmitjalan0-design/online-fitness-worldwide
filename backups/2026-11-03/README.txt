@@ -1,0 +1,1 @@
+Daily backup for 3 Nov 2026 (IST). Credential-free snapshot: batch 14 notes and post source (busy parents), site change log and .gitignore, research notes, social drafts. Outreach logs and client protocols are not pushed because this repo is public; they are in the emailed zip only.
