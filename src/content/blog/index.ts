@@ -17,10 +17,12 @@ import { hyroxVsCrossfitPost } from "./hyrox-vs-crossfit";
 import { hyroxVsDekaVsAthxPost } from "./hyrox-vs-deka-vs-athx";
 import { dekaGuidePost } from "./deka-fit-mile-strong-guide";
 import { whatIsAthxPost } from "./what-is-athx";
+import { busyParentsPost } from "./busy-parents";
 import type { BlogPost } from "./shared";
 
 /** Every post, newest first. The blog index, related links and sitemap follow this list. */
 export const BLOG_POSTS: BlogPost[] = [
+  busyParentsPost,
   whatIsAthxPost,
   dekaGuidePost,
   hyroxVsDekaVsAthxPost,
@@ -42,4 +44,4 @@ export const BLOG_POSTS: BlogPost[] = [
   deskWorkersPost,
 ];
 
-export { whatIsAthxPost, dekaGuidePost, hyroxVsDekaVsAthxPost, hyroxVsCrossfitPost, hyroxHomePost, whatIsHyroxPost, hyroxPlanPost, backAfterBreakPost, coolDownPost, coreBackPost, deskWorkersPost, gripStrengthPost, oneDumbbellPost, over60StrengthPost, runnersStrengthPost, strengthConditioningPost, travelBodyweightPost, warmUpPost, womenOver40Post };
+export { busyParentsPost, whatIsAthxPost, dekaGuidePost, hyroxVsDekaVsAthxPost, hyroxVsCrossfitPost, hyroxHomePost, whatIsHyroxPost, hyroxPlanPost, backAfterBreakPost, coolDownPost, coreBackPost, deskWorkersPost, gripStrengthPost, oneDumbbellPost, over60StrengthPost, runnersStrengthPost, strengthConditioningPost, travelBodyweightPost, warmUpPost, womenOver40Post };
