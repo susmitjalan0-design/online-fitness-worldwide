@@ -240,6 +240,27 @@
       0 0 0 1px var(--color-logo);
   }
 
+  /* The source you jumped to from a citation number gets the same logo-blue start edge as a jumped-to card, so you can find it in the list. */
+  .source-item {
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    margin-inline: -0.5rem;
+    transition: background-color 160ms ease;
+  }
+
+  .source-item:target {
+    background: var(--color-ink-2);
+    box-shadow:
+      inset 4px 0 0 var(--color-logo),
+      0 0 0 1px var(--color-logo);
+  }
+
+  /* "Before you start" on blog posts: a logo-blue rule on the start side (mirrors in RTL through the logical property). Text keeps mist (6.2:1 on bone). */
+  .note-safety {
+    border-inline-start: 4px solid var(--color-logo);
+    padding-inline-start: 1rem;
+  }
+
   /* Inline links in long-form copy: ink text with an exact logo-blue underline (5.0:1 on bone, was 3.3:1); deeper blue on hover (6.2:1). */
   .prose-links a {
     text-decoration: underline;

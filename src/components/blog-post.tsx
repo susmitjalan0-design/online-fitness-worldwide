@@ -330,14 +330,14 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
           {post.ctaMid ? null : coachedSection}
 
           <h2 className="mt-12 font-display text-2xl">{copy.safetyHeading}</h2>
-          <p className="mt-3 text-base leading-relaxed text-mist">
+          <p className="note-safety mt-3 text-base leading-relaxed text-mist">
             <Cited rtl={dir === "rtl"} text={copy.safety} label={sourceLabel} />
           </p>
 
           <h2 className="mt-12 font-display text-2xl">{copy.labels.sources}</h2>
           <ol className="mt-4 space-y-3 text-sm leading-relaxed" lang="en" dir="ltr">
             {post.sources.map((source, index) => (
-              <li key={source.url} id={`source-${index + 1}`} className="scroll-mt-24">
+              <li key={source.url} id={`source-${index + 1}`} className="source-item scroll-mt-24">
                 <span className="tabular-nums">[{index + 1}]</span> {source.cite}{" "}
                 <a href={source.url} target="_blank" rel="noopener noreferrer" className="break-all text-copper underline underline-offset-2">
                   {source.url}
