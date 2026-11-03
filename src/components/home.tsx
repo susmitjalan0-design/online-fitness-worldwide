@@ -466,7 +466,8 @@ export function HomePage() {
                 <span className="grid size-7 place-items-center rounded-full bg-ink text-[#25d366]">
                   <WhatsAppIcon />
                 </span>
-                <span className="hidden sm:inline">WhatsApp</span>
+                <span className="sr-only sm:not-sr-only">WhatsApp</span>
+                <span className="sr-only"> (opens in a new tab)</span>
               </a>
               <button
                 type="button"
@@ -508,6 +509,7 @@ export function HomePage() {
                 <a href={whatsappHref} target="_blank" rel="noreferrer" className="btn-wa inline-flex min-h-12 items-center gap-2 rounded-full px-5 text-sm font-semibold">
                   <WhatsAppIcon />
                   Contact on WhatsApp
+                  <span className="sr-only"> (opens in a new tab)</span>
                 </a>
               </div>
             </div>

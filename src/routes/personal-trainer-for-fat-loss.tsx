@@ -139,7 +139,7 @@ function FatLossPage() {
               <ArrowUpRight className="size-4" aria-hidden="true" />
             </a>
             <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-wa inline-flex min-h-12 items-center rounded-full px-6 text-sm font-semibold">
-              Ask on WhatsApp
+              Ask on WhatsApp<span className="sr-only"> (opens in a new tab)</span>
             </a>
           </div>
 
@@ -155,6 +155,7 @@ function FatLossPage() {
                 muscle-strengthening work on 2 or more days.{" "}
                 <a href={WHO_URL} target="_blank" rel="noopener noreferrer">
                   WHO guidelines, 2020
+                  <span className="sr-only"> (opens in a new tab)</span>
                 </a>
                 .
               </li>
@@ -240,7 +241,7 @@ function FatLossPage() {
                 <ArrowUpRight className="size-4" aria-hidden="true" />
               </a>
               <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-wa inline-flex min-h-12 items-center rounded-full px-6 text-sm font-semibold">
-                Ask on WhatsApp
+                Ask on WhatsApp<span className="sr-only"> (opens in a new tab)</span>
               </a>
             </div>
           </section>

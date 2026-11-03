@@ -38,6 +38,7 @@ const HINDI: Record<string, string> = {
   "ASCA and ACE are credentials held by the coach. Neither body endorses this business.":
     "ASCA और ACE कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस बिज़नेस का समर्थन नहीं करती।",
   "Skip to content": "सामग्री पर जाएँ",
+  "(opens in a new tab)": "(नए टैब में खुलता है)",
   "live on GMeet": "GMeet पर लाइव",
   "live on Zoom": "Zoom पर लाइव",
   "live on FaceTime": "FaceTime पर लाइव",

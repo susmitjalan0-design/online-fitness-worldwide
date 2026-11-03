@@ -251,6 +251,7 @@ export function BookDialog({ open, onOpenChange, initialProgramId, initialSlotId
                   >
                     <CalendarPlus className="size-4" aria-hidden="true" />
                     Add to Google Calendar
+                    <span className="sr-only"> (opens in a new tab)</span>
                   </a>
                   {meetUrl ? (
                     <a
@@ -261,6 +262,7 @@ export function BookDialog({ open, onOpenChange, initialProgramId, initialSlotId
                     >
                       <Video className="size-4" aria-hidden="true" />
                       Open the Meet room
+                      <span className="sr-only"> (opens in a new tab)</span>
                     </a>
                   ) : (
                     <p className="rounded-2xl border border-line px-4 py-3 text-sm leading-relaxed text-mist">
