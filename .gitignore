@@ -1,0 +1,27 @@
+# Local installs and build output. Nothing here belongs in the repo.
+node_modules/
+.output/
+.nitro/
+.tanstack/
+.vinxi/
+dist/
+
+# Local lockfiles from `npm install --legacy-peer-deps` on a dev box (the repo ships without one).
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Platform preview files written at run time.
+public/__grok/
+
+# Images restored from binary-parts/ by `node scripts/restore-binaries.mjs` (the base64 parts are the source of truth).
+src/assets/*.png
+src/assets/*.jpg
+public/og.jpg
+public/og-card.jpg
+
+# Editor and OS clutter, local env files.
+.DS_Store
+*.log
+.env
+.env.*
