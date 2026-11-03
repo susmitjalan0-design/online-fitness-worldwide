@@ -25,6 +25,7 @@ const BREAK_POST_PATH = postPathFor(BREAK_POST_SLUG, "en");
 const OVER_60_POST_PATH = postPathFor("best-strength-exercises-for-over-60s", "en");
 const CORE_BACK_POST_PATH = postPathFor("best-core-exercises-for-lower-back-health", "en");
 const GRIP_POST_PATH = postPathFor("best-exercises-for-grip-strength", "en");
+const PARENTS_POST_PATH = postPathFor("best-strength-exercises-for-busy-parents", "en");
 /** Read next leads with the long-break post, then the over-60s post. */
 const LEAD_SLUGS: readonly string[] = [BREAK_POST_SLUG, "best-strength-exercises-for-over-60s"];
 
@@ -199,6 +200,10 @@ function GettingBackPage() {
               </li>
               <li>
                 Shopping bags feel heavier than they used to? <a href={GRIP_POST_PATH}>Read the 7 best exercises for grip strength</a>.
+              </li>
+              <li>
+                Kids at home and 20 minutes free?{" "}
+                <a href={PARENTS_POST_PATH}>Read the 7 best strength exercises for busy parents</a>.
               </li>
             </ul>
           </section>

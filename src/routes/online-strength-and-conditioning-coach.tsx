@@ -31,6 +31,7 @@ const RACE_READS = ["hyrox-vs-deka-vs-athx", "hyrox-training-plan-for-beginners"
 const SC_POST_PATH = postPathFor("best-strength-and-conditioning-exercises-for-beginners", "en");
 const DB_POST_PATH = postPathFor("best-home-workouts-with-one-dumbbell", "en");
 const GRIP_POST_PATH = postPathFor("best-exercises-for-grip-strength", "en");
+const PARENTS_POST_PATH = postPathFor("best-strength-exercises-for-busy-parents", "en");
 const WARM_POST_PATH = postPathFor("best-warm-up-exercises-before-strength-training", "en");
 const COOL_POST_PATH = postPathFor("best-cool-down-stretches-after-strength-training", "en");
 const CORE_BACK_POST_PATH = postPathFor("best-core-exercises-for-lower-back-health", "en");
@@ -239,6 +240,10 @@ function StrengthCoachPage() {
               <li>
                 Carries and hangs go in there too. Grip on your own days:{" "}
                 <a href={GRIP_POST_PATH}>the 7 best exercises for grip strength</a>.
+              </li>
+              <li>
+                No hour free this week? Two 20-minute sessions still count:{" "}
+                <a href={PARENTS_POST_PATH}>the 7 best strength exercises for busy parents</a>.
               </li>
             </ul>
           </section>
