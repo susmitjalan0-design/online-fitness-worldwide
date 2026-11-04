@@ -29,10 +29,8 @@ export const Route = createRootRoute({
       { rel: "stylesheet", href: appCss },
       { rel: "manifest", href: "/__grok/manifest.webmanifest" },
       { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      // Outfit only. Devanagari, Gujarati and Arabic load on their own language pages (src/lib/fonts.ts).
-      { rel: "stylesheet", href: BASE_FONT_HREF },
+      // Outfit is self-hosted (src/styles.css). Devanagari, Gujarati and Arabic load on their own language pages (src/lib/fonts.ts).
+      { rel: "preload", href: BASE_FONT_HREF, as: "font", type: "font/woff2", crossOrigin: "anonymous" },
     ],
     scripts: [
       {

@@ -60,6 +60,9 @@ function itemAnchor(index: number): string {
   return `item-${index + 1}`;
 }
 
+/** How many posts the "More from the blog" list shows (it used to list every post, 19 links and growing). */
+const RELATED_MAX = 6;
+
 export function postHead(post: BlogPost, lang: PostLang) {
   const copy = post.copy[lang];
   const path = postPathFor(post.slug, lang);
@@ -130,10 +133,16 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
   const clusterPosts = post.slug && inCluster(post.slug)
     ? HYBRID_CLUSTER.map((slug) => BLOG_POSTS.find((other) => other.slug === slug)).filter((other): other is BlogPost => Boolean(other))
     : [];
-  const related = BLOG_POSTS.filter((other) => other.slug !== post.slug && !(clusterPosts.length > 0 && inCluster(other.slug)));
   const seeAlso = (post.seeAlso ?? [])
     .map((slug) => BLOG_POSTS.find((other) => other.slug === slug))
     .filter((other): other is BlogPost => Boolean(other));
+  /* "More from the blog": the newest RELATED_MAX other posts, skipping this cluster and anything already in "See also". The blog index links every post. */
+  const related = BLOG_POSTS.filter(
+    (other) =>
+      other.slug !== post.slug &&
+      !(clusterPosts.length > 0 && inCluster(other.slug)) &&
+      !seeAlso.some((also) => also.slug === other.slug),
+  ).slice(0, RELATED_MAX);
   const { dir } = LANG_META[lang];
   const sourceLabel = SOURCE_LABEL[lang];
   const newTab = NEW_TAB_LABEL[lang];
@@ -363,7 +372,7 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
                         {other.copy[lang].h1} <span className="text-sm font-normal text-mist">({CLUSTER_HERE[lang]})</span>
                       </span>
                     ) : (
-                      <a href={postPathFor(other.slug, lang)} className="group inline-flex items-start gap-2 text-base font-semibold underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper">
+                      <a href={postPathFor(other.slug, lang)} className="group inline-flex items-start gap-2 text-base font-semibold underline decoration-logo decoration-2 underline-offset-4 hover:text-copper">
                         <span>
                           {other.copy[lang].h1}
                           {other.slug === HYBRID_HUB ? <span className="text-sm font-normal text-mist"> ({CLUSTER_HUB_TAG[lang]})</span> : null}
@@ -385,7 +394,7 @@ export function BlogPostPage({ post, lang }: { post: BlogPost; lang: PostLang })
               <ul className="mt-4 space-y-3">
                 {related.map((other) => (
                   <li key={other.slug}>
-                    <a href={postPathFor(other.slug, lang)} className="group inline-flex items-start gap-2 text-lg font-semibold underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper">
+                    <a href={postPathFor(other.slug, lang)} className="group inline-flex items-start gap-2 text-lg font-semibold underline decoration-logo decoration-2 underline-offset-4 hover:text-copper">
                       <span>{other.copy[lang].h1}</span>
                       <ArrowUpRight className="mt-1 size-4 shrink-0 rtl:-scale-x-100" aria-hidden="true" />
                     </a>
