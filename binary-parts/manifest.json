@@ -108,5 +108,11 @@
     "parts": [
       "binary-parts/parts/public____grok__install__assets__homescreen__ob-ipad.png.000"
     ]
+  },
+  {
+    "out": "public/fonts/outfit-latin.woff2",
+    "parts": [
+      "binary-parts/parts/public__fonts__outfit-latin.woff2.000"
+    ]
   }
 ]

@@ -19,6 +19,7 @@ src/assets/*.png
 src/assets/*.jpg
 public/og.jpg
 public/og-card.jpg
+public/fonts/*.woff2
 
 # Editor and OS clutter, local env files.
 .DS_Store
