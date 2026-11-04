@@ -1,0 +1,836 @@
+/**
+ * Blog post: "Best leg exercises for knee-friendly strength".
+ * Citations in copy are written as {n} and point at KNEE_SOURCES[n - 1].
+ * Every number in the copy comes from a cited source (title, authors, journal,
+ * year, volume/pages and finding checked against the Europe PMC record and
+ * abstract, and each DOI checked as registered at doi.org, on 4 Nov 2026; the
+ * WHO, NHS and NICE pages opened the same day and the wording used read on the
+ * page). The two squat-depth reviews disagree on deep squats: the copy says so
+ * and gives both. This is general training information, not treatment: knee
+ * symptoms route to the NHS "see a GP / get urgent advice" lists. No client
+ * results, no quotes, no prices. Translations were drafted for this batch and
+ * need a native-speaker review before launch (see CHANGES-grokbot.md).
+ */
+
+import { type BlogPost, type PostCopy } from "./shared";
+
+export const KNEE_SLUG = "best-leg-exercises-for-knee-friendly-strength";
+export const KNEE_PUBLISHED = "2026-11-04";
+export const KNEE_MODIFIED = "2026-11-04";
+
+export const KNEE_SOURCES = [
+  {
+    cite: "World Health Organization. WHO guidelines on physical activity and sedentary behaviour. Geneva: WHO; 2020.",
+    url: "https://www.who.int/publications/i/item/9789240015128",
+  },
+  {
+    cite: "NHS. Knee pain. nhs.uk.",
+    url: "https://www.nhs.uk/conditions/knee-pain/",
+  },
+  {
+    cite: "National Institute for Health and Care Excellence (NICE). Osteoarthritis in over 16s: diagnosis and management. NICE guideline NG226. 2022.",
+    url: "https://www.nice.org.uk/guidance/ng226/chapter/Recommendations",
+  },
+  {
+    cite: "Fransen M, McConnell S, Harmer AR, Van der Esch M, Simic M, Bennell KL. Exercise for osteoarthritis of the knee. Cochrane Database Syst Rev. 2015;(1):CD004376.",
+    url: "https://doi.org/10.1002/14651858.CD004376.pub3",
+  },
+  {
+    cite: "Collins NJ, Barton CJ, van Middelkoop M, et al. 2018 Consensus statement on exercise therapy and physical interventions (orthoses, taping and manual therapy) to treat patellofemoral pain. Br J Sports Med. 2018;52(18):1170–1178.",
+    url: "https://doi.org/10.1136/bjsports-2018-099397",
+  },
+  {
+    cite: "Lack S, Barton C, Sohan O, Crossley K, Morrissey D. Proximal muscle rehabilitation is effective for patellofemoral pain: a systematic review with meta-analysis. Br J Sports Med. 2015;49(21):1365–1376.",
+    url: "https://doi.org/10.1136/bjsports-2015-094723",
+  },
+  {
+    cite: "Escamilla RF. Knee biomechanics of the dynamic squat exercise. Med Sci Sports Exerc. 2001;33(1):127–141.",
+    url: "https://doi.org/10.1097/00005768-200101000-00020",
+  },
+  {
+    cite: "Hartmann H, Wirth K, Klusemann M. Analysis of the load on the knee joint and vertebral column with changes in squatting depth and weight load. Sports Med. 2013;43(10):993–1008.",
+    url: "https://doi.org/10.1007/s40279-013-0073-6",
+  },
+  {
+    cite: "American College of Sports Medicine. Position stand: Progression models in resistance training for healthy adults. Med Sci Sports Exerc. 2009;41(3):687–708.",
+    url: "https://doi.org/10.1249/MSS.0b013e3181915670",
+  },
+  {
+    cite: "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+    url: "https://doi.org/10.1249/MSS.0000000000000664",
+  },
+] as const;
+
+const en: PostCopy = {
+  metaTitle: "Best Leg Exercises for Knee-Friendly Strength: 7 Moves and a Sample Week | Jalan PT",
+  metaDescription:
+    "The 7 best leg exercises for knee-friendly strength: box squats, step-ups, hinges, bridges and more. How deep to go, what research says, and a sample week.",
+  h1: "Best leg exercises for knee-friendly strength: 7 moves and a sample week",
+  dek: "Strong legs, knees that stay calm. You choose the depth. The load goes up slowly. The hips do their share.",
+  updated: "Updated 4 November 2026",
+  byline: "By Susmit Jalan, coach at Jalan PT, Pune.",
+  credentialsNote:
+    "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+  labels: {
+    home: "Home",
+    blog: "Blog",
+    why: "Why",
+    how: "How",
+    dose: "Dose",
+    sources: "Sources",
+    readIn: "Read this in",
+    programs: "See the programs",
+    whatsapp: "Ask on WhatsApp",
+    whatsappText: "Hi Susmit, I read the article on knee-friendly leg exercises and want to book a consultation",
+    skip: "Skip to content",
+    crumb: "Best leg exercises for knee-friendly strength",
+  },
+  intro: [
+    "Your knees grumble on the stairs. Or someone told you squats wreck knees. You still want strong legs. Good. Strong legs are the plan.",
+    "For knee osteoarthritis, a Cochrane review pooled 44 trials. Exercise cut pain by about 12 points on a 0 to 100 scale, and improved function by about 10.{4} NICE in the UK calls therapeutic exercise a core treatment, and names local muscle strengthening.{3}",
+    "For pain around the kneecap (patellofemoral pain), an international expert consensus backs exercise therapy, especially hip and knee exercises together.{5}",
+    "WHO advises muscle-strengthening work for all the major muscle groups on 2 or more days a week.{1} Legs included. This list keeps it knee-friendly: you set the depth, the load climbs slowly, and the hips work as hard as the knees.",
+    "This is training, not treatment. Knee swollen, locking or giving way? Read \"Before you start\" first.",
+  ],
+  listHeading: "The 7 best leg exercises for knee-friendly strength",
+  items: [
+    {
+      name: "Box squat",
+      why: "You choose the depth, and every rep stops at the same place. In the squat, knee forces rise as the knee bends further. They are lowest in the top half.{7}",
+      how: "Stand in front of a sturdy chair or box, feet hip-width or a little wider. Arms forward, or hold a weight at your chest. Sit back and down until you just touch the seat. Don't flop. Stand up. Knees point the same way as your toes. Too much? Add a cushion and sit higher.",
+      dose: "2 to 3 sets of 8 to 12. Lower the seat a little when 12 feels easy and calm.",
+    },
+    {
+      name: "Step-up",
+      why: "Stairs, kerbs, a hill. One leg at a time, at a height you pick.",
+      how: "Start low: the bottom stair at home is fine. Whole foot on the step. Push through it and stand tall. Lower the other foot slowly, don't drop. Hold the rail or a wall. Go higher only when it stays comfortable.",
+      dose: "2 to 3 sets of 8 to 10 each leg.",
+    },
+    {
+      name: "Romanian deadlift",
+      why: "Hamstrings and glutes do the work. Your knees stay softly bent and barely move. A good leg move on a day the knees feel grumpy.",
+      how: "Feet hip-width, knees soft. Hold a dumbbell or a backpack. Push your hips back and let the weight slide down your thighs. Back long. Stop when you feel the stretch at the back of your legs. Stand up by squeezing your glutes.",
+      dose: "2 to 3 sets of 8 to 12.{9}",
+    },
+    {
+      name: "Glute bridge",
+      why: "Hip strength from the floor. For pain around the kneecap, a review found hip work plus thigh work cut pain and improved function, with some evidence it helped more at 1 year than thigh work alone.{6}",
+      how: "Lie on your back, knees bent, feet flat. Press through your heels and lift your hips until knees, hips and shoulders line up. Squeeze. Lower slowly. Easy? Do it on one leg, or with a weight on your hips.",
+      dose: "2 to 3 sets of 10 to 15.",
+    },
+    {
+      name: "Side-lying leg raise",
+      why: "Trains the side of your hip, the muscles that keep your pelvis level when you stand on one leg. Hip-focused work is half of what the consensus backs.{5}",
+      how: "Lie on your side, bottom knee bent. Top leg straight, in line with your body, toes pointing forward. Lift the top leg about a hand's height. Lower slowly. Don't roll back. Easy? Add a band above the knees.",
+      dose: "2 to 3 sets of 12 to 15 each side.",
+    },
+    {
+      name: "Split squat",
+      why: "Single-leg strength with both feet on the floor. No jump, no step. You set the depth.",
+      how: "One foot forward, one back, like a long stride. Hold a wall or a chair. Lower your back knee towards the floor, only as far as stays comfortable. Front knee over the middle of your foot. Push through the front foot to come up. All reps one side, then the other.",
+      dose: "2 sets of 8 to 10 each leg.",
+    },
+    {
+      name: "Seated knee extension",
+      why: "The thigh muscles (quadriceps) on their own. Knee-focused work is the other half of what the consensus backs.{5} No machine needed.",
+      how: "Sit tall on a chair. Ankle weight, or a band looped round the chair leg and your ankle. Straighten your knee fully. Hold for 2 seconds. Lower for 3. No weight yet? Your leg is enough.",
+      dose: "2 to 3 sets of 10 to 15 each leg.",
+    },
+  ],
+  enoughHeading: "How deep, how hard, how often",
+  enough: [
+    "Depth is a dial, not a rule. Knee forces in the squat climb as you bend and peak near the bottom. The same review found the parallel squat, thighs level with the floor, was not injurious to a healthy knee.{7}",
+    "Deep squats? The reviews differ. One favoured parallel over deep for healthy knees.{7} Another concluded that, with technique learned under expert supervision and loads built up slowly, deep squats did not add injury risk. It also warned that very heavy half and quarter squats are not the safe option they look like.{8} So: earn your depth. Go as low as stays smooth and calm.",
+    "Pair hip and knee. For pain around the kneecap, the 2018 consensus backs exercise therapy, especially hip-focused and knee-focused exercises combined.{5} Items 4 and 5 are hip. Items 1, 2, 6 and 7 are knee. Item 3 is mostly hip.",
+    "Told you have knee osteoarthritis? NICE advises explaining that joint pain may increase when you start exercise, and that regular, consistent exercise will still benefit the joints.{3} Ask your doctor or physio how much is fine for you.",
+    "Keep going. In the Cochrane review, the drop in pain was still there 2 to 6 months after formal programmes ended. Programmes delivered one-to-one tended to do better than classes or home programmes, though the studies varied a lot.{4}",
+    "Twice a week covers the WHO minimum.{1} When you beat 12 good reps by 1 or 2, add a little: 2 to 10% more load.{9} No heavier weight? Lower more slowly, lower the box a little, or add a set.",
+  ],
+  sampleHeading: "A sample week for knee-friendly leg strength",
+  sampleLabel: "Sample only. Not a prescription. Adjust it to your body, your health and your history.",
+  sample: [
+    "Monday, about 30 minutes: box squat, Romanian deadlift, glute bridge, side-lying leg raise. 2 to 3 sets each.",
+    "Tuesday: an easy walk or cycle.",
+    "Wednesday: rest, or a walk.",
+    "Thursday, about 30 minutes: step-up, split squat, seated knee extension, glute bridge. 2 to 3 sets each.",
+    "Friday: rest.",
+    "Saturday: something you enjoy. A walk, a swim, a ride.",
+    "Sunday: rest.",
+    "Knees grumpy the next day? Keep the session, shrink it: higher seat, lower step, less load.",
+  ],
+  coachedHeading: "Want it coached live?",
+  coached: [
+    "Iron Hour is 60 minutes, 1:1. Set-up at minute 0: camera placed so I can see your feet, knees and hips. Warm-up from minute 4. The primary lift at 14, at the depth we agreed. Accessories at 28. Cool-down at 50.",
+    "Return is 45 minutes, 1:1, 12 alternate-day sessions a month. For when a sore knee, a break or life put training on hold. We build the base first.",
+    "Lean Reset is 20 sessions a month, 1:1. Open Floor is a small group. I'm a coach, not a physio: if your doctor or physio has set limits, we train inside them.",
+    "Coached live on Google Meet, Zoom or FaceTime, in your own living room. From Pune. In Hindi or English. On IST. Not sure yet? Start with a 30-minute consultation. It is a conversation, not training. Booking holds a time. The fee is agreed directly.",
+  ],
+  safetyHeading: "Before you start",
+  safety:
+    "General information, not medical advice. ACSM's screening model says: if you are inactive, have no symptoms and no known heart, metabolic or kidney disease, you can start light to moderate exercise without medical clearance and build up gradually. If you have one of those conditions, or symptoms, get medical clearance first.{10} The NHS says to see a GP if knee pain does not improve within a few weeks. It says to get urgent advice if your knee is very painful, you cannot move it or put weight on it, it is badly swollen or has changed shape, it locks, gives way or painfully clicks, or you have a very high temperature with redness or heat around the knee. Painless clicking is normal.{2} Outside the UK, that means your doctor or local urgent care. Recent knee injury or surgery? Follow your surgeon's or physio's plan first. Train on a floor that doesn't slip. Stop if you get sharp pain, chest pain or dizziness.",
+};
+
+const ar: PostCopy = {
+  metaTitle: "أفضل تمارين الساقين لقوة لطيفة على الركبة: 7 تمارين ونموذج لأسبوع | Jalan PT",
+  metaDescription:
+    "أفضل 7 تمارين للساقين لقوة لطيفة على الركبة: القرفصاء إلى صندوق، والصعود على درجة، وجسر الألوية، وغيرها. ما العمق المناسب، وما تقوله الأبحاث، ونموذج لأسبوع.",
+  h1: "أفضل تمارين الساقين لقوة لطيفة على الركبة: 7 تمارين ونموذج لأسبوع",
+  dek: "ساقان قويتان، وركبتان هادئتان. أنت تختار العمق. الحمل يزيد ببطء. والوركان يقومان بنصيبهما.",
+  updated: "تم التحديث في 4 نوفمبر 2026",
+  byline: "بقلم سوسميت جالان، مدرب في Jalan PT، بونه.",
+  credentialsNote:
+    "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+  labels: {
+    home: "الرئيسية",
+    blog: "المدونة",
+    why: "لماذا",
+    how: "كيف",
+    dose: "الجرعة",
+    sources: "المصادر",
+    readIn: "اقرأ بلغة أخرى",
+    programs: "اطّلع على البرامج",
+    whatsapp: "اسأل عبر واتساب",
+    whatsappText: "مرحباً سوسميت، قرأت مقال تمارين الساقين اللطيفة على الركبة وأريد حجز استشارة",
+    skip: "انتقل إلى المحتوى",
+    crumb: "أفضل تمارين الساقين لقوة لطيفة على الركبة",
+  },
+  intro: [
+    "ركبتاك تتذمّران على الدرج. أو قال لك أحدهم إن القرفصاء تؤذي الركبة. وما زلت تريد ساقين قويتين. جيد. الساقان القويتان هما الخطة.",
+    "في خشونة الركبة (الفُصال العظمي)، جمعت مراجعة كوكرين 44 تجربة. خفّض التمرين الألم بنحو 12 نقطة على مقياس من 0 إلى 100، وحسّن القدرة الوظيفية بنحو 10.{4} ويعدّ المعهد الوطني للصحة والرعاية في بريطانيا (NICE) التمرين العلاجي علاجاً أساسياً، ويذكر تقوية العضلات المحيطة بالمفصل.{3}",
+    "ولألم ما حول الرضفة (ألم الرضفة الفخذية)، يدعم إجماع خبراء دولي العلاج بالتمرين، وخاصة الجمع بين تمارين الورك وتمارين الركبة.{5}",
+    "توصي منظمة الصحة العالمية بتمارين تقوية العضلات لكل المجموعات العضلية الرئيسية في يومين أو أكثر في الأسبوع.{1} والساقان منها. هذه القائمة تبقي الأمر لطيفاً على الركبة: أنت تحدد العمق، والحمل يرتفع ببطء، والوركان يعملان بقدر الركبتين.",
+    "هذا تدريب، وليس علاجاً. ركبتك متورمة، أو تنقفل، أو تخذلك؟ اقرأ «قبل أن تبدأ» أولاً.",
+  ],
+  listHeading: "أفضل 7 تمارين للساقين لقوة لطيفة على الركبة",
+  items: [
+    {
+      name: "القرفصاء إلى صندوق (Box squat)",
+      why: "أنت تختار العمق، وكل تكرار يتوقف في المكان نفسه. في القرفصاء ترتفع القوى على الركبة كلما زاد ثنيها. وهي في أدنى مستوياتها في النصف العلوي من الحركة.{7}",
+      how: "قف أمام كرسي متين أو صندوق، والقدمان بعرض الوركين أو أوسع قليلاً. الذراعان إلى الأمام، أو أمسك وزناً أمام صدرك. اجلس إلى الخلف والأسفل حتى تلمس المقعد بخفة. لا ترتمِ. قف. الركبتان في اتجاه أصابع القدمين. صعب؟ أضف وسادة واجلس أعلى.",
+      dose: "من 2 إلى 3 مجموعات من 8 إلى 12. اخفض المقعد قليلاً عندما تصبح 12 سهلة وهادئة.",
+    },
+    {
+      name: "الصعود على درجة (Step-up)",
+      why: "الدرج، والرصيف، والتلّة. ساق واحدة في كل مرة، وبارتفاع تختاره.",
+      how: "ابدأ منخفضاً: الدرجة الأولى في البيت تكفي. القدم كلها على الدرجة. ادفع بها وقف مستقيماً. أنزل القدم الأخرى ببطء، لا تُسقطها. أمسك الدرابزين أو الجدار. لا ترفع الارتفاع إلا حين يبقى مريحاً.",
+      dose: "من 2 إلى 3 مجموعات من 8 إلى 10 لكل ساق.",
+    },
+    {
+      name: "الرفعة الرومانية (Romanian deadlift)",
+      why: "أوتار الركبة الخلفية والألوية تقوم بالعمل. تبقى الركبتان مثنيتين قليلاً وبالكاد تتحركان. تمرين جيد للساقين في يوم تتذمّر فيه الركبتان.",
+      how: "القدمان بعرض الوركين، والركبتان مرنتان. أمسك دمبلاً أو حقيبة ظهر. ادفع وركيك إلى الخلف ودع الوزن ينزلق على فخذيك. الظهر ممدود. توقّف حين تشعر بالشد خلف ساقيك. قف بشدّ عضلات المؤخرة.",
+      dose: "من 2 إلى 3 مجموعات من 8 إلى 12.{9}",
+    },
+    {
+      name: "جسر الألوية (Glute bridge)",
+      why: "قوة الورك من الأرض. لألم ما حول الرضفة، وجدت مراجعة أن تمارين الورك مع تمارين الفخذ خفّضت الألم وحسّنت القدرة الوظيفية، مع بعض الأدلة على فائدة أكبر بعد سنة مقارنة بتمارين الفخذ وحدها.{6}",
+      how: "استلقِ على ظهرك، والركبتان مثنيتان، والقدمان على الأرض. اضغط بكعبيك وارفع وركيك حتى تصطف الركبتان والوركان والكتفان. اشدد. انزل ببطء. سهل؟ أدّه على ساق واحدة، أو مع وزن على وركيك.",
+      dose: "من 2 إلى 3 مجموعات من 10 إلى 15.",
+    },
+    {
+      name: "رفع الساق جانبياً وأنت مستلقٍ (Side-lying leg raise)",
+      why: "يدرّب جانب الورك، العضلات التي تبقي الحوض مستوياً حين تقف على ساق واحدة. تمارين الورك نصف ما يدعمه الإجماع.{5}",
+      how: "استلقِ على جانبك، والركبة السفلى مثنية. الساق العليا مستقيمة على خط الجسم، وأصابع القدم إلى الأمام. ارفع الساق العليا بقدر ارتفاع كفّ تقريباً. انزل ببطء. لا تتدحرج إلى الخلف. سهل؟ أضف شريطاً مطاطياً فوق الركبتين.",
+      dose: "من 2 إلى 3 مجموعات من 12 إلى 15 لكل جانب.",
+    },
+    {
+      name: "القرفصاء المنقسمة (Split squat)",
+      why: "قوة ساق واحدة والقدمان على الأرض. بلا قفز، وبلا درجة. أنت تحدد العمق.",
+      how: "قدم إلى الأمام وقدم إلى الخلف، مثل خطوة طويلة. أمسك جداراً أو كرسياً. أنزل الركبة الخلفية نحو الأرض، فقط بقدر ما يبقى مريحاً. الركبة الأمامية فوق منتصف القدم. ادفع بالقدم الأمامية لتصعد. أكمل كل التكرارات على جانب، ثم الآخر.",
+      dose: "مجموعتان من 8 إلى 10 لكل ساق.",
+    },
+    {
+      name: "مدّ الركبة جالساً (Seated knee extension)",
+      why: "عضلات الفخذ الأمامية (الرباعية) وحدها. تمارين الركبة هي النصف الآخر مما يدعمه الإجماع.{5} لا حاجة إلى جهاز.",
+      how: "اجلس مستقيماً على كرسي. وزن للكاحل، أو شريط مطاطي حول رجل الكرسي وكاحلك. افرد ركبتك بالكامل. اثبت ثانيتين. انزل في 3 ثوانٍ. لا وزن بعد؟ ساقك تكفي.",
+      dose: "من 2 إلى 3 مجموعات من 10 إلى 15 لكل ساق.",
+    },
+  ],
+  enoughHeading: "ما العمق، وما الشدة، وكم مرة",
+  enough: [
+    "العمق مفتاح تضبطه، وليس قاعدة. القوى على الركبة في القرفصاء ترتفع كلما نزلت، وتبلغ ذروتها قرب القاع. ووجدت المراجعة نفسها أن القرفصاء الموازية، والفخذان موازيان للأرض، لم تكن ضارة بالركبة السليمة.{7}",
+    "القرفصاء العميقة؟ المراجعات تختلف. واحدة فضّلت الموازية على العميقة للركب السليمة.{7} وخلصت أخرى إلى أن القرفصاء العميقة، مع تقنية مُتعلَّمة بإشراف خبير وأحمال تزيد ببطء، لم تزد خطر الإصابة. وحذّرت أيضاً من أن نصف القرفصاء وربعها بأحمال ثقيلة جداً ليست الخيار الآمن الذي تبدو عليه.{8} إذن: اكسب عمقك. انزل بقدر ما يبقى سلساً وهادئاً.",
+    "اجمع بين الورك والركبة. لألم ما حول الرضفة، يدعم إجماع 2018 العلاج بالتمرين، وخاصة الجمع بين تمارين الورك وتمارين الركبة.{5} التمرينان 4 و5 للورك. التمارين 1 و2 و6 و7 للركبة. والتمرين 3 للورك غالباً.",
+    "قيل لك إن لديك خشونة في الركبة؟ ينصح NICE بأن يُشرح لك أن ألم المفصل قد يزيد حين تبدأ التمرين، وأن التمرين المنتظم والمستمر سيفيد المفاصل مع ذلك.{3} اسأل طبيبك أو أخصائي العلاج الطبيعي عن القدر المناسب لك.",
+    "استمر. في مراجعة كوكرين، بقي انخفاض الألم موجوداً بعد 2 إلى 6 أشهر من انتهاء البرامج الرسمية. ومالت البرامج الفردية إلى نتائج أفضل من الحصص الجماعية أو البرامج المنزلية، مع أن الدراسات تباينت كثيراً.{4}",
+    "مرتان في الأسبوع تغطيان الحد الأدنى لمنظمة الصحة العالمية.{1} عندما تتجاوز 12 تكراراً جيداً بتكرار أو اثنين، أضف قليلاً: حملاً أكثر بنسبة 2 إلى 10%.{9} لا وزن أثقل؟ انزل أبطأ، أو اخفض الصندوق قليلاً، أو أضف مجموعة.",
+  ],
+  sampleHeading: "نموذج لأسبوع لقوة الساقين اللطيفة على الركبة",
+  sampleLabel: "نموذج فقط. ليس وصفة. عدّله بحسب جسمك وصحتك وتاريخك.",
+  sample: [
+    "الاثنين، نحو 30 دقيقة: القرفصاء إلى صندوق، والرفعة الرومانية، وجسر الألوية، ورفع الساق جانبياً. من 2 إلى 3 مجموعات لكل تمرين.",
+    "الثلاثاء: مشي أو دراجة بسهولة.",
+    "الأربعاء: راحة، أو مشي.",
+    "الخميس، نحو 30 دقيقة: الصعود على درجة، والقرفصاء المنقسمة، ومدّ الركبة جالساً، وجسر الألوية. من 2 إلى 3 مجموعات لكل تمرين.",
+    "الجمعة: راحة.",
+    "السبت: شيء تستمتع به. مشي، أو سباحة، أو دراجة.",
+    "الأحد: راحة.",
+    "ركبتاك متذمّرتان في اليوم التالي؟ أبقِ الجلسة، وصغّرها: مقعد أعلى، ودرجة أخفض، وحمل أقل.",
+  ],
+  coachedHeading: "تريد تدريباً مباشراً؟",
+  coached: [
+    "Iron Hour مدته 60 دقيقة، فردياً. التجهيز في الدقيقة 0: الكاميرا بحيث أرى قدميك وركبتيك ووركيك. الإحماء من الدقيقة 4. التمرين الأساسي في الدقيقة 14، بالعمق الذي اتفقنا عليه. التمارين المساعدة في 28. التهدئة في 50.",
+    "برنامج Return مدته 45 دقيقة، فردياً، 12 جلسة في الشهر بالتناوب: يوم تمرين ويوم راحة. لمن أوقفت ركبةٌ متألمة أو انقطاعٌ أو ظروف الحياة تدريبه. نبني الأساس أولاً.",
+    "Lean Reset عشرون جلسة في الشهر، فردياً. Open Floor مجموعة صغيرة. أنا مدرب، لست أخصائي علاج طبيعي: إن وضع طبيبك أو أخصائيك حدوداً، نتدرّب داخلها.",
+    "تدريب مباشر عبر Google Meet أو Zoom أو FaceTime، في غرفة معيشتك. من بونه. بالهندية أو الإنجليزية. بتوقيت الهند (IST). لم تقرّر بعد؟ ابدأ باستشارة مدتها 30 دقيقة. هي محادثة، لا تدريب. الحجز يثبّت موعداً فقط. والرسوم يُتفق عليها مباشرة.",
+  ],
+  safetyHeading: "قبل أن تبدأ",
+  safety:
+    "معلومات عامة، وليست نصيحة طبية. يقول نموذج الفحص المسبق من ACSM: إن كنت غير نشيط، وبلا أعراض، وبلا مرض معروف في القلب أو الأيض أو الكلى، يمكنك أن تبدأ تمريناً خفيفاً إلى معتدل دون إذن طبي وأن تزيده تدريجياً. إن كانت لديك إحدى هذه الحالات، أو أعراض، فاحصل على إذن طبي أولاً.{10} تقول هيئة الصحة البريطانية (NHS): راجع الطبيب إن لم يتحسن ألم الركبة خلال بضعة أسابيع. واطلب استشارة عاجلة إن كانت الركبة مؤلمة جداً، أو لا تستطيع تحريكها أو الوقوف عليها، أو كانت متورمة جداً أو تغيّر شكلها، أو كانت تنقفل أو تخذلك أو تطقطق بألم، أو كانت لديك حرارة مرتفعة جداً مع احمرار أو سخونة حول الركبة. الطقطقة بلا ألم أمر طبيعي.{2} خارج بريطانيا، يعني ذلك طبيبك أو أقرب رعاية عاجلة. إصابة أو جراحة حديثة في الركبة؟ اتبع خطة الجرّاح أو أخصائي العلاج الطبيعي أولاً. تدرّب على أرضية لا تنزلق. توقّف إذا شعرت بألم حاد، أو ألم في الصدر، أو دوخة.",
+};
+
+const hi: PostCopy = {
+  metaTitle: "घुटनों के लिए आसान बेस्ट लेग एक्सरसाइज़: 7 मूव्स और सैंपल हफ़्ता | Jalan PT",
+  metaDescription:
+    "मज़बूत पैरों और शांत घुटनों के लिए 7 बेस्ट लेग एक्सरसाइज़: बॉक्स स्क्वाट, स्टेप-अप, हिप हिंज, ब्रिज। कितना नीचे जाएँ, रिसर्च क्या कहती है, और सैंपल हफ़्ता।",
+  h1: "घुटनों के लिए आसान बेस्ट लेग एक्सरसाइज़: 7 मूव्स और एक सैंपल हफ़्ता",
+  dek: "मज़बूत पैर, शांत घुटने। गहराई आप चुनते हैं। वज़न धीरे-धीरे बढ़ता है। हिप्स भी अपना हिस्सा करते हैं।",
+  updated: "अपडेट: 4 नवंबर 2026",
+  byline: "सुस्मित जालान, कोच, Jalan PT, पुणे।",
+  credentialsNote:
+    "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+  labels: {
+    home: "होम",
+    blog: "ब्लॉग",
+    why: "क्यों",
+    how: "कैसे",
+    dose: "डोज़",
+    sources: "स्रोत",
+    readIn: "इसे इस भाषा में पढ़ें",
+    programs: "प्रोग्राम देखें",
+    whatsapp: "WhatsApp पर पूछें",
+    whatsappText: "नमस्ते सुस्मित, मैंने घुटनों के लिए आसान लेग एक्सरसाइज़ का लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    skip: "सामग्री पर जाएँ",
+    crumb: "घुटनों के लिए आसान बेस्ट लेग एक्सरसाइज़",
+  },
+  intro: [
+    "सीढ़ियों पर घुटने शिकायत करते हैं। या किसी ने कहा कि स्क्वाट घुटने ख़राब कर देते हैं। फिर भी आपको मज़बूत पैर चाहिए। अच्छा है। मज़बूत पैर ही प्लान है।",
+    "घुटने के ऑस्टियोआर्थराइटिस पर एक Cochrane रिव्यू ने 44 ट्रायल जोड़े। एक्सरसाइज़ से दर्द 0 से 100 के स्केल पर लगभग 12 पॉइंट कम हुआ, और काम करने की क्षमता लगभग 10 पॉइंट बेहतर हुई।{4} ब्रिटेन की NICE थेरैप्यूटिक एक्सरसाइज़ को मुख्य इलाज मानती है, और जोड़ के आसपास की मसल्स की स्ट्रेंथनिंग का नाम लेती है।{3}",
+    "घुटने की कटोरी के आसपास के दर्द (पैटेलोफ़ेमोरल पेन) के लिए एक अंतरराष्ट्रीय विशेषज्ञ सहमति एक्सरसाइज़ थेरेपी का समर्थन करती है, ख़ासकर हिप और घुटने की एक्सरसाइज़ साथ में।{5}",
+    "WHO हफ़्ते में 2 या ज़्यादा दिन सभी बड़े मसल ग्रुप्स के लिए स्ट्रेंथ वर्क की सलाह देता है।{1} पैर भी इसमें आते हैं। यह लिस्ट इसे घुटनों के लिए आसान रखती है: गहराई आप तय करते हैं, वज़न धीरे बढ़ता है, और हिप्स उतनी ही मेहनत करते हैं जितनी घुटने।",
+    "यह ट्रेनिंग है, इलाज नहीं। घुटना सूजा है, लॉक होता है या जवाब दे देता है? पहले \"शुरू करने से पहले\" पढ़ें।",
+  ],
+  listHeading: "घुटनों के लिए आसान 7 बेस्ट लेग एक्सरसाइज़",
+  items: [
+    {
+      name: "बॉक्स स्क्वाट",
+      why: "गहराई आप चुनते हैं, और हर रेप एक ही जगह रुकता है। स्क्वाट में घुटना जितना ज़्यादा मुड़ता है, उस पर फ़ोर्स उतना बढ़ता है। ऊपर वाले आधे हिस्से में यह सबसे कम होता है।{7}",
+      how: "मज़बूत कुर्सी या बॉक्स के आगे खड़े हों, पैर हिप जितने चौड़े या थोड़े ज़्यादा। हाथ आगे, या सीने पर वज़न पकड़ें। पीछे और नीचे बैठें जब तक सीट हल्के से न छू जाए। धम्म से न गिरें। खड़े हों। घुटने उसी तरफ़ जिधर पैर की उँगलियाँ। ज़्यादा लगे? कुशन रखें और ऊँचे बैठें।",
+      dose: "8 से 12 के 2 से 3 सेट। जब 12 आसान और आरामदायक लगें, सीट थोड़ी नीची करें।",
+    },
+    {
+      name: "स्टेप-अप",
+      why: "सीढ़ियाँ, फ़ुटपाथ, चढ़ाई। एक बार में एक पैर, उस ऊँचाई पर जो आप चुनें।",
+      how: "नीचे से शुरू करें: घर की सबसे निचली सीढ़ी काफ़ी है। पूरा पैर स्टेप पर। उसी से धक्का देकर सीधे खड़े हों। दूसरा पैर धीरे नीचे लाएँ, गिराएँ नहीं। रेलिंग या दीवार पकड़ें। ऊँचाई तभी बढ़ाएँ जब आरामदायक रहे।",
+      dose: "हर पैर पर 8 से 10 के 2 से 3 सेट।",
+    },
+    {
+      name: "रोमानियन डेडलिफ़्ट",
+      why: "हैमस्ट्रिंग और ग्लूट्स काम करते हैं। घुटने हल्के मुड़े रहते हैं और मुश्किल से हिलते हैं। जिस दिन घुटने चिड़चिड़े हों, उस दिन के लिए अच्छा लेग मूव।",
+      how: "पैर हिप जितने चौड़े, घुटने ढीले। डम्बल या बैकपैक पकड़ें। हिप्स पीछे धकेलें और वज़न को जाँघों पर नीचे फिसलने दें। पीठ लंबी। जब पैरों के पीछे खिंचाव लगे, रुकें। ग्लूट्स को कसकर खड़े हों।",
+      dose: "8 से 12 के 2 से 3 सेट।{9}",
+    },
+    {
+      name: "ग्लूट ब्रिज",
+      why: "ज़मीन से हिप की स्ट्रेंथ। घुटने की कटोरी के आसपास के दर्द में, एक रिव्यू ने पाया कि हिप वर्क और जाँघ का वर्क साथ में दर्द घटाता है और काम करने की क्षमता बढ़ाता है, और कुछ सबूत हैं कि 1 साल पर यह सिर्फ़ जाँघ के वर्क से ज़्यादा मदद करता है।{6}",
+      how: "पीठ के बल लेटें, घुटने मुड़े, पैर ज़मीन पर। एड़ियों से दबाएँ और हिप्स उठाएँ जब तक घुटने, हिप्स और कंधे एक लाइन में न हों। कसें। धीरे नीचे आएँ। आसान? एक पैर पर करें, या हिप्स पर वज़न रखें।",
+      dose: "10 से 15 के 2 से 3 सेट।",
+    },
+    {
+      name: "साइड-लाइंग लेग रेज़",
+      why: "हिप के साइड की ट्रेनिंग, वे मसल्स जो एक पैर पर खड़े होने पर पेल्विस को सीधा रखती हैं। हिप-फ़ोकस्ड वर्क उस सहमति का आधा हिस्सा है।{5}",
+      how: "करवट लेकर लेटें, नीचे वाला घुटना मुड़ा। ऊपर वाला पैर सीधा, शरीर की लाइन में, उँगलियाँ आगे की ओर। ऊपर वाला पैर लगभग एक हथेली जितना उठाएँ। धीरे नीचे लाएँ। पीछे न लुढ़कें। आसान? घुटनों के ऊपर बैंड लगाएँ।",
+      dose: "हर तरफ़ 12 से 15 के 2 से 3 सेट।",
+    },
+    {
+      name: "स्प्लिट स्क्वाट",
+      why: "दोनों पैर ज़मीन पर रखकर एक पैर की स्ट्रेंथ। न जंप, न स्टेप। गहराई आप तय करते हैं।",
+      how: "एक पैर आगे, एक पीछे, जैसे लंबा क़दम। दीवार या कुर्सी पकड़ें। पीछे वाला घुटना ज़मीन की ओर नीचे लाएँ, सिर्फ़ उतना जितना आरामदायक रहे। आगे वाला घुटना पैर के बीच के ऊपर। आगे वाले पैर से धक्का देकर ऊपर आएँ। सारे रेप एक तरफ़, फिर दूसरी तरफ़।",
+      dose: "हर पैर पर 8 से 10 के 2 सेट।",
+    },
+    {
+      name: "सीटेड नी एक्सटेंशन",
+      why: "जाँघ की आगे की मसल्स (क्वाड्रिसेप्स) अकेले। घुटने पर फ़ोकस्ड वर्क उस सहमति का दूसरा आधा हिस्सा है।{5} मशीन की ज़रूरत नहीं।",
+      how: "कुर्सी पर सीधे बैठें। एंकल वेट, या कुर्सी के पाए और टखने के चारों ओर बैंड। घुटना पूरा सीधा करें। 2 सेकंड रोकें। 3 सेकंड में नीचे लाएँ। अभी वज़न नहीं? आपका पैर ही काफ़ी है।",
+      dose: "हर पैर पर 10 से 15 के 2 से 3 सेट।",
+    },
+  ],
+  enoughHeading: "कितना नीचे, कितना भारी, कितनी बार",
+  enough: [
+    "गहराई एक डायल है, नियम नहीं। स्क्वाट में जितना नीचे जाएँ, घुटने पर फ़ोर्स उतना बढ़ता है, और सबसे नीचे के पास सबसे ज़्यादा होता है। उसी रिव्यू ने पाया कि पैरेलल स्क्वाट, जाँघें ज़मीन के समानांतर, स्वस्थ घुटने के लिए नुक़सानदेह नहीं था।{7}",
+    "डीप स्क्वाट? रिव्यू अलग राय रखते हैं। एक ने स्वस्थ घुटनों के लिए डीप की बजाय पैरेलल को बेहतर माना।{7} दूसरे ने निष्कर्ष निकाला कि अगर तकनीक विशेषज्ञ की निगरानी में सीखी जाए और वज़न धीरे बढ़े, तो डीप स्क्वाट से चोट का ख़तरा नहीं बढ़ा। उसने यह चेतावनी भी दी कि बहुत भारी हाफ़ और क्वार्टर स्क्वाट उतने सुरक्षित नहीं जितने दिखते हैं।{8} तो: गहराई कमाएँ। उतना नीचे जाएँ जितना स्मूद और आरामदायक रहे।",
+    "हिप और घुटना साथ में। घुटने की कटोरी के आसपास के दर्द के लिए 2018 की सहमति एक्सरसाइज़ थेरेपी का समर्थन करती है, ख़ासकर हिप-फ़ोकस्ड और घुटने-फ़ोकस्ड एक्सरसाइज़ साथ में।{5} आइटम 4 और 5 हिप के हैं। आइटम 1, 2, 6 और 7 घुटने के। आइटम 3 ज़्यादातर हिप का।",
+    "आपको घुटने का ऑस्टियोआर्थराइटिस बताया गया है? NICE सलाह देती है कि यह समझाया जाए कि एक्सरसाइज़ शुरू करने पर जोड़ का दर्द बढ़ सकता है, और फिर भी नियमित, लगातार एक्सरसाइज़ जोड़ों को फ़ायदा देगी।{3} अपने डॉक्टर या फ़िज़ियो से पूछें कि आपके लिए कितना ठीक है।",
+    "जारी रखें। Cochrane रिव्यू में, औपचारिक प्रोग्राम ख़त्म होने के 2 से 6 महीने बाद भी दर्द में कमी बनी रही। 1:1 प्रोग्राम का नतीजा अक्सर क्लास या घर वाले प्रोग्राम से बेहतर रहा, हालाँकि स्टडीज़ में काफ़ी फ़र्क़ था।{4}",
+    "हफ़्ते में दो बार WHO का न्यूनतम पूरा करता है।{1} जब 12 अच्छे रेप से 1 या 2 ज़्यादा कर लें, थोड़ा बढ़ाएँ: 2 से 10% ज़्यादा वज़न।{9} भारी वज़न नहीं? धीरे नीचे आएँ, बॉक्स थोड़ा नीचा करें, या एक सेट जोड़ें।",
+  ],
+  sampleHeading: "घुटनों के लिए आसान लेग स्ट्रेंथ का एक सैंपल हफ़्ता",
+  sampleLabel: "सिर्फ़ सैंपल। प्रिस्क्रिप्शन नहीं। अपने शरीर, अपनी सेहत और अपने इतिहास के हिसाब से बदलें।",
+  sample: [
+    "सोमवार, लगभग 30 मिनट: बॉक्स स्क्वाट, रोमानियन डेडलिफ़्ट, ग्लूट ब्रिज, साइड-लाइंग लेग रेज़। हर एक के 2 से 3 सेट।",
+    "मंगलवार: आसान वॉक या साइकिल।",
+    "बुधवार: आराम, या वॉक।",
+    "गुरुवार, लगभग 30 मिनट: स्टेप-अप, स्प्लिट स्क्वाट, सीटेड नी एक्सटेंशन, ग्लूट ब्रिज। हर एक के 2 से 3 सेट।",
+    "शुक्रवार: आराम।",
+    "शनिवार: कुछ ऐसा जो आपको पसंद हो। वॉक, तैराकी, साइकिल।",
+    "रविवार: आराम।",
+    "अगले दिन घुटने चिड़चिड़े? सेशन रखें, छोटा करें: ऊँची सीट, नीचा स्टेप, कम वज़न।",
+  ],
+  coachedHeading: "लाइव कोचिंग चाहिए?",
+  coached: [
+    "Iron Hour 60 मिनट का है, 1:1। मिनट 0 पर सेट-अप: कैमरा ऐसे कि मुझे आपके पैर, घुटने और हिप्स दिखें। मिनट 4 से वार्म-अप। मिनट 14 पर मुख्य लिफ़्ट, उसी गहराई पर जो हमने तय की। 28 पर एक्सेसरीज़। 50 पर कूल-डाउन।",
+    "Return 45 मिनट का है, 1:1, महीने में 12 सेशन, एक दिन छोड़कर। उनके लिए जिनकी ट्रेनिंग दुखते घुटने, ब्रेक या ज़िंदगी की वजह से रुक गई। पहले बेस बनाते हैं।",
+    "Lean Reset महीने में 20 सेशन, 1:1। Open Floor एक छोटा ग्रुप है। मैं कोच हूँ, फ़िज़ियो नहीं: अगर आपके डॉक्टर या फ़िज़ियो ने सीमाएँ तय की हैं, तो हम उन्हीं के अंदर ट्रेन करते हैं।",
+    "Google Meet, Zoom या FaceTime पर लाइव कोचिंग, आपके अपने लिविंग रूम में। पुणे से। हिंदी या अंग्रेज़ी में। IST पर। अभी तय नहीं? 30 मिनट के कंसल्टेशन से शुरू करें। यह बातचीत है, ट्रेनिंग नहीं। बुकिंग सिर्फ़ समय रोकती है। फ़ीस सीधे तय होती है।",
+  ],
+  safetyHeading: "शुरू करने से पहले",
+  safety:
+    "सामान्य जानकारी, मेडिकल सलाह नहीं। ACSM का स्क्रीनिंग मॉडल कहता है: अगर आप एक्टिव नहीं हैं, कोई लक्षण नहीं है और दिल, मेटाबॉलिक या किडनी की कोई ज्ञात बीमारी नहीं है, तो आप बिना मेडिकल क्लियरेंस के हल्की से मध्यम एक्सरसाइज़ शुरू करके धीरे-धीरे बढ़ा सकते हैं। अगर इनमें से कोई बीमारी या लक्षण है, तो पहले मेडिकल क्लियरेंस लें।{10} NHS कहती है: अगर कुछ हफ़्तों में घुटने का दर्द ठीक न हो, तो डॉक्टर (GP) से मिलें। तुरंत सलाह लें अगर घुटना बहुत दर्द कर रहा हो, आप उसे हिला न सकें या उस पर वज़न न डाल सकें, वह बहुत सूजा हो या उसका आकार बदल गया हो, वह लॉक हो, जवाब दे दे या दर्द के साथ क्लिक करे, या बहुत तेज़ बुख़ार के साथ घुटने के आसपास लाली या गर्माहट हो। बिना दर्द की क्लिक सामान्य है।{2} ब्रिटेन के बाहर, इसका मतलब है आपका डॉक्टर या पास की अर्जेंट केयर। हाल में घुटने की चोट या सर्जरी? पहले अपने सर्जन या फ़िज़ियो का प्लान मानें। ऐसी ज़मीन पर ट्रेन करें जो फिसलन वाली न हो। तेज़ दर्द, सीने में दर्द या चक्कर हो तो रुक जाएँ।",
+};
+
+const es: PostCopy = {
+  metaTitle: "Mejores ejercicios de pierna amables con la rodilla: 7 movimientos y una semana | Jalan PT",
+  metaDescription:
+    "Los 7 mejores ejercicios de pierna amables con la rodilla: sentadilla al cajón, escalón, bisagra y puente. Cuánto bajar, qué dice la ciencia y una semana.",
+  h1: "Los mejores ejercicios de pierna amables con la rodilla: 7 movimientos y una semana de ejemplo",
+  dek: "Piernas fuertes, rodillas tranquilas. Tú eliges la profundidad. La carga sube despacio. La cadera hace su parte.",
+  updated: "Actualizado el 4 de noviembre de 2026",
+  byline: "Por Susmit Jalan, entrenador en Jalan PT, Pune.",
+  credentialsNote:
+    "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+  labels: {
+    home: "Inicio",
+    blog: "Blog",
+    why: "Por qué",
+    how: "Cómo",
+    dose: "Dosis",
+    sources: "Fuentes",
+    readIn: "Leer en",
+    programs: "Ver los programas",
+    whatsapp: "Pregunta por WhatsApp",
+    whatsappText: "Hola Susmit, leí el artículo sobre ejercicios de pierna amables con la rodilla y quiero reservar una consulta",
+    skip: "Saltar al contenido",
+    crumb: "Ejercicios de pierna amables con la rodilla",
+  },
+  intro: [
+    "Las rodillas se quejan en las escaleras. O alguien te dijo que las sentadillas destrozan las rodillas. Aun así quieres piernas fuertes. Bien. Las piernas fuertes son el plan.",
+    "En la artrosis de rodilla, una revisión Cochrane reunió 44 ensayos. El ejercicio redujo el dolor unos 12 puntos en una escala de 0 a 100 y mejoró la función unos 10.{4} En el Reino Unido, NICE considera el ejercicio terapéutico un tratamiento central y menciona el fortalecimiento muscular local.{3}",
+    "Para el dolor alrededor de la rótula (dolor femoropatelar), un consenso internacional de expertos respalda el ejercicio terapéutico, sobre todo combinar ejercicios de cadera y de rodilla.{5}",
+    "La OMS recomienda trabajo de fortalecimiento muscular para todos los grandes grupos musculares 2 o más días a la semana.{1} Las piernas incluidas. Esta lista lo mantiene amable con la rodilla: tú fijas la profundidad, la carga sube despacio y la cadera trabaja tanto como la rodilla.",
+    "Esto es entrenamiento, no tratamiento. ¿Rodilla hinchada, que se bloquea o que falla? Lee primero «Antes de empezar».",
+  ],
+  listHeading: "Los 7 mejores ejercicios de pierna amables con la rodilla",
+  items: [
+    {
+      name: "Sentadilla al cajón",
+      why: "Tú eliges la profundidad y cada repetición se detiene en el mismo punto. En la sentadilla, las fuerzas en la rodilla suben cuanto más se dobla. Son más bajas en la mitad superior del recorrido.{7}",
+      how: "De pie frente a una silla firme o un cajón, pies al ancho de la cadera o un poco más. Brazos al frente, o sujeta un peso en el pecho. Siéntate hacia atrás y abajo hasta rozar el asiento. No te dejes caer. Levántate. Rodillas en la misma dirección que los dedos de los pies. ¿Demasiado? Pon un cojín y siéntate más alto.",
+      dose: "2 a 3 series de 8 a 12. Baja un poco el asiento cuando 12 te resulten fáciles y tranquilas.",
+    },
+    {
+      name: "Subida al escalón",
+      why: "Escaleras, bordillos, una cuesta. Una pierna cada vez, a la altura que elijas.",
+      how: "Empieza bajo: el primer escalón de casa sirve. Todo el pie en el escalón. Empuja con él y quédate de pie, erguido. Baja el otro pie despacio, sin dejarlo caer. Agárrate a la barandilla o a la pared. Sube la altura solo cuando siga siendo cómodo.",
+      dose: "2 a 3 series de 8 a 10 por pierna.",
+    },
+    {
+      name: "Peso muerto rumano",
+      why: "Isquiotibiales y glúteos hacen el trabajo. Las rodillas quedan algo flexionadas y casi no se mueven. Un buen ejercicio de pierna para un día de rodillas quejicas.",
+      how: "Pies al ancho de la cadera, rodillas sueltas. Sujeta una mancuerna o una mochila. Lleva la cadera atrás y deja que el peso baje por los muslos. Espalda larga. Para cuando notes el estiramiento detrás de las piernas. Sube apretando los glúteos.",
+      dose: "2 a 3 series de 8 a 12.{9}",
+    },
+    {
+      name: "Puente de glúteos",
+      why: "Fuerza de cadera desde el suelo. Para el dolor alrededor de la rótula, una revisión halló que el trabajo de cadera más el de muslo redujo el dolor y mejoró la función, con algo de evidencia de que ayudó más al año que el trabajo de muslo solo.{6}",
+      how: "Túmbate boca arriba, rodillas dobladas, pies apoyados. Empuja con los talones y sube la cadera hasta alinear rodillas, cadera y hombros. Aprieta. Baja despacio. ¿Fácil? Hazlo a una pierna, o con un peso sobre la cadera.",
+      dose: "2 a 3 series de 10 a 15.",
+    },
+    {
+      name: "Elevación lateral de pierna tumbado",
+      why: "Entrena el lateral de la cadera, los músculos que mantienen la pelvis nivelada cuando estás sobre una pierna. El trabajo de cadera es la mitad de lo que respalda el consenso.{5}",
+      how: "Túmbate de lado, rodilla de abajo doblada. Pierna de arriba recta, en línea con el cuerpo, dedos hacia delante. Sube la pierna de arriba más o menos un palmo. Baja despacio. No rotes hacia atrás. ¿Fácil? Añade una banda por encima de las rodillas.",
+      dose: "2 a 3 series de 12 a 15 por lado.",
+    },
+    {
+      name: "Sentadilla dividida (split squat)",
+      why: "Fuerza a una pierna con los dos pies en el suelo. Sin salto, sin escalón. Tú fijas la profundidad.",
+      how: "Un pie delante y otro detrás, como una zancada larga. Agárrate a una pared o una silla. Baja la rodilla de atrás hacia el suelo, solo hasta donde siga siendo cómodo. Rodilla delantera sobre el centro del pie. Empuja con el pie delantero para subir. Todas las repeticiones de un lado y luego del otro.",
+      dose: "2 series de 8 a 10 por pierna.",
+    },
+    {
+      name: "Extensión de rodilla sentado",
+      why: "Los músculos del muslo (cuádriceps) por separado. El trabajo de rodilla es la otra mitad de lo que respalda el consenso.{5} No hace falta máquina.",
+      how: "Siéntate erguido en una silla. Tobillera lastrada, o una banda atada a la pata de la silla y al tobillo. Estira la rodilla del todo. Mantén 2 segundos. Baja en 3. ¿Aún sin peso? Tu pierna basta.",
+      dose: "2 a 3 series de 10 a 15 por pierna.",
+    },
+  ],
+  enoughHeading: "Cuánto bajar, cuánto peso, cada cuánto",
+  enough: [
+    "La profundidad es un regulador, no una regla. Las fuerzas en la rodilla suben al bajar en la sentadilla y llegan al máximo cerca del fondo. La misma revisión halló que la sentadilla paralela, con los muslos paralelos al suelo, no resultó lesiva para una rodilla sana.{7}",
+    "¿Sentadilla profunda? Las revisiones no coinciden. Una prefirió la paralela a la profunda para rodillas sanas.{7} Otra concluyó que, con la técnica aprendida bajo supervisión experta y cargas que suben poco a poco, la sentadilla profunda no aumentó el riesgo de lesión. También advirtió que las medias y cuartos de sentadilla con cargas muy altas no son la opción segura que parecen.{8} Así que gánate la profundidad. Baja hasta donde siga siendo fluido y tranquilo.",
+    "Combina cadera y rodilla. Para el dolor alrededor de la rótula, el consenso de 2018 respalda el ejercicio terapéutico, sobre todo combinar ejercicios centrados en la cadera y en la rodilla.{5} Los ejercicios 4 y 5 son de cadera. El 1, 2, 6 y 7, de rodilla. El 3 es sobre todo de cadera.",
+    "¿Te han dicho que tienes artrosis de rodilla? NICE aconseja explicar que el dolor articular puede aumentar al empezar a hacer ejercicio, y que el ejercicio regular y constante beneficiará igualmente a las articulaciones.{3} Pregunta a tu médico o fisioterapeuta cuánto te conviene.",
+    "Sigue. En la revisión Cochrane, la bajada del dolor seguía ahí de 2 a 6 meses después de terminar los programas. Los programas individuales tendieron a dar mejores resultados que las clases o los programas en casa, aunque los estudios variaron mucho.{4}",
+    "Dos veces por semana cubren el mínimo de la OMS.{1} Cuando superes 12 buenas repeticiones por 1 o 2, añade un poco: un 2 a 10% más de carga.{9} ¿Sin más peso? Baja más despacio, baja un poco el cajón o añade una serie.",
+  ],
+  sampleHeading: "Una semana de ejemplo de fuerza de pierna amable con la rodilla",
+  sampleLabel: "Solo un ejemplo. No es una prescripción. Ajústalo a tu cuerpo, tu salud y tu historia.",
+  sample: [
+    "Lunes, unos 30 minutos: sentadilla al cajón, peso muerto rumano, puente de glúteos, elevación lateral de pierna. 2 a 3 series de cada uno.",
+    "Martes: un paseo o bici suave.",
+    "Miércoles: descanso, o un paseo.",
+    "Jueves, unos 30 minutos: subida al escalón, sentadilla dividida, extensión de rodilla sentado, puente de glúteos. 2 a 3 series de cada uno.",
+    "Viernes: descanso.",
+    "Sábado: algo que disfrutes. Un paseo, nadar, una ruta en bici.",
+    "Domingo: descanso.",
+    "¿Rodillas quejicas al día siguiente? Mantén la sesión, hazla más pequeña: asiento más alto, escalón más bajo, menos carga.",
+  ],
+  coachedHeading: "¿Lo quieres con entrenador en directo?",
+  coached: [
+    "Iron Hour dura 60 minutos, 1:1. Preparación en el minuto 0: la cámara colocada para verte pies, rodillas y cadera. Calentamiento desde el minuto 4. El ejercicio principal en el 14, a la profundidad acordada. Accesorios en el 28. Vuelta a la calma en el 50.",
+    "Return dura 45 minutos, 1:1, 12 sesiones al mes en días alternos. Para cuando una rodilla dolorida, un parón o la vida pararon el entrenamiento. Primero construimos la base.",
+    "Lean Reset son 20 sesiones al mes, 1:1. Open Floor es un grupo pequeño. Soy entrenador, no fisioterapeuta: si tu médico o fisio te ha puesto límites, entrenamos dentro de ellos.",
+    "En directo por Google Meet, Zoom o FaceTime, en tu propio salón. Desde Pune. En hindi o en inglés. En horario IST. ¿Aún no lo tienes claro? Empieza con una consulta de 30 minutos. Es una conversación, no un entrenamiento. La reserva solo guarda una hora. La tarifa se acuerda directamente.",
+  ],
+  safetyHeading: "Antes de empezar",
+  safety:
+    "Información general, no consejo médico. El modelo de cribado del ACSM dice: si eres inactivo, no tienes síntomas ni enfermedad cardiaca, metabólica o renal conocida, puedes empezar con ejercicio suave a moderado sin autorización médica e ir subiendo poco a poco. Si tienes alguna de esas enfermedades, o síntomas, consigue primero la autorización médica.{10} El NHS dice que veas a un médico de cabecera si el dolor de rodilla no mejora en unas semanas. Y que pidas consejo urgente si la rodilla duele mucho, no puedes moverla ni apoyar peso, está muy hinchada o ha cambiado de forma, se bloquea, falla o chasquea con dolor, o tienes fiebre muy alta con enrojecimiento o calor alrededor de la rodilla. Un chasquido sin dolor es normal.{2} Fuera del Reino Unido, eso es tu médico o el servicio de urgencias de tu zona. ¿Lesión o cirugía reciente de rodilla? Sigue primero el plan de tu cirujano o fisioterapeuta. Entrena en un suelo que no resbale. Para si notas dolor agudo, dolor en el pecho o mareo.",
+};
+
+const zh: PostCopy = {
+  metaTitle: "护膝友好的最佳腿部训练：7个动作和一周示例 | Jalan PT",
+  metaDescription:
+    "护膝友好的7个最佳腿部训练：箱式深蹲、上台阶、髋铰链、臀桥等。蹲多深、研究怎么说，以及一周训练示例。",
+  h1: "护膝友好的最佳腿部训练：7个动作和一周示例",
+  dek: "腿要有力，膝盖要安稳。深度由你选。负重慢慢加。髋部也要出力。",
+  updated: "更新于2026年11月4日",
+  byline: "作者：Susmit Jalan，Jalan PT教练，浦那。",
+  credentialsNote:
+    "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+  labels: {
+    home: "首页",
+    blog: "博客",
+    why: "为什么",
+    how: "怎么做",
+    dose: "训练量",
+    sources: "参考来源",
+    readIn: "其他语言版本",
+    programs: "查看课程",
+    whatsapp: "通过WhatsApp咨询",
+    whatsappText: "你好Susmit，我读了关于护膝友好腿部训练的文章，想预约一次咨询",
+    skip: "跳到正文",
+    crumb: "护膝友好的最佳腿部训练",
+  },
+  intro: [
+    "上楼梯时膝盖不舒服。或者有人说深蹲伤膝盖。但你还是想要有力的双腿。很好。有力的双腿就是计划本身。",
+    "针对膝骨关节炎，一篇Cochrane综述汇总了44项试验。运动让疼痛在0到100分的量表上降低约12分，身体功能改善约10分。{4}英国NICE把治疗性运动列为核心治疗，并点名提到局部肌肉强化。{3}",
+    "针对髌骨周围的疼痛（髌股疼痛），一份国际专家共识支持运动疗法，尤其是髋部训练与膝部训练结合。{5}",
+    "世界卫生组织建议每周2天或以上，对所有主要肌群进行肌肉强化训练。{1}腿部也在其中。这份清单让训练对膝盖友好：深度由你定，负重慢慢加，髋部和膝盖一样出力。",
+    "这是训练，不是治疗。膝盖肿胀、卡住或打软？请先阅读“开始之前”。",
+  ],
+  listHeading: "护膝友好的7个最佳腿部训练",
+  items: [
+    {
+      name: "箱式深蹲",
+      why: "深度由你选，每一次都停在同一个位置。深蹲时，膝盖弯曲越多，膝关节受力越大。在动作的上半段受力最小。{7}",
+      how: "站在一把结实的椅子或箱子前，双脚与髋同宽或略宽。双臂前伸，或在胸前抱一个重物。向后向下坐，直到刚好碰到座面。不要跌坐。站起。膝盖与脚尖同一方向。太难？加个靠垫，坐高一点。",
+      dose: "2到3组，每组8到12次。当12次感觉轻松又平稳时，把座面稍微降低。",
+    },
+    {
+      name: "上台阶",
+      why: "楼梯、路沿、上坡。一次一条腿，高度由你选。",
+      how: "从低处开始：家里最下面一级台阶就行。整只脚踩上台阶。用这只脚发力站直。另一只脚慢慢放下，不要掉下去。扶住栏杆或墙。只有在仍然舒适时才加高。",
+      dose: "每条腿2到3组，每组8到10次。",
+    },
+    {
+      name: "罗马尼亚硬拉",
+      why: "腘绳肌和臀肌做功。膝盖保持微屈，几乎不动。膝盖不太舒服的日子里，这是很好的腿部动作。",
+      how: "双脚与髋同宽，膝盖放松。拿一个哑铃或背包。臀部向后推，让重物沿大腿滑下。背部保持伸长。感到腿后侧有拉伸时停住。夹紧臀部站起。",
+      dose: "2到3组，每组8到12次。{9}",
+    },
+    {
+      name: "臀桥",
+      why: "从地面练髋部力量。针对髌骨周围的疼痛，一篇综述发现髋部训练加大腿训练能减轻疼痛、改善功能，并有一些证据显示在1年时比单练大腿帮助更大。{6}",
+      how: "仰卧，屈膝，双脚平放。用脚跟发力把臀部抬起，直到膝、髋、肩成一条线。夹紧。慢慢放下。太简单？改成单腿，或在髋部放一个重物。",
+      dose: "2到3组，每组10到15次。",
+    },
+    {
+      name: "侧卧抬腿",
+      why: "练髋部外侧，也就是单腿站立时让骨盆保持水平的肌肉。髋部训练是专家共识支持内容的一半。{5}",
+      how: "侧卧，下方膝盖弯曲。上方的腿伸直，与身体成一线，脚尖朝前。把上方的腿抬起约一掌高。慢慢放下。身体不要向后翻。太简单？在膝盖上方加一根弹力带。",
+      dose: "每侧2到3组，每组12到15次。",
+    },
+    {
+      name: "分腿蹲",
+      why: "双脚着地的单腿力量训练。不跳，不上台阶。深度由你定。",
+      how: "一脚在前，一脚在后，像迈了一大步。扶墙或椅子。后侧膝盖向地面下降，只降到仍然舒适的位置。前侧膝盖在脚掌中间上方。用前脚发力站起。一侧做完所有次数，再换另一侧。",
+      dose: "每条腿2组，每组8到10次。",
+    },
+    {
+      name: "坐姿伸膝",
+      why: "单独练大腿前侧（股四头肌）。膝部训练是专家共识支持内容的另一半。{5}不需要器械。",
+      how: "坐直在椅子上。绑上脚踝沙袋，或用弹力带一端套在椅子腿上、一端套在脚踝上。把膝盖完全伸直。停2秒。用3秒放下。还没有负重？用自己的腿就够了。",
+      dose: "每条腿2到3组，每组10到15次。",
+    },
+  ],
+  enoughHeading: "蹲多深、多重、多久一次",
+  enough: [
+    "深度是一个旋钮，不是规定。深蹲时越往下，膝关节受力越大，接近最低点时达到峰值。同一篇综述发现，平行深蹲（大腿与地面平行）对健康的膝盖没有造成损伤。{7}",
+    "深蹲要不要更深？综述的看法不同。一篇认为对健康膝盖来说，平行蹲比深蹲更合适。{7}另一篇的结论是：在专业指导下学会技术、负重逐步增加，深蹲并没有增加受伤风险。它还提醒，用非常大的重量做半蹲和四分之一蹲，并不像看起来那么安全。{8}所以：深度要一点点挣来。蹲到仍然顺畅、平稳的位置。",
+    "髋和膝一起练。针对髌骨周围的疼痛，2018年的共识支持运动疗法，尤其是以髋为主和以膝为主的训练结合。{5}第4和第5项练髋。第1、2、6、7项练膝。第3项主要练髋。",
+    "被诊断为膝骨关节炎？NICE建议向患者说明：刚开始运动时关节疼痛可能会加重，但规律、持续的运动仍然对关节有益。{3}请问问你的医生或物理治疗师，多少运动量适合你。",
+    "坚持下去。在Cochrane综述中，正式训练计划结束后2到6个月，疼痛的减轻仍然存在。一对一的计划往往比集体课或居家计划效果更好，不过各研究差异很大。{4}",
+    "每周两次就达到世界卫生组织的最低建议。{1}当你能比12次多做1到2次标准动作时，稍微加一点：负重增加2%到10%。{9}没有更重的器械？下放更慢、箱子稍微降低，或加一组。",
+  ],
+  sampleHeading: "护膝友好的腿部力量一周示例",
+  sampleLabel: "仅为示例，不是处方。请根据你的身体、健康状况和经历调整。",
+  sample: [
+    "周一，约30分钟：箱式深蹲、罗马尼亚硬拉、臀桥、侧卧抬腿。每个动作2到3组。",
+    "周二：轻松散步或骑车。",
+    "周三：休息，或散步。",
+    "周四，约30分钟：上台阶、分腿蹲、坐姿伸膝、臀桥。每个动作2到3组。",
+    "周五：休息。",
+    "周六：做点你喜欢的。散步、游泳、骑车。",
+    "周日：休息。",
+    "第二天膝盖不舒服？课照上，但缩小：座面更高、台阶更低、重量更轻。",
+  ],
+  coachedHeading: "想要实时指导？",
+  coached: [
+    "Iron Hour是60分钟，一对一。第0分钟准备：摆好摄像头，让我能看到你的脚、膝盖和髋部。第4分钟开始热身。第14分钟进入主项，按我们约定的深度。第28分钟做辅助练习。第50分钟放松。",
+    "Return每次45分钟，一对一，每月12次，隔天一次。为因膝盖不适、长期中断或生活忙碌而停练的人设计。我们先打基础。",
+    "Lean Reset每月20次，一对一。Open Floor是小组课。我是教练，不是物理治疗师：如果你的医生或物理治疗师设定了限制，我们就在限制之内训练。",
+    "通过Google Meet、Zoom或FaceTime实时指导，就在你家客厅。来自浦那。印地语或英语。按印度标准时间（IST）。还没决定？先从30分钟的咨询开始。那是一次交谈，不是训练。预约只是保留一个时间。费用直接商定。",
+  ],
+  safetyHeading: "开始之前",
+  safety:
+    "一般信息，不是医疗建议。ACSM的运动前筛查模型指出：如果你平时不运动、没有症状，也没有已知的心脏、代谢或肾脏疾病，可以在没有医疗许可的情况下从低到中等强度开始，逐步增加。如果有上述疾病或症状，请先取得医疗许可。{10}NHS建议：如果膝盖疼痛几周内没有好转，请去看全科医生（GP）。如果膝盖非常疼、无法活动或无法承重、明显肿胀或变形、出现卡住、打软或伴随疼痛的弹响，或者高烧并伴有膝盖周围发红发热，请立即寻求紧急建议。不痛的弹响是正常的。{2}在英国以外，这意味着去看你的医生或当地急诊。最近膝盖受过伤或做过手术？请先遵循外科医生或物理治疗师的方案。在不打滑的地面上训练。如果出现剧痛、胸痛或头晕，请停止。",
+};
+
+const ja: PostCopy = {
+  metaTitle: "ひざにやさしい脚のベストエクササイズ：7種目と1週間の例 | Jalan PT",
+  metaDescription:
+    "ひざにやさしい脚のベストエクササイズ7選：ボックススクワット、ステップアップ、ヒップヒンジ、ブリッジなど。どこまで下げるか、研究の結論、1週間の例。",
+  h1: "ひざにやさしい脚のベストエクササイズ：7種目と1週間の例",
+  dek: "脚は強く、ひざは穏やかに。深さは自分で選ぶ。負荷はゆっくり上げる。お尻と股関節にも働いてもらう。",
+  updated: "2026年11月4日更新",
+  byline: "執筆：Susmit Jalan（Jalan PT コーチ、プネー）",
+  credentialsNote:
+    "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+  labels: {
+    home: "ホーム",
+    blog: "ブログ",
+    why: "なぜ",
+    how: "やり方",
+    dose: "回数・量",
+    sources: "出典",
+    readIn: "他の言語で読む",
+    programs: "プログラムを見る",
+    whatsapp: "WhatsAppで質問する",
+    whatsappText: "こんにちは Susmit さん、ひざにやさしい脚のエクササイズの記事を読みました。相談を予約したいです",
+    skip: "本文へスキップ",
+    crumb: "ひざにやさしい脚のベストエクササイズ",
+  },
+  intro: [
+    "階段でひざが文句を言う。あるいは「スクワットはひざを壊す」と言われた。それでも強い脚がほしい。いいですね。強い脚こそが作戦です。",
+    "変形性膝関節症について、コクランのレビューが44件の試験をまとめました。運動で痛みは0〜100のスケールで約12ポイント下がり、身体機能は約10ポイント改善しました。{4}英国のNICEは運動療法を中心的な治療とし、関節まわりの筋力強化を挙げています。{3}",
+    "ひざのお皿まわりの痛み（膝蓋大腿痛）については、国際的な専門家のコンセンサスが運動療法、特に股関節とひざのエクササイズの組み合わせを支持しています。{5}",
+    "WHOは、週2日以上、すべての主要な筋群の筋力強化を勧めています。{1}脚も含まれます。このリストはひざにやさしく進めます：深さは自分で決め、負荷はゆっくり上げ、股関節もひざと同じくらい働かせます。",
+    "これはトレーニングであって治療ではありません。ひざが腫れている、引っかかる、ガクッと抜ける？まず「始める前に」を読んでください。",
+  ],
+  listHeading: "ひざにやさしい脚のベストエクササイズ7選",
+  items: [
+    {
+      name: "ボックススクワット",
+      why: "深さは自分で選べて、毎回同じ位置で止まります。スクワットでは、ひざを深く曲げるほどひざにかかる力が増えます。動きの上半分では最も小さくなります。{7}",
+      how: "丈夫な椅子か箱の前に立ち、足は腰幅かやや広めに。腕は前へ、または胸の前でおもりを持つ。後ろ下へ座り、座面に軽く触れるところまで。ドスンと落ちない。立ち上がる。ひざはつま先と同じ向き。きつい？クッションを置いて高めに座る。",
+      dose: "8〜12回を2〜3セット。12回が楽で穏やかになったら、座面を少し下げる。",
+    },
+    {
+      name: "ステップアップ",
+      why: "階段、段差、坂道。片脚ずつ、高さは自分で選びます。",
+      how: "低いところから：家の階段のいちばん下の段で十分。足裏全体を段に乗せる。その足で押して、まっすぐ立つ。反対の足はゆっくり下ろし、落とさない。手すりか壁を持つ。快適なままなら高さを上げる。",
+      dose: "片脚8〜10回を2〜3セット。",
+    },
+    {
+      name: "ルーマニアンデッドリフト",
+      why: "ハムストリングとお尻が仕事をします。ひざは軽く曲げたまま、ほとんど動きません。ひざの機嫌が悪い日にもいい脚の種目です。",
+      how: "足は腰幅、ひざはゆるめる。ダンベルかリュックを持つ。お尻を後ろへ引き、おもりを太ももに沿って下ろす。背中は長く。脚の裏側が伸びるのを感じたら止める。お尻を締めて立ち上がる。",
+      dose: "8〜12回を2〜3セット。{9}",
+    },
+    {
+      name: "グルートブリッジ",
+      why: "床の上で股関節の筋力。ひざのお皿まわりの痛みについて、あるレビューでは股関節の運動と太ももの運動の組み合わせで痛みが減り機能が改善し、1年後には太ももの運動だけより効果が大きいという根拠も一部ありました。{6}",
+      how: "仰向けで、ひざを曲げ、足裏を床に。かかとで押してお尻を上げ、ひざ・股関節・肩を一直線に。締める。ゆっくり下ろす。楽？片脚で、またはお尻の上におもりを乗せて。",
+      dose: "10〜15回を2〜3セット。",
+    },
+    {
+      name: "サイドライイング・レッグレイズ",
+      why: "股関節の外側を鍛えます。片脚で立ったときに骨盤を水平に保つ筋肉です。股関節中心の運動は、コンセンサスが支持する内容の半分です。{5}",
+      how: "横向きに寝て、下のひざは曲げる。上の脚はまっすぐ、体と一直線、つま先は前。上の脚を手のひら1枚分ほど上げる。ゆっくり下ろす。後ろに転がらない。楽？ひざの上にバンドを巻く。",
+      dose: "片側12〜15回を2〜3セット。",
+    },
+    {
+      name: "スプリットスクワット",
+      why: "両足を床につけたままの片脚の筋力。ジャンプも段差もなし。深さは自分で決めます。",
+      how: "大股で一歩踏み出したように、片足を前、片足を後ろに。壁か椅子を持つ。後ろのひざを床の方へ下ろす。快適な範囲までだけ。前のひざは足の真ん中の上。前の足で押して上がる。片側の回数を終えてから反対側。",
+      dose: "片脚8〜10回を2セット。",
+    },
+    {
+      name: "座ってのニーエクステンション",
+      why: "太ももの前（大腿四頭筋）だけを鍛えます。ひざ中心の運動は、コンセンサスが支持する内容のもう半分です。{5}マシンは要りません。",
+      how: "椅子に背すじを伸ばして座る。アンクルウエイト、または椅子の脚と足首にバンドをかける。ひざを完全に伸ばす。2秒止める。3秒かけて下ろす。まだおもりがない？自分の脚だけで十分です。",
+      dose: "片脚10〜15回を2〜3セット。",
+    },
+  ],
+  enoughHeading: "どこまで下げる、どれくらいの重さ、どのくらいの頻度",
+  enough: [
+    "深さはダイヤルであって、ルールではありません。スクワットでは下がるほどひざへの力が増え、いちばん下の近くで最大になります。同じレビューでは、太ももが床と平行になるパラレルスクワットは、健康なひざを傷めませんでした。{7}",
+    "深いスクワットは？レビューによって見解が分かれます。ひとつは健康なひざにはディープよりパラレルを勧めました。{7}もうひとつは、専門家の指導のもとで技術を身につけ、負荷を少しずつ上げれば、ディープスクワットでけがのリスクは増えないと結論づけました。さらに、非常に重いハーフやクォータースクワットは、見た目ほど安全な選択ではないと警告しています。{8}だから、深さは少しずつ手に入れる。なめらかで穏やかなままの深さまで。",
+    "股関節とひざを組み合わせる。ひざのお皿まわりの痛みについて、2018年のコンセンサスは運動療法、特に股関節中心とひざ中心のエクササイズの組み合わせを支持しています。{5}4と5は股関節。1、2、6、7はひざ。3は主に股関節です。",
+    "変形性膝関節症と言われた？NICEは、運動を始めると関節の痛みが増えることがあるが、それでも定期的に続ける運動は関節のためになる、と説明するよう勧めています。{3}自分にとってどのくらいが大丈夫か、医師か理学療法士に聞いてください。",
+    "続けましょう。コクランのレビューでは、正式なプログラムが終わってから2〜6か月後も痛みの軽減が残っていました。1対1のプログラムは、クラスや自宅プログラムより良い結果になる傾向がありましたが、研究ごとのばらつきは大きいものでした。{4}",
+    "週2回でWHOの最低ラインを満たします。{1}良いフォームで12回を1〜2回上回れたら、少し増やす：負荷を2〜10%。{9}重いおもりがない？ゆっくり下ろす、箱を少し低くする、1セット増やす。",
+  ],
+  sampleHeading: "ひざにやさしい脚の筋力づくり 1週間の例",
+  sampleLabel: "あくまでサンプルです。処方ではありません。ご自身の体、健康、これまでの経歴に合わせて調整してください。",
+  sample: [
+    "月曜、約30分：ボックススクワット、ルーマニアンデッドリフト、グルートブリッジ、サイドライイング・レッグレイズ。各2〜3セット。",
+    "火曜：楽なウォーキングかサイクリング。",
+    "水曜：休み、または散歩。",
+    "木曜、約30分：ステップアップ、スプリットスクワット、座ってのニーエクステンション、グルートブリッジ。各2〜3セット。",
+    "金曜：休み。",
+    "土曜：好きなことを。散歩、水泳、サイクリング。",
+    "日曜：休み。",
+    "翌日ひざの機嫌が悪い？セッションはやめずに、小さくする：座面を高く、段を低く、負荷を軽く。",
+  ],
+  coachedHeading: "ライブで指導を受けたい？",
+  coached: [
+    "Iron Hour は60分、1対1。0分にセットアップ：足、ひざ、股関節が見えるようにカメラを配置。4分からウォームアップ。14分にメイン種目、決めた深さで。28分に補助種目。50分にクールダウン。",
+    "Return は45分、1対1、月12回、1日おき。ひざの痛み、ブランク、生活の事情でトレーニングが止まった人のためのプログラムです。まず土台を作ります。",
+    "Lean Reset は月20回、1対1。Open Floor は少人数グループです。私はコーチで、理学療法士ではありません：医師や理学療法士から制限を受けているなら、その範囲内でトレーニングします。",
+    "Google Meet、Zoom、FaceTime でライブ指導。ご自宅のリビングで。プネーから。ヒンディー語か英語で。インド標準時（IST）で。まだ迷っている？30分の相談から始めましょう。会話であって、トレーニングではありません。予約は時間を押さえるだけ。料金は直接決めます。",
+  ],
+  safetyHeading: "始める前に",
+  safety:
+    "一般的な情報であり、医学的な助言ではありません。ACSMのスクリーニングモデルによると：運動習慣がなく、症状がなく、心臓・代謝・腎臓の病気が知られていなければ、医師の許可なしに軽〜中程度の運動を始め、少しずつ増やせます。これらの病気や症状がある場合は、先に医師の許可を得てください。{10}NHSは、ひざの痛みが数週間で良くならなければ医師（GP）に相談するよう勧めています。ひざがとても痛い、動かせない・体重をかけられない、ひどく腫れている・形が変わった、引っかかる・ガクッと抜ける・痛みを伴って鳴る、または高熱があってひざのまわりが赤い・熱い場合は、すぐに相談を。痛みのない音は正常です。{2}英国以外では、かかりつけ医や地域の救急窓口がこれにあたります。最近ひざをけがした、または手術した？まず外科医か理学療法士の計画に従ってください。滑らない床で行う。鋭い痛み、胸の痛み、めまいがあれば中止してください。",
+};
+
+const gu: PostCopy = {
+  metaTitle: "ઘૂંટણ માટે સરળ બેસ્ટ લેગ કસરતો: 7 મૂવ્સ અને એક સેમ્પલ અઠવાડિયું | Jalan PT",
+  metaDescription:
+    "મજબૂત પગ અને શાંત ઘૂંટણ માટે 7 બેસ્ટ લેગ કસરતો: બૉક્સ સ્ક્વૉટ, સ્ટેપ-અપ, હિપ હિંજ, બ્રિજ. કેટલું નીચે જવું, રિસર્ચ શું કહે છે, અને સેમ્પલ અઠવાડિયું.",
+  h1: "ઘૂંટણ માટે સરળ બેસ્ટ લેગ કસરતો: 7 મૂવ્સ અને એક સેમ્પલ અઠવાડિયું",
+  dek: "મજબૂત પગ, શાંત ઘૂંટણ. ઊંડાઈ તમે પસંદ કરો. વજન ધીમે ધીમે વધે. હિપ્સ પણ પોતાનો ભાગ ભજવે.",
+  updated: "અપડેટ: 4 નવેમ્બર 2026",
+  byline: "સુસ્મિત જાલાન, કોચ, Jalan PT, પુણે.",
+  credentialsNote:
+    "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+  labels: {
+    home: "હોમ",
+    blog: "બ્લોગ",
+    why: "શા માટે",
+    how: "કેવી રીતે",
+    dose: "ડોઝ",
+    sources: "સ્રોતો",
+    readIn: "આ ભાષામાં વાંચો",
+    programs: "પ્રોગ્રામ જુઓ",
+    whatsapp: "WhatsApp પર પૂછો",
+    whatsappText: "નમસ્તે સુસ્મિત, મેં ઘૂંટણ માટે સરળ લેગ કસરતોનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    skip: "સામગ્રી પર જાઓ",
+    crumb: "ઘૂંટણ માટે સરળ બેસ્ટ લેગ કસરતો",
+  },
+  intro: [
+    "દાદર પર ઘૂંટણ ફરિયાદ કરે છે. કે કોઈએ કહ્યું કે સ્ક્વૉટ ઘૂંટણ બગાડે છે. છતાં તમારે મજબૂત પગ જોઈએ છે. સારું. મજબૂત પગ જ પ્લાન છે.",
+    "ઘૂંટણના ઑસ્ટિયોઆર્થ્રાઇટિસ પર એક Cochrane રિવ્યૂએ 44 ટ્રાયલ ભેગા કર્યા. કસરતથી દુખાવો 0 થી 100 ના સ્કેલ પર લગભગ 12 પૉઇન્ટ ઘટ્યો, અને કામ કરવાની ક્ષમતા લગભગ 10 પૉઇન્ટ સુધરી.{4} બ્રિટનની NICE થેરાપ્યુટિક કસરતને મુખ્ય સારવાર ગણે છે, અને સાંધાની આસપાસના સ્નાયુઓની સ્ટ્રેન્થનિંગનું નામ લે છે.{3}",
+    "ઘૂંટણની ઢાંકણી આસપાસના દુખાવા (પૅટેલોફેમોરલ પેઇન) માટે એક આંતરરાષ્ટ્રીય નિષ્ણાત સહમતિ કસરત થેરાપીને ટેકો આપે છે, ખાસ કરીને હિપ અને ઘૂંટણની કસરતો સાથે.{5}",
+    "WHO અઠવાડિયે 2 કે વધુ દિવસ બધા મુખ્ય સ્નાયુ જૂથો માટે સ્ટ્રેન્થ વર્કની સલાહ આપે છે.{1} પગ પણ એમાં આવે. આ યાદી એને ઘૂંટણ માટે સરળ રાખે છે: ઊંડાઈ તમે નક્કી કરો, વજન ધીમે વધે, અને હિપ્સ ઘૂંટણ જેટલી જ મહેનત કરે.",
+    "આ ટ્રેનિંગ છે, સારવાર નહીં. ઘૂંટણ સૂજેલો છે, લૉક થાય છે કે જવાબ આપી દે છે? પહેલાં \"શરૂ કરતાં પહેલાં\" વાંચો.",
+  ],
+  listHeading: "ઘૂંટણ માટે સરળ 7 બેસ્ટ લેગ કસરતો",
+  items: [
+    {
+      name: "બૉક્સ સ્ક્વૉટ",
+      why: "ઊંડાઈ તમે પસંદ કરો, અને દરેક રેપ એક જ જગ્યાએ અટકે. સ્ક્વૉટમાં ઘૂંટણ જેટલો વધુ વળે, એના પર ફોર્સ એટલો વધે. ઉપરના અડધા ભાગમાં એ સૌથી ઓછો હોય છે.{7}",
+      how: "મજબૂત ખુરશી કે બૉક્સ સામે ઊભા રહો, પગ હિપ જેટલા પહોળા કે થોડા વધુ. હાથ આગળ, કે છાતી પાસે વજન પકડો. પાછળ અને નીચે બેસો, સીટને હળવેથી અડો ત્યાં સુધી. ધબ્બ દઈને ન પડો. ઊભા થાઓ. ઘૂંટણ એ જ દિશામાં જ્યાં પગની આંગળીઓ. વધારે લાગે? કુશન મૂકો અને ઊંચે બેસો.",
+      dose: "8 થી 12 ના 2 થી 3 સેટ. 12 સરળ અને આરામદાયક લાગે ત્યારે સીટ થોડી નીચી કરો.",
+    },
+    {
+      name: "સ્ટેપ-અપ",
+      why: "દાદર, ફૂટપાથ, ચઢાણ. એક વારમાં એક પગ, તમે પસંદ કરો એ ઊંચાઈએ.",
+      how: "નીચેથી શરૂ કરો: ઘરનું સૌથી નીચેનું પગથિયું પૂરતું છે. આખો પગ પગથિયા પર. એનાથી ધક્કો મારીને સીધા ઊભા થાઓ. બીજો પગ ધીમેથી નીચે લાવો, પાડો નહીં. રેલિંગ કે દીવાલ પકડો. આરામદાયક રહે ત્યારે જ ઊંચાઈ વધારો.",
+      dose: "દરેક પગે 8 થી 10 ના 2 થી 3 સેટ.",
+    },
+    {
+      name: "રોમાનિયન ડેડલિફ્ટ",
+      why: "હૅમસ્ટ્રિંગ અને ગ્લૂટ્સ કામ કરે છે. ઘૂંટણ થોડા વળેલા રહે અને માંડ હલે. ઘૂંટણ ચીડિયા હોય એ દિવસ માટે સારો લેગ મૂવ.",
+      how: "પગ હિપ જેટલા પહોળા, ઘૂંટણ ઢીલા. ડમ્બેલ કે બૅકપૅક પકડો. હિપ્સ પાછળ ધકેલો અને વજનને જાંઘ પર નીચે સરકવા દો. પીઠ લાંબી. પગની પાછળ ખેંચાણ લાગે ત્યાં અટકો. ગ્લૂટ્સ કસીને ઊભા થાઓ.",
+      dose: "8 થી 12 ના 2 થી 3 સેટ.{9}",
+    },
+    {
+      name: "ગ્લૂટ બ્રિજ",
+      why: "જમીન પરથી હિપની સ્ટ્રેન્થ. ઘૂંટણની ઢાંકણી આસપાસના દુખાવામાં, એક રિવ્યૂએ જોયું કે હિપ વર્ક અને જાંઘનું વર્ક સાથે દુખાવો ઘટાડે છે અને ક્ષમતા સુધારે છે, અને થોડા પુરાવા છે કે 1 વર્ષે એ ફક્ત જાંઘના વર્ક કરતાં વધુ મદદ કરે છે.{6}",
+      how: "પીઠ પર સૂઈ જાઓ, ઘૂંટણ વળેલા, પગ જમીન પર. એડીથી દબાવો અને હિપ્સ ઉપાડો, ઘૂંટણ, હિપ્સ અને ખભા એક લાઇનમાં આવે ત્યાં સુધી. કસો. ધીમેથી નીચે આવો. સરળ? એક પગે કરો, કે હિપ્સ પર વજન મૂકો.",
+      dose: "10 થી 15 ના 2 થી 3 સેટ.",
+    },
+    {
+      name: "સાઇડ-લાઇંગ લેગ રેઇઝ",
+      why: "હિપની બાજુની ટ્રેનિંગ, એ સ્નાયુઓ જે એક પગે ઊભા હો ત્યારે પેલ્વિસને સીધું રાખે છે. હિપ-ફોકસ્ડ વર્ક એ સહમતિનો અડધો ભાગ છે.{5}",
+      how: "પડખે સૂઈ જાઓ, નીચેનો ઘૂંટણ વળેલો. ઉપરનો પગ સીધો, શરીરની લાઇનમાં, આંગળીઓ આગળ તરફ. ઉપરનો પગ લગભગ એક હથેળી જેટલો ઉપાડો. ધીમેથી નીચે લાવો. પાછળ ન ગબડો. સરળ? ઘૂંટણની ઉપર બૅન્ડ લગાવો.",
+      dose: "દરેક બાજુ 12 થી 15 ના 2 થી 3 સેટ.",
+    },
+    {
+      name: "સ્પ્લિટ સ્ક્વૉટ",
+      why: "બંને પગ જમીન પર રાખીને એક પગની સ્ટ્રેન્થ. ન જમ્પ, ન સ્ટેપ. ઊંડાઈ તમે નક્કી કરો.",
+      how: "એક પગ આગળ, એક પાછળ, લાંબા ડગલા જેવું. દીવાલ કે ખુરશી પકડો. પાછળનો ઘૂંટણ જમીન તરફ નીચે લાવો, ફક્ત એટલો જેટલો આરામદાયક રહે. આગળનો ઘૂંટણ પગના વચ્ચેના ભાગ ઉપર. આગળના પગથી ધક્કો મારીને ઉપર આવો. બધા રેપ એક બાજુ, પછી બીજી બાજુ.",
+      dose: "દરેક પગે 8 થી 10 ના 2 સેટ.",
+    },
+    {
+      name: "સીટેડ ની એક્સ્ટેન્શન",
+      why: "જાંઘના આગળના સ્નાયુ (ક્વૉડ્રિસેપ્સ) એકલા. ઘૂંટણ પર ફોકસ્ડ વર્ક એ સહમતિનો બીજો અડધો ભાગ છે.{5} મશીનની જરૂર નથી.",
+      how: "ખુરશી પર ટટ્ટાર બેસો. એન્કલ વેઇટ, કે ખુરશીના પાયા અને પગની ઘૂંટી ફરતે બૅન્ડ. ઘૂંટણ પૂરો સીધો કરો. 2 સેકન્ડ રોકો. 3 સેકન્ડમાં નીચે લાવો. હજુ વજન નથી? તમારો પગ જ પૂરતો છે.",
+      dose: "દરેક પગે 10 થી 15 ના 2 થી 3 સેટ.",
+    },
+  ],
+  enoughHeading: "કેટલું નીચે, કેટલું ભારે, કેટલી વાર",
+  enough: [
+    "ઊંડાઈ એક ડાયલ છે, નિયમ નહીં. સ્ક્વૉટમાં જેટલા નીચે જાઓ, ઘૂંટણ પર ફોર્સ એટલો વધે, અને સૌથી નીચે પાસે સૌથી વધુ હોય. એ જ રિવ્યૂએ જોયું કે પૅરેલલ સ્ક્વૉટ, જાંઘ જમીનને સમાંતર, સ્વસ્થ ઘૂંટણ માટે નુકસાનકારક નહોતો.{7}",
+    "ડીપ સ્ક્વૉટ? રિવ્યૂના મત જુદા છે. એકે સ્વસ્થ ઘૂંટણ માટે ડીપ કરતાં પૅરેલલને વધુ યોગ્ય ગણ્યો.{7} બીજાએ તારણ કાઢ્યું કે નિષ્ણાતની દેખરેખમાં ટેક્નિક શીખાય અને વજન ધીમે વધે, તો ડીપ સ્ક્વૉટથી ઈજાનું જોખમ વધ્યું નહીં. એણે એ ચેતવણી પણ આપી કે બહુ ભારે હાફ અને ક્વૉર્ટર સ્ક્વૉટ દેખાય એટલા સુરક્ષિત નથી.{8} તો: ઊંડાઈ કમાઓ. એટલા નીચે જાઓ જેટલું સ્મૂધ અને આરામદાયક રહે.",
+    "હિપ અને ઘૂંટણ સાથે. ઘૂંટણની ઢાંકણી આસપાસના દુખાવા માટે 2018 ની સહમતિ કસરત થેરાપીને ટેકો આપે છે, ખાસ કરીને હિપ-ફોકસ્ડ અને ઘૂંટણ-ફોકસ્ડ કસરતો સાથે.{5} આઇટમ 4 અને 5 હિપની છે. આઇટમ 1, 2, 6 અને 7 ઘૂંટણની. આઇટમ 3 મોટે ભાગે હિપની.",
+    "તમને ઘૂંટણનો ઑસ્ટિયોઆર્થ્રાઇટિસ કહેવાયો છે? NICE સલાહ આપે છે કે સમજાવવું કે કસરત શરૂ કરતાં સાંધાનો દુખાવો વધી શકે, અને છતાં નિયમિત, સતત કસરત સાંધાને ફાયદો કરશે.{3} તમારા માટે કેટલું બરાબર છે એ તમારા ડૉક્ટર કે ફિઝિયોને પૂછો.",
+    "ચાલુ રાખો. Cochrane રિવ્યૂમાં, ઔપચારિક પ્રોગ્રામ પૂરા થયાના 2 થી 6 મહિના પછી પણ દુખાવામાં ઘટાડો ટક્યો. 1:1 પ્રોગ્રામનું પરિણામ ઘણી વાર ક્લાસ કે ઘરના પ્રોગ્રામ કરતાં સારું રહ્યું, જોકે સ્ટડીઝમાં ઘણો ફરક હતો.{4}",
+    "અઠવાડિયે બે વાર WHO નું ન્યૂનતમ પૂરું કરે છે.{1} 12 સારા રેપ કરતાં 1 કે 2 વધુ થાય ત્યારે થોડું વધારો: 2 થી 10% વધુ વજન.{9} ભારે વજન નથી? ધીમેથી નીચે આવો, બૉક્સ થોડું નીચું કરો, કે એક સેટ ઉમેરો.",
+  ],
+  sampleHeading: "ઘૂંટણ માટે સરળ લેગ સ્ટ્રેન્થનું એક સેમ્પલ અઠવાડિયું",
+  sampleLabel: "માત્ર સેમ્પલ. પ્રિસ્ક્રિપ્શન નથી. તમારા શરીર, તમારા સ્વાસ્થ્ય અને તમારા ઇતિહાસ મુજબ બદલો.",
+  sample: [
+    "સોમવાર, લગભગ 30 મિનિટ: બૉક્સ સ્ક્વૉટ, રોમાનિયન ડેડલિફ્ટ, ગ્લૂટ બ્રિજ, સાઇડ-લાઇંગ લેગ રેઇઝ. દરેકના 2 થી 3 સેટ.",
+    "મંગળવાર: સરળ વૉક કે સાઇકલ.",
+    "બુધવાર: આરામ, કે વૉક.",
+    "ગુરુવાર, લગભગ 30 મિનિટ: સ્ટેપ-અપ, સ્પ્લિટ સ્ક્વૉટ, સીટેડ ની એક્સ્ટેન્શન, ગ્લૂટ બ્રિજ. દરેકના 2 થી 3 સેટ.",
+    "શુક્રવાર: આરામ.",
+    "શનિવાર: તમને ગમે એવું કંઈક. વૉક, તરવું, સાઇકલ.",
+    "રવિવાર: આરામ.",
+    "બીજા દિવસે ઘૂંટણ ચીડિયા? સેશન રાખો, નાનું કરો: ઊંચી સીટ, નીચું પગથિયું, ઓછું વજન.",
+  ],
+  coachedHeading: "લાઇવ કોચિંગ જોઈએ છે?",
+  coached: [
+    "Iron Hour 60 મિનિટનું છે, 1:1. મિનિટ 0 પર સેટ-અપ: કૅમેરા એવી રીતે કે મને તમારા પગ, ઘૂંટણ અને હિપ્સ દેખાય. મિનિટ 4 થી વૉર્મ-અપ. મિનિટ 14 પર મુખ્ય લિફ્ટ, આપણે નક્કી કરેલી ઊંડાઈએ. 28 પર એક્સેસરીઝ. 50 પર કૂલ-ડાઉન.",
+    "Return 45 મિનિટનું છે, 1:1, મહિને 12 સેશન, એકાંતરે દિવસે. જેમની ટ્રેનિંગ દુખતા ઘૂંટણ, બ્રેક કે જીવનને કારણે અટકી ગઈ, એમના માટે. પહેલાં બેઝ બનાવીએ છીએ.",
+    "Lean Reset મહિને 20 સેશન, 1:1. Open Floor નાનું ગ્રુપ છે. હું કોચ છું, ફિઝિયો નહીં: તમારા ડૉક્ટર કે ફિઝિયોએ મર્યાદા નક્કી કરી હોય, તો આપણે એની અંદર જ ટ્રેન કરીએ.",
+    "Google Meet, Zoom કે FaceTime પર લાઇવ કોચિંગ, તમારા પોતાના લિવિંગ રૂમમાં. પુણેથી. હિન્દી કે અંગ્રેજીમાં. IST પર. હજુ નક્કી નથી? 30 મિનિટના કન્સલ્ટેશનથી શરૂ કરો. એ વાતચીત છે, ટ્રેનિંગ નહીં. બુકિંગ ફક્ત સમય રોકે છે. ફી સીધી નક્કી થાય છે.",
+  ],
+  safetyHeading: "શરૂ કરતાં પહેલાં",
+  safety:
+    "સામાન્ય માહિતી, તબીબી સલાહ નહીં. ACSM ના સ્ક્રીનિંગ મોડલ મુજબ: જો તમે નિષ્ક્રિય છો, કોઈ લક્ષણ નથી અને હૃદય, મેટાબોલિક કે કિડનીની કોઈ જાણીતી બીમારી નથી, તો તમે તબીબી મંજૂરી વગર હળવી થી મધ્યમ કસરત શરૂ કરીને ધીમે ધીમે વધારી શકો છો. જો આમાંની કોઈ બીમારી કે લક્ષણો હોય, તો પહેલાં તબીબી મંજૂરી લો.{10} NHS કહે છે: થોડાં અઠવાડિયાંમાં ઘૂંટણનો દુખાવો ન સુધરે, તો ડૉક્ટર (GP) ને મળો. તાત્કાલિક સલાહ લો જો ઘૂંટણ બહુ દુખે, તમે એને હલાવી ન શકો કે એના પર વજન ન મૂકી શકો, એ બહુ સૂજેલો હોય કે એનો આકાર બદલાયો હોય, એ લૉક થાય, જવાબ આપી દે કે દુખાવા સાથે ક્લિક કરે, કે બહુ તાવ સાથે ઘૂંટણની આસપાસ લાલાશ કે ગરમાવો હોય. દુખાવા વગરની ક્લિક સામાન્ય છે.{2} બ્રિટન બહાર, એનો અર્થ તમારા ડૉક્ટર કે નજીકની અર્જન્ટ કેર. હાલમાં ઘૂંટણની ઈજા કે સર્જરી? પહેલાં તમારા સર્જન કે ફિઝિયોનો પ્લાન અનુસરો. લપસે નહીં એવી જમીન પર ટ્રેન કરો. તીવ્ર દુખાવો, છાતીમાં દુખાવો કે ચક્કર આવે તો રોકાઈ જાઓ.",
+};
+
+export const kneeFriendlyPost: BlogPost = {
+  slug: KNEE_SLUG,
+  published: KNEE_PUBLISHED,
+  modified: KNEE_MODIFIED,
+  about: "Knee-friendly leg strength exercises",
+  sources: KNEE_SOURCES,
+  copy: { en, ar, hi, es, zh, ja, gu },
+  programLink: { href: "/online-strength-and-conditioning-coach", label: "How Iron Hour runs: 60 minutes, 1:1, minute by minute" },
+  seeAlso: ["best-strength-exercises-for-runners", "best-strength-exercises-for-over-60s"],
+};
