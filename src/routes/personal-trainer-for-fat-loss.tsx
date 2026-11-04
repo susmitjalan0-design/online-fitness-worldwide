@@ -218,7 +218,7 @@ function FatLossPage() {
                 <li key={post.slug}>
                   <a
                     href={postPathFor(post.slug, "en")}
-                    className="inline-flex items-start gap-2 text-lg font-semibold underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper"
+                    className="inline-flex items-start gap-2 text-lg font-semibold underline decoration-logo decoration-2 underline-offset-4 hover:text-copper"
                   >
                     <span>{post.copy.en.h1}</span>
                     <ArrowUpRight className="mt-1 size-4 shrink-0" aria-hidden="true" />

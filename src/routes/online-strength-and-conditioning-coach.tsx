@@ -32,6 +32,7 @@ const SC_POST_PATH = postPathFor("best-strength-and-conditioning-exercises-for-b
 const DB_POST_PATH = postPathFor("best-home-workouts-with-one-dumbbell", "en");
 const GRIP_POST_PATH = postPathFor("best-exercises-for-grip-strength", "en");
 const PARENTS_POST_PATH = postPathFor("best-strength-exercises-for-busy-parents", "en");
+const KNEE_POST_PATH = postPathFor("best-leg-exercises-for-knee-friendly-strength", "en");
 const WARM_POST_PATH = postPathFor("best-warm-up-exercises-before-strength-training", "en");
 const COOL_POST_PATH = postPathFor("best-cool-down-stretches-after-strength-training", "en");
 const CORE_BACK_POST_PATH = postPathFor("best-core-exercises-for-lower-back-health", "en");
@@ -245,6 +246,10 @@ function StrengthCoachPage() {
                 No hour free this week? Two 20-minute sessions still count:{" "}
                 <a href={PARENTS_POST_PATH}>the 7 best strength exercises for busy parents</a>.
               </li>
+              <li>
+                Knees grumpy on squats? We set the depth first:{" "}
+                <a href={KNEE_POST_PATH}>the 7 best leg exercises for knee-friendly strength</a>.
+              </li>
             </ul>
           </section>
 
@@ -293,7 +298,7 @@ function StrengthCoachPage() {
                 <li key={post.slug}>
                   <a
                     href={postPathFor(post.slug, "en")}
-                    className="inline-flex items-start gap-2 text-lg font-semibold underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper"
+                    className="inline-flex items-start gap-2 text-lg font-semibold underline decoration-logo decoration-2 underline-offset-4 hover:text-copper"
                   >
                     <span>{post.copy.en.h1}</span>
                     <ArrowUpRight className="mt-1 size-4 shrink-0" aria-hidden="true" />

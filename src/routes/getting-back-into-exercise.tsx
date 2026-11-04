@@ -26,6 +26,7 @@ const OVER_60_POST_PATH = postPathFor("best-strength-exercises-for-over-60s", "e
 const CORE_BACK_POST_PATH = postPathFor("best-core-exercises-for-lower-back-health", "en");
 const GRIP_POST_PATH = postPathFor("best-exercises-for-grip-strength", "en");
 const PARENTS_POST_PATH = postPathFor("best-strength-exercises-for-busy-parents", "en");
+const KNEE_POST_PATH = postPathFor("best-leg-exercises-for-knee-friendly-strength", "en");
 /** Read next leads with the long-break post, then the over-60s post. */
 const LEAD_SLUGS: readonly string[] = [BREAK_POST_SLUG, "best-strength-exercises-for-over-60s"];
 
@@ -205,6 +206,10 @@ function GettingBackPage() {
                 Kids at home and 20 minutes free?{" "}
                 <a href={PARENTS_POST_PATH}>Read the 7 best strength exercises for busy parents</a>.
               </li>
+              <li>
+                Knees complain on the stairs?{" "}
+                <a href={KNEE_POST_PATH}>Read the 7 best leg exercises for knee-friendly strength</a>.
+              </li>
             </ul>
           </section>
 
@@ -252,7 +257,7 @@ function GettingBackPage() {
                 <li key={post.slug}>
                   <a
                     href={postPathFor(post.slug, "en")}
-                    className="inline-flex items-start gap-2 text-lg font-semibold underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper"
+                    className="inline-flex items-start gap-2 text-lg font-semibold underline decoration-logo decoration-2 underline-offset-4 hover:text-copper"
                   >
                     <span>{post.copy.en.h1}</span>
                     <ArrowUpRight className="mt-1 size-4 shrink-0" aria-hidden="true" />
