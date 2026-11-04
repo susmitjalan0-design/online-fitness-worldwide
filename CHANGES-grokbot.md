@@ -2,6 +2,76 @@
 
 Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 
+## 4 Nov 2026 (IST), batch 15: knee-friendly leg exercises, self-hosted Outfit, shorter "More from the blog"
+
+### Blog
+- New post: **"Best leg exercises for knee-friendly strength: 7 moves and a sample week"** at `/blog/best-leg-exercises-for-knee-friendly-strength` (`src/content/blog/knee-friendly-legs.ts`, export `kneeFriendlyPost`). It targets "knee-friendly leg exercises" / "leg exercises for bad knees". It doesn't overlap an existing post: the runners and over-60s posts touch on knees but neither is about leg training around the knee.
+- The English coached card leads with Iron Hour (set-up 0 with the camera on feet, knees and hips; warm-up 4; primary 14 "at the depth we agreed"; accessories 28; cool-down 50) and links to `/online-strength-and-conditioning-coach` (`programLink`). It also names Return (45 minutes, 12 alternate-day sessions a month), Lean Reset, Open Floor and the Consultation (30 minutes, not training). New line: "I'm a coach, not a physio: if your doctor or physio has set limits, we train inside them." No prices: booking holds a time and the fee is agreed directly. Live on Meet, Zoom or FaceTime, from Pune, in Hindi or English, on IST.
+- "See also" under the intro: the runners post and the over-60s post.
+- The 7 items: box squat, step-up, Romanian deadlift, glute bridge, side-lying leg raise, split squat, seated knee extension. Each lets the reader set the depth or height.
+- "How deep, how hard, how often":
+  - Knee forces in the squat rise with knee bend and peak near the bottom; the parallel squat was not injurious to a healthy knee (Escamilla 2001).
+  - **The two squat-depth reviews disagree, and the post says so**: Escamilla favours parallel over deep for healthy knees; Hartmann 2013 concludes deep squats with supervised technique and progressive loads did not add injury risk, and warns that very heavy half and quarter squats are not the safe option they look like. The coach line is "earn your depth".
+  - Patellofemoral pain: the 2018 consensus backs exercise therapy, especially hip-focused plus knee-focused exercises (Collins 2018). Hip plus thigh work cut pain and improved function, with some (limited) evidence of more benefit at 1 year than thigh work alone (Lack 2015).
+  - Knee osteoarthritis: Cochrane (44 trials) found exercise cut pain by about 12 points and improved function by about 10 on 0–100 scales; the benefit on pain lasted 2–6 months after programmes ended; one-to-one programmes tended to do better than classes or home programmes, **with the copy noting the studies varied a lot** (Fransen 2015). NICE NG226: therapeutic exercise is a core treatment (local muscle strengthening named), and pain may increase at the start while regular exercise still benefits the joints. The copy tells readers to ask their doctor or physio how much is fine.
+  - WHO 2+ days a week; ACSM's 2–10% progression rule.
+- "Before you start": ACSM screening; the NHS "see a GP if knee pain doesn't improve within a few weeks" and the NHS urgent list (very painful, can't move or bear weight, badly swollen or changed shape, locks, gives way or painfully clicks, very high temperature with redness or heat; painless clicking is normal). Outside the UK that means "your doctor or local urgent care". After recent injury or surgery, follow the surgeon's or physio's plan first. Stop for sharp pain, chest pain or dizziness.
+- The sample week (two ~30-minute sessions, Monday and Thursday, plus walks; "Knees grumpy the next day? Keep the session, shrink it") is labelled "Sample only. Not a prescription." No client results or quotes. Credentials line in the CTA card (ASCA Level 1 and ACE; neither body endorses the business or the article). One WhatsApp CTA.
+- Localised versions at `/{ar,hi,es,zh,ja,gu}/blog/best-leg-exercises-for-knee-friendly-strength`, each with its own title, description and canonical and the full reciprocal hreflang set (7 languages and x-default). Arabic renders `dir="rtl"`. JSON-LD from `postHead`: Article, ItemList (7 items with `#item-n` URLs) and BreadcrumbList. Meta descriptions: en 155, ar 156, hi 155, es 154, gu 148, zh 50, ja 74 characters.
+- All 10 sources are real and were opened on 4 Nov 2026. Each paper's title, authors, journal, year, volume/pages and the finding used were checked against its Europe PMC record and abstract; each DOI is registered at doi.org (handle API 200). The WHO, NHS and NICE pages returned 200 and the wording used was read on each page.
+  1. WHO guidelines on physical activity and sedentary behaviour (2020): https://www.who.int/publications/i/item/9789240015128
+  2. NHS, Knee pain: https://www.nhs.uk/conditions/knee-pain/
+  3. NICE NG226, Osteoarthritis in over 16s (2022), recommendations 1.2.2, 1.3.1–1.3.3: https://www.nice.org.uk/guidance/ng226/chapter/Recommendations
+  4. Fransen et al., Exercise for osteoarthritis of the knee, Cochrane 2015;(1):CD004376: https://doi.org/10.1002/14651858.CD004376.pub3
+  5. Collins et al., 2018 consensus on exercise therapy for patellofemoral pain, Br J Sports Med 2018;52(18):1170–1178: https://doi.org/10.1136/bjsports-2018-099397
+  6. Lack et al., Proximal muscle rehabilitation for patellofemoral pain, Br J Sports Med 2015;49(21):1365–1376: https://doi.org/10.1136/bjsports-2015-094723
+  7. Escamilla, Knee biomechanics of the dynamic squat, MSSE 2001;33(1):127–141: https://doi.org/10.1097/00005768-200101000-00020
+  8. Hartmann, Wirth & Klusemann, Load on the knee and spine with squat depth, Sports Med 2013;43(10):993–1008: https://doi.org/10.1007/s40279-013-0073-6
+  9. ACSM position stand, Progression models in resistance training, MSSE 2009;41(3):687–708: https://doi.org/10.1249/MSS.0b013e3181915670
+  10. Riebe et al., ACSM preparticipation screening, MSSE 2015;47(11):2473–2479: https://doi.org/10.1249/MSS.0000000000000664
+- New routes: `src/routes/blog.best-leg-exercises-for-knee-friendly-strength.tsx` and `src/routes/$lang.blog.best-leg-exercises-for-knee-friendly-strength.tsx`. `/en/...` and `/xx/...` return 404. `src/routeTree.gen.ts` regenerated by the TanStack Router plugin during this run's build. `src/content/blog/index.ts` lists 21 posts, newest first.
+
+### Internal links
+- `/online-strength-and-conditioning-coach`, in "How Iron Hour runs": "Knees grumpy on squats? We set the depth first: the 7 best leg exercises for knee-friendly strength."
+- `/getting-back-into-exercise`, in "How Return runs": "Knees complain on the stairs? Read the 7 best leg exercises for knee-friendly strength."
+
+### Speed: Outfit is self-hosted (backlog item 10)
+- The render-blocking Google Fonts stylesheet for Outfit is gone. One variable woff2 (Latin, 32 KB, the same file and unicode range Google served, weights 100–900, so 400/500/640/800 all still work) is now `public/fonts/outfit-latin.woff2`, declared with `@font-face` (`font-display: swap`) at the top of `src/styles.css` and preloaded from `__root.tsx`.
+- Like the images, the file is committed as base64 in `binary-parts/parts/public__fonts__outfit-latin.woff2.000` with a manifest entry, and `node scripts/restore-binaries.mjs` writes it out. `.gitignore` ignores the restored `public/fonts/*.woff2`. **Any deploy must run the restore step** (it already has to for the images); if it doesn't, text falls back to the system sans, nothing breaks.
+- English, Spanish, Chinese and Japanese pages and the home page now make no request to Google Fonts at all. The `fonts.googleapis.com` / `fonts.gstatic.com` preconnects moved from the root into `scriptFontLinks`, so only the hi, gu and ar pages that load a Noto script font open those connections.
+- Outfit is under the SIL Open Font License 1.1 (noted in the CSS comment).
+
+### UX and SEO: "More from the blog"
+- Every post listed every other post (19 links and growing, longer than most articles' source lists). It now shows the newest 6, skipping posts already in "See also" (and, as before, the hybrid-race cluster on cluster posts). The "Blog" button under it still goes to the index, which links every post, and the sitemap is unchanged. `RELATED_MAX` in `src/components/blog-post.tsx` sets the number.
+
+### Theme: logo blue
+- Underlines on light-background link lists (post "More from the blog" and cluster lists, the "Read next" lists on `/getting-back-into-exercise`, `/online-strength-and-conditioning-coach` and `/personal-trainer-for-fat-loss`, and the country pages) now use the exact logo blue #014ffe (5.0:1 on bone) instead of the lifted #3d7bff (3.3:1), matching `.prose-links`. Links on ink keep #3d7bff, where it is the readable one. `home.tsx` (44 KB) was left alone: it is too large to push safely through the connector. No new colours, no orange; ink stays #030406.
+
+### SEO: sitemap
+- `public/sitemap.xml` has 161 URLs: home, six landing pages, 7 blog indexes, and 7 language URLs for each of the 21 posts, with reciprocal `xhtml:link` hreflang and x-default. `lastmod` is 2026-11-04 for home, `/getting-back-into-exercise`, `/online-strength-and-conditioning-coach`, the 7 blog indexes and the new post.
+
+### Programs (facts unchanged)
+- Iron Hour 60 min 1:1; Lean Reset 20 sessions/month 1:1; Return 45 min, 12 alternate-day sessions/month; Open Floor small group; Consultation 30 min, not training. No prices anywhere; booking holds a time, fee agreed directly.
+
+### Verified this run
+- Built a copy of the branch in `/workspace/ofw-verify` with `vite build` and the local-only verify config (stub for the missing `src/lib/preview-host-bridge.ts`, no PWA plugin, Nitro `node-server` preset, restored binaries including the new font; none of it committed). Dependencies reinstalled with npm 10 and `--legacy-peer-deps`. The build passed on Node 24.
+- The built server returned 200 for all 161 sitemap URLs, and 404 for `/en/blog/best-leg-exercises-for-knee-friendly-strength` and `/xx/blog/best-leg-exercises-for-knee-friendly-strength`. `/fonts/outfit-latin.woff2` served as `font/woff2`.
+- On all 161 URLs: one title, one description, one h1, one canonical matching the sitemap URL; every JSON-LD block parses; every post page has 8 hreflang links and 7 `#item-n` cards; no raw `{n}`; Arabic pages render `dir="rtl"`.
+- New post, all 7 languages: Article, ItemList (7) and BreadcrumbList; headings with no skips; citations 1–10 each with a matching `#source-n`; 7 "Jump to" links; "More from the blog" has 6 links. No Google Fonts request on en/es/zh/ja; the script font and its preconnects on hi/gu/ar.
+- Headless Chrome at 390px: English and Arabic posts render with Outfit; Arabic RTL is right.
+- `tsc --noEmit`: the same 14 errors as before, all from the missing platform files. ESLint on the changed files: no errors, the same fast-refresh warning in `blog-post.tsx`.
+- Pushed through the GitHub connector (signed in as `susmitjalan0-design`) because the box `gh` is `sydneysoutreach` with no push access (403). Normal commits on top of the branch head, nothing force-pushed, `main` untouched.
+
+### Still open (needs Susmit)
+- Build blockers: `scripts/grok-pwa-shared.mjs`, `src/lib/preview-host-bridge.ts`, and the auth, app-data and multiplayer files are still missing, so `npm run build` fails from a clean clone.
+- Deploy step: run `node scripts/restore-binaries.mjs` before building, now for the font as well as the images.
+- Knee post: a physio or doctor read of "Before you start" and the osteoarthritis lines would be good (same ask as the back-pain and busy-parents posts). The NHS urgent advice names NHS 111; the copy adds "outside the UK, your doctor or local urgent care".
+- Busy-parents post postpartum lines, grip post tone, back-pain post wording: still waiting for your read.
+- Native-speaker review of ar, hi, es, zh, ja and gu for all twenty-one posts. In this post: Hindi/Gujarati use "घुटनों के लिए आसान" / "ઘૂંટણ માટે સરળ" for "knee-friendly", Spanish "amables con la rodilla", Arabic "لطيفة على الركبة".
+- `clientNotes`: still labelled as samples. Replace them with real, consented quotes, or delete them.
+- `home.tsx` still uses the lifted blue underline on its light-background blog list (too big for the connector).
+- The country pages are English only.
+
 ## 3 Nov 2026 (IST), batch 14: strength exercises for busy parents, .gitignore, meta lengths, new-tab labels
 
 ### Blog
@@ -857,8 +927,8 @@ Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 4. ~~Add Return as a program card and a booking option.~~ Done 23 Oct.
 5. Get a native speaker to review the ar, hi, es, zh, ja and gu translations before launch.
 6. Point DNS for onlinefitness.com at the host before shipping canonicals. Earlier notes say GoDaddy NS had lame delegation.
-7. Next blog post ideas: "Best mobility exercises for hips and shoulders", "Best exercises for posture" (check overlap with the warm-up, cool-down and desk-workers posts first). (~~Busy parents~~ done 3 Nov. ~~Grip strength~~ done 2 Nov. ~~Women over 40~~ done 24 Oct. ~~Warm-up before strength training~~ done 25 Oct. ~~Strength and conditioning for beginners~~ done 26 Oct. ~~Home workouts with one dumbbell~~ done 28 Oct. ~~Core exercises for lower back health~~ done 1 Nov; it covers the back-pain angle, so a separate "back pain at a desk" post would overlap.)
-8. Get a physio or doctor to read the "Before you start" section of the lower back post.
+7. Next blog post ideas: "Best mobility exercises for hips and shoulders", "Best exercises for posture" (check overlap with the warm-up, cool-down and desk-workers posts first). (~~Knee-friendly leg exercises~~ done 4 Nov. ~~Busy parents~~ done 3 Nov. ~~Grip strength~~ done 2 Nov. ~~Women over 40~~ done 24 Oct. ~~Warm-up before strength training~~ done 25 Oct. ~~Strength and conditioning for beginners~~ done 26 Oct. ~~Home workouts with one dumbbell~~ done 28 Oct. ~~Core exercises for lower back health~~ done 1 Nov; it covers the back-pain angle, so a separate "back pain at a desk" post would overlap.)
+8. Get a physio or doctor to read the "Before you start" section of the lower back post (and now the knee-friendly legs post).
 9. ~~Add a `.gitignore` (`node_modules`, `.output`, local lockfiles, `public/__grok/`) so local installs stop showing as untracked.~~ Done 3 Nov (also ignores restored binaries).
-10. Self-host Outfit (woff2 via binary-parts) to drop the render-blocking Google Fonts request.
+10. ~~Self-host Outfit (woff2 via binary-parts) to drop the render-blocking Google Fonts request.~~ Done 4 Nov (`public/fonts/outfit-latin.woff2`, restored like the images).
 11. ~~Tighten Hindi, Gujarati and Arabic meta descriptions over 160 characters.~~ Done 3 Nov (11 trimmed).
