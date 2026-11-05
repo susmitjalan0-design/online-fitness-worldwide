@@ -1,0 +1,831 @@
+/**
+ * Blog post: "Best strength exercises for type 2 diabetes".
+ * Citations in copy are written as {n} and point at DIABETES_SOURCES[n - 1].
+ * Every number in the copy comes from a cited source (title, authors, journal,
+ * year, volume/pages and finding checked against the Europe PMC record and
+ * abstract, and each DOI checked as registered at doi.org, on 5 Nov 2026; the
+ * ADA position statement read in full on PMC; the WHO and NHS pages opened the
+ * same day and the wording used read on the page). The trials differ on how
+ * much resistance training alone moves HbA1c, and ADA and ACSM differ on
+ * medical clearance: the copy says so and gives both. This is general training
+ * information, not treatment: medicines, hypos and complications route to the
+ * reader's doctor. No client results, no quotes, no prices. Translations were
+ * drafted for this batch and need a native-speaker review before launch (see
+ * CHANGES-grokbot.md).
+ */
+
+import { type BlogPost, type PostCopy } from "./shared";
+
+export const DIABETES_SLUG = "best-strength-exercises-for-type-2-diabetes";
+export const DIABETES_PUBLISHED = "2026-11-05";
+export const DIABETES_MODIFIED = "2026-11-05";
+
+export const DIABETES_SOURCES = [
+  {
+    cite: "World Health Organization. WHO guidelines on physical activity and sedentary behaviour. Geneva: WHO; 2020.",
+    url: "https://www.who.int/publications/i/item/9789240015128",
+  },
+  {
+    cite: "Colberg SR, Sigal RJ, Yardley JE, et al. Physical activity/exercise and diabetes: a position statement of the American Diabetes Association. Diabetes Care. 2016;39(11):2065–2079.",
+    url: "https://doi.org/10.2337/dc16-1728",
+  },
+  {
+    cite: "Umpierre D, Ribeiro PA, Kramer CK, et al. Physical activity advice only or structured exercise training and association with HbA1c levels in type 2 diabetes: a systematic review and meta-analysis. JAMA. 2011;305(17):1790–1799.",
+    url: "https://doi.org/10.1001/jama.2011.576",
+  },
+  {
+    cite: "Sigal RJ, Kenny GP, Boulé NG, et al. Effects of aerobic training, resistance training, or both on glycemic control in type 2 diabetes: a randomized trial. Ann Intern Med. 2007;147(6):357–369.",
+    url: "https://doi.org/10.7326/0003-4819-147-6-200709180-00005",
+  },
+  {
+    cite: "Church TS, Blair SN, Cocreham S, et al. Effects of aerobic and resistance training on hemoglobin A1c levels in patients with type 2 diabetes: a randomized controlled trial. JAMA. 2010;304(20):2253–2262.",
+    url: "https://doi.org/10.1001/jama.2010.1710",
+  },
+  {
+    cite: "Dempsey PC, Larsen RN, Sethi P, et al. Benefits for type 2 diabetes of interrupting prolonged sitting with brief bouts of light walking or simple resistance activities. Diabetes Care. 2016;39(6):964–972.",
+    url: "https://doi.org/10.2337/dc15-2336",
+  },
+  {
+    cite: "Anjana RM, Unnikrishnan R, Deepa M, et al. Metabolic non-communicable disease health report of India: the ICMR-INDIAB national cross-sectional study (ICMR-INDIAB-17). Lancet Diabetes Endocrinol. 2023;11(7):474–489.",
+    url: "https://doi.org/10.1016/S2213-8587(23)00119-5",
+  },
+  {
+    cite: "NHS. Low blood sugar (hypoglycaemia). nhs.uk.",
+    url: "https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/",
+  },
+  {
+    cite: "American College of Sports Medicine. Position stand: Progression models in resistance training for healthy adults. Med Sci Sports Exerc. 2009;41(3):687–708.",
+    url: "https://doi.org/10.1249/MSS.0b013e3181915670",
+  },
+  {
+    cite: "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+    url: "https://doi.org/10.1249/MSS.0000000000000664",
+  },
+] as const;
+
+const en: PostCopy = {
+  metaTitle: "Best Strength Exercises for Type 2 Diabetes: 7 Moves and a Sample Week | Jalan PT",
+  metaDescription:
+    "The 7 best strength exercises for type 2 diabetes: sit-to-stands, rows, step-ups and more. How often to lift, what the trials found, hypo safety, a sample week.",
+  h1: "Best strength exercises for type 2 diabetes: 7 moves and a sample week",
+  dek: "Muscle uses sugar. Build more of it. Lift, walk, break up the sitting. Your doctor runs the medicine. We run the training.",
+  updated: "Updated 5 November 2026",
+  byline: "By Susmit Jalan, coach at Jalan PT, Pune.",
+  credentialsNote:
+    "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+  labels: {
+    home: "Home",
+    blog: "Blog",
+    why: "Why",
+    how: "How",
+    dose: "Dose",
+    sources: "Sources",
+    readIn: "Read this in",
+    programs: "See the programs",
+    whatsapp: "Ask on WhatsApp",
+    whatsappText: "Hi Susmit, I read the article on strength exercises for type 2 diabetes and want to book a consultation",
+    skip: "Skip to content",
+    crumb: "Best strength exercises for type 2 diabetes",
+  },
+  intro: [
+    "Your doctor said type 2 diabetes. Or \"borderline\". You are not alone. A national survey of more than 1 lakh (100,000) adults across India found diabetes in 11.4% and prediabetes in 15.3%.{7}",
+    "Muscle is part of the plan. A review of 47 trials found structured resistance training was linked with an HbA1c about 0.57 percentage points lower than in control groups.{3}",
+    "The American Diabetes Association (ADA) says adults with type 2 diabetes should ideally do both aerobic and resistance exercise, with 2 to 3 resistance sessions a week on non-consecutive days.{2} WHO advises muscle-strengthening work on 2 or more days a week for adults living with type 2 diabetes too.{1}",
+    "This list is simple strength work for big muscles, at home, with a chair, a step and a bag.",
+    "This is training, not treatment. Take insulin or tablets that can cause a hypo? Read \"Before you start\" first.",
+  ],
+  listHeading: "The 7 best strength exercises for type 2 diabetes",
+  items: [
+    {
+      name: "Sit-to-stand",
+      why: "Thighs and hips, the big muscles you use every time you get up. Half-squats were one of the simple moves used to break up sitting in a type 2 diabetes trial.{6}",
+      how: "Sit near the front of a sturdy chair, feet flat, hip-width. Arms forward. Lean in and stand up tall. Sit back down slowly, don't drop. Breathe out as you stand. Don't hold your breath. Too easy? Hold a bag of rice at your chest.",
+      dose: "1 to 3 sets of 10 to 15, stopping near tired.{2}",
+    },
+    {
+      name: "Wall push-up",
+      why: "Chest, shoulders and arms. Start on the wall, move to a kitchen counter, then a low step. The angle sets the load.",
+      how: "Hands on the wall at shoulder height, a little wider than your shoulders. Step your feet back. Body straight from head to heels. Bend your elbows and bring your chest towards the wall. Push away. Breathe out as you push.",
+      dose: "1 to 3 sets of 10 to 15.{2}",
+    },
+    {
+      name: "One-arm row",
+      why: "Upper back and arms. Pulling balances the pushing, and it keeps your head up, not down.",
+      how: "One hand on a table, feet a step apart, back long. Hold a water bottle, a bag or a dumbbell in the other hand. Pull it up towards your hip. Lower slowly. All reps one side, then the other.",
+      dose: "1 to 3 sets of 10 to 15 each arm.{2}",
+    },
+    {
+      name: "Glute bridge",
+      why: "The hips and the back of the legs, from the floor. No balance needed.",
+      how: "Lie on your back, knees bent, feet flat. Press through your heels and lift your hips until knees, hips and shoulders line up. Squeeze. Lower slowly. Breathe out as you lift. Easy? Do it on one leg, or with a weight on your hips.",
+      dose: "1 to 3 sets of 10 to 15.{2}",
+    },
+    {
+      name: "Step-up",
+      why: "One leg at a time, like the stairs. Strength and a little heart rate together.",
+      how: "Start on the bottom stair. Whole foot on the step. Push through it and stand tall. Lower the other foot slowly. Hold the rail. Go higher only when it stays smooth. Good shoes on, not bare feet.",
+      dose: "1 to 3 sets of 10 to 12 each leg.",
+    },
+    {
+      name: "Calf raise",
+      why: "Calves and ankles. Calf raises were one of the moves in the sitting-break trial, too.{6} You can do them while the kettle boils.",
+      how: "Stand tall, hands on a counter. Rise up onto the balls of your feet. Pause. Lower slowly. Easy? One foot at a time.",
+      dose: "1 to 3 sets of 12 to 15.",
+    },
+    {
+      name: "Farmer's carry",
+      why: "Grip, shoulders, trunk and legs all at once. It's walking, with load.",
+      how: "Hold a heavy bag or water bottle in each hand. Stand tall, shoulders down. Walk slowly across the room and back. Breathe normally. Put them down before your grip fails.",
+      dose: "3 walks of 20 to 40 seconds.",
+    },
+  ],
+  enoughHeading: "How much, how hard, how often",
+  enough: [
+    "ADA's starting dose for resistance work: 8 to 10 exercises, 1 to 3 sets of 10 to 15 reps, each set to near tired, on at least 2 non-consecutive days a week, preferably 3.{2} These 7 cover the big muscles. Add more when you're ready.",
+    "Lift and walk. In one trial, combined training lowered HbA1c more than either alone: an extra 0.46 points compared with aerobic training alone, and 0.59 compared with resistance training alone.{4} In another, only the combined group improved HbA1c compared with no exercise. Resistance alone (-0.16) and aerobic alone (-0.24) were not statistically significant.{5} So the trials differ on how much lifting alone does. They agree on the pair.",
+    "Most adults with diabetes: 150 minutes or more of moderate to vigorous activity a week, over at least 3 days, with no more than 2 days in a row without activity.{2} In the review, structured exercise of more than 150 minutes a week was linked with a bigger HbA1c drop (0.89) than 150 minutes or less (0.36).{3}",
+    "Break up the sitting. ADA advises light activity every 30 minutes of sitting, at least for adults with type 2 diabetes.{2} In one trial, 24 inactive adults with type 2 diabetes did 3 minutes of light walking, or simple moves like half-squats and calf raises, every 30 minutes. The rise in blood sugar after meals was about 39% smaller than on a day of sitting.{6} Small breaks, real effect. But it was 8-hour lab days, not months.",
+    "When you beat 15 good reps by 1 or 2, add a little: 2 to 10% more load.{9} No heavier weight? Slow down the lowering, or add a set.",
+  ],
+  sampleHeading: "A sample week of strength training for type 2 diabetes",
+  sampleLabel: "Sample only. Not a prescription. Adjust it with your doctor to your body, your medicines and your history.",
+  sample: [
+    "Monday, about 30 minutes: sit-to-stand, wall push-up, one-arm row, glute bridge. 1 to 3 sets each.",
+    "Tuesday: a 30-minute walk.",
+    "Wednesday, about 30 minutes: step-up, wall push-up, one-arm row, calf raise, farmer's carry.",
+    "Thursday: a 30-minute walk.",
+    "Friday, about 30 minutes: Monday's session again.",
+    "Saturday: something you enjoy. A long walk, a swim, a ride.",
+    "Sunday: rest, or an easy walk.",
+    "Every day: after 30 minutes of sitting, 3 minutes up. Sit-to-stands, calf raises or a walk round the house.",
+  ],
+  coachedHeading: "Want it coached live?",
+  coached: [
+    "Lean Reset is 20 sessions a month, 1:1. Enough that you rarely go two days without training.",
+    "Iron Hour is 60 minutes, 1:1. Set-up at minute 0: water and a quick snack within reach, your meter nearby if your doctor wants you to check. Warm-up from minute 4. The primary lift at 14. Accessories at 28. Cool-down at 50.",
+    "Return is 45 minutes, 1:1, 12 alternate-day sessions a month, if you haven't trained in years. Open Floor is a small group. I'm a coach, not your doctor: your doctor sets the medicine and the limits, and we train inside them.",
+    "Coached live on Google Meet, Zoom or FaceTime, in your own living room. From Pune. In Hindi or English. On IST. Not sure yet? Start with a 30-minute consultation. It is a conversation, not training. Booking holds a time. The fee is agreed directly.",
+  ],
+  safetyHeading: "Before you start",
+  safety:
+    "General information, not medical advice. ADA says medical clearance is generally not needed before low or moderate activity, no harder than brisk walking or everyday living, if you have no symptoms.{2} ACSM's screening model is stricter: if you are inactive and have diabetes, get medical clearance first, even for light exercise.{10} They differ, so talk to your doctor before you start. ADA flags a risk of low blood sugar during and after exercise for people taking insulin or insulin secretagogues (medicines that make the body release more insulin).{2} Any change to your dose is your doctor's call. The NHS lists hypo symptoms including feeling hungry, dizzy, shaky or sweaty, a pounding heart, feeling tired or weak, blurred vision and confusion. If you have symptoms or your blood sugar is below 4 mmol/L (about 72 mg/dL), eat or drink something sugary that works fast, such as a small glass of fruit juice or 5 glucose tablets, and check again after 10 to 15 minutes.{8} Stop the session. With severe non-proliferative or unstable proliferative diabetic retinopathy, ADA says to avoid vigorous aerobic or resistance exercise, jumping, jarring, head-down moves and holding your breath.{2} Ask your eye doctor where you stand. Nerve damage in the feet? ADA advises keeping feet dry, wearing suitable shoes and checking your feet every day for blisters or sores.{2} Stop if you get chest pain, dizziness or sharp pain.",
+};
+
+const ar: PostCopy = {
+  metaTitle: "أفضل تمارين القوة لمرضى السكري من النوع الثاني: 7 تمارين ونموذج لأسبوع | Jalan PT",
+  metaDescription:
+    "أفضل 7 تمارين قوة لمرضى السكري من النوع الثاني: النهوض من الكرسي، والتجديف، والصعود على درجة. كم مرة تتمرن، وما وجدته التجارب، والأمان من الهبوط، ونموذج لأسبوع.",
+  h1: "أفضل تمارين القوة لمرضى السكري من النوع الثاني: 7 تمارين ونموذج لأسبوع",
+  dek: "العضلات تستهلك السكر. ابنِ المزيد منها. ارفع الأوزان، وامشِ، وقطّع الجلوس. طبيبك يتولى الدواء. ونحن نتولى التدريب.",
+  updated: "تم التحديث في 5 نوفمبر 2026",
+  byline: "بقلم سوسميت جالان، مدرب في Jalan PT، بونه.",
+  credentialsNote:
+    "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+  labels: {
+    home: "الرئيسية",
+    blog: "المدونة",
+    why: "لماذا",
+    how: "كيف",
+    dose: "الجرعة",
+    sources: "المصادر",
+    readIn: "اقرأ بلغة أخرى",
+    programs: "اطّلع على البرامج",
+    whatsapp: "اسأل عبر واتساب",
+    whatsappText: "مرحباً سوسميت، قرأت مقال تمارين القوة لمرضى السكري من النوع الثاني وأريد حجز استشارة",
+    skip: "انتقل إلى المحتوى",
+    crumb: "أفضل تمارين القوة لمرضى السكري من النوع الثاني",
+  },
+  intro: [
+    "قال لك طبيبك: سكري من النوع الثاني. أو «على الحدّ». لست وحدك. وجد مسح وطني شمل أكثر من 100,000 بالغ في أنحاء الهند السكري لدى 11.4% منهم، ومقدمات السكري لدى 15.3%.{7}",
+    "العضلات جزء من الخطة. وجدت مراجعة شملت 47 تجربة أن تمارين المقاومة المنظمة ارتبطت بانخفاض في السكر التراكمي (HbA1c) بنحو 0.57 نقطة مئوية مقارنة بالمجموعات الضابطة.{3}",
+    "تقول الجمعية الأمريكية للسكري (ADA) إن البالغين المصابين بالسكري من النوع الثاني يُفضَّل أن يجمعوا بين التمارين الهوائية وتمارين المقاومة، مع 2 إلى 3 حصص مقاومة في الأسبوع في أيام غير متتالية.{2} وتوصي منظمة الصحة العالمية بتمارين تقوية العضلات في يومين أو أكثر في الأسبوع للبالغين المصابين بالسكري من النوع الثاني أيضاً.{1}",
+    "هذه القائمة تمارين قوة بسيطة للعضلات الكبيرة، في البيت، بكرسي ودرجة وحقيبة.",
+    "هذا تدريب، وليس علاجاً. تأخذ الإنسولين أو أقراصاً قد تسبب هبوط السكر؟ اقرأ «قبل أن تبدأ» أولاً.",
+  ],
+  listHeading: "أفضل 7 تمارين قوة لمرضى السكري من النوع الثاني",
+  items: [
+    {
+      name: "النهوض من الكرسي (Sit-to-stand)",
+      why: "الفخذان والوركان، العضلات الكبيرة التي تستخدمها كلما نهضت. كان نصف القرفصاء أحد التمارين البسيطة المستخدمة لتقطيع الجلوس في تجربة على مرضى السكري من النوع الثاني.{6}",
+      how: "اجلس قرب مقدمة كرسي متين، والقدمان على الأرض بعرض الوركين. الذراعان إلى الأمام. مِل إلى الأمام وقف مستقيماً. اجلس ببطء، لا ترتمِ. أخرج النفس وأنت تنهض. لا تحبس نفسك. سهل جداً؟ أمسك كيس أرز أمام صدرك.",
+      dose: "من 1 إلى 3 مجموعات من 10 إلى 15، وتوقّف قرب التعب.{2}",
+    },
+    {
+      name: "الضغط على الجدار (Wall push-up)",
+      why: "الصدر والكتفان والذراعان. ابدأ على الجدار، ثم طاولة المطبخ، ثم درجة منخفضة. الزاوية تحدد الحمل.",
+      how: "اليدان على الجدار بارتفاع الكتفين، وأوسع قليلاً من الكتفين. أرجع قدميك خطوة. الجسم مستقيم من الرأس إلى الكعبين. اثنِ المرفقين وقرّب صدرك من الجدار. ادفع بعيداً. أخرج النفس وأنت تدفع.",
+      dose: "من 1 إلى 3 مجموعات من 10 إلى 15.{2}",
+    },
+    {
+      name: "التجديف بذراع واحدة (One-arm row)",
+      why: "أعلى الظهر والذراعان. السحب يوازن الدفع، ويبقي رأسك مرفوعاً لا منخفضاً.",
+      how: "يد على طاولة، والقدمان بينهما خطوة، والظهر ممدود. أمسك زجاجة ماء أو حقيبة أو دمبلاً باليد الأخرى. اسحبها نحو وركك. أنزلها ببطء. أكمل كل التكرارات على جانب، ثم الآخر.",
+      dose: "من 1 إلى 3 مجموعات من 10 إلى 15 لكل ذراع.{2}",
+    },
+    {
+      name: "جسر الألوية (Glute bridge)",
+      why: "الوركان وخلف الساقين، من الأرض. لا يحتاج إلى توازن.",
+      how: "استلقِ على ظهرك، والركبتان مثنيتان، والقدمان على الأرض. اضغط بكعبيك وارفع وركيك حتى تصطف الركبتان والوركان والكتفان. اشدد. انزل ببطء. أخرج النفس وأنت ترفع. سهل؟ أدّه على ساق واحدة، أو مع وزن على وركيك.",
+      dose: "من 1 إلى 3 مجموعات من 10 إلى 15.{2}",
+    },
+    {
+      name: "الصعود على درجة (Step-up)",
+      why: "ساق واحدة في كل مرة، مثل الدرج. قوة وقليل من نبض القلب معاً.",
+      how: "ابدأ بالدرجة الأولى. القدم كلها على الدرجة. ادفع بها وقف مستقيماً. أنزل القدم الأخرى ببطء. أمسك الدرابزين. لا ترفع الارتفاع إلا حين تبقى الحركة سلسة. البس حذاءً مناسباً، لا حافي القدمين.",
+      dose: "من 1 إلى 3 مجموعات من 10 إلى 12 لكل ساق.",
+    },
+    {
+      name: "رفع الكعبين (Calf raise)",
+      why: "عضلات الساق الخلفية والكاحلان. كان رفع الكعبين أيضاً من تمارين تجربة تقطيع الجلوس.{6} يمكنك أداؤه بينما يغلي الماء.",
+      how: "قف مستقيماً، واليدان على طاولة المطبخ. ارتفع على مقدمة قدميك. توقّف لحظة. انزل ببطء. سهل؟ قدم واحدة في كل مرة.",
+      dose: "من 1 إلى 3 مجموعات من 12 إلى 15.",
+    },
+    {
+      name: "مشية المزارع (Farmer's carry)",
+      why: "القبضة والكتفان والجذع والساقان معاً. إنها مشي، مع حمل.",
+      how: "أمسك حقيبة ثقيلة أو زجاجة ماء بكل يد. قف مستقيماً، والكتفان إلى الأسفل. امشِ ببطء عبر الغرفة وعُد. تنفّس بشكل طبيعي. ضعهما أرضاً قبل أن تضعف قبضتك.",
+      dose: "3 جولات مشي من 20 إلى 40 ثانية.",
+    },
+  ],
+  enoughHeading: "كم، وما الشدة، وكم مرة",
+  enough: [
+    "الجرعة الأولى لتمارين المقاومة عند ADA: من 8 إلى 10 تمارين، من 1 إلى 3 مجموعات من 10 إلى 15 تكراراً، كل مجموعة حتى قرب التعب، في يومين غير متتاليين على الأقل في الأسبوع، ويُفضَّل 3.{2} هذه التمارين السبعة تغطي العضلات الكبيرة. أضف المزيد حين تكون مستعداً.",
+    "ارفع الأوزان وامشِ. في تجربة، خفّض التدريب المشترك السكر التراكمي أكثر من كل نوع وحده: 0.46 نقطة إضافية مقارنة بالتمارين الهوائية وحدها، و0.59 مقارنة بتمارين المقاومة وحدها.{4} وفي تجربة أخرى، تحسّن السكر التراكمي في المجموعة المشتركة فقط مقارنة بعدم التمرين. أما المقاومة وحدها (-0.16) والهوائية وحدها (-0.24) فلم تكونا ذواتي دلالة إحصائية.{5} إذن تختلف التجارب في أثر رفع الأوزان وحده. وتتفق على الجمع بين الاثنين.",
+    "لمعظم البالغين المصابين بالسكري: 150 دقيقة أو أكثر من النشاط المعتدل إلى الشديد في الأسبوع، موزعة على 3 أيام على الأقل، دون أن يمر أكثر من يومين متتاليين بلا نشاط.{2} وفي المراجعة، ارتبط التمرين المنظم لأكثر من 150 دقيقة في الأسبوع بانخفاض أكبر في السكر التراكمي (0.89) مقارنة بـ150 دقيقة أو أقل (0.36).{3}",
+    "قطّع الجلوس. تنصح ADA بنشاط خفيف كل 30 دقيقة من الجلوس، على الأقل للبالغين المصابين بالسكري من النوع الثاني.{2} في تجربة، قام 24 بالغاً غير نشطين مصابين بالسكري من النوع الثاني بـ3 دقائق من المشي الخفيف، أو حركات بسيطة مثل نصف القرفصاء ورفع الكعبين، كل 30 دقيقة. كان ارتفاع سكر الدم بعد الوجبات أصغر بنحو 39% مقارنة بيوم من الجلوس.{6} فواصل صغيرة، وأثر حقيقي. لكنها كانت أيام مختبر من 8 ساعات، لا أشهراً.",
+    "عندما تتجاوز 15 تكراراً جيداً بتكرار أو اثنين، أضف قليلاً: حملاً أكثر بنسبة 2 إلى 10%.{9} لا وزن أثقل؟ أبطئ النزول، أو أضف مجموعة.",
+  ],
+  sampleHeading: "نموذج لأسبوع من تمارين القوة لمرضى السكري من النوع الثاني",
+  sampleLabel: "نموذج فقط. ليس وصفة. عدّله مع طبيبك بحسب جسمك وأدويتك وتاريخك.",
+  sample: [
+    "الاثنين، نحو 30 دقيقة: النهوض من الكرسي، والضغط على الجدار، والتجديف بذراع واحدة، وجسر الألوية. من 1 إلى 3 مجموعات لكل تمرين.",
+    "الثلاثاء: مشي لمدة 30 دقيقة.",
+    "الأربعاء، نحو 30 دقيقة: الصعود على درجة، والضغط على الجدار، والتجديف بذراع واحدة، ورفع الكعبين، ومشية المزارع.",
+    "الخميس: مشي لمدة 30 دقيقة.",
+    "الجمعة، نحو 30 دقيقة: حصة الاثنين مرة أخرى.",
+    "السبت: شيء تستمتع به. مشي طويل، أو سباحة، أو ركوب دراجة.",
+    "الأحد: راحة، أو مشي سهل.",
+    "كل يوم: بعد 30 دقيقة من الجلوس، 3 دقائق وقوفاً. النهوض من الكرسي، أو رفع الكعبين، أو جولة مشي في البيت.",
+  ],
+  coachedHeading: "تريد تدريباً مباشراً؟",
+  coached: [
+    "Lean Reset هو 20 حصة في الشهر، فردياً. يكفي لكي لا يمر عليك يومان بلا تدريب إلا نادراً.",
+    "Iron Hour مدته 60 دقيقة، فردياً. التجهيز في الدقيقة 0: ماء ووجبة خفيفة سريعة في متناول يدك، وجهاز قياس السكر قريب إن أرادك طبيبك أن تقيس. الإحماء من الدقيقة 4. الرفعة الأساسية في 14. التمارين المساعدة في 28. التهدئة في 50.",
+    "Return مدته 45 دقيقة، فردياً، 12 حصة في الشهر يوماً بعد يوم، إن لم تتدرب منذ سنوات. Open Floor مجموعة صغيرة. أنا مدرب، لست طبيبك: طبيبك يحدد الدواء والحدود، ونحن نتدرب ضمنها.",
+    "تدريب مباشر عبر Google Meet أو Zoom أو FaceTime، في غرفة معيشتك. من بونه. بالهندية أو الإنجليزية. بتوقيت الهند (IST). لم تقرر بعد؟ ابدأ باستشارة مدتها 30 دقيقة. إنها محادثة، وليست تدريباً. الحجز يثبّت موعداً فقط. والرسوم يُتفق عليها مباشرة.",
+  ],
+  safetyHeading: "قبل أن تبدأ",
+  safety:
+    "معلومات عامة، وليست نصيحة طبية. تقول ADA إن التصريح الطبي غير مطلوب عادة قبل نشاط خفيف أو معتدل، لا يزيد عن المشي السريع أو الحياة اليومية، إن لم تكن لديك أعراض.{2} ونموذج الفحص لدى ACSM أكثر تشدداً: إن كنت غير نشط ولديك سكري، فاحصل على تصريح طبي أولاً، حتى للتمارين الخفيفة.{10} يختلفان، لذا تحدّث مع طبيبك قبل أن تبدأ. تنبّه ADA إلى خطر هبوط سكر الدم أثناء التمرين وبعده لمن يأخذون الإنسولين أو محفزات إفراز الإنسولين (أدوية تجعل الجسم يفرز مزيداً من الإنسولين).{2} وأي تغيير في الجرعة قرار طبيبك. تذكر NHS من أعراض الهبوط: الجوع، والدوخة، والارتجاف أو التعرق، وخفقان القلب، والتعب أو الضعف، وتشوش الرؤية، والارتباك. إن ظهرت الأعراض أو كان سكر دمك أقل من 4 مليمول/لتر (نحو 72 ملغ/دل)، فكُل أو اشرب شيئاً سكرياً سريع المفعول، مثل كأس صغيرة من عصير الفاكهة أو 5 أقراص جلوكوز، وأعد القياس بعد 10 إلى 15 دقيقة.{8} أوقف الحصة. مع اعتلال الشبكية السكري غير التكاثري الشديد أو التكاثري غير المستقر، تقول ADA بتجنب التمارين الهوائية أو تمارين المقاومة الشديدة، والقفز، والحركات الارتجاجية، والحركات التي يكون فيها الرأس إلى الأسفل، وحبس النفس.{2} اسأل طبيب العيون عن وضعك. تلف في أعصاب القدمين؟ تنصح ADA بإبقاء القدمين جافتين، ولبس حذاء مناسب، وفحص القدمين كل يوم بحثاً عن بثور أو قروح.{2} توقّف إن شعرت بألم في الصدر أو دوخة أو ألم حاد.",
+};
+
+const hi: PostCopy = {
+  metaTitle: "टाइप 2 डायबिटीज़ के लिए बेस्ट स्ट्रेंथ एक्सरसाइज़: 7 मूव्स और एक सैंपल हफ़्ता | Jalan PT",
+  metaDescription:
+    "टाइप 2 डायबिटीज़ के लिए 7 बेस्ट स्ट्रेंथ एक्सरसाइज़: सिट-टू-स्टैंड, रो, स्टेप-अप और भी। कितनी बार करें, ट्रायल क्या कहते हैं, हाइपो से बचाव, और एक सैंपल हफ़्ता।",
+  h1: "टाइप 2 डायबिटीज़ के लिए बेस्ट स्ट्रेंथ एक्सरसाइज़: 7 मूव्स और एक सैंपल हफ़्ता",
+  dek: "मसल्स शुगर इस्तेमाल करती हैं। उन्हें और बनाइए। वज़न उठाइए, चलिए, बैठना तोड़िए। दवा आपके डॉक्टर देखेंगे। ट्रेनिंग हम।",
+  updated: "5 नवंबर 2026 को अपडेट किया गया",
+  byline: "लेखक: सुस्मित जालान, कोच, Jalan PT, पुणे।",
+  credentialsNote:
+    "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के पास मौजूद क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस बिज़नेस या इस लेख का समर्थन नहीं करती।",
+  labels: {
+    home: "होम",
+    blog: "ब्लॉग",
+    why: "क्यों",
+    how: "कैसे",
+    dose: "डोज़",
+    sources: "स्रोत",
+    readIn: "इस भाषा में पढ़ें",
+    programs: "प्रोग्राम देखें",
+    whatsapp: "WhatsApp पर पूछें",
+    whatsappText: "नमस्ते सुस्मित, मैंने टाइप 2 डायबिटीज़ के लिए स्ट्रेंथ एक्सरसाइज़ वाला लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    skip: "सीधे कंटेंट पर जाएँ",
+    crumb: "टाइप 2 डायबिटीज़ के लिए बेस्ट स्ट्रेंथ एक्सरसाइज़",
+  },
+  intro: [
+    "डॉक्टर ने कहा टाइप 2 डायबिटीज़। या \"बॉर्डरलाइन\"। आप अकेले नहीं हैं। पूरे भारत में 1 लाख से ज़्यादा वयस्कों के एक राष्ट्रीय सर्वे में 11.4% में डायबिटीज़ और 15.3% में प्रीडायबिटीज़ मिली।{7}",
+    "मसल्स प्लान का हिस्सा हैं। 47 ट्रायल के एक रिव्यू में, स्ट्रक्चर्ड रेज़िस्टेंस ट्रेनिंग के साथ HbA1c कंट्रोल ग्रुप की तुलना में लगभग 0.57 परसेंटेज पॉइंट कम पाया गया।{3}",
+    "अमेरिकन डायबिटीज़ एसोसिएशन (ADA) कहता है कि टाइप 2 डायबिटीज़ वाले वयस्कों को आदर्श रूप से एरोबिक और रेज़िस्टेंस दोनों तरह की एक्सरसाइज़ करनी चाहिए, हफ़्ते में 2 से 3 रेज़िस्टेंस सेशन, लगातार नहीं, बीच में एक दिन छोड़कर।{2} WHO भी टाइप 2 डायबिटीज़ के साथ जी रहे वयस्कों को हफ़्ते में 2 या ज़्यादा दिन मसल्स मज़बूत करने वाली एक्सरसाइज़ की सलाह देता है।{1}",
+    "यह लिस्ट बड़ी मसल्स के लिए सीधी-सादी स्ट्रेंथ एक्सरसाइज़ है, घर पर, एक कुर्सी, एक सीढ़ी और एक थैले के साथ।",
+    "यह ट्रेनिंग है, इलाज नहीं। इंसुलिन या ऐसी गोलियाँ लेते हैं जिनसे हाइपो हो सकता है? पहले \"शुरू करने से पहले\" पढ़ें।",
+  ],
+  listHeading: "टाइप 2 डायबिटीज़ के लिए 7 बेस्ट स्ट्रेंथ एक्सरसाइज़",
+  items: [
+    {
+      name: "सिट-टू-स्टैंड (कुर्सी से उठना)",
+      why: "जाँघें और हिप्स, वो बड़ी मसल्स जो आप हर बार उठते समय इस्तेमाल करते हैं। टाइप 2 डायबिटीज़ के एक ट्रायल में बैठना तोड़ने के लिए इस्तेमाल हुई सीधी मूव्स में हाफ़-स्क्वॉट भी था।{6}",
+      how: "मज़बूत कुर्सी के आगे वाले हिस्से पर बैठें, पैर ज़मीन पर, हिप्स जितनी दूरी पर। हाथ आगे। आगे झुकें और सीधे खड़े हो जाएँ। धीरे से वापस बैठें, धम्म से नहीं। उठते समय साँस छोड़ें। साँस न रोकें। बहुत आसान? छाती के पास चावल का थैला पकड़ें।",
+      dose: "10 से 15 के 1 से 3 सेट, थकान के क़रीब रुकें।{2}",
+    },
+    {
+      name: "वॉल पुश-अप",
+      why: "छाती, कंधे और बाँहें। दीवार से शुरू करें, फिर किचन काउंटर, फिर नीची सीढ़ी। एंगल ही लोड तय करता है।",
+      how: "हाथ दीवार पर कंधे की ऊँचाई पर, कंधों से थोड़ा चौड़े। पैर एक क़दम पीछे। सिर से एड़ी तक शरीर सीधा। कोहनियाँ मोड़ें और छाती दीवार की ओर लाएँ। धक्का देकर वापस आएँ। धक्का देते समय साँस छोड़ें।",
+      dose: "10 से 15 के 1 से 3 सेट।{2}",
+    },
+    {
+      name: "वन-आर्म रो",
+      why: "ऊपरी पीठ और बाँहें। खींचना धकेलने का संतुलन बनाता है, और सिर ऊपर रहता है, नीचे नहीं।",
+      how: "एक हाथ टेबल पर, पैर एक क़दम की दूरी पर, पीठ लंबी। दूसरे हाथ में पानी की बोतल, थैला या डंबल। उसे हिप की ओर ऊपर खींचें। धीरे से नीचे करें। सारे रेप एक तरफ़, फिर दूसरी तरफ़।",
+      dose: "हर हाथ से 10 से 15 के 1 से 3 सेट।{2}",
+    },
+    {
+      name: "ग्लूट ब्रिज",
+      why: "हिप्स और पैरों का पिछला हिस्सा, ज़मीन से। बैलेंस की ज़रूरत नहीं।",
+      how: "पीठ के बल लेटें, घुटने मुड़े, पैर ज़मीन पर। एड़ियों से दबाएँ और हिप्स उठाएँ जब तक घुटने, हिप्स और कंधे एक लाइन में न आ जाएँ। कसें। धीरे से नीचे आएँ। उठाते समय साँस छोड़ें। आसान? एक पैर पर करें, या हिप्स पर वज़न रखें।",
+      dose: "10 से 15 के 1 से 3 सेट।{2}",
+    },
+    {
+      name: "स्टेप-अप",
+      why: "एक समय में एक पैर, सीढ़ियों की तरह। स्ट्रेंथ और थोड़ी हार्ट रेट साथ में।",
+      how: "सबसे नीचे वाली सीढ़ी से शुरू करें। पूरा पैर सीढ़ी पर। उससे धक्का देकर सीधे खड़े हों। दूसरा पैर धीरे से नीचे लाएँ। रेलिंग पकड़ें। ऊँचाई तभी बढ़ाएँ जब मूव स्मूद रहे। अच्छे जूते पहनें, नंगे पैर नहीं।",
+      dose: "हर पैर से 10 से 12 के 1 से 3 सेट।",
+    },
+    {
+      name: "काफ़ रेज़",
+      why: "पिंडलियाँ और टखने। बैठना तोड़ने वाले ट्रायल की मूव्स में काफ़ रेज़ भी थी।{6} चाय का पानी उबलने तक कर सकते हैं।",
+      how: "सीधे खड़े हों, हाथ काउंटर पर। पंजों के अगले हिस्से पर ऊपर उठें। रुकें। धीरे से नीचे आएँ। आसान? एक-एक पैर से।",
+      dose: "12 से 15 के 1 से 3 सेट।",
+    },
+    {
+      name: "फ़ार्मर्स कैरी",
+      why: "ग्रिप, कंधे, धड़ और पैर एक साथ। यह चलना है, वज़न के साथ।",
+      how: "हर हाथ में एक भारी थैला या पानी की बोतल पकड़ें। सीधे खड़े हों, कंधे नीचे। कमरे में धीरे-धीरे जाएँ और वापस आएँ। सामान्य साँस लें। ग्रिप छूटने से पहले नीचे रख दें।",
+      dose: "20 से 40 सेकंड की 3 वॉक।",
+    },
+  ],
+  enoughHeading: "कितना, कितना भारी, कितनी बार",
+  enough: [
+    "रेज़िस्टेंस ट्रेनिंग के लिए ADA की शुरुआती डोज़: 8 से 10 एक्सरसाइज़, 10 से 15 रेप के 1 से 3 सेट, हर सेट थकान के क़रीब तक, हफ़्ते में कम से कम 2 दिन (लगातार नहीं), बेहतर हो तो 3।{2} ये 7 बड़ी मसल्स कवर करती हैं। तैयार हों तो और जोड़ें।",
+    "वज़न भी, वॉक भी। एक ट्रायल में, दोनों को मिलाकर की गई ट्रेनिंग ने HbA1c किसी एक से ज़्यादा घटाया: सिर्फ़ एरोबिक की तुलना में 0.46 पॉइंट ज़्यादा, और सिर्फ़ रेज़िस्टेंस की तुलना में 0.59।{4} दूसरे ट्रायल में, एक्सरसाइज़ न करने वालों की तुलना में सिर्फ़ मिली-जुली ट्रेनिंग वाले ग्रुप का HbA1c सुधरा। सिर्फ़ रेज़िस्टेंस (-0.16) और सिर्फ़ एरोबिक (-0.24) स्टैटिस्टिकली सिग्निफ़िकेंट नहीं थे।{5} यानी सिर्फ़ वज़न उठाने का असर कितना है, इस पर ट्रायल अलग हैं। जोड़ी पर सहमत हैं।",
+    "डायबिटीज़ वाले ज़्यादातर वयस्क: हफ़्ते में 150 मिनट या ज़्यादा मध्यम से तेज़ एक्टिविटी, कम से कम 3 दिनों में, और लगातार 2 दिन से ज़्यादा बिना एक्टिविटी के नहीं।{2} रिव्यू में, हफ़्ते में 150 मिनट से ज़्यादा की स्ट्रक्चर्ड एक्सरसाइज़ के साथ HbA1c में बड़ी गिरावट (0.89) दिखी, 150 मिनट या कम (0.36) की तुलना में।{3}",
+    "बैठना तोड़िए। ADA हर 30 मिनट बैठने के बाद हल्की एक्टिविटी की सलाह देता है, कम से कम टाइप 2 डायबिटीज़ वाले वयस्कों के लिए।{2} एक ट्रायल में, टाइप 2 डायबिटीज़ वाले 24 निष्क्रिय वयस्कों ने हर 30 मिनट में 3 मिनट हल्की वॉक की, या हाफ़-स्क्वॉट और काफ़ रेज़ जैसी सीधी मूव्स। खाने के बाद ब्लड शुगर का बढ़ना पूरे दिन बैठने की तुलना में लगभग 39% कम रहा।{6} छोटे ब्रेक, असली असर। लेकिन ये 8 घंटे के लैब वाले दिन थे, महीने नहीं।",
+    "जब 15 अच्छे रेप से 1 या 2 ज़्यादा हो जाएँ, थोड़ा बढ़ाएँ: 2 से 10% ज़्यादा वज़न।{9} भारी वज़न नहीं है? नीचे आना धीमा करें, या एक सेट जोड़ें।",
+  ],
+  sampleHeading: "टाइप 2 डायबिटीज़ के लिए स्ट्रेंथ ट्रेनिंग का एक सैंपल हफ़्ता",
+  sampleLabel: "सिर्फ़ सैंपल। प्रिस्क्रिप्शन नहीं। अपने डॉक्टर के साथ इसे अपने शरीर, अपनी दवाओं और अपने इतिहास के हिसाब से बदलें।",
+  sample: [
+    "सोमवार, लगभग 30 मिनट: सिट-टू-स्टैंड, वॉल पुश-अप, वन-आर्म रो, ग्लूट ब्रिज। हर एक के 1 से 3 सेट।",
+    "मंगलवार: 30 मिनट की वॉक।",
+    "बुधवार, लगभग 30 मिनट: स्टेप-अप, वॉल पुश-अप, वन-आर्म रो, काफ़ रेज़, फ़ार्मर्स कैरी।",
+    "गुरुवार: 30 मिनट की वॉक।",
+    "शुक्रवार, लगभग 30 मिनट: सोमवार वाला सेशन फिर से।",
+    "शनिवार: जो आपको पसंद हो। लंबी वॉक, तैराकी, साइकिल।",
+    "रविवार: आराम, या आसान वॉक।",
+    "हर दिन: 30 मिनट बैठने के बाद, 3 मिनट खड़े। सिट-टू-स्टैंड, काफ़ रेज़ या घर में एक चक्कर।",
+  ],
+  coachedHeading: "लाइव कोचिंग चाहिए?",
+  coached: [
+    "Lean Reset महीने में 20 सेशन है, 1:1। इतना कि बिना ट्रेनिंग के दो दिन मुश्किल से ही निकलें।",
+    "Iron Hour 60 मिनट का है, 1:1। मिनट 0 पर सेट-अप: पानी और कोई जल्दी वाला स्नैक पास में, और अगर डॉक्टर चेक करने को कहें तो ग्लूकोमीटर भी। मिनट 4 से वॉर्म-अप। मिनट 14 पर मुख्य लिफ़्ट। 28 पर एक्सेसरीज़। 50 पर कूल-डाउन।",
+    "Return 45 मिनट का है, 1:1, महीने में 12 सेशन, एक दिन छोड़कर, अगर सालों से ट्रेनिंग नहीं की। Open Floor छोटा ग्रुप है। मैं कोच हूँ, आपका डॉक्टर नहीं: दवा और सीमाएँ आपके डॉक्टर तय करते हैं, और हम उन्हीं के अंदर ट्रेन करते हैं।",
+    "Google Meet, Zoom या FaceTime पर लाइव कोचिंग, आपके अपने लिविंग रूम में। पुणे से। हिंदी या अंग्रेज़ी में। IST पर। अभी तय नहीं? 30 मिनट के कंसल्टेशन से शुरू करें। यह बातचीत है, ट्रेनिंग नहीं। बुकिंग सिर्फ़ समय रोकती है। फ़ीस सीधे तय होती है।",
+  ],
+  safetyHeading: "शुरू करने से पहले",
+  safety:
+    "सामान्य जानकारी, मेडिकल सलाह नहीं। ADA कहता है कि अगर कोई लक्षण नहीं हैं, तो हल्की या मध्यम एक्टिविटी से पहले, जो तेज़ चलने या रोज़मर्रा के काम से ज़्यादा भारी न हो, आमतौर पर मेडिकल क्लियरेंस की ज़रूरत नहीं।{2} ACSM का स्क्रीनिंग मॉडल ज़्यादा सख़्त है: अगर आप निष्क्रिय हैं और डायबिटीज़ है, तो हल्की एक्सरसाइज़ के लिए भी पहले मेडिकल क्लियरेंस लें।{10} दोनों अलग हैं, इसलिए शुरू करने से पहले अपने डॉक्टर से बात करें। ADA बताता है कि इंसुलिन या इंसुलिन सीक्रेटागॉग (ऐसी दवाएँ जिनसे शरीर ज़्यादा इंसुलिन छोड़ता है) लेने वालों में एक्सरसाइज़ के दौरान और बाद में ब्लड शुगर कम होने का ख़तरा है।{2} डोज़ में कोई भी बदलाव आपके डॉक्टर का फ़ैसला है। NHS हाइपो के लक्षणों में भूख, चक्कर, काँपना या पसीना, दिल की तेज़ धड़कन, थकान या कमज़ोरी, धुंधला दिखना और उलझन बताता है। लक्षण हों या ब्लड शुगर 4 mmol/L (लगभग 72 mg/dL) से कम हो, तो कुछ मीठा खाएँ या पिएँ जो जल्दी असर करे, जैसे फलों के जूस का छोटा गिलास या 5 ग्लूकोज़ टैबलेट, और 10 से 15 मिनट बाद फिर चेक करें।{8} सेशन रोक दें। गंभीर नॉन-प्रोलिफ़रेटिव या अस्थिर प्रोलिफ़रेटिव डायबिटिक रेटिनोपैथी में ADA कहता है कि तेज़ एरोबिक या रेज़िस्टेंस एक्सरसाइज़, कूदना, झटके वाली मूव्स, सिर नीचे वाली मूव्स और साँस रोकने से बचें।{2} आँखों के डॉक्टर से अपनी स्थिति पूछें। पैरों की नसों में नुकसान? ADA पैर सूखे रखने, सही जूते पहनने और हर दिन पैरों में छाले या घाव चेक करने की सलाह देता है।{2} सीने में दर्द, चक्कर या तेज़ दर्द हो तो रुक जाएँ।",
+};
+
+const es: PostCopy = {
+  metaTitle: "Mejores ejercicios de fuerza para la diabetes tipo 2: 7 ejercicios y una semana de ejemplo | Jalan PT",
+  metaDescription:
+    "Los 7 mejores ejercicios de fuerza para la diabetes tipo 2: silla, remo, escalón y más. Cuánto entrenar, qué dicen los ensayos, hipoglucemias y una semana tipo.",
+  h1: "Mejores ejercicios de fuerza para la diabetes tipo 2: 7 ejercicios y una semana de ejemplo",
+  dek: "El músculo gasta azúcar. Construye más. Levanta, camina, corta el tiempo sentado. Tu médico lleva la medicación. Nosotros, el entrenamiento.",
+  updated: "Actualizado el 5 de noviembre de 2026",
+  byline: "Por Susmit Jalan, entrenador en Jalan PT, Pune.",
+  credentialsNote:
+    "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+  labels: {
+    home: "Inicio",
+    blog: "Blog",
+    why: "Por qué",
+    how: "Cómo",
+    dose: "Dosis",
+    sources: "Fuentes",
+    readIn: "Leer en",
+    programs: "Ver los programas",
+    whatsapp: "Pregunta por WhatsApp",
+    whatsappText: "Hola Susmit, leí el artículo sobre ejercicios de fuerza para la diabetes tipo 2 y quiero reservar una consulta",
+    skip: "Saltar al contenido",
+    crumb: "Mejores ejercicios de fuerza para la diabetes tipo 2",
+  },
+  intro: [
+    "Tu médico dijo diabetes tipo 2. O «en el límite». No eres el único. Una encuesta nacional con más de 100.000 adultos de toda la India encontró diabetes en el 11,4 % y prediabetes en el 15,3 %.{7}",
+    "El músculo es parte del plan. Una revisión de 47 ensayos encontró que el entrenamiento de fuerza estructurado se asociaba con una HbA1c unos 0,57 puntos porcentuales más baja que en los grupos de control.{3}",
+    "La Asociación Americana de Diabetes (ADA) dice que los adultos con diabetes tipo 2 deberían, idealmente, hacer ejercicio aeróbico y de fuerza, con 2 o 3 sesiones de fuerza a la semana en días no consecutivos.{2} La OMS también aconseja trabajo de fortalecimiento muscular 2 o más días a la semana a los adultos que viven con diabetes tipo 2.{1}",
+    "Esta lista es fuerza sencilla para los músculos grandes, en casa, con una silla, un escalón y una bolsa.",
+    "Esto es entrenamiento, no tratamiento. ¿Usas insulina o pastillas que pueden causar hipoglucemia? Lee primero «Antes de empezar».",
+  ],
+  listHeading: "Los 7 mejores ejercicios de fuerza para la diabetes tipo 2",
+  items: [
+    {
+      name: "Levantarse de la silla",
+      why: "Muslos y caderas, los músculos grandes que usas cada vez que te levantas. Las medias sentadillas fueron uno de los movimientos sencillos para cortar el tiempo sentado en un ensayo con diabetes tipo 2.{6}",
+      how: "Siéntate en la parte delantera de una silla firme, pies apoyados, a la anchura de la cadera. Brazos al frente. Inclínate y ponte de pie, bien erguido. Siéntate despacio, sin dejarte caer. Suelta el aire al subir. No aguantes la respiración. ¿Demasiado fácil? Sujeta una bolsa de arroz contra el pecho.",
+      dose: "1 a 3 series de 10 a 15, parando cerca del cansancio.{2}",
+    },
+    {
+      name: "Flexión en la pared",
+      why: "Pecho, hombros y brazos. Empieza en la pared, pasa a la encimera de la cocina y luego a un escalón bajo. El ángulo marca la carga.",
+      how: "Manos en la pared a la altura de los hombros, algo más abiertas que ellos. Pies un paso atrás. Cuerpo recto de la cabeza a los talones. Dobla los codos y lleva el pecho hacia la pared. Empuja. Suelta el aire al empujar.",
+      dose: "1 a 3 series de 10 a 15.{2}",
+    },
+    {
+      name: "Remo a una mano",
+      why: "Espalda alta y brazos. Tirar equilibra el empujar, y mantiene la cabeza arriba, no abajo.",
+      how: "Una mano en una mesa, pies separados un paso, espalda larga. En la otra mano, una botella de agua, una bolsa o una mancuerna. Llévala hacia la cadera. Baja despacio. Todas las repeticiones de un lado, luego del otro.",
+      dose: "1 a 3 series de 10 a 15 por brazo.{2}",
+    },
+    {
+      name: "Puente de glúteos",
+      why: "Caderas y parte de atrás de las piernas, desde el suelo. Sin equilibrio.",
+      how: "Túmbate boca arriba, rodillas dobladas, pies apoyados. Empuja con los talones y sube la cadera hasta alinear rodillas, cadera y hombros. Aprieta. Baja despacio. Suelta el aire al subir. ¿Fácil? Hazlo a una pierna o con peso sobre la cadera.",
+      dose: "1 a 3 series de 10 a 15.{2}",
+    },
+    {
+      name: "Subida al escalón",
+      why: "Una pierna cada vez, como en la escalera. Fuerza y un poco de pulso a la vez.",
+      how: "Empieza en el primer escalón. Todo el pie en el escalón. Empuja y ponte erguido. Baja el otro pie despacio. Sujétate a la barandilla. Sube la altura solo cuando siga siendo fluido. Con buen calzado, no descalzo.",
+      dose: "1 a 3 series de 10 a 12 por pierna.",
+    },
+    {
+      name: "Elevación de talones",
+      why: "Gemelos y tobillos. Las elevaciones de talones también estaban en el ensayo de pausas al estar sentado.{6} Las puedes hacer mientras hierve el agua.",
+      how: "De pie, manos en la encimera. Sube a la punta de los pies. Pausa. Baja despacio. ¿Fácil? Un pie cada vez.",
+      dose: "1 a 3 series de 12 a 15.",
+    },
+    {
+      name: "Paseo del granjero",
+      why: "Agarre, hombros, tronco y piernas a la vez. Es caminar, con carga.",
+      how: "Sujeta una bolsa pesada o una garrafa de agua en cada mano. Erguido, hombros abajo. Camina despacio por la habitación, ida y vuelta. Respira con normalidad. Suelta antes de que falle el agarre.",
+      dose: "3 paseos de 20 a 40 segundos.",
+    },
+  ],
+  enoughHeading: "Cuánto, qué intensidad, con qué frecuencia",
+  enough: [
+    "La dosis inicial de fuerza según la ADA: 8 a 10 ejercicios, 1 a 3 series de 10 a 15 repeticiones, cada serie cerca del cansancio, al menos 2 días no consecutivos a la semana, mejor 3.{2} Estos 7 cubren los músculos grandes. Añade más cuando estés listo.",
+    "Levanta y camina. En un ensayo, el entrenamiento combinado bajó la HbA1c más que cada uno por separado: 0,46 puntos más que solo aeróbico y 0,59 más que solo fuerza.{4} En otro, solo el grupo combinado mejoró la HbA1c frente a no hacer ejercicio. Solo fuerza (-0,16) y solo aeróbico (-0,24) no fueron estadísticamente significativos.{5} Así que los ensayos difieren en cuánto hace la fuerza sola. Coinciden en la pareja.",
+    "La mayoría de adultos con diabetes: 150 minutos o más de actividad moderada a vigorosa a la semana, repartidos en al menos 3 días, sin pasar más de 2 días seguidos sin actividad.{2} En la revisión, más de 150 minutos semanales de ejercicio estructurado se asociaron con una bajada mayor de la HbA1c (0,89) que 150 minutos o menos (0,36).{3}",
+    "Corta el tiempo sentado. La ADA aconseja actividad ligera cada 30 minutos sentado, al menos en adultos con diabetes tipo 2.{2} En un ensayo, 24 adultos inactivos con diabetes tipo 2 hicieron 3 minutos de caminata suave, o movimientos sencillos como medias sentadillas y elevaciones de talones, cada 30 minutos. La subida de azúcar tras las comidas fue alrededor de un 39 % menor que en un día sentados.{6} Pausas pequeñas, efecto real. Pero fueron días de laboratorio de 8 horas, no meses.",
+    "Cuando superes 15 buenas repeticiones por 1 o 2, añade un poco: de un 2 a un 10 % más de carga.{9} ¿Sin más peso? Baja más despacio o añade una serie.",
+  ],
+  sampleHeading: "Una semana de ejemplo de fuerza para la diabetes tipo 2",
+  sampleLabel: "Solo un ejemplo. No es una prescripción. Ajústalo con tu médico a tu cuerpo, tu medicación y tu historial.",
+  sample: [
+    "Lunes, unos 30 minutos: levantarse de la silla, flexión en la pared, remo a una mano, puente de glúteos. 1 a 3 series de cada uno.",
+    "Martes: caminar 30 minutos.",
+    "Miércoles, unos 30 minutos: subida al escalón, flexión en la pared, remo a una mano, elevación de talones, paseo del granjero.",
+    "Jueves: caminar 30 minutos.",
+    "Viernes, unos 30 minutos: la sesión del lunes otra vez.",
+    "Sábado: algo que disfrutes. Un paseo largo, nadar, la bici.",
+    "Domingo: descanso o un paseo suave.",
+    "Cada día: tras 30 minutos sentado, 3 minutos de pie. Levantarse de la silla, elevaciones de talones o una vuelta por casa.",
+  ],
+  coachedHeading: "¿Lo quieres con entrenador en directo?",
+  coached: [
+    "Lean Reset son 20 sesiones al mes, 1:1. Suficiente para que casi nunca pasen dos días sin entrenar.",
+    "Iron Hour dura 60 minutos, 1:1. Preparación en el minuto 0: agua y un tentempié rápido a mano, y el glucómetro cerca si tu médico quiere que midas. Calentamiento desde el minuto 4. El ejercicio principal en el 14. Accesorios en el 28. Vuelta a la calma en el 50.",
+    "Return dura 45 minutos, 1:1, 12 sesiones al mes en días alternos, si llevas años sin entrenar. Open Floor es un grupo pequeño. Soy entrenador, no tu médico: tu médico pone la medicación y los límites, y entrenamos dentro de ellos.",
+    "En directo por Google Meet, Zoom o FaceTime, en tu propio salón. Desde Pune. En hindi o inglés. En horario IST. ¿Aún no lo tienes claro? Empieza con una consulta de 30 minutos. Es una conversación, no un entrenamiento. La reserva guarda una hora. La tarifa se acuerda directamente.",
+  ],
+  safetyHeading: "Antes de empezar",
+  safety:
+    "Información general, no consejo médico. La ADA dice que, si no tienes síntomas, en general no hace falta autorización médica antes de una actividad ligera o moderada, no más dura que caminar rápido o la vida diaria.{2} El modelo de cribado del ACSM es más estricto: si eres inactivo y tienes diabetes, consigue autorización médica antes, incluso para ejercicio ligero.{10} No coinciden, así que habla con tu médico antes de empezar. La ADA advierte de riesgo de bajada de azúcar durante y después del ejercicio en quienes usan insulina o secretagogos de insulina (fármacos que hacen que el cuerpo libere más insulina).{2} Cualquier cambio de dosis lo decide tu médico. El NHS cita como síntomas de hipoglucemia: hambre, mareo, temblor o sudor, palpitaciones, cansancio o debilidad, visión borrosa y confusión. Si tienes síntomas o el azúcar está por debajo de 4 mmol/L (unos 72 mg/dL), toma algo azucarado de acción rápida, como un vaso pequeño de zumo de fruta o 5 pastillas de glucosa, y vuelve a medir a los 10 a 15 minutos.{8} Para la sesión. Con retinopatía diabética no proliferativa grave o proliferativa inestable, la ADA dice que evites el ejercicio aeróbico o de fuerza vigoroso, los saltos, los impactos, las posturas con la cabeza abajo y aguantar la respiración.{2} Pregunta a tu oftalmólogo cómo estás. ¿Daño en los nervios de los pies? La ADA aconseja mantenerlos secos, usar calzado adecuado y revisarlos cada día en busca de ampollas o heridas.{2} Para si notas dolor en el pecho, mareo o dolor agudo.",
+};
+
+const zh: PostCopy = {
+  metaTitle: "2型糖尿病最佳力量训练：7个动作和一周示例 | Jalan PT",
+  metaDescription:
+    "2型糖尿病的7个最佳力量训练动作：坐站起立、划船、上台阶等。练多少、试验发现了什么、如何防范低血糖，以及一周示例。",
+  h1: "2型糖尿病最佳力量训练：7个动作和一周示例",
+  dek: "肌肉会消耗血糖。那就多练一些。举重、走路、打断久坐。用药交给医生，训练交给我们。",
+  updated: "更新于2026年11月5日",
+  byline: "作者：Susmit Jalan，Jalan PT教练，浦那。",
+  credentialsNote:
+    "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质。两家机构均未为本业务或本文背书。",
+  labels: {
+    home: "首页",
+    blog: "博客",
+    why: "为什么",
+    how: "怎么做",
+    dose: "剂量",
+    sources: "来源",
+    readIn: "阅读其他语言版本",
+    programs: "查看课程",
+    whatsapp: "在WhatsApp上咨询",
+    whatsappText: "你好Susmit，我读了关于2型糖尿病力量训练的文章，想预约咨询",
+    skip: "跳到正文",
+    crumb: "2型糖尿病最佳力量训练",
+  },
+  intro: [
+    "医生说是2型糖尿病，或者“临界”。你并不孤单。一项覆盖印度全国、超过10万名成年人的调查发现，11.4%的人患有糖尿病，15.3%处于糖尿病前期。{7}",
+    "肌肉是计划的一部分。一篇汇总47项试验的综述发现，有组织的抗阻训练与比对照组低约0.57个百分点的糖化血红蛋白（HbA1c）相关。{3}",
+    "美国糖尿病协会（ADA）指出，2型糖尿病成年人最好同时进行有氧和抗阻训练，每周2到3次抗阻训练，安排在不连续的日子。{2}世卫组织同样建议患有2型糖尿病的成年人每周至少2天进行肌肉强化训练。{1}",
+    "这份清单是针对大肌群的简单力量训练，在家就能做，只需一把椅子、一级台阶和一个袋子。",
+    "这是训练，不是治疗。在用胰岛素或可能引起低血糖的药片？请先读“开始之前”。",
+  ],
+  listHeading: "2型糖尿病的7个最佳力量训练动作",
+  items: [
+    {
+      name: "坐站起立",
+      why: "大腿和臀部，每次起身都会用到的大肌群。在一项2型糖尿病试验中，半蹲是用来打断久坐的简单动作之一。{6}",
+      how: "坐在结实椅子的前半部分，双脚平放，与髋同宽。双臂前伸。身体前倾，站直。慢慢坐回去，不要跌坐。起身时呼气。不要憋气。太简单？在胸前抱一袋米。",
+      dose: "1到3组，每组10到15次，接近疲劳时停。{2}",
+    },
+    {
+      name: "扶墙俯卧撑",
+      why: "胸、肩和手臂。先扶墙，再换厨房台面，再换低台阶。角度决定负荷。",
+      how: "双手按墙，与肩同高，略宽于肩。双脚后退一步。从头到脚跟保持一条直线。屈肘，胸口靠近墙面。推回。推的时候呼气。",
+      dose: "1到3组，每组10到15次。{2}",
+    },
+    {
+      name: "单臂划船",
+      why: "上背和手臂。拉的动作平衡推的动作，而且头保持抬起，不用低头。",
+      how: "一只手撑在桌上，两脚前后相距一步，背部伸长。另一只手拿水瓶、袋子或哑铃。向髋部方向拉起。慢慢放下。一侧做完再换另一侧。",
+      dose: "每侧1到3组，每组10到15次。{2}",
+    },
+    {
+      name: "臀桥",
+      why: "臀部和腿后侧，在地上就能练。不需要平衡。",
+      how: "仰卧，屈膝，双脚平放。脚跟发力，抬起臀部，直到膝、髋、肩成一条线。夹紧。慢慢放下。抬起时呼气。太简单？改成单腿，或在髋部放重物。",
+      dose: "1到3组，每组10到15次。{2}",
+    },
+    {
+      name: "上台阶",
+      why: "一次一条腿，就像爬楼梯。力量和一点心率一起练。",
+      how: "从最低一级台阶开始。整只脚踩上台阶。发力站直。另一只脚慢慢放下。扶好扶手。动作保持流畅时才加高。穿合适的鞋，不要赤脚。",
+      dose: "每条腿1到3组，每组10到12次。",
+    },
+    {
+      name: "提踵",
+      why: "小腿和脚踝。提踵也是那项打断久坐试验中的动作之一。{6}烧水的时候就能做。",
+      how: "站直，双手扶台面。踮起脚尖。停一下。慢慢放下。太简单？单脚做。",
+      dose: "1到3组，每组12到15次。",
+    },
+    {
+      name: "农夫行走",
+      why: "握力、肩、躯干和腿一起练。就是带着负重走路。",
+      how: "双手各提一个重袋子或一桶水。站直，肩膀下沉。慢慢走过房间再走回来。正常呼吸。握力撑不住之前放下。",
+      dose: "走3趟，每趟20到40秒。",
+    },
+  ],
+  enoughHeading: "练多少、多大强度、多久一次",
+  enough: [
+    "ADA给出的抗阻训练起始剂量：8到10个动作，每个1到3组、每组10到15次，每组练到接近疲劳，每周至少2个不连续的日子，最好3天。{2}这7个动作覆盖了大肌群。准备好了再加。",
+    "举重加走路。在一项试验中，联合训练降低糖化血红蛋白的幅度大于任何单一训练：比单纯有氧多降0.46个点，比单纯抗阻多降0.59个点。{4}在另一项试验中，与不运动相比，只有联合训练组的糖化血红蛋白得到改善。单纯抗阻（-0.16）和单纯有氧（-0.24）均无统计学意义。{5}所以，单靠举重效果有多大，试验结论不一。但对两者结合，结论一致。",
+    "大多数糖尿病成年人：每周150分钟或以上中等到较高强度活动，分布在至少3天，连续不活动不超过2天。{2}在那篇综述中，每周超过150分钟的有组织运动与更大的糖化血红蛋白降幅（0.89）相关，而150分钟或以下为0.36。{3}",
+    "打断久坐。ADA建议每坐30分钟就做些轻度活动，至少对2型糖尿病成年人如此。{2}在一项试验中，24名不爱运动的2型糖尿病成年人每30分钟做3分钟轻松步行，或半蹲、提踵等简单动作。餐后血糖升幅比整天久坐时小约39%。{6}小小的间歇，真实的效果。但那是8小时的实验室测试日，不是几个月。",
+    "当你能比15次多做1到2次标准动作时，稍微加量：负荷增加2%到10%。{9}没有更重的器材？放慢下放速度，或加一组。",
+  ],
+  sampleHeading: "2型糖尿病力量训练一周示例",
+  sampleLabel: "仅为示例，不是处方。请与医生一起，根据你的身体、用药和病史调整。",
+  sample: [
+    "周一，约30分钟：坐站起立、扶墙俯卧撑、单臂划船、臀桥。每个1到3组。",
+    "周二：步行30分钟。",
+    "周三，约30分钟：上台阶、扶墙俯卧撑、单臂划船、提踵、农夫行走。",
+    "周四：步行30分钟。",
+    "周五，约30分钟：重复周一的训练。",
+    "周六：做你喜欢的事。长距离散步、游泳、骑车。",
+    "周日：休息，或轻松散步。",
+    "每天：坐满30分钟，就起来活动3分钟。坐站起立、提踵，或在家里走一圈。",
+  ],
+  coachedHeading: "想要教练实时指导？",
+  coached: [
+    "Lean Reset每月20节课，一对一。足以让你很少连续两天不训练。",
+    "Iron Hour时长60分钟，一对一。第0分钟准备：水和快速补充的零食放在手边，如果医生要求你测血糖，血糖仪也放在旁边。第4分钟开始热身。第14分钟主项。第28分钟辅助训练。第50分钟放松。",
+    "Return时长45分钟，一对一，每月12节、隔天一次，适合多年没训练的人。Open Floor是小组课。我是教练，不是你的医生：用药和限制由医生决定，我们在范围内训练。",
+    "通过Google Meet、Zoom或FaceTime实时指导，就在你家客厅。来自浦那。用印地语或英语。按印度标准时间（IST）。还没想好？先预约30分钟咨询。那是一次交谈，不是训练。预约只是保留时间。费用直接商定。",
+  ],
+  safetyHeading: "开始之前",
+  safety:
+    "一般信息，不是医疗建议。ADA指出，如果没有症状，在开始不超过快走或日常生活强度的低到中等强度活动之前，通常不需要医疗许可。{2}ACSM的筛查模式更严格：如果你平时不运动且患有糖尿病，即使是轻度运动，也应先获得医疗许可。{10}两者说法不同，所以开始前请和医生谈谈。ADA提醒，使用胰岛素或胰岛素促泌剂（促使身体释放更多胰岛素的药物）的人，在运动中和运动后有低血糖风险。{2}任何剂量调整都由医生决定。NHS列出的低血糖症状包括：饥饿、头晕、发抖或出汗、心悸、疲倦或乏力、视力模糊和意识混乱。如果出现症状或血糖低于4 mmol/L（约72 mg/dL），请吃或喝一些快速升糖的含糖食物，比如一小杯果汁或5片葡萄糖片，10到15分钟后再测一次。{8}停止训练。患有重度非增殖性或不稳定增殖性糖尿病视网膜病变时，ADA建议避免高强度有氧或抗阻训练、跳跃、震动冲击、头朝下的动作和憋气。{2}请向眼科医生了解自己的情况。足部神经受损？ADA建议保持双脚干燥、穿合适的鞋，并每天检查双脚有无水泡或伤口。{2}如出现胸痛、头晕或剧痛，请立即停止。",
+};
+
+const ja: PostCopy = {
+  metaTitle: "2型糖尿病のためのベスト筋トレ：7種目と1週間の例 | Jalan PT",
+  metaDescription:
+    "2型糖尿病のためのベスト筋トレ7種目：椅子からの立ち上がり、ロウ、ステップアップなど。頻度、試験でわかったこと、低血糖への備え、1週間の例。",
+  h1: "2型糖尿病のためのベスト筋トレ：7種目と1週間の例",
+  dek: "筋肉は糖を使う。だから増やす。持ち上げる、歩く、座りっぱなしを区切る。薬は主治医に。トレーニングは私たちに。",
+  updated: "2026年11月5日更新",
+  byline: "執筆：スシュミット・ジャラン（Jalan PT コーチ、プネー）",
+  credentialsNote:
+    "ASCAレベル1（ストレングス＆コンディショニング）とACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も、この事業やこの記事を推奨・保証するものではありません。",
+  labels: {
+    home: "ホーム",
+    blog: "ブログ",
+    why: "なぜ",
+    how: "やり方",
+    dose: "量",
+    sources: "出典",
+    readIn: "他の言語で読む",
+    programs: "プログラムを見る",
+    whatsapp: "WhatsAppで問い合わせる",
+    whatsappText: "こんにちは、スシュミットさん。2型糖尿病のための筋トレの記事を読みました。相談を予約したいです",
+    skip: "本文へスキップ",
+    crumb: "2型糖尿病のためのベスト筋トレ",
+  },
+  intro: [
+    "医師に「2型糖尿病」と言われた。あるいは「境界型」。あなただけではありません。インド全土の10万人以上の成人を対象にした全国調査では、11.4%に糖尿病、15.3%に前糖尿病が見つかりました。{7}",
+    "筋肉は計画の一部です。47件の試験をまとめたレビューでは、指導付きのレジスタンストレーニングは、対照群と比べてHbA1cが約0.57ポイント低いことと関連していました。{3}",
+    "米国糖尿病学会（ADA）は、2型糖尿病の成人は有酸素運動とレジスタンス運動の両方を行うのが理想で、レジスタンス運動は週2〜3回、連続しない日に行うべきだとしています。{2} WHOも、2型糖尿病とともに暮らす成人に週2日以上の筋力強化運動を勧めています。{1}",
+    "このリストは大きな筋肉のためのシンプルな筋トレです。自宅で、椅子と段差と袋があればできます。",
+    "これはトレーニングであり、治療ではありません。インスリンや低血糖を起こしうる飲み薬を使っていますか？まず「始める前に」を読んでください。",
+  ],
+  listHeading: "2型糖尿病のためのベスト筋トレ7種目",
+  items: [
+    {
+      name: "椅子からの立ち上がり",
+      why: "太ももとお尻、立ち上がるたびに使う大きな筋肉です。2型糖尿病の試験では、座りっぱなしを区切るシンプルな動きの一つにハーフスクワットが使われました。{6}",
+      how: "しっかりした椅子の前寄りに座り、足は床に、腰幅で。腕は前へ。前に体を傾けて、まっすぐ立ちます。ゆっくり座ります。ドスンと落ちないこと。立つときに息を吐きます。息を止めないでください。簡単すぎる？胸の前に米袋を抱えます。",
+      dose: "10〜15回を1〜3セット。疲れる手前で止めます。{2}",
+    },
+    {
+      name: "壁腕立て伏せ",
+      why: "胸、肩、腕。壁から始め、キッチンのカウンター、低い段差へと進みます。角度が負荷を決めます。",
+      how: "肩の高さで、肩幅より少し広く壁に手をつきます。足を一歩後ろへ。頭からかかとまで一直線。肘を曲げて胸を壁に近づけます。押し戻します。押すときに息を吐きます。",
+      dose: "10〜15回を1〜3セット。{2}",
+    },
+    {
+      name: "ワンアームロウ",
+      why: "背中の上部と腕。引く動きは押す動きとのバランスを取り、頭も下げずに済みます。",
+      how: "片手をテーブルにつき、足は一歩分開き、背中を長く保ちます。もう片方の手に水のボトル、袋、ダンベルを持ちます。腰に向かって引き上げます。ゆっくり下ろします。片側を全部やってから反対側へ。",
+      dose: "片腕10〜15回を1〜3セット。{2}",
+    },
+    {
+      name: "グルートブリッジ",
+      why: "お尻と脚の裏側を、床の上で。バランスは不要です。",
+      how: "仰向けになり、膝を曲げ、足裏を床につけます。かかとで押してお尻を持ち上げ、膝・腰・肩を一直線に。締めます。ゆっくり下ろします。持ち上げるときに息を吐きます。簡単？片脚で、または腰に重りをのせて。",
+      dose: "10〜15回を1〜3セット。{2}",
+    },
+    {
+      name: "ステップアップ",
+      why: "階段のように片脚ずつ。筋力と少しの心拍数を同時に。",
+      how: "一番下の段から始めます。足裏全体を段にのせます。押して、まっすぐ立ちます。反対の足をゆっくり下ろします。手すりを持ちます。動きがスムーズなままなら高さを上げます。裸足ではなく、合った靴で。",
+      dose: "片脚10〜12回を1〜3セット。",
+    },
+    {
+      name: "カーフレイズ",
+      why: "ふくらはぎと足首。カーフレイズも座りっぱなしを区切る試験の動きの一つでした。{6}お湯が沸くまでの間にできます。",
+      how: "まっすぐ立ち、手をカウンターに。つま先立ちになります。一瞬止めます。ゆっくり下ろします。簡単？片足ずつ。",
+      dose: "12〜15回を1〜3セット。",
+    },
+    {
+      name: "ファーマーズキャリー",
+      why: "握力、肩、体幹、脚を一度に。負荷を持って歩くだけです。",
+      how: "両手に重い袋か水のボトルを1つずつ持ちます。まっすぐ立ち、肩を下げます。部屋をゆっくり往復します。普通に呼吸します。握りがもたなくなる前に下ろします。",
+      dose: "20〜40秒の歩行を3回。",
+    },
+  ],
+  enoughHeading: "どれくらい、どの強さで、どの頻度で",
+  enough: [
+    "ADAが示すレジスタンス運動の始めの量：8〜10種目、各10〜15回を1〜3セット、各セット疲れる手前まで、週に少なくとも連続しない2日、できれば3日。{2}この7種目で大きな筋肉はカバーできます。準備ができたら増やしましょう。",
+    "持ち上げて、歩く。ある試験では、組み合わせたトレーニングはどちらか単独よりHbA1cを下げました。有酸素のみより0.46ポイント、レジスタンスのみより0.59ポイント多く下がりました。{4}別の試験では、運動なしと比べてHbA1cが改善したのは組み合わせ群だけでした。レジスタンスのみ（-0.16）と有酸素のみ（-0.24）は統計的に有意ではありませんでした。{5}つまり、筋トレ単独の効果の大きさについては試験によって違います。両方を組み合わせることでは一致しています。",
+    "糖尿病のある成人の多くは：中等度から高強度の活動を週150分以上、少なくとも3日に分けて、活動しない日が2日を超えて続かないように。{2}レビューでは、週150分を超える指導付き運動は、150分以下（0.36）よりも大きなHbA1cの低下（0.89）と関連していました。{3}",
+    "座りっぱなしを区切る。ADAは、少なくとも2型糖尿病の成人について、30分座るごとに軽い活動をすることを勧めています。{2}ある試験では、運動習慣のない2型糖尿病の成人24人が、30分ごとに3分間の軽い歩行、またはハーフスクワットやカーフレイズなどのシンプルな動きを行いました。食後の血糖上昇は、座り続けた日より約39%小さくなりました。{6}小さな休憩で、確かな効果。ただし、8時間の実験室での測定日であり、何か月もの話ではありません。",
+    "15回のきれいな反復を1〜2回超えたら、少し増やします：負荷を2〜10%増やす。{9}重いものがない？下ろす動きをゆっくりにするか、1セット追加します。",
+  ],
+  sampleHeading: "2型糖尿病のための筋トレ1週間の例",
+  sampleLabel: "あくまで例です。処方ではありません。主治医と相談し、あなたの体、薬、これまでの経緯に合わせて調整してください。",
+  sample: [
+    "月曜、約30分：椅子からの立ち上がり、壁腕立て伏せ、ワンアームロウ、グルートブリッジ。各1〜3セット。",
+    "火曜：30分のウォーキング。",
+    "水曜、約30分：ステップアップ、壁腕立て伏せ、ワンアームロウ、カーフレイズ、ファーマーズキャリー。",
+    "木曜：30分のウォーキング。",
+    "金曜、約30分：月曜のセッションをもう一度。",
+    "土曜：楽しめること。長めの散歩、水泳、サイクリング。",
+    "日曜：休養、または軽い散歩。",
+    "毎日：30分座ったら、3分立つ。椅子からの立ち上がり、カーフレイズ、家の中を一周。",
+  ],
+  coachedHeading: "ライブで指導を受けたいですか？",
+  coached: [
+    "Lean Resetは月20セッション、1対1。トレーニングしない日が2日続くことはほとんどなくなります。",
+    "Iron Hourは60分、1対1。0分目にセットアップ：水とすぐ食べられる軽食を手元に、主治医に測定を指示されていれば血糖測定器もそばに。4分目からウォームアップ。14分目にメインのリフト。28分目に補助種目。50分目にクールダウン。",
+    "Returnは45分、1対1、月12セッションを1日おきに。何年もトレーニングしていない人向けです。Open Floorは少人数のグループです。私はコーチであって、あなたの主治医ではありません。薬と制限は主治医が決め、私たちはその範囲内でトレーニングします。",
+    "Google Meet、Zoom、FaceTimeでライブ指導。あなたのリビングで。プネーから。ヒンディー語または英語で。インド標準時（IST）で。まだ迷っていますか？30分の相談から始めましょう。これは会話であり、トレーニングではありません。予約は時間を確保するだけです。料金は直接相談して決めます。",
+  ],
+  safetyHeading: "始める前に",
+  safety:
+    "一般的な情報であり、医療アドバイスではありません。ADAは、症状がなければ、早歩きや日常生活を超えない軽度〜中等度の活動を始める前に、医師の許可は通常必要ないとしています。{2} ACSMのスクリーニングモデルはより慎重で、運動習慣がなく糖尿病がある場合は、軽い運動でもまず医師の許可を得るべきだとしています。{10}両者は異なるため、始める前に主治医に相談してください。ADAは、インスリンやインスリン分泌促進薬（体からより多くのインスリンを出させる薬）を使っている人には、運動中と運動後に低血糖のリスクがあると注意しています。{2}用量の変更は主治医が判断することです。NHSは低血糖の症状として、空腹感、めまい、震えや発汗、動悸、疲れやだるさ、かすみ目、混乱を挙げています。症状がある、または血糖が4 mmol/L（約72 mg/dL）未満なら、小さなコップ1杯の果汁やブドウ糖タブレット5個など、すぐに効く甘いものを口にし、10〜15分後に再度測ってください。{8}セッションは中止します。重度の非増殖性、または不安定な増殖性の糖尿病網膜症がある場合、ADAは高強度の有酸素運動やレジスタンス運動、ジャンプ、衝撃のある動き、頭を下げる動き、息止めを避けるよう勧めています。{2}ご自身の状態は眼科医に確認してください。足の神経障害がありますか？ADAは、足を乾いた状態に保ち、合った靴を履き、毎日足に水ぶくれや傷がないか確認するよう勧めています。{2}胸の痛み、めまい、鋭い痛みがあれば中止してください。",
+};
+
+const gu: PostCopy = {
+  metaTitle: "ટાઇપ 2 ડાયાબિટીસ માટે બેસ્ટ સ્ટ્રેન્થ કસરતો: 7 મૂવ્સ અને એક સેમ્પલ અઠવાડિયું | Jalan PT",
+  metaDescription:
+    "ટાઇપ 2 ડાયાબિટીસ માટે 7 બેસ્ટ સ્ટ્રેન્થ કસરતો: સિટ-ટુ-સ્ટેન્ડ, રો, સ્ટેપ-અપ અને વધુ. કેટલી વાર, ટ્રાયલ શું કહે છે, હાઇપોથી બચાવ, અને એક સેમ્પલ અઠવાડિયું.",
+  h1: "ટાઇપ 2 ડાયાબિટીસ માટે બેસ્ટ સ્ટ્રેન્થ કસરતો: 7 મૂવ્સ અને એક સેમ્પલ અઠવાડિયું",
+  dek: "સ્નાયુઓ શુગર વાપરે છે. એને વધુ બનાવો. વજન ઉપાડો, ચાલો, બેસવાનું તોડો. દવા તમારા ડૉક્ટર સંભાળે. ટ્રેનિંગ અમે.",
+  updated: "5 નવેમ્બર 2026 ના રોજ અપડેટ કર્યું",
+  byline: "લેખક: સુસ્મિત જાલાન, કોચ, Jalan PT, પુણે.",
+  credentialsNote:
+    "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ્સ છે. આમાંની કોઈ પણ સંસ્થા આ બિઝનેસ કે આ લેખને સમર્થન આપતી નથી.",
+  labels: {
+    home: "હોમ",
+    blog: "બ્લોગ",
+    why: "કેમ",
+    how: "કેવી રીતે",
+    dose: "ડોઝ",
+    sources: "સ્રોત",
+    readIn: "આ ભાષામાં વાંચો",
+    programs: "પ્રોગ્રામ જુઓ",
+    whatsapp: "WhatsApp પર પૂછો",
+    whatsappText: "નમસ્તે સુસ્મિત, મેં ટાઇપ 2 ડાયાબિટીસ માટે સ્ટ્રેન્થ કસરતોનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    skip: "સીધા કન્ટેન્ટ પર જાઓ",
+    crumb: "ટાઇપ 2 ડાયાબિટીસ માટે બેસ્ટ સ્ટ્રેન્થ કસરતો",
+  },
+  intro: [
+    "ડૉક્ટરે કહ્યું ટાઇપ 2 ડાયાબિટીસ. કે \"બૉર્ડરલાઇન\". તમે એકલા નથી. આખા ભારતમાં 1 લાખથી વધુ પુખ્ત વયના લોકોના એક રાષ્ટ્રીય સર્વેમાં 11.4% માં ડાયાબિટીસ અને 15.3% માં પ્રીડાયાબિટીસ મળ્યો.{7}",
+    "સ્નાયુઓ પ્લાનનો ભાગ છે. 47 ટ્રાયલના એક રિવ્યૂમાં, સ્ટ્રક્ચર્ડ રેઝિસ્ટન્સ ટ્રેનિંગ સાથે HbA1c કન્ટ્રોલ ગ્રુપ કરતાં લગભગ 0.57 પર્સન્ટેજ પૉઇન્ટ ઓછું જોવા મળ્યું.{3}",
+    "અમેરિકન ડાયાબિટીસ એસોસિએશન (ADA) કહે છે કે ટાઇપ 2 ડાયાબિટીસવાળા પુખ્તોએ આદર્શ રીતે એરોબિક અને રેઝિસ્ટન્સ બંને કસરત કરવી જોઈએ, અઠવાડિયે 2 થી 3 રેઝિસ્ટન્સ સેશન, સળંગ નહીં પણ વચ્ચે એક દિવસ છોડીને.{2} WHO પણ ટાઇપ 2 ડાયાબિટીસ સાથે જીવતા પુખ્તોને અઠવાડિયે 2 કે વધુ દિવસ સ્નાયુ મજબૂત કરવાની કસરતની સલાહ આપે છે.{1}",
+    "આ લિસ્ટ મોટા સ્નાયુઓ માટે સીધી-સાદી સ્ટ્રેન્થ કસરતો છે, ઘરે, એક ખુરશી, એક પગથિયું અને એક થેલી સાથે.",
+    "આ ટ્રેનિંગ છે, ઇલાજ નહીં. ઇન્સ્યુલિન કે એવી ગોળીઓ લો છો જેનાથી હાઇપો થઈ શકે? પહેલાં \"શરૂ કરતાં પહેલાં\" વાંચો.",
+  ],
+  listHeading: "ટાઇપ 2 ડાયાબિટીસ માટે 7 બેસ્ટ સ્ટ્રેન્થ કસરતો",
+  items: [
+    {
+      name: "સિટ-ટુ-સ્ટેન્ડ (ખુરશી પરથી ઊભા થવું)",
+      why: "જાંઘ અને હિપ્સ, એ મોટા સ્નાયુઓ જે તમે દરેક વાર ઊભા થતી વખતે વાપરો છો. ટાઇપ 2 ડાયાબિટીસના એક ટ્રાયલમાં બેસવાનું તોડવા માટે વપરાયેલી સાદી મૂવ્સમાં હાફ-સ્ક્વૉટ પણ હતો.{6}",
+      how: "મજબૂત ખુરશીના આગળના ભાગ પર બેસો, પગ જમીન પર, હિપ્સ જેટલા અંતરે. હાથ આગળ. આગળ ઝૂકો અને ટટ્ટાર ઊભા થાઓ. ધીમેથી પાછા બેસો, ધબ દઈને નહીં. ઊભા થતી વખતે શ્વાસ છોડો. શ્વાસ રોકશો નહીં. બહુ સરળ? છાતી પાસે ચોખાની થેલી પકડો.",
+      dose: "10 થી 15 ના 1 થી 3 સેટ, થાકની નજીક રોકાઓ.{2}",
+    },
+    {
+      name: "વૉલ પુશ-અપ",
+      why: "છાતી, ખભા અને હાથ. દીવાલથી શરૂ કરો, પછી રસોડાનું કાઉન્ટર, પછી નીચું પગથિયું. ઍંગલ જ લોડ નક્કી કરે છે.",
+      how: "હાથ દીવાલ પર ખભાની ઊંચાઈએ, ખભાથી થોડા પહોળા. પગ એક ડગલું પાછળ. માથાથી એડી સુધી શરીર સીધું. કોણી વાળો અને છાતી દીવાલ તરફ લાવો. ધક્કો મારીને પાછા આવો. ધક્કો મારતી વખતે શ્વાસ છોડો.",
+      dose: "10 થી 15 ના 1 થી 3 સેટ.{2}",
+    },
+    {
+      name: "વન-આર્મ રો",
+      why: "ઉપરની પીઠ અને હાથ. ખેંચવું ધકેલવાનું બૅલેન્સ કરે છે, અને માથું ઉપર રહે છે, નીચે નહીં.",
+      how: "એક હાથ ટેબલ પર, પગ એક ડગલાના અંતરે, પીઠ લાંબી. બીજા હાથમાં પાણીની બૉટલ, થેલી કે ડમ્બેલ. એને હિપ તરફ ઉપર ખેંચો. ધીમેથી નીચે લાવો. બધા રેપ એક બાજુ, પછી બીજી બાજુ.",
+      dose: "દરેક હાથે 10 થી 15 ના 1 થી 3 સેટ.{2}",
+    },
+    {
+      name: "ગ્લૂટ બ્રિજ",
+      why: "હિપ્સ અને પગનો પાછળનો ભાગ, જમીન પરથી. બૅલેન્સની જરૂર નથી.",
+      how: "પીઠ પર સૂઈ જાઓ, ઘૂંટણ વળેલા, પગ જમીન પર. એડીથી દબાવો અને હિપ્સ ઉપાડો જ્યાં સુધી ઘૂંટણ, હિપ્સ અને ખભા એક લાઇનમાં ન આવે. કસો. ધીમેથી નીચે આવો. ઉપાડતી વખતે શ્વાસ છોડો. સરળ? એક પગે કરો, કે હિપ્સ પર વજન મૂકો.",
+      dose: "10 થી 15 ના 1 થી 3 સેટ.{2}",
+    },
+    {
+      name: "સ્ટેપ-અપ",
+      why: "એક સમયે એક પગ, દાદરની જેમ. સ્ટ્રેન્થ અને થોડો હાર્ટ રેટ સાથે.",
+      how: "સૌથી નીચેના પગથિયાથી શરૂ કરો. આખો પગ પગથિયા પર. એનાથી ધક્કો મારીને ટટ્ટાર ઊભા થાઓ. બીજો પગ ધીમેથી નીચે લાવો. રેલિંગ પકડો. મૂવ સ્મૂધ રહે ત્યારે જ ઊંચાઈ વધારો. સારા જૂતાં પહેરો, ઉઘાડા પગે નહીં.",
+      dose: "દરેક પગે 10 થી 12 ના 1 થી 3 સેટ.",
+    },
+    {
+      name: "કાફ રેઇઝ",
+      why: "પિંડી અને ઘૂંટી. બેસવાનું તોડવાના ટ્રાયલની મૂવ્સમાં કાફ રેઇઝ પણ હતી.{6} ચાનું પાણી ઊકળે ત્યાં સુધીમાં કરી શકો.",
+      how: "ટટ્ટાર ઊભા રહો, હાથ કાઉન્ટર પર. પંજાના આગળના ભાગ પર ઊંચા થાઓ. રોકાઓ. ધીમેથી નીચે આવો. સરળ? એક-એક પગે.",
+      dose: "12 થી 15 ના 1 થી 3 સેટ.",
+    },
+    {
+      name: "ફાર્મર્સ કૅરી",
+      why: "ગ્રિપ, ખભા, ધડ અને પગ એકસાથે. આ ચાલવું છે, વજન સાથે.",
+      how: "દરેક હાથમાં એક ભારે થેલી કે પાણીની બૉટલ પકડો. ટટ્ટાર ઊભા રહો, ખભા નીચે. રૂમમાં ધીમે ધીમે જાઓ અને પાછા આવો. સામાન્ય શ્વાસ લો. ગ્રિપ છૂટે એ પહેલાં નીચે મૂકી દો.",
+      dose: "20 થી 40 સેકન્ડની 3 વૉક.",
+    },
+  ],
+  enoughHeading: "કેટલું, કેટલું ભારે, કેટલી વાર",
+  enough: [
+    "રેઝિસ્ટન્સ ટ્રેનિંગ માટે ADA નો શરૂઆતનો ડોઝ: 8 થી 10 કસરતો, 10 થી 15 રેપના 1 થી 3 સેટ, દરેક સેટ થાકની નજીક સુધી, અઠવાડિયે ઓછામાં ઓછા 2 દિવસ (સળંગ નહીં), બને તો 3.{2} આ 7 મોટા સ્નાયુઓ આવરી લે છે. તૈયાર હો ત્યારે વધુ ઉમેરો.",
+    "વજન પણ, વૉક પણ. એક ટ્રાયલમાં, બંનેને જોડીને કરેલી ટ્રેનિંગે HbA1c કોઈ એક કરતાં વધુ ઘટાડ્યું: ફક્ત એરોબિક કરતાં 0.46 પૉઇન્ટ વધુ, અને ફક્ત રેઝિસ્ટન્સ કરતાં 0.59.{4} બીજા ટ્રાયલમાં, કસરત ન કરનારાઓની સરખામણીમાં ફક્ત જોડેલી ટ્રેનિંગવાળા ગ્રુપનું HbA1c સુધર્યું. ફક્ત રેઝિસ્ટન્સ (-0.16) અને ફક્ત એરોબિક (-0.24) સ્ટૅટિસ્ટિકલી સિગ્નિફિકન્ટ નહોતા.{5} એટલે ફક્ત વજન ઉપાડવાની અસર કેટલી, એ અંગે ટ્રાયલ જુદા પડે છે. જોડી અંગે સહમત છે.",
+    "ડાયાબિટીસવાળા મોટા ભાગના પુખ્તો: અઠવાડિયે 150 મિનિટ કે વધુ મધ્યમથી તેજ એક્ટિવિટી, ઓછામાં ઓછા 3 દિવસમાં, અને સળંગ 2 દિવસથી વધુ એક્ટિવિટી વગર નહીં.{2} રિવ્યૂમાં, અઠવાડિયે 150 મિનિટથી વધુ સ્ટ્રક્ચર્ડ કસરત સાથે HbA1c માં મોટો ઘટાડો (0.89) જોવા મળ્યો, 150 મિનિટ કે ઓછી (0.36) ની સરખામણીમાં.{3}",
+    "બેસવાનું તોડો. ADA દર 30 મિનિટ બેઠા પછી હળવી એક્ટિવિટીની સલાહ આપે છે, ઓછામાં ઓછું ટાઇપ 2 ડાયાબિટીસવાળા પુખ્તો માટે.{2} એક ટ્રાયલમાં, ટાઇપ 2 ડાયાબિટીસવાળા 24 નિષ્ક્રિય પુખ્તોએ દર 30 મિનિટે 3 મિનિટ હળવી વૉક કરી, કે હાફ-સ્ક્વૉટ અને કાફ રેઇઝ જેવી સાદી મૂવ્સ. જમ્યા પછી બ્લડ શુગરનો વધારો આખો દિવસ બેસી રહેવાની સરખામણીમાં લગભગ 39% ઓછો રહ્યો.{6} નાના બ્રેક, સાચી અસર. પણ એ 8 કલાકના લૅબના દિવસો હતા, મહિનાઓ નહીં.",
+    "15 સારા રેપ કરતાં 1 કે 2 વધુ થાય ત્યારે થોડું વધારો: 2 થી 10% વધુ વજન.{9} ભારે વજન નથી? નીચે આવવાનું ધીમું કરો, કે એક સેટ ઉમેરો.",
+  ],
+  sampleHeading: "ટાઇપ 2 ડાયાબિટીસ માટે સ્ટ્રેન્થ ટ્રેનિંગનું એક સેમ્પલ અઠવાડિયું",
+  sampleLabel: "માત્ર સેમ્પલ. પ્રિસ્ક્રિપ્શન નથી. તમારા ડૉક્ટર સાથે મળીને તમારા શરીર, તમારી દવાઓ અને તમારા ઇતિહાસ મુજબ બદલો.",
+  sample: [
+    "સોમવાર, લગભગ 30 મિનિટ: સિટ-ટુ-સ્ટેન્ડ, વૉલ પુશ-અપ, વન-આર્મ રો, ગ્લૂટ બ્રિજ. દરેકના 1 થી 3 સેટ.",
+    "મંગળવાર: 30 મિનિટની વૉક.",
+    "બુધવાર, લગભગ 30 મિનિટ: સ્ટેપ-અપ, વૉલ પુશ-અપ, વન-આર્મ રો, કાફ રેઇઝ, ફાર્મર્સ કૅરી.",
+    "ગુરુવાર: 30 મિનિટની વૉક.",
+    "શુક્રવાર, લગભગ 30 મિનિટ: સોમવારનું સેશન ફરીથી.",
+    "શનિવાર: તમને ગમે એવું કંઈક. લાંબી વૉક, તરવું, સાઇકલ.",
+    "રવિવાર: આરામ, કે સરળ વૉક.",
+    "દરરોજ: 30 મિનિટ બેઠા પછી, 3 મિનિટ ઊભા. સિટ-ટુ-સ્ટેન્ડ, કાફ રેઇઝ કે ઘરમાં એક ચક્કર.",
+  ],
+  coachedHeading: "લાઇવ કોચિંગ જોઈએ છે?",
+  coached: [
+    "Lean Reset મહિને 20 સેશન છે, 1:1. એટલું કે ટ્રેનિંગ વગર બે દિવસ ભાગ્યે જ જાય.",
+    "Iron Hour 60 મિનિટનું છે, 1:1. મિનિટ 0 પર સેટ-અપ: પાણી અને ઝટ ખાઈ શકાય એવો નાસ્તો પાસે, અને ડૉક્ટર ચેક કરવાનું કહે તો ગ્લુકોમીટર પણ. મિનિટ 4 થી વૉર્મ-અપ. મિનિટ 14 પર મુખ્ય લિફ્ટ. 28 પર એક્સેસરીઝ. 50 પર કૂલ-ડાઉન.",
+    "Return 45 મિનિટનું છે, 1:1, મહિને 12 સેશન, એકાંતરે દિવસે, જો વર્ષોથી ટ્રેનિંગ નથી કરી. Open Floor નાનું ગ્રુપ છે. હું કોચ છું, તમારો ડૉક્ટર નહીં: દવા અને મર્યાદા તમારા ડૉક્ટર નક્કી કરે, અને આપણે એની અંદર જ ટ્રેન કરીએ.",
+    "Google Meet, Zoom કે FaceTime પર લાઇવ કોચિંગ, તમારા પોતાના લિવિંગ રૂમમાં. પુણેથી. હિન્દી કે અંગ્રેજીમાં. IST પર. હજુ નક્કી નથી? 30 મિનિટના કન્સલ્ટેશનથી શરૂ કરો. એ વાતચીત છે, ટ્રેનિંગ નહીં. બુકિંગ ફક્ત સમય રોકે છે. ફી સીધી નક્કી થાય છે.",
+  ],
+  safetyHeading: "શરૂ કરતાં પહેલાં",
+  safety:
+    "સામાન્ય માહિતી, તબીબી સલાહ નહીં. ADA કહે છે કે કોઈ લક્ષણ ન હોય, તો હળવી કે મધ્યમ એક્ટિવિટી પહેલાં, જે ઝડપી ચાલવા કે રોજિંદા કામથી વધુ ભારે ન હોય, સામાન્ય રીતે તબીબી મંજૂરીની જરૂર નથી.{2} ACSM નું સ્ક્રીનિંગ મોડલ વધુ કડક છે: જો તમે નિષ્ક્રિય છો અને ડાયાબિટીસ છે, તો હળવી કસરત માટે પણ પહેલાં તબીબી મંજૂરી લો.{10} બંને જુદા પડે છે, એટલે શરૂ કરતાં પહેલાં તમારા ડૉક્ટર સાથે વાત કરો. ADA જણાવે છે કે ઇન્સ્યુલિન કે ઇન્સ્યુલિન સિક્રીટાગૉગ (એવી દવાઓ જેનાથી શરીર વધુ ઇન્સ્યુલિન છોડે) લેનારાઓમાં કસરત દરમિયાન અને પછી બ્લડ શુગર ઘટવાનું જોખમ છે.{2} ડોઝમાં કોઈ પણ ફેરફાર તમારા ડૉક્ટરનો નિર્ણય છે. NHS હાઇપોનાં લક્ષણોમાં ભૂખ, ચક્કર, ધ્રુજારી કે પરસેવો, ધબકારા વધવા, થાક કે નબળાઈ, ઝાંખું દેખાવું અને મૂંઝવણ ગણાવે છે. લક્ષણો હોય કે બ્લડ શુગર 4 mmol/L (લગભગ 72 mg/dL) થી ઓછી હોય, તો ઝડપથી અસર કરે એવું કંઈક મીઠું ખાઓ કે પીઓ, જેમ કે ફળના જ્યૂસનો નાનો ગ્લાસ કે 5 ગ્લુકોઝ ટૅબ્લેટ, અને 10 થી 15 મિનિટ પછી ફરી ચેક કરો.{8} સેશન રોકી દો. ગંભીર નૉન-પ્રોલિફરેટિવ કે અસ્થિર પ્રોલિફરેટિવ ડાયાબિટિક રેટિનોપથીમાં ADA કહે છે કે તેજ એરોબિક કે રેઝિસ્ટન્સ કસરત, કૂદવું, આંચકાવાળી મૂવ્સ, માથું નીચે હોય એવી મૂવ્સ અને શ્વાસ રોકવાનું ટાળો.{2} આંખના ડૉક્ટરને તમારી સ્થિતિ પૂછો. પગની નસોને નુકસાન? ADA પગ કોરા રાખવા, યોગ્ય જૂતાં પહેરવા અને દરરોજ પગમાં ફોલ્લા કે ઘા ચેક કરવાની સલાહ આપે છે.{2} છાતીમાં દુખાવો, ચક્કર કે તીવ્ર દુખાવો થાય તો રોકાઈ જાઓ.",
+};
+
+export const diabetesPost: BlogPost = {
+  slug: DIABETES_SLUG,
+  published: DIABETES_PUBLISHED,
+  modified: DIABETES_MODIFIED,
+  about: "Strength training for adults with type 2 diabetes",
+  sources: DIABETES_SOURCES,
+  copy: { en, ar, hi, es, zh, ja, gu },
+  programLink: { href: "/personal-trainer-for-fat-loss", label: "How Lean Reset works: 20 coached 1:1 sessions a month" },
+  seeAlso: ["best-exercises-for-desk-workers", "best-exercises-after-a-long-break"],
+};
