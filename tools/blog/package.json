@@ -1,0 +1,14 @@
+{
+  "name": "ofw-blog-generator",
+  "private": true,
+  "type": "module",
+  "description": "Renders the long-form blog posts as static HTML in the cPanel site's design.",
+  "scripts": {
+    "export": "node export-posts.mjs",
+    "build": "node build.mjs",
+    "verify": "node verify.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
