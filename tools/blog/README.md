@@ -28,7 +28,7 @@ node build.mjs        # writes ../../cpanel-overlay/
 node verify.mjs       # checks every generated page
 ```
 
-Only if the post copy changes, re-export it from the TypeScript sources (needs `npm install` once, for esbuild):
+`data/` is now the source of truth. It carries the physio safety pass (November 2026) and the Online Fitness Worldwide brand in all 7 languages, which the TypeScript sources on `grokbot/seo-theme-blog` do not have. Edit `data/posts/*.json` directly. Re-exporting would overwrite those edits, so only do it after the same changes are made in the `.ts` sources (needs `npm install` once, for esbuild):
 
 ```bash
 npm install
