@@ -29,6 +29,7 @@ import { Route as BlogBestStrengthAndConditioningExercisesForBeginnersRouteImpor
 import { Route as BlogBestStrengthExercisesForBusyParentsRouteImport } from './routes/blog.best-strength-exercises-for-busy-parents'
 import { Route as BlogBestStrengthExercisesForOver60sRouteImport } from './routes/blog.best-strength-exercises-for-over-60s'
 import { Route as BlogBestStrengthExercisesForRunnersRouteImport } from './routes/blog.best-strength-exercises-for-runners'
+import { Route as BlogBestStrengthExercisesForType2DiabetesRouteImport } from './routes/blog.best-strength-exercises-for-type-2-diabetes'
 import { Route as BlogBestStrengthExercisesForWomenOver40RouteImport } from './routes/blog.best-strength-exercises-for-women-over-40'
 import { Route as BlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport } from './routes/blog.best-warm-up-exercises-before-strength-training'
 import { Route as BlogDekaFitMileStrongGuideRouteImport } from './routes/blog.deka-fit-mile-strong-guide'
@@ -51,6 +52,7 @@ import { Route as LangBlogBestStrengthAndConditioningExercisesForBeginnersRouteI
 import { Route as LangBlogBestStrengthExercisesForBusyParentsRouteImport } from './routes/$lang.blog.best-strength-exercises-for-busy-parents'
 import { Route as LangBlogBestStrengthExercisesForOver60sRouteImport } from './routes/$lang.blog.best-strength-exercises-for-over-60s'
 import { Route as LangBlogBestStrengthExercisesForRunnersRouteImport } from './routes/$lang.blog.best-strength-exercises-for-runners'
+import { Route as LangBlogBestStrengthExercisesForType2DiabetesRouteImport } from './routes/$lang.blog.best-strength-exercises-for-type-2-diabetes'
 import { Route as LangBlogBestStrengthExercisesForWomenOver40RouteImport } from './routes/$lang.blog.best-strength-exercises-for-women-over-40'
 import { Route as LangBlogBestWarmUpExercisesBeforeStrengthTrainingRouteImport } from './routes/$lang.blog.best-warm-up-exercises-before-strength-training'
 import { Route as LangBlogDekaFitMileStrongGuideRouteImport } from './routes/$lang.blog.deka-fit-mile-strong-guide'
@@ -176,6 +178,12 @@ const BlogBestStrengthExercisesForRunnersRoute =
   BlogBestStrengthExercisesForRunnersRouteImport.update({
     id: '/blog/best-strength-exercises-for-runners',
     path: '/blog/best-strength-exercises-for-runners',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogBestStrengthExercisesForType2DiabetesRoute =
+  BlogBestStrengthExercisesForType2DiabetesRouteImport.update({
+    id: '/blog/best-strength-exercises-for-type-2-diabetes',
+    path: '/blog/best-strength-exercises-for-type-2-diabetes',
     getParentRoute: () => rootRouteImport,
   } as any)
 const BlogBestStrengthExercisesForWomenOver40Route =
@@ -305,6 +313,12 @@ const LangBlogBestStrengthExercisesForRunnersRoute =
     path: '/$lang/blog/best-strength-exercises-for-runners',
     getParentRoute: () => rootRouteImport,
   } as any)
+const LangBlogBestStrengthExercisesForType2DiabetesRoute =
+  LangBlogBestStrengthExercisesForType2DiabetesRouteImport.update({
+    id: '/$lang/blog/best-strength-exercises-for-type-2-diabetes',
+    path: '/$lang/blog/best-strength-exercises-for-type-2-diabetes',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const LangBlogBestStrengthExercisesForWomenOver40Route =
   LangBlogBestStrengthExercisesForWomenOver40RouteImport.update({
     id: '/$lang/blog/best-strength-exercises-for-women-over-40',
@@ -377,6 +391,7 @@ export interface FileRoutesByFullPath {
   '/blog/best-strength-exercises-for-busy-parents': typeof BlogBestStrengthExercisesForBusyParentsRoute
   '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
+  '/blog/best-strength-exercises-for-type-2-diabetes': typeof BlogBestStrengthExercisesForType2DiabetesRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/blog/deka-fit-mile-strong-guide': typeof BlogDekaFitMileStrongGuideRoute
@@ -399,6 +414,7 @@ export interface FileRoutesByFullPath {
   '/$lang/blog/best-strength-exercises-for-busy-parents': typeof LangBlogBestStrengthExercisesForBusyParentsRoute
   '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
+  '/$lang/blog/best-strength-exercises-for-type-2-diabetes': typeof LangBlogBestStrengthExercisesForType2DiabetesRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/$lang/blog/deka-fit-mile-strong-guide': typeof LangBlogDekaFitMileStrongGuideRoute
@@ -430,6 +446,7 @@ export interface FileRoutesByTo {
   '/blog/best-strength-exercises-for-busy-parents': typeof BlogBestStrengthExercisesForBusyParentsRoute
   '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
+  '/blog/best-strength-exercises-for-type-2-diabetes': typeof BlogBestStrengthExercisesForType2DiabetesRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/blog/deka-fit-mile-strong-guide': typeof BlogDekaFitMileStrongGuideRoute
@@ -452,6 +469,7 @@ export interface FileRoutesByTo {
   '/$lang/blog/best-strength-exercises-for-busy-parents': typeof LangBlogBestStrengthExercisesForBusyParentsRoute
   '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
+  '/$lang/blog/best-strength-exercises-for-type-2-diabetes': typeof LangBlogBestStrengthExercisesForType2DiabetesRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/$lang/blog/deka-fit-mile-strong-guide': typeof LangBlogDekaFitMileStrongGuideRoute
@@ -484,6 +502,7 @@ export interface FileRoutesById {
   '/blog/best-strength-exercises-for-busy-parents': typeof BlogBestStrengthExercisesForBusyParentsRoute
   '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
+  '/blog/best-strength-exercises-for-type-2-diabetes': typeof BlogBestStrengthExercisesForType2DiabetesRoute
   '/blog/best-strength-exercises-for-women-over-40': typeof BlogBestStrengthExercisesForWomenOver40Route
   '/blog/best-warm-up-exercises-before-strength-training': typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/blog/deka-fit-mile-strong-guide': typeof BlogDekaFitMileStrongGuideRoute
@@ -506,6 +525,7 @@ export interface FileRoutesById {
   '/$lang/blog/best-strength-exercises-for-busy-parents': typeof LangBlogBestStrengthExercisesForBusyParentsRoute
   '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
+  '/$lang/blog/best-strength-exercises-for-type-2-diabetes': typeof LangBlogBestStrengthExercisesForType2DiabetesRoute
   '/$lang/blog/best-strength-exercises-for-women-over-40': typeof LangBlogBestStrengthExercisesForWomenOver40Route
   '/$lang/blog/best-warm-up-exercises-before-strength-training': typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   '/$lang/blog/deka-fit-mile-strong-guide': typeof LangBlogDekaFitMileStrongGuideRoute
@@ -539,6 +559,7 @@ export interface FileRouteTypes {
     | '/blog/best-strength-exercises-for-busy-parents'
     | '/blog/best-strength-exercises-for-over-60s'
     | '/blog/best-strength-exercises-for-runners'
+    | '/blog/best-strength-exercises-for-type-2-diabetes'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
     | '/blog/deka-fit-mile-strong-guide'
@@ -561,6 +582,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-strength-exercises-for-busy-parents'
     | '/$lang/blog/best-strength-exercises-for-over-60s'
     | '/$lang/blog/best-strength-exercises-for-runners'
+    | '/$lang/blog/best-strength-exercises-for-type-2-diabetes'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
     | '/$lang/blog/deka-fit-mile-strong-guide'
@@ -592,6 +614,7 @@ export interface FileRouteTypes {
     | '/blog/best-strength-exercises-for-busy-parents'
     | '/blog/best-strength-exercises-for-over-60s'
     | '/blog/best-strength-exercises-for-runners'
+    | '/blog/best-strength-exercises-for-type-2-diabetes'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
     | '/blog/deka-fit-mile-strong-guide'
@@ -614,6 +637,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-strength-exercises-for-busy-parents'
     | '/$lang/blog/best-strength-exercises-for-over-60s'
     | '/$lang/blog/best-strength-exercises-for-runners'
+    | '/$lang/blog/best-strength-exercises-for-type-2-diabetes'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
     | '/$lang/blog/deka-fit-mile-strong-guide'
@@ -645,6 +669,7 @@ export interface FileRouteTypes {
     | '/blog/best-strength-exercises-for-busy-parents'
     | '/blog/best-strength-exercises-for-over-60s'
     | '/blog/best-strength-exercises-for-runners'
+    | '/blog/best-strength-exercises-for-type-2-diabetes'
     | '/blog/best-strength-exercises-for-women-over-40'
     | '/blog/best-warm-up-exercises-before-strength-training'
     | '/blog/deka-fit-mile-strong-guide'
@@ -667,6 +692,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-strength-exercises-for-busy-parents'
     | '/$lang/blog/best-strength-exercises-for-over-60s'
     | '/$lang/blog/best-strength-exercises-for-runners'
+    | '/$lang/blog/best-strength-exercises-for-type-2-diabetes'
     | '/$lang/blog/best-strength-exercises-for-women-over-40'
     | '/$lang/blog/best-warm-up-exercises-before-strength-training'
     | '/$lang/blog/deka-fit-mile-strong-guide'
@@ -699,6 +725,7 @@ export interface RootRouteChildren {
   BlogBestStrengthExercisesForBusyParentsRoute: typeof BlogBestStrengthExercisesForBusyParentsRoute
   BlogBestStrengthExercisesForOver60sRoute: typeof BlogBestStrengthExercisesForOver60sRoute
   BlogBestStrengthExercisesForRunnersRoute: typeof BlogBestStrengthExercisesForRunnersRoute
+  BlogBestStrengthExercisesForType2DiabetesRoute: typeof BlogBestStrengthExercisesForType2DiabetesRoute
   BlogBestStrengthExercisesForWomenOver40Route: typeof BlogBestStrengthExercisesForWomenOver40Route
   BlogBestWarmUpExercisesBeforeStrengthTrainingRoute: typeof BlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   BlogDekaFitMileStrongGuideRoute: typeof BlogDekaFitMileStrongGuideRoute
@@ -721,6 +748,7 @@ export interface RootRouteChildren {
   LangBlogBestStrengthExercisesForBusyParentsRoute: typeof LangBlogBestStrengthExercisesForBusyParentsRoute
   LangBlogBestStrengthExercisesForOver60sRoute: typeof LangBlogBestStrengthExercisesForOver60sRoute
   LangBlogBestStrengthExercisesForRunnersRoute: typeof LangBlogBestStrengthExercisesForRunnersRoute
+  LangBlogBestStrengthExercisesForType2DiabetesRoute: typeof LangBlogBestStrengthExercisesForType2DiabetesRoute
   LangBlogBestStrengthExercisesForWomenOver40Route: typeof LangBlogBestStrengthExercisesForWomenOver40Route
   LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute: typeof LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute
   LangBlogDekaFitMileStrongGuideRoute: typeof LangBlogDekaFitMileStrongGuideRoute
@@ -873,6 +901,13 @@ declare module '@tanstack/react-router' {
       path: '/blog/best-strength-exercises-for-runners'
       fullPath: '/blog/best-strength-exercises-for-runners'
       preLoaderRoute: typeof BlogBestStrengthExercisesForRunnersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/best-strength-exercises-for-type-2-diabetes': {
+      id: '/blog/best-strength-exercises-for-type-2-diabetes'
+      path: '/blog/best-strength-exercises-for-type-2-diabetes'
+      fullPath: '/blog/best-strength-exercises-for-type-2-diabetes'
+      preLoaderRoute: typeof BlogBestStrengthExercisesForType2DiabetesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/blog/best-strength-exercises-for-women-over-40': {
@@ -1029,6 +1064,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LangBlogBestStrengthExercisesForRunnersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$lang/blog/best-strength-exercises-for-type-2-diabetes': {
+      id: '/$lang/blog/best-strength-exercises-for-type-2-diabetes'
+      path: '/$lang/blog/best-strength-exercises-for-type-2-diabetes'
+      fullPath: '/$lang/blog/best-strength-exercises-for-type-2-diabetes'
+      preLoaderRoute: typeof LangBlogBestStrengthExercisesForType2DiabetesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/$lang/blog/best-strength-exercises-for-women-over-40': {
       id: '/$lang/blog/best-strength-exercises-for-women-over-40'
       path: '/$lang/blog/best-strength-exercises-for-women-over-40'
@@ -1125,6 +1167,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogBestStrengthExercisesForOver60sRoute,
   BlogBestStrengthExercisesForRunnersRoute:
     BlogBestStrengthExercisesForRunnersRoute,
+  BlogBestStrengthExercisesForType2DiabetesRoute:
+    BlogBestStrengthExercisesForType2DiabetesRoute,
   BlogBestStrengthExercisesForWomenOver40Route:
     BlogBestStrengthExercisesForWomenOver40Route,
   BlogBestWarmUpExercisesBeforeStrengthTrainingRoute:
@@ -1162,6 +1206,8 @@ const rootRouteChildren: RootRouteChildren = {
     LangBlogBestStrengthExercisesForOver60sRoute,
   LangBlogBestStrengthExercisesForRunnersRoute:
     LangBlogBestStrengthExercisesForRunnersRoute,
+  LangBlogBestStrengthExercisesForType2DiabetesRoute:
+    LangBlogBestStrengthExercisesForType2DiabetesRoute,
   LangBlogBestStrengthExercisesForWomenOver40Route:
     LangBlogBestStrengthExercisesForWomenOver40Route,
   LangBlogBestWarmUpExercisesBeforeStrengthTrainingRoute:
