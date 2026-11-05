@@ -1,0 +1,767 @@
+{
+ "slug": "how-to-train-for-hyrox-at-home",
+ "published": "2026-11-02",
+ "modified": "2026-11-02",
+ "about": "Training for HYROX at home",
+ "sources": [
+  {
+   "cite": "HYROX. The Fitness Race (race format, divisions, weights, distances and repetitions). Official site; accessed 2 Nov 2026.",
+   "url": "https://hyrox.com/the-fitness-race/"
+  },
+  {
+   "cite": "HYROX. Singles Rulebook, 2026/27 season (stations, weights, divisions, age groups, penalties, minimum age). Official PDF; accessed 2 Nov 2026. Current rulebooks: hyrox.com/rulebook.",
+   "url": "https://hyroxbenelux.com/wp-content/uploads/2026/06/26_27_HYROX_RulebookSingles_EN_FINAL.pdf"
+  },
+  {
+   "cite": "HYROX. Best HYROX Preparation (running share, simulating the race, pacing, rest and hydration). Official site; accessed 2 Nov 2026.",
+   "url": "https://hyrox.com/best-hyrox-preparation/"
+  },
+  {
+   "cite": "American College of Sports Medicine. Position stand: Progression models in resistance training for healthy adults. Med Sci Sports Exerc. 2009;41(3):687–708.",
+   "url": "https://doi.org/10.1249/MSS.0b013e3181915670"
+  },
+  {
+   "cite": "Schumann M, Feuerbacher JF, Sünkeler M, et al. Compatibility of concurrent aerobic and strength training for skeletal muscle size and function: an updated systematic review and meta-analysis. Sports Med. 2022;52(3):601–612.",
+   "url": "https://doi.org/10.1007/s40279-021-01587-7"
+  },
+  {
+   "cite": "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+   "url": "https://doi.org/10.1249/MSS.0000000000000664"
+  }
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "How to Train for HYROX at Home: 7 Swaps With No Sled | Jalan PT",
+   "metaDescription": "Train for HYROX at home: 7 swaps for the sled, SkiErg, row and wall balls, with race weights in kg and lb and a sample week. Approximations, said plainly.",
+   "h1": "How to train for HYROX at home: 7 swaps when you have no sled",
+   "dek": "You can train most of HYROX with a pair of dumbbells, a backpack and a wall. You can't copy all of it. Here is what carries over, and what to try once on the real kit.",
+   "updated": "Updated 2 November 2026",
+   "byline": "By Susmit Jalan, coach at Jalan PT, Pune.",
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why it matters",
+    "how": "How to train it",
+    "dose": "How much",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "whatsappText": "Hi Susmit, I read the article on training for HYROX at home and want to book a consultation",
+    "skip": "Skip to content",
+    "crumb": "Train for HYROX at home"
+   },
+   "intro": [
+    "No sled. No SkiErg. No rower. Can you still train for HYROX?",
+    "Mostly, yes. Some stations are easy at home. Some are only approximations. I'll say which.",
+    "Race facts come from HYROX's own pages and the 2026/27 rulebook. Weights: kg first, pounds in brackets (rounded).{2}",
+    "The swaps are my coaching approximations. They are not equivalent to the real stations. Nobody can promise they are.",
+    "Independent coaching. Not an official HYROX plan."
+   ],
+   "listHeading": "How to train for HYROX at home: 7 swaps",
+   "items": [
+    {
+     "name": "Run first. It is half the race",
+     "why": "HYROX's own preparation page says 50% of the race is running, and that you will be out there for about 90 minutes on average.{3}",
+     "how": "It also says to practise running after working the legs and arms, at home or in the gym.{3} Finish a run with a few heavy goblet squats, then run again.",
+     "dose": "Don't start too fast. HYROX warns that people run a personal best in the first kilometre.{3}"
+    },
+    {
+     "name": "SkiErg and row, without the machines",
+     "why": "Two stations of 1,000 m each, pulling on an erg, mostly arms, back and trunk.{1}{2}",
+     "how": "At home the closest pattern is band or cable pulldowns and dumbbell rows, in long sets of 15 to 25 reps. It is an approximation, not a copy.",
+     "dose": "If you can get to a gym with a SkiErg and a rower once a fortnight, do a 1,000 m effort on each to learn the pace."
+    },
+    {
+     "name": "Sled push and pull, without a sled",
+     "why": "The heaviest stations. Open women: push 102 kg (225 lb) and pull 78 kg (172 lb). Open men: 152 kg (335 lb) and 103 kg (227 lb). All including the sled.{2} HYROX says to try the sled push at least once before race day.{1}",
+     "how": "At home: heavy step-ups, split squats and walking lunges for leg drive. Bent-over dumbbell rows and towel rows for the pull.",
+     "dose": "Book one gym session with a sled in the last 4 to 6 weeks. Wear grippy shoes.{1}"
+    },
+    {
+     "name": "Burpee broad jumps need only floor",
+     "why": "80 m. Chest to the floor, stand up, jump forward.{1}{2}",
+     "how": "Do sets of 10 in a hallway or garden, rest 30 seconds, and add up to 80 m across the sets.",
+     "dose": "Land with soft knees. Stop the set if your back or knees complain."
+    },
+    {
+     "name": "Farmers carry and sandbag lunges are easy at home",
+     "why": "Carry 200 m: women 2 × 16 kg (35 lb), men 2 × 24 kg (53 lb). Sandbag lunges 100 m: women 10 kg (22 lb), men 20 kg (44 lb).{2} HYROX says the carry is easy to practise on your weekly shop.{1}",
+     "how": "Two shopping bags, two dumbbells or two kettlebells. For the lunges, a loaded backpack across the shoulders.",
+     "dose": "Build the distance first. Then the load."
+    },
+    {
+     "name": "Wall balls: the squat counts, not the ball",
+     "why": "100 reps. A rep needs a full squat with hips below the knees, and the ball must hit the target: 2.70 m for women, 3.00 m for men.{2}",
+     "how": "No wall or ball? Goblet squats to depth, 3 sets of 15 to 20, with a chair or box to mark the depth. Add a ball and a line on the wall when you can.",
+     "dose": "In the last 6 weeks, practise the real throw at least once a week."
+    },
+    {
+     "name": "Lift, because it carries over",
+     "why": "ACSM recommends 2 to 3 strength days a week for novices, at loads around 8 to 12 reps to failure.{4}",
+     "how": "Two full-body days: squat or step-up, hinge, push, pull, carry.",
+     "dose": "Split lifts and runs when you can. A meta-analysis of 43 studies found adding aerobic work made no clear difference to maximal strength or muscle size, but explosive strength was lower, more so when both were in the same session.{5}"
+    }
+   ],
+   "enoughHeading": "What home training can't copy",
+   "enough": [
+    "The feel of the sled surface, the ergs and the Roxzone transitions. Try the real thing at least once before race day.{1}",
+    "I can't promise any home set-up matches race-day performance. No client results here, and none implied.",
+    "Learn the standards for your division in the rulebook. Practise to those, not to a video.{2}",
+    "No prices. Entry fees are on each event page."
+   ],
+   "sampleHeading": "A sample home week",
+   "sampleLabel": "Sample only. Not a prescription. Adjust it to your body, your health and your history.",
+   "sample": [
+    "Mon, lift A: goblet squat 3 × 10, dumbbell Romanian deadlift 3 × 10, push-up 3 × 10, dumbbell row 3 × 10, 3 carries of 30 m.",
+    "Tue: easy run, 30 to 40 minutes.",
+    "Wed, station circuit, 4 rounds: 10 burpee broad jumps, 20 step-ups, 30 m carry, 15 squat-to-wall throws. Rest 90 seconds between rounds.",
+    "Thu: rest or a walk.",
+    "Fri, lift B: split squat 3 × 10 a side, hip thrust 3 × 12, overhead press 3 × 10, towel row 3 × 12.",
+    "Sat: easy run, 40 to 60 minutes, then 100 m of backpack lunges.",
+    "Sun: rest. Adjust it to your equipment, your body and your history."
+   ],
+   "coachedHeading": "Train for it with Jalan PT",
+   "coached": [
+    "Not sure your home set-up will transfer? I build HYROX preparation around the equipment you actually have, live, online.",
+    "Jalan PT is not affiliated with HYROX and is not endorsed by them. This is independent coaching.",
+    "Iron Hour is 60 minutes, 1:1, live. Set-up at minute 0: camera placed so I can see your whole body. Warm-up from minute 4. The primary lift at 14. Accessories at 28. Cool-down at 50.",
+    "Lean Reset is 20 sessions a month, 1:1. Open Floor is a small group.",
+    "Coming back after a long break? Return is 45 minutes, 12 alternate-day sessions a month. We build the base first.",
+    "Coached live on Google Meet, Zoom or FaceTime. From Pune. In Hindi or English. On IST. Not sure yet? Start with a 30-minute consultation. It is a conversation, not training. Booking holds a time. The fee is agreed directly."
+   ],
+   "safetyHeading": "Before you start",
+   "safety": "General information, not medical advice. ACSM's screening model says: if you are inactive, have no symptoms and no known heart, metabolic or kidney disease, you can start light to moderate exercise without medical clearance and build up gradually. If you have one of those conditions, or symptoms such as chest pain, unusual breathlessness or dizziness, get medical clearance first.{6} Race-style work is hard: heavy lifts, jumps, burpees, sprints and carries. Build up to it over weeks. Don't test a maximum lift alone or without a spotter or a coach watching. Burpee broad jumps, lunges and heavy carries are hard on knees, back and shoulders. Build up over weeks. Ask a doctor first if you have a heart, blood-pressure or joint condition."
+  },
+  "ar": {
+   "metaTitle": "كيف تتدرب لـ HYROX في المنزل: 7 بدائل دون زلاجة | Jalan PT",
+   "metaDescription": "كيف تتدرب لـ HYROX في المنزل: 7 بدائل للزلاجة وSkiErg والتجديف ورمي كرة الحائط، مع أوزان السباق بالكغ والرطل وأسبوع منزلي نموذجي. تقريبات، بوضوح.",
+   "h1": "كيف تتدرب لـ HYROX في المنزل: 7 بدائل حين لا تملك زلاجة",
+   "dek": "يمكنك تدريب معظم HYROX بدمبلين وحقيبة ظهر وجدار. لا يمكنك نسخ كل شيء. هذا ما ينتقل، وما تجرّبه مرة على المعدات الحقيقية.",
+   "updated": "تم التحديث في 2 نوفمبر 2026",
+   "byline": "بقلم سوسميت جالان، مدرب في Jalan PT، بونه.",
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا يهم",
+    "how": "كيف تتدرب عليه",
+    "dose": "الكمية",
+    "sources": "المصادر",
+    "readIn": "اقرأ بلغة أخرى",
+    "programs": "اطّلع على البرامج",
+    "whatsapp": "اسأل عبر واتساب",
+    "whatsappText": "مرحباً سوسميت، قرأت مقال التدرب لـ HYROX في المنزل وأريد حجز استشارة",
+    "skip": "انتقل إلى المحتوى",
+    "crumb": "التدرب لـ HYROX في المنزل"
+   },
+   "intro": [
+    "لا زلاجة. لا SkiErg. لا جهاز تجديف. هل ما زال بإمكانك التدرب لـ HYROX؟",
+    "في الغالب نعم. بعض المحطات سهلة في البيت. وبعضها تقريبات فقط. سأقول أيها.",
+    "معلومات السباق من صفحات HYROX نفسها ودليل 2026/27. الأوزان: الكيلوغرام أولاً، والأرطال بين قوسين (مقرّبة).{2}",
+    "البدائل تقريبات من عندي كمدرب. ليست مكافئة للمحطات الحقيقية. ولا أحد يستطيع أن يعد بذلك.",
+    "تدريب مستقل. وليس خطة رسمية من HYROX."
+   ],
+   "listHeading": "كيف تتدرب لـ HYROX في المنزل: 7 بدائل",
+   "items": [
+    {
+     "name": "الجري أولاً. هو نصف السباق",
+     "why": "تقول صفحة الإعداد في HYROX نفسها إن 50% من السباق جري، وإنك ستقضي نحو 90 دقيقة في المتوسط.{3}",
+     "how": "وتقول أيضاً أن تتمرن على الجري بعد إجهاد الساقين والذراعين، في المنزل أو النادي.{3} أنهِ جريتك ببضع سكوات ثقيلة بالدمبل ثم اجرِ مجدداً.",
+     "dose": "لا تنطلق بسرعة. تحذّر HYROX من أن الناس يحققون أفضل زمن شخصي في الكيلومتر الأول.{3}"
+    },
+    {
+     "name": "SkiErg والتجديف بلا أجهزة",
+     "why": "محطتان من 1000 م لكل منهما، سحب على جهاز، غالباً الذراعان والظهر والجذع.{1}{2}",
+     "how": "في البيت أقرب نمط هو السحب للأسفل بالحزام المطاطي أو الكابل وتجديف الدمبل، بمجموعات طويلة من 15 إلى 25 تكراراً. هذا تقريب وليس نسخة.",
+     "dose": "إن استطعت بلوغ نادٍ فيه SkiErg وجهاز تجديف مرة كل أسبوعين، فأدِّ جهد 1000 م على كل منهما لتتعلم الوتيرة."
+    },
+    {
+     "name": "دفع الزلاجة وسحبها بلا زلاجة",
+     "why": "أثقل المحطات. نساء Open: دفع 102 كغ (225 رطلاً) وسحب 78 كغ (172 رطلاً). رجال Open: 152 كغ (335 رطلاً) و103 كغ (227 رطلاً). كلها شاملة الزلاجة.{2} تقول HYROX جرّب دفع الزلاجة مرة على الأقل قبل السباق.{1}",
+     "how": "في البيت: صعود المقعد بثقل، وسكوات الانقسام، واندفاعات المشي لقوة الدفع بالساقين. وتجديف الدمبل بانحناء وتجديف المنشفة للسحب.",
+     "dose": "احجز جلسة في نادٍ فيه زلاجة في آخر 4 إلى 6 أسابيع. ارتدِ حذاء بقبضة جيدة.{1}"
+    },
+    {
+     "name": "قفزات البيربي الطويلة تحتاج أرضاً فقط",
+     "why": "80 م. الصدر إلى الأرض، ثم الوقوف، ثم قفزة للأمام.{1}{2}",
+     "how": "أدِّ مجموعات من 10 في ممر أو حديقة، استرح 30 ثانية، واجمع 80 م عبر المجموعات.",
+     "dose": "اهبط بركبتين ليّنتين. أوقف المجموعة إن اشتكى ظهرك أو ركبتاك."
+    },
+    {
+     "name": "حمل المزارع واندفاعات الكيس سهلة في البيت",
+     "why": "الحمل 200 م: النساء 2 × 16 كغ (35 رطلاً)، الرجال 2 × 24 كغ (53 رطلاً). اندفاعات الكيس 100 م: النساء 10 كغ (22 رطلاً)، الرجال 20 كغ (44 رطلاً).{2} تقول HYROX إن الحمل سهل التمرن عليه أثناء التسوق الأسبوعي.{1}",
+     "how": "كيسا تسوق، أو دمبلان، أو كيتلبلان. وللاندفاعات حقيبة ظهر محمّلة على الكتفين.",
+     "dose": "ابنِ المسافة أولاً. ثم الحمل."
+    },
+    {
+     "name": "رمي كرة الحائط: القرفصاء هي المهمة، لا الكرة",
+     "why": "100 تكرار. التكرار يحتاج قرفصاء كاملة بوركين أدنى من الركبتين، ويجب أن تصيب الكرة الهدف: 2.70 م للنساء و3.00 م للرجال.{2}",
+     "how": "لا جدار ولا كرة؟ سكوات جوبلت إلى العمق، 3 مجموعات من 15 إلى 20، مع كرسي أو صندوق لتحديد العمق. أضف كرة وخطاً على الجدار حين تستطيع.",
+     "dose": "في آخر 6 أسابيع، تمرّن على الرمية الحقيقية مرة أسبوعياً على الأقل."
+    },
+    {
+     "name": "ارفع الأثقال لأنها تنتقل إلى السباق",
+     "why": "يوصي ACSM بيومين إلى 3 أيام قوة أسبوعياً للمبتدئين، بأحمال نحو 8 إلى 12 تكراراً حتى الإنهاك.{4}",
+     "how": "يومان لكامل الجسم: سكوات أو صعود المقعد، ثني الورك، دفع، سحب، حمل.",
+     "dose": "افصل الرفع عن الجري متى أمكن. وجد تحليل جمعي لـ 43 دراسة أن إضافة العمل الهوائي لم تُحدث فرقاً واضحاً في القوة القصوى أو حجم العضلة، لكن القوة الانفجارية كانت أقل، وأكثر عند الجمع في الجلسة نفسها.{5}"
+    }
+   ],
+   "enoughHeading": "ما لا يستطيع التدريب المنزلي نسخه",
+   "enough": [
+    "إحساس سطح الزلاجة والأجهزة وانتقالات Roxzone. جرّب الحقيقي مرة على الأقل قبل السباق.{1}",
+    "لا أستطيع أن أعد بأن أي تجهيز منزلي يطابق أداء يوم السباق. لا نتائج عملاء هنا، ولا إيحاء بها.",
+    "تعلّم معايير فئتك من الدليل. تمرّن عليها هي، لا على فيديو.{2}",
+    "لا أسعار. رسوم المشاركة في صفحة كل فعالية."
+   ],
+   "sampleHeading": "أسبوع منزلي نموذجي",
+   "sampleLabel": "نموذج فقط. ليس وصفة. عدّله بحسب جسمك وصحتك وتاريخك.",
+   "sample": [
+    "الإثنين، رفع A: سكوات جوبلت 3 × 10، رفعة رومانية بالدمبل 3 × 10، ضغط أرضي 3 × 10، تجديف دمبل 3 × 10، 3 حمولات من 30 م.",
+    "الثلاثاء: جري سهل، 30 إلى 40 دقيقة.",
+    "الأربعاء، دائرة محطات، 4 جولات: 10 قفزات بيربي طويلة، 20 صعود مقعد، حمل 30 م، 15 رمية من القرفصاء إلى الجدار. راحة 90 ثانية بين الجولات.",
+    "الخميس: راحة أو مشي.",
+    "الجمعة، رفع B: سكوات انقسام 3 × 10 لكل جانب، دفع الورك 3 × 12، ضغط فوق الرأس 3 × 10، تجديف المنشفة 3 × 12.",
+    "السبت: جري سهل، 40 إلى 60 دقيقة، ثم 100 م اندفاعات بحقيبة ظهر.",
+    "الأحد: راحة. عدّله بحسب معداتك وجسمك وتاريخك."
+   ],
+   "coachedHeading": "تدرّب له مع Jalan PT",
+   "coached": [
+    "لست متأكداً أن تجهيزك المنزلي سيفيدك؟ أبني الإعداد لـ HYROX على المعدات التي لديك فعلاً، مباشرة عبر الإنترنت.",
+    "Jalan PT غير تابعة لـ HYROX ولا مرتبطة بها، ولا تحظى بتأييدها. هذا تدريب مستقل.",
+    "Iron Hour مدته 60 دقيقة، فردياً ومباشراً. التجهيز في الدقيقة 0: الكاميرا بحيث أرى جسمك كاملاً. الإحماء من الدقيقة 4. التمرين الأساسي في الدقيقة 14. التمارين المساعدة في 28. التهدئة في 50.",
+    "Lean Reset عشرون جلسة في الشهر، فردياً. Open Floor مجموعة صغيرة.",
+    "عائد بعد انقطاع طويل؟ برنامج Return مدته 45 دقيقة، 12 جلسة في الشهر بالتناوب: يوم تمرين ويوم راحة. نبني الأساس أولاً.",
+    "تدريب مباشر عبر Google Meet أو Zoom أو FaceTime. من بونه. بالهندية أو الإنجليزية. بتوقيت الهند (IST). لم تقرّر بعد؟ ابدأ باستشارة مدتها 30 دقيقة. هي محادثة، لا تدريب. الحجز يثبّت موعداً فقط. والرسوم يُتفق عليها مباشرة."
+   ],
+   "safetyHeading": "قبل أن تبدأ",
+   "safety": "معلومات عامة، وليست نصيحة طبية. يقول نموذج الفحص المسبق من ACSM: إن كنت غير نشيط، وبلا أعراض، وبلا مرض معروف في القلب أو الأيض أو الكلى، يمكنك أن تبدأ تمريناً خفيفاً إلى معتدل دون إذن طبي وأن تزيده تدريجياً. إن كانت لديك إحدى هذه الحالات، أو أعراض مثل ألم الصدر أو ضيق نفس غير معتاد أو دوار، فاحصل على إذن طبي أولاً.{6} العمل بأسلوب السباق شاق: أثقال ثقيلة، وقفزات، وبيربي، وركض سريع، وحمل. ابنِ نفسك له على مدى أسابيع. لا تختبر أقصى ثقل وحدك أو دون مراقب أو مدرب يراقبك. قفزات البيربي والاندفاعات والحمل الثقيل شاقة على الركبتين والظهر والكتفين. ابنِ نفسك على مدى أسابيع. اسأل طبيباً أولاً إن كانت لديك حالة في القلب أو الضغط أو المفاصل."
+  },
+  "hi": {
+   "metaTitle": "घर पर HYROX की ट्रेनिंग कैसे करें: बिना स्लेड के 7 विकल्प | Jalan PT",
+   "metaDescription": "घर पर HYROX की ट्रेनिंग: स्लेड, SkiErg, रो और वॉल बॉल के 7 विकल्प, किग्रा और lb में रेस वज़न और घर का सैंपल हफ़्ता। अनुमानित विकल्प, साफ़ शब्दों में।",
+   "h1": "घर पर HYROX की ट्रेनिंग कैसे करें: जब स्लेड न हो तब 7 विकल्प",
+   "dek": "आप HYROX का ज़्यादातर हिस्सा दो डम्बल, एक बैकपैक और एक दीवार से ट्रेन कर सकते हैं। सब कुछ नक़ल नहीं हो सकता। क्या काम आता है, और क्या असली उपकरण पर एक बार आज़माना चाहिए, यह यहाँ है।",
+   "updated": "अपडेट: 2 नवंबर 2026",
+   "byline": "सुस्मित जालान, कोच, Jalan PT, पुणे।",
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों ज़रूरी",
+    "how": "कैसे ट्रेन करें",
+    "dose": "कितना",
+    "sources": "स्रोत",
+    "readIn": "इसे इस भाषा में पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "WhatsApp पर पूछें",
+    "whatsappText": "नमस्ते सुस्मित, मैंने घर पर HYROX की ट्रेनिंग वाला लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    "skip": "सामग्री पर जाएँ",
+    "crumb": "घर पर HYROX की ट्रेनिंग"
+   },
+   "intro": [
+    "स्लेड नहीं। SkiErg नहीं। रोइंग मशीन नहीं। फिर भी HYROX की ट्रेनिंग हो सकती है?",
+    "ज़्यादातर, हाँ। कुछ स्टेशन घर पर आसान हैं। कुछ सिर्फ़ अनुमानित विकल्प हैं। मैं बताऊँगा कौन से।",
+    "रेस के तथ्य HYROX के अपने पेजों और 2026/27 रूलबुक से हैं। वज़न: पहले किग्रा, कोष्ठक में पाउंड (राउंड किए हुए)।{2}",
+    "ये विकल्प कोच के तौर पर मेरे अनुमान हैं। ये असली स्टेशनों के बराबर नहीं हैं। कोई इसका वादा नहीं कर सकता।",
+    "स्वतंत्र कोचिंग। HYROX का आधिकारिक प्लान नहीं।"
+   ],
+   "listHeading": "घर पर HYROX की ट्रेनिंग: 7 विकल्प",
+   "items": [
+    {
+     "name": "पहले दौड़ें। यह आधी रेस है",
+     "why": "HYROX का अपना तैयारी पेज कहता है कि रेस का 50% हिस्सा दौड़ है, और औसतन आप लगभग 90 मिनट मैदान में रहेंगे।{3}",
+     "how": "वह यह भी कहता है कि पैरों और बाँहों को थकाने के बाद दौड़ने का अभ्यास करें, घर पर या जिम में।{3} दौड़ के अंत में कुछ भारी गोब्लेट स्क्वाट करें, फिर फिर दौड़ें।",
+     "dose": "बहुत तेज़ शुरू न करें। HYROX चेताता है कि लोग पहले किलोमीटर में अपना पर्सनल बेस्ट दौड़ जाते हैं।{3}"
+    },
+    {
+     "name": "बिना मशीन के SkiErg और रो",
+     "why": "दो स्टेशन, हर एक 1,000 मीटर, एर्ग पर खींचना, ज़्यादातर बाँहें, पीठ और ट्रंक।{1}{2}",
+     "how": "घर पर सबसे नज़दीकी पैटर्न है बैंड या केबल पुलडाउन और डम्बल रो, 15 से 25 रेप के लंबे सेट में। यह अनुमान है, नक़ल नहीं।",
+     "dose": "अगर पखवाड़े में एक बार SkiErg और रोअर वाले जिम जा सकें, तो गति सीखने के लिए हर एक पर 1,000 मीटर की कोशिश करें।"
+    },
+    {
+     "name": "बिना स्लेड के स्लेड पुश और पुल",
+     "why": "सबसे भारी स्टेशन। ओपन महिलाएँ: पुश 102 किग्रा (225 lb) और पुल 78 किग्रा (172 lb)। ओपन पुरुष: 152 किग्रा (335 lb) और 103 किग्रा (227 lb)। सब स्लेड समेत।{2} HYROX कहता है रेस से पहले कम से कम एक बार स्लेड पुश आज़माएँ।{1}",
+     "how": "घर पर: टांगों के ज़ोर के लिए भारी स्टेप-अप, स्प्लिट स्क्वाट और वॉकिंग लंज। खिंचाव के लिए झुककर डम्बल रो और टॉवल रो।",
+     "dose": "आख़िरी 4 से 6 हफ़्तों में स्लेड वाले जिम में एक सेशन बुक करें। अच्छी ग्रिप वाले जूते पहनें।{1}"
+    },
+    {
+     "name": "बर्पी ब्रॉड जंप के लिए सिर्फ़ फ़र्श चाहिए",
+     "why": "80 मीटर। छाती फ़र्श तक, खड़े हों, आगे कूदें।{1}{2}",
+     "how": "गलियारे या बगीचे में 10-10 के सेट करें, 30 सेकंड आराम, और सेट मिलाकर 80 मीटर पूरे करें।",
+     "dose": "घुटने नरम रखकर उतरें। पीठ या घुटने शिकायत करें तो सेट रोक दें।"
+    },
+    {
+     "name": "फ़ार्मर्स कैरी और सैंडबैग लंज घर पर आसान हैं",
+     "why": "कैरी 200 मीटर: महिलाएँ 2 × 16 किग्रा (35 lb), पुरुष 2 × 24 किग्रा (53 lb)। सैंडबैग लंज 100 मीटर: महिलाएँ 10 किग्रा (22 lb), पुरुष 20 किग्रा (44 lb)।{2} HYROX कहता है कि कैरी का अभ्यास हफ़्ते की ख़रीदारी में आसानी से हो जाता है।{1}",
+     "how": "दो थैले, दो डम्बल या दो केटलबेल। लंज के लिए कंधों पर भरा हुआ बैकपैक।",
+     "dose": "पहले दूरी बनाएँ। फिर लोड।"
+    },
+    {
+     "name": "वॉल बॉल: स्क्वाट मायने रखता है, गेंद नहीं",
+     "why": "100 रेप। एक रेप के लिए पूरा स्क्वाट चाहिए जिसमें कूल्हे घुटनों से नीचे जाएँ, और गेंद टारगेट पर लगे: महिलाओं के लिए 2.70 मीटर, पुरुषों के लिए 3.00 मीटर।{2}",
+     "how": "दीवार या गेंद नहीं? गहराई तक गोब्लेट स्क्वाट, 15 से 20 के 3 सेट, गहराई तय करने के लिए कुर्सी या बॉक्स के साथ। जब हो सके, गेंद और दीवार पर रेखा जोड़ें।",
+     "dose": "आख़िरी 6 हफ़्तों में असली थ्रो का हफ़्ते में कम से कम एक बार अभ्यास करें।"
+    },
+    {
+     "name": "लिफ़्ट करें, क्योंकि यह काम आता है",
+     "why": "ACSM नए लोगों के लिए हफ़्ते में 2 से 3 स्ट्रेंथ दिन सुझाता है, लगभग 8 से 12 रेप (थकने तक) वाले लोड पर।{4}",
+     "how": "दो फ़ुल-बॉडी दिन: स्क्वाट या स्टेप-अप, हिंज, पुश, पुल, कैरी।",
+     "dose": "जब हो सके, लिफ़्ट और दौड़ अलग रखें। 43 अध्ययनों के मेटा-विश्लेषण में पाया गया कि एरोबिक जोड़ने से अधिकतम स्ट्रेंथ या मसल साइज़ में साफ़ फ़र्क़ नहीं पड़ा, पर विस्फोटक स्ट्रेंथ कम रही, और एक ही सेशन में दोनों करने पर ज़्यादा।{5}"
+    }
+   ],
+   "enoughHeading": "घर की ट्रेनिंग जो नक़ल नहीं कर सकती",
+   "enough": [
+    "स्लेड की सतह, एर्ग और Roxzone ट्रांज़िशन का एहसास। रेस से पहले असली चीज़ कम से कम एक बार आज़माएँ।{1}",
+    "मैं वादा नहीं कर सकता कि कोई भी घरेलू सेट-अप रेस के दिन के प्रदर्शन से मेल खाएगा। यहाँ कोई क्लाइंट रिज़ल्ट नहीं, और न ही इशारा।",
+    "अपने डिवीज़न के स्टैंडर्ड रूलबुक से सीखें। उन्हीं के हिसाब से अभ्यास करें, किसी वीडियो के नहीं।{2}",
+    "कोई क़ीमत नहीं। एंट्री फ़ीस हर इवेंट पेज पर है।"
+   ],
+   "sampleHeading": "घर का एक सैंपल हफ़्ता",
+   "sampleLabel": "सिर्फ़ सैंपल। प्रिस्क्रिप्शन नहीं। अपने शरीर, अपनी सेहत और अपने इतिहास के हिसाब से बदलें।",
+   "sample": [
+    "सोम, लिफ़्ट A: गोब्लेट स्क्वाट 3 × 10, डम्बल रोमानियन डेडलिफ़्ट 3 × 10, पुश-अप 3 × 10, डम्बल रो 3 × 10, 30 मीटर के 3 कैरी।",
+    "मंगल: आसान दौड़, 30 से 40 मिनट।",
+    "बुध, स्टेशन सर्किट, 4 राउंड: 10 बर्पी ब्रॉड जंप, 20 स्टेप-अप, 30 मीटर कैरी, दीवार पर 15 स्क्वाट-थ्रो। राउंड के बीच 90 सेकंड आराम।",
+    "गुरु: आराम या वॉक।",
+    "शुक्र, लिफ़्ट B: स्प्लिट स्क्वाट हर तरफ़ 3 × 10, हिप थ्रस्ट 3 × 12, ओवरहेड प्रेस 3 × 10, टॉवल रो 3 × 12।",
+    "शनि: आसान दौड़, 40 से 60 मिनट, फिर बैकपैक के साथ 100 मीटर लंज।",
+    "रवि: आराम। इसे अपने उपकरण, शरीर और इतिहास के हिसाब से बदलें।"
+   ],
+   "coachedHeading": "Jalan PT के साथ इसकी ट्रेनिंग करें",
+   "coached": [
+    "पक्का नहीं कि घर का सेट-अप काम आएगा? मैं HYROX की तैयारी आपके पास मौजूद उपकरणों के हिसाब से, ऑनलाइन लाइव बनाता हूँ।",
+    "Jalan PT का HYROX से कोई संबंध नहीं है, और HYROX ने इसका समर्थन नहीं किया है। यह स्वतंत्र ट्रेनिंग है।",
+    "Iron Hour 60 मिनट का है, 1:1, लाइव। मिनट 0 पर सेट-अप: कैमरा ऐसे कि मुझे आपका पूरा शरीर दिखे। मिनट 4 से वार्म-अप। मिनट 14 पर मुख्य लिफ़्ट। 28 पर एक्सेसरीज़। 50 पर कूल-डाउन।",
+    "Lean Reset महीने में 20 सेशन, 1:1। Open Floor एक छोटा ग्रुप है।",
+    "लंबे ब्रेक के बाद लौट रहे हैं? Return 45 मिनट का है, महीने में 12 सेशन, एक दिन छोड़कर। पहले बेस बनाते हैं।",
+    "Google Meet, Zoom या FaceTime पर लाइव कोचिंग। पुणे से। हिंदी या अंग्रेज़ी में। IST पर। अभी तय नहीं? 30 मिनट के कंसल्टेशन से शुरू करें। यह बातचीत है, ट्रेनिंग नहीं। बुकिंग सिर्फ़ समय रोकती है। फ़ीस सीधे तय होती है।"
+   ],
+   "safetyHeading": "शुरू करने से पहले",
+   "safety": "सामान्य जानकारी, मेडिकल सलाह नहीं। ACSM का स्क्रीनिंग मॉडल कहता है: अगर आप एक्टिव नहीं हैं, कोई लक्षण नहीं है और दिल, मेटाबॉलिक या किडनी की कोई ज्ञात बीमारी नहीं है, तो आप बिना मेडिकल क्लियरेंस के हल्की से मध्यम एक्सरसाइज़ शुरू करके धीरे-धीरे बढ़ा सकते हैं। अगर इनमें से कोई बीमारी है, या सीने में दर्द, असामान्य साँस फूलना या चक्कर जैसे लक्षण हैं, तो पहले मेडिकल क्लियरेंस लें।{6} रेस-स्टाइल काम कठिन है: भारी लिफ़्ट, जंप, बर्पी, स्प्रिंट और कैरी। इसके लिए हफ़्तों में तैयारी करें। अकेले या बिना स्पॉटर या कोच के मैक्स लिफ़्ट टेस्ट न करें। बर्पी ब्रॉड जंप, लंज और भारी कैरी घुटनों, पीठ और कंधों पर भारी पड़ते हैं। हफ़्तों में तैयारी करें। दिल, ब्लड प्रेशर या जोड़ों की समस्या हो तो पहले डॉक्टर से पूछें।"
+  },
+  "es": {
+   "metaTitle": "Cómo entrenar para HYROX en casa: 7 cambios sin trineo | Jalan PT",
+   "metaDescription": "Entrena HYROX en casa: 7 cambios para trineo, SkiErg, remo y wall balls, con pesos en kg y lb y una semana de ejemplo. Son aproximaciones.",
+   "h1": "Cómo entrenar para HYROX en casa: 7 cambios cuando no tienes trineo",
+   "dek": "Puedes entrenar la mayor parte de HYROX con un par de mancuernas, una mochila y una pared. No puedes copiarlo todo. Esto es lo que se traslada, y lo que conviene probar una vez en el material real.",
+   "updated": "Actualizado el 2 de noviembre de 2026",
+   "byline": "Por Susmit Jalan, entrenador en Jalan PT, Pune.",
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué importa",
+    "how": "Cómo entrenarlo",
+    "dose": "Cuánto",
+    "sources": "Fuentes",
+    "readIn": "Leer en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "whatsappText": "Hola Susmit, leí el artículo sobre entrenar para HYROX en casa y quiero reservar una consulta",
+    "skip": "Saltar al contenido",
+    "crumb": "Entrenar HYROX en casa"
+   },
+   "intro": [
+    "Sin trineo. Sin SkiErg. Sin remo. ¿Se puede entrenar para HYROX?",
+    "En su mayor parte, sí. Algunas estaciones son fáciles en casa. Otras son solo aproximaciones. Te diré cuáles.",
+    "Los datos de la carrera vienen de las páginas de HYROX y del reglamento 2026/27. Pesos: primero kilos, y las libras entre paréntesis (redondeadas).{2}",
+    "Las sustituciones son aproximaciones mías como entrenador. No equivalen a las estaciones reales. Nadie puede prometer que lo hagan.",
+    "Entrenamiento independiente. No es un plan oficial de HYROX."
+   ],
+   "listHeading": "Cómo entrenar para HYROX en casa: 7 cambios",
+   "items": [
+    {
+     "name": "Corre primero. Es la mitad de la carrera",
+     "why": "La página de preparación de HYROX dice que el 50% de la carrera es correr y que estarás unos 90 minutos de media.{3}",
+     "how": "También dice que practiques correr después de trabajar piernas y brazos, en casa o en el gimnasio.{3} Termina una carrera con unas sentadillas goblet pesadas y vuelve a correr.",
+     "dose": "No salgas demasiado rápido. HYROX avisa de que la gente corre su mejor marca en el primer kilómetro.{3}"
+    },
+    {
+     "name": "SkiErg y remo, sin las máquinas",
+     "why": "Dos estaciones de 1.000 m cada una, tirando en un ergómetro, sobre todo brazos, espalda y tronco.{1}{2}",
+     "how": "En casa, el patrón más cercano son jalones con banda o polea y remos con mancuerna, en series largas de 15 a 25 repeticiones. Es una aproximación, no una copia.",
+     "dose": "Si puedes ir una vez cada quince días a un gimnasio con SkiErg y remo, haz un esfuerzo de 1.000 m en cada uno para aprender el ritmo."
+    },
+    {
+     "name": "Empuje y arrastre de trineo, sin trineo",
+     "why": "Las estaciones más pesadas. Mujeres Open: empuje 102 kg (225 lb) y arrastre 78 kg (172 lb). Hombres Open: 152 kg (335 lb) y 103 kg (227 lb). Todo con el trineo incluido.{2} HYROX dice que pruebes el empuje de trineo al menos una vez antes de la carrera.{1}",
+     "how": "En casa: subidas al banco con peso, sentadillas búlgaras y zancadas caminando para el empuje de piernas. Remo inclinado con mancuernas y remo con toalla para el tirón.",
+     "dose": "Reserva una sesión en un gimnasio con trineo en las últimas 4 a 6 semanas. Lleva zapatillas con buen agarre.{1}"
+    },
+    {
+     "name": "Los burpees con salto largo solo necesitan suelo",
+     "why": "80 m. Pecho al suelo, de pie, salto hacia delante.{1}{2}",
+     "how": "Haz series de 10 en un pasillo o jardín, descansa 30 segundos y suma 80 m entre series.",
+     "dose": "Aterriza con las rodillas blandas. Para la serie si te molestan la espalda o las rodillas."
+    },
+    {
+     "name": "El paseo del granjero y las zancadas con saco son fáciles en casa",
+     "why": "Paseo 200 m: mujeres 2 × 16 kg (35 lb), hombres 2 × 24 kg (53 lb). Zancadas con saco 100 m: mujeres 10 kg (22 lb), hombres 20 kg (44 lb).{2} HYROX dice que el paseo es fácil de practicar con la compra semanal.{1}",
+     "how": "Dos bolsas de la compra, dos mancuernas o dos kettlebells. Para las zancadas, una mochila cargada sobre los hombros.",
+     "dose": "Construye primero la distancia. Luego la carga."
+    },
+    {
+     "name": "Wall balls: cuenta la sentadilla, no el balón",
+     "why": "100 repeticiones. Una repetición exige sentadilla completa con la cadera por debajo de las rodillas, y el balón debe dar en el objetivo: 2,70 m mujeres, 3,00 m hombres.{2}",
+     "how": "¿Sin pared ni balón? Sentadillas goblet hasta la profundidad, 3 series de 15 a 20, con una silla o cajón que marque la profundidad. Añade balón y una línea en la pared cuando puedas.",
+     "dose": "En las últimas 6 semanas, practica el lanzamiento real al menos una vez por semana."
+    },
+    {
+     "name": "Levanta pesas, porque se traslada",
+     "why": "El ACSM recomienda 2 a 3 días de fuerza por semana a novatos, con cargas de unas 8 a 12 repeticiones hasta el fallo.{4}",
+     "how": "Dos días de cuerpo completo: sentadilla o subida al banco, bisagra, empuje, tracción, acarreo.",
+     "dose": "Separa pesas y carrera cuando puedas. Un metaanálisis de 43 estudios halló que añadir trabajo aeróbico no marcó una diferencia clara en fuerza máxima ni masa muscular, pero la fuerza explosiva fue menor, más si iban en la misma sesión.{5}"
+    }
+   ],
+   "enoughHeading": "Lo que el entrenamiento en casa no puede copiar",
+   "enough": [
+    "La sensación de la superficie del trineo, los ergómetros y las transiciones de la Roxzone. Prueba lo real al menos una vez antes de la carrera.{1}",
+    "No puedo prometer que ningún montaje casero iguale el rendimiento del día de la carrera. Aquí no hay resultados de clientes, ni se insinúan.",
+    "Aprende los estándares de tu división en el reglamento. Practica con ellos, no con un vídeo.{2}",
+    "Sin precios. La inscripción está en la página de cada evento."
+   ],
+   "sampleHeading": "Una semana de ejemplo en casa",
+   "sampleLabel": "Solo un ejemplo. No es una prescripción. Ajústalo a tu cuerpo, tu salud y tu historia.",
+   "sample": [
+    "Lun, pesas A: sentadilla goblet 3 × 10, peso muerto rumano con mancuernas 3 × 10, flexiones 3 × 10, remo con mancuerna 3 × 10, 3 acarreos de 30 m.",
+    "Mar: carrera suave, 30 a 40 minutos.",
+    "Mié, circuito de estaciones, 4 rondas: 10 burpees con salto largo, 20 subidas al banco, acarreo de 30 m, 15 lanzamientos desde sentadilla a la pared. Descansa 90 segundos entre rondas.",
+    "Jue: descanso o paseo.",
+    "Vie, pesas B: sentadilla búlgara 3 × 10 por lado, puente de glúteo con peso 3 × 12, press por encima de la cabeza 3 × 10, remo con toalla 3 × 12.",
+    "Sáb: carrera suave, 40 a 60 minutos, y luego 100 m de zancadas con mochila.",
+    "Dom: descanso. Ajústalo a tu material, tu cuerpo y tu historia."
+   ],
+   "coachedHeading": "Entrena para ello con Jalan PT",
+   "coached": [
+    "¿No sabes si tu montaje en casa te servirá? Construyo la preparación para HYROX con el material que realmente tienes, en directo y online.",
+    "Jalan PT no está afiliada a HYROX ni cuenta con su respaldo. Es un entrenamiento independiente.",
+    "Iron Hour son 60 minutos, 1:1, en directo. Preparación en el minuto 0: cámara colocada para que vea todo tu cuerpo. Calentamiento desde el minuto 4. El ejercicio principal en el 14. Accesorios en el 28. Vuelta a la calma en el 50.",
+    "Lean Reset son 20 sesiones al mes, 1:1. Open Floor es un grupo pequeño.",
+    "¿Vuelves tras un parón largo? Return son 45 minutos, 12 sesiones al mes en días alternos. Primero construimos la base.",
+    "En directo por Google Meet, Zoom o FaceTime. Desde Pune. En hindi o inglés. En horario IST. ¿Aún no lo tienes claro? Empieza con una consulta de 30 minutos. Es una conversación, no un entrenamiento. La reserva solo guarda una hora. La tarifa se acuerda directamente."
+   ],
+   "safetyHeading": "Antes de empezar",
+   "safety": "Información general, no consejo médico. El modelo de cribado del ACSM dice: si eres inactivo, no tienes síntomas ni enfermedad conocida del corazón, metabólica o renal, puedes empezar con ejercicio ligero a moderado sin autorización médica e ir subiendo poco a poco. Si tienes una de esas enfermedades, o síntomas como dolor en el pecho, falta de aire inusual o mareo, consigue primero la autorización médica.{6} El trabajo de estilo carrera es duro: levantamientos pesados, saltos, burpees, sprints y acarreos. Llega a él en semanas. No pruebes un máximo a solas, ni sin ayudante o entrenador que te vea. Los burpees con salto largo, las zancadas y los acarreos pesados castigan rodillas, espalda y hombros. Progresa durante semanas. Consulta antes con tu médico si tienes una afección del corazón, la tensión o las articulaciones."
+  },
+  "zh": {
+   "metaTitle": "如何在家备战HYROX：没有雪橇的7种替代 | Jalan PT",
+   "metaDescription": "如何在家备战HYROX：雪橇、SkiErg、划船和药球上墙的7种替代，含公斤和磅的比赛重量及居家示例周。是近似替代，并如实说明。",
+   "h1": "如何在家备战HYROX：没有雪橇时的7种替代",
+   "dek": "一对哑铃、一个背包和一面墙，就能练到HYROX的大部分内容。但不能全部复制。这里说哪些能迁移，哪些值得在真实器械上试一次。",
+   "updated": "更新于2026年11月2日",
+   "byline": "作者：Susmit Jalan，Jalan PT教练，浦那。",
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么重要",
+    "how": "怎么练",
+    "dose": "练多少",
+    "sources": "参考来源",
+    "readIn": "其他语言版本",
+    "programs": "查看课程",
+    "whatsapp": "通过WhatsApp咨询",
+    "whatsappText": "你好Susmit，我读了“在家备战HYROX”的文章，想预约一次咨询",
+    "skip": "跳到正文",
+    "crumb": "在家备战HYROX"
+   },
+   "intro": [
+    "没有雪橇。没有SkiErg。没有划船机。还能备战HYROX吗？",
+    "大部分可以。有些站点在家很容易。有些只是近似。我会说明是哪些。",
+    "比赛事实来自HYROX自己的页面和2026/27规则手册。重量：先写公斤，磅数放括号里（四舍五入）。{2}",
+    "这些替代是我作为教练的近似做法。它们并不等同于真实站点。没有人能保证等同。",
+    "独立的训练指导，不是HYROX官方计划。"
+   ],
+   "listHeading": "在家备战HYROX：7种替代",
+   "items": [
+    {
+     "name": "先跑步。它占了比赛的一半",
+     "why": "HYROX自己的备赛页面说，比赛的50%是跑步，平均你会在场上约90分钟。{3}",
+     "how": "它还说，要练习在腿和手臂疲劳后跑步，在家或健身房都可以。{3}跑完后做几组重的高脚杯深蹲，再接着跑。",
+     "dose": "不要起步太快。HYROX提醒，很多人在第一公里就跑出个人最好成绩。{3}"
+    },
+    {
+     "name": "没有器械的SkiErg和划船",
+     "why": "两个各1000米的站点，在测功仪上拉，主要是手臂、背和躯干。{1}{2}",
+     "how": "在家最接近的是弹力带或拉索下拉，以及哑铃划船，做15到25次的长组。这是近似，不是复制。",
+     "dose": "如果每两周能去一次有SkiErg和划船机的健身房，各做一次1000米来熟悉配速。"
+    },
+    {
+     "name": "没有雪橇的推雪橇和拉雪橇",
+     "why": "最重的站点。公开组女子：推102公斤（225磅），拉78公斤（172磅）。公开组男子：152公斤（335磅）和103公斤（227磅）。均含雪橇。{2}HYROX说，赛前至少试推一次雪橇。{1}",
+     "how": "在家：负重踏箱、分腿蹲和行进箭步蹲练腿部蹬力。俯身哑铃划船和毛巾划船练拉的动作。",
+     "dose": "在最后4到6周预约一次有雪橇的健身房训练。穿抓地好的鞋。{1}"
+    },
+    {
+     "name": "波比跳远只需要地面",
+     "why": "80米。胸部贴地，站起，向前跳。{1}{2}",
+     "how": "在走廊或花园做每组10次，休息30秒，几组累计到80米。",
+     "dose": "落地时膝盖放松。背或膝盖不舒服就停止这一组。"
+    },
+    {
+     "name": "农夫行走和沙袋箭步蹲在家很容易",
+     "why": "农夫行走200米：女子2 × 16公斤（35磅），男子2 × 24公斤（53磅）。沙袋箭步蹲100米：女子10公斤（22磅），男子20公斤（44磅）。{2}HYROX说，农夫行走在每周购物时就能练。{1}",
+     "how": "两个购物袋、两个哑铃或两个壶铃。箭步蹲用装好重物的背包放在肩上。",
+     "dose": "先加距离，再加负荷。"
+    },
+    {
+     "name": "药球上墙：算数的是深蹲，不是球",
+     "why": "100次。一次要完整深蹲，髋低于膝，球必须击中目标：女子2.70米，男子3.00米。{2}",
+     "how": "没有墙或球？做高脚杯深蹲到位，3组每组15到20次，用椅子或箱子标出深度。有条件时加上球和墙上的标线。",
+     "dose": "在最后6周，每周至少练一次真实的投掷。"
+    },
+    {
+     "name": "练力量，因为它能迁移",
+     "why": "ACSM建议新手每周2到3天力量训练，负荷约为8到12次力竭。{4}",
+     "how": "两个全身训练日：深蹲或踏箱、髋铰链、推、拉、负重行走。",
+     "dose": "可能的话把举重和跑步分开。一项纳入43项研究的荟萃分析发现，加入有氧训练对最大力量或肌肉量没有明显差异，但爆发力较低，放在同一次训练时更明显。{5}"
+    }
+   ],
+   "enoughHeading": "居家训练无法复制的部分",
+   "enough": [
+    "雪橇表面、测功仪和Roxzone转换的手感。赛前至少在真实器械上试一次。{1}",
+    "我不能保证任何居家设置都等同于比赛日的表现。这里没有客户成果，也不暗示任何成果。",
+    "在规则手册里了解你所在组别的标准。按标准练，而不是按视频。{2}",
+    "没有价格。报名费在每场赛事页面上。"
+   ],
+   "sampleHeading": "居家示例周",
+   "sampleLabel": "仅为示例，不是处方。请根据你的身体、健康状况和经历调整。",
+   "sample": [
+    "周一，力量A：高脚杯深蹲3 × 10，哑铃罗马尼亚硬拉3 × 10，俯卧撑3 × 10，哑铃划船3 × 10，3次30米负重行走。",
+    "周二：轻松跑，30到40分钟。",
+    "周三，站点循环，4轮：10次波比跳远，20次踏箱，30米负重行走，15次深蹲对墙投掷。每轮休息90秒。",
+    "周四：休息或散步。",
+    "周五，力量B：分腿蹲每侧3 × 10，臀推3 × 12，过头推举3 × 10，毛巾划船3 × 12。",
+    "周六：轻松跑，40到60分钟，然后背包箭步蹲100米。",
+    "周日：休息。请根据你的器械、身体和经历调整。"
+   ],
+   "coachedHeading": "与Jalan PT一起备战",
+   "coached": [
+    "不确定家里的设置能不能迁移？我按你实际拥有的器械制定HYROX备赛，在线实时指导。",
+    "Jalan PT与HYROX没有任何关联，也未获得其认可。这是独立的训练指导。",
+    "Iron Hour是60分钟，一对一，实时进行。第0分钟准备：摆好摄像头，让我能看到你的全身。第4分钟开始热身。第14分钟进入主项。第28分钟做辅助练习。第50分钟放松。",
+    "Lean Reset每月20次，一对一。Open Floor是小组课。",
+    "长期中断后重新开始？Return每次45分钟，每月12次，隔天一次。我们先打基础。",
+    "通过Google Meet、Zoom或FaceTime实时指导。来自浦那。印地语或英语。按印度标准时间（IST）。还没决定？先从30分钟的咨询开始。那是一次交谈，不是训练。预约只是保留一个时间。费用直接商定。"
+   ],
+   "safetyHeading": "开始之前",
+   "safety": "一般信息，不是医疗建议。ACSM的运动前筛查模型指出：如果你平时不运动、没有症状，也没有已知的心脏、代谢或肾脏疾病，可以在没有医疗许可的情况下从低到中等强度开始，逐步增加。如果有上述疾病，或出现胸痛、异常气短、头晕等症状，请先取得医疗许可。{6}比赛式训练强度很大：大重量、跳跃、波比、冲刺和负重行走。请用数周时间逐步过渡。不要独自测试最大重量，也不要在没有保护者或教练观察的情况下测试。 波比跳远、箭步蹲和重负重行走对膝盖、背部和肩部负担较大。请用数周逐步加量。如果有心脏、血压或关节问题，请先咨询医生。"
+  },
+  "ja": {
+   "metaTitle": "自宅でHYROXに備える方法：スレッドなしの7つの代替 | Jalan PT",
+   "metaDescription": "自宅でHYROXに備える方法：スレッド、SkiErg、ロー、ウォールボールの7つの代替。kgとlbのレース重量と、自宅サンプル週付き。近似であることを明記します。",
+   "h1": "自宅でHYROXに備える方法：スレッドがないときの7つの代替",
+   "dek": "ダンベル2つ、リュック、壁があれば、HYROXの大部分は練習できます。すべてを再現はできません。何が通用し、何を本物の器具で一度試すべきかをまとめます。",
+   "updated": "2026年11月2日更新",
+   "byline": "執筆：Susmit Jalan（Jalan PT コーチ、プネー）",
+   "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ大事か",
+    "how": "鍛え方",
+    "dose": "量",
+    "sources": "出典",
+    "readIn": "他の言語で読む",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問する",
+    "whatsappText": "こんにちは Susmit さん、「自宅でHYROXに備える」の記事を読みました。相談を予約したいです",
+    "skip": "本文へスキップ",
+    "crumb": "自宅でHYROX"
+   },
+   "intro": [
+    "スレッドなし。SkiErgなし。ローイングマシンなし。それでもHYROXの準備はできる？",
+    "ほとんど、できます。自宅で簡単なステーションもあれば、近似にとどまるものもあります。どれかは明記します。",
+    "レースの事実はHYROX自身のページと2026/27ルールブックによります。重量：kgを先に、ポンドはカッコ内（四捨五入）。{2}",
+    "代替種目は、コーチとしての私の近似です。本物のステーションと同等ではありません。同等だと約束できる人はいません。",
+    "独立したコーチングです。HYROX公式の計画ではありません。"
+   ],
+   "listHeading": "自宅でHYROXに備える：7つの代替",
+   "items": [
+    {
+     "name": "まず走る。レースの半分です",
+     "why": "HYROX自身の準備ページによれば、レースの50%はランで、平均で約90分間会場にいることになります。{3}",
+     "how": "脚と腕を使ったあとに走る練習を、自宅でもジムでも行うようにとも述べています。{3}ランの最後に重めのゴブレットスクワットを数回してから、また走ります。",
+     "dose": "最初から飛ばさない。HYROXは、最初の1kmで自己ベストのペースで走ってしまう人が多いと警告しています。{3}"
+    },
+    {
+     "name": "マシンなしのSkiErgとロー",
+     "why": "各1,000mの2つのステーション。エルゴを引く動きで、主に腕、背中、体幹。{1}{2}",
+     "how": "自宅で最も近いのは、バンドやケーブルでのプルダウンとダンベルロー、15〜25回の長いセットです。これは近似であり、コピーではありません。",
+     "dose": "2週間に一度でもSkiErgとローイングマシンのあるジムに行けるなら、ペースをつかむためにそれぞれ1,000mを一度やってみましょう。"
+    },
+    {
+     "name": "スレッドなしのスレッドプッシュとプル",
+     "why": "最も重いステーション。オープン女子：プッシュ102kg（225lb）、プル78kg（172lb）。オープン男子：152kg（335lb）と103kg（227lb）。いずれもスレッド込み。{2}HYROXは、レース前に一度はスレッドプッシュを試すよう言っています。{1}",
+     "how": "自宅では：脚の押す力のために、重めのステップアップ、スプリットスクワット、ウォーキングランジ。引く動きにはベントオーバー・ダンベルローとタオルロー。",
+     "dose": "最後の4〜6週間で、スレッドのあるジムでのセッションを一度予約しましょう。グリップの良いシューズで。{1}"
+    },
+    {
+     "name": "バーピーブロードジャンプは床だけでできる",
+     "why": "80m。胸を床につけ、立ち上がり、前に跳ぶ。{1}{2}",
+     "how": "廊下や庭で10回ずつ、30秒休み、セットを重ねて合計80mにします。",
+     "dose": "膝をやわらかく着地。背中や膝が痛むならそのセットは止める。"
+    },
+    {
+     "name": "ファーマーズキャリーとサンドバッグランジは自宅で簡単",
+     "why": "キャリー200m：女子2 × 16kg（35lb）、男子2 × 24kg（53lb）。サンドバッグランジ100m：女子10kg（22lb）、男子20kg（44lb）。{2}HYROXは、キャリーは毎週の買い物で練習しやすいと述べています。{1}",
+     "how": "買い物袋2つ、ダンベル2つ、ケトルベル2つ。ランジには、荷物を入れたリュックを肩に担ぎます。",
+     "dose": "まず距離。次に重さ。"
+    },
+    {
+     "name": "ウォールボール：大事なのはスクワット。ボールではない",
+     "why": "100回。1回とするには、股関節が膝より下に入る完全なスクワットと、ボールをターゲットに当てることが必要：女子2.70m、男子3.00m。{2}",
+     "how": "壁やボールがない？深さまでのゴブレットスクワットを15〜20回×3セット。椅子やボックスで深さの目印を。できればボールと壁の線を追加。",
+     "dose": "最後の6週間は、本物のスローを週に最低1回は練習しましょう。"
+    },
+    {
+     "name": "挙げる。通用するから",
+     "why": "ACSMは初心者に週2〜3日の筋力トレーニングと、約8〜12回で限界になる負荷を勧めています。{4}",
+     "how": "全身の日を2日：スクワットかステップアップ、ヒンジ、プッシュ、プル、キャリー。",
+     "dose": "できれば挙上とランは分けましょう。43件の研究のメタ分析では、有酸素運動を加えても最大筋力や筋量に明確な差は出ませんでしたが、爆発的筋力は低く、同じセッションで行うほど顕著でした。{5}"
+    }
+   ],
+   "enoughHeading": "自宅トレーニングでは再現できないこと",
+   "enough": [
+    "スレッドの床面、エルゴ、Roxzoneでの移動の感覚。レース前に本物を最低一度は試してください。{1}",
+    "どんな自宅の環境でもレース当日のパフォーマンスに一致するとは約束できません。ここにクライアントの成果はなく、ほのめかしもありません。",
+    "あなたの部門の基準はルールブックで確認し、動画ではなくそれに合わせて練習してください。{2}",
+    "価格はなし。参加費は各イベントページにあります。"
+   ],
+   "sampleHeading": "自宅でのサンプル週",
+   "sampleLabel": "あくまで例です。処方ではありません。体、健康状態、これまでの経過に合わせて調整してください。",
+   "sample": [
+    "月、挙上A：ゴブレットスクワット3 × 10、ダンベル・ルーマニアンデッドリフト3 × 10、腕立て伏せ3 × 10、ダンベルロー3 × 10、30mのキャリーを3回。",
+    "火：楽なラン、30〜40分。",
+    "水、ステーションのサーキット、4ラウンド：バーピーブロードジャンプ10回、ステップアップ20回、30mキャリー、壁へのスクワットスロー15回。ラウンド間は90秒休む。",
+    "木：休みか散歩。",
+    "金、挙上B：スプリットスクワット片側3 × 10、ヒップスラスト3 × 12、オーバーヘッドプレス3 × 10、タオルロー3 × 12。",
+    "土：楽なラン、40〜60分、その後リュックでのランジ100m。",
+    "日：休み。器具、体、これまでの経過に合わせて調整してください。"
+   ],
+   "coachedHeading": "Jalan PTと一緒に準備する",
+   "coached": [
+    "自宅の環境が通用するか不安ですか？お持ちの器具に合わせて、HYROXの準備をオンラインでライブ指導します。",
+    "Jalan PT は HYROX とは提携しておらず、公認も受けていません。独立したトレーニング指導です。",
+    "Iron Hour は60分、1対1、ライブ。0分にセットアップ：全身が見えるようにカメラを配置。4分からウォームアップ。14分にメイン種目。28分に補助種目。50分にクールダウン。",
+    "Lean Reset は月20回、1対1。Open Floor は少人数グループです。",
+    "長いブランクからの再開？Return は45分、月12回、1日おき。まず土台を作ります。",
+    "Google Meet、Zoom、FaceTime でライブ指導。プネーから。ヒンディー語か英語で。インド標準時（IST）で。まだ迷っている？30分の相談から始めましょう。会話であって、トレーニングではありません。予約は時間を押さえるだけ。料金は直接決めます。"
+   ],
+   "safetyHeading": "始める前に",
+   "safety": "一般的な情報であり、医学的な助言ではありません。ACSMのスクリーニングモデルによると：運動習慣がなく、症状がなく、心臓・代謝・腎臓の病気が知られていなければ、医師の許可なしに軽〜中程度の運動を始め、少しずつ増やせます。これらの病気がある場合や、胸の痛み、普段と違う息切れ、めまいなどの症状がある場合は、先に医師の許可を得てください。{6}レース形式の運動はハードです。重い挙上、ジャンプ、バーピー、ダッシュ、キャリー。数週間かけて段階的に慣らしてください。最大重量のテストは、一人で、または補助者やコーチの目がない状態で行わないでください。 バーピーブロードジャンプ、ランジ、重いキャリーは、膝、腰、肩に負担がかかります。数週間かけて慣らしてください。心臓、血圧、関節に持病がある場合は、先に医師に相談を。"
+  },
+  "gu": {
+   "metaTitle": "ઘરે HYROX ની ટ્રેનિંગ કેવી રીતે કરવી: સ્લેડ વગર 7 વિકલ્પો | Jalan PT",
+   "metaDescription": "ઘરે HYROX ની ટ્રેનિંગ: સ્લેડ, SkiErg, રો અને વૉલ બૉલના 7 વિકલ્પો, કિગ્રા અને lb માં રેસનું વજન અને ઘરનું સેમ્પલ અઠવાડિયું. અંદાજિત વિકલ્પો, સ્પષ્ટ રીતે.",
+   "h1": "ઘરે HYROX ની ટ્રેનિંગ કેવી રીતે કરવી: સ્લેડ ન હોય ત્યારે 7 વિકલ્પો",
+   "dek": "બે ડમ્બલ, એક બૅકપૅક અને એક દીવાલથી તમે HYROX નો મોટો ભાગ ટ્રેન કરી શકો. બધું નકલ નથી થઈ શકતું. શું કામ આવે છે, અને શું સાચા સાધન પર એક વાર અજમાવવું, તે અહીં છે.",
+   "updated": "અપડેટ: 2 નવેમ્બર 2026",
+   "byline": "સુસ્મિત જાલાન, કોચ, Jalan PT, પુણે.",
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "કેમ મહત્વનું",
+    "how": "કેવી રીતે ટ્રેન કરવું",
+    "dose": "કેટલું",
+    "sources": "સ્રોતો",
+    "readIn": "આ ભાષામાં વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "WhatsApp પર પૂછો",
+    "whatsappText": "નમસ્તે સુસ્મિત, મેં ઘરે HYROX ની ટ્રેનિંગનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    "skip": "સામગ્રી પર જાઓ",
+    "crumb": "ઘરે HYROX ની ટ્રેનિંગ"
+   },
+   "intro": [
+    "સ્લેડ નથી. SkiErg નથી. રોઇંગ મશીન નથી. તો પણ HYROX ની ટ્રેનિંગ થઈ શકે?",
+    "મોટે ભાગે, હા. કેટલાક સ્ટેશન ઘરે સહેલાં છે. કેટલાક ફક્ત અંદાજિત વિકલ્પ છે. હું કહીશ કયા.",
+    "રેસની હકીકતો HYROX ના પોતાના પેજ અને 2026/27 રૂલબુકમાંથી છે. વજન: પહેલાં કિગ્રા, કૌંસમાં પાઉન્ડ (રાઉન્ડ કરેલા).{2}",
+    "આ વિકલ્પો કોચ તરીકે મારા અંદાજ છે. તે સાચાં સ્ટેશનની બરાબર નથી. કોઈ તેનું વચન આપી શકે નહીં.",
+    "સ્વતંત્ર કોચિંગ. HYROX નો સત્તાવાર પ્લાન નહીં."
+   ],
+   "listHeading": "ઘરે HYROX ની ટ્રેનિંગ: 7 વિકલ્પો",
+   "items": [
+    {
+     "name": "પહેલાં દોડો. એ અડધી રેસ છે",
+     "why": "HYROX નું પોતાનું તૈયારીનું પેજ કહે છે કે રેસનો 50% ભાગ દોડ છે, અને સરેરાશ તમે લગભગ 90 મિનિટ મેદાનમાં રહેશો.{3}",
+     "how": "તે એ પણ કહે છે કે પગ અને હાથ થાકેલા હોય ત્યારે દોડવાની પ્રૅક્ટિસ કરો, ઘરે કે જિમમાં.{3} દોડના અંતે થોડા ભારે ગોબ્લેટ સ્ક્વૉટ કરો, પછી ફરી દોડો.",
+     "dose": "બહુ ઝડપથી શરૂ ન કરો. HYROX ચેતવે છે કે લોકો પહેલા કિલોમીટરમાં પોતાનું પર્સનલ બેસ્ટ દોડી જાય છે.{3}"
+    },
+    {
+     "name": "મશીન વગર SkiErg અને રો",
+     "why": "બે સ્ટેશન, દરેક 1,000 મીટર, એર્ગ પર ખેંચવાનું, મુખ્યત્વે હાથ, પીઠ અને ટ્રંક.{1}{2}",
+     "how": "ઘરે સૌથી નજીકની પદ્ધતિ છે બૅન્ડ કે કેબલ પુલડાઉન અને ડમ્બલ રો, 15 થી 25 રેપના લાંબા સેટમાં. આ અંદાજ છે, નકલ નહીં.",
+     "dose": "પખવાડિયામાં એક વાર SkiErg અને રોઅરવાળા જિમમાં જઈ શકો, તો ગતિ શીખવા દરેક પર 1,000 મીટરનો પ્રયાસ કરો."
+    },
+    {
+     "name": "સ્લેડ વગર સ્લેડ પુશ અને પુલ",
+     "why": "સૌથી ભારે સ્ટેશન. ઓપન મહિલા: પુશ 102 કિગ્રા (225 lb) અને પુલ 78 કિગ્રા (172 lb). ઓપન પુરુષ: 152 કિગ્રા (335 lb) અને 103 કિગ્રા (227 lb). બધું સ્લેડ સહિત.{2} HYROX કહે છે રેસ પહેલાં ઓછામાં ઓછી એક વાર સ્લેડ પુશ અજમાવો.{1}",
+     "how": "ઘરે: પગના ઝોર માટે ભારે સ્ટેપ-અપ, સ્પ્લિટ સ્ક્વૉટ અને વૉકિંગ લંજ. ખેંચવા માટે વાંકા વળીને ડમ્બલ રો અને ટુવાલ રો.",
+     "dose": "છેલ્લાં 4 થી 6 અઠવાડિયામાં સ્લેડવાળા જિમમાં એક સેશન બુક કરો. સારી ગ્રિપવાળા શૂઝ પહેરો.{1}"
+    },
+    {
+     "name": "બર્પી બ્રૉડ જમ્પ માટે ફક્ત ફ્લોર જોઈએ",
+     "why": "80 મીટર. છાતી ફ્લોર સુધી, ઊભા થાઓ, આગળ કૂદો.{1}{2}",
+     "how": "ગલીમાં કે બગીચામાં 10-10 ના સેટ કરો, 30 સેકન્ડ આરામ, અને સેટ મળીને 80 મીટર પૂરા કરો.",
+     "dose": "ઘૂંટણ નરમ રાખીને ઊતરો. પીઠ કે ઘૂંટણ ફરિયાદ કરે તો સેટ અટકાવો."
+    },
+    {
+     "name": "ફાર્મર્સ કૅરી અને સૅન્ડબૅગ લંજ ઘરે સહેલાં છે",
+     "why": "કૅરી 200 મીટર: મહિલા 2 × 16 કિગ્રા (35 lb), પુરુષ 2 × 24 કિગ્રા (53 lb). સૅન્ડબૅગ લંજ 100 મીટર: મહિલા 10 કિગ્રા (22 lb), પુરુષ 20 કિગ્રા (44 lb).{2} HYROX કહે છે કે કૅરીની પ્રૅક્ટિસ અઠવાડિયાની ખરીદી દરમિયાન સહેલાઈથી થાય.{1}",
+     "how": "બે થેલા, બે ડમ્બલ કે બે કેટલબેલ. લંજ માટે ખભા પર ભરેલું બૅકપૅક.",
+     "dose": "પહેલાં અંતર બનાવો. પછી લોડ."
+    },
+    {
+     "name": "વૉલ બૉલ: સ્ક્વૉટ ગણાય છે, બૉલ નહીં",
+     "why": "100 રેપ. એક રેપ માટે પૂરો સ્ક્વૉટ જોઈએ જેમાં હિપ્સ ઘૂંટણથી નીચે જાય, અને બૉલ ટાર્ગેટ પર લાગે: મહિલા માટે 2.70 મીટર, પુરુષ માટે 3.00 મીટર.{2}",
+     "how": "દીવાલ કે બૉલ નથી? ઊંડાઈ સુધી ગોબ્લેટ સ્ક્વૉટ, 15 થી 20 ના 3 સેટ, ઊંડાઈ નક્કી કરવા ખુરશી કે બૉક્સ સાથે. શક્ય હોય ત્યારે બૉલ અને દીવાલ પર રેખા ઉમેરો.",
+     "dose": "છેલ્લાં 6 અઠવાડિયામાં સાચા થ્રોની પ્રૅક્ટિસ અઠવાડિયે ઓછામાં ઓછી એક વાર કરો."
+    },
+    {
+     "name": "લિફ્ટ કરો, કારણ કે તે કામ આવે છે",
+     "why": "ACSM નવા લોકો માટે અઠવાડિયે 2 થી 3 સ્ટ્રેન્થ દિવસ સૂચવે છે, લગભગ 8 થી 12 રેપ (થાકી જાઓ ત્યાં સુધી) વાળા લોડ પર.{4}",
+     "how": "બે ફુલ-બૉડી દિવસ: સ્ક્વૉટ કે સ્ટેપ-અપ, હિંજ, પુશ, પુલ, કૅરી.",
+     "dose": "શક્ય હોય ત્યારે લિફ્ટ અને દોડ અલગ રાખો. 43 અભ્યાસોના મેટા-વિશ્લેષણમાં જણાયું કે એરોબિક ઉમેરવાથી મહત્તમ સ્ટ્રેન્થ કે સ્નાયુના કદમાં સ્પષ્ટ ફરક પડ્યો નહીં, પણ વિસ્ફોટક સ્ટ્રેન્થ ઓછી રહી, અને એક જ સેશનમાં બંને કરતાં વધુ.{5}"
+    }
+   ],
+   "enoughHeading": "ઘરની ટ્રેનિંગ જે નકલ નથી કરી શકતી",
+   "enough": [
+    "સ્લેડની સપાટી, એર્ગ અને Roxzone ટ્રાન્ઝિશનનો અનુભવ. રેસ પહેલાં સાચી વસ્તુ ઓછામાં ઓછી એક વાર અજમાવો.{1}",
+    "હું વચન આપી શકતો નથી કે કોઈ પણ ઘરનું સેટ-અપ રેસના દિવસના પ્રદર્શન સાથે મેળ ખાશે. અહીં કોઈ ક્લાયન્ટ પરિણામ નથી, અને તેનો ઇશારો પણ નથી.",
+    "તમારા ડિવિઝનના સ્ટૅન્ડર્ડ રૂલબુકમાંથી શીખો. તેમના મુજબ પ્રૅક્ટિસ કરો, કોઈ વીડિયો મુજબ નહીં.{2}",
+    "કોઈ કિંમત નથી. એન્ટ્રી ફી દરેક ઇવેન્ટ પેજ પર છે."
+   ],
+   "sampleHeading": "ઘરનું એક સેમ્પલ અઠવાડિયું",
+   "sampleLabel": "માત્ર સેમ્પલ. પ્રિસ્ક્રિપ્શન નથી. તમારા શરીર, તમારા સ્વાસ્થ્ય અને તમારા ઇતિહાસ મુજબ બદલો.",
+   "sample": [
+    "સોમ, લિફ્ટ A: ગોબ્લેટ સ્ક્વૉટ 3 × 10, ડમ્બલ રોમેનિયન ડેડલિફ્ટ 3 × 10, પુશ-અપ 3 × 10, ડમ્બલ રો 3 × 10, 30 મીટરની 3 કૅરી.",
+    "મંગળ: સરળ દોડ, 30 થી 40 મિનિટ.",
+    "બુધ, સ્ટેશન સર્કિટ, 4 રાઉન્ડ: 10 બર્પી બ્રૉડ જમ્પ, 20 સ્ટેપ-અપ, 30 મીટર કૅરી, દીવાલ પર 15 સ્ક્વૉટ-થ્રો. રાઉન્ડ વચ્ચે 90 સેકન્ડ આરામ.",
+    "ગુરુ: આરામ કે વૉક.",
+    "શુક્ર, લિફ્ટ B: સ્પ્લિટ સ્ક્વૉટ દરેક બાજુ 3 × 10, હિપ થ્રસ્ટ 3 × 12, ઓવરહેડ પ્રેસ 3 × 10, ટુવાલ રો 3 × 12.",
+    "શનિ: સરળ દોડ, 40 થી 60 મિનિટ, પછી બૅકપૅક સાથે 100 મીટર લંજ.",
+    "રવિ: આરામ. તમારા સાધન, શરીર અને ઇતિહાસ મુજબ બદલો."
+   ],
+   "coachedHeading": "Jalan PT સાથે તેની ટ્રેનિંગ કરો",
+   "coached": [
+    "ખાતરી નથી કે ઘરનું સેટ-અપ કામ આવશે? હું HYROX ની તૈયારી તમારી પાસે જે સાધન છે તે મુજબ, ઓનલાઇન લાઇવ બનાવું છું.",
+    "Jalan PT નો HYROX સાથે કોઈ સંબંધ નથી, અને HYROX એ તેને સમર્થન આપ્યું નથી. આ સ્વતંત્ર ટ્રેનિંગ છે.",
+    "Iron Hour 60 મિનિટનું છે, 1:1, લાઇવ. મિનિટ 0 પર સેટ-અપ: કૅમેરા એવી રીતે કે મને તમારું આખું શરીર દેખાય. મિનિટ 4 થી વૉર્મ-અપ. મિનિટ 14 પર મુખ્ય લિફ્ટ. 28 પર એક્સેસરીઝ. 50 પર કૂલ-ડાઉન.",
+    "Lean Reset મહિને 20 સેશન, 1:1. Open Floor નાનું ગ્રુપ છે.",
+    "લાંબા બ્રેક પછી પાછા આવો છો? Return 45 મિનિટનું છે, મહિને 12 સેશન, એકાંતરે દિવસે. પહેલાં બેઝ બનાવીએ છીએ.",
+    "Google Meet, Zoom કે FaceTime પર લાઇવ કોચિંગ. પુણેથી. હિન્દી કે અંગ્રેજીમાં. IST પર. હજુ નક્કી નથી? 30 મિનિટના કન્સલ્ટેશનથી શરૂ કરો. એ વાતચીત છે, ટ્રેનિંગ નહીં. બુકિંગ ફક્ત સમય રોકે છે. ફી સીધી નક્કી થાય છે."
+   ],
+   "safetyHeading": "શરૂ કરતાં પહેલાં",
+   "safety": "સામાન્ય માહિતી, તબીબી સલાહ નહીં. ACSM ના સ્ક્રીનિંગ મોડલ મુજબ: જો તમે નિષ્ક્રિય છો, કોઈ લક્ષણ નથી અને હૃદય, મેટાબોલિક કે કિડનીની કોઈ જાણીતી બીમારી નથી, તો તમે તબીબી મંજૂરી વગર હળવી થી મધ્યમ કસરત શરૂ કરીને ધીમે ધીમે વધારી શકો છો. જો આમાંની કોઈ બીમારી હોય, કે છાતીમાં દુખાવો, અસામાન્ય શ્વાસ ચડવો કે ચક્કર જેવા લક્ષણો હોય, તો પહેલાં તબીબી મંજૂરી લો.{6} રેસ-સ્ટાઇલ કામ અઘરું છે: ભારે લિફ્ટ, જમ્પ, બર્પી, સ્પ્રિન્ટ અને કૅરી. અઠવાડિયાં સુધી ધીમે ધીમે તૈયારી કરો. એકલા, કે સ્પોટર કે કોચ જોતા ન હોય ત્યારે મેક્સ લિફ્ટનો ટેસ્ટ ન કરો. બર્પી બ્રૉડ જમ્પ, લંજ અને ભારે કૅરી ઘૂંટણ, પીઠ અને ખભા પર ભારે પડે છે. અઠવાડિયાં સુધી ધીમે ધીમે તૈયારી કરો. હૃદય, બ્લડ પ્રેશર કે સાંધાની તકલીફ હોય તો પહેલાં ડૉક્ટરને પૂછો."
+  }
+ },
+ "ctaMid": true,
+ "seeAlso": [
+  "hyrox-training-plan-for-beginners",
+  "what-is-hyrox"
+ ]
+}
