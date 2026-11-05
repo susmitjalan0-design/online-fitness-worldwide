@@ -107,6 +107,29 @@
     display: none;
   }
 
+  /*
+   * Landing-page FAQ cards: the native marker is hidden above, so they get a
+   * heavy logo-blue + / − at the end side (flips in RTL), like the home FAQ.
+   * Decorative only: <details> already tells screen readers open or closed.
+   */
+  details.card-lift > summary {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  details.card-lift > summary::after {
+    content: "+";
+    flex-shrink: 0;
+    color: var(--color-logo);
+    font-weight: 800;
+    font-size: 1.25em;
+    line-height: 1;
+  }
+  details.card-lift[open] > summary::after {
+    content: "\2212";
+  }
+
   ::selection {
     background: var(--color-copper-2);
     color: var(--color-ink);

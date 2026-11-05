@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowUpRight } from "lucide-react";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { BLOG_POSTS } from "@/content/blog";
-import { postPathFor } from "@/content/blog/shared";
+import { HYBRID_CLUSTER, postPathFor } from "@/content/blog/shared";
 import { WHATSAPP_E164 } from "@/studio/content";
 import { absoluteUrl, breadcrumbLd, BUSINESS_ID, businessLd, seoHead } from "@/lib/seo";
 
@@ -18,6 +18,10 @@ const DESCRIPTION =
 const WHO_URL = "https://www.who.int/publications/i/item/9789240015128";
 const WA_TEXT = "Hi Susmit, I read the fat loss coaching page and want to book a consultation";
 const SC_POST_PATH = "/blog/best-strength-and-conditioning-exercises-for-beginners";
+const DIABETES_POST_SLUG = "best-strength-exercises-for-type-2-diabetes";
+/** Read next: the type 2 diabetes and beginners posts first, then the newest others, capped (the blog index links every post). */
+const LEAD_SLUGS: readonly string[] = [DIABETES_POST_SLUG, "best-strength-and-conditioning-exercises-for-beginners"];
+const READ_MAX = 5;
 
 const FAQS = [
   {
@@ -102,6 +106,10 @@ export const Route = createFileRoute("/personal-trainer-for-fat-loss")({
 
 function FatLossPage() {
   const wa = `https://wa.me/${WHATSAPP_E164}?text=${encodeURIComponent(WA_TEXT)}`;
+  const reads = [
+    ...LEAD_SLUGS.flatMap((slug) => BLOG_POSTS.filter((post) => post.slug === slug)),
+    ...BLOG_POSTS.filter((post) => !LEAD_SLUGS.includes(post.slug) && !(HYBRID_CLUSTER as readonly string[]).includes(post.slug)),
+  ].slice(0, READ_MAX);
   return (
     <div className="min-h-screen bg-bone text-ink" lang="en" dir="ltr">
       <a
@@ -171,6 +179,10 @@ function FatLossPage() {
               Food, sleep and daily steps matter too. We talk about them on the call. For a medical condition or a clinical diet,
               see your doctor or a registered dietitian.
             </p>
+            <p className="prose-links mt-4 text-base leading-relaxed sm:text-lg">
+              Living with type 2 diabetes? Keep your doctor in the loop, and read{" "}
+              <a href={postPathFor(DIABETES_POST_SLUG, "en")}>the 7 best strength exercises for type 2 diabetes</a>.
+            </p>
           </section>
 
           <section aria-labelledby="fit" className="mt-12">
@@ -214,7 +226,7 @@ function FatLossPage() {
               Read next
             </h2>
             <ul className="mt-4 space-y-3">
-              {BLOG_POSTS.map((post) => (
+              {reads.map((post) => (
                 <li key={post.slug}>
                   <a
                     href={postPathFor(post.slug, "en")}
