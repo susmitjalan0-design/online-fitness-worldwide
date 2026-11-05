@@ -47,12 +47,12 @@
  ],
  "copy": {
   "en": {
-   "metaTitle": "DEKA FIT, MILE and STRONG Guide: The 10 Zones | Jalan PT",
+   "metaTitle": "DEKA FIT, MILE and STRONG Guide: The 10 Zones | Online Fitness Worldwide",
    "metaDescription": "DEKA guide: FIT, MILE and STRONG explained zone by zone, with weights in kg and lb, penalties, age groups, and where it runs. Sourced from the DEKA rulebook.",
    "h1": "DEKA guide: FIT, MILE and STRONG explained, zone by zone",
    "dek": "DEKA is ten fixed zones, in order. The only thing that changes between FIT, MILE and STRONG is the running. Here is each zone, the loads, and the rules that cost time.",
    "updated": "Updated 2 November 2026",
-   "byline": "By Susmit Jalan, coach at Jalan PT, Pune.",
+   "byline": "By Susmit Jalan, coach at Online Fitness Worldwide.",
    "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
    "labels": {
     "home": "Home",
@@ -86,13 +86,13 @@
     {
      "name": "Zones 1 to 3: lunge, row, box",
      "why": "Zone 1: 30 alternating reverse lunges, 15 a side, with a RAM or a dumbbell. Men: 25 kg (55 lb).{3} For women, the chart prints the pound figure inconsistently, so I give no number. Read the chart in the rulebook.{3}",
-     "how": "Zone 2: row 500 m. Zone 3: 20 box step-overs or jump-overs on a 60 cm (24 in) box. Both feet must land on the far side.{3}",
+     "how": "Zone 2: row 500 m. Zone 3: 20 box step-overs or jump-overs on a 60 cm (24 in) box. Both feet must land on the far side.{3} The rulebook allows both. For training, step over: no jump-overs until your landings are quiet and you have earned the height.",
      "dose": "A missed rep costs 10 seconds in zones 1 and 3, up to 20% of the reps.{3}"
     },
     {
      "name": "Zones 4 to 6: med ball, ski, carry",
      "why": "Zone 4: 25 med-ball sit-ups. In FIT you throw to a target centred 1.37 m (4.5 ft) up. Men 9 kg (20 lb), women 6 kg (14 lb).{3}",
-     "how": "Zone 5: ski 500 m. Zone 6: farmers carry, 100 m. Men 27.5 kg (60 lb) per hand, women 17.5 kg (40 lb) per hand. In FIT it is a maze course. In STRONG and MILE it is five lengths of 10 m.{3}",
+     "how": "Zone 5: ski 500 m. Zone 6: farmers carry, 100 m. Men 27.5 kg (60 lb) per hand, women 17.5 kg (40 lb) per hand. In FIT it is a maze course. In STRONG and MILE it is five lengths of 10 m.{3} In training: neck or shoulder irritable? Do a supported sit-up without the throw. Build the carry to race weight over weeks, and put the weights down to rest rather than crushing your grip.",
      "dose": "In FIT, dropping the weights costs 30 seconds. Leaving the ski 6 m or more short costs 2 minutes.{3}"
     },
     {
@@ -131,30 +131,31 @@
    "sampleLabel": "Sample only. Not a prescription. Adjust it to your body, your health and your history.",
    "sample": [
     "Warm-up, 10 minutes.",
-    "Run 500 m easy. Zone 1: 30 reverse lunges, light weight.",
+    "Run 500 m easy. Zone 1: 30 reverse lunges, light weight. Bodyweight or a light dumbbell before the RAM. Shorten your stance if a knee complains.",
     "Run 500 m easy. Zone 2: row 500 m at a steady pace.",
-    "Run 500 m easy. Zone 3: 20 step-overs on a 60 cm (24 in) box.",
-    "Stop there on day one. Add zones week by week. Write down your time for each."
+    "Run 500 m easy. Zone 3: 20 step-overs on a sturdy 40 to 50 cm step. Move to 60 cm (24 in) over the weeks. A hand for help is fine in training, not in the race.",
+    "Stop there on day one. Add zones week by week. Write down your time for each.",
+    "Pain check: mild discomfort that settles soon is fine. Pain that rises during a set means make it easier: less range or less load. Sharp pain, swelling, pain spreading down a limb, numbness, a joint giving way or locking means stop and get it checked. I'm a coach, not a physio or doctor."
    ],
-   "coachedHeading": "Train for it with Jalan PT",
+   "coachedHeading": "Train for it with Online Fitness Worldwide",
    "coached": [
     "You want to walk in knowing the ten zones. You do the work. I coach the lifts, the pacing and the weekly plan, live.",
-    "Jalan PT is not affiliated with Spartan and DEKA and is not endorsed by them. This is independent coaching.",
+    "Online Fitness Worldwide is not affiliated with Spartan and DEKA and is not endorsed by them. This is independent coaching.",
     "Iron Hour is 60 minutes, 1:1, live. Set-up at minute 0: camera placed so I can see your whole body. Warm-up from minute 4. The primary lift at 14. Accessories at 28. Cool-down at 50.",
     "Lean Reset is 20 sessions a month, 1:1. Open Floor is a small group.",
     "Coming back after a long break? Return is 45 minutes, 12 alternate-day sessions a month. We build the base first.",
-    "Coached live on Google Meet, Zoom or FaceTime. From Pune. In Hindi or English. On IST. Not sure yet? Start with a 30-minute consultation. It is a conversation, not training. Booking holds a time. The fee is agreed directly."
+    "Coached live on Google Meet, Zoom or FaceTime. In Hindi or English. On IST. Not sure yet? Start with a 30-minute consultation. It is a conversation, not training. Booking holds a time. The fee is agreed directly."
    ],
    "safetyHeading": "Before you start",
    "safety": "General information, not medical advice. ACSM's screening model says: if you are inactive, have no symptoms and no known heart, metabolic or kidney disease, you can start light to moderate exercise without medical clearance and build up gradually. If you have one of those conditions, or symptoms such as chest pain, unusual breathlessness or dizziness, get medical clearance first.{10} Race-style work is hard: heavy lifts, jumps, burpees, sprints and carries. Build up to it over weeks. Don't test a maximum lift alone or without a spotter or a coach watching. Lunges, sled work, dead balls and weighted burpees are hard on knees, back and shoulders. Build up over weeks. Ask a doctor first if you have a heart, blood-pressure or joint condition."
   },
   "ar": {
-   "metaTitle": "دليل DEKA: FIT وMILE وSTRONG والمناطق العشر | Jalan PT",
+   "metaTitle": "دليل DEKA: FIT وMILE وSTRONG والمناطق العشر | Online Fitness Worldwide",
    "metaDescription": "دليل DEKA: شرح FIT وMILE وSTRONG منطقة بمنطقة، مع الأوزان بالكغ والرطل والعقوبات والفئات العمرية وأماكن الإقامة. من دليل قواعد DEKA.",
    "h1": "دليل DEKA: شرح FIT وMILE وSTRONG منطقة بمنطقة",
    "dek": "DEKA عشر مناطق ثابتة بالترتيب. والفرق الوحيد بين FIT وMILE وSTRONG هو الجري. إليك كل منطقة وأحمالها والقواعد التي تكلّف وقتاً.",
    "updated": "تم التحديث في 2 نوفمبر 2026",
-   "byline": "بقلم سوسميت جالان، مدرب في Jalan PT، بونه.",
+   "byline": "بقلم سوسميت جالان، مدرب في Online Fitness Worldwide.",
    "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
    "labels": {
     "home": "الرئيسية",
@@ -188,13 +189,13 @@
     {
      "name": "المناطق 1 إلى 3: اندفاع وتجديف وصندوق",
      "why": "المنطقة 1: 30 اندفاعة خلفية متناوبة، 15 لكل جهة، بـ RAM أو دمبل. الرجال: 25 كغ (55 رطلاً).{3} للنساء يطبع الجدول رقم الأرطال بشكل غير متسق، فلا أذكر رقماً. اقرأ الجدول في الدليل.{3}",
-     "how": "المنطقة 2: تجديف 500 م. المنطقة 3: 20 صعوداً أو قفزاً فوق صندوق ارتفاعه 60 سم (24 بوصة). يجب أن تهبط القدمان على الجهة الأخرى.{3}",
+     "how": "المنطقة 2: تجديف 500 م. المنطقة 3: 20 عبورًا للصندوق بالخطو أو بالقفز على صندوق 60 سم (24 بوصة). يجب أن تهبط القدمان على الجانب الآخر.{3} يسمح دليل القواعد بالاثنين. في التدريب، اعبر بالخطو: لا قفز فوق الصندوق حتى يصبح هبوطك هادئًا وتكون قد استحققت الارتفاع.",
      "dose": "التكرار الفائت يكلّف 10 ثوانٍ في المنطقتين 1 و3، حتى 20% من التكرارات.{3}"
     },
     {
      "name": "المناطق 4 إلى 6: كرة طبية وSki وحمل",
      "why": "المنطقة 4: 25 تمرين بطن بكرة طبية. في FIT ترمي إلى هدف مركزه على ارتفاع 1.37 م (4.5 قدم). الرجال 9 كغ (20 رطلاً)، النساء 6 كغ (14 رطلاً).{3}",
-     "how": "المنطقة 5: Ski ‏500 م. المنطقة 6: حمل المزارع، 100 م. الرجال 27.5 كغ (60 رطلاً) لكل يد، النساء 17.5 كغ (40 رطلاً) لكل يد. في FIT هو مسار متاهة. وفي STRONG وMILE هو خمسة أطوال من 10 م.{3}",
+     "how": "المنطقة 5: Ski ‏500 م. المنطقة 6: حمل المزارع، 100 م. الرجال 27.5 كغ (60 رطلاً) لكل يد، النساء 17.5 كغ (40 رطلاً) لكل يد. في FIT هو مسار متاهة. وفي STRONG وMILE هو خمسة أطوال من 10 م.{3} في التدريب: رقبتك أو كتفك متهيجان؟ قم بتمرين الجلوس المدعوم بلا رمي. ارفع وزن الحمل إلى وزن السباق على مدى أسابيع، وضع الأوزان لترتاح بدل أن تعصر قبضتك.",
      "dose": "في FIT إسقاط الأوزان يكلّف 30 ثانية. ومغادرة الـ Ski قبل 6 م أو أكثر من نهايته تكلّف دقيقتين.{3}"
     },
     {
@@ -233,30 +234,31 @@
    "sampleLabel": "نموذج فقط. ليس وصفة. عدّله بحسب جسمك وصحتك وتاريخك.",
    "sample": [
     "إحماء، 10 دقائق.",
-    "اجرِ 500 م بسهولة. المنطقة 1: 30 اندفاعة خلفية بوزن خفيف.",
+    "اجرِ 500 م بسهولة. المنطقة 1: 30 اندفاعة خلفية بوزن خفيف. وزن الجسم أو دمبل خفيف قبل الـRAM. قصّر وقفتك إذا اشتكت ركبتك.",
     "اجرِ 500 م بسهولة. المنطقة 2: تجديف 500 م بوتيرة ثابتة.",
-    "اجرِ 500 م بسهولة. المنطقة 3: 20 صعوداً على صندوق 60 سم (24 بوصة).",
-    "توقف هنا في اليوم الأول. أضف مناطق أسبوعاً بعد أسبوع. دوّن زمنك لكل منطقة."
+    "جري 500 م بسهولة. المنطقة 3: 20 عبورًا بالخطو على درجة متينة بارتفاع 40 إلى 50 سم. انتقل إلى 60 سم (24 بوصة) على مدى الأسابيع. الاستعانة باليد مقبولة في التدريب، لا في السباق.",
+    "توقف هنا في اليوم الأول. أضف مناطق أسبوعاً بعد أسبوع. دوّن زمنك لكل منطقة.",
+    "فحص الألم: الانزعاج الخفيف الذي يهدأ سريعًا لا بأس به. الألم الذي يزداد أثناء المجموعة يعني أن تُسهّل التمرين: مدى أقل أو حمل أقل. الألم الحاد أو التورم أو الألم الذي يمتد إلى الذراع أو الساق أو الخدر أو مفصل يخذلك أو ينغلق يعني أن تتوقف وتفحصه. أنا مدرب، لست أخصائي علاج طبيعي ولا طبيبًا."
    ],
-   "coachedHeading": "تدرّب له مع Jalan PT",
+   "coachedHeading": "تدرّب له مع Online Fitness Worldwide",
    "coached": [
     "تريد أن تدخل وأنت تعرف المناطق العشر. أنت تؤدي العمل. وأنا أدرّبك على الرفعات والوتيرة والخطة الأسبوعية، مباشرة.",
-    "Jalan PT غير تابعة لـ Spartan وDEKA ولا مرتبطة بها، ولا تحظى بتأييدها. هذا تدريب مستقل.",
+    "Online Fitness Worldwide غير تابعة لـ Spartan وDEKA ولا مرتبطة بها، ولا تحظى بتأييدها. هذا تدريب مستقل.",
     "Iron Hour مدته 60 دقيقة، فردياً ومباشراً. التجهيز في الدقيقة 0: الكاميرا بحيث أرى جسمك كاملاً. الإحماء من الدقيقة 4. التمرين الأساسي في الدقيقة 14. التمارين المساعدة في 28. التهدئة في 50.",
     "Lean Reset عشرون جلسة في الشهر، فردياً. Open Floor مجموعة صغيرة.",
     "عائد بعد انقطاع طويل؟ برنامج Return مدته 45 دقيقة، 12 جلسة في الشهر بالتناوب: يوم تمرين ويوم راحة. نبني الأساس أولاً.",
-    "تدريب مباشر عبر Google Meet أو Zoom أو FaceTime. من بونه. بالهندية أو الإنجليزية. بتوقيت الهند (IST). لم تقرّر بعد؟ ابدأ باستشارة مدتها 30 دقيقة. هي محادثة، لا تدريب. الحجز يثبّت موعداً فقط. والرسوم يُتفق عليها مباشرة."
+    "تدريب مباشر عبر Google Meet أو Zoom أو FaceTime. بالهندية أو الإنجليزية. بتوقيت الهند (IST). لم تقرّر بعد؟ ابدأ باستشارة مدتها 30 دقيقة. هي محادثة، لا تدريب. الحجز يثبّت موعداً فقط. والرسوم يُتفق عليها مباشرة."
    ],
    "safetyHeading": "قبل أن تبدأ",
    "safety": "معلومات عامة، وليست نصيحة طبية. يقول نموذج الفحص المسبق من ACSM: إن كنت غير نشيط، وبلا أعراض، وبلا مرض معروف في القلب أو الأيض أو الكلى، يمكنك أن تبدأ تمريناً خفيفاً إلى معتدل دون إذن طبي وأن تزيده تدريجياً. إن كانت لديك إحدى هذه الحالات، أو أعراض مثل ألم الصدر أو ضيق نفس غير معتاد أو دوار، فاحصل على إذن طبي أولاً.{10} العمل بأسلوب السباق شاق: أثقال ثقيلة، وقفزات، وبيربي، وركض سريع، وحمل. ابنِ نفسك له على مدى أسابيع. لا تختبر أقصى ثقل وحدك أو دون مراقب أو مدرب يراقبك. الاندفاعات والزلاجة والكرة الميتة والبيربي بثقل شاقة على الركبتين والظهر والكتفين. ابنِ نفسك على مدى أسابيع. اسأل طبيباً أولاً إن كانت لديك حالة في القلب أو الضغط أو المفاصل."
   },
   "hi": {
-   "metaTitle": "DEKA गाइड: FIT, MILE और STRONG के 10 ज़ोन | Jalan PT",
+   "metaTitle": "DEKA गाइड: FIT, MILE और STRONG के 10 ज़ोन | Online Fitness Worldwide",
    "metaDescription": "DEKA गाइड: FIT, MILE और STRONG ज़ोन-दर-ज़ोन, किग्रा और lb में वज़न, पेनल्टी, आयु वर्ग और कहाँ होता है। DEKA रूलबुक से।",
    "h1": "DEKA गाइड: FIT, MILE और STRONG ज़ोन-दर-ज़ोन",
    "dek": "DEKA दस तय ज़ोन हैं, क्रम से। FIT, MILE और STRONG में सिर्फ़ दौड़ बदलती है। हर ज़ोन, लोड, और वे नियम जो समय खाते हैं।",
    "updated": "अपडेट: 2 नवंबर 2026",
-   "byline": "सुस्मित जालान, कोच, Jalan PT, पुणे।",
+   "byline": "लेखक: सुस्मित जालान, कोच, Online Fitness Worldwide।",
    "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
    "labels": {
     "home": "होम",
@@ -290,13 +292,13 @@
     {
      "name": "ज़ोन 1 से 3: लंज, रो, बॉक्स",
      "why": "ज़ोन 1: 30 अल्टरनेटिंग रिवर्स लंज, हर तरफ़ 15, RAM या डम्बल के साथ। पुरुष: 25 किग्रा (55 lb)।{3} महिलाओं के लिए चार्ट में पाउंड का आँकड़ा असंगत छपा है, इसलिए मैं कोई संख्या नहीं देता। रूलबुक का चार्ट पढ़ें।{3}",
-     "how": "ज़ोन 2: रो 500 मीटर। ज़ोन 3: 60 सेमी (24 इंच) के बॉक्स पर 20 स्टेप-ओवर या जंप-ओवर। दोनों पैर दूसरी तरफ़ उतरने चाहिए।{3}",
+     "how": "ज़ोन 2: 500 मीटर रो। ज़ोन 3: 60 सेमी (24 इंच) बॉक्स पर 20 स्टेप-ओवर या जंप-ओवर। दोनों पैर दूसरी तरफ़ उतरने चाहिए।{3} रूलबुक दोनों की अनुमति देती है। ट्रेनिंग में स्टेप-ओवर करें: जंप-ओवर तब तक नहीं जब तक लैंडिंग शांत न हो और ऊँचाई तक आप पहुँच न चुके हों।",
      "dose": "ज़ोन 1 और 3 में छूटे हर रेप पर 10 सेकंड, रेप के 20% तक।{3}"
     },
     {
      "name": "ज़ोन 4 से 6: मेड बॉल, स्की, कैरी",
      "why": "ज़ोन 4: 25 मेड-बॉल सिट-अप। FIT में आप 1.37 मीटर (4.5 फ़ीट) ऊँचाई पर केंद्रित टारगेट पर फेंकते हैं। पुरुष 9 किग्रा (20 lb), महिलाएँ 6 किग्रा (14 lb)।{3}",
-     "how": "ज़ोन 5: स्की 500 मीटर। ज़ोन 6: फ़ार्मर्स कैरी, 100 मीटर। पुरुष हर हाथ में 27.5 किग्रा (60 lb), महिलाएँ हर हाथ में 17.5 किग्रा (40 lb)। FIT में यह मेज़ कोर्स है। STRONG और MILE में 10 मीटर की पाँच लंबाइयाँ।{3}",
+     "how": "ज़ोन 5: स्की 500 मीटर। ज़ोन 6: फ़ार्मर्स कैरी, 100 मीटर। पुरुष हर हाथ में 27.5 किग्रा (60 lb), महिलाएँ हर हाथ में 17.5 किग्रा (40 lb)। FIT में यह मेज़ कोर्स है। STRONG और MILE में 10 मीटर की पाँच लंबाइयाँ।{3} ट्रेनिंग में: गर्दन या कंधे में तकलीफ़? बिना फेंके सहारे वाला सिट-अप करें। कैरी का वज़न हफ़्तों में रेस वज़न तक बढ़ाएँ, और पकड़ को निचोड़ने के बजाय वज़न रखकर आराम करें।",
      "dose": "FIT में वज़न गिराने पर 30 सेकंड। स्की 6 मीटर या ज़्यादा बाक़ी छोड़ने पर 2 मिनट।{3}"
     },
     {
@@ -335,30 +337,31 @@
    "sampleLabel": "सिर्फ़ सैंपल। प्रिस्क्रिप्शन नहीं। अपने शरीर, अपनी सेहत और अपने इतिहास के हिसाब से बदलें।",
    "sample": [
     "वार्म-अप, 10 मिनट।",
-    "500 मीटर आसान दौड़। ज़ोन 1: हल्के वज़न के साथ 30 रिवर्स लंज।",
+    "500 मीटर आसान दौड़। ज़ोन 1: हल्के वज़न के साथ 30 रिवर्स लंज। RAM से पहले शरीर का वज़न या हल्का डंबल। घुटने में तकलीफ़ हो तो कदम छोटा करें।",
     "500 मीटर आसान दौड़। ज़ोन 2: स्थिर गति से 500 मीटर रो।",
-    "500 मीटर आसान दौड़। ज़ोन 3: 60 सेमी (24 इंच) बॉक्स पर 20 स्टेप-ओवर।",
-    "पहले दिन यहीं रुकें। हफ़्ते-दर-हफ़्ते ज़ोन जोड़ें। हर ज़ोन का समय लिखें।"
+    "500 मीटर आसान दौड़। ज़ोन 3: 40 से 50 सेमी की मज़बूत स्टेप पर 20 स्टेप-ओवर। हफ़्तों में 60 सेमी (24 इंच) तक जाएँ। ट्रेनिंग में हाथ का सहारा ठीक है, रेस में नहीं।",
+    "पहले दिन यहीं रुकें। हफ़्ते-दर-हफ़्ते ज़ोन जोड़ें। हर ज़ोन का समय लिखें।",
+    "दर्द की जाँच: हल्की असहजता जो जल्दी शांत हो जाए, ठीक है। सेट के दौरान बढ़ता दर्द मतलब इसे आसान करें: कम रेंज या कम वज़न। तेज़ दर्द, सूजन, हाथ या पैर में नीचे फैलता दर्द, सुन्नपन, जोड़ का अचानक जवाब देना या अटकना मतलब रुकें और जाँच करवाएँ। मैं कोच हूँ, फ़िज़ियो या डॉक्टर नहीं।"
    ],
-   "coachedHeading": "Jalan PT के साथ इसकी ट्रेनिंग करें",
+   "coachedHeading": "Online Fitness Worldwide के साथ इसकी ट्रेनिंग करें",
    "coached": [
     "आप दसों ज़ोन जानकर उतरना चाहते हैं। काम आप करते हैं। लिफ़्ट, पेसिंग और साप्ताहिक योजना मैं लाइव कोच करता हूँ।",
-    "Jalan PT का Spartan और DEKA से कोई संबंध नहीं है, और Spartan और DEKA ने इसका समर्थन नहीं किया है। यह स्वतंत्र ट्रेनिंग है।",
+    "Online Fitness Worldwide का Spartan और DEKA से कोई संबंध नहीं है, और Spartan और DEKA ने इसका समर्थन नहीं किया है। यह स्वतंत्र ट्रेनिंग है।",
     "Iron Hour 60 मिनट का है, 1:1, लाइव। मिनट 0 पर सेट-अप: कैमरा ऐसे कि मुझे आपका पूरा शरीर दिखे। मिनट 4 से वार्म-अप। मिनट 14 पर मुख्य लिफ़्ट। 28 पर एक्सेसरीज़। 50 पर कूल-डाउन।",
     "Lean Reset महीने में 20 सेशन, 1:1। Open Floor एक छोटा ग्रुप है।",
     "लंबे ब्रेक के बाद लौट रहे हैं? Return 45 मिनट का है, महीने में 12 सेशन, एक दिन छोड़कर। पहले बेस बनाते हैं।",
-    "Google Meet, Zoom या FaceTime पर लाइव कोचिंग। पुणे से। हिंदी या अंग्रेज़ी में। IST पर। अभी तय नहीं? 30 मिनट के कंसल्टेशन से शुरू करें। यह बातचीत है, ट्रेनिंग नहीं। बुकिंग सिर्फ़ समय रोकती है। फ़ीस सीधे तय होती है।"
+    "Google Meet, Zoom या FaceTime पर लाइव कोचिंग। हिंदी या अंग्रेज़ी में। IST पर। अभी तय नहीं? 30 मिनट के कंसल्टेशन से शुरू करें। यह बातचीत है, ट्रेनिंग नहीं। बुकिंग सिर्फ़ समय रोकती है। फ़ीस सीधे तय होती है।"
    ],
    "safetyHeading": "शुरू करने से पहले",
    "safety": "सामान्य जानकारी, मेडिकल सलाह नहीं। ACSM का स्क्रीनिंग मॉडल कहता है: अगर आप एक्टिव नहीं हैं, कोई लक्षण नहीं है और दिल, मेटाबॉलिक या किडनी की कोई ज्ञात बीमारी नहीं है, तो आप बिना मेडिकल क्लियरेंस के हल्की से मध्यम एक्सरसाइज़ शुरू करके धीरे-धीरे बढ़ा सकते हैं। अगर इनमें से कोई बीमारी है, या सीने में दर्द, असामान्य साँस फूलना या चक्कर जैसे लक्षण हैं, तो पहले मेडिकल क्लियरेंस लें।{10} रेस-स्टाइल काम कठिन है: भारी लिफ़्ट, जंप, बर्पी, स्प्रिंट और कैरी। इसके लिए हफ़्तों में तैयारी करें। अकेले या बिना स्पॉटर या कोच के मैक्स लिफ़्ट टेस्ट न करें। लंज, स्लेड, डेड बॉल और वज़न वाली बर्पी घुटनों, पीठ और कंधों पर भारी पड़ते हैं। हफ़्तों में तैयारी करें। दिल, ब्लड प्रेशर या जोड़ों की समस्या हो तो पहले डॉक्टर से पूछें।"
   },
   "es": {
-   "metaTitle": "Guía DEKA FIT, MILE y STRONG: las 10 zonas | Jalan PT",
+   "metaTitle": "Guía DEKA FIT, MILE y STRONG: las 10 zonas | Online Fitness Worldwide",
    "metaDescription": "Guía DEKA: FIT, MILE y STRONG zona por zona, con pesos en kg y lb, penalizaciones, grupos de edad y dónde se celebra. Basada en el reglamento de DEKA.",
    "h1": "Guía DEKA: FIT, MILE y STRONG explicados zona por zona",
    "dek": "DEKA son diez zonas fijas, en orden. Lo único que cambia entre FIT, MILE y STRONG es la carrera. Aquí está cada zona, las cargas y las reglas que cuestan tiempo.",
    "updated": "Actualizado el 2 de noviembre de 2026",
-   "byline": "Por Susmit Jalan, entrenador en Jalan PT, Pune.",
+   "byline": "Por Susmit Jalan, entrenador en Online Fitness Worldwide.",
    "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
    "labels": {
     "home": "Inicio",
@@ -392,13 +395,13 @@
     {
      "name": "Zonas 1 a 3: zancada, remo, cajón",
      "why": "Zona 1: 30 zancadas atrás alternas, 15 por lado, con un RAM o una mancuerna. Hombres: 25 kg (55 lb).{3} Para las mujeres, la tabla imprime la cifra en libras de forma inconsistente, así que no doy ningún número. Lee la tabla en el reglamento.{3}",
-     "how": "Zona 2: remo 500 m. Zona 3: 20 pasos o saltos sobre un cajón de 60 cm (24 in). Ambos pies deben caer al otro lado.{3}",
+     "how": "Zona 2: remo 500 m. Zona 3: 20 step-overs o jump-overs en un cajón de 60 cm (24 in). Los dos pies deben caer al otro lado.{3} El reglamento permite ambos. Para entrenar, pasa andando: nada de saltar por encima hasta que tus aterrizajes sean suaves y te hayas ganado la altura.",
      "dose": "Una repetición fallada cuesta 10 segundos en las zonas 1 y 3, hasta el 20 % de las repeticiones.{3}"
     },
     {
      "name": "Zonas 4 a 6: balón medicinal, ski, acarreo",
      "why": "Zona 4: 25 abdominales con balón medicinal. En FIT lanzas a una diana con el centro a 1,37 m (4,5 ft). Hombres 9 kg (20 lb), mujeres 6 kg (14 lb).{3}",
-     "how": "Zona 5: ski 500 m. Zona 6: paseo del granjero, 100 m. Hombres 27,5 kg (60 lb) por mano, mujeres 17,5 kg (40 lb) por mano. En FIT es un recorrido en laberinto. En STRONG y MILE son cinco tramos de 10 m.{3}",
+     "how": "Zona 5: ski 500 m. Zona 6: paseo del granjero, 100 m. Hombres 27,5 kg (60 lb) por mano, mujeres 17,5 kg (40 lb) por mano. En FIT es un recorrido en laberinto. En STRONG y MILE son cinco tramos de 10 m.{3} En el entrenamiento: ¿cuello u hombro irritado? Haz un abdominal asistido sin lanzar. Sube el acarreo al peso de carrera a lo largo de semanas, y suelta los pesos para descansar en vez de exprimir el agarre.",
      "dose": "En FIT, soltar las pesas cuesta 30 segundos. Dejar el ski con 6 m o más sin hacer cuesta 2 minutos.{3}"
     },
     {
@@ -437,30 +440,31 @@
    "sampleLabel": "Solo un ejemplo. No es una prescripción. Ajústalo a tu cuerpo, tu salud y tu historia.",
    "sample": [
     "Calentamiento, 10 minutos.",
-    "Corre 500 m suave. Zona 1: 30 zancadas atrás con poco peso.",
+    "Corre 500 m suave. Zona 1: 30 zancadas atrás con poco peso. Peso corporal o una mancuerna ligera antes del RAM. Acorta la zancada si se queja una rodilla.",
     "Corre 500 m suave. Zona 2: remo 500 m a ritmo constante.",
-    "Corre 500 m suave. Zona 3: 20 pasos sobre un cajón de 60 cm (24 in).",
-    "Para ahí el primer día. Añade zonas semana a semana. Anota tu tiempo en cada una."
+    "Corre 500 m suave. Zona 3: 20 step-overs sobre un escalón firme de 40 a 50 cm. Pasa a 60 cm (24 in) a lo largo de las semanas. Ayudarte con la mano vale en el entrenamiento, no en la carrera.",
+    "Para ahí el primer día. Añade zonas semana a semana. Anota tu tiempo en cada una.",
+    "Control del dolor: una molestia leve que se calma pronto está bien. Si el dolor aumenta durante una serie, hazlo más fácil: menos recorrido o menos carga. Dolor agudo, hinchazón, dolor que baja por un brazo o una pierna, entumecimiento o una articulación que falla o se bloquea: para y hazte revisar. Soy entrenador, no fisioterapeuta ni médico."
    ],
-   "coachedHeading": "Entrena para ello con Jalan PT",
+   "coachedHeading": "Entrena para ello con Online Fitness Worldwide",
    "coached": [
     "Quieres entrar conociendo las diez zonas. Tú haces el trabajo. Yo te entreno los levantamientos, el ritmo y el plan semanal, en directo.",
-    "Jalan PT no está afiliada a Spartan y DEKA ni cuenta con su respaldo. Es un entrenamiento independiente.",
+    "Online Fitness Worldwide no está afiliada a Spartan y DEKA ni cuenta con su respaldo. Es un entrenamiento independiente.",
     "Iron Hour son 60 minutos, 1:1, en directo. Preparación en el minuto 0: cámara colocada para que vea todo tu cuerpo. Calentamiento desde el minuto 4. El ejercicio principal en el 14. Accesorios en el 28. Vuelta a la calma en el 50.",
     "Lean Reset son 20 sesiones al mes, 1:1. Open Floor es un grupo pequeño.",
     "¿Vuelves tras un parón largo? Return son 45 minutos, 12 sesiones al mes en días alternos. Primero construimos la base.",
-    "En directo por Google Meet, Zoom o FaceTime. Desde Pune. En hindi o inglés. En horario IST. ¿Aún no lo tienes claro? Empieza con una consulta de 30 minutos. Es una conversación, no un entrenamiento. La reserva solo guarda una hora. La tarifa se acuerda directamente."
+    "En directo por Google Meet, Zoom o FaceTime. En hindi o inglés. En horario IST. ¿Aún no lo tienes claro? Empieza con una consulta de 30 minutos. Es una conversación, no un entrenamiento. La reserva solo guarda una hora. La tarifa se acuerda directamente."
    ],
    "safetyHeading": "Antes de empezar",
    "safety": "Información general, no consejo médico. El modelo de cribado del ACSM dice: si eres inactivo, no tienes síntomas ni enfermedad conocida del corazón, metabólica o renal, puedes empezar con ejercicio ligero a moderado sin autorización médica e ir subiendo poco a poco. Si tienes una de esas enfermedades, o síntomas como dolor en el pecho, falta de aire inusual o mareo, consigue primero la autorización médica.{10} El trabajo de estilo carrera es duro: levantamientos pesados, saltos, burpees, sprints y acarreos. Llega a él en semanas. No pruebes un máximo a solas, ni sin ayudante o entrenador que te vea. Las zancadas, el trineo, el balón muerto y los burpees con peso castigan rodillas, espalda y hombros. Progresa durante semanas. Consulta antes con tu médico si tienes una afección del corazón, la tensión o las articulaciones."
   },
   "zh": {
-   "metaTitle": "DEKA FIT、MILE与STRONG指南：10个区域 | Jalan PT",
+   "metaTitle": "DEKA FIT、MILE与STRONG指南：10个区域 | Online Fitness Worldwide",
    "metaDescription": "DEKA指南：逐个区域讲解FIT、MILE和STRONG，含公斤和磅的重量、罚时、年龄组和举办地区。依据DEKA规则手册。",
    "h1": "DEKA指南：逐个区域讲解FIT、MILE和STRONG",
    "dek": "DEKA是按顺序完成的十个固定区域。FIT、MILE和STRONG之间唯一不同的是跑步。这里讲每个区域、负荷，以及会损失时间的规则。",
    "updated": "更新于2026年11月2日",
-   "byline": "作者：Susmit Jalan，Jalan PT教练，浦那。",
+   "byline": "作者：Susmit Jalan，Online Fitness Worldwide 教练。",
    "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
    "labels": {
     "home": "首页",
@@ -494,13 +498,13 @@
     {
      "name": "区域1到3：箭步蹲、划船、跳箱",
      "why": "区域1：30次交替后撤箭步蹲，每侧15次，用RAM或哑铃。男子：25公斤（55磅）。{3}女子的磅数在表上印得不一致，所以我不给数字。请看规则手册里的表。{3}",
-     "how": "区域2：划船500米。区域3：在60厘米（24英寸）的箱子上做20次跨上跨下或跳过。双脚必须落在另一侧。{3}",
+     "how": "第2区：划船500米。第3区：在60厘米（24英寸）箱子上完成20次跨箱或跳箱。双脚必须落在另一侧。{3} 规则两种都允许。训练时用跨步：在落地轻柔、能力足以应对这个高度之前，不要跳箱。",
      "dose": "区域1和3每漏一次扣10秒，最多算总次数的20%。{3}"
     },
     {
      "name": "区域4到6：药球、滑雪机、负重行走",
      "why": "区域4：25次药球仰卧起坐。FIT中要把球投向中心高1.37米（4.5英尺）的靶。男子9公斤（20磅），女子6公斤（14磅）。{3}",
-     "how": "区域5：滑雪机500米。区域6：农夫行走100米。男子每手27.5公斤（60磅），女子每手17.5公斤（40磅）。FIT是迷宫路线。STRONG和MILE是5段10米。{3}",
+     "how": "区域5：滑雪机500米。区域6：农夫行走100米。男子每手27.5公斤（60磅），女子每手17.5公斤（40磅）。FIT是迷宫路线。STRONG和MILE是5段10米。{3}训练时：颈部或肩部不适？做有支撑、不投掷的仰卧起坐。负重行走的重量用几周加到比赛重量，累了就放下休息，不要死撑握力。",
      "dose": "FIT中掉了重物扣30秒。离开滑雪机时还差6米或更多扣2分钟。{3}"
     },
     {
@@ -539,30 +543,31 @@
    "sampleLabel": "仅为示例，不是处方。请根据你的身体、健康状况和经历调整。",
    "sample": [
     "热身，10分钟。",
-    "轻松跑500米。区域1：轻重量后撤箭步蹲30次。",
+    "轻松跑500米。区域1：轻重量后撤箭步蹲30次。先用自重或轻哑铃，再用RAM。膝盖不适就缩短步幅。",
     "轻松跑500米。区域2：稳定配速划船500米。",
-    "轻松跑500米。区域3：60厘米（24英寸）箱子上跨上跨下20次。",
-    "第一天到此为止。每周增加几个区域。记下每个区域的用时。"
+    "轻松跑500米。第3区：在40到50厘米的稳固台阶上跨20次。几周内逐步加到60厘米（24英寸）。训练时可以用手辅助，比赛时不行。",
+    "第一天到此为止。每周增加几个区域。记下每个区域的用时。",
+    "疼痛自查：轻微、很快消退的不适没关系。组内疼痛加重，就降低难度：减小幅度或减轻负重。尖锐疼痛、肿胀、疼痛沿手臂或腿向下放射、麻木、关节打软或卡住，就停下并去检查。我是教练，不是理疗师或医生。"
    ],
-   "coachedHeading": "与Jalan PT一起备战",
+   "coachedHeading": "与Online Fitness Worldwide一起备战",
    "coached": [
     "你想在了解十个区域之后再走进赛场。训练由你来做。我实时指导举重、配速和每周计划。",
-    "Jalan PT与Spartan和DEKA没有任何关联，也未获得其认可。这是独立的训练指导。",
+    "Online Fitness Worldwide与Spartan和DEKA没有任何关联，也未获得其认可。这是独立的训练指导。",
     "Iron Hour是60分钟，一对一，实时进行。第0分钟准备：摆好摄像头，让我能看到你的全身。第4分钟开始热身。第14分钟进入主项。第28分钟做辅助练习。第50分钟放松。",
     "Lean Reset每月20次，一对一。Open Floor是小组课。",
     "长期中断后重新开始？Return每次45分钟，每月12次，隔天一次。我们先打基础。",
-    "通过Google Meet、Zoom或FaceTime实时指导。来自浦那。印地语或英语。按印度标准时间（IST）。还没决定？先从30分钟的咨询开始。那是一次交谈，不是训练。预约只是保留一个时间。费用直接商定。"
+    "通过Google Meet、Zoom或FaceTime实时指导。印地语或英语。按印度标准时间（IST）。还没决定？先从30分钟的咨询开始。那是一次交谈，不是训练。预约只是保留一个时间。费用直接商定。"
    ],
    "safetyHeading": "开始之前",
    "safety": "一般信息，不是医疗建议。ACSM的运动前筛查模型指出：如果你平时不运动、没有症状，也没有已知的心脏、代谢或肾脏疾病，可以在没有医疗许可的情况下从低到中等强度开始，逐步增加。如果有上述疾病，或出现胸痛、异常气短、头晕等症状，请先取得医疗许可。{10}比赛式训练强度很大：大重量、跳跃、波比、冲刺和负重行走。请用数周时间逐步过渡。不要独自测试最大重量，也不要在没有保护者或教练观察的情况下测试。 箭步蹲、雪橇、死球和负重波比对膝盖、背部和肩部负担较大。请用数周逐步加量。如果有心脏、血压或关节问题，请先咨询医生。"
   },
   "ja": {
-   "metaTitle": "DEKA FIT・MILE・STRONGガイド：10のゾーン | Jalan PT",
+   "metaTitle": "DEKA FIT・MILE・STRONGガイド：10のゾーン | Online Fitness Worldwide",
    "metaDescription": "DEKAガイド：FIT、MILE、STRONGをゾーンごとに解説。kgとlbの重量、ペナルティ、年齢区分、開催地。DEKAルールブックに基づきます。",
    "h1": "DEKAガイド：FIT・MILE・STRONGをゾーンごとに解説",
    "dek": "DEKAは順番に行う10の固定ゾーンです。FIT、MILE、STRONGで違うのはランだけ。各ゾーン、負荷、時間を失うルールをまとめます。",
    "updated": "2026年11月2日更新",
-   "byline": "執筆：Susmit Jalan（Jalan PT コーチ、プネー）",
+   "byline": "執筆：スシュミット・ジャラン（Online Fitness Worldwide コーチ）",
    "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
    "labels": {
     "home": "ホーム",
@@ -596,13 +601,13 @@
     {
      "name": "ゾーン1〜3：ランジ、ロー、ボックス",
      "why": "ゾーン1：RAMまたはダンベルで、交互のリバースランジ30回（左右15回ずつ）。男子：25kg（55lb）。{3}女子は、表のポンドの数字の印刷が一貫していないため、数字は載せません。ルールブックの表を読んでください。{3}",
-     "how": "ゾーン2：ロー500m。ゾーン3：60cm（24インチ）のボックスをステップオーバーまたはジャンプオーバー20回。両足が反対側に着く必要があります。{3}",
+     "how": "ゾーン2：ロウ500 m。ゾーン3：60 cm（24インチ）のボックスでステップオーバーまたはジャンプオーバー20回。両足が反対側に着地する必要があります。{3} ルールブックはどちらも認めています。練習ではステップオーバーで。着地が静かになり、その高さに見合う力がつくまでジャンプオーバーはしないこと。",
      "dose": "ゾーン1と3は、未達のレップ1回につき10秒、レップ数の20%まで。{3}"
     },
     {
      "name": "ゾーン4〜6：メディシンボール、スキー、キャリー",
      "why": "ゾーン4：メディシンボール・シットアップ25回。FITでは中心が1.37m（4.5フィート）の高さにあるターゲットに投げます。男子9kg（20lb）、女子6kg（14lb）。{3}",
-     "how": "ゾーン5：スキー500m。ゾーン6：ファーマーズキャリー100m。男子は片手27.5kg（60lb）、女子は片手17.5kg（40lb）。FITは迷路状のコース。STRONGとMILEは10mを5往復分。{3}",
+     "how": "ゾーン5：スキー500m。ゾーン6：ファーマーズキャリー100m。男子は片手27.5kg（60lb）、女子は片手17.5kg（40lb）。FITは迷路状のコース。STRONGとMILEは10mを5往復分。{3}練習では、首や肩に違和感があれば、投げずに補助付きのシットアップを。キャリーは数週間かけてレース重量へ。握力を絞り出すより、重りを置いて休みましょう。",
      "dose": "FITではウェイトを落とすと30秒。スキーを6m以上残して離れると2分。{3}"
     },
     {
@@ -641,30 +646,31 @@
    "sampleLabel": "あくまで例です。処方ではありません。体、健康状態、これまでの経過に合わせて調整してください。",
    "sample": [
     "ウォームアップ、10分。",
-    "500mを楽に走る。ゾーン1：軽い重量でリバースランジ30回。",
+    "500mを楽に走る。ゾーン1：軽い重量でリバースランジ30回。RAMの前に自重か軽いダンベルで。膝に違和感があれば歩幅を狭く。",
     "500mを楽に走る。ゾーン2：一定のペースでロー500m。",
-    "500mを楽に走る。ゾーン3：60cm（24インチ）のボックスでステップオーバー20回。",
-    "初日はここまで。週ごとにゾーンを足していきます。各ゾーンのタイムを書き留めましょう。"
+    "500 mを楽に走る。ゾーン3：40〜50 cmの頑丈な台でステップオーバー20回。数週間かけて60 cm（24インチ）へ。練習では手で支えてもOK、レースではNG。",
+    "初日はここまで。週ごとにゾーンを足していきます。各ゾーンのタイムを書き留めましょう。",
+    "痛みのチェック：すぐに治まる軽い違和感なら大丈夫。セット中に痛みが強まるなら、可動域か負荷を減らして易しくしましょう。鋭い痛み、腫れ、腕や脚に広がる痛み、しびれ、関節が抜ける感じや引っかかりがあれば中止して診てもらってください。私はコーチであり、理学療法士でも医師でもありません。"
    ],
-   "coachedHeading": "Jalan PTと一緒に準備する",
+   "coachedHeading": "Online Fitness Worldwideと一緒に準備する",
    "coached": [
     "10のゾーンを知ったうえで臨みたい。やるのはあなたです。挙上、ペース配分、週ごとの計画を、私がライブで指導します。",
-    "Jalan PT は SpartanとDEKA とは提携しておらず、公認も受けていません。独立したトレーニング指導です。",
+    "Online Fitness Worldwide は SpartanとDEKA とは提携しておらず、公認も受けていません。独立したトレーニング指導です。",
     "Iron Hour は60分、1対1、ライブ。0分にセットアップ：全身が見えるようにカメラを配置。4分からウォームアップ。14分にメイン種目。28分に補助種目。50分にクールダウン。",
     "Lean Reset は月20回、1対1。Open Floor は少人数グループです。",
     "長いブランクからの再開？Return は45分、月12回、1日おき。まず土台を作ります。",
-    "Google Meet、Zoom、FaceTime でライブ指導。プネーから。ヒンディー語か英語で。インド標準時（IST）で。まだ迷っている？30分の相談から始めましょう。会話であって、トレーニングではありません。予約は時間を押さえるだけ。料金は直接決めます。"
+    "Google Meet、Zoom、FaceTime でライブ指導。ヒンディー語か英語で。インド標準時（IST）で。まだ迷っている？30分の相談から始めましょう。会話であって、トレーニングではありません。予約は時間を押さえるだけ。料金は直接決めます。"
    ],
    "safetyHeading": "始める前に",
    "safety": "一般的な情報であり、医学的な助言ではありません。ACSMのスクリーニングモデルによると：運動習慣がなく、症状がなく、心臓・代謝・腎臓の病気が知られていなければ、医師の許可なしに軽〜中程度の運動を始め、少しずつ増やせます。これらの病気がある場合や、胸の痛み、普段と違う息切れ、めまいなどの症状がある場合は、先に医師の許可を得てください。{10}レース形式の運動はハードです。重い挙上、ジャンプ、バーピー、ダッシュ、キャリー。数週間かけて段階的に慣らしてください。最大重量のテストは、一人で、または補助者やコーチの目がない状態で行わないでください。 ランジ、スレッド、デッドボール、ウェイト付きバーピーは、膝、腰、肩に負担がかかります。数週間かけて慣らしてください。心臓、血圧、関節に持病がある場合は、先に医師に相談を。"
   },
   "gu": {
-   "metaTitle": "DEKA FIT, MILE અને STRONG ગાઇડ: 10 ઝોન | Jalan PT",
+   "metaTitle": "DEKA FIT, MILE અને STRONG ગાઇડ: 10 ઝોન | Online Fitness Worldwide",
    "metaDescription": "DEKA ગાઇડ: FIT, MILE અને STRONG ઝોન-દર-ઝોન, કિગ્રા અને lb માં વજન, પેનલ્ટી, વય જૂથ અને ક્યાં યોજાય છે. DEKA રૂલબુક આધારિત.",
    "h1": "DEKA ગાઇડ: FIT, MILE અને STRONG ઝોન-દર-ઝોન",
    "dek": "DEKA ક્રમમાં દસ નક્કી ઝોન છે. FIT, MILE અને STRONG વચ્ચે ફક્ત દોડ બદલાય છે. દરેક ઝોન, લોડ, અને સમય ખાતા નિયમો અહીં છે.",
    "updated": "અપડેટ: 2 નવેમ્બર 2026",
-   "byline": "સુસ્મિત જાલાન, કોચ, Jalan PT, પુણે.",
+   "byline": "લેખક: સુસ્મિત જાલાન, કોચ, Online Fitness Worldwide.",
    "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
    "labels": {
     "home": "હોમ",
@@ -698,13 +704,13 @@
     {
      "name": "ઝોન 1 થી 3: લંજ, રો, બૉક્સ",
      "why": "ઝોન 1: RAM કે ડમ્બલ સાથે 30 અલ્ટરનેટિંગ રિવર્સ લંજ, દરેક બાજુ 15. પુરુષ: 25 કિગ્રા (55 lb).{3} મહિલાઓ માટે ચાર્ટમાં પાઉન્ડનો આંકડો અસંગત છપાયો છે, તેથી હું કોઈ સંખ્યા આપતો નથી. રૂલબુકનો ચાર્ટ વાંચો.{3}",
-     "how": "ઝોન 2: રો 500 મીટર. ઝોન 3: 60 સેમી (24 ઇંચ) ના બૉક્સ પર 20 સ્ટેપ-ઓવર કે જમ્પ-ઓવર. બંને પગ સામી બાજુ ઊતરવા જોઈએ.{3}",
+     "how": "ઝોન 2: 500 મીટર રો. ઝોન 3: 60 સેમી (24 ઇંચ) બૉક્સ પર 20 સ્ટેપ-ઓવર કે જમ્પ-ઓવર. બંને પગ બીજી બાજુ ઊતરવા જોઈએ.{3} રૂલબુક બંનેની મંજૂરી આપે છે. ટ્રેનિંગમાં સ્ટેપ-ઓવર કરો: લૅન્ડિંગ શાંત ન થાય અને તે ઊંચાઈ માટે તૈયાર ન થાઓ ત્યાં સુધી જમ્પ-ઓવર નહીં.",
      "dose": "ઝોન 1 અને 3 માં ચૂકેલા દરેક રેપ માટે 10 સેકન્ડ, રેપના 20% સુધી.{3}"
     },
     {
      "name": "ઝોન 4 થી 6: મેડ બૉલ, સ્કી, કૅરી",
      "why": "ઝોન 4: 25 મેડ-બૉલ સિટ-અપ. FIT માં તમે 1.37 મીટર (4.5 ફૂટ) ઊંચાઈએ કેન્દ્રિત ટાર્ગેટ પર ફેંકો છો. પુરુષ 9 કિગ્રા (20 lb), મહિલા 6 કિગ્રા (14 lb).{3}",
-     "how": "ઝોન 5: સ્કી 500 મીટર. ઝોન 6: ફાર્મર્સ કૅરી, 100 મીટર. પુરુષ દરેક હાથમાં 27.5 કિગ્રા (60 lb), મહિલા દરેક હાથમાં 17.5 કિગ્રા (40 lb). FIT માં તે મેઝ કોર્સ છે. STRONG અને MILE માં 10 મીટરની પાંચ લંબાઈ.{3}",
+     "how": "ઝોન 5: સ્કી 500 મીટર. ઝોન 6: ફાર્મર્સ કૅરી, 100 મીટર. પુરુષ દરેક હાથમાં 27.5 કિગ્રા (60 lb), મહિલા દરેક હાથમાં 17.5 કિગ્રા (40 lb). FIT માં તે મેઝ કોર્સ છે. STRONG અને MILE માં 10 મીટરની પાંચ લંબાઈ.{3} ટ્રેનિંગમાં: ગરદન કે ખભામાં તકલીફ? ફેંક્યા વગર ટેકાવાળું સિટ-અપ કરો. કૅરીનું વજન અઠવાડિયાંઓમાં રેસ વજન સુધી વધારો, અને પકડ નિચોવવાને બદલે વજન નીચે મૂકીને આરામ કરો.",
      "dose": "FIT માં વજન પાડી દો તો 30 સેકન્ડ. સ્કી 6 મીટર કે વધુ બાકી રાખીને છોડો તો 2 મિનિટ.{3}"
     },
     {
@@ -743,19 +749,20 @@
    "sampleLabel": "માત્ર સેમ્પલ. પ્રિસ્ક્રિપ્શન નથી. તમારા શરીર, તમારા સ્વાસ્થ્ય અને તમારા ઇતિહાસ મુજબ બદલો.",
    "sample": [
     "વૉર્મ-અપ, 10 મિનિટ.",
-    "500 મીટર સરળ દોડ. ઝોન 1: હળવા વજન સાથે 30 રિવર્સ લંજ.",
+    "500 મીટર સરળ દોડ. ઝોન 1: હળવા વજન સાથે 30 રિવર્સ લંજ. RAM પહેલાં શરીરનું વજન કે હળવું ડમ્બેલ. ઘૂંટણમાં તકલીફ થાય તો પગલું ટૂંકું કરો.",
     "500 મીટર સરળ દોડ. ઝોન 2: સ્થિર ગતિએ 500 મીટર રો.",
-    "500 મીટર સરળ દોડ. ઝોન 3: 60 સેમી (24 ઇંચ) ના બૉક્સ પર 20 સ્ટેપ-ઓવર.",
-    "પહેલા દિવસે ત્યાં અટકો. અઠવાડિયે અઠવાડિયે ઝોન ઉમેરો. દરેક ઝોનનો સમય લખો."
+    "500 મીટર સરળ દોડ. ઝોન 3: 40 થી 50 સેમીના મજબૂત સ્ટેપ પર 20 સ્ટેપ-ઓવર. અઠવાડિયાંઓમાં 60 સેમી (24 ઇંચ) સુધી જાઓ. ટ્રેનિંગમાં હાથનો ટેકો બરાબર છે, રેસમાં નહીં.",
+    "પહેલા દિવસે ત્યાં અટકો. અઠવાડિયે અઠવાડિયે ઝોન ઉમેરો. દરેક ઝોનનો સમય લખો.",
+    "દુખાવાની તપાસ: હળવી અસુવિધા જે જલ્દી શમી જાય, તે ઠીક છે. સેટ દરમિયાન વધતો દુખાવો એટલે તેને સરળ બનાવો: ઓછી રેન્જ અથવા ઓછું વજન. તીક્ષ્ણ દુખાવો, સોજો, હાથ કે પગમાં નીચે ફેલાતો દુખાવો, સુન્નતા, સાંધો અચાનક છૂટી જવો કે અટકી જવો એટલે અટકો અને તપાસ કરાવો. હું કોચ છું, ફિઝિયો કે ડૉક્ટર નહીં."
    ],
-   "coachedHeading": "Jalan PT સાથે તેની ટ્રેનિંગ કરો",
+   "coachedHeading": "Online Fitness Worldwide સાથે તેની ટ્રેનિંગ કરો",
    "coached": [
     "તમે દસે ઝોન જાણીને ઊતરવા માગો છો. કામ તમે કરો છો. લિફ્ટ, પેસિંગ અને સાપ્તાહિક યોજના હું લાઇવ કોચ કરું છું.",
-    "Jalan PT નો Spartan અને DEKA સાથે કોઈ સંબંધ નથી, અને Spartan અને DEKA એ તેને સમર્થન આપ્યું નથી. આ સ્વતંત્ર ટ્રેનિંગ છે.",
+    "Online Fitness Worldwide નો Spartan અને DEKA સાથે કોઈ સંબંધ નથી, અને Spartan અને DEKA એ તેને સમર્થન આપ્યું નથી. આ સ્વતંત્ર ટ્રેનિંગ છે.",
     "Iron Hour 60 મિનિટનું છે, 1:1, લાઇવ. મિનિટ 0 પર સેટ-અપ: કૅમેરા એવી રીતે કે મને તમારું આખું શરીર દેખાય. મિનિટ 4 થી વૉર્મ-અપ. મિનિટ 14 પર મુખ્ય લિફ્ટ. 28 પર એક્સેસરીઝ. 50 પર કૂલ-ડાઉન.",
     "Lean Reset મહિને 20 સેશન, 1:1. Open Floor નાનું ગ્રુપ છે.",
     "લાંબા બ્રેક પછી પાછા આવો છો? Return 45 મિનિટનું છે, મહિને 12 સેશન, એકાંતરે દિવસે. પહેલાં બેઝ બનાવીએ છીએ.",
-    "Google Meet, Zoom કે FaceTime પર લાઇવ કોચિંગ. પુણેથી. હિન્દી કે અંગ્રેજીમાં. IST પર. હજુ નક્કી નથી? 30 મિનિટના કન્સલ્ટેશનથી શરૂ કરો. એ વાતચીત છે, ટ્રેનિંગ નહીં. બુકિંગ ફક્ત સમય રોકે છે. ફી સીધી નક્કી થાય છે."
+    "Google Meet, Zoom કે FaceTime પર લાઇવ કોચિંગ. હિન્દી કે અંગ્રેજીમાં. IST પર. હજુ નક્કી નથી? 30 મિનિટના કન્સલ્ટેશનથી શરૂ કરો. એ વાતચીત છે, ટ્રેનિંગ નહીં. બુકિંગ ફક્ત સમય રોકે છે. ફી સીધી નક્કી થાય છે."
    ],
    "safetyHeading": "શરૂ કરતાં પહેલાં",
    "safety": "સામાન્ય માહિતી, તબીબી સલાહ નહીં. ACSM ના સ્ક્રીનિંગ મોડલ મુજબ: જો તમે નિષ્ક્રિય છો, કોઈ લક્ષણ નથી અને હૃદય, મેટાબોલિક કે કિડનીની કોઈ જાણીતી બીમારી નથી, તો તમે તબીબી મંજૂરી વગર હળવી થી મધ્યમ કસરત શરૂ કરીને ધીમે ધીમે વધારી શકો છો. જો આમાંની કોઈ બીમારી હોય, કે છાતીમાં દુખાવો, અસામાન્ય શ્વાસ ચડવો કે ચક્કર જેવા લક્ષણો હોય, તો પહેલાં તબીબી મંજૂરી લો.{10} રેસ-સ્ટાઇલ કામ અઘરું છે: ભારે લિફ્ટ, જમ્પ, બર્પી, સ્પ્રિન્ટ અને કૅરી. અઠવાડિયાં સુધી ધીમે ધીમે તૈયારી કરો. એકલા, કે સ્પોટર કે કોચ જોતા ન હોય ત્યારે મેક્સ લિફ્ટનો ટેસ્ટ ન કરો. લંજ, સ્લેડ, ડેડ બૉલ અને વજનવાળી બર્પી ઘૂંટણ, પીઠ અને ખભા પર ભારે પડે છે. અઠવાડિયાં સુધી ધીમે ધીમે તૈયારી કરો. હૃદય, બ્લડ પ્રેશર કે સાંધાની તકલીફ હોય તો પહેલાં ડૉક્ટરને પૂછો."
