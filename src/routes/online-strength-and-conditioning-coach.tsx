@@ -33,6 +33,7 @@ const DB_POST_PATH = postPathFor("best-home-workouts-with-one-dumbbell", "en");
 const GRIP_POST_PATH = postPathFor("best-exercises-for-grip-strength", "en");
 const PARENTS_POST_PATH = postPathFor("best-strength-exercises-for-busy-parents", "en");
 const KNEE_POST_PATH = postPathFor("best-leg-exercises-for-knee-friendly-strength", "en");
+const BONE_POST_PATH = postPathFor("best-strength-exercises-for-bone-density", "en");
 const WARM_POST_PATH = postPathFor("best-warm-up-exercises-before-strength-training", "en");
 const COOL_POST_PATH = postPathFor("best-cool-down-stretches-after-strength-training", "en");
 const CORE_BACK_POST_PATH = postPathFor("best-core-exercises-for-lower-back-health", "en");
@@ -249,6 +250,10 @@ function StrengthCoachPage() {
               <li>
                 Knees grumpy on squats? We set the depth first:{" "}
                 <a href={KNEE_POST_PATH}>the 7 best leg exercises for knee-friendly strength</a>.
+              </li>
+              <li>
+                Training for denser bones? Progressive load first:{" "}
+                <a href={BONE_POST_PATH}>the 7 best strength exercises for bone density</a>.
               </li>
             </ul>
           </section>

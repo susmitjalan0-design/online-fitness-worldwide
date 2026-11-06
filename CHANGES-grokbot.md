@@ -2,6 +2,68 @@
 
 Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 
+## 6 Nov 2026 (IST), batch 17: strength exercises for bone density, brand rename (SITE_NAME / common / shared)
+
+### Blog
+- New post: **"Best strength exercises for bone density: 7 moves and a sample week"** at `/blog/best-strength-exercises-for-bone-density` (`src/content/blog/bone-density.ts`, export `boneDensityPost`). It targets "strength exercises for bone density" / "exercises for osteoporosis" / "weight bearing exercises at home". No existing post covers bone specifically (women-over-40 and over-60 are general strength). Hip/shoulder mobility and posture backlog ideas still overlap warm-up, cool-down and desk-workers.
+- The English coached card leads with Iron Hour (set-up 0 with camera and any doctor-set limits; warm-up 4; primary 14 "progressive, not a max test"; accessories 28; cool-down 50) and links to `/online-strength-and-conditioning-coach` (`programLink`). It also names Lean Reset (20 sessions a month, 1:1), Return (45 minutes, 12 alternate-day sessions a month), Open Floor and the Consultation (30 minutes, not training). New line: "I'm a coach, not a doctor or a physio: if you have osteoporosis, a fracture history or spine limits, your doctor or physio sets the rules, and we train inside them." No prices: booking holds a time and the fee is agreed directly. Live on Meet, Zoom or FaceTime, from Pune, in Hindi or English, on IST.
+- "See also" under the intro: the women-over-40 post and the over-60s post.
+- The 7 items: sit-to-stand, hip hinge with a bag, step-up, wall push-up, one-arm row, calf raise, farmer's carry. Hip hinge copy stresses a long spine (UK consensus: avoid high spinal flexion). Step-up notes gentle impact if osteoporosis or a vertebral fracture. Doses lean on ACSM's 8–12 / progression.
+- "How much, how hard, how often":
+  - WHO: muscle-strengthening on 2+ days a week. NHS over-65 bone page: strength at least twice a week plus balance for falls.
+  - ESSA bone position statement: minimum two progressive resistance sessions a week, plus brief weight-bearing impact and balance, with variety.
+  - UK consensus (Brooke-Wavell): resistance and impact for bone, strength and balance for falls, spinal extension for posture; avoid high spinal flexion; after vertebral or multiple low-trauma fractures keep impact ≤ brisk walking unless a specialist says otherwise.
+  - **LIFTMOR was supervised clinic HiRIT, and the post says so**: 101 postmenopausal women with low bone mass, twice-weekly 30-min supervised 5×5 >85% 1RM + impact for 8 months; lumbar spine BMD +2.9% vs −1.2% low-intensity home control; one minor adverse event. Explicitly "not a home plan" / don't copy the heavy 5×5 alone.
+  - **Cochrane found small BMD gains and no clear fracture effect, and the post says so**: lower-limb progressive resistance most useful at the femoral neck (MD 1.03); combined programmes at the spine (MD 3.22); fractures OR 0.61, not significant.
+  - ACSM's 2–10% progression rule. Simple prone spinal extension only if cleared.
+- "Before you start": ACSM screening; osteoporosis / fracture history / steroids / spine issues → doctor or physio first; UK consensus impact limit after vertebral fractures; NHS high-fracture-risk / spinal-fracture back-care cues; NHS lists weight-bearing, strengthening and balance among things that help keep bones strong; stop for sharp pain, chest pain or dizziness. No breath-holding on hard efforts.
+- The sample week (three ~30-minute strength days Mon/Wed/Fri, walks and light balance on other days) is labelled "Sample only. Not a prescription. Adjust it with your doctor or physio…". No client results or quotes. Credentials line (ASCA Level 1 and ACE; neither body endorses). One WhatsApp CTA. Brand suffix and byline use **Online Fitness Worldwide** (not Jalan PT).
+- Localised versions at `/{ar,hi,es,zh,ja,gu}/blog/best-strength-exercises-for-bone-density`, each with its own title, description and canonical and the full reciprocal hreflang set (7 languages and x-default). Arabic renders `dir="rtl"`. JSON-LD from `postHead`: Article, ItemList (7 items with `#item-n` URLs) and BreadcrumbList. Meta descriptions: en 146, ar 130, hi 134, es 156, gu 132, zh 41, ja 52 characters (all ≤160).
+- All 9 sources are real and were opened on 6 Nov 2026. Each paper's title, authors, journal, year, volume/pages and the finding used were checked against its Europe PMC / Crossref record and abstract; each DOI is registered at doi.org (handle API 200). The WHO and NHS pages returned 200 and the wording used was read on the page. No India prevalence source was added (none verified this run).
+  1. WHO guidelines on physical activity and sedentary behaviour (2020): https://www.who.int/publications/i/item/9789240015128
+  2. Beck et al., ESSA position statement on exercise for osteoporosis, J Sci Med Sport 2017;20(5):438–445: https://doi.org/10.1016/j.jsams.2016.10.001
+  3. Watson et al., LIFTMOR RCT, J Bone Miner Res 2018;33(2):211–220: https://doi.org/10.1002/jbmr.3284
+  4. Brooke-Wavell et al., Strong, steady and straight UK consensus, Br J Sports Med 2022;56(15):837–846: https://doi.org/10.1136/bjsports-2021-104634
+  5. Howe et al., Exercise for preventing and treating osteoporosis in postmenopausal women, Cochrane 2011;(7):CD000333: https://doi.org/10.1002/14651858.CD000333.pub2
+  6. NHS, Keep bones healthy over 65: https://www.nhs.uk/live-well/bone-health/keep-your-bones-strong-over-65/
+  7. NHS, Osteoporosis: https://www.nhs.uk/conditions/osteoporosis/
+  8. ACSM position stand, Progression models in resistance training, MSSE 2009;41(3):687–708: https://doi.org/10.1249/MSS.0b013e3181915670
+  9. Riebe et al., ACSM preparticipation screening, MSSE 2015;47(11):2473–2479: https://doi.org/10.1249/MSS.0000000000000664
+- New routes: `src/routes/blog.best-strength-exercises-for-bone-density.tsx` and `src/routes/$lang.blog.best-strength-exercises-for-bone-density.tsx`. `/en/...` and `/xx/...` return 404. `src/routeTree.gen.ts` regenerated by the TanStack Router plugin during this run's build. `src/content/blog/index.ts` lists 23 posts, newest first.
+
+### Brand rename (central, this batch)
+- `src/lib/seo.ts`: `SITE_NAME` is now `Online Fitness Worldwide` (was `Jalan PT`). OG image alt no longer names Jalan PT. `SITE_URL` stays `https://onlinefitness.com`. Logo colours unchanged: ink `#030406`, blue `#014ffe`.
+- `src/content/blog/common.ts`: race-post bylines, "Train for it…" CTA heading, and the unaffiliated helper now say Online Fitness Worldwide (Latin brand kept in ar/hi/zh/ja/gu where natural).
+- `src/content/blog/shared.ts`: all 7 blog-index `metaTitle` suffixes are `| Online Fitness Worldwide`.
+- Per-post embedded "Jalan PT" bylines in older post files were **not** swept this batch (push budget). Still open below.
+
+### Internal links
+- `/getting-back-into-exercise`, in "How Return runs": "Building denser bones on the way back? Read the 7 best strength exercises for bone density."
+- `/online-strength-and-conditioning-coach`, in "How Iron Hour runs": "Training for denser bones? Progressive load first: the 7 best strength exercises for bone density."
+
+### SEO: sitemap
+- `public/sitemap.xml` has 175 URLs: home, six landing pages, 7 blog indexes, and 7 language URLs for each of the 23 posts, with reciprocal `xhtml:link` hreflang and x-default. `lastmod` is 2026-11-06 for the new post, the 7 blog indexes, `/getting-back-into-exercise` and `/online-strength-and-conditioning-coach`.
+
+### Programs (facts unchanged)
+- Iron Hour 60 min 1:1; Lean Reset 20 sessions/month 1:1; Return 45 min, 12 alternate-day sessions/month; Open Floor small group; Consultation 30 min, not training. No prices anywhere; booking holds a time, fee agreed directly.
+
+### Verified this run
+- Built a copy of the branch in `/workspace/ofw-verify` with `vite build` and the local-only verify config (stub for the missing `src/lib/preview-host-bridge.ts`, no PWA plugin, Nitro `node-server` preset, restored binaries; none of it committed). The build passed on Node 24.
+- Spot-check planned: English and Arabic new post (title, h1, 7 items, 8 hreflang, `dir="rtl"` on ar, citations resolve, no raw `{n}`, no prices, no Jalan PT in the new post); sitemap 175 with the new slug.
+- `tsc --noEmit`: expected to keep the same pre-existing missing-platform errors; not expanded.
+- Pushed through the GitHub connector as normal commits on top of the branch head. Nothing force-pushed, `main` untouched.
+
+### Still open (needs Susmit)
+- **Bone density post: please get a doctor or physio to read "Before you start"** (osteoporosis / vertebral fracture impact limits, ACSM screening, stop cues) before launch. LIFTMOR numbers are clinic-supervised HiRIT, not a home prescription.
+- Brand: older per-post bylines and some landing `TITLE` strings still say Jalan PT; central `SITE_NAME` / common / shared / this new post are correct. Sweep remaining post files in a later batch.
+- Build blockers: `scripts/grok-pwa-shared.mjs`, `src/lib/preview-host-bridge.ts`, and the auth, app-data and multiplayer files are still missing, so `npm run build` fails from a clean clone.
+- Deploy step: run `node scripts/restore-binaries.mjs` before building (images and the Outfit font).
+- Knee, back-pain, busy-parents (postpartum), grip and diabetes posts: still waiting for your read / clinician read.
+- Native-speaker review of ar, hi, es, zh, ja and gu for all twenty-three posts.
+- `clientNotes`: still labelled as samples. Replace them with real, consented quotes, or delete them.
+- `home.tsx` still uses the lifted blue underline on its light-background blog list (too big for the connector).
+- The country pages are English only.
+
 ## 5 Nov 2026 (IST), batch 16: strength exercises for type 2 diabetes, shorter "Read next" on the fat-loss page, FAQ open/closed marks
 
 ### Blog
@@ -988,8 +1050,8 @@ Branch: `grokbot/seo-theme-blog`. Nothing here is merged to `main` or deployed.
 4. ~~Add Return as a program card and a booking option.~~ Done 23 Oct.
 5. Get a native speaker to review the ar, hi, es, zh, ja and gu translations before launch.
 6. Point DNS for onlinefitness.com at the host before shipping canonicals. Earlier notes say GoDaddy NS had lame delegation.
-7. Next blog post ideas: "Best mobility exercises for hips and shoulders", "Best exercises for posture" (check overlap with the warm-up, cool-down and desk-workers posts first). (~~Type 2 diabetes~~ done 5 Nov. ~~Knee-friendly leg exercises~~ done 4 Nov. ~~Busy parents~~ done 3 Nov. ~~Grip strength~~ done 2 Nov. ~~Women over 40~~ done 24 Oct. ~~Warm-up before strength training~~ done 25 Oct. ~~Strength and conditioning for beginners~~ done 26 Oct. ~~Home workouts with one dumbbell~~ done 28 Oct. ~~Core exercises for lower back health~~ done 1 Nov; it covers the back-pain angle, so a separate "back pain at a desk" post would overlap.)
-8. Get a physio or doctor to read the "Before you start" section of the lower back post (and the knee-friendly legs post), and a doctor or diabetes educator to read the type 2 diabetes post.
+7. Next blog post ideas: "Best mobility exercises for hips and shoulders", "Best exercises for posture" (check overlap with the warm-up, cool-down and desk-workers posts first). (~~Bone density~~ done 6 Nov. ~~Type 2 diabetes~~ done 5 Nov. ~~Knee-friendly leg exercises~~ done 4 Nov. ~~Busy parents~~ done 3 Nov. ~~Grip strength~~ done 2 Nov. ~~Women over 40~~ done 24 Oct. ~~Warm-up before strength training~~ done 25 Oct. ~~Strength and conditioning for beginners~~ done 26 Oct. ~~Home workouts with one dumbbell~~ done 28 Oct. ~~Core exercises for lower back health~~ done 1 Nov; it covers the back-pain angle, so a separate "back pain at a desk" post would overlap.)
+8. Get a physio or doctor to read the "Before you start" section of the lower back post (and the knee-friendly legs and bone-density posts), and a doctor or diabetes educator to read the type 2 diabetes post.
 9. ~~Add a `.gitignore` (`node_modules`, `.output`, local lockfiles, `public/__grok/`) so local installs stop showing as untracked.~~ Done 3 Nov (also ignores restored binaries).
 10. ~~Self-host Outfit (woff2 via binary-parts) to drop the render-blocking Google Fonts request.~~ Done 4 Nov (`public/fonts/outfit-latin.woff2`, restored like the images).
 11. ~~Tighten Hindi, Gujarati and Arabic meta descriptions over 160 characters.~~ Done 3 Nov (11 trimmed).
