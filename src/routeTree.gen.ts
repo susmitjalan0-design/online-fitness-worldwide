@@ -26,6 +26,7 @@ import { Route as BlogBestExercisesForGripStrengthRouteImport } from './routes/b
 import { Route as BlogBestHomeWorkoutsWithOneDumbbellRouteImport } from './routes/blog.best-home-workouts-with-one-dumbbell'
 import { Route as BlogBestLegExercisesForKneeFriendlyStrengthRouteImport } from './routes/blog.best-leg-exercises-for-knee-friendly-strength'
 import { Route as BlogBestStrengthAndConditioningExercisesForBeginnersRouteImport } from './routes/blog.best-strength-and-conditioning-exercises-for-beginners'
+import { Route as BlogBestStrengthExercisesForBoneDensityRouteImport } from './routes/blog.best-strength-exercises-for-bone-density'
 import { Route as BlogBestStrengthExercisesForBusyParentsRouteImport } from './routes/blog.best-strength-exercises-for-busy-parents'
 import { Route as BlogBestStrengthExercisesForOver60sRouteImport } from './routes/blog.best-strength-exercises-for-over-60s'
 import { Route as BlogBestStrengthExercisesForRunnersRouteImport } from './routes/blog.best-strength-exercises-for-runners'
@@ -49,6 +50,7 @@ import { Route as LangBlogBestExercisesForGripStrengthRouteImport } from './rout
 import { Route as LangBlogBestHomeWorkoutsWithOneDumbbellRouteImport } from './routes/$lang.blog.best-home-workouts-with-one-dumbbell'
 import { Route as LangBlogBestLegExercisesForKneeFriendlyStrengthRouteImport } from './routes/$lang.blog.best-leg-exercises-for-knee-friendly-strength'
 import { Route as LangBlogBestStrengthAndConditioningExercisesForBeginnersRouteImport } from './routes/$lang.blog.best-strength-and-conditioning-exercises-for-beginners'
+import { Route as LangBlogBestStrengthExercisesForBoneDensityRouteImport } from './routes/$lang.blog.best-strength-exercises-for-bone-density'
 import { Route as LangBlogBestStrengthExercisesForBusyParentsRouteImport } from './routes/$lang.blog.best-strength-exercises-for-busy-parents'
 import { Route as LangBlogBestStrengthExercisesForOver60sRouteImport } from './routes/$lang.blog.best-strength-exercises-for-over-60s'
 import { Route as LangBlogBestStrengthExercisesForRunnersRouteImport } from './routes/$lang.blog.best-strength-exercises-for-runners'
@@ -160,6 +162,12 @@ const BlogBestStrengthAndConditioningExercisesForBeginnersRoute =
   BlogBestStrengthAndConditioningExercisesForBeginnersRouteImport.update({
     id: '/blog/best-strength-and-conditioning-exercises-for-beginners',
     path: '/blog/best-strength-and-conditioning-exercises-for-beginners',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogBestStrengthExercisesForBoneDensityRoute =
+  BlogBestStrengthExercisesForBoneDensityRouteImport.update({
+    id: '/blog/best-strength-exercises-for-bone-density',
+    path: '/blog/best-strength-exercises-for-bone-density',
     getParentRoute: () => rootRouteImport,
   } as any)
 const BlogBestStrengthExercisesForBusyParentsRoute =
@@ -295,6 +303,12 @@ const LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute =
     path: '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners',
     getParentRoute: () => rootRouteImport,
   } as any)
+const LangBlogBestStrengthExercisesForBoneDensityRoute =
+  LangBlogBestStrengthExercisesForBoneDensityRouteImport.update({
+    id: '/$lang/blog/best-strength-exercises-for-bone-density',
+    path: '/$lang/blog/best-strength-exercises-for-bone-density',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const LangBlogBestStrengthExercisesForBusyParentsRoute =
   LangBlogBestStrengthExercisesForBusyParentsRouteImport.update({
     id: '/$lang/blog/best-strength-exercises-for-busy-parents',
@@ -388,6 +402,7 @@ export interface FileRoutesByFullPath {
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-leg-exercises-for-knee-friendly-strength': typeof BlogBestLegExercisesForKneeFriendlyStrengthRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/blog/best-strength-exercises-for-bone-density': typeof BlogBestStrengthExercisesForBoneDensityRoute
   '/blog/best-strength-exercises-for-busy-parents': typeof BlogBestStrengthExercisesForBusyParentsRoute
   '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
@@ -411,6 +426,7 @@ export interface FileRoutesByFullPath {
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-leg-exercises-for-knee-friendly-strength': typeof LangBlogBestLegExercisesForKneeFriendlyStrengthRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/$lang/blog/best-strength-exercises-for-bone-density': typeof LangBlogBestStrengthExercisesForBoneDensityRoute
   '/$lang/blog/best-strength-exercises-for-busy-parents': typeof LangBlogBestStrengthExercisesForBusyParentsRoute
   '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
@@ -443,6 +459,7 @@ export interface FileRoutesByTo {
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-leg-exercises-for-knee-friendly-strength': typeof BlogBestLegExercisesForKneeFriendlyStrengthRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/blog/best-strength-exercises-for-bone-density': typeof BlogBestStrengthExercisesForBoneDensityRoute
   '/blog/best-strength-exercises-for-busy-parents': typeof BlogBestStrengthExercisesForBusyParentsRoute
   '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
@@ -466,6 +483,7 @@ export interface FileRoutesByTo {
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-leg-exercises-for-knee-friendly-strength': typeof LangBlogBestLegExercisesForKneeFriendlyStrengthRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/$lang/blog/best-strength-exercises-for-bone-density': typeof LangBlogBestStrengthExercisesForBoneDensityRoute
   '/$lang/blog/best-strength-exercises-for-busy-parents': typeof LangBlogBestStrengthExercisesForBusyParentsRoute
   '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
@@ -499,6 +517,7 @@ export interface FileRoutesById {
   '/blog/best-home-workouts-with-one-dumbbell': typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   '/blog/best-leg-exercises-for-knee-friendly-strength': typeof BlogBestLegExercisesForKneeFriendlyStrengthRoute
   '/blog/best-strength-and-conditioning-exercises-for-beginners': typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/blog/best-strength-exercises-for-bone-density': typeof BlogBestStrengthExercisesForBoneDensityRoute
   '/blog/best-strength-exercises-for-busy-parents': typeof BlogBestStrengthExercisesForBusyParentsRoute
   '/blog/best-strength-exercises-for-over-60s': typeof BlogBestStrengthExercisesForOver60sRoute
   '/blog/best-strength-exercises-for-runners': typeof BlogBestStrengthExercisesForRunnersRoute
@@ -522,6 +541,7 @@ export interface FileRoutesById {
   '/$lang/blog/best-home-workouts-with-one-dumbbell': typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   '/$lang/blog/best-leg-exercises-for-knee-friendly-strength': typeof LangBlogBestLegExercisesForKneeFriendlyStrengthRoute
   '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners': typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  '/$lang/blog/best-strength-exercises-for-bone-density': typeof LangBlogBestStrengthExercisesForBoneDensityRoute
   '/$lang/blog/best-strength-exercises-for-busy-parents': typeof LangBlogBestStrengthExercisesForBusyParentsRoute
   '/$lang/blog/best-strength-exercises-for-over-60s': typeof LangBlogBestStrengthExercisesForOver60sRoute
   '/$lang/blog/best-strength-exercises-for-runners': typeof LangBlogBestStrengthExercisesForRunnersRoute
@@ -556,6 +576,7 @@ export interface FileRouteTypes {
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-leg-exercises-for-knee-friendly-strength'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/blog/best-strength-exercises-for-bone-density'
     | '/blog/best-strength-exercises-for-busy-parents'
     | '/blog/best-strength-exercises-for-over-60s'
     | '/blog/best-strength-exercises-for-runners'
@@ -579,6 +600,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-leg-exercises-for-knee-friendly-strength'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/$lang/blog/best-strength-exercises-for-bone-density'
     | '/$lang/blog/best-strength-exercises-for-busy-parents'
     | '/$lang/blog/best-strength-exercises-for-over-60s'
     | '/$lang/blog/best-strength-exercises-for-runners'
@@ -611,6 +633,7 @@ export interface FileRouteTypes {
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-leg-exercises-for-knee-friendly-strength'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/blog/best-strength-exercises-for-bone-density'
     | '/blog/best-strength-exercises-for-busy-parents'
     | '/blog/best-strength-exercises-for-over-60s'
     | '/blog/best-strength-exercises-for-runners'
@@ -634,6 +657,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-leg-exercises-for-knee-friendly-strength'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/$lang/blog/best-strength-exercises-for-bone-density'
     | '/$lang/blog/best-strength-exercises-for-busy-parents'
     | '/$lang/blog/best-strength-exercises-for-over-60s'
     | '/$lang/blog/best-strength-exercises-for-runners'
@@ -666,6 +690,7 @@ export interface FileRouteTypes {
     | '/blog/best-home-workouts-with-one-dumbbell'
     | '/blog/best-leg-exercises-for-knee-friendly-strength'
     | '/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/blog/best-strength-exercises-for-bone-density'
     | '/blog/best-strength-exercises-for-busy-parents'
     | '/blog/best-strength-exercises-for-over-60s'
     | '/blog/best-strength-exercises-for-runners'
@@ -689,6 +714,7 @@ export interface FileRouteTypes {
     | '/$lang/blog/best-home-workouts-with-one-dumbbell'
     | '/$lang/blog/best-leg-exercises-for-knee-friendly-strength'
     | '/$lang/blog/best-strength-and-conditioning-exercises-for-beginners'
+    | '/$lang/blog/best-strength-exercises-for-bone-density'
     | '/$lang/blog/best-strength-exercises-for-busy-parents'
     | '/$lang/blog/best-strength-exercises-for-over-60s'
     | '/$lang/blog/best-strength-exercises-for-runners'
@@ -722,6 +748,7 @@ export interface RootRouteChildren {
   BlogBestHomeWorkoutsWithOneDumbbellRoute: typeof BlogBestHomeWorkoutsWithOneDumbbellRoute
   BlogBestLegExercisesForKneeFriendlyStrengthRoute: typeof BlogBestLegExercisesForKneeFriendlyStrengthRoute
   BlogBestStrengthAndConditioningExercisesForBeginnersRoute: typeof BlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  BlogBestStrengthExercisesForBoneDensityRoute: typeof BlogBestStrengthExercisesForBoneDensityRoute
   BlogBestStrengthExercisesForBusyParentsRoute: typeof BlogBestStrengthExercisesForBusyParentsRoute
   BlogBestStrengthExercisesForOver60sRoute: typeof BlogBestStrengthExercisesForOver60sRoute
   BlogBestStrengthExercisesForRunnersRoute: typeof BlogBestStrengthExercisesForRunnersRoute
@@ -745,6 +772,7 @@ export interface RootRouteChildren {
   LangBlogBestHomeWorkoutsWithOneDumbbellRoute: typeof LangBlogBestHomeWorkoutsWithOneDumbbellRoute
   LangBlogBestLegExercisesForKneeFriendlyStrengthRoute: typeof LangBlogBestLegExercisesForKneeFriendlyStrengthRoute
   LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute: typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute
+  LangBlogBestStrengthExercisesForBoneDensityRoute: typeof LangBlogBestStrengthExercisesForBoneDensityRoute
   LangBlogBestStrengthExercisesForBusyParentsRoute: typeof LangBlogBestStrengthExercisesForBusyParentsRoute
   LangBlogBestStrengthExercisesForOver60sRoute: typeof LangBlogBestStrengthExercisesForOver60sRoute
   LangBlogBestStrengthExercisesForRunnersRoute: typeof LangBlogBestStrengthExercisesForRunnersRoute
@@ -880,6 +908,13 @@ declare module '@tanstack/react-router' {
       path: '/blog/best-strength-and-conditioning-exercises-for-beginners'
       fullPath: '/blog/best-strength-and-conditioning-exercises-for-beginners'
       preLoaderRoute: typeof BlogBestStrengthAndConditioningExercisesForBeginnersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/best-strength-exercises-for-bone-density': {
+      id: '/blog/best-strength-exercises-for-bone-density'
+      path: '/blog/best-strength-exercises-for-bone-density'
+      fullPath: '/blog/best-strength-exercises-for-bone-density'
+      preLoaderRoute: typeof BlogBestStrengthExercisesForBoneDensityRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/blog/best-strength-exercises-for-busy-parents': {
@@ -1043,6 +1078,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LangBlogBestStrengthAndConditioningExercisesForBeginnersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$lang/blog/best-strength-exercises-for-bone-density': {
+      id: '/$lang/blog/best-strength-exercises-for-bone-density'
+      path: '/$lang/blog/best-strength-exercises-for-bone-density'
+      fullPath: '/$lang/blog/best-strength-exercises-for-bone-density'
+      preLoaderRoute: typeof LangBlogBestStrengthExercisesForBoneDensityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/$lang/blog/best-strength-exercises-for-busy-parents': {
       id: '/$lang/blog/best-strength-exercises-for-busy-parents'
       path: '/$lang/blog/best-strength-exercises-for-busy-parents'
@@ -1161,6 +1203,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogBestLegExercisesForKneeFriendlyStrengthRoute,
   BlogBestStrengthAndConditioningExercisesForBeginnersRoute:
     BlogBestStrengthAndConditioningExercisesForBeginnersRoute,
+  BlogBestStrengthExercisesForBoneDensityRoute:
+    BlogBestStrengthExercisesForBoneDensityRoute,
   BlogBestStrengthExercisesForBusyParentsRoute:
     BlogBestStrengthExercisesForBusyParentsRoute,
   BlogBestStrengthExercisesForOver60sRoute:
@@ -1200,6 +1244,8 @@ const rootRouteChildren: RootRouteChildren = {
     LangBlogBestLegExercisesForKneeFriendlyStrengthRoute,
   LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute:
     LangBlogBestStrengthAndConditioningExercisesForBeginnersRoute,
+  LangBlogBestStrengthExercisesForBoneDensityRoute:
+    LangBlogBestStrengthExercisesForBoneDensityRoute,
   LangBlogBestStrengthExercisesForBusyParentsRoute:
     LangBlogBestStrengthExercisesForBusyParentsRoute,
   LangBlogBestStrengthExercisesForOver60sRoute:
