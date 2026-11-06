@@ -22,13 +22,13 @@ export const UPDATED: Record<PostLang, string> = {
 };
 
 export const BYLINE: Record<PostLang, string> = {
-  en: "By Susmit Jalan, coach at Jalan PT, Pune.",
-  ar: "بقلم سوسميت جالان، مدرب في Jalan PT، بونه.",
-  hi: "सुस्मित जालान, कोच, Jalan PT, पुणे।",
-  es: "Por Susmit Jalan, entrenador en Jalan PT, Pune.",
-  zh: "作者：Susmit Jalan，Jalan PT教练，浦那。",
-  ja: "執筆：Susmit Jalan（Jalan PT コーチ、プネー）",
-  gu: "સુસ્મિત જાલાન, કોચ, Jalan PT, પુણે.",
+  en: "By Susmit Jalan, coach at Online Fitness Worldwide, Pune.",
+  ar: "بقلم سوسميت جالان، مدرب في Online Fitness Worldwide، بونه.",
+  hi: "सुस्मित जालान, कोच, Online Fitness Worldwide, पुणे।",
+  es: "Por Susmit Jalan, entrenador en Online Fitness Worldwide, Pune.",
+  zh: "作者：Susmit Jalan，Online Fitness Worldwide教练，浦那。",
+  ja: "執筆：Susmit Jalan（Online Fitness Worldwide コーチ、プネー）",
+  gu: "સુસ્મિત જાલાન, કોચ, Online Fitness Worldwide, પુણે.",
 };
 
 export const CREDENTIALS: Record<PostLang, string> = {
@@ -52,13 +52,13 @@ export const SAMPLE_LABEL: Record<PostLang, string> = {
 };
 
 export const CTA_HEADING: Record<PostLang, string> = {
-  en: "Train for it with Jalan PT",
-  ar: "تدرّب له مع Jalan PT",
-  hi: "Jalan PT के साथ इसकी ट्रेनिंग करें",
-  es: "Entrena para ello con Jalan PT",
-  zh: "与Jalan PT一起备战",
-  ja: "Jalan PTと一緒に準備する",
-  gu: "Jalan PT સાથે તેની ટ્રેનિંગ કરો",
+  en: "Train for it with Online Fitness Worldwide",
+  ar: "تدرّب له مع Online Fitness Worldwide",
+  hi: "Online Fitness Worldwide के साथ इसकी ट्रेनिंग करें",
+  es: "Entrena para ello con Online Fitness Worldwide",
+  zh: "与Online Fitness Worldwide一起备战",
+  ja: "Online Fitness Worldwideと一緒に準備する",
+  gu: "Online Fitness Worldwide સાથે તેની ટ્રેનિંગ કરો",
 };
 
 /** Iron Hour, in the coach's voice. Timeline from the site: set-up 0, warm-up 4, primary lift 14, accessories 28, cool-down 50. */
@@ -111,23 +111,23 @@ export const CTA_TAIL: Record<PostLang, string[]> = {
   ],
 };
 
-/** "Jalan PT is not affiliated with X" for the CTA card. `org` is the organiser name(s). */
+/** "Online Fitness Worldwide is not affiliated with X" for the CTA card. `org` is the organiser name(s). */
 export function notAffiliated(lang: PostLang, org: string): string {
   switch (lang) {
     case "ar":
-      return `Jalan PT غير تابعة لـ ${org} ولا مرتبطة بها، ولا تحظى بتأييدها. هذا تدريب مستقل.`;
+      return `Online Fitness Worldwide غير تابعة لـ ${org} ولا مرتبطة بها، ولا تحظى بتأييدها. هذا تدريب مستقل.`;
     case "hi":
-      return `Jalan PT का ${org} से कोई संबंध नहीं है, और ${org} ने इसका समर्थन नहीं किया है। यह स्वतंत्र ट्रेनिंग है।`;
+      return `Online Fitness Worldwide का ${org} से कोई संबंध नहीं है, और ${org} ने इसका समर्थन नहीं किया है। यह स्वतंत्र ट्रेनिंग है।`;
     case "es":
-      return `Jalan PT no está afiliada a ${org} ni cuenta con su respaldo. Es un entrenamiento independiente.`;
+      return `Online Fitness Worldwide no está afiliada a ${org} ni cuenta con su respaldo. Es un entrenamiento independiente.`;
     case "zh":
-      return `Jalan PT与${org}没有任何关联，也未获得其认可。这是独立的训练指导。`;
+      return `Online Fitness Worldwide与${org}没有任何关联，也未获得其认可。这是独立的训练指导。`;
     case "ja":
-      return `Jalan PT は ${org} とは提携しておらず、公認も受けていません。独立したトレーニング指導です。`;
+      return `Online Fitness Worldwide は ${org} とは提携しておらず、公認も受けていません。独立したトレーニング指導です。`;
     case "gu":
-      return `Jalan PT નો ${org} સાથે કોઈ સંબંધ નથી, અને ${org} એ તેને સમર્થન આપ્યું નથી. આ સ્વતંત્ર ટ્રેનિંગ છે.`;
+      return `Online Fitness Worldwide નો ${org} સાથે કોઈ સંબંધ નથી, અને ${org} એ તેને સમર્થન આપ્યું નથી. આ સ્વતંત્ર ટ્રેનિંગ છે.`;
     default:
-      return `Jalan PT is not affiliated with ${org} and is not endorsed by them. This is independent coaching.`;
+      return `Online Fitness Worldwide is not affiliated with ${org} and is not endorsed by them. This is independent coaching.`;
   }
 }
 

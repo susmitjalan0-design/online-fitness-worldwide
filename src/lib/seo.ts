@@ -9,7 +9,7 @@
 import { scriptFontLinks } from "@/lib/fonts";
 
 export const SITE_URL = "https://onlinefitness.com";
-export const SITE_NAME = "Jalan PT";
+export const SITE_NAME = "Online Fitness Worldwide";
 export const BRAND_ALT = "Online Fitness Worldwide";
 export const COACH_NAME = "Susmit Jalan";
 
@@ -29,7 +29,7 @@ export const OG_IMAGE = {
   width: 1200,
   height: 630,
   type: "image/jpeg",
-  alt: "Online Fitness Worldwide logo above the line \"Live 1:1 and small-group coaching on video\", with Jalan PT, Google Meet, Zoom, FaceTime, Pune, IST, Hindi or English.",
+  alt: "Online Fitness Worldwide logo above the line \"Live 1:1 and small-group coaching on video\", with Google Meet, Zoom, FaceTime, Pune, IST, Hindi or English.",
 } as const;
 
 /** The same image as a schema.org ImageObject, for Article and other JSON-LD. */

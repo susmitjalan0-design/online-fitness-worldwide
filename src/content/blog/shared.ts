@@ -159,7 +159,7 @@ export type BlogIndexCopy = {
 /** Copy for the blog index in each language. Facts only from the posts themselves. */
 export const BLOG_INDEX_COPY: Record<PostLang, BlogIndexCopy> = {
   en: {
-    metaTitle: "Fitness Blog: Notes from an Online Personal Trainer | Jalan PT",
+    metaTitle: "Fitness Blog: Notes from an Online Personal Trainer | Online Fitness Worldwide",
     metaDescription:
       "Short, sourced training notes from an online personal trainer in Pune: the best exercises for strength, grip, core and getting back into it, with sample weeks.",
     home: "Home",
@@ -173,7 +173,7 @@ export const BLOG_INDEX_COPY: Record<PostLang, BlogIndexCopy> = {
     skip: "Skip to content",
   },
   ar: {
-    metaTitle: "مدونة اللياقة: ملاحظات مدرب شخصي عبر الإنترنت | Jalan PT",
+    metaTitle: "مدونة اللياقة: ملاحظات مدرب شخصي عبر الإنترنت | Online Fitness Worldwide",
     metaDescription:
       "ملاحظات تدريب قصيرة وموثّقة من مدرب شخصي عبر الإنترنت في بونه: أفضل تمارين القوة والقبضة والجذع والعودة إلى الرياضة، مع نماذج لأسابيع تدريب.",
     home: "الرئيسية",
@@ -187,7 +187,7 @@ export const BLOG_INDEX_COPY: Record<PostLang, BlogIndexCopy> = {
     skip: "انتقل إلى المحتوى",
   },
   hi: {
-    metaTitle: "फिटनेस ब्लॉग: ऑनलाइन पर्सनल ट्रेनर के नोट्स | Jalan PT",
+    metaTitle: "फिटनेस ब्लॉग: ऑनलाइन पर्सनल ट्रेनर के नोट्स | Online Fitness Worldwide",
     metaDescription:
       "पुणे के ऑनलाइन पर्सनल ट्रेनर के छोटे, स्रोत-आधारित ट्रेनिंग नोट्स: स्ट्रेंथ, ग्रिप, कोर और ब्रेक के बाद वापसी के लिए बेस्ट एक्सरसाइज़, सैंपल हफ़्तों के साथ।",
     home: "होम",
@@ -201,7 +201,7 @@ export const BLOG_INDEX_COPY: Record<PostLang, BlogIndexCopy> = {
     skip: "सामग्री पर जाएँ",
   },
   es: {
-    metaTitle: "Blog de fitness: notas de un entrenador personal online | Jalan PT",
+    metaTitle: "Blog de fitness: notas de un entrenador personal online | Online Fitness Worldwide",
     metaDescription:
       "Notas de entrenamiento breves y con fuentes de un entrenador personal online en Pune: los mejores ejercicios de fuerza, agarre y core, con semanas de ejemplo.",
     home: "Inicio",
@@ -215,7 +215,7 @@ export const BLOG_INDEX_COPY: Record<PostLang, BlogIndexCopy> = {
     skip: "Saltar al contenido",
   },
   zh: {
-    metaTitle: "健身博客：在线私人教练的训练笔记 | Jalan PT",
+    metaTitle: "健身博客：在线私人教练的训练笔记 | Online Fitness Worldwide",
     metaDescription:
       "来自浦那在线私人教练的简短、有出处的训练笔记：力量、握力、核心训练以及重新开始运动的最佳动作，附一周训练示例。",
     home: "首页",
@@ -229,7 +229,7 @@ export const BLOG_INDEX_COPY: Record<PostLang, BlogIndexCopy> = {
     skip: "跳到正文",
   },
   ja: {
-    metaTitle: "フィットネスブログ：オンラインパーソナルトレーナーのノート | Jalan PT",
+    metaTitle: "フィットネスブログ：オンラインパーソナルトレーナーのノート | Online Fitness Worldwide",
     metaDescription:
       "プネーのオンラインパーソナルトレーナーによる、短く出典付きのトレーニングノート。筋力、握力、体幹、運動の再開のためのベストエクササイズと1週間の例。",
     home: "ホーム",
@@ -243,7 +243,7 @@ export const BLOG_INDEX_COPY: Record<PostLang, BlogIndexCopy> = {
     skip: "本文へスキップ",
   },
   gu: {
-    metaTitle: "ફિટનેસ બ્લોગ: ઑનલાઇન પર્સનલ ટ્રેનરની નોંધ | Jalan PT",
+    metaTitle: "ફિટનેસ બ્લોગ: ઑનલાઇન પર્સનલ ટ્રેનરની નોંધ | Online Fitness Worldwide",
     metaDescription:
       "પુણેના ઑનલાઇન પર્સનલ ટ્રેનરની ટૂંકી, સ્રોતવાળી ટ્રેનિંગ નોંધ: સ્ટ્રેન્થ, ગ્રિપ, કોર અને બ્રેક પછી પાછા આવવા માટે બેસ્ટ કસરતો, સેમ્પલ અઠવાડિયાં સાથે.",
     home: "હોમ",

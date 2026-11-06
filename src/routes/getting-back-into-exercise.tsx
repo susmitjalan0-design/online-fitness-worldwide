@@ -27,6 +27,7 @@ const CORE_BACK_POST_PATH = postPathFor("best-core-exercises-for-lower-back-heal
 const GRIP_POST_PATH = postPathFor("best-exercises-for-grip-strength", "en");
 const PARENTS_POST_PATH = postPathFor("best-strength-exercises-for-busy-parents", "en");
 const KNEE_POST_PATH = postPathFor("best-leg-exercises-for-knee-friendly-strength", "en");
+const BONE_POST_PATH = postPathFor("best-strength-exercises-for-bone-density", "en");
 /** Read next leads with the long-break post, then the over-60s post. */
 const LEAD_SLUGS: readonly string[] = [BREAK_POST_SLUG, "best-strength-exercises-for-over-60s"];
 
@@ -209,6 +210,10 @@ function GettingBackPage() {
               <li>
                 Knees complain on the stairs?{" "}
                 <a href={KNEE_POST_PATH}>Read the 7 best leg exercises for knee-friendly strength</a>.
+              </li>
+              <li>
+                Building denser bones on the way back?{" "}
+                <a href={BONE_POST_PATH}>Read the 7 best strength exercises for bone density</a>.
               </li>
             </ul>
           </section>
