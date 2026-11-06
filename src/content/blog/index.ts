@@ -20,10 +20,12 @@ import { whatIsAthxPost } from "./what-is-athx";
 import { busyParentsPost } from "./busy-parents";
 import { kneeFriendlyPost } from "./knee-friendly-legs";
 import { diabetesPost } from "./type-2-diabetes";
+import { boneDensityPost } from "./bone-density";
 import type { BlogPost } from "./shared";
 
 /** Every post, newest first. The blog index, related links and sitemap follow this list. */
 export const BLOG_POSTS: BlogPost[] = [
+  boneDensityPost,
   diabetesPost,
   kneeFriendlyPost,
   busyParentsPost,
@@ -48,4 +50,4 @@ export const BLOG_POSTS: BlogPost[] = [
   deskWorkersPost,
 ];
 
-export { diabetesPost, kneeFriendlyPost, busyParentsPost, whatIsAthxPost, dekaGuidePost, hyroxVsDekaVsAthxPost, hyroxVsCrossfitPost, hyroxHomePost, whatIsHyroxPost, hyroxPlanPost, backAfterBreakPost, coolDownPost, coreBackPost, deskWorkersPost, gripStrengthPost, oneDumbbellPost, over60StrengthPost, runnersStrengthPost, strengthConditioningPost, travelBodyweightPost, warmUpPost, womenOver40Post };
+export { boneDensityPost, diabetesPost, kneeFriendlyPost, busyParentsPost, whatIsAthxPost, dekaGuidePost, hyroxVsDekaVsAthxPost, hyroxVsCrossfitPost, hyroxHomePost, whatIsHyroxPost, hyroxPlanPost, backAfterBreakPost, coolDownPost, coreBackPost, deskWorkersPost, gripStrengthPost, oneDumbbellPost, over60StrengthPost, runnersStrengthPost, strengthConditioningPost, travelBodyweightPost, warmUpPost, womenOver40Post };
