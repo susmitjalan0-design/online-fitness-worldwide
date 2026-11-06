@@ -1,5 +1,7 @@
 # Blog generator for the cPanel site
 
+> **Active branch: grokbot/blog-on-latest**. All ongoing edits and pushes belong here only. Do not push to `main`, the fork or `grokbot/seo-theme-blog`.
+
 Renders the long-form blog posts as static HTML in the design of the cPanel upload zip
 (`cpanel/online-fitness-worldwide-cpanel.zip` on `cpanel-white-theme`, commit b34b305: black, white and logo blue).
 
@@ -11,9 +13,9 @@ This generator writes the same kind of pages directly and leaves the zip's own f
 
 - 6 posts already in the zip stay exactly as they are: cool-down, strength and conditioning for beginners, warm-up, women over 40,
   getting back after a long break, desk workers.
-- 16 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **112 new pages**, written to `cpanel-overlay/`.
-- The 7 blog indexes list all 22 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD.
-- `sitemap.xml` has 163 URLs (51 before, plus 112), each with reciprocal `hreflang` and `x-default`.
+- 17 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **119 new pages**, written to `cpanel-overlay/`.
+- The 7 blog indexes list all 23 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD.
+- `sitemap.xml` has 170 URLs (51 before, plus 119), each with reciprocal `hreflang` and `x-default`.
 - The fat-loss page's "Read next" shows five posts: the type 2 diabetes post, the beginners post, then the newest posts outside the race cluster.
 
 Every URL is `https://onlinefitnessworldwide.com/...` with no trailing slash (canonical, hreflang, Open Graph URL, JSON-LD, sitemap).
@@ -30,9 +32,13 @@ node verify.mjs       # checks every generated page
 
 `data/` is now the source of truth. It carries the physio safety pass (November 2026) and the Online Fitness Worldwide brand in all 7 languages, which the TypeScript sources on `grokbot/seo-theme-blog` do not have. Edit `data/posts/*.json` directly. Re-exporting would overwrite those edits, so only do it after the same changes are made in the `.ts` sources (needs `npm install` once, for esbuild):
 
+### Historical export command — do not run for ongoing work
+
+The command below describes the initial migration only. Import a new post individually and apply the safety and brand edits in `data/`; never re-export the other posts.
+
 ```bash
 npm install
-node export-posts.mjs --src /path/to/repo/src/content/blog   # from branch grokbot/seo-theme-blog
+node export-posts.mjs --src /path/to/repo/src/content/blog   # HISTORICAL ONLY: from branch grokbot/seo-theme-blog
 ```
 
 If the zip's design changes (new CSS, header, footer, a new blog index), refresh `template/` from the current zip, then rebuild:
@@ -53,7 +59,7 @@ Nothing here deploys anything. To publish:
 1. Restore and extract the zip from `cpanel-white-theme` into `public_html` as usual
    (`node scripts/restore-binaries.mjs` writes it; the zip on this branch is the older one from `main`, so use the `cpanel-white-theme` zip).
 2. Copy the **contents** of `cpanel-overlay/` over `public_html`, replacing files when asked.
-   It adds `assets/blog-extra-<hash>.css`, the 112 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
+   It adds `assets/blog-extra-<hash>.css`, the 119 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
    It touches none of the six existing posts or any other file. The existing `.htaccess` already serves each folder's `index.html` at its slash-less URL.
 
 ## What is in this folder
@@ -63,7 +69,7 @@ Nothing here deploys anything. To publish:
 | `build.mjs` | the generator |
 | `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic |
 | `export-posts.mjs` | turns the TypeScript posts into `data/` (needs esbuild) |
-| `data/` | the 16 posts (copy in 7 languages, sources), the post order, shared labels |
+| `data/` | the 17 posts (copy in 7 languages, sources), the post order, shared labels |
 | `template/` | pages copied from the zip: 7 blog indexes, one existing post per language (head, header, footer, byline), the fat-loss page, `sitemap.xml` |
 | `blog-extra.css` | the few rules the zip's compiled stylesheet lacks (jump chips, highlighted source, "Before you start" rule, `font-normal`) in the zip's blue |
 | `existing-posts.json` | the 6 posts that are already in the zip and are not re-rendered |
@@ -75,3 +81,7 @@ The posts were written under the old "Jalan PT, Pune" brand. The generator rewri
 The build stops if "Jalan PT", "Pune" or its translations remain in any page. Program facts are unchanged: Iron Hour 60 min 1:1,
 Lean Reset 20 sessions a month 1:1, Return 45 min with 12 alternate-day sessions a month, Open Floor small group,
 Consultation 30 min (not training). No prices. ASCA Level 1 and ACE are named with "neither body endorses this business or this article".
+
+## Bone-density import (6 November 2026)
+
+Imported only `boneDensityPost` from `src/content/blog/bone-density.ts` at `e78125e`; existing post JSON and shared labels were not re-exported. All 7 copies retain the 9 sources and supervised-clinic LIFTMOR caveat. Added 1–3 RIR, the existing traffic-light pain check, a conservative 16-step-up session cap with supported sit-to-stand regression, and zero jumps/jump-landings in the sample week. These sample caps are coaching choices, not universal research limits. Removed the nonexistent old landing-page link; the production programs CTA remains. Native-speaker review and a doctor/physio review are still needed before publication.
