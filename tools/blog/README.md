@@ -13,9 +13,9 @@ This generator writes the same kind of pages directly and leaves the zip's own f
 
 - 6 posts already in the zip stay exactly as they are: cool-down, strength and conditioning for beginners, warm-up, women over 40,
   getting back after a long break, desk workers.
-- 17 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **119 new pages**, written to `cpanel-overlay/`.
-- The 7 blog indexes list all 23 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD.
-- `sitemap.xml` has 170 URLs (51 before, plus 119), each with reciprocal `hreflang` and `x-default`.
+- 18 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **126 new pages**, written to `cpanel-overlay/`.
+- The 7 blog indexes list all 24 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD.
+- `sitemap.xml` has 177 URLs (51 before, plus 126), each with reciprocal `hreflang` and `x-default`.
 - The fat-loss page's "Read next" shows five posts: the type 2 diabetes post, the beginners post, then the newest posts outside the race cluster.
 
 Every URL is `https://onlinefitnessworldwide.com/...` with no trailing slash (canonical, hreflang, Open Graph URL, JSON-LD, sitemap).
@@ -59,7 +59,7 @@ Nothing here deploys anything. To publish:
 1. Restore and extract the zip from `cpanel-white-theme` into `public_html` as usual
    (`node scripts/restore-binaries.mjs` writes it; the zip on this branch is the older one from `main`, so use the `cpanel-white-theme` zip).
 2. Copy the **contents** of `cpanel-overlay/` over `public_html`, replacing files when asked.
-   It adds `assets/blog-extra-<hash>.css`, the 119 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
+   It adds `assets/blog-extra-<hash>.css`, the 126 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
    It touches none of the six existing posts or any other file. The existing `.htaccess` already serves each folder's `index.html` at its slash-less URL.
 
 ## What is in this folder
@@ -69,7 +69,7 @@ Nothing here deploys anything. To publish:
 | `build.mjs` | the generator |
 | `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic |
 | `export-posts.mjs` | turns the TypeScript posts into `data/` (needs esbuild) |
-| `data/` | the 17 posts (copy in 7 languages, sources), the post order, shared labels |
+| `data/` | the 18 posts (copy in 7 languages, sources), the post order, shared labels |
 | `template/` | pages copied from the zip: 7 blog indexes, one existing post per language (head, header, footer, byline), the fat-loss page, `sitemap.xml` |
 | `blog-extra.css` | the few rules the zip's compiled stylesheet lacks (jump chips, highlighted source, "Before you start" rule, `font-normal`) in the zip's blue |
 | `existing-posts.json` | the 6 posts that are already in the zip and are not re-rendered |
@@ -85,3 +85,7 @@ Consultation 30 min (not training). No prices. ASCA Level 1 and ACE are named wi
 ## Bone-density import (6 November 2026)
 
 Imported only `boneDensityPost` from `src/content/blog/bone-density.ts` at `e78125e`; existing post JSON and shared labels were not re-exported. All 7 copies retain the 9 sources and supervised-clinic LIFTMOR caveat. Added 1–3 RIR, the existing traffic-light pain check, a conservative 16-step-up session cap with supported sit-to-stand regression, and zero jumps/jump-landings in the sample week. These sample caps are coaching choices, not universal research limits. Removed the nonexistent old landing-page link; the production programs CTA remains. Native-speaker review and a doctor/physio review are still needed before publication.
+
+## Desk neck/shoulders import (7 November 2026)
+
+Added `best-strength-exercises-for-desk-neck-and-shoulders` in 7 languages with 10 sources (WHO, NHS neck, NHS shoulder, Andersen 2008 MSSE office RCT, Andersen 2008 Arthritis Rheum trapezius myalgia, Cochrane Gross 2015 mechanical neck, Chen 2018 workplace meta-analysis, Andersen CH 2014 scapular function, ACSM progression, Riebe ACSM screening). Physio-safety: RIR 1–3, traffic-light pain check, raises capped near 90°, no overhead presses in the sample week, wall push-up plus before floor. Flag for physio/doctor review of neck/shoulder safety wording and translation review before publication. Complements the existing zip post on desk workers without replacing it.
