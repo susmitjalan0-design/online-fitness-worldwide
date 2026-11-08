@@ -1,0 +1,2 @@
+Daily backup for 8 Nov 2026 (IST). Credential-free snapshot of shared work: research knowledge base, Masters first-job drafts and primer, Mindset drafts, Nutrition guides, social drafts, physio safety notes, hybrid plan HTML, nurture/retention playbooks, and the high-blood-pressure blog source. Outreach contact logs and client protocol PDFs are not pushed here because this repo is public; they are in the emailed zip only.
+ofw-work-2026-11-08.zip.b64 holds the files. Restore with: base64 -d ofw-work-2026-11-08.zip.b64 > ofw-work.zip && unzip ofw-work.zip
