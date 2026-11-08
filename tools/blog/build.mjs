@@ -247,8 +247,11 @@ export function renderPost(T, posts, post, lang, ctx) {
   const inCluster = (slug) => shared.HYBRID_CLUSTER.includes(slug);
   const clusterPosts = inCluster(post.slug) ? shared.HYBRID_CLUSTER : [];
   const seeAlso = post.seeAlso ?? [];
-  /* "More from the blog": the newest RELATED_MAX other posts, skipping this cluster and anything already in "See also". */
-  const related = ctx.order
+  /* "More from the blog": the RELATED_MAX posts published just before this one (then the nearest newer ones), skipping this
+     cluster and anything already in "See also". Anchored to each post's own place in the order, so adding a new post at the
+     top leaves every older post's list unchanged. */
+  const at = ctx.order.indexOf(post.slug);
+  const related = [...ctx.order.slice(at + 1), ...ctx.order.slice(0, Math.max(at, 0)).reverse()]
     .filter((slug) => slug !== post.slug && !(clusterPosts.length > 0 && inCluster(slug)) && !seeAlso.includes(slug))
     .slice(0, RELATED_MAX);
   const wa = `https://wa.me/${WHATSAPP_E164}?text=${encodeURIComponent(copy.labels.whatsappText)}`;
