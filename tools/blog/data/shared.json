@@ -126,5 +126,17 @@
   "zh": "来源",
   "ja": "出典",
   "gu": "સ્રોત"
+ },
+ "INDEX_DESCRIPTION": {
+  "en": "Sourced training notes from an online coach: strength for blood pressure, diabetes, bone density, balance, back and knees, plus HYROX, warm-ups and more.",
+  "ar": "ملاحظات تدريب موثّقة من مدرب عبر الإنترنت: القوة لضغط الدم والسكري وكثافة العظام والتوازن والظهر والركبتين، وHYROX والإحماء والمزيد.",
+  "hi": "ऑनलाइन कोच के स्रोत-आधारित ट्रेनिंग नोट्स: ब्लड प्रेशर, डायबिटीज़, हड्डियों, बैलेंस, कमर और घुटनों के लिए स्ट्रेंथ, साथ में HYROX, वार्म-अप और बहुत कुछ।",
+  "es": "Notas de entrenamiento con fuentes de un coach online: fuerza para la presión, la diabetes, los huesos, el equilibrio, la espalda y las rodillas, HYROX y más.",
+  "zh": "在线教练的有据可查的训练笔记：针对血压、糖尿病、骨密度、平衡、腰背和膝盖的力量训练，以及HYROX、热身等。",
+  "ja": "オンラインコーチによる出典つきのトレーニングノート：血圧、糖尿病、骨密度、バランス、腰とひざのための筋トレ、HYROX、ウォームアップなど。",
+  "gu": "ઑનલાઇન કોચની સ્રોત-આધારિત ટ્રેનિંગ નોંધ: બ્લડ પ્રેશર, ડાયાબિટીસ, હાડકાં, બેલેન્સ, કમર અને ઘૂંટણ માટે સ્ટ્રેન્થ, સાથે HYROX, વૉર્મ-અપ અને વધુ."
+ },
+ "INDEX_TITLE": {
+  "es": "Blog de fitness: notas de un entrenador online | Online Fitness Worldwide"
  }
 }

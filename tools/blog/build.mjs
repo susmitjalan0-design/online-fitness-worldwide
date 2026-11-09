@@ -382,6 +382,13 @@ export function renderIndex(T, posts, lang, ctx) {
     '<script async=""',
     `<link rel="stylesheet" href="${ctx.extraCssHref}" data-precedence="default"/><script async=""`,
   );
+  // The zip's index description lists only its 6 posts and runs past 160 characters: swap in a short, current one
+  // (meta, Open Graph and Twitter all carry the same text). INDEX_TITLE shortens an over-long <title> where set.
+  const swapAll = (from, to) => (from && to ? html.split(from).join(to) : html);
+  const oldDesc = html.match(/<meta name="description" content="([^"]*)"/)?.[1];
+  html = swapAll(oldDesc, esc(shared.INDEX_DESCRIPTION?.[lang]));
+  const oldTitle = html.match(/<title>([^<]*)<\/title>/)?.[1];
+  html = swapAll(oldTitle, shared.INDEX_TITLE?.[lang] && esc(shared.INDEX_TITLE[lang]));
   // Blog JSON-LD: add the new posts to blogPost, newest first.
   html = html.replace(/<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"Blog"[\s\S]*?)<\/script>/, (_, body) => {
     const ld = JSON.parse(body);
