@@ -13,9 +13,9 @@ This generator writes the same kind of pages directly and leaves the zip's own f
 
 - 6 posts already in the zip stay exactly as they are: cool-down, strength and conditioning for beginners, warm-up, women over 40,
   getting back after a long break, desk workers.
-- 20 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **140 new pages**, written to `cpanel-overlay/`.
-- The 7 blog indexes list all 26 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD. Their meta/Open Graph/Twitter description is replaced with a short, current one from `INDEX_DESCRIPTION` in `data/shared.json` (the zip's lists only its 6 posts and runs past 160 characters); `INDEX_TITLE` shortens an over-long `<title>` (Spanish).
-- `sitemap.xml` has 191 URLs (51 before, plus 140), each with reciprocal `hreflang` and `x-default`.
+- 21 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **147 new pages**, written to `cpanel-overlay/`.
+- The 7 blog indexes list all 27 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD. Their meta/Open Graph/Twitter description is replaced with a short, current one from `INDEX_DESCRIPTION` in `data/shared.json` (the zip's lists only its 6 posts and runs past 160 characters); `INDEX_TITLE` shortens an over-long `<title>` (Spanish).
+- `sitemap.xml` has 198 URLs (51 before, plus 147), each with reciprocal `hreflang` and `x-default`.
 - "More from the blog" on each post lists the 6 posts published just before it (then the nearest newer ones), skipping its race cluster and its "See also" posts. It is anchored to the post's own place in `data/order.json`, so adding a new post at the top changes only the new pages, the indexes, the fat-loss page and the sitemap, not every older post.
 - The fat-loss page's "Read next" shows five posts: the type 2 diabetes post, the beginners post, then the newest posts outside the race cluster.
 
@@ -60,7 +60,7 @@ Nothing here deploys anything. To publish:
 1. Restore and extract the zip from `cpanel-white-theme` into `public_html` as usual
    (`node scripts/restore-binaries.mjs` writes it; the zip on this branch is the older one from `main`, so use the `cpanel-white-theme` zip).
 2. Copy the **contents** of `cpanel-overlay/` over `public_html`, replacing files when asked.
-   It adds `assets/blog-extra-<hash>.css`, the 140 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
+   It adds `assets/blog-extra-<hash>.css`, the 147 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
    It touches none of the six existing posts or any other file. The existing `.htaccess` already serves each folder's `index.html` at its slash-less URL.
 
 ## What is in this folder
@@ -70,7 +70,7 @@ Nothing here deploys anything. To publish:
 | `build.mjs` | the generator |
 | `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic |
 | `export-posts.mjs` | turns the TypeScript posts into `data/` (needs esbuild) |
-| `data/` | the 20 posts (copy in 7 languages, sources), the post order, shared labels |
+| `data/` | the 21 posts (copy in 7 languages, sources), the post order, shared labels |
 | `template/` | pages copied from the zip: 7 blog indexes, one existing post per language (head, header, footer, byline), the fat-loss page, `sitemap.xml` |
 | `blog-extra.css` | the few rules the zip's compiled stylesheet lacks (jump chips, highlighted source, "Before you start" rule, `font-normal`) in the zip's blue |
 | `existing-posts.json` | the 6 posts that are already in the zip and are not re-rendered |
@@ -94,3 +94,7 @@ Added `best-strength-exercises-for-desk-neck-and-shoulders` in 7 languages with 
 ## High blood pressure post (8 November 2026)
 
 Added `best-strength-exercises-for-high-blood-pressure` in 7 languages with 9 sources (WHO 2020, NHS high blood pressure, Edwards 2023 BJSM network meta-analysis, Cornelissen & Smart 2013 JAHA, Pescatello 2019 MSSE umbrella review, Paluch 2024 AHA statement, 2024 ESC hypertension guidelines, ACSM progression, Riebe ACSM screening). Physio-safety: RIR 1–3 on dynamic moves, effort 5–7/10 on holds, traffic-light pain check, breathe out on the effort with no breath-holding, wall sit kept well short of 90° at first, no max lifts, heavy overhead pressing or sprints in the sample week, rise slowly after floor work (some BP medicines cause light-headedness on standing). The 3 to 4 × 30–60 s hold dose and the one-third grip effort are coaching choices, not trial protocols. The type 2 diabetes post now lists it under "See also". **Medical post: needs a doctor's review of the safety wording, plus native-speaker review, before publication.**
+
+## Mood, stress and sleep post (10 November 2026)
+
+Added `best-strength-exercises-for-mood-stress-and-sleep` in 7 languages with 10 sources (WHO 2020, NHS Exercise for depression, NICE NG222, Gordon 2018 JAMA Psychiatry depressive symptoms meta-analysis, Gordon 2017 Sports Med anxiety meta-analysis, Noetel 2024 BMJ network meta-analysis, Kovacevic 2018 Sleep Med Rev, Tele MANAS (Government of India helpline), ACSM progression, Riebe ACSM screening). Physio-safety: RIR 1–3, traffic-light pain check, load cap (no maximal lifts, no failure, sessions under about 45 minutes), regressions on every move, rise slowly after floor work. Copy states the limits of the evidence (blinded trials smaller effects; BMJ confidence low to very low; sleep self-reported only) and that exercise sits alongside, not instead of, therapy and medicine; crisis line: local emergency number (112 in India) or Tele-MANAS 14416 / 1-800-891-4416. Time-of-day advice is labelled a coaching call. **Mental-health post: needs review by a doctor or mental-health professional, plus native-speaker review, before publication.**
