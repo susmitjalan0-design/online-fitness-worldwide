@@ -1,0 +1,32 @@
+Online Fitness Worldwide – daily update, Tue 10 Nov 2026 (IST)
+
+Website (onlinefitnessworldwide.com bot, branch grokbot/blog-on-latest, never main)
+- Batch 21 went out this morning (~9:00 AM IST), 7 commits, all pushed. New post: "mood, stress and sleep" in 7 languages (EN, AR, HI, ES, ZH, JA, GU), blog indexes updated in all languages, plus shorter Spanish titles on the lower back, knee-friendly legs, type 2 diabetes and bone density pages.
+- Site verifies at 155 pages and 198 sitemap URLs. Working copy clean. Head is d2cbf05: https://github.com/susmitjalan0-design/online-fitness-worldwide/commit/d2cbf05361b2de9c007c657dea8276da50eea5a1
+- Branch log: https://github.com/susmitjalan0-design/online-fitness-worldwide/commits/grokbot/blog-on-latest
+- Deploys: none today (last was v1.0 on 2 Nov). New posts are not live on production until the next deploy; no preview link.
+- The website bot's own folder (/workspace/onlinefitnessworldwide.com) holds only reading lists; its work is on the branch above.
+
+Research (Grok Bot)
+- Google Books research + team growth routine: knowledge-base entry 6 at /workspace/research/knowledge-base/2026-11-10.md, 28 verified books on pregnancy/postpartum/female athlete, breathing, copywriting and landing pages, cross-cultural communication, audience building and operations.
+- New teammate: Women's Health (pregnancy, postpartum return to training, menstrual-cycle and female-athlete education; drafts only, not a clinician, hands menopause to Masters and pain to Physio).
+
+Women's Health
+- First job brief (FIRST_JOB.md) and a first draft pre/postnatal guide (pre-postnatal-guide-v1.md). Draft only, needs clinician review; nothing published or sent.
+
+Outreach (Sydney)
+- 0 cold emails today. Log total 124 data rows, last send 20 Oct. Outreach v2 plan and templates were revised (drafts). This update does not count toward the daily cap.
+
+Other bots (Social, Video, Physio, Hybrid Race Coach, Masters, Mindset, Nutrition, Retention, Nurture, Community)
+- Only the new shared reading lists today; earlier drafts unchanged, nothing posted.
+
+Pending
+- Clinician read of the "Before you start" sections on health posts (incl. mood/stress/sleep) and the Women's Health guide before any launch.
+- Native-speaker review of translations across all 27 posts.
+- Remaining retired-brand string sweep in older post bylines / some landing titles.
+- Amber referral-language revisions on the Masters primer.
+- Next production deploy; onlinefitness.com DNS (needs Susmit's nameserver change); booking form destination answer.
+
+Backup
+- GitHub branch daily-backup: https://github.com/susmitjalan0-design/online-fitness-worldwide/tree/daily-backup/backups/2026-11-10
+- Attached zip ofw-daily-backup-2026-11-10.zip has the files plus the outreach log. No credentials.
