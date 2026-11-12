@@ -13,9 +13,9 @@ This generator writes the same kind of pages directly and leaves the zip's own f
 
 - 6 posts already in the zip stay exactly as they are: cool-down, strength and conditioning for beginners, warm-up, women over 40,
   getting back after a long break, desk workers.
-- 22 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **154 new pages**, written to `cpanel-overlay/`.
-- The 7 blog indexes list all 28 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD. Their meta/Open Graph/Twitter description is replaced with a short, current one from `INDEX_DESCRIPTION` in `data/shared.json` (the zip's lists only its 6 posts and runs past 160 characters); `INDEX_TITLE` shortens an over-long `<title>` (Spanish).
-- `sitemap.xml` has 205 URLs (51 before, plus 154), each with reciprocal `hreflang` and `x-default`.
+- 23 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **161 new pages**, written to `cpanel-overlay/`.
+- The 7 blog indexes list all 29 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD. Their meta/Open Graph/Twitter description is replaced with a short, current one from `INDEX_DESCRIPTION` in `data/shared.json` (the zip's lists only its 6 posts and runs past 160 characters); `INDEX_TITLE` shortens an over-long `<title>` (Spanish).
+- `sitemap.xml` has 212 URLs (51 before, plus 161), each with reciprocal `hreflang` and `x-default`.
 - "More from the blog" on each post lists the 6 posts published just before it (then the nearest newer ones), skipping its race cluster and its "See also" posts. It is anchored to the post's own place in `data/order.json`, so adding a new post at the top changes only the new pages, the indexes, the fat-loss page and the sitemap, not every older post.
 - The fat-loss page's "Read next" shows five posts: the type 2 diabetes post, the beginners post, then the newest posts outside the race cluster.
 
@@ -60,7 +60,7 @@ Nothing here deploys anything. To publish:
 1. Restore and extract the zip from `cpanel-white-theme` into `public_html` as usual
    (`node scripts/restore-binaries.mjs` writes it; the zip on this branch is the older one from `main`, so use the `cpanel-white-theme` zip).
 2. Copy the **contents** of `cpanel-overlay/` over `public_html`, replacing files when asked.
-   It adds `assets/blog-extra-<hash>.css`, the 154 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
+   It adds `assets/blog-extra-<hash>.css`, the 161 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
    It touches none of the six existing posts or any other file. The existing `.htaccess` already serves each folder's `index.html` at its slash-less URL.
 
 ## What is in this folder
@@ -70,7 +70,7 @@ Nothing here deploys anything. To publish:
 | `build.mjs` | the generator |
 | `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic |
 | `export-posts.mjs` | turns the TypeScript posts into `data/` (needs esbuild) |
-| `data/` | the 22 posts (copy in 7 languages, sources), the post order, shared labels |
+| `data/` | the 23 posts (copy in 7 languages, sources), the post order, shared labels |
 | `template/` | pages copied from the zip: 7 blog indexes, one existing post per language (head, header, footer, byline), the fat-loss page, `sitemap.xml` |
 | `blog-extra.css` | the few rules the zip's compiled stylesheet lacks (jump chips, highlighted source, "Before you start" rule, `font-normal`) in the zip's blue |
 | `existing-posts.json` | the 6 posts that are already in the zip and are not re-rendered |
@@ -102,3 +102,7 @@ Added `best-strength-exercises-for-mood-stress-and-sleep` in 7 languages with 10
 ## Menopause post (11 November 2026)
 
 Added `best-strength-exercises-for-menopause` in 7 languages with 10 sources (WHO 2020, NHS menopause and perimenopause "things you can do", NICE NG23, Berin 2019 Maturitas hot-flush RCT, Cochrane Daley 2014 exercise for vasomotor symptoms, González-Gálvez 2024 Climacteric meta-analysis, Brooke-Wavell 2022 BJSM osteoporosis consensus, Cochrane Dumoulin 2018 pelvic floor muscle training, ACSM progression, Riebe ACSM screening). Copy says plainly that the hot-flush evidence is one small trial against a Cochrane review that found insufficient evidence, and that NICE offers HRT and menopause-specific CBT for hot flushes. Physio-safety: RIR 1–3, traffic-light pain check, hinge with a long spine and no loaded deep forward bends, impact capped at 2 × 10 heel drops (skipped with osteoporosis or a past fracture until a physio okays them; a coaching choice, not a research limit), regressions on every move, pelvic floor red flags (worsening leaks, heaviness, a bulge). The Arabic copy addresses the reader in the feminine, including this post's screening paragraph, programme lines and sample label. **Medical post: needs a doctor's or women's-health physio's review, plus native-speaker review, before publication.**
+
+## Knee and hip osteoarthritis post (12 November 2026)
+
+Added `best-strength-exercises-for-knee-and-hip-osteoarthritis` in 7 languages with 10 sources (WHO 2020, NHS osteoarthritis treatment, NICE NG226, Cochrane Fransen 2015 exercise for knee OA, Cochrane Fransen 2014 exercise for hip OA, Skou & Roos 2017 GLA:D registry, Juhl 2014 Arthritis Rheumatol exercise type and dose meta-regression, OARSI 2019 Bannuru, ACSM progression, Riebe ACSM screening). Copy states the limits: the hip evidence is smaller than the knee evidence, and the GLA:D figures are a before-and-after registry with no control group. Physio-safety: RIR 1–3, an explicit traffic-light pain check (0–2 green, 3–5 amber if settled by next morning, above 5 or worse next morning red; labelled a coaching rule of thumb, with NICE's note that pain may rise when starting exercise), no running or jumping and step height capped at a normal stair (a coaching choice, not a research limit), regressions on every move, "check with your doctor or physio before you start" in the intro, red flags (hot, red, swollen joint, especially with fever; pain after a fall; can't bear weight; locking or giving way) and joint replacement/surgery first-plan rule. **Medical post: needs a doctor's or physio's review, plus native-speaker review, before publication.**
