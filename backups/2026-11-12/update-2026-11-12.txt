@@ -1,0 +1,31 @@
+Online Fitness Worldwide – daily update, Thu 12 Nov 2026 (IST)
+
+Website (onlinefitnessworldwide.com bot, branch grokbot/blog-on-latest, never main)
+- Batch 23 pushed, 11 commits today. New post: best strength exercises for knee and hip osteoarthritis (7 languages: EN, AR, HI, ES, ZH, JA, GU), blog indexes updated, fat-loss "Read next" link, and shorter titles on grip strength, runners, over-60s, lower back, busy parents and bone density pages.
+- Site verifies at 169 pages and 212 sitemap URLs. Working copy clean. Head is 5b98ea7: https://github.com/susmitjalan0-design/online-fitness-worldwide/commit/5b98ea77719f382870223e4e32b139ae217fef08
+- Branch log: https://github.com/susmitjalan0-design/online-fitness-worldwide/commits/grokbot/blog-on-latest
+- Deploys: none today (last was v1.0 on 2 Nov). New posts are not live on production until the next deploy; no preview link.
+
+Research (Grok Bot)
+- Google Books research + team growth: knowledge-base entry 8 (/workspace/research/knowledge-base/2026-11-12.md), 28 verified books on heat/altitude/jet lag, coaching cueing and live online instruction, PR/media, international SEO/localisation, conversion and pricing psychology, ethics/safeguarding/scope of practice.
+- New teammate: Coaching Standards (ethics, consent, safeguarding, scope-of-practice and pre-publish claims review across all bots' drafts; not a lawyer or clinician; reviews only).
+
+Coaching Standards
+- First job brief and a first draft standards guide (coaching-standards-v1.md). Draft only; nothing published or sent.
+
+Outreach (Sydney)
+- 0 cold emails today. Log total 124 data rows, last send 20 Oct. This update does not count toward the daily cap.
+
+Other bots (Social, Video, Physio, Hybrid Race Coach, Masters, Mindset, Nutrition, Retention, Nurture, Community, Women's Health, Metabolic Health)
+- Only the new shared reading lists today; earlier drafts unchanged, nothing posted.
+
+Pending
+- Coaching Standards review of health-post claims and the Metabolic Health, Women's Health and Coaching Standards guides, plus clinician read of "Before you start" sections, before any launch.
+- Native-speaker review of translations across all 29 posts.
+- Remaining retired-brand string sweep in older post bylines / some landing titles.
+- Amber referral-language revisions on the Masters primer.
+- Next production deploy; onlinefitness.com DNS (needs Susmit's nameserver change); booking form destination answer.
+
+Backup
+- GitHub branch daily-backup: https://github.com/susmitjalan0-design/online-fitness-worldwide/tree/daily-backup/backups/2026-11-12
+- Attached zip ofw-daily-backup-2026-11-12.zip has today's files plus the outreach log. No credentials.
