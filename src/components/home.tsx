@@ -703,7 +703,7 @@ export function HomePage() {
             </div>
             <div className="space-y-4 text-base leading-relaxed">
               <p>
-                We coach live, one person at a time, from Pune. The call is in Hindi or English. You are not a name on a programme that was written once and left to run. We are on the screen for the set, and the work changes from what we see, not from what was decided before you picked up the bar.
+                We coach live, one person at a time. The call is in Hindi or English. You are not a name on a programme that was written once and left to run. We are on the screen for the set, and the work changes from what we see, not from what was decided before you picked up the bar.
               </p>
               <p>
                 Most people who start here have already tried to train alone. The week gets in the way, the session goes vague, and no one notices when it stops. On this call that does not happen. The work is watched. If you miss, it is spoken about. If the week is a bad one, you still train. You do not wait for a quieter month that never comes.

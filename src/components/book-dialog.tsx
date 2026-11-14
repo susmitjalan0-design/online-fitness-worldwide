@@ -127,7 +127,7 @@ export function BookDialog({ open, onOpenChange, initialProgramId, initialSlotId
       ? sessionWhen(parsed.iso, parsed.time, program.minutes, region)
       : `${formatDayLong(parsed.iso)} · ${formatTime(parsed.time)}–${formatTime(addMinutes(parsed.time, program.minutes))} IST`;
     const summary = [
-      "Jalan — session with Susmit",
+      "Online Fitness Worldwide — session with Susmit",
       `Name: ${trimmedName}`,
       `Email: ${email.trim()}`,
       `Program: ${program.name}`,
@@ -166,7 +166,7 @@ export function BookDialog({ open, onOpenChange, initialProgramId, initialSlotId
       when,
       summary,
       calendarUrl: googleCalendarUrl({
-        title: `Jalan · ${program.name} with Susmit`,
+        title: `Online Fitness Worldwide · ${program.name} with Susmit`,
         start,
         end,
         details,

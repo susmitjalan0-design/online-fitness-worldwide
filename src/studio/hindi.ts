@@ -194,8 +194,8 @@ const HINDI: Record<string, string> = {
   "Anatomy and Biomechanics": "एनाटॉमी और बायोमैकेनिक्स",
   "Australian Strength and Conditioning Association": "ऑस्ट्रेलियन स्ट्रेंथ एंड कंडीशनिंग एसोसिएशन",
   "American Council on Exercise": "अमेरिकन काउंसिल ऑन एक्सरसाइज़",
-  "We coach live, one person at a time, from Pune. The call is in Hindi or English. You are not a name on a programme that was written once and left to run. We are on the screen for the set, and the work changes from what we see, not from what was decided before you picked up the bar.":
-    "हम पुणे से लाइव कोच करते हैं, एक बार में एक व्यक्ति। कॉल हिंदी या अंग्रेज़ी में होती है। आप किसी प्रोग्राम पर एक नाम नहीं हैं जो एक बार लिखकर छोड़ दिया गया हो। सेट के लिए हम स्क्रीन पर होते हैं, और काम उसी से बदलता है जो हम देखते हैं — इससे नहीं जो बार उठाने से पहले तय हो चुका था।",
+  "We coach live, one person at a time. The call is in Hindi or English. You are not a name on a programme that was written once and left to run. We are on the screen for the set, and the work changes from what we see, not from what was decided before you picked up the bar.":
+    "हम लाइव कोच करते हैं, एक बार में एक व्यक्ति। कॉल हिंदी या अंग्रेज़ी में होती है। आप किसी प्रोग्राम पर एक नाम नहीं हैं जो एक बार लिखकर छोड़ दिया गया हो। सेट के लिए हम स्क्रीन पर होते हैं, और काम उसी से बदलता है जो हम देखते हैं — इससे नहीं जो बार उठाने से पहले तय हो चुका था।",
   "Most people who start here have already tried to train alone. The week gets in the way, the session goes vague, and no one notices when it stops. On this call that does not happen. The work is watched. If you miss, it is spoken about. If the week is a bad one, you still train. You do not wait for a quieter month that never comes.":
     "ज़्यादातर लोग यहाँ अकेले ट्रेन करके आ चुके होते हैं। हफ़्ता आड़े आता है, सेशन धुँधला पड़ जाता है, और जब रुक जाए तो किसी को पता नहीं चलता। इस कॉल पर ऐसा नहीं होता। काम देखा जाता है। छूट जाए तो बात होती है। हफ़्ता खराब हो तो भी ट्रेन होता है। आप उस शांत महीने का इंतज़ार नहीं करते जो कभी आता नहीं।",
   "We are not interested in a room doing the same thing. We want the joint, the line of the lift, and a load that belongs to you today. That is the job. You bring the camera. We hold the standard.":
@@ -288,7 +288,7 @@ const HINDI: Record<string, string> = {
   Consultation: "परामर्श",
   "Recorded class ·": "रिकॉर्डेड क्लास ·",
   "On your own ·": "अकेले ·",
-  Jalan: "Jalan",
+  "Online Fitness Worldwide": "Online Fitness Worldwide",
   "Susmit Jalan": "Susmit Jalan",
   "Iron Hour": "Iron Hour",
   "Lean Reset": "Lean Reset",
