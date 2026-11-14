@@ -13,9 +13,9 @@ This generator writes the same kind of pages directly and leaves the zip's own f
 
 - 6 posts already in the zip stay exactly as they are: cool-down, strength and conditioning for beginners, warm-up, women over 40,
   getting back after a long break, desk workers.
-- 24 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **168 new pages**, written to `cpanel-overlay/`.
-- The 7 blog indexes list all 30 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD. Their meta/Open Graph/Twitter description is replaced with a short, current one from `INDEX_DESCRIPTION` in `data/shared.json` (the zip's lists only its 6 posts and runs past 160 characters); `INDEX_TITLE` shortens an over-long `<title>` (Spanish).
-- `sitemap.xml` has 219 URLs (51 before, plus 168), each with reciprocal `hreflang` and `x-default`.
+- 25 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **175 new pages**, written to `cpanel-overlay/`.
+- The 7 blog indexes list all 31 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD. Their meta/Open Graph/Twitter description is replaced with a short, current one from `INDEX_DESCRIPTION` in `data/shared.json` (the zip's lists only its 6 posts and runs past 160 characters); `INDEX_TITLE` shortens an over-long `<title>` (Spanish).
+- `sitemap.xml` has 226 URLs (51 before, plus 175), each with reciprocal `hreflang` and `x-default`.
 - "More from the blog" on each post lists the 6 posts published just before it (then the nearest newer ones), skipping its race cluster and its "See also" posts. It is anchored to the post's own place in `data/order.json`, so adding a new post at the top changes only the new pages, the indexes, the fat-loss page and the sitemap, not every older post.
 - The fat-loss page's "Read next" shows five posts: the type 2 diabetes post, the beginners post, then the newest posts outside the race cluster.
 
@@ -60,7 +60,7 @@ Nothing here deploys anything. To publish:
 1. Restore and extract the zip from `cpanel-white-theme` into `public_html` as usual
    (`node scripts/restore-binaries.mjs` writes it; the zip on this branch is the older one from `main`, so use the `cpanel-white-theme` zip).
 2. Copy the **contents** of `cpanel-overlay/` over `public_html`, replacing files when asked.
-   It adds `assets/blog-extra-<hash>.css`, the 168 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
+   It adds `assets/blog-extra-<hash>.css`, the 175 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
    It touches none of the six existing posts or any other file. The existing `.htaccess` already serves each folder's `index.html` at its slash-less URL.
 
 ## What is in this folder
@@ -70,7 +70,7 @@ Nothing here deploys anything. To publish:
 | `build.mjs` | the generator |
 | `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic |
 | `export-posts.mjs` | turns the TypeScript posts into `data/` (needs esbuild) |
-| `data/` | the 24 posts (copy in 7 languages, sources), the post order, shared labels |
+| `data/` | the 25 posts (copy in 7 languages, sources), the post order, shared labels |
 | `template/` | pages copied from the zip: 7 blog indexes, one existing post per language (head, header, footer, byline), the fat-loss page, `sitemap.xml` |
 | `blog-extra.css` | the few rules the zip's compiled stylesheet lacks (jump chips, highlighted source, "Before you start" rule, `font-normal`) in the zip's blue |
 | `existing-posts.json` | the 6 posts that are already in the zip and are not re-rendered |
@@ -110,3 +110,7 @@ Added `best-strength-exercises-for-knee-and-hip-osteoarthritis` in 7 languages w
 ## Fat loss post (13 November 2026)
 
 Added `best-strength-exercises-for-fat-loss` in 7 languages with 10 sources (WHO 2020, NHS overweight and obesity in adults, NICE NG246 physical activity and diet, Cochrane Shaw 2006 exercise for overweight or obesity, Wewege 2022 Sports Med resistance training and body fat meta-analysis, Willis 2012 J Appl Physiol STRRIDE AT/RT, Donnelly 2009 ACSM weight-loss position stand, Villareal 2017 NEJM dieting obese older adults, ACSM progression, Riebe ACSM screening). Copy is plain that fat loss needs an energy deficit, that strength training alone gives small fat loss, that aerobic work cuts more weight, and that lifting protects lean mass. Physio-safety: RIR 1–3, traffic-light pain check (labelled a coaching rule of thumb), no jumping or running and no maximal lifts in the sample week (a coaching choice, not a research limit), regressions on every move, NHS "see a GP" list and weight-loss medicines line, coach not doctor or dietitian. The fat-loss page's "Read next" now includes it. **Health-related post: a doctor's or physio's review of the safety wording, plus native-speaker review, is recommended before publication.**
+
+## PCOS post (14 November 2026)
+
+Added `best-strength-exercises-for-pcos` in 7 languages with 10 sources (WHO 2020, NHS PMOS page (previously PCOS), Teede 2023 international PCOS guideline, Teede 2026 Lancet name-change consensus, Cochrane Lim 2019 lifestyle changes in PCOS, Kite 2019 Syst Rev exercise meta-analysis, Sabag 2024 ESSA position statement, Kogure 2016 MSSE resistance training, ACSM progression, Riebe ACSM screening). Copy explains the May 2026 rename to polyendocrine metabolic ovarian syndrome (PMOS), says lifting does not cure PCOS, that exercise effects are modest and low-certainty, that no trial measured live birth or period regularity, and that the one resistance-only study is single-arm. Physio-safety: RIR 1–3, traffic-light pain check (labelled a coaching rule of thumb), strength on non-consecutive days, no jumping or running and no maximal lifts in the sample week (a coaching choice, not a research limit), regressions on every move, NHS "see a GP" lines, pregnancy/fertility treatment: ask your doctor, coach not doctor or dietitian. Arabic addresses the reader in the feminine. **Health-related post: a doctor's or women's-health physio's review of the safety wording, plus native-speaker review, is recommended before publication.**
