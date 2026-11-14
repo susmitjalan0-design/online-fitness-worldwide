@@ -77,9 +77,8 @@ Nothing here deploys anything. To publish:
 
 ## Copy rules applied while rendering
 
-The posts were written under the old "Jalan PT, Pune" brand. The generator rewrites that for the new site:
-"Jalan PT" becomes "Online Fitness Worldwide", the "From Pune." sentence is dropped in all 7 languages, and the byline is the zip's own.
-The build stops if "Jalan PT", "Pune" or its translations remain in any page. Program facts are unchanged: Iron Hour 60 min 1:1,
+The generator still strips leftover copy from the retired brand if it appears in post data: it substitutes Online Fitness Worldwide for the old business name, drops the old city sentence in all 7 languages, and keeps the zip's own byline.
+The build stops if the retired brand name, the old city, or that city's name in the other six languages remains in any page. Program facts are unchanged: Iron Hour 60 min 1:1,
 Lean Reset 20 sessions a month 1:1, Return 45 min with 12 alternate-day sessions a month, Open Floor small group,
 Consultation 30 min (not training). No prices. ASCA Level 1 and ACE are named with "neither body endorses this business or this article".
 
