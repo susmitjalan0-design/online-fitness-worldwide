@@ -138,5 +138,14 @@
  },
  "INDEX_TITLE": {
   "es": "Blog de fitness: notas de un entrenador online | Online Fitness Worldwide"
+ },
+ "BREADCRUMB_LABEL": {
+  "en": "Breadcrumb",
+  "ar": "مسار التنقل",
+  "hi": "नेविगेशन पथ",
+  "es": "Ruta de navegación",
+  "zh": "面包屑导航",
+  "ja": "パンくずリスト",
+  "gu": "નેવિગેશન પાથ"
  }
 }
