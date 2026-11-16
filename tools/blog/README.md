@@ -13,9 +13,9 @@ This generator writes the same kind of pages directly and leaves the zip's own f
 
 - 6 posts already in the zip stay exactly as they are: cool-down, strength and conditioning for beginners, warm-up, women over 40,
   getting back after a long break, desk workers.
-- 26 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **182 new pages**, written to `cpanel-overlay/`.
-- The 7 blog indexes list all 32 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD. Their meta/Open Graph/Twitter description is replaced with a short, current one from `INDEX_DESCRIPTION` in `data/shared.json` (the zip's lists only its 6 posts and runs past 160 characters); `INDEX_TITLE` shortens an over-long `<title>` (Spanish).
-- `sitemap.xml` has 233 URLs (51 before, plus 182), each with reciprocal `hreflang` and `x-default`.
+- 27 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **189 new pages**, written to `cpanel-overlay/`.
+- The 7 blog indexes list all 33 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD. Their meta/Open Graph/Twitter description is replaced with a short, current one from `INDEX_DESCRIPTION` in `data/shared.json` (the zip's lists only its 6 posts and runs past 160 characters); `INDEX_TITLE` shortens an over-long `<title>` (Spanish). `BREADCRUMB_LABEL` gives the breadcrumb `<nav>` an `aria-label` in the page language on the indexes and on every generated post (the zip's template says "Breadcrumb" in all languages).
+- `sitemap.xml` has 240 URLs (51 before, plus 189), each with reciprocal `hreflang` and `x-default`.
 - "More from the blog" on each post lists the 6 posts published just before it (then the nearest newer ones), skipping its race cluster and its "See also" posts. It is anchored to the post's own place in `data/order.json`, so adding a new post at the top changes only the new pages, the indexes, the fat-loss page and the sitemap, not every older post.
 - The fat-loss page's "Read next" shows five posts: the type 2 diabetes post, the beginners post, then the newest posts outside the race cluster.
 
@@ -60,7 +60,7 @@ Nothing here deploys anything. To publish:
 1. Restore and extract the zip from `cpanel-white-theme` into `public_html` as usual
    (`node scripts/restore-binaries.mjs` writes it; the zip on this branch is the older one from `main`, so use the `cpanel-white-theme` zip).
 2. Copy the **contents** of `cpanel-overlay/` over `public_html`, replacing files when asked.
-   It adds `assets/blog-extra-<hash>.css`, the 182 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
+   It adds `assets/blog-extra-<hash>.css`, the 189 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
    It touches none of the six existing posts or any other file. The existing `.htaccess` already serves each folder's `index.html` at its slash-less URL.
 
 ## What is in this folder
@@ -70,7 +70,7 @@ Nothing here deploys anything. To publish:
 | `build.mjs` | the generator |
 | `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic |
 | `export-posts.mjs` | turns the TypeScript posts into `data/` (needs esbuild) |
-| `data/` | the 26 posts (copy in 7 languages, sources), the post order, shared labels |
+| `data/` | the 27 posts (copy in 7 languages, sources), the post order, shared labels |
 | `template/` | pages copied from the zip: 7 blog indexes, one existing post per language (head, header, footer, byline), the fat-loss page, `sitemap.xml` |
 | `blog-extra.css` | the few rules the zip's compiled stylesheet lacks (jump chips, highlighted source, "Before you start" rule, `font-normal`) in the zip's blue |
 | `existing-posts.json` | the 6 posts that are already in the zip and are not re-rendered |
@@ -117,3 +117,7 @@ Added `best-strength-exercises-for-pcos` in 7 languages with 10 sources (WHO 202
 ## Fatty liver (MASLD) post (15 November 2026)
 
 Added `best-strength-exercises-for-fatty-liver` in 7 languages with 10 sources (WHO 2020, NHS NAFLD page (also known as MASLD), EASL–EASD–EASO 2024 MASLD guideline executive summary, Keating 2012 J Hepatol exercise meta-analysis, Stine 2023 Am J Gastroenterol MRI liver-fat meta-analysis, Hashida 2017 J Hepatol aerobic vs resistance review, Hallsworth 2011 Gut resistance exercise study, Zelber-Sagi 2014 World J Gastroenterol resistance training RCT, ACSM progression, Riebe ACSM screening). Copy explains the MASLD name (previously NAFLD), says exercise lowers liver fat even with little or no weight loss but did not change ALT, that the strength-specific studies are small, and that evidence for effects on fibrosis or long-term liver outcomes is less robust. Physio-safety: RIR 1–3, traffic-light pain check (labelled a coaching rule of thumb), strength on non-consecutive days, no jumping, running, maximal lifts or breath-holding in the sample week (a coaching choice, not a research limit), regressions on every move, NHS "see a GP" and yearly check-up lines, alcohol advice from the guideline, cirrhosis/swelling/varices: ask the liver team first, coach not doctor or dietitian. The fat-loss page's "Read next" now includes it. **Health-related post: a doctor's (hepatologist or GP) or physio's review of the safety wording, plus native-speaker review, is recommended before publication.**
+
+## Postpartum recovery post (16 November 2026)
+
+Added `best-strength-exercises-for-postpartum-recovery` in 7 languages with 10 sources (WHO 2020 (pregnant and postpartum women recommendations), NHS "Your post-pregnancy body", ACOG Committee Opinion 804 (2020, reaffirmed 2023), NICE NG210 pelvic floor dysfunction, Cochrane Woodley 2020 pelvic floor muscle training in antenatal and postnatal women, Sperstad 2016 BJSM diastasis recti prevalence, Gluppe 2018 Phys Ther postpartum training RCT, Goom/Donnelly/Brockwell 2019 returning to running postnatal guideline, ACSM progression, Riebe ACSM screening). Copy states the limits: the Cochrane review found the effect of pelvic floor training started after birth on later leaking uncertain; evidence that exercise closes a tummy gap is mixed (ACOG cites studies that reduced it; the Gluppe RCT did not change prevalence); the return-to-running guideline is based on evidence and clinical experience, not validated. Physio-safety: RIR 1–3, traffic-light pain check with leaking/heaviness/doming counted as amber (labelled a coaching rule of thumb), no running or jumping for at least 3 months and no impact, sit-ups, front planks, maximal lifts or breath-holding in the sample week, light loads (start no heavier than the baby in the car seat), regressions on every move, NHS "see a GP or health visitor" lines, NICE supervised pelvic floor training referral, caesarean: wound and doctor set the pace, low mood: tell the doctor or health visitor, red flags (heavy bleeding, chest pain, painful swollen leg). Arabic addresses the reader in the feminine. **Health-related post: a doctor's (GP or obstetrician) or women's-health/pelvic-health physio's review of the safety wording, plus native-speaker review, is recommended before publication.**
