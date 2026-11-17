@@ -76,7 +76,10 @@ export function loadTemplate() {
       if (!m) throw new Error(`template/sample/${lang}.html: ${what} not found`);
       return m;
     };
-    const header = must(/<header[\s\S]*?<\/header>/, "header")[0];
+    // The zip labels the header <nav> "Site" in every language: use the page language (SITE_NAV_LABEL).
+    const siteNav = shared.SITE_NAV_LABEL?.[lang];
+    const rawHeader = must(/<header[\s\S]*?<\/header>/, "header")[0];
+    const header = siteNav ? rawHeader.split('<nav aria-label="Site"').join(`<nav aria-label="${esc(siteNav)}"`) : rawHeader;
     sample[lang] = {
       prefix: h.slice(0, h.indexOf("<title>")),
       iconLinks: h.slice(h.indexOf('<link rel="icon"'), h.indexOf('<link rel="canonical"')),
@@ -391,6 +394,8 @@ export function renderIndex(T, posts, lang, ctx) {
   html = swapAll(oldTitle, shared.INDEX_TITLE?.[lang] && esc(shared.INDEX_TITLE[lang]));
   // The zip labels the breadcrumb <nav> "Breadcrumb" in every language: use the page language (BREADCRUMB_LABEL).
   html = swapAll('<nav aria-label="Breadcrumb"', shared.BREADCRUMB_LABEL?.[lang] && `<nav aria-label="${esc(shared.BREADCRUMB_LABEL[lang])}"`);
+  // Same for the header <nav> (SITE_NAV_LABEL).
+  html = swapAll('<nav aria-label="Site"', shared.SITE_NAV_LABEL?.[lang] && `<nav aria-label="${esc(shared.SITE_NAV_LABEL[lang])}"`);
   // Blog JSON-LD: add the new posts to blogPost, newest first.
   html = html.replace(/<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"Blog"[\s\S]*?)<\/script>/, (_, body) => {
     const ld = JSON.parse(body);
