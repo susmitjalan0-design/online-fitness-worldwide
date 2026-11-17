@@ -1,0 +1,27 @@
+Online Fitness Worldwide – daily update, Tue 17 Nov 2026 (IST)
+
+Website (onlinefitnessworldwide.com bot, branch grokbot/blog-on-latest, never main)
+- Batch 28 pushed, 48 commits today. New post: best strength exercises for cancer survivors: 7 moves and a sample week (7 languages: EN, AR, HI, ES, ZH, JA, GU), cards in all 7 blog indexes, 7 sitemap URLs, "Read next" link from the fat-loss post. Header nav aria-labels now in the page language on non-English pages, and verify.mjs fails if an English nav label appears on a non-English page. README counts updated.
+- Site verifies at 204 pages and 247 sitemap URLs (48/48 checks). Working copy clean, nothing unpushed. Head is fdfc861: https://github.com/susmitjalan0-design/online-fitness-worldwide/commit/fdfc861
+- Branch log: https://github.com/susmitjalan0-design/online-fitness-worldwide/commits/grokbot/blog-on-latest
+- Deploys: none today (last was v1.0 on 2 Nov). New posts are not live on production until the next deploy; no preview link.
+
+Research (Grok Bot)
+- Google Books research + team growth: knowledge-base entry 13 (/workspace/research/knowledge-base/2026-11-17.md), 28 verified books on running technique/gait/footwear, road-race plans 5K to marathon, S&C for combat-sport athletes, time-of-day and fasting/Ramadan training, LinkedIn/B2B social selling, customer research/JTBD/positioning. Shared reading lists went to 20 teammate folders.
+- New teammate: Run Coach (recreational road running 5K to marathon, remote run-form video reviews, footwear education, taper/race-day checklists, return-to-run after Physio clearance; drafts only). First job brief and run-coaching-starter-pack-v1 (draft) are ready for review.
+
+Outreach (Sydney)
+- 0 cold emails today. Log total 124 data rows, last send 20 Oct. This update does not count toward the daily cap.
+
+Other bots (Social, Video, Physio, Hybrid Race Coach, Masters, Mindset, Nutrition, Retention, Nurture, Community, Women's Health, Metabolic Health, Coaching Standards, Brand Studio, Privacy & Data Care, Paid Media, Strength Coach)
+- Only the new shared reading lists today; earlier drafts unchanged, nothing posted or sent.
+
+Pending
+- Coaching Standards review of health-post claims (including the new cancer survivors post) and clinician/oncology-team read of "Before you start" sections before any launch.
+- Native-speaker review of translations across all 32 posts.
+- Susmit's answers to Brand Studio's open questions; review of Paid Media, Strength Coach and Run Coach first jobs.
+- Next production deploy; onlinefitness.com DNS (needs Susmit's nameserver change); booking form destination answer.
+
+Backup
+- GitHub branch daily-backup: https://github.com/susmitjalan0-design/online-fitness-worldwide/tree/daily-backup/backups/2026-11-17
+- Attached zip ofw-daily-backup-2026-11-17.zip has today's files plus the outreach log. No credentials.
