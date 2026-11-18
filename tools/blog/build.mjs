@@ -61,6 +61,16 @@ export function rebrand(value, lang) {
 }
 /** Strings that must not survive in any page: the old brand and the old location. */
 export const FORBIDDEN = /Jalan PT|jalan-pt|Pune|पुणे|بونه|浦那|プネー|પુણે/;
+/** The zip's footer button says "Read the blog" and links to the English blog on every page: use the page language
+ *  (FOOTER_BLOG_LABEL) and that language's blog index. Throws if the button is missing, so a template change can't slip by. */
+export function localizeFooterBlogLink(html, lang, shared) {
+  const label = shared.FOOTER_BLOG_LABEL?.[lang];
+  if (!label || lang === "en") return html;
+  const from = '<a href="/blog" class="btn-light inline-flex min-h-11 items-center gap-1 rounded-full px-4 text-sm font-medium">Read the blog<';
+  if (!html.includes(from)) throw new Error(`${lang}: footer "Read the blog" button not found`);
+  const to = `<a href="/${lang}/blog" class="btn-light inline-flex min-h-11 items-center gap-1 rounded-full px-4 text-sm font-medium">${esc(label)}<`;
+  return html.split(from).join(to);
+}
 
 /* ----------------------------------------------------------------- template */
 
@@ -86,7 +96,7 @@ export function loadTemplate() {
       gtag: must(/<script>window\.dataLayer[\s\S]*?<\/script>/, "gtag")[0],
       style: must(/<style id="blog-theme">[\s\S]*?<\/style>/, "theme style")[0],
       header,
-      footer: must(/<footer[\s\S]*?<\/footer>/, "footer")[0],
+      footer: localizeFooterBlogLink(must(/<footer[\s\S]*?<\/footer>/, "footer")[0], lang, shared),
       skip: unesc(must(/<a href="#main"[^>]*>([^<]*)<\/a>/, "skip link")[1]),
       byline: unesc(must(/<p class="mt-4 text-sm text-mist"><span>(.*?)<\/span> <time/, "byline")[1]),
       homeLabel: unesc(must(/aria-label="Online Fitness Worldwide, Online Fitness Worldwide: ([^"]*)"/, "home label")[1]),
@@ -396,6 +406,8 @@ export function renderIndex(T, posts, lang, ctx) {
   html = swapAll('<nav aria-label="Breadcrumb"', shared.BREADCRUMB_LABEL?.[lang] && `<nav aria-label="${esc(shared.BREADCRUMB_LABEL[lang])}"`);
   // Same for the header <nav> (SITE_NAV_LABEL).
   html = swapAll('<nav aria-label="Site"', shared.SITE_NAV_LABEL?.[lang] && `<nav aria-label="${esc(shared.SITE_NAV_LABEL[lang])}"`);
+  // Footer "Read the blog" button: page language and that language's blog (FOOTER_BLOG_LABEL).
+  html = localizeFooterBlogLink(html, lang, shared);
   // Blog JSON-LD: add the new posts to blogPost, newest first.
   html = html.replace(/<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"Blog"[\s\S]*?)<\/script>/, (_, body) => {
     const ld = JSON.parse(body);
