@@ -1,6 +1,7 @@
 // Checks the generated output: one title/description/h1/canonical per page, canonical == sitemap URL, 8 hreflang links,
 // JSON-LD parses, citations resolve, internal links resolve, no prices, no old brand or location, RTL on Arabic,
-// header and breadcrumb <nav> labels in the page language on non-English pages.
+// header and breadcrumb <nav> labels and the footer blog button in the page language on non-English pages,
+// <title> at most 78 characters, meta description at most 160.
 //   node verify.mjs [path to a merged public_html (zip contents + cpanel-overlay)]
 // Without a path it checks cpanel-overlay alone and accepts links to the 6 posts that live only in the zip.
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
@@ -47,6 +48,11 @@ for (const file of pages) {
   if (!h.includes(`<html lang="${lang}" dir="${lang === "ar" ? "rtl" : "ltr"}">`)) bad(rel, "html lang/dir");
   if (/\{\d+\}/.test(h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/g, ""))) bad(rel, "raw {n} citation");
   if (lang !== "en" && /<nav aria-label="(Site|Breadcrumb)"/.test(h)) bad(rel, "English nav aria-label on a non-English page");
+  if (lang !== "en" && /<footer[\s\S]*?(href="\/blog"|>Read the blog<)[\s\S]*?<\/footer>/.test(h)) bad(rel, "footer blog button in English or pointing at the English blog");
+  const title = h.match(/<title>([^<]*)<\/title>/)?.[1] ?? "";
+  if ([...title].length > 78) bad(rel, `title over 78 characters (${[...title].length})`);
+  const desc = h.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? "";
+  if ([...desc.replace(/&amp;/g, "&").replace(/&#x27;|&#39;|&quot;/g, "'")].length > 160) bad(rel, "meta description over 160 characters");
   if (/Jalan PT|jalan-pt|Pune|पुणे|بونه|浦那|プネー|પુણે/.test(h)) bad(rel, "old brand or location");
   const text = h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/g, "").replace(/<[^>]+>/g, " ");
   if (/[₹€£]|\bRs\.?\s?\d|\bINR\b|\bUSD\b|\bAED\b|\$\s?\d|\d\s?(rupees|dollars)|\bper (session|month)\b.*\d{3,}/i.test(text)) bad(rel, "looks like a price");
