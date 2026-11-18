@@ -1,0 +1,838 @@
+{
+ "slug": "best-strength-exercises-for-teenagers",
+ "published": "2026-11-18",
+ "modified": "2026-11-18",
+ "about": "Strength training for teenagers",
+ "sources": [
+  {
+   "cite": "World Health Organization. WHO guidelines on physical activity and sedentary behaviour. Geneva: WHO; 2020.",
+   "url": "https://www.who.int/publications/i/item/9789240015128"
+  },
+  {
+   "cite": "NHS. Physical activity guidelines for children and young people. nhs.uk. Page last reviewed 23 October 2024.",
+   "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/"
+  },
+  {
+   "cite": "Stricker PR, Faigenbaum AD, McCambridge TM; Council on Sports Medicine and Fitness. Resistance training for children and adolescents. Pediatrics. 2020;145(6):e20201011. Reaffirmed November 2024.",
+   "url": "https://doi.org/10.1542/peds.2020-1011"
+  },
+  {
+   "cite": "Faigenbaum AD, Kraemer WJ, Blimkie CJ, et al. Youth resistance training: updated position statement paper from the National Strength and Conditioning Association. J Strength Cond Res. 2009;23(5 Suppl):S60–S79.",
+   "url": "https://doi.org/10.1519/JSC.0b013e31819df407"
+  },
+  {
+   "cite": "Lloyd RS, Faigenbaum AD, Stone MH, et al. Position statement on youth resistance training: the 2014 International Consensus. Br J Sports Med. 2014;48(7):498–505.",
+   "url": "https://doi.org/10.1136/bjsports-2013-092952"
+  },
+  {
+   "cite": "Faigenbaum AD, Myer GD. Resistance training among young athletes: safety, efficacy and injury prevention effects. Br J Sports Med. 2010;44(1):56–63.",
+   "url": "https://doi.org/10.1136/bjsm.2009.068098"
+  },
+  {
+   "cite": "Behringer M, vom Heede A, Yue Z, Mester J. Effects of resistance training in children and adolescents: a meta-analysis. Pediatrics. 2010;126(5):e1199–e1210.",
+   "url": "https://doi.org/10.1542/peds.2010-0445"
+  },
+  {
+   "cite": "Lesinski M, Prieske O, Granacher U. Effects and dose-response relationships of resistance training on physical performance in youth athletes: a systematic review and meta-analysis. Br J Sports Med. 2016;50(13):781–795.",
+   "url": "https://doi.org/10.1136/bjsports-2015-095497"
+  },
+  {
+   "cite": "Smith JJ, Eather N, Morgan PJ, et al. The health benefits of muscular fitness for children and adolescents: a systematic review and meta-analysis. Sports Med. 2014;44(9):1209–1223.",
+   "url": "https://doi.org/10.1007/s40279-014-0196-4"
+  },
+  {
+   "cite": "Emery CA, Roy TO, Whittaker JL, et al. Neuromuscular training injury prevention strategies in youth sport: a systematic review and meta-analysis. Br J Sports Med. 2015;49(13):865–870.",
+   "url": "https://doi.org/10.1136/bjsports-2015-094639"
+  }
+ ],
+ "seeAlso": [
+  "best-strength-and-conditioning-exercises-for-beginners",
+  "best-warm-up-exercises-before-strength-training"
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "Best Strength Exercises for Teenagers | Online Fitness Worldwide",
+   "metaDescription": "7 strength moves for teenagers: what WHO, NHS and paediatric guidance say, how much, how to keep it safe with supervision, and a sample week.",
+   "h1": "Best strength exercises for teenagers: 7 moves and a sample week",
+   "dek": "Teenagers can strength train safely when technique comes first and a qualified adult supervises. Light loads, 1 to 3 reps in reserve, and a parent in the loop.",
+   "updated": "Updated 18 November 2026",
+   "intro": [
+    "Can teenagers lift? Parents ask me this a lot. The better question is how. Done well, strength work builds a body that copes with sport, growth spurts and long days at a desk.",
+    "The American Academy of Pediatrics (AAP) says children and adolescents can gain strength with resistance training, with low injury rates, when the focus is on proper technique and the training is well supervised. It isn't only weights. Bodyweight moves count. The AAP also notes that measures of muscular fitness in young people have declined over the years.{3}",
+    "The myths. Does lifting stunt growth? The AAP says well-designed programmes have not been shown to harm the growth plates, height or the heart. Will it make them bulky? Before puberty, strength comes mainly from the nervous system learning to use the muscle. During and after puberty, the muscle itself can also grow.{3}",
+    "What the guidelines ask. WHO: young people aged 5 to 17 should average at least 60 minutes a day of moderate-to-vigorous, mostly aerobic activity across the week, with vigorous activity and activities that strengthen muscle and bone on at least 3 days a week.{1} The NHS says the same for ages 5 to 18. It adds that young people can use weights if a qualified adult trains them to use the weights correctly and supervises them.{2}",
+    "What the research shows. A meta-analysis of controlled trials in under-18s found an overall effect size of 1.12 for resistance training on muscle strength. The ability to gain strength seemed to rise with age and maturity, with no noticeable boost during puberty. Longer programmes and more sets did better.{7} In youth athletes aged 6 to 18, a meta-analysis of 43 studies found moderate effects on strength and jumping, and small effects on sprinting, agility and sport-specific performance.{8}",
+    "Injuries. A review of 25 studies in youth sport pooled the randomised trials of neuromuscular training programmes: the risk of lower-limb injury was lower (incidence rate ratio 0.64). For knee injuries the estimate pointed the same way but was not statistically significant.{10} A review of young athletes found that most reported injuries in young lifters could be classed as accidental. It said a lack of qualified instruction, with poor technique and the wrong loads, could partly explain some of them.{6}",
+    "Health. A review of 110 studies linked stronger muscles in young people with less total and central body fat, better cardiometabolic risk factors, better bone health and higher self-esteem. Links with musculoskeletal pain and with thinking skills were inconsistent or uncertain, and most links were low to moderate.{9} Links across many young people. Not proof that lifting causes each one.",
+    "Youth resistance training has its own guidelines: from the US National Strength and Conditioning Association (NSCA),{4} and from a 2014 international consensus endorsed by sports medicine, exercise science and paediatrics organisations.{5} The NSCA's view: many of the benefits adults get from resistance training are attainable by children and adolescents who follow age-specific guidelines.{4}",
+    "This is coaching, not medical care. Parent? Read this with your teenager. And read \"Before you start\" first."
+   ],
+   "listHeading": "The 7 best strength exercises for teenagers",
+   "items": [
+    {
+     "name": "Goblet squat",
+     "why": "The base of jumping, sprinting and getting up off the floor. Legs, hips and trunk. The first lift to own.",
+     "how": "No weight first, arms out in front. Feet a little wider than your hips. Sit down between your heels, chest up, knees following your toes. Stand. 12 clean reps? Hold a light dumbbell, or a backpack with a few books, at your chest.",
+     "dose": "1 to 3 sets of 8 to 12. Keep 1 to 3 good reps in reserve (RIR); stop before technique changes."
+    },
+    {
+     "name": "Hip hinge, then Romanian deadlift",
+     "why": "Picking things up with a long back. It's the pattern behind deadlifts, and behind a good jump.",
+     "how": "Broomstick along your back, touching your head, upper back and tailbone. Knees soft. Push your hips back until you feel the backs of your thighs. Stand up by squeezing your glutes. Stick stays in contact all the way? Then a light dumbbell.",
+     "dose": "1 to 3 sets of 8 to 12. Keep 1 to 3 good reps in reserve (RIR); stop before technique changes."
+    },
+    {
+     "name": "Push-up: counter, then floor",
+     "why": "Pushing strength for sport and for getting off the floor. Bodyweight, scaled to you.",
+     "how": "Hands on a kitchen counter or a sturdy table, body straight from head to heels. Lower your chest to the edge. Push away. 12 clean ones? Go lower: a step, then the floor.",
+     "dose": "1 to 3 sets of 6 to 12. Go lower only when every rep stays straight. Keep 1 to 3 good reps in reserve (RIR); stop before technique changes."
+    },
+    {
+     "name": "One-arm row",
+     "why": "Pulling balances all the pushing, and all the hours bent over a phone or a desk. Upper back and grip.",
+     "how": "One hand and one knee on a sturdy bench or chair, back flat. Dumbbell or backpack in the other hand. Pull it to your hip. Lower slowly.",
+     "dose": "1 to 3 sets of 8 to 12 each side. Keep 1 to 3 good reps in reserve (RIR); stop before technique changes."
+    },
+    {
+     "name": "Reverse lunge",
+     "why": "One leg at a time, like running, changing direction and stairs. It shows you your weaker side.",
+     "how": "Stand tall. Hold a wall if you need to. Step one foot back and lower the back knee towards the floor. Push through the front foot to stand. All the reps on one side, then the other.",
+     "dose": "1 to 2 sets of 6 to 10 each side. Keep 1 to 3 good reps in reserve (RIR); stop before technique changes."
+    },
+    {
+     "name": "Dead bug",
+     "why": "Trunk control: ribs and pelvis stay still while the arms and legs move. The AAP calls core work foundational for sport.{3}",
+     "how": "Lie on your back, arms up, knees bent over your hips. Breathe out and press your lower back gently into the floor. Slowly lower one arm and the opposite leg. Back still. Return. Switch sides.",
+     "dose": "1 to 3 sets of 6 to 10 each side. Slow. Keep 1 to 3 good reps in reserve (RIR); stop before technique changes."
+    },
+    {
+     "name": "Pogo hops and soft landings",
+     "why": "Landing well is a skill. Jumping, landing and balance work are part of integrative neuromuscular training, which the AAP says can improve motor skills and lower the risk of sports injury. It also notes that explosive efforts can stress the growth areas where tendons attach, until the skeleton is closer to mature. So the jumps stay small and few.{3}",
+     "how": "Stand tall. Small bounces on the balls of your feet, landings quiet. Then a small jump up, and land softly: knees over toes, hips back. Hold for 2 seconds. Quiet feet means good control.",
+     "dose": "2 to 3 sets of 5 landings, shoes on, on a non-slip floor. Rest fully between sets. No box jumps and no jumping down from a height. Sore heel, or sore just below the kneecap? Leave the jumps out and tell a parent."
+    }
+   ],
+   "enoughHeading": "How much, how hard, how often",
+   "enough": [
+    "How often: 2 to 3 sessions a week, on days that aren't back to back, at least 20 to 30 minutes each. Strength gains have been shown with programmes of at least 8 weeks, at 2 to 3 sessions a week. In the research the AAP cites, programmes longer than 23 weeks gave the biggest gains.{3}",
+    "How much, to start: 1 to 2 sets of 8 to 12 reps at a light load while the technique is learned. Once the technique is consistent, add weight in steps of 5 to 10% and drop the reps a little. Later: 2 to 4 sets of 6 to 12 at a low to moderate load.{3} The heavy, low-rep work in the athlete studies{8} comes much later, with high skill and in-person coaching. Not from a blog.",
+    "Rest: about 1 minute between sets for beginners. More as the work gets harder.{3}",
+    "How hard: keep 1 to 3 reps in reserve. Failure is not the goal. Technique sets the load. Not the number on the dumbbell, and not a friend's video.",
+    "Traffic-light check, 0 to 10, for pain during and after each set. Green, 0 to 2: carry on. Amber, 3 to 5: keep the same dose, don't add. Red, above 5, or worse the next morning: go back a step, with less range, less load or fewer sets. Pain in a joint, at the heel or just below the kneecap, or any pain that changes how you move, is never amber: stop and get it checked. The colours are a coaching rule of thumb, not a research finding.",
+    "Count the whole week. School sport, PE, practice and the gym all add up. The AAP asks for strength work to be counted in total training time, and recommends at least 1 to 2 days a week off competitive sport and sport-specific training.{3}",
+    "Warm up with movement. Cool down with easy stretching. Eat and drink enough: the AAP says fuel matters for recovery and for growth.{3}",
+    "And the aerobic target still stands: an average of 60 minutes a day across the week, mostly aerobic.{1} Strength sits on top of it. It doesn't replace it."
+   ],
+   "sampleHeading": "A sample week of strength training for a teenager",
+   "sampleLabel": "Sample only. Not a prescription. Adjust it to the teenager's age, skill, sport and health, with a parent or guardian involved.",
+   "sample": [
+    "For a healthy teenager with no medical condition that needs a doctor's input, no current injury, and a parent or guardian on board. It fits around school sport.",
+    "Monday, about 30 minutes: warm-up, goblet squat, push-up, one-arm row, dead bug. 1 to 2 sets of each.",
+    "Tuesday: sport, PE or active play.",
+    "Wednesday: no lifting. Walk, cycle, play.",
+    "Thursday, about 30 minutes: warm-up, pogo hops and soft landings, hip hinge, reverse lunge, push-up, dead bug. 1 to 2 sets of each.",
+    "Friday: sport or active play. Saturday: match day, or a long walk or ride.",
+    "Sunday: full rest.",
+    "Load cap for this sample week: bodyweight, then a light dumbbell or backpack you can move for 12 clean reps. No max lifts or max tests, no training to failure, no jumping down from a height, no workouts against the clock. Tired after a match? Drop a set before you drop a session.",
+    "Keep 1 to 3 good reps in reserve (RIR); stop before technique changes.",
+    "Pain check: mild discomfort that settles soon is fine. Pain that rises during a set means make it easier: less range or less load. Sharp pain, swelling, pain spreading down a limb, numbness, a joint giving way or locking means stop and get it checked. I'm a coach, not a physio or doctor."
+   ],
+   "coachedHeading": "Want it coached live?",
+   "coached": [
+    "Iron Hour is 60 minutes, 1:1. Set-up at minute 0: camera so I can see you from head to feet, clear floor, a chair, a broomstick, a light dumbbell or a backpack. Under 18? A parent or guardian is there for set-up and stays in the house. Warm-up from minute 4. Primary lifts at 14. Accessories at 28. Cool-down at 50.",
+    "Lean Reset is 20 sessions a month, 1:1, if you want more frequent coached days. Return is 45 minutes, 1:1, 12 alternate-day sessions a month, if you haven't trained in years. Open Floor is a small group.",
+    "I'm a coach, not a doctor or physio. With a medical condition, the doctor decides what is safe. I coach technique first, in real time, and I tell parents what we did. No diets, no weight cutting. Performance-enhancing substances are a hard no.",
+    "Coached live on Google Meet, Zoom or FaceTime, in your own living room. In Hindi or English. On IST. Not sure yet? Start with a 30-minute consultation. It is a conversation, not a training session. Booking holds a time; the fee is agreed directly."
+   ],
+   "safetyHeading": "Before you start",
+   "safety": "General information, not medical advice. Under 18: a parent or guardian should know about it and agree. The NHS says to get medical advice about exercising with a health condition, to choose exercise that suits age, ability and experience, to start slowly and build bit by bit, and that young people can use weights if a qualified adult trains and supervises them.{2} The AAP says to see a doctor before starting resistance training with uncontrolled high blood pressure, uncontrolled seizures, certain heart conditions, or past chemotherapy with an anthracycline drug, and a paediatric cardiologist with complex congenital heart disease. It advises against resistance training with hypertrophic cardiomyopathy, pulmonary hypertension or Marfan syndrome. Any sign of illness, injury or overuse gets checked before training starts again.{3} The AAP also notes that most reported lifting injuries happen on home gym equipment, in unsupervised settings, often with unsafe behaviour.{3} So: no heavy lifting alone at home, no maxing out, collars on any bar. Worried about eating, weight or body image, or pressure to bulk up fast? Talk to your doctor: the AAP asks for careful screening for these in teenagers drawn to competitive bodybuilding.{3} Chest pain, fainting, a racing heart, or breathlessness out of proportion to the effort: stop and get medical help now.",
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why",
+    "how": "How",
+    "dose": "Dose",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "skip": "Skip to content",
+    "crumb": "Strength exercises for teenagers",
+    "whatsappText": "Hi Susmit, I read the article on strength training for teenagers and want to book a consultation"
+   }
+  },
+  "ar": {
+   "metaTitle": "أفضل تمارين القوة للمراهقين | Online Fitness Worldwide",
+   "metaDescription": "7 تمارين قوة للمراهقين: ماذا تقول منظمة الصحة العالمية وNHS وإرشادات طب الأطفال، وكم تتمرّن، وكيف تبقى آمنًا مع الإشراف، وأسبوع نموذجي.",
+   "h1": "أفضل تمارين القوة للمراهقين: 7 حركات وأسبوع نموذجي",
+   "dek": "يمكن للمراهقين تمرين القوة بأمان عندما تأتي التقنية أولًا ويشرف عليهم شخص بالغ مؤهّل. أوزان خفيفة، ومن 1 إلى 3 تكرارات في الاحتياط، والأهل على اطّلاع.",
+   "updated": "حدّث في 18 نوفمبر 2026",
+   "intro": [
+    "هل يستطيع المراهقون رفع الأوزان؟ يسألني الأهل هذا كثيرًا. السؤال الأفضل هو: كيف؟ تمارين القوة حين تُؤدّى جيدًا تبني جسمًا يتحمّل الرياضة وطفرات النمو وساعات الدراسة الطويلة.",
+    "تقول الأكاديمية الأمريكية لطب الأطفال (AAP) إن الأطفال والمراهقين يمكنهم زيادة قوتهم بتمارين المقاومة، بمعدلات إصابة منخفضة، عندما يكون التركيز على التقنية الصحيحة ويكون الإشراف جيدًا. الأمر ليس أوزانًا فقط: تمارين وزن الجسم تُحسب أيضًا. وتشير الأكاديمية إلى أن مقاييس اللياقة العضلية لدى الشباب تراجعت على مرّ السنين.{3}",
+    "الخرافات. هل رفع الأوزان يوقف النمو؟ تقول الأكاديمية إنه لم يثبت أن البرامج المصمَّمة جيدًا تضرّ بصفائح النمو أو الطول أو القلب. هل سيصبحون ضخامًا؟ قبل البلوغ تأتي القوة أساسًا من تعلّم الجهاز العصبي استخدام العضلة. وأثناء البلوغ وبعده يمكن للعضلة نفسها أن تنمو أيضًا.{3}",
+    "ماذا تطلب الإرشادات. منظمة الصحة العالمية: من 5 إلى 17 عامًا، متوسط 60 دقيقة يوميًا على الأقل من نشاط متوسط إلى شديد، هوائي في معظمه، على مدار الأسبوع، مع نشاط شديد وأنشطة تقوّي العضلات والعظام 3 أيام في الأسبوع على الأقل.{1} وتقول NHS الشيء نفسه للأعمار من 5 إلى 18. وتضيف أن الشباب يمكنهم استخدام الأوزان إذا علّمهم شخص بالغ مؤهّل استخدامها بشكل صحيح وأشرف عليهم.{2}",
+    "ماذا تُظهر الأبحاث. وجد تحليل تجميعي لتجارب مضبوطة على من هم دون 18 عامًا حجم تأثير إجماليًا قدره 1.12 لتمارين المقاومة على قوة العضلات. وبدت القدرة على اكتساب القوة تزداد مع العمر والنضج، من دون قفزة ملحوظة أثناء البلوغ. وكانت البرامج الأطول والمجموعات الأكثر أفضل.{7} ولدى الرياضيين الشباب من 6 إلى 18 عامًا، وجد تحليل تجميعي لـ 43 دراسة تأثيرات متوسطة على القوة والقفز، وتأثيرات صغيرة على العدو السريع والرشاقة والأداء الخاص بالرياضة.{8}",
+    "الإصابات. جمعت مراجعة لـ 25 دراسة في رياضة الشباب التجارب العشوائية لبرامج التدريب العصبي العضلي: كان خطر إصابات الساقين أقل (نسبة معدل الحدوث 0.64). وبالنسبة لإصابات الركبة، أشار التقدير في الاتجاه نفسه لكنه لم يكن ذا دلالة إحصائية.{10} ووجدت مراجعة عن الرياضيين الشباب أن معظم الإصابات المُبلَّغ عنها لدى الشباب الذين يرفعون الأوزان يمكن تصنيفها عرضية. وقالت إن نقص التوجيه المؤهَّل، مع سوء التقنية والأحمال غير المناسبة، قد يفسّر جزئيًا بعضها.{6}",
+    "الصحة. ربطت مراجعة لـ 110 دراسات بين العضلات الأقوى لدى الشباب وبين دهون أقل في الجسم كله وفي منطقة البطن، وعوامل خطر قلبية واستقلابية أفضل، وصحة عظام أفضل، وتقدير ذات أعلى. أما العلاقة بآلام العضلات والعظام وبالقدرات الذهنية فكانت غير متّسقة أو غير مؤكدة، ومعظم العلاقات كانت من منخفضة إلى متوسطة.{9} هذه علاقات لدى كثير من الشباب. وليست دليلًا على أن رفع الأوزان هو سبب كل واحدة منها.",
+    "لتمارين المقاومة لدى الشباب إرشاداتها الخاصة: من الرابطة الوطنية للقوة والتكييف البدني الأمريكية (NSCA){4}، ومن إجماع دولي عام 2014 أيّدته منظمات في الطب الرياضي وعلوم التمرين وطب الأطفال.{5} موقف الرابطة: كثير من الفوائد التي يجنيها البالغون من تمارين المقاومة يمكن أن يحققها الأطفال والمراهقون الذين يتبعون إرشادات مناسبة لأعمارهم.{4}",
+    "هذا تدريب، وليس رعاية طبية. هل أنت أحد الوالدين؟ اقرأه مع ابنك أو ابنتك. واقرأ \"قبل أن تبدأ\" أولًا."
+   ],
+   "listHeading": "أفضل 7 تمارين قوة للمراهقين",
+   "items": [
+    {
+     "name": "القرفصاء مع وزن أمام الصدر (Goblet squat)",
+     "why": "أساس القفز والعدو والنهوض عن الأرض. الساقان والوركان والجذع. أول تمرين يجب إتقانه.",
+     "how": "بلا وزن أولًا، الذراعان إلى الأمام. القدمان أعرض قليلًا من الوركين. اجلس بين كعبيك، الصدر مرفوع، والركبتان باتجاه أصابع القدمين. قف. 12 تكرارًا نظيفًا؟ أمسك دمبلًا خفيفًا، أو حقيبة ظهر فيها بعض الكتب، عند صدرك.",
+     "dose": "من 1 إلى 3 مجموعات من 8 إلى 12. اترك من 1 إلى 3 تكرارات جيدة في الاحتياط (RIR)؛ توقّف قبل تغيّر التقنية."
+    },
+    {
+     "name": "ثني الورك، ثم الرفعة الرومانية",
+     "why": "رفع الأشياء والظهر ممدود. هذا هو نمط الرفعة الميتة، ونمط القفزة الجيدة أيضًا.",
+     "how": "عصا مكنسة على طول ظهرك، تلامس الرأس وأعلى الظهر وعظم العصعص. الركبتان مرنتان. ادفع الوركين إلى الخلف حتى تشعر بخلف الفخذين. قف بشدّ عضلات المؤخرة. بقيت العصا ملامسة طوال الحركة؟ عندها دمبل خفيف.",
+     "dose": "من 1 إلى 3 مجموعات من 8 إلى 12. اترك من 1 إلى 3 تكرارات جيدة في الاحتياط (RIR)؛ توقّف قبل تغيّر التقنية."
+    },
+    {
+     "name": "الضغط: على سطح المطبخ، ثم على الأرض",
+     "why": "قوة دفع للرياضة وللنهوض عن الأرض. بوزن جسمك، وعلى قدر مستواك.",
+     "how": "اليدان على سطح المطبخ أو طاولة متينة، والجسم مستقيم من الرأس إلى الكعبين. أنزل صدرك إلى الحافة. ادفع بعيدًا. 12 نظيفة؟ انزل أكثر: درجة سلّم، ثم الأرض.",
+     "dose": "من 1 إلى 3 مجموعات من 6 إلى 12. انزل مستوى فقط عندما يبقى كل تكرار مستقيمًا. اترك من 1 إلى 3 تكرارات جيدة في الاحتياط (RIR)؛ توقّف قبل تغيّر التقنية."
+    },
+    {
+     "name": "التجديف بذراع واحدة",
+     "why": "السحب يوازن كل الدفع، وكل الساعات المنحنية فوق الهاتف أو المكتب. أعلى الظهر وقوة القبضة.",
+     "how": "يد وركبة على مقعد أو كرسي متين، والظهر مستوٍ. دمبل أو حقيبة في اليد الأخرى. اسحبه نحو الورك. أنزله ببطء.",
+     "dose": "من 1 إلى 3 مجموعات من 8 إلى 12 لكل جانب. اترك من 1 إلى 3 تكرارات جيدة في الاحتياط (RIR)؛ توقّف قبل تغيّر التقنية."
+    },
+    {
+     "name": "الطعنة الخلفية (Reverse lunge)",
+     "why": "ساق واحدة في كل مرة، مثل الجري وتغيير الاتجاه والدرج. تكشف لك جانبك الأضعف.",
+     "how": "قف مستقيمًا. استند إلى جدار إن احتجت. أرجع قدمًا إلى الخلف وأنزل الركبة الخلفية نحو الأرض. ادفع بالقدم الأمامية لتقف. كل التكرارات على جانب، ثم الجانب الآخر.",
+     "dose": "من 1 إلى 2 مجموعة من 6 إلى 10 لكل جانب. اترك من 1 إلى 3 تكرارات جيدة في الاحتياط (RIR)؛ توقّف قبل تغيّر التقنية."
+    },
+    {
+     "name": "تمرين الحشرة الميتة (Dead bug)",
+     "why": "التحكم في الجذع: الأضلاع والحوض ثابتان بينما تتحرك الذراعان والساقان. تعدّ الأكاديمية تمارين الجذع أساسية للرياضة.{3}",
+     "how": "استلقِ على ظهرك، الذراعان للأعلى، والركبتان مثنيتان فوق الوركين. أخرج النفس واضغط أسفل ظهرك برفق على الأرض. أنزل ببطء ذراعًا والساق المقابلة. الظهر ثابت. عُد. بدّل الجانب.",
+     "dose": "من 1 إلى 3 مجموعات من 6 إلى 10 لكل جانب. ببطء. اترك من 1 إلى 3 تكرارات جيدة في الاحتياط (RIR)؛ توقّف قبل تغيّر التقنية."
+    },
+    {
+     "name": "قفزات البوغو والهبوط الناعم",
+     "why": "الهبوط الجيد مهارة. القفز والهبوط وتمارين التوازن جزء من التدريب العصبي العضلي المتكامل، الذي تقول الأكاديمية إنه قد يحسّن المهارات الحركية ويقلّل خطر الإصابات الرياضية. وتشير أيضًا إلى أن الجهود الانفجارية قد تجهد مناطق النمو حيث ترتبط الأوتار، إلى أن يقترب الهيكل العظمي من النضج. لذلك تبقى القفزات صغيرة وقليلة.{3}",
+     "how": "قف مستقيمًا. ارتدادات صغيرة على مقدمة القدمين، وهبوط بلا صوت. ثم قفزة صغيرة للأعلى، واهبط بنعومة: الركبتان باتجاه أصابع القدمين، والوركان للخلف. اثبت ثانيتين. القدمان الهادئتان تعنيان تحكمًا جيدًا.",
+     "dose": "من 2 إلى 3 مجموعات من 5 هبوطات، بالحذاء، على أرض غير زلقة. استرح تمامًا بين المجموعات. لا قفز على الصناديق ولا قفز من مكان مرتفع. ألم في الكعب، أو أسفل صابونة الركبة مباشرة؟ اترك القفزات وأخبر أحد والديك."
+    }
+   ],
+   "enoughHeading": "كم، وبأي شدة، وكم مرة",
+   "enough": [
+    "كم مرة: من 2 إلى 3 جلسات في الأسبوع، في أيام غير متتالية، لا تقل كل منها عن 20 إلى 30 دقيقة. ظهرت مكاسب القوة مع برامج لا تقل عن 8 أسابيع، بمعدل 2 إلى 3 جلسات في الأسبوع. وفي الأبحاث التي تستشهد بها الأكاديمية، أعطت البرامج الأطول من 23 أسبوعًا أكبر المكاسب.{3}",
+    "كم في البداية: من 1 إلى 2 مجموعة من 8 إلى 12 تكرارًا بحمل خفيف أثناء تعلّم التقنية. عندما تثبت التقنية، زد الوزن بخطوات من 5 إلى 10% وقلّل التكرارات قليلًا. لاحقًا: من 2 إلى 4 مجموعات من 6 إلى 12 بحمل منخفض إلى متوسط.{3} العمل الثقيل بتكرارات قليلة في دراسات الرياضيين{8} يأتي بعد ذلك بكثير، مع مهارة عالية وتدريب حضوري. وليس من مدوّنة.",
+    "الراحة: نحو دقيقة واحدة بين المجموعات للمبتدئين. وأكثر كلما صار العمل أصعب.{3}",
+    "بأي شدة: اترك من 1 إلى 3 تكرارات في الاحتياط. الوصول إلى الفشل ليس الهدف. التقنية هي التي تحدد الحمل. لا الرقم على الدمبل، ولا فيديو صديق.",
+    "فحص إشارة المرور، من 0 إلى 10، للألم أثناء كل مجموعة وبعدها. أخضر، 0 إلى 2: تابع. أصفر، 3 إلى 5: حافظ على الجرعة نفسها، لا تزد. أحمر، فوق 5، أو أسوأ صباح اليوم التالي: ارجع خطوة، بمدى أقل أو حمل أقل أو مجموعات أقل. الألم في مفصل، أو في الكعب، أو أسفل صابونة الركبة مباشرة، أو أي ألم يغيّر طريقة حركتك، لا يكون أصفر أبدًا: توقّف واطلب فحصًا. الألوان قاعدة تدريبية عملية، وليست نتيجة بحثية.",
+    "احسب الأسبوع كله. رياضة المدرسة والتربية البدنية والتمارين والنادي كلها تتراكم. تطلب الأكاديمية احتساب تمارين القوة ضمن وقت التدريب الإجمالي، وتوصي بيوم إلى يومين على الأقل أسبوعيًا من دون رياضة تنافسية أو تدريب خاص بالرياضة.{3}",
+    "أحمِ بالحركة. واختم بتمدّد خفيف. كُل واشرب بما يكفي: تقول الأكاديمية إن الطاقة مهمة للتعافي وللنمو.{3}",
+    "ويبقى الهدف الهوائي قائمًا: متوسط 60 دقيقة يوميًا على مدار الأسبوع، هوائي في معظمه.{1} القوة تأتي فوقه. ولا تحلّ محله."
+   ],
+   "sampleHeading": "أسبوع نموذجي لتمارين القوة لمراهق",
+   "sampleLabel": "نموذج فقط. ليس وصفة. عدّله بحسب عمر المراهق ومهارته ورياضته وصحته، بمشاركة أحد الوالدين أو الوصي.",
+   "sample": [
+    "لمراهق سليم، ليست لديه حالة طبية تحتاج رأي طبيب، ولا إصابة حالية، ومع موافقة أحد الوالدين أو الوصي. يتناسب مع رياضة المدرسة.",
+    "الاثنين، نحو 30 دقيقة: إحماء، القرفصاء مع وزن أمام الصدر، الضغط، التجديف بذراع واحدة، الحشرة الميتة. من 1 إلى 2 مجموعة لكل تمرين.",
+    "الثلاثاء: رياضة أو تربية بدنية أو لعب نشط.",
+    "الأربعاء: بلا أوزان. مشي، دراجة، لعب.",
+    "الخميس، نحو 30 دقيقة: إحماء، قفزات البوغو والهبوط الناعم، ثني الورك، الطعنة الخلفية، الضغط، الحشرة الميتة. من 1 إلى 2 مجموعة لكل تمرين.",
+    "الجمعة: رياضة أو لعب نشط. السبت: يوم مباراة، أو مشي أو ركوب دراجة لمدة طويلة.",
+    "الأحد: راحة تامة.",
+    "حدّ الحمل لهذا الأسبوع النموذجي: وزن الجسم، ثم دمبل خفيف أو حقيبة يمكنك تحريكها 12 مرة نظيفة. لا رفعات قصوى ولا اختبارات للحد الأقصى، لا تمرين حتى الفشل، لا قفز من مكان مرتفع، لا تمارين ضد الساعة. متعب بعد مباراة؟ احذف مجموعة قبل أن تحذف جلسة.",
+    "اترك من 1 إلى 3 تكرارات جيدة في الاحتياط (RIR)؛ توقّف قبل تغيّر التقنية.",
+    "فحص الألم: الانزعاج الخفيف الذي يهدأ سريعًا لا بأس به. الألم الذي يزداد أثناء المجموعة يعني أن تُسهّل التمرين: مدى أقل أو حمل أقل. الألم الحاد، التورم، ألم ينتشر أسفل الطرف، خدر، أو مفصل ينهار أو ينغلق يعني توقف واطلب فحصًا. أنا مدرب، ولست أخصائي علاج طبيعي أو طبيبًا."
+   ],
+   "coachedHeading": "تريده بتدريب مباشر؟",
+   "coached": [
+    "Iron Hour مدتها 60 دقيقة، 1:1. التجهيز في الدقيقة 0: كاميرا تراك من الرأس إلى القدمين، أرضية خالية، كرسي، عصا مكنسة، دمبل خفيف أو حقيبة ظهر. دون 18 عامًا؟ يحضر أحد الوالدين أو الوصي وقت التجهيز ويبقى في المنزل. الإحماء من الدقيقة 4. الرفعات الأساسية عند 14. التمارين المساعدة عند 28. التهدئة عند 50.",
+    "Lean Reset 20 جلسة شهريًا، 1:1، إن أردت أيام تدريب أكثر تكرارًا. Return 45 دقيقة، 1:1، 12 جلسة يومًا بعد يوم شهريًا، إن لم تتدرّب منذ سنوات. Open Floor مجموعة صغيرة.",
+    "أنا مدرب، ولست طبيبًا أو أخصائي علاج طبيعي. مع أي حالة طبية، الطبيب هو من يقرّر ما هو آمن. أدرّب التقنية أولًا، مباشرة، وأخبر الأهل بما فعلناه. لا حميات ولا إنقاص وزن. المواد المنشّطة لتحسين الأداء: مرفوضة تمامًا.",
+    "تدريب مباشر عبر Google Meet أو Zoom أو FaceTime، في غرفة معيشتك. بالهندية أو الإنجليزية. بتوقيت IST. غير متأكد؟ ابدأ باستشارة 30 دقيقة. هي محادثة، وليست جلسة تدريب. الحجز يحجز وقتًا؛ الأجر يُتفق عليه مباشرة."
+   ],
+   "safetyHeading": "قبل أن تبدأ",
+   "safety": "معلومات عامة، وليست نصيحة طبية. دون 18 عامًا: يجب أن يعلم أحد الوالدين أو الوصي ويوافق. تقول NHS: اطلب مشورة طبية لممارسة الرياضة مع حالة صحية، واختر تمارين تناسب العمر والقدرة والخبرة، وابدأ ببطء وزد تدريجيًا، ويمكن للشباب استخدام الأوزان إذا علّمهم شخص بالغ مؤهّل وأشرف عليهم.{2} وتقول الأكاديمية الأمريكية لطب الأطفال: راجع طبيبًا قبل بدء تمارين المقاومة مع ارتفاع ضغط دم غير مضبوط، أو نوبات صرع غير مضبوطة، أو بعض أمراض القلب، أو علاج كيميائي سابق بدواء من الأنثراسيكلينات، وراجع طبيب قلب أطفال في أمراض القلب الخلقية المعقدة. وتنصح بعدم ممارسة تمارين المقاومة مع اعتلال عضلة القلب الضخامي أو ارتفاع ضغط الدم الرئوي أو متلازمة مارفان. أي علامة مرض أو إصابة أو إجهاد مفرط تُفحص قبل العودة إلى التمرين.{3} وتشير الأكاديمية أيضًا إلى أن معظم إصابات الأوزان المُبلَّغ عنها تحدث على أجهزة الرياضة المنزلية، من دون إشراف، وغالبًا مع سلوك غير آمن.{3} لذلك: لا رفع أوزان ثقيلة وحدك في المنزل، لا محاولات للحد الأقصى، والأقفال مركّبة على أي بار. قلق بشأن الأكل أو الوزن أو صورة الجسم، أو ضغط لبناء العضلات بسرعة؟ تحدّث إلى طبيبك: تطلب الأكاديمية فحصًا دقيقًا لهذه الأمور لدى المراهقين المنجذبين إلى كمال الأجسام التنافسي.{3} ألم في الصدر، إغماء، تسارع شديد في ضربات القلب، أو ضيق نفس لا يتناسب مع الجهد: توقّف واطلب مساعدة طبية فورًا.",
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا جهة منهما تعتمد هذا العمل أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا",
+    "how": "كيف",
+    "dose": "الجرعة",
+    "sources": "المصادر",
+    "readIn": "اقرأ هذا بـ",
+    "programs": "انظر البرامج",
+    "whatsapp": "اسأل على واتساب",
+    "skip": "تخطَّ إلى المحتوى",
+    "crumb": "تمارين القوة للمراهقين",
+    "whatsappText": "مرحبًا سوسميت، قرأت المقال عن تمارين القوة للمراهقين وأريد حجز استشارة"
+   }
+  },
+  "hi": {
+   "metaTitle": "टीनएजर्स के लिए बेस्ट स्ट्रेंथ एक्सरसाइज़ | Online Fitness Worldwide",
+   "metaDescription": "टीनएजर्स के लिए 7 स्ट्रेंथ मूव: WHO, NHS और बच्चों के डॉक्टरों की गाइडेंस क्या कहती है, कितना करें, निगरानी के साथ सुरक्षित कैसे रहें, और एक सैंपल हफ़्ता।",
+   "h1": "टीनएजर्स के लिए सबसे अच्छी स्ट्रेंथ एक्सरसाइज़: 7 मूव और एक सैंपल हफ़्ता",
+   "dek": "टीनएजर्स सुरक्षित रूप से स्ट्रेंथ ट्रेनिंग कर सकते हैं, जब तकनीक पहले आए और कोई योग्य वयस्क निगरानी करे। हल्का वज़न, 1 से 3 रेप बाकी, और माता-पिता को पूरी जानकारी।",
+   "updated": "अपडेट 18 नवंबर 2026",
+   "intro": [
+    "क्या टीनएजर्स वज़न उठा सकते हैं? माता-पिता मुझसे यह बहुत पूछते हैं। बेहतर सवाल है: कैसे। सही तरीके से की गई स्ट्रेंथ ट्रेनिंग ऐसा शरीर बनाती है जो खेल, तेज़ी से बढ़ती लंबाई और पढ़ाई के लंबे घंटे झेल सके।",
+    "अमेरिकन एकेडमी ऑफ़ पीडियाट्रिक्स (AAP) कहती है कि बच्चे और किशोर रेज़िस्टेंस ट्रेनिंग से ताक़त बढ़ा सकते हैं, और चोट की दर कम रहती है, जब ध्यान सही तकनीक पर हो और अच्छी निगरानी हो। यह सिर्फ़ वज़न नहीं है। अपने शरीर के वज़न वाली एक्सरसाइज़ भी गिनी जाती हैं। AAP यह भी बताती है कि सालों में युवाओं की मांसपेशियों की फ़िटनेस के माप घटे हैं।{3}",
+    "मिथक। क्या वज़न उठाने से लंबाई रुक जाती है? AAP कहती है कि अच्छी तरह बनाए गए प्रोग्राम से ग्रोथ प्लेट, लंबाई या दिल को नुकसान होता नहीं दिखा है। क्या बहुत भारी-भरकम हो जाएँगे? प्यूबर्टी से पहले ताक़त मुख्य रूप से इसलिए बढ़ती है कि नर्वस सिस्टम मांसपेशी का इस्तेमाल करना सीखता है। प्यूबर्टी के दौरान और बाद में मांसपेशी खुद भी बढ़ सकती है।{3}",
+    "गाइडलाइन क्या कहती हैं। WHO: 5 से 17 साल के बच्चों और किशोरों को पूरे हफ़्ते में औसतन रोज़ कम से कम 60 मिनट मध्यम से तेज़, ज़्यादातर एरोबिक गतिविधि करनी चाहिए, और हफ़्ते में कम से कम 3 दिन तेज़ गतिविधि और मांसपेशियाँ व हड्डियाँ मज़बूत करने वाली गतिविधियाँ।{1} NHS 5 से 18 साल के लिए यही कहता है। साथ में यह भी कि युवा वज़न इस्तेमाल कर सकते हैं, अगर कोई योग्य वयस्क उन्हें सही तरीका सिखाए और निगरानी करे।{2}",
+    "रिसर्च क्या दिखाती है। 18 साल से कम उम्र वालों पर कंट्रोल्ड ट्रायल्स के एक मेटा-एनालिसिस में मांसपेशियों की ताक़त पर रेज़िस्टेंस ट्रेनिंग का कुल इफ़ेक्ट साइज़ 1.12 मिला। ताक़त बढ़ाने की क्षमता उम्र और परिपक्वता के साथ बढ़ती दिखी, प्यूबर्टी में कोई ख़ास उछाल नहीं। लंबे प्रोग्राम और ज़्यादा सेट बेहतर रहे।{7} 6 से 18 साल के युवा खिलाड़ियों पर 43 स्टडीज़ के एक मेटा-एनालिसिस में ताक़त और जंप पर मध्यम असर मिला, और स्प्रिंट, फुर्ती और खेल से जुड़े प्रदर्शन पर छोटा असर।{8}",
+    "चोटें। युवा खेलों पर 25 स्टडीज़ के एक रिव्यू ने न्यूरोमस्कुलर ट्रेनिंग प्रोग्राम के रैंडमाइज़्ड ट्रायल्स को मिलाकर देखा: पैरों की चोट का जोखिम कम था (इंसिडेंस रेट रेशियो 0.64)। घुटने की चोट के लिए अनुमान उसी दिशा में था, पर सांख्यिकीय रूप से महत्वपूर्ण नहीं।{10} युवा खिलाड़ियों पर एक रिव्यू में पाया गया कि वज़न उठाने वाले युवाओं में दर्ज ज़्यादातर चोटों को दुर्घटना माना जा सकता था। उसके मुताबिक़ योग्य ट्रेनिंग की कमी, ग़लत तकनीक और ग़लत वज़न कुछ चोटों को आंशिक रूप से समझा सकते हैं।{6}",
+    "सेहत। 110 स्टडीज़ के एक रिव्यू ने युवाओं में मज़बूत मांसपेशियों को कुल और पेट की कम चर्बी, बेहतर कार्डियोमेटाबोलिक रिस्क फ़ैक्टर, बेहतर हड्डियों की सेहत और ज़्यादा आत्म-सम्मान से जोड़ा। मांसपेशियों-जोड़ों के दर्द और सोचने-समझने की क्षमता से जुड़ाव असंगत या अनिश्चित था, और ज़्यादातर जुड़ाव कम से मध्यम थे।{9} ये बहुत से युवाओं में दिखे जुड़ाव हैं। यह सबूत नहीं कि हर एक का कारण वज़न उठाना है।",
+    "युवाओं की रेज़िस्टेंस ट्रेनिंग की अपनी गाइडलाइन हैं: अमेरिका की नेशनल स्ट्रेंथ एंड कंडीशनिंग एसोसिएशन (NSCA) की,{4} और 2014 की एक अंतरराष्ट्रीय सहमति की, जिसे स्पोर्ट्स मेडिसिन, एक्सरसाइज़ साइंस और बाल रोग के संगठनों ने समर्थन दिया।{5} NSCA की राय: बड़ों को रेज़िस्टेंस ट्रेनिंग से मिलने वाले कई फ़ायदे उन बच्चों और किशोरों को भी मिल सकते हैं जो उम्र के हिसाब से बनी गाइडलाइन मानते हैं।{4}",
+    "यह कोचिंग है, इलाज नहीं। माता-पिता हैं? इसे अपने बच्चे के साथ पढ़ें। और पहले \"शुरू करने से पहले\" पढ़ें।"
+   ],
+   "listHeading": "टीनएजर्स के लिए 7 सबसे अच्छी स्ट्रेंथ एक्सरसाइज़",
+   "items": [
+    {
+     "name": "गॉबलेट स्क्वाट",
+     "why": "कूदने, दौड़ने और ज़मीन से उठने की नींव। पैर, कूल्हे और धड़। सबसे पहले पक्का करने वाली लिफ़्ट।",
+     "how": "पहले बिना वज़न, हाथ सामने। पैर कूल्हों से थोड़े चौड़े। एड़ियों के बीच नीचे बैठें, छाती ऊपर, घुटने पंजों की सीध में। खड़े हों। 12 साफ़ रेप? छाती के पास हल्का डम्बल या कुछ किताबों वाला बैग पकड़ें।",
+     "dose": "8 से 12 के 1 से 3 सेट। 1 से 3 अच्छे रेप बाकी रखें (RIR); तकनीक बदलने से पहले रुकें।"
+    },
+    {
+     "name": "हिप हिंज, फिर रोमानियन डेडलिफ़्ट",
+     "why": "लंबी पीठ के साथ चीज़ें उठाना। यही डेडलिफ़्ट का पैटर्न है, और अच्छी जंप का भी।",
+     "how": "पीठ पर झाड़ू का डंडा: सिर, ऊपरी पीठ और टेलबोन को छूता हुआ। घुटने ढीले। कूल्हे पीछे ले जाएँ जब तक जांघों के पीछे खिंचाव न लगे। ग्लूट्स कसकर खड़े हों। डंडा पूरे समय पीठ से लगा रहे? तब हल्का डम्बल।",
+     "dose": "8 से 12 के 1 से 3 सेट। 1 से 3 अच्छे रेप बाकी रखें (RIR); तकनीक बदलने से पहले रुकें।"
+    },
+    {
+     "name": "पुश-अप: काउंटर, फिर ज़मीन",
+     "why": "खेल के लिए और ज़मीन से उठने के लिए धक्का देने की ताक़त। अपने शरीर के वज़न से, आपके हिसाब से।",
+     "how": "हाथ किचन काउंटर या मज़बूत मेज़ पर, शरीर सिर से एड़ी तक सीधा। छाती किनारे तक नीचे लाएँ। धक्का देकर दूर हों। 12 साफ़ हो गए? और नीचे: एक सीढ़ी, फिर ज़मीन।",
+     "dose": "6 से 12 के 1 से 3 सेट। नीचे तभी जाएँ जब हर रेप सीधा रहे। 1 से 3 अच्छे रेप बाकी रखें (RIR); तकनीक बदलने से पहले रुकें।"
+    },
+    {
+     "name": "वन-आर्म रो",
+     "why": "खींचना सारे धक्के को संतुलित करता है, और फ़ोन या मेज़ पर झुके घंटों को भी। ऊपरी पीठ और पकड़।",
+     "how": "एक हाथ और एक घुटना मज़बूत बेंच या कुर्सी पर, पीठ सीधी। दूसरे हाथ में डम्बल या बैग। उसे कूल्हे तक खींचें। धीरे नीचे लाएँ।",
+     "dose": "हर तरफ़ 8 से 12 के 1 से 3 सेट। 1 से 3 अच्छे रेप बाकी रखें (RIR); तकनीक बदलने से पहले रुकें।"
+    },
+    {
+     "name": "रिवर्स लंज",
+     "why": "एक बार में एक पैर, जैसे दौड़ना, दिशा बदलना और सीढ़ियाँ। यह आपकी कमज़ोर तरफ़ दिखाता है।",
+     "how": "सीधे खड़े हों। ज़रूरत हो तो दीवार पकड़ें। एक पैर पीछे ले जाएँ और पिछला घुटना ज़मीन की ओर नीचे लाएँ। आगे वाले पैर से धक्का देकर खड़े हों। एक तरफ़ के सारे रेप, फिर दूसरी तरफ़।",
+     "dose": "हर तरफ़ 6 से 10 के 1 से 2 सेट। 1 से 3 अच्छे रेप बाकी रखें (RIR); तकनीक बदलने से पहले रुकें।"
+    },
+    {
+     "name": "डेड बग",
+     "why": "धड़ पर नियंत्रण: हाथ-पैर चलते रहें और पसलियाँ व पेल्विस स्थिर रहें। AAP कोर ट्रेनिंग को खेल के लिए बुनियादी मानती है।{3}",
+     "how": "पीठ के बल लेटें, हाथ ऊपर, घुटने मुड़े हुए कूल्हों के ऊपर। साँस छोड़ें और कमर को धीरे से ज़मीन पर दबाएँ। एक हाथ और उल्टा पैर धीरे नीचे लाएँ। पीठ स्थिर। वापस। तरफ़ बदलें।",
+     "dose": "हर तरफ़ 6 से 10 के 1 से 3 सेट। धीरे। 1 से 3 अच्छे रेप बाकी रखें (RIR); तकनीक बदलने से पहले रुकें।"
+    },
+    {
+     "name": "पोगो हॉप और नरम लैंडिंग",
+     "why": "ठीक से लैंड करना एक हुनर है। कूदना, लैंड करना और बैलेंस इंटीग्रेटिव न्यूरोमस्कुलर ट्रेनिंग का हिस्सा हैं, जिसके बारे में AAP कहती है कि यह मोटर स्किल सुधार सकती है और खेल की चोट का जोखिम घटा सकती है। वह यह भी बताती है कि विस्फोटक ज़ोर उन ग्रोथ वाले हिस्सों पर दबाव डाल सकता है जहाँ टेंडन जुड़ते हैं, जब तक हड्डियाँ परिपक्वता के क़रीब न हों। इसलिए जंप छोटी और कम रहती हैं।{3}",
+     "how": "सीधे खड़े हों। पंजों के अगले हिस्से पर छोटे उछाल, लैंडिंग बिना आवाज़। फिर एक छोटी जंप ऊपर, और नरमी से लैंड करें: घुटने पंजों की सीध में, कूल्हे पीछे। 2 सेकंड रुकें। शांत पैर मतलब अच्छा नियंत्रण।",
+     "dose": "5 लैंडिंग के 2 से 3 सेट, जूते पहनकर, फिसलन रहित फ़र्श पर। सेट के बीच पूरा आराम। बॉक्स जंप नहीं, ऊँचाई से नीचे कूदना नहीं। एड़ी में या घुटने की कटोरी के ठीक नीचे दर्द? जंप छोड़ दें और माता-पिता को बताएँ।"
+    }
+   ],
+   "enoughHeading": "कितना, कितना कठिन, कितनी बार",
+   "enough": [
+    "कितनी बार: हफ़्ते में 2 से 3 सेशन, लगातार दिनों पर नहीं, हर बार कम से कम 20 से 30 मिनट। हफ़्ते में 2 से 3 सेशन वाले कम से कम 8 हफ़्ते के प्रोग्राम में ताक़त बढ़ती दिखी है। AAP जिस रिसर्च का हवाला देती है, उसमें 23 हफ़्ते से लंबे प्रोग्राम में सबसे ज़्यादा बढ़त मिली।{3}",
+    "शुरुआत में कितना: तकनीक सीखते समय हल्के वज़न के साथ 8 से 12 रेप के 1 से 2 सेट। तकनीक लगातार ठीक रहने लगे, तो 5 से 10% के क़दमों में वज़न बढ़ाएँ और रेप थोड़े घटाएँ। बाद में: कम से मध्यम वज़न पर 6 से 12 के 2 से 4 सेट।{3} खिलाड़ियों वाली स्टडीज़ का भारी, कम रेप वाला काम{8} बहुत बाद में आता है, अच्छी तकनीक और आमने-सामने कोचिंग के साथ। ब्लॉग से नहीं।",
+    "आराम: शुरुआत करने वालों के लिए सेट के बीच लगभग 1 मिनट। काम कठिन होने पर ज़्यादा।{3}",
+    "कितना कठिन: 1 से 3 रेप बाकी रखें। फ़ेलियर लक्ष्य नहीं है। वज़न तकनीक तय करती है। डम्बल पर लिखा नंबर नहीं, और किसी दोस्त का वीडियो भी नहीं।",
+    "ट्रैफ़िक-लाइट चेक, 0 से 10, हर सेट के दौरान और बाद में दर्द के लिए। हरा, 0 से 2: जारी रखें। पीला, 3 से 5: उतना ही करें, बढ़ाएँ नहीं। लाल, 5 से ऊपर, या अगली सुबह ज़्यादा: एक क़दम पीछे, कम रेंज, कम वज़न या कम सेट। किसी जोड़ में, एड़ी में या घुटने की कटोरी के ठीक नीचे दर्द, या कोई भी दर्द जो आपके चलने-फिरने का तरीका बदल दे, कभी पीला नहीं होता: रुकें और जाँच करवाएँ। ये रंग कोचिंग का एक अनुभवजन्य नियम हैं, रिसर्च का नतीजा नहीं।",
+    "पूरा हफ़्ता गिनें। स्कूल का खेल, PE, प्रैक्टिस और जिम सब जुड़ते हैं। AAP कहती है कि स्ट्रेंथ ट्रेनिंग को कुल ट्रेनिंग समय में गिना जाए, और हफ़्ते में कम से कम 1 से 2 दिन प्रतियोगी खेल और खेल-विशेष ट्रेनिंग से छुट्टी की सलाह देती है।{3}",
+    "वॉर्म-अप मूवमेंट से। कूल-डाउन हल्की स्ट्रेचिंग से। पर्याप्त खाएँ और पिएँ: AAP कहती है कि रिकवरी और बढ़त के लिए ऊर्जा मायने रखती है।{3}",
+    "और एरोबिक लक्ष्य अपनी जगह है: पूरे हफ़्ते में औसतन रोज़ 60 मिनट, ज़्यादातर एरोबिक।{1} स्ट्रेंथ उसके ऊपर है। उसकी जगह नहीं।"
+   ],
+   "sampleHeading": "टीनएजर के लिए स्ट्रेंथ ट्रेनिंग का एक सैंपल हफ़्ता",
+   "sampleLabel": "सिर्फ़ सैंपल। प्रिस्क्रिप्शन नहीं। इसे टीनएजर की उम्र, तकनीक, खेल और सेहत के हिसाब से बदलें, माता-पिता या अभिभावक को साथ रखकर।",
+   "sample": [
+    "एक स्वस्थ टीनएजर के लिए, जिसे ऐसी कोई मेडिकल समस्या न हो जिसमें डॉक्टर की राय चाहिए, अभी कोई चोट न हो, और माता-पिता या अभिभावक सहमत हों। स्कूल के खेल के साथ फ़िट होता है।",
+    "सोमवार, लगभग 30 मिनट: वॉर्म-अप, गॉबलेट स्क्वाट, पुश-अप, वन-आर्म रो, डेड बग। हर एक के 1 से 2 सेट।",
+    "मंगलवार: खेल, PE या खेलकूद।",
+    "बुधवार: वज़न नहीं। पैदल चलें, साइकिल, खेलें।",
+    "गुरुवार, लगभग 30 मिनट: वॉर्म-अप, पोगो हॉप और नरम लैंडिंग, हिप हिंज, रिवर्स लंज, पुश-अप, डेड बग। हर एक के 1 से 2 सेट।",
+    "शुक्रवार: खेल या खेलकूद। शनिवार: मैच, या लंबी सैर या साइकिल।",
+    "रविवार: पूरा आराम।",
+    "इस सैंपल हफ़्ते की वज़न सीमा: शरीर का वज़न, फिर हल्का डम्बल या बैग जिसे आप 12 साफ़ रेप तक उठा सकें। कोई मैक्स लिफ़्ट या मैक्स टेस्ट नहीं, फ़ेलियर तक नहीं, ऊँचाई से कूदना नहीं, घड़ी के ख़िलाफ़ वर्कआउट नहीं। मैच के बाद थके हैं? सेशन छोड़ने से पहले एक सेट छोड़ें।",
+    "1 से 3 अच्छे रेप बाकी रखें (RIR); तकनीक बदलने से पहले रुकें।",
+    "दर्द की जाँच: हल्की असहजता जो जल्दी शांत हो जाए, ठीक है। सेट के दौरान बढ़ता दर्द मतलब इसे आसान करें: कम रेंज या कम वज़न। तेज़ दर्द, सूजन, अंग में फैलता दर्द, सुन्नता, जोड़ का ढीला पड़ना या लॉक होना मतलब रुकें और जाँच करवाएँ। मैं कोच हूँ, फिज़ियो या डॉक्टर नहीं।"
+   ],
+   "coachedHeading": "लाइव कोचिंग के साथ करना चाहते हैं?",
+   "coached": [
+    "Iron Hour 60 मिनट, 1:1। मिनट 0 पर सेट-अप: कैमरा ऐसा कि मैं आपको सिर से पैर तक देख सकूँ, खाली फ़र्श, एक कुर्सी, झाड़ू का डंडा, हल्का डम्बल या बैग। 18 से कम उम्र? माता-पिता या अभिभावक सेट-अप के समय साथ रहें और घर पर ही रहें। मिनट 4 से वॉर्म-अप। 14 पर मुख्य लिफ़्ट। 28 पर एक्सेसरी। 50 पर कूल-डाउन।",
+    "Lean Reset महीने में 20 सेशन, 1:1, अगर ज़्यादा कोच्ड दिन चाहिए। Return 45 मिनट, 1:1, महीने में 12 वैकल्पिक-दिन सेशन, अगर सालों से ट्रेन नहीं किया। Open Floor छोटा ग्रुप।",
+    "मैं कोच हूँ, डॉक्टर या फ़िज़ियो नहीं। कोई मेडिकल समस्या हो, तो क्या सुरक्षित है यह डॉक्टर तय करते हैं। मैं पहले तकनीक सिखाता हूँ, रियल टाइम में, और माता-पिता को बताता हूँ कि हमने क्या किया। कोई डाइट नहीं, वज़न घटाने का दबाव नहीं। परफ़ॉर्मेंस बढ़ाने वाले पदार्थ: बिल्कुल नहीं।",
+    "Google Meet, Zoom या FaceTime पर लाइव कोचिंग, आपके लिविंग रूम में। हिंदी या अंग्रेज़ी में। IST पर। पक्का नहीं? 30 मिनट की कंसल्टेशन से शुरू करें। बातचीत है, ट्रेनिंग सेशन नहीं। बुकिंग समय रखती है; शुल्क सीधे तय होता है।"
+   ],
+   "safetyHeading": "शुरू करने से पहले",
+   "safety": "सामान्य जानकारी, मेडिकल सलाह नहीं। 18 से कम उम्र: माता-पिता या अभिभावक को पता हो और उनकी सहमति हो। NHS कहता है कि किसी स्वास्थ्य समस्या के साथ एक्सरसाइज़ के लिए मेडिकल सलाह लें, उम्र, क्षमता और अनुभव के हिसाब से एक्सरसाइज़ चुनें, धीरे शुरू करें और थोड़ा-थोड़ा बढ़ाएँ, और यह कि युवा वज़न इस्तेमाल कर सकते हैं अगर कोई योग्य वयस्क उन्हें सिखाए और निगरानी करे।{2} AAP कहती है कि अनियंत्रित हाई ब्लड प्रेशर, अनियंत्रित दौरे, कुछ दिल की बीमारियाँ, या पहले एंथ्रासाइक्लिन दवा से कीमोथेरेपी हुई हो, तो रेज़िस्टेंस ट्रेनिंग शुरू करने से पहले डॉक्टर से मिलें, और जटिल जन्मजात हृदय रोग में बच्चों के हृदय रोग विशेषज्ञ से। हाइपरट्रॉफ़िक कार्डियोमायोपैथी, पल्मोनरी हाइपरटेंशन या मार्फ़न सिंड्रोम में वह रेज़िस्टेंस ट्रेनिंग के ख़िलाफ़ सलाह देती है। बीमारी, चोट या ज़्यादा इस्तेमाल का कोई भी संकेत हो, तो ट्रेनिंग दोबारा शुरू करने से पहले उसकी जाँच हो।{3} AAP यह भी बताती है कि वज़न से जुड़ी ज़्यादातर दर्ज चोटें घर के जिम उपकरणों पर, बिना निगरानी और अक्सर असुरक्षित व्यवहार के साथ होती हैं।{3} इसलिए: घर पर अकेले भारी वज़न नहीं, मैक्स आज़माना नहीं, किसी भी बार पर कॉलर लगाकर। खाने, वज़न या शरीर की छवि को लेकर चिंता है, या जल्दी मसल्स बनाने का दबाव? अपने डॉक्टर से बात करें: AAP प्रतियोगी बॉडीबिल्डिंग की ओर आकर्षित किशोरों में इन बातों की सावधानी से जाँच की सलाह देती है।{3} सीने में दर्द, बेहोशी, बहुत तेज़ धड़कन, या मेहनत के मुक़ाबले बहुत ज़्यादा साँस फूलना: रुकें और तुरंत मेडिकल मदद लें।",
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ एंड कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच की क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों",
+    "how": "कैसे",
+    "dose": "डोज़",
+    "sources": "स्रोत",
+    "readIn": "इसे पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "व्हाट्सऐप पर पूछें",
+    "skip": "सीधे सामग्री पर जाएँ",
+    "crumb": "टीनएजर्स के लिए स्ट्रेंथ एक्सरसाइज़",
+    "whatsappText": "नमस्ते सुस्मित, मैंने टीनएजर्स के लिए स्ट्रेंथ ट्रेनिंग वाला लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ"
+   }
+  },
+  "es": {
+   "metaTitle": "Mejores ejercicios de fuerza para adolescentes | Online Fitness Worldwide",
+   "metaDescription": "7 ejercicios de fuerza para adolescentes: qué dicen la OMS, el NHS y la pediatría, cuánto hacer, cómo entrenar seguro con supervisión y una semana de ejemplo.",
+   "h1": "Mejores ejercicios de fuerza para adolescentes: 7 movimientos y una semana de ejemplo",
+   "dek": "Los adolescentes pueden entrenar fuerza con seguridad si la técnica va primero y los supervisa un adulto cualificado. Cargas ligeras, 1 a 3 repeticiones en reserva y la familia informada.",
+   "updated": "Actualizado el 18 de noviembre de 2026",
+   "intro": [
+    "¿Pueden levantar pesas los adolescentes? Los padres me lo preguntan mucho. La mejor pregunta es cómo. Bien hecho, el trabajo de fuerza construye un cuerpo que aguanta el deporte, los estirones y las horas sentado estudiando.",
+    "La Academia Americana de Pediatría (AAP) dice que niños y adolescentes pueden ganar fuerza con el entrenamiento de resistencia, con tasas de lesión bajas, si se pone el foco en la técnica correcta y hay buena supervisión. No son solo pesas: los ejercicios con el propio peso cuentan. La AAP señala también que las medidas de forma muscular de los jóvenes han bajado con los años.{3}",
+    "Los mitos. ¿Levantar pesas frena el crecimiento? La AAP dice que no se ha demostrado que los programas bien diseñados dañen los cartílagos de crecimiento, la estatura ni el corazón. ¿Los pondrá muy voluminosos? Antes de la pubertad, la fuerza viene sobre todo de que el sistema nervioso aprende a usar el músculo. Durante y después de la pubertad, el músculo también puede crecer.{3}",
+    "Qué piden las guías. La OMS: entre los 5 y los 17 años, una media de al menos 60 minutos al día de actividad moderada a vigorosa, sobre todo aeróbica, a lo largo de la semana, con actividad vigorosa y actividades que fortalezcan músculos y huesos al menos 3 días por semana.{1} El NHS dice lo mismo de los 5 a los 18 años. Añade que los jóvenes pueden usar pesas si un adulto cualificado les enseña a usarlas bien y los supervisa.{2}",
+    "Qué muestra la investigación. Un metaanálisis de ensayos controlados en menores de 18 años encontró un tamaño del efecto global de 1,12 del entrenamiento de resistencia sobre la fuerza muscular. La capacidad de ganar fuerza parecía aumentar con la edad y la maduración, sin un salto notable durante la pubertad. Los programas más largos y con más series lo hicieron mejor.{7} En deportistas jóvenes de 6 a 18 años, un metaanálisis de 43 estudios encontró efectos moderados sobre la fuerza y el salto, y pequeños sobre el sprint, la agilidad y el rendimiento propio del deporte.{8}",
+    "Lesiones. Una revisión de 25 estudios en deporte juvenil agrupó los ensayos aleatorizados de programas de entrenamiento neuromuscular: el riesgo de lesión en las piernas fue menor (razón de tasas de incidencia 0,64). En la rodilla, la estimación apuntaba en la misma dirección, pero no fue estadísticamente significativa.{10} Una revisión sobre deportistas jóvenes encontró que la mayoría de las lesiones descritas en jóvenes que levantaban pesas podían considerarse accidentales. Señaló que la falta de instrucción cualificada, con mala técnica y cargas inadecuadas, podría explicar en parte algunas de ellas.{6}",
+    "Salud. Una revisión de 110 estudios relacionó unos músculos más fuertes en los jóvenes con menos grasa corporal total y abdominal, mejores factores de riesgo cardiometabólico, mejor salud ósea y mayor autoestima. La relación con el dolor musculoesquelético y con las capacidades cognitivas fue inconsistente o incierta, y la mayoría de las relaciones fueron de bajas a moderadas.{9} Son relaciones en muchos jóvenes. No prueban que levantar pesas cause cada una.",
+    "El entrenamiento de fuerza juvenil tiene sus propias guías: de la Asociación Nacional de Fuerza y Acondicionamiento de EE. UU. (NSCA){4} y de un consenso internacional de 2014 respaldado por organizaciones de medicina deportiva, ciencias del ejercicio y pediatría.{5} La postura de la NSCA: muchos de los beneficios que los adultos obtienen del entrenamiento de fuerza están al alcance de niños y adolescentes que siguen pautas adaptadas a su edad.{4}",
+    "Esto es entrenamiento, no atención médica. ¿Eres madre o padre? Léelo con tu hijo o hija. Y lee primero \"Antes de empezar\"."
+   ],
+   "listHeading": "Los 7 mejores ejercicios de fuerza para adolescentes",
+   "items": [
+    {
+     "name": "Sentadilla goblet",
+     "why": "La base de saltar, esprintar y levantarse del suelo. Piernas, caderas y tronco. El primer ejercicio que hay que dominar.",
+     "how": "Primero sin peso, brazos al frente. Pies un poco más abiertos que las caderas. Siéntate entre los talones, pecho arriba, rodillas en la línea de los pies. Levántate. ¿12 repeticiones limpias? Sujeta una mancuerna ligera, o una mochila con unos libros, contra el pecho.",
+     "dose": "1 a 3 series de 8 a 12. Deja de 1 a 3 repeticiones buenas en reserva (RIR); para antes de que cambie la técnica."
+    },
+    {
+     "name": "Bisagra de cadera, luego peso muerto rumano",
+     "why": "Coger cosas del suelo con la espalda larga. Es el patrón del peso muerto y de un buen salto.",
+     "how": "Un palo de escoba a lo largo de la espalda, tocando cabeza, parte alta de la espalda y coxis. Rodillas sueltas. Lleva la cadera atrás hasta notar la parte de atrás de los muslos. Sube apretando los glúteos. ¿El palo no pierde el contacto en todo el recorrido? Entonces una mancuerna ligera.",
+     "dose": "1 a 3 series de 8 a 12. Deja de 1 a 3 repeticiones buenas en reserva (RIR); para antes de que cambie la técnica."
+    },
+    {
+     "name": "Flexiones: en la encimera, luego en el suelo",
+     "why": "Fuerza de empuje para el deporte y para levantarse del suelo. Con tu peso, a tu medida.",
+     "how": "Manos en la encimera o en una mesa firme, cuerpo recto de la cabeza a los talones. Baja el pecho hasta el borde. Empuja. ¿12 limpias? Más bajo: un escalón, luego el suelo.",
+     "dose": "1 a 3 series de 6 a 12. Baja de nivel solo cuando todas las repeticiones salgan rectas. Deja de 1 a 3 repeticiones buenas en reserva (RIR); para antes de que cambie la técnica."
+    },
+    {
+     "name": "Remo a una mano",
+     "why": "Tirar equilibra todo el empuje y todas las horas encorvado sobre el móvil o la mesa. Espalda alta y agarre.",
+     "how": "Una mano y una rodilla en un banco o una silla firme, espalda plana. Mancuerna o mochila en la otra mano. Tira hacia la cadera. Baja despacio.",
+     "dose": "1 a 3 series de 8 a 12 por lado. Deja de 1 a 3 repeticiones buenas en reserva (RIR); para antes de que cambie la técnica."
+    },
+    {
+     "name": "Zancada hacia atrás",
+     "why": "Una pierna cada vez, como al correr, cambiar de dirección o subir escaleras. Te enseña tu lado más débil.",
+     "how": "De pie, erguido. Apóyate en una pared si lo necesitas. Da un paso atrás y baja la rodilla de atrás hacia el suelo. Empuja con el pie de delante para subir. Todas las repeticiones de un lado y luego del otro.",
+     "dose": "1 a 2 series de 6 a 10 por lado. Deja de 1 a 3 repeticiones buenas en reserva (RIR); para antes de que cambie la técnica."
+    },
+    {
+     "name": "Dead bug (bicho muerto)",
+     "why": "Control del tronco: costillas y pelvis quietas mientras brazos y piernas se mueven. La AAP considera fundamental el trabajo del core para el deporte.{3}",
+     "how": "Tumbado boca arriba, brazos arriba, rodillas dobladas sobre las caderas. Suelta el aire y apoya suavemente la zona lumbar en el suelo. Baja despacio un brazo y la pierna contraria. Espalda quieta. Vuelve. Cambia de lado.",
+     "dose": "1 a 3 series de 6 a 10 por lado. Despacio. Deja de 1 a 3 repeticiones buenas en reserva (RIR); para antes de que cambie la técnica."
+    },
+    {
+     "name": "Saltitos pogo y aterrizajes suaves",
+     "why": "Aterrizar bien es una habilidad. Saltar, aterrizar y trabajar el equilibrio forman parte del entrenamiento neuromuscular integrado, que según la AAP puede mejorar las habilidades motrices y reducir el riesgo de lesión deportiva. También señala que los esfuerzos explosivos pueden castigar las zonas de crecimiento donde se insertan los tendones, hasta que el esqueleto está más cerca de madurar. Por eso los saltos son pequeños y pocos.{3}",
+     "how": "De pie, erguido. Rebotes pequeños sobre la parte delantera del pie, aterrizajes silenciosos. Luego un salto pequeño hacia arriba y aterriza suave: rodillas en la línea de los pies, cadera atrás. Aguanta 2 segundos. Pies silenciosos son buen control.",
+     "dose": "2 a 3 series de 5 aterrizajes, con zapatillas, en un suelo que no resbale. Descansa del todo entre series. Nada de saltos al cajón ni saltos desde una altura. ¿Te duele el talón o justo debajo de la rótula? Quita los saltos y díselo a tu madre, padre o tutor."
+    }
+   ],
+   "enoughHeading": "Cuánto, qué tan duro, cada cuánto",
+   "enough": [
+    "Cada cuánto: 2 a 3 sesiones por semana, en días no seguidos, de al menos 20 a 30 minutos. Se han visto ganancias de fuerza con programas de al menos 8 semanas, a 2 o 3 sesiones por semana. En la investigación que cita la AAP, los programas de más de 23 semanas dieron las mayores ganancias.{3}",
+    "Cuánto, para empezar: 1 a 2 series de 8 a 12 repeticiones con carga ligera mientras se aprende la técnica. Cuando la técnica es constante, sube el peso en pasos del 5 al 10% y baja un poco las repeticiones. Más adelante: 2 a 4 series de 6 a 12 con carga baja a moderada.{3} El trabajo pesado y con pocas repeticiones de los estudios con deportistas{8} llega mucho después, con mucha técnica y con entrenador en persona. No desde un blog.",
+    "Descanso: alrededor de 1 minuto entre series para quien empieza. Más a medida que el trabajo se hace más duro.{3}",
+    "Qué tan duro: deja 1 a 3 repeticiones en reserva. El fallo no es el objetivo. La técnica marca la carga. No el número de la mancuerna, ni el vídeo de un amigo.",
+    "Semáforo del dolor, de 0 a 10, durante y después de cada serie. Verde, 0 a 2: sigue. Ámbar, 3 a 5: mantén la dosis, no añadas. Rojo, más de 5, o peor a la mañana siguiente: retrocede un paso, con menos recorrido, menos carga o menos series. El dolor en una articulación, en el talón o justo debajo de la rótula, o cualquier dolor que cambie cómo te mueves, nunca es ámbar: para y que te lo revisen. Los colores son una regla práctica de entrenador, no un hallazgo de investigación.",
+    "Cuenta toda la semana. Deporte escolar, educación física, entrenamientos y gimnasio suman. La AAP pide contar el trabajo de fuerza dentro del tiempo total de entrenamiento, y recomienda al menos 1 a 2 días por semana sin deporte de competición ni entrenamiento específico.{3}",
+    "Calienta con movimiento. Termina con estiramientos suaves. Come y bebe lo suficiente: la AAP dice que la energía importa para recuperarse y para crecer.{3}",
+    "Y el objetivo aeróbico sigue en pie: una media de 60 minutos al día a lo largo de la semana, sobre todo aeróbica.{1} La fuerza va encima. No lo sustituye."
+   ],
+   "sampleHeading": "Una semana de ejemplo de fuerza para un adolescente",
+   "sampleLabel": "Solo un ejemplo. No es una prescripción. Ajústalo a la edad, la técnica, el deporte y la salud del adolescente, con su madre, padre o tutor al tanto.",
+   "sample": [
+    "Para un adolescente sano, sin ninguna condición médica que necesite la opinión de un médico, sin lesión actual y con su madre, padre o tutor de acuerdo. Encaja con el deporte del colegio.",
+    "Lunes, unos 30 minutos: calentamiento, sentadilla goblet, flexiones, remo a una mano, dead bug. 1 a 2 series de cada uno.",
+    "Martes: deporte, educación física o juego activo.",
+    "Miércoles: sin pesas. Caminar, bici, jugar.",
+    "Jueves, unos 30 minutos: calentamiento, saltitos pogo y aterrizajes suaves, bisagra de cadera, zancada hacia atrás, flexiones, dead bug. 1 a 2 series de cada uno.",
+    "Viernes: deporte o juego activo. Sábado: partido, o una caminata o paseo en bici largos.",
+    "Domingo: descanso total.",
+    "Límite de carga para esta semana de ejemplo: el propio peso, luego una mancuerna ligera o una mochila que puedas mover 12 veces limpias. Sin levantamientos máximos ni test de máximo, sin llegar al fallo, sin saltar desde una altura, sin entrenamientos contra reloj. ¿Cansado después de un partido? Quita una serie antes que una sesión.",
+    "Deja de 1 a 3 repeticiones buenas en reserva (RIR); para antes de que cambie la técnica.",
+    "Control del dolor: una molestia leve que se calma pronto está bien. Si el dolor aumenta durante una serie, hazlo más fácil: menos recorrido o menos carga. Dolor agudo, hinchazón, dolor que baja por un brazo o pierna, hormigueo, que la articulación ceda o se bloquee: para y hazte revisar. Soy entrenador, no fisioterapeuta ni médico."
+   ],
+   "coachedHeading": "¿Lo quieres con entrenador en directo?",
+   "coached": [
+    "Iron Hour son 60 minutos, 1:1. Preparación en el minuto 0: cámara para verte de la cabeza a los pies, suelo despejado, una silla, un palo de escoba, una mancuerna ligera o una mochila. ¿Menor de 18? Su madre, padre o tutor está en la preparación y se queda en casa. Calentamiento desde el minuto 4. Ejercicios principales en el 14. Accesorios en el 28. Vuelta a la calma en el 50.",
+    "Lean Reset son 20 sesiones al mes, 1:1, si quieres más días con entrenador. Return son 45 minutos, 1:1, 12 sesiones en días alternos al mes, si no has entrenado en años. Open Floor es un grupo pequeño.",
+    "Soy entrenador, no médico ni fisioterapeuta. Con una condición médica, el médico decide qué es seguro. Primero entreno la técnica, en tiempo real, y cuento a los padres lo que hicimos. Nada de dietas ni de bajar peso. Las sustancias para mejorar el rendimiento son un no rotundo.",
+    "Entrenamiento en directo por Google Meet, Zoom o FaceTime, en tu salón. En hindi o inglés. En horario IST. ¿No estás seguro? Empieza con una consulta de 30 minutos. Es una conversación, no una sesión de entrenamiento. La reserva guarda una hora; la tarifa se acuerda directamente."
+   ],
+   "safetyHeading": "Antes de empezar",
+   "safety": "Información general, no consejo médico. Menor de 18 años: su madre, padre o tutor debe saberlo y estar de acuerdo. El NHS dice que hay que pedir consejo médico para hacer ejercicio con un problema de salud, elegir ejercicio adecuado a la edad, la capacidad y la experiencia, empezar despacio e ir aumentando poco a poco, y que los jóvenes pueden usar pesas si un adulto cualificado les enseña y los supervisa.{2} La AAP indica consultar a un médico antes de empezar el entrenamiento de resistencia con hipertensión no controlada, convulsiones no controladas, ciertas enfermedades del corazón o quimioterapia previa con una antraciclina, y a un cardiólogo pediátrico en cardiopatías congénitas complejas. Desaconseja el entrenamiento de resistencia con miocardiopatía hipertrófica, hipertensión pulmonar o síndrome de Marfan. Cualquier señal de enfermedad, lesión o sobrecarga se revisa antes de volver a entrenar.{3} La AAP señala también que la mayoría de las lesiones descritas con pesas ocurren con equipos de gimnasio en casa, sin supervisión y a menudo con conductas poco seguras.{3} Así que: nada de levantar pesado a solas en casa, nada de buscar el máximo, topes puestos en cualquier barra. ¿Te preocupa la comida, el peso o la imagen corporal, o hay presión por ganar músculo rápido? Habla con tu médico: la AAP pide vigilar con cuidado estas señales en los adolescentes que se interesan por el culturismo de competición.{3} Dolor en el pecho, desmayo, el corazón muy acelerado o una falta de aire desproporcionada al esfuerzo: para y busca ayuda médica ya.",
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ningún organismo respalda este negocio ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué",
+    "how": "Cómo",
+    "dose": "Dosis",
+    "sources": "Fuentes",
+    "readIn": "Léelo en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "skip": "Saltar al contenido",
+    "crumb": "Fuerza para adolescentes",
+    "whatsappText": "Hola Susmit, leí el artículo sobre fuerza para adolescentes y quiero reservar una consulta"
+   }
+  },
+  "zh": {
+   "metaTitle": "青少年最佳力量训练动作 | Online Fitness Worldwide",
+   "metaDescription": "7个适合青少年的力量训练动作：WHO、NHS和儿科指南怎么说，练多少，如何在监督下安全训练，以及一周示例。",
+   "h1": "青少年最佳力量训练：7个动作和一周示例",
+   "dek": "只要技术优先、有合格的成年人监督，青少年可以安全地进行力量训练。轻负重，保留1到3次余力，让家长了解情况。",
+   "updated": "更新于2026年11月18日",
+   "intro": [
+    "青少年能举重吗？家长常问我这个问题。更好的问题是：怎么练。练得对，力量训练能让身体扛得住运动、长个子的阶段，以及久坐学习的长时间。",
+    "美国儿科学会（AAP）表示，只要重视正确技术并有良好监督，儿童和青少年可以通过抗阻训练增强力量，受伤率也低。不只是举重，自重动作也算。AAP还指出，多年来年轻人的肌肉体能指标一直在下降。{3}",
+    "误区。举重会让孩子长不高吗？AAP说，没有证据表明设计合理的训练会损害骺板（生长板）、身高或心脏。会练得太壮吗？青春期前，力量主要来自神经系统学会调动肌肉。青春期中和之后，肌肉本身也会增长。{3}",
+    "指南怎么说。WHO：5到17岁的孩子，一周内平均每天至少60分钟中等到较大强度、以有氧为主的活动，每周至少3天进行较大强度活动和强化肌肉与骨骼的活动。{1} NHS对5到18岁的建议相同，并补充：在合格成年人教会正确使用方法并进行监督的前提下，年轻人可以使用器械负重。{2}",
+    "研究显示了什么。一项针对18岁以下人群对照试验的荟萃分析发现，抗阻训练对肌肉力量的总体效应量为1.12。获得力量的能力似乎随年龄和成熟度增加，青春期并没有明显的跃升。训练周期更长、组数更多的效果更好。{7} 在6到18岁的青少年运动员中，一项纳入43项研究的荟萃分析发现，对力量和跳跃的效果为中等，对冲刺、灵敏性和专项表现的效果较小。{8}",
+    "受伤。一项纳入25项青少年运动研究的综述，汇总了神经肌肉训练项目的随机对照试验：下肢受伤风险更低（发生率比0.64）。膝关节受伤的估计方向相同，但没有统计学意义。{10} 一项关于青少年运动员的综述发现，举重的年轻人中报告的大多数伤害可归为意外，并指出缺乏合格指导、技术不良和负重不当，可能部分解释了其中一些伤害。{6}",
+    "健康。一项纳入110项研究的综述发现，年轻人肌肉更强与更少的全身和腹部脂肪、更好的心血管代谢风险因素、更好的骨骼健康以及更高的自尊相关。与肌肉骨骼疼痛和认知能力的关联不一致或不确定，而且多数关联为低到中等。{9} 这是在许多年轻人身上看到的关联，并不证明每一项都是举重造成的。",
+    "青少年抗阻训练有专门的指南：来自美国国家体能协会（NSCA）{4}，以及2014年一项得到运动医学、运动科学和儿科组织认可的国际共识。{5} NSCA的观点：成年人从抗阻训练中获得的许多益处，遵循适龄指南的儿童和青少年同样可以获得。{4}",
+    "这是教练指导，不是医疗。你是家长？请和孩子一起读。并先读“开始之前”。"
+   ],
+   "listHeading": "青少年的7个最佳力量训练动作",
+   "items": [
+    {
+     "name": "高脚杯深蹲",
+     "why": "跳跃、冲刺和从地上站起来的基础。腿、髋和躯干。最先要掌握的动作。",
+     "how": "先不负重，双臂前伸。双脚略宽于髋。在两脚跟之间坐下去，胸口抬起，膝盖朝脚尖方向。站起。能标准地做12次？把一个轻哑铃或装了几本书的背包抱在胸前。",
+     "dose": "1到3组，每组8到12次。保留1到3次标准动作的余力（RIR）；动作变形前就停。"
+    },
+    {
+     "name": "髋铰链，然后罗马尼亚硬拉",
+     "why": "背部保持伸长地捡起东西。这是硬拉的动作模式，也是好的跳跃的基础。",
+     "how": "把扫帚杆沿背部放好，接触头部、上背和尾骨。膝盖微屈。臀部向后推，直到大腿后侧有拉伸感。夯紧臀部站起。全程扫帚杆都贴着？再换成轻哑铃。",
+     "dose": "1到3组，每组8到12次。保留1到3次标准动作的余力（RIR）；动作变形前就停。"
+    },
+    {
+     "name": "俯卧撑：先撑台面，再到地面",
+     "why": "运动和从地上起身需要的推力。用自身体重，按你的水平调整。",
+     "how": "双手撑在厨房台面或结实的桌子上，身体从头到脚跟成一条直线。胸口下到台边。推起。能标准做12次？再放低：台阶，然后地面。",
+     "dose": "1到3组，每组6到12次。只有每一次都保持身体笔直时才降低高度。保留1到3次标准动作的余力（RIR）；动作变形前就停。"
+    },
+    {
+     "name": "单臂划船",
+     "why": "拉的动作平衡所有的推，也平衡低头看手机、伏案的时间。上背和握力。",
+     "how": "一只手和一侧膝盖撑在结实的长凳或椅子上，背部平直。另一只手拿哑铃或背包。拉向髋部。慢慢放下。",
+     "dose": "每侧1到3组，每组8到12次。保留1到3次标准动作的余力（RIR）；动作变形前就停。"
+    },
+    {
+     "name": "后撤弓步",
+     "why": "一次一条腿，就像跑步、变向和上楼梯。能让你看出较弱的一侧。",
+     "how": "站直。需要的话扶墙。一只脚向后迈，后侧膝盖向地面下沉。用前脚发力站起。一侧做完所有次数，再换另一侧。",
+     "dose": "每侧1到2组，每组6到10次。保留1到3次标准动作的余力（RIR）；动作变形前就停。"
+    },
+    {
+     "name": "死虫式",
+     "why": "躯干控制：手脚移动时，肋骨和骨盆保持不动。AAP认为核心训练是运动的基础。{3}",
+     "how": "仰卧，双臂向上，屈膝使膝盖位于髋部上方。呼气，下背轻轻贴向地面。慢慢放下一侧手臂和对侧腿。背部不动。还原。换边。",
+     "dose": "每侧1到3组，每组6到10次。慢。保留1到3次标准动作的余力（RIR）；动作变形前就停。"
+    },
+    {
+     "name": "小跳和轻柔落地",
+     "why": "落地是一种技能。跳跃、落地和平衡练习属于综合神经肌肉训练，AAP表示它能改善运动技能并降低运动损伤风险。AAP也指出，在骨骼接近成熟之前，爆发性用力可能给肌腱附着处的生长区带来压力。所以跳跃要小、要少。{3}",
+     "how": "站直。用前脚掌做小幅弹跳，落地无声。然后向上小跳一次，轻柔落地：膝盖朝脚尖方向，臀部向后。停住2秒。落地安静就说明控制好。",
+     "dose": "2到3组，每组5次落地，穿鞋，在防滑地面上。组间充分休息。不跳箱，不从高处往下跳。脚跟疼，或膝盖骨正下方疼？先不做跳跃，并告诉家长。"
+    }
+   ],
+   "enoughHeading": "练多少、多用力、多久一次",
+   "enough": [
+    "多久一次：每周2到3次，不要连续两天，每次至少20到30分钟。研究显示，每周2到3次、至少8周的训练能提高力量。在AAP引用的研究中，超过23周的训练计划力量提升最大。{3}",
+    "开始时练多少：学技术时，轻负重，1到2组，每组8到12次。技术稳定后，每次增加5%到10%的重量，并稍微减少次数。之后：低到中等负重，2到4组，每组6到12次。{3} 运动员研究中那种大重量、低次数的训练{8}要晚得多，需要很高的技术水平和面对面的教练指导，不是看博客就能练的。",
+    "休息：初学者组间约1分钟。训练越难，休息越长。{3}",
+    "多用力：保留1到3次余力。目标不是力竭。负重由技术决定，不是哑铃上的数字，也不是朋友的视频。",
+    "红绿灯自查，0到10分，每组进行中和结束后检查疼痛。绿灯，0到2：继续。黄灯，3到5：保持当前量，不再增加。红灯，超过5，或第二天早上更重：退一步，减小幅度、减轻负重或减少组数。关节疼、脚跟疼、膝盖骨正下方疼，或任何改变你动作方式的疼痛，都不算黄灯：停下来并去检查。这些颜色是教练的经验法则，不是研究结论。",
+    "把整周算进去。学校运动、体育课、训练和健身房都会累积。AAP建议把力量训练计入总训练时间，并建议每周至少有1到2天不参加竞技运动和专项训练。{3}",
+    "用动态活动热身，用轻松的拉伸放松。吃够、喝够：AAP表示，充足的能量对恢复和成长都很重要。{3}",
+    "有氧目标依然有效：一周内平均每天60分钟，以有氧为主。{1} 力量训练是在此基础上增加，而不是取代它。"
+   ],
+   "sampleHeading": "青少年力量训练的一周示例",
+   "sampleLabel": "仅为示例，不是处方。请根据青少年的年龄、技术、运动项目和健康状况调整，并让父母或监护人参与。",
+   "sample": [
+    "适用于健康的青少年：没有需要医生意见的疾病，目前没有受伤，并且父母或监护人同意。可以配合学校的运动安排。",
+    "周一，约30分钟：热身、高脚杯深蹲、俯卧撑、单臂划船、死虫式。每个动作1到2组。",
+    "周二：运动、体育课或活跃的游戏。",
+    "周三：不做负重训练。走路、骑车、玩。",
+    "周四，约30分钟：热身、小跳和轻柔落地、髋铰链、后撤弓步、俯卧撑、死虫式。每个动作1到2组。",
+    "周五：运动或活跃的游戏。周六：比赛日，或长时间步行、骑车。",
+    "周日：完全休息。",
+    "本示例周的负重上限：自身体重，然后是能标准完成12次的轻哑铃或背包。不做最大重量、不测最大重量、不练到力竭、不从高处往下跳、不做计时训练。比赛后很累？先减一组，而不是取消一次训练。",
+    "保留1到3次标准动作的余力（RIR）；动作变形前就停。",
+    "疼痛自查：轻微、很快消退的不适没关系。组内疼痛加重，就降低难度：减小幅度或减轻负重。尖锐疼痛、肿胀、疼痛沿手臂或腿向下放射、麻木、关节打软或卡住，就停下并去检查。我是教练，不是理疗师或医生。"
+   ],
+   "coachedHeading": "想要实时指导吗？",
+   "coached": [
+    "Iron Hour为60分钟一对一。第0分钟准备：摄像头能拍到你从头到脚，空出的地面，一把椅子，一根扫帚杆，一个轻哑铃或背包。未满18岁？父母或监护人在准备时到场，并且一直留在家中。第4分钟起热身。第14分钟主项。第28分钟辅助动作。第50分钟放松。",
+    "Lean Reset每月20次一对一，若你想更频繁的教练日。Return为45分钟一对一，每月12次隔日课，若你多年未训练。Open Floor是小团体。",
+    "我是教练，不是医生或理疗师。有疾病时，由医生决定什么是安全的。我先教技术，实时纠正，并告诉家长我们练了什么。不节食，不减重。提高成绩的违禁物质：绝对不行。",
+    "通过Google Meet、Zoom或FaceTime在你客厅直播指导。印地语或英语。印度标准时间。还不确定？先预约30分钟咨询。那是对话，不是训练课。预约锁定时间；费用当面约定。"
+   ],
+   "safetyHeading": "开始之前",
+   "safety": "一般信息，不是医疗建议。未满18岁：父母或监护人应知情并同意。NHS建议：有健康问题时运动前先咨询医生；选择适合年龄、能力和经验的运动；慢慢开始，逐步增加；在合格成年人教导和监督下，年轻人可以使用器械负重。{2} AAP建议：有未控制的高血压、未控制的癫痫发作、某些心脏疾病，或曾接受蒽环类药物化疗，在开始抗阻训练前先咨询医生；复杂先天性心脏病应咨询儿科心脏科医生。患有肥厚型心肌病、肺动脉高压或马凡综合征时，AAP不建议进行抗阻训练。出现任何疾病、受伤或过度使用的迹象，都应先检查再恢复训练。{3} AAP还指出，报告的大多数举重相关伤害发生在家用健身器材上，在无人监督的环境中，且常伴有不安全的行为。{3} 所以：不要在家独自举大重量，不要冲击极限，任何杠铃都要上锁扣。担心饮食、体重或体型，或者有快速增肌的压力？请和医生谈谈：AAP建议对热衷竞技健美的青少年仔细筛查这些问题。{3} 胸痛、晕倒、心跳非常快，或与运动强度不相称的气喘：立即停止并寻求医疗帮助。",
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖与生物力学）。这是教练持有的资质。这两个机构均不背书本业务或本文。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么",
+    "how": "怎么做",
+    "dose": "剂量",
+    "sources": "来源",
+    "readIn": "阅读语言",
+    "programs": "查看课程",
+    "whatsapp": "在WhatsApp上询问",
+    "skip": "跳到正文",
+    "crumb": "青少年力量训练",
+    "whatsappText": "你好Susmit，我读了关于青少年力量训练的文章，想预约一次咨询"
+   }
+  },
+  "ja": {
+   "metaTitle": "10代におすすめの筋トレ | Online Fitness Worldwide",
+   "metaDescription": "10代向けの筋トレ7種目：WHO、NHS、小児科のガイダンスの内容、量の目安、大人の見守りのもとで安全に行う方法、1週間の例。",
+   "h1": "10代におすすめの筋トレ：7つの動きと1週間の例",
+   "dek": "技術を最優先にし、資格のある大人が見守れば、10代も安全に筋トレができます。軽い負荷、余力1〜3回、保護者も状況を把握。",
+   "updated": "2026年11月18日更新",
+   "intro": [
+    "10代でもウエイトを持っていいの？保護者の方からよく聞かれます。大事なのは「どうやるか」です。正しく行えば、筋トレはスポーツ、急に背が伸びる時期、長時間の勉強に耐えられる体をつくります。",
+    "米国小児科学会（AAP）は、正しい技術を重視し、しっかり見守れば、子どもや10代は抵抗運動（レジスタンストレーニング）で筋力を伸ばせ、けがの発生率も低いとしています。ウエイトだけではありません。自体重の動きも含まれます。AAPは、若者の筋力の指標が年々低下していることにも触れています。{3}",
+    "よくある誤解。筋トレで背が伸びなくなる？AAPによると、適切に設計されたプログラムが成長軟骨（成長板）、身長、心臓に悪影響を与えるとは示されていません。ムキムキになりすぎる？思春期前の筋力向上は、主に神経系が筋肉を使えるようになることによるものです。思春期以降は、筋肉そのものも大きくなりえます。{3}",
+    "ガイドラインの目安。WHO：5〜17歳は、1週間を通じて1日平均60分以上の中強度から高強度の、主に有酸素性の身体活動を行い、高強度の活動と筋肉・骨を強くする活動を週3日以上取り入れること。{1} NHSも5〜18歳に同じ目安を示し、資格のある大人が正しい使い方を教えて見守るなら、若者もウエイトを使ってよいとしています。{2}",
+    "研究でわかっていること。18歳未満を対象にした対照試験のメタ分析では、レジスタンストレーニングの筋力への全体の効果量は1.12でした。筋力を伸ばす力は年齢と成熟とともに高まるようで、思春期に目立った急上昇は見られませんでした。期間が長く、セット数が多いプログラムほど結果が良好でした。{7} 6〜18歳の若いアスリートでは、43研究のメタ分析で、筋力とジャンプへの効果は中程度、スプリント、敏捷性、競技特有のパフォーマンスへの効果は小さいとされました。{8}",
+    "けが。青少年スポーツの25研究をまとめたレビューは、神経筋トレーニングのランダム化比較試験を統合しました。脚のけがのリスクは低くなりました（発生率比0.64）。膝のけがも同じ方向の推定でしたが、統計的に有意ではありませんでした。{10} 若いアスリートに関するレビューでは、ウエイトを扱う若者で報告されたけがの多くは事故に分類できるとし、資格のある指導の不足、悪い技術、不適切な負荷が一部のけがを部分的に説明しうると述べています。{6}",
+    "健康。110研究のレビューでは、若者の筋力の高さが、全身と腹部の脂肪の少なさ、心血管代謝リスク因子の良好さ、骨の健康、自己肯定感の高さと関連していました。筋骨格の痛みや認知能力との関連は一貫しないか不確かで、関連の多くは弱〜中程度でした。{9} 多くの若者に見られる関連であり、筋トレがその一つひとつの原因だという証明ではありません。",
+    "若者のレジスタンストレーニングには専用のガイドラインがあります。米国ストレングス＆コンディショニング協会（NSCA）のもの{4}と、スポーツ医学、運動科学、小児科の団体が支持した2014年の国際コンセンサスです。{5} NSCAの立場：大人がレジスタンストレーニングから得る効果の多くは、年齢に応じたガイドラインに従う子どもや10代も得られる、というものです。{4}",
+    "これはコーチングであり、医療ではありません。保護者の方はお子さんと一緒に読んでください。そしてまず「始める前に」をお読みください。"
+   ],
+   "listHeading": "10代におすすめの筋トレ7選",
+   "items": [
+    {
+     "name": "ゴブレットスクワット",
+     "why": "ジャンプ、ダッシュ、床から立ち上がる動きの土台。脚、股関節、体幹。最初に身につけたい種目。",
+     "how": "まずは負荷なしで、腕を前に。足は腰幅より少し広く。かかとの間に座るように下がり、胸を起こし、膝はつま先の方向へ。立ち上がる。きれいに12回できたら、軽いダンベルか、本を数冊入れたリュックを胸の前で持ちます。",
+     "dose": "8〜12回を1〜3セット。良いフォームであと1〜3回できる余力（RIR）を残し、フォームが崩れる前に止める。"
+    },
+    {
+     "name": "ヒップヒンジ、次にルーマニアンデッドリフト",
+     "why": "背中を長く保ったまま物を持ち上げる。デッドリフトの動きであり、良いジャンプの土台でもあります。",
+     "how": "ほうきの柄を背中に沿わせ、頭、背中の上部、尾てい骨に触れるように。膝は軽くゆるめる。太ももの裏が伸びるまでお尻を後ろへ引く。お尻を締めて立つ。最後まで柄が離れなければ、軽いダンベルへ。",
+     "dose": "8〜12回を1〜3セット。良いフォームであと1〜3回できる余力（RIR）を残し、フォームが崩れる前に止める。"
+    },
+    {
+     "name": "腕立て伏せ：カウンター、次に床",
+     "why": "スポーツや床から起き上がるための押す力。自体重で、自分のレベルに合わせて。",
+     "how": "キッチンカウンターか丈夫な机に手をつき、頭からかかとまで一直線。胸を縁まで下ろす。押し返す。きれいに12回できたら低くする：段差、それから床。",
+     "dose": "6〜12回を1〜3セット。毎回体がまっすぐ保てるときだけ低くします。良いフォームであと1〜3回できる余力（RIR）を残し、フォームが崩れる前に止める。"
+    },
+    {
+     "name": "ワンアームロウ",
+     "why": "引く動きは、押す動きや、スマホや机に向かって前かがみになる時間のバランスを取ります。背中の上部と握力。",
+     "how": "丈夫なベンチか椅子に片手と片膝をつき、背中は平らに。反対の手にダンベルかリュック。腰に向かって引く。ゆっくり下ろす。",
+     "dose": "左右それぞれ8〜12回を1〜3セット。良いフォームであと1〜3回できる余力（RIR）を残し、フォームが崩れる前に止める。"
+    },
+    {
+     "name": "リバースランジ",
+     "why": "片脚ずつ。走る、方向転換、階段と同じです。弱い側がわかります。",
+     "how": "まっすぐ立つ。必要なら壁に手を添える。片足を後ろに引き、後ろの膝を床に向けて下ろす。前の足で押して立つ。片側の回数をすべて終えてから反対側。",
+     "dose": "左右それぞれ6〜10回を1〜2セット。良いフォームであと1〜3回できる余力（RIR）を残し、フォームが崩れる前に止める。"
+    },
+    {
+     "name": "デッドバグ",
+     "why": "体幹のコントロール：手脚が動いても肋骨と骨盤は動かさない。AAPは体幹トレーニングをスポーツの基礎としています。{3}",
+     "how": "仰向けになり、腕は上へ、膝は股関節の上で曲げる。息を吐いて腰を床に軽く押しつける。片腕と反対側の脚をゆっくり下ろす。背中は動かさない。戻す。左右を替える。",
+     "dose": "左右それぞれ6〜10回を1〜3セット。ゆっくり。良いフォームであと1〜3回できる余力（RIR）を残し、フォームが崩れる前に止める。"
+    },
+    {
+     "name": "ポゴホップとやわらかい着地",
+     "why": "上手に着地するのは技術です。ジャンプ、着地、バランスの練習は統合的神経筋トレーニングの一部で、AAPは運動スキルを高め、スポーツのけがのリスクを下げうるとしています。一方で、骨格が成熟に近づくまでは、爆発的な力が腱の付着部にある成長部位に負担をかけうるとも述べています。だからジャンプは小さく、少なく。{3}",
+     "how": "まっすぐ立つ。足の前側で小さく弾み、着地は静かに。次に小さく真上に跳び、やわらかく着地：膝はつま先の方向、お尻は後ろへ。2秒止まる。静かな足音は良いコントロールのしるしです。",
+     "dose": "着地5回を2〜3セット。靴を履き、滑りにくい床で。セット間はしっかり休む。ボックスジャンプや高い所から跳び降りるのはなし。かかと、または膝のお皿のすぐ下が痛む？ジャンプは外して、保護者に伝えましょう。"
+    }
+   ],
+   "enoughHeading": "量、強さ、頻度",
+   "enough": [
+    "頻度：週2〜3回、連続しない日に、1回20〜30分以上。週2〜3回で少なくとも8週間のプログラムで筋力の向上が示されています。AAPが引用する研究では、23週を超えるプログラムで最も大きな向上が得られました。{3}",
+    "始めの量：技術を覚える間は、軽い負荷で8〜12回を1〜2セット。技術が安定したら、5〜10%ずつ重さを増やし、回数を少し減らします。その後：低〜中程度の負荷で6〜12回を2〜4セット。{3} アスリートの研究にある高重量・低回数のトレーニング{8}はずっと先の話で、高い技術と対面での指導が前提です。ブログを見てやるものではありません。",
+    "休息：初心者はセット間に約1分。きつくなるほど長めに。{3}",
+    "強さ：余力を1〜3回残す。限界まで追い込むのが目的ではありません。負荷を決めるのは技術です。ダンベルの数字でも、友達の動画でもありません。",
+    "信号チェック、0〜10で、各セット中とセット後の痛みを確認。青、0〜2：続ける。黄、3〜5：同じ量を維持し、増やさない。赤、5を超える、または翌朝に悪化：一段階戻し、可動域、負荷、セット数のどれかを減らす。関節の痛み、かかとの痛み、膝のお皿のすぐ下の痛み、動き方が変わるような痛みは、黄色ではありません。中止して診てもらいましょう。色分けはコーチの経験則であり、研究結果ではありません。",
+    "1週間全体で数える。部活、体育、練習、ジムはすべて積み重なります。AAPは筋トレを総練習時間に含めて数えること、そして週に少なくとも1〜2日は競技スポーツや競技特有の練習を休むことを勧めています。{3}",
+    "ウォームアップは動きながら。クールダウンは軽いストレッチで。しっかり食べて飲む：AAPは、回復と成長にはエネルギーが大切だとしています。{3}",
+    "そして有酸素の目安はそのまま：1週間を通じて1日平均60分、主に有酸素性の活動。{1} 筋トレはその上に足すもので、代わりではありません。"
+   ],
+   "sampleHeading": "10代の筋トレ：1週間の例",
+   "sampleLabel": "あくまで例です。処方ではありません。保護者も交えて、本人の年齢、技術、競技、健康状態に合わせて調整してください。",
+   "sample": [
+    "医師の意見が必要な持病がなく、現在けががなく、保護者が同意している健康な10代向け。部活と両立できます。",
+    "月曜、約30分：ウォームアップ、ゴブレットスクワット、腕立て伏せ、ワンアームロウ、デッドバグ。各1〜2セット。",
+    "火曜：スポーツ、体育、または体を動かす遊び。",
+    "水曜：ウエイトはなし。歩く、自転車、遊ぶ。",
+    "木曜、約30分：ウォームアップ、ポゴホップとやわらかい着地、ヒップヒンジ、リバースランジ、腕立て伏せ、デッドバグ。各1〜2セット。",
+    "金曜：スポーツか体を動かす遊び。土曜：試合、または長めの散歩やサイクリング。",
+    "日曜：完全休養。",
+    "この1週間の例の負荷の上限：自体重、次にきれいに12回動かせる軽いダンベルかリュック。最大挙上や最大重量テストはなし、限界まで追い込まない、高い所から跳び降りない、タイムを競うワークアウトはなし。試合のあとで疲れている？セッションを休む前に、まず1セット減らしましょう。",
+    "良いフォームであと1〜3回できる余力（RIR）を残し、フォームが崩れる前に止める。",
+    "痛みのチェック：すぐに治まる軽い違和感なら大丈夫。セット中に痛みが強まるなら、可動域か負荷を減らして易しくしましょう。鋭い痛み、腫れ、腕や脚に広がる痛み、しびれ、関節が抜ける感じや引っかかりがあれば中止して診てもらってください。私はコーチであり、理学療法士や医師ではありません。"
+   ],
+   "coachedHeading": "ライブ指導で取り組みたいですか？",
+   "coached": [
+    "Iron Hourは60分の1対1。0分目に準備：頭から足まで映るカメラ、片付いた床、椅子、ほうきの柄、軽いダンベルかリュック。18歳未満？保護者が準備に立ち会い、家にいてください。4分目からウォームアップ。14分目にメイン種目。28分目に補助種目。50分目にクールダウン。",
+    "Lean Resetは月20回の1対1。もっとコーチ付きの日が欲しいとき。Returnは45分の1対1、月12回の隔日。何年も鍛えていないとき。Open Floorは少人数グループ。",
+    "私はコーチであり、医師や理学療法士ではありません。持病がある場合、何が安全かは医師が決めます。まず技術をリアルタイムで指導し、何をしたかを保護者に伝えます。食事制限も減量もなし。パフォーマンス向上のための薬物は絶対にだめです。",
+    "Google Meet、Zoom、FaceTimeで、あなたのリビングからライブ指導。ヒンディー語または英語。IST。まだ迷う？30分の相談から。会話であり、トレーニングセッションではない。予約は時間を確保し、料金は直接合意します。"
+   ],
+   "safetyHeading": "始める前に",
+   "safety": "一般的な情報であり、医学的なアドバイスではありません。18歳未満：保護者が把握し、同意していること。NHSは、健康上の問題がある場合は運動について医師に相談すること、年齢、能力、経験に合った運動を選ぶこと、ゆっくり始めて少しずつ増やすこと、そして資格のある大人が教えて見守るなら若者もウエイトを使ってよいことを挙げています。{2} AAPは、コントロールされていない高血圧、コントロールされていないけいれん発作、特定の心疾患、アントラサイクリン系薬剤による化学療法歴がある場合は、レジスタンストレーニングを始める前に医師に相談すること、複雑な先天性心疾患では小児循環器医に相談することを勧めています。肥大型心筋症、肺高血圧症、マルファン症候群ではレジスタンストレーニングを勧めていません。病気、けが、使いすぎの兆候があれば、練習を再開する前に確認します。{3} AAPはまた、報告されたウエイト関連のけがの多くが、家庭用のトレーニング器具で、見守りのない状況で、しばしば危険な行動とともに起きていると述べています。{3} だから：家で一人で重いものを挙げない、最大重量に挑戦しない、バーには必ずカラーを付ける。食事、体重、体型が気になる、または早く筋肉をつけなければというプレッシャーがある？医師に相談してください。AAPは、競技ボディビルに惹かれる10代について、こうした点を慎重に確認するよう求めています。{3} 胸の痛み、失神、ひどい動悸、運動に見合わない息切れがあれば、すぐに中止して医療機関に助けを求めてください。",
+   "credentialsNote": "ASCAレベル1（ストレングス＆コンディショニング）とACE（解剖学・生体力学）。これらはコーチが保有する資格です。いずれの団体も本事業や本稿を推奨していません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ",
+    "how": "やり方",
+    "dose": "用量",
+    "sources": "出典",
+    "readIn": "この記事を読む言語",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問",
+    "skip": "本文へスキップ",
+    "crumb": "10代の筋トレ",
+    "whatsappText": "こんにちはSusmitさん、10代の筋トレの記事を読みました。相談を予約したいです"
+   }
+  },
+  "gu": {
+   "metaTitle": "ટીનેજર્સ માટે બેસ્ટ સ્ટ્રેન્થ કસરતો | Online Fitness Worldwide",
+   "metaDescription": "ટીનેજર્સ માટે 7 સ્ટ્રેન્થ મૂવ: WHO, NHS અને બાળરોગ ગાઇડન્સ શું કહે છે, કેટલું કરવું, દેખરેખ સાથે સુરક્ષિત કેવી રીતે રહેવું, અને એક સેમ્પલ અઠવાડિયું.",
+   "h1": "ટીનેજર્સ માટે સૌથી સારી સ્ટ્રેન્થ કસરતો: 7 મૂવ અને એક સેમ્પલ અઠવાડિયું",
+   "dek": "ટેક્નિક પહેલાં આવે અને કોઈ લાયક પુખ્ત વ્યક્તિ દેખરેખ રાખે, તો ટીનેજર્સ સુરક્ષિત રીતે સ્ટ્રેન્થ ટ્રેનિંગ કરી શકે. હળવું વજન, 1 થી 3 રેપ બાકી, અને માતા-પિતાને પૂરી જાણ.",
+   "updated": "અપડેટ 18 નવેમ્બર 2026",
+   "intro": [
+    "શું ટીનેજર્સ વજન ઉપાડી શકે? માતા-પિતા મને આ ઘણું પૂછે છે. વધુ સારો સવાલ છે: કેવી રીતે. સાચી રીતે કરેલી સ્ટ્રેન્થ ટ્રેનિંગ એવું શરીર બનાવે છે જે રમત, ઝડપથી વધતી ઊંચાઈ અને ભણવાના લાંબા કલાકો સહન કરી શકે.",
+    "અમેરિકન એકેડેમી ઑફ પીડિયાટ્રિક્સ (AAP) કહે છે કે બાળકો અને કિશોરો રેઝિસ્ટન્સ ટ્રેનિંગથી તાકાત વધારી શકે છે, અને ઈજાનો દર ઓછો રહે છે, જ્યારે ધ્યાન સાચી ટેક્નિક પર હોય અને સારી દેખરેખ હોય. આ ફક્ત વજન નથી. પોતાના શરીરના વજનવાળી કસરતો પણ ગણાય છે. AAP એ પણ નોંધે છે કે વર્ષો દરમિયાન યુવાનોની સ્નાયુ ફિટનેસના માપ ઘટ્યા છે.{3}",
+    "ભ્રમ. શું વજન ઉપાડવાથી ઊંચાઈ અટકી જાય? AAP કહે છે કે સારી રીતે બનાવેલા પ્રોગ્રામથી ગ્રોથ પ્લેટ, ઊંચાઈ કે હૃદયને નુકસાન થતું દેખાયું નથી. શું બહુ ભારે-ભરખમ થઈ જશે? પ્યુબર્ટી પહેલાં તાકાત મુખ્યત્વે એટલે વધે છે કે નર્વસ સિસ્ટમ સ્નાયુનો ઉપયોગ કરતાં શીખે છે. પ્યુબર્ટી દરમિયાન અને પછી સ્નાયુ પોતે પણ વધી શકે છે.{3}",
+    "ગાઇડલાઇન શું કહે છે. WHO: 5 થી 17 વર્ષનાં બાળકો અને કિશોરોએ આખા અઠવાડિયામાં સરેરાશ રોજ ઓછામાં ઓછી 60 મિનિટ મધ્યમથી તીવ્ર, મોટે ભાગે ઍરોબિક પ્રવૃત્તિ કરવી જોઈએ, અને અઠવાડિયામાં ઓછામાં ઓછા 3 દિવસ તીવ્ર પ્રવૃત્તિ અને સ્નાયુ તથા હાડકાં મજબૂત કરતી પ્રવૃત્તિઓ.{1} NHS 5 થી 18 વર્ષ માટે આ જ કહે છે. સાથે એ પણ કે યુવાનો વજન વાપરી શકે, જો કોઈ લાયક પુખ્ત વ્યક્તિ તેમને સાચી રીત શીખવે અને દેખરેખ રાખે.{2}",
+    "રિસર્ચ શું બતાવે છે. 18 વર્ષથી ઓછી ઉંમરનાં લોકો પરના કંટ્રોલ્ડ ટ્રાયલ્સના એક મેટા-એનાલિસિસમાં સ્નાયુની તાકાત પર રેઝિસ્ટન્સ ટ્રેનિંગનો કુલ ઇફેક્ટ સાઇઝ 1.12 મળ્યો. તાકાત વધારવાની ક્ષમતા ઉંમર અને પરિપક્વતા સાથે વધતી દેખાઈ, પ્યુબર્ટીમાં કોઈ ખાસ ઉછાળો નહીં. લાંબા પ્રોગ્રામ અને વધુ સેટ વધુ સારા રહ્યા.{7} 6 થી 18 વર્ષના યુવા ખેલાડીઓ પર 43 સ્ટડીઝના એક મેટા-એનાલિસિસમાં તાકાત અને જમ્પ પર મધ્યમ અસર મળી, અને સ્પ્રિન્ટ, ચપળતા અને રમત સંબંધિત પ્રદર્શન પર નાની અસર.{8}",
+    "ઈજાઓ. યુવા રમતો પર 25 સ્ટડીઝના એક રિવ્યૂએ ન્યુરોમસ્ક્યુલર ટ્રેનિંગ પ્રોગ્રામના રેન્ડમાઇઝ્ડ ટ્રાયલ્સને ભેગા કરીને જોયા: પગની ઈજાનું જોખમ ઓછું હતું (ઇન્સિડન્સ રેટ રેશિયો 0.64). ઘૂંટણની ઈજા માટે અંદાજ એ જ દિશામાં હતો, પણ આંકડાકીય રીતે મહત્વપૂર્ણ નહોતો.{10} યુવા ખેલાડીઓ પરના એક રિવ્યૂમાં જણાયું કે વજન ઉપાડતા યુવાનોમાં નોંધાયેલી મોટા ભાગની ઈજાઓને અકસ્માત ગણી શકાય. તેના મતે લાયક તાલીમનો અભાવ, ખોટી ટેક્નિક અને ખોટું વજન કેટલીક ઈજાઓને આંશિક રીતે સમજાવી શકે.{6}",
+    "તબિયત. 110 સ્ટડીઝના એક રિવ્યૂએ યુવાનોમાં મજબૂત સ્નાયુઓને કુલ અને પેટની ઓછી ચરબી, વધુ સારા કાર્ડિયોમેટાબોલિક રિસ્ક ફેક્ટર, હાડકાંની વધુ સારી તબિયત અને વધુ આત્મસન્માન સાથે જોડ્યા. સ્નાયુ-સાંધાના દુખાવા અને વિચારવાની ક્ષમતા સાથેનો સંબંધ અસંગત કે અનિશ્ચિત હતો, અને મોટા ભાગના સંબંધો ઓછાથી મધ્યમ હતા.{9} આ ઘણા યુવાનોમાં દેખાયેલા સંબંધો છે. એનો પુરાવો નથી કે દરેકનું કારણ વજન ઉપાડવું છે.",
+    "યુવાનોની રેઝિસ્ટન્સ ટ્રેનિંગની પોતાની ગાઇડલાઇન છે: અમેરિકાની નેશનલ સ્ટ્રેન્થ એન્ડ કન્ડિશનિંગ એસોસિએશન (NSCA)ની,{4} અને 2014ની એક આંતરરાષ્ટ્રીય સહમતિની, જેને સ્પોર્ટ્સ મેડિસિન, એક્સરસાઇઝ સાયન્સ અને બાળરોગનાં સંગઠનોએ સમર્થન આપ્યું.{5} NSCAનો મત: મોટાઓને રેઝિસ્ટન્સ ટ્રેનિંગથી મળતા ઘણા ફાયદા એ બાળકો અને કિશોરોને પણ મળી શકે જે ઉંમર મુજબની ગાઇડલાઇન અનુસરે.{4}",
+    "આ કોચિંગ છે, સારવાર નહીં. માતા-પિતા છો? આ તમારા બાળક સાથે વાંચો. અને પહેલાં \"શરૂ કરતાં પહેલાં\" વાંચો."
+   ],
+   "listHeading": "ટીનેજર્સ માટે 7 સૌથી સારી સ્ટ્રેન્થ કસરતો",
+   "items": [
+    {
+     "name": "ગૉબ્લેટ સ્ક્વૉટ",
+     "why": "કૂદવા, દોડવા અને જમીન પરથી ઊભા થવાનો પાયો. પગ, થાપા અને ધડ. સૌથી પહેલાં પાકી કરવાની લિફ્ટ.",
+     "how": "પહેલાં વજન વગર, હાથ આગળ. પગ થાપાથી થોડા પહોળા. એડીઓની વચ્ચે નીચે બેસો, છાતી ઉપર, ઘૂંટણ પંજાની દિશામાં. ઊભા થાઓ. 12 સાફ રેપ? છાતી પાસે હળવું ડમ્બેલ કે થોડાં પુસ્તકોવાળી બૅગ પકડો.",
+     "dose": "8 થી 12ના 1 થી 3 સેટ. 1 થી 3 સારા રેપ બાકી રાખો (RIR); ટેક્નિક બદલાય તે પહેલાં રોકાઓ."
+    },
+    {
+     "name": "હિપ હિંજ, પછી રોમાનિયન ડેડલિફ્ટ",
+     "why": "લાંબી પીઠ સાથે વસ્તુઓ ઉપાડવી. આ જ ડેડલિફ્ટની પેટર્ન છે, અને સારા જમ્પની પણ.",
+     "how": "પીઠ પર ઝાડુનો દંડો: માથું, ઉપરની પીઠ અને ટેલબોનને અડતો. ઘૂંટણ ઢીલા. થાપા પાછળ લઈ જાઓ જ્યાં સુધી સાથળની પાછળ ખેંચાણ ન લાગે. ગ્લૂટ્સ કસીને ઊભા થાઓ. દંડો આખો સમય પીઠને અડેલો રહે? ત્યારે હળવું ડમ્બેલ.",
+     "dose": "8 થી 12ના 1 થી 3 સેટ. 1 થી 3 સારા રેપ બાકી રાખો (RIR); ટેક્નિક બદલાય તે પહેલાં રોકાઓ."
+    },
+    {
+     "name": "પુશ-અપ: કાઉન્ટર, પછી જમીન",
+     "why": "રમત માટે અને જમીન પરથી ઊઠવા માટે ધક્કો મારવાની તાકાત. પોતાના શરીરના વજનથી, તમારા માપે.",
+     "how": "હાથ કિચન કાઉન્ટર કે મજબૂત ટેબલ પર, શરીર માથાથી એડી સુધી સીધું. છાતી કિનારી સુધી નીચે લાવો. ધક્કો મારીને દૂર થાઓ. 12 સાફ થયા? વધુ નીચે: એક પગથિયું, પછી જમીન.",
+     "dose": "6 થી 12ના 1 થી 3 સેટ. નીચે ત્યારે જ જાઓ જ્યારે દરેક રેપ સીધો રહે. 1 થી 3 સારા રેપ બાકી રાખો (RIR); ટેક્નિક બદલાય તે પહેલાં રોકાઓ."
+    },
+    {
+     "name": "વન-આર્મ રો",
+     "why": "ખેંચવું બધા ધક્કાને સંતુલિત કરે છે, અને ફોન કે ટેબલ પર વળેલા કલાકોને પણ. ઉપરની પીઠ અને પકડ.",
+     "how": "એક હાથ અને એક ઘૂંટણ મજબૂત બેન્ચ કે ખુરશી પર, પીઠ સપાટ. બીજા હાથમાં ડમ્બેલ કે બૅગ. તેને થાપા સુધી ખેંચો. ધીમે નીચે લાવો.",
+     "dose": "દરેક બાજુ 8 થી 12ના 1 થી 3 સેટ. 1 થી 3 સારા રેપ બાકી રાખો (RIR); ટેક્નિક બદલાય તે પહેલાં રોકાઓ."
+    },
+    {
+     "name": "રિવર્સ લંજ",
+     "why": "એક વારમાં એક પગ, જેમ દોડવું, દિશા બદલવી અને પગથિયાં. તે તમારી નબળી બાજુ બતાવે છે.",
+     "how": "સીધા ઊભા રહો. જરૂર હોય તો દીવાલ પકડો. એક પગ પાછળ લઈ જાઓ અને પાછળનો ઘૂંટણ જમીન તરફ નીચે લાવો. આગળના પગથી ધક્કો મારીને ઊભા થાઓ. એક બાજુના બધા રેપ, પછી બીજી બાજુ.",
+     "dose": "દરેક બાજુ 6 થી 10ના 1 થી 2 સેટ. 1 થી 3 સારા રેપ બાકી રાખો (RIR); ટેક્નિક બદલાય તે પહેલાં રોકાઓ."
+    },
+    {
+     "name": "ડેડ બગ",
+     "why": "ધડ પર નિયંત્રણ: હાથ-પગ ચાલે અને પાંસળીઓ તથા પેલ્વિસ સ્થિર રહે. AAP કોર ટ્રેનિંગને રમત માટે પાયાની માને છે.{3}",
+     "how": "પીઠ પર સૂઈ જાઓ, હાથ ઉપર, ઘૂંટણ વાળેલા થાપા ઉપર. શ્વાસ છોડો અને કમરને હળવેથી જમીન પર દબાવો. એક હાથ અને સામેનો પગ ધીમે નીચે લાવો. પીઠ સ્થિર. પાછા. બાજુ બદલો.",
+     "dose": "દરેક બાજુ 6 થી 10ના 1 થી 3 સેટ. ધીમે. 1 થી 3 સારા રેપ બાકી રાખો (RIR); ટેક્નિક બદલાય તે પહેલાં રોકાઓ."
+    },
+    {
+     "name": "પોગો હૉપ અને નરમ લૅન્ડિંગ",
+     "why": "સારી રીતે લૅન્ડ કરવું એક કળા છે. કૂદવું, લૅન્ડ કરવું અને બૅલેન્સ ઇન્ટિગ્રેટિવ ન્યુરોમસ્ક્યુલર ટ્રેનિંગનો ભાગ છે, જેના વિશે AAP કહે છે કે તે મોટર સ્કિલ સુધારી શકે અને રમતની ઈજાનું જોખમ ઘટાડી શકે. તે એ પણ નોંધે છે કે હાડપિંજર પરિપક્વતાની નજીક ન પહોંચે ત્યાં સુધી વિસ્ફોટક જોર એ ગ્રોથ વિસ્તારો પર દબાણ લાવી શકે જ્યાં ટેન્ડન જોડાય છે. એટલે જમ્પ નાના અને ઓછા રહે છે.{3}",
+     "how": "સીધા ઊભા રહો. પંજાના આગળના ભાગ પર નાના ઉછાળ, લૅન્ડિંગ અવાજ વગર. પછી ઉપર એક નાનો જમ્પ, અને નરમાશથી લૅન્ડ કરો: ઘૂંટણ પંજાની દિશામાં, થાપા પાછળ. 2 સેકન્ડ રોકાઓ. શાંત પગ એટલે સારું નિયંત્રણ.",
+     "dose": "5 લૅન્ડિંગના 2 થી 3 સેટ, જૂતાં પહેરીને, લપસણી ન હોય એવી ફર્શ પર. સેટ વચ્ચે પૂરો આરામ. બૉક્સ જમ્પ નહીં, ઊંચાઈ પરથી નીચે કૂદવું નહીં. એડીમાં કે ઘૂંટણની ઢાંકણીની બરાબર નીચે દુખાવો? જમ્પ છોડી દો અને માતા-પિતાને કહો."
+    }
+   ],
+   "enoughHeading": "કેટલું, કેટલું કઠિન, કેટલી વાર",
+   "enough": [
+    "કેટલી વાર: અઠવાડિયામાં 2 થી 3 સેશન, સળંગ દિવસોએ નહીં, દરેક ઓછામાં ઓછી 20 થી 30 મિનિટ. અઠવાડિયામાં 2 થી 3 સેશનવાળા ઓછામાં ઓછા 8 અઠવાડિયાના પ્રોગ્રામમાં તાકાત વધતી દેખાઈ છે. AAP જે રિસર્ચ ટાંકે છે, તેમાં 23 અઠવાડિયાથી લાંબા પ્રોગ્રામમાં સૌથી વધુ વધારો મળ્યો.{3}",
+    "શરૂઆતમાં કેટલું: ટેક્નિક શીખતી વખતે હળવા વજન સાથે 8 થી 12 રેપના 1 થી 2 સેટ. ટેક્નિક સતત બરાબર રહેવા લાગે, ત્યારે 5 થી 10%નાં પગલાંમાં વજન વધારો અને રેપ થોડા ઘટાડો. પછી: ઓછાથી મધ્યમ વજને 6 થી 12ના 2 થી 4 સેટ.{3} ખેલાડીઓની સ્ટડીઝનું ભારે, ઓછા રેપવાળું કામ{8} ઘણું પછી આવે છે, સારી ટેક્નિક અને રૂબરૂ કોચિંગ સાથે. બ્લૉગ પરથી નહીં.",
+    "આરામ: શરૂઆત કરનારાઓ માટે સેટ વચ્ચે લગભગ 1 મિનિટ. કામ કઠિન થાય તેમ વધુ.{3}",
+    "કેટલું કઠિન: 1 થી 3 રેપ બાકી રાખો. ફેલ્યોર લક્ષ્ય નથી. વજન ટેક્નિક નક્કી કરે છે. ડમ્બેલ પરનો નંબર નહીં, અને કોઈ મિત્રનો વીડિયો પણ નહીં.",
+    "ટ્રાફિક-લાઇટ ચેક, 0 થી 10, દરેક સેટ દરમિયાન અને પછી દુખાવા માટે. લીલો, 0 થી 2: ચાલુ રાખો. પીળો, 3 થી 5: એટલું જ કરો, વધારો નહીં. લાલ, 5 થી ઉપર, કે બીજી સવારે વધુ: એક પગલું પાછળ, ઓછી રેન્જ, ઓછું વજન કે ઓછા સેટ. કોઈ સાંધામાં, એડીમાં કે ઘૂંટણની ઢાંકણીની બરાબર નીચે દુખાવો, કે કોઈ પણ દુખાવો જે તમારી હલનચલનની રીત બદલી નાખે, ક્યારેય પીળો નથી: રોકાઓ અને તપાસ કરાવો. આ રંગો કોચિંગનો અનુભવ આધારિત નિયમ છે, રિસર્ચનું તારણ નહીં.",
+    "આખું અઠવાડિયું ગણો. સ્કૂલની રમત, PE, પ્રૅક્ટિસ અને જિમ બધું ઉમેરાય છે. AAP કહે છે કે સ્ટ્રેન્થ ટ્રેનિંગને કુલ ટ્રેનિંગ સમયમાં ગણવી, અને અઠવાડિયામાં ઓછામાં ઓછા 1 થી 2 દિવસ સ્પર્ધાત્મક રમત અને રમત-વિશેષ ટ્રેનિંગથી રજાની ભલામણ કરે છે.{3}",
+    "વૉર્મ-અપ હલનચલનથી. કૂલ-ડાઉન હળવા સ્ટ્રેચિંગથી. પૂરતું ખાઓ અને પીઓ: AAP કહે છે કે રિકવરી અને વૃદ્ધિ માટે ઊર્જા મહત્વની છે.{3}",
+    "અને ઍરોબિક લક્ષ્ય પોતાની જગ્યાએ છે: આખા અઠવાડિયામાં સરેરાશ રોજ 60 મિનિટ, મોટે ભાગે ઍરોબિક.{1} સ્ટ્રેન્થ તેની ઉપર છે. તેની જગ્યાએ નહીં."
+   ],
+   "sampleHeading": "ટીનેજર માટે સ્ટ્રેન્થ ટ્રેનિંગનું એક સેમ્પલ અઠવાડિયું",
+   "sampleLabel": "માત્ર સેમ્પલ. પ્રિસ્ક્રિપ્શન નથી. ટીનેજરની ઉંમર, ટેક્નિક, રમત અને તબિયત મુજબ બદલો, માતા-પિતા કે વાલીને સાથે રાખીને.",
+   "sample": [
+    "એક તંદુરસ્ત ટીનેજર માટે, જેને એવી કોઈ મેડિકલ સમસ્યા ન હોય જેમાં ડૉક્ટરની સલાહ જોઈએ, હાલમાં કોઈ ઈજા ન હોય, અને માતા-પિતા કે વાલી સહમત હોય. સ્કૂલની રમત સાથે બેસી જાય છે.",
+    "સોમવાર, લગભગ 30 મિનિટ: વૉર્મ-અપ, ગૉબ્લેટ સ્ક્વૉટ, પુશ-અપ, વન-આર્મ રો, ડેડ બગ. દરેકના 1 થી 2 સેટ.",
+    "મંગળવાર: રમત, PE કે રમતગમત.",
+    "બુધવાર: વજન નહીં. ચાલો, સાઇકલ, રમો.",
+    "ગુરુવાર, લગભગ 30 મિનિટ: વૉર્મ-અપ, પોગો હૉપ અને નરમ લૅન્ડિંગ, હિપ હિંજ, રિવર્સ લંજ, પુશ-અપ, ડેડ બગ. દરેકના 1 થી 2 સેટ.",
+    "શુક્રવાર: રમત કે રમતગમત. શનિવાર: મૅચ, કે લાંબી ચાલ કે સાઇકલ.",
+    "રવિવાર: પૂરો આરામ.",
+    "આ સેમ્પલ અઠવાડિયાની વજન મર્યાદા: શરીરનું વજન, પછી હળવું ડમ્બેલ કે બૅગ જે તમે 12 સાફ રેપ સુધી ઉપાડી શકો. કોઈ મૅક્સ લિફ્ટ કે મૅક્સ ટેસ્ટ નહીં, ફેલ્યોર સુધી નહીં, ઊંચાઈ પરથી કૂદવું નહીં, ઘડિયાળ સામે વર્કઆઉટ નહીં. મૅચ પછી થાકેલા છો? સેશન છોડતાં પહેલાં એક સેટ છોડો.",
+    "1 થી 3 સારા રેપ બાકી રાખો (RIR); ટેક્નિક બદલાય તે પહેલાં રોકાઓ.",
+    "દુખાવાની તપાસ: હળવી અસુવિધા જે જલ્દી શમી જાય, તે ઠીક છે. સેટ દરમિયાન વધતો દુખાવો એટલે તેને સરળ બનાવો: ઓછી રેન્જ અથવા ઓછું વજન. તીવ્ર દુખાવો, સોજો, હાથ કે પગમાં ફેલાતો દુખાવો, સુન્નતા, સાંધો ઢીલો પડવો કે લૉક થવો એટલે રોકાઓ અને તપાસ કરાવો. હું કોચ છું, ફિઝિયો કે ડૉક્ટર નહીં."
+   ],
+   "coachedHeading": "લાઇવ કોચિંગ સાથે કરવું છે?",
+   "coached": [
+    "Iron Hour 60 મિનિટ, 1:1. મિનિટ 0 પર સેટ-અપ: કૅમેરા એવો કે હું તમને માથાથી પગ સુધી જોઈ શકું, ખાલી ફર્શ, એક ખુરશી, ઝાડુનો દંડો, હળવું ડમ્બેલ કે બૅગ. 18 થી ઓછી ઉંમર? માતા-પિતા કે વાલી સેટ-અપ વખતે હાજર રહે અને ઘરમાં જ રહે. મિનિટ 4 થી વૉર્મ-અપ. 14 પર મુખ્ય લિફ્ટ. 28 પર એક્સેસરી. 50 પર કૂલ-ડાઉન.",
+    "Lean Reset મહિનામાં 20 સેશન, 1:1, જો વધુ કોચ્ડ દિવસ જોઈએ. Return 45 મિનિટ, 1:1, મહિનામાં 12 વૈકલ્પિક-દિવસ સેશન, જો વર્ષોથી ટ્રેન ન કર્યું. Open Floor નાનું ગ્રુપ.",
+    "હું કોચ છું, ડૉક્ટર કે ફિઝિયો નહીં. કોઈ મેડિકલ સમસ્યા હોય, તો શું સુરક્ષિત છે એ ડૉક્ટર નક્કી કરે છે. હું પહેલાં ટેક્નિક શીખવું છું, રિયલ ટાઇમમાં, અને માતા-પિતાને કહું છું કે અમે શું કર્યું. કોઈ ડાયટ નહીં, વજન ઘટાડવાનું દબાણ નહીં. પર્ફોર્મન્સ વધારતા પદાર્થો: બિલકુલ નહીં.",
+    "Google Meet, Zoom કે FaceTime પર લાઇવ કોચિંગ, તમારા લિવિંગ રૂમમાં. હિન્દી કે અંગ્રેજીમાં. IST પર. ખાતરી નથી? 30 મિનિટની કન્સલ્ટેશનથી શરૂ કરો. વાતચીત છે, ટ્રેનિંગ સેશન નહીં. બુકિંગ સમય રાખે છે; ફી સીધી નક્કી થાય છે."
+   ],
+   "safetyHeading": "શરૂ કરતાં પહેલાં",
+   "safety": "સામાન્ય માહિતી, મેડિકલ સલાહ નહીં. 18 થી ઓછી ઉંમર: માતા-પિતા કે વાલીને જાણ હોય અને તેમની સહમતિ હોય. NHS કહે છે કે કોઈ તબિયતની સમસ્યા સાથે કસરત માટે મેડિકલ સલાહ લો, ઉંમર, ક્ષમતા અને અનુભવ મુજબ કસરત પસંદ કરો, ધીમે શરૂ કરો અને થોડું-થોડું વધારો, અને એ કે યુવાનો વજન વાપરી શકે જો કોઈ લાયક પુખ્ત વ્યક્તિ તેમને શીખવે અને દેખરેખ રાખે.{2} AAP કહે છે કે અનિયંત્રિત હાઈ બ્લડ પ્રેશર, અનિયંત્રિત આંચકી, કેટલીક હૃદયની બીમારીઓ, કે અગાઉ એન્થ્રાસાયક્લિન દવાથી કીમોથેરાપી થઈ હોય, તો રેઝિસ્ટન્સ ટ્રેનિંગ શરૂ કરતાં પહેલાં ડૉક્ટરને મળો, અને જટિલ જન્મજાત હૃદયરોગમાં બાળકોના હૃદયરોગ નિષ્ણાતને. હાઇપરટ્રોફિક કાર્ડિયોમાયોપથી, પલ્મોનરી હાઇપરટેન્શન કે માર્ફન સિન્ડ્રોમમાં તે રેઝિસ્ટન્સ ટ્રેનિંગ સામે સલાહ આપે છે. બીમારી, ઈજા કે વધુ પડતા ઉપયોગનો કોઈ પણ સંકેત હોય, તો ટ્રેનિંગ ફરી શરૂ કરતાં પહેલાં તેની તપાસ થાય.{3} AAP એ પણ નોંધે છે કે વજન સંબંધિત મોટા ભાગની નોંધાયેલી ઈજાઓ ઘરનાં જિમ સાધનો પર, દેખરેખ વગર અને ઘણી વાર અસુરક્ષિત વર્તન સાથે થાય છે.{3} એટલે: ઘરે એકલા ભારે વજન નહીં, મૅક્સ અજમાવવું નહીં, કોઈ પણ બાર પર કૉલર લગાવીને. ખાવા, વજન કે શરીરની છબી વિશે ચિંતા છે, કે ઝડપથી મસલ્સ બનાવવાનું દબાણ? તમારા ડૉક્ટર સાથે વાત કરો: AAP સ્પર્ધાત્મક બૉડીબિલ્ડિંગ તરફ આકર્ષાયેલા કિશોરોમાં આ બાબતોની કાળજીપૂર્વક તપાસની ભલામણ કરે છે.{3} છાતીમાં દુખાવો, બેભાન થવું, બહુ ઝડપી ધબકારા, કે મહેનતના પ્રમાણમાં બહુ વધારે શ્વાસ ચડવો: રોકાઓ અને તરત મેડિકલ મદદ લો.",
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ એન્ડ કન્ડિશનિંગ) અને ACE (એનાટમી અને બાયોમિકેનિક્સ). આ કોચની ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "શા માટે",
+    "how": "કેવી રીતે",
+    "dose": "ડોઝ",
+    "sources": "સ્રોત",
+    "readIn": "આને વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "વ્હોટ્સઍપ પર પૂછો",
+    "skip": "સીધા કન્ટેન્ટ પર જાઓ",
+    "crumb": "ટીનેજર્સ માટે સ્ટ્રેન્થ કસરતો",
+    "whatsappText": "નમસ્તે સુસ્મિત, મેં ટીનેજર્સ માટે સ્ટ્રેન્થ ટ્રેનિંગ વિશેનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે"
+   }
+  }
+ }
+}
