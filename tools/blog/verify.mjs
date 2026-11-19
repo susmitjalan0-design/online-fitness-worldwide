@@ -1,7 +1,8 @@
 // Checks the generated output: one title/description/h1/canonical per page, canonical == sitemap URL, 8 hreflang links,
 // JSON-LD parses, citations resolve, internal links resolve, no prices, no old brand or location, RTL on Arabic,
 // header and breadcrumb <nav> labels and the footer blog button in the page language on non-English pages,
-// <title> at most 78 characters, meta description at most 160.
+// <title> at most 78 characters, meta description at most 160, and no English advice phrases (data-only rule) in the
+// <article> of English posts or the <main> of the fat-loss page.
 //   node verify.mjs [path to a merged public_html (zip contents + cpanel-overlay)]
 // Without a path it checks cpanel-overlay alone and accepts links to the 6 posts that live only in the zip.
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
@@ -18,6 +19,8 @@ const walk = (d) => readdirSync(d).flatMap((n) => (statSync(join(d, n)).isDirect
 const sitemap = readFileSync(join(overlay, "sitemap.xml"), "utf8");
 const locs = [...sitemap.matchAll(/<loc>([^<]*)<\/loc>/g)].map((m) => m[1]);
 const problems = [];
+// Data-only rule: posts report what named sources found and state; they give no advice, instructions or recommendations.
+const ADVICE = /\b(you should|you can|you need|you must|try |aim for|we recommend|i recommend|recommend you|stop if|make sure|don't|do not lift|start with|start light|keep (1|it|your)|our take|best for you|consult your|talk to your|see your|ask your|get medical|i'm a coach|i coach)/i;
 const bad = (page, msg) => problems.push(`${page}: ${msg}`);
 let checked = 0;
 const pages = walk(overlay).filter((f) => f.endsWith("index.html"));
@@ -64,6 +67,13 @@ for (const file of pages) {
     for (const n of cites) if (!h.includes(`id="source-${n}"`)) bad(rel, `citation ${n} has no source`);
     const jumps = [...h.matchAll(/href="#(item-\d+)"/g)].map((m) => m[1]);
     for (const id of jumps) if (!h.includes(`id="${id}"`)) bad(rel, `jump target ${id} missing`);
+  }
+  const scope = lang === "en" && (rel.startsWith("/blog/") ? h.match(/<article[\s\S]*?<\/article>/)?.[0] : rel === "/personal-trainer-for-fat-loss" ? h.match(/<main[\s\S]*?<\/main>/)?.[0] : null);
+  if (scope) {
+    // Skip the source list (cited titles are quoted as published) and link text (titles of other pages).
+    const prose = scope.replace(/<script[\s\S]*?<\/script>/g, "").replace(/<li id="source-\d+"[\s\S]*?<\/li>/g, " ").replace(/<a [\s\S]*?<\/a>/g, " ").replace(/<[^>]+>/g, " ").replace(/&#x27;|&#39;|&rsquo;/g, "'");
+    const hit = prose.match(ADVICE);
+    if (hit) bad(rel, `advice phrase "${hit[0]}"`);
   }
   for (const m of h.matchAll(/<a [^>]*href="(\/[^"#?]*)/g)) {
     const p = m[1];

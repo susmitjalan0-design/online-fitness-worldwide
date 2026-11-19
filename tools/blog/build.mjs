@@ -466,6 +466,17 @@ export function renderIndex(T, posts, lang, ctx) {
 
 /* ----------------------------------------------------- fat-loss page, sitemap */
 
+/** Data-only rule: the fat-loss page states facts about the service and cites WHO; it gives no advice or instructions. */
+const FATLOSS_NEUTRAL = [
+  ["WHO asks adults for 150 to 300 minutes a week of moderate activity, plus muscle-strengthening work on 2 or more days.", "WHO's 2020 guidelines state 150 to 300 minutes a week of moderate activity for adults, plus muscle-strengthening activities on 2 or more days."],
+  ["Food, sleep and daily steps matter too. We talk about them on the call. For a medical condition or a clinical diet, see your doctor or a registered dietitian.", "Sessions cover training. Food, sleep and daily steps can be discussed on the call. The coach is not a doctor or a registered dietitian."],
+  ["New to lifting? Start with these 7 strength and conditioning moves", "Blog: strength and conditioning exercises for beginners"],
+  ["Not sure: 30 minutes, a conversation, not training.", "30 minutes, a conversation, not a training session."],
+  [">Start with a conversation<", ">The consultation<"],
+  ["Where do I start?", "What is the Consultation?"],
+  ["A 30-minute consultation. It is a conversation, not training. It ends with a clear next step.", "A 30-minute conversation. It is not a training session."],
+];
+
 /** "Read next" on the fat-loss page: the type 2 diabetes and beginners posts first, then the newest posts outside the race cluster, five in all. */
 export function renderFatLoss(T, posts, ctx) {
   const lang = "en";
@@ -476,7 +487,12 @@ export function renderFatLoss(T, posts, ctx) {
     `<li><a href="${postPathFor(slug, lang)}" class="inline-flex items-start gap-2 text-lg font-semibold underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper"><span>${esc(brief(T, posts, slug, lang).h1)}</span>${ARROW("mt-1 size-4 shrink-0 rtl:-scale-x-100")}</a></li>`;
   const re = /(<nav aria-labelledby="read"[^>]*><h2 id="read"[^>]*>[^<]*<\/h2><ul class="mt-4 space-y-3">)[\s\S]*?(<\/ul><\/nav>)/;
   if (!re.test(T.fatLoss)) throw new Error("fat-loss page: Read next list not found");
-  return localizeHeader(T.fatLoss, "en", T.shared)
+  let page = T.fatLoss;
+  for (const [from, to] of FATLOSS_NEUTRAL) {
+    if (!page.includes(from)) throw new Error(`fat-loss page: text to neutralise not found: ${from.slice(0, 40)}`);
+    page = page.split(from).join(to);
+  }
+  return localizeHeader(page, "en", T.shared)
     .replace(re, (_, a, b) => a + picks.map(li).join("") + b)
     .replace('<script async=""', `<link rel="stylesheet" href="${ctx.extraCssHref}" data-precedence="default"/><script async=""`);
 }
