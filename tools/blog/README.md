@@ -68,7 +68,7 @@ Nothing here deploys anything. To publish:
 | File | What it is |
 | --- | --- |
 | `build.mjs` | the generator |
-| `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic |
+| `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic, no English advice phrases in the `<article>` of English posts or the `<main>` of the fat-loss page |
 | `export-posts.mjs` | turns the TypeScript posts into `data/` (needs esbuild) |
 | `data/` | the 30 posts (copy in 7 languages, sources), the post order, shared labels |
 | `template/` | pages copied from the zip: 7 blog indexes, one existing post per language (head, header, footer, byline), the fat-loss page, `sitemap.xml` |
@@ -81,6 +81,19 @@ The generator still strips leftover copy from the retired brand if it appears in
 The build stops if the retired brand name, the old city, or that city's name in the other six languages remains in any page. Program facts are unchanged: Iron Hour 60 min 1:1,
 Lean Reset 20 sessions a month 1:1, Return 45 min with 12 alternate-day sessions a month, Open Floor small group,
 Consultation 30 min (not training). No prices. ASCA Level 1 and ACE are named with "neither body endorses this business or this article".
+
+## Editorial rule: data only (20 November 2026)
+
+Every post reports data; it does not advise. The owner's rule: "No gray area. No suggestions. No decision on reader's behalf for every blog. We only give data to consume so people can draw their own conclusions instead of giving our opinion."
+
+- All 30 posts use `"format": "evidence"`. Each statement is an attributed finding from a named, numbered source ("A 2017 meta-analysis of 14 trials found…", "WHO's 2020 guidelines state…"). No figure appears that is not in its source.
+- No advice, imperatives, coach voice ("I", "we recommend"), sample weeks or plans, rankings ("best", "top"), or calls to action inside the article. Safety lines are phrased as "guideline X states…".
+- The exercise list ("In the sources") names only exercises used in the cited studies or set by the cited rulebook; items carry `name` and `why` only (the build throws on `how` or `dose`).
+- Event posts (HYROX, DEKA, ATHX, CrossFit) set the list, figures and safety headings to "The format, as the official rules state it" / "Figures from official and third-party sources" / "What the rules and guidelines state on safety".
+- Headings left null in a post fall back to `EVIDENCE` in `data/shared.json` (`evidenceDefaults()` in `build.mjs`). The service line is neutral and has no prices; the disclaimer follows the safety block.
+- Titles at most 78 characters, meta descriptions at most 160; slugs never change.
+- The fat-loss page's advice sentences are rewritten at build time (`FATLOSS_NEUTRAL` in `build.mjs`); the build stops if a sentence to rewrite is missing from the template.
+- `verify.mjs` fails on English advice phrases ("you should", "try ", "aim for", "we recommend", "stop if", "start with", "see your", …) in English post articles and the fat-loss page. Cited source titles and link text are skipped. Non-English copy is checked when it is written, not by verify.
 
 ## Bone-density import (6 November 2026)
 
