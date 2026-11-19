@@ -72,6 +72,22 @@ export function localizeFooterBlogLink(html, lang, shared) {
   return html.split(from).join(to);
 }
 
+/** The zip's header: the logo link's aria-label repeats the brand ("Online Fitness Worldwide, Online Fitness Worldwide: Home"),
+ *  and on non-English pages the "Programs" link stays English (marked lang="en"). Say the brand once, and give the Programs
+ *  link the page language (PROGRAMS_LABEL), with hreflang="en" because it still points at the English home section (there are
+ *  no language homes). Throws if either piece is missing, so a template change can't slip by. */
+export function localizeHeader(html, lang, shared) {
+  const dup = 'aria-label="Online Fitness Worldwide, Online Fitness Worldwide: ';
+  if (!html.includes(dup)) throw new Error(`${lang}: header home-link aria-label not found`);
+  html = html.split(dup).join('aria-label="Online Fitness Worldwide: ');
+  const label = shared.PROGRAMS_LABEL?.[lang];
+  if (!label || lang === "en") return html;
+  const from = '<a href="/#programs" class="inline-flex min-h-11 items-center text-mist hover:text-ink" lang="en">Programs</a>';
+  if (!html.includes(from)) throw new Error(`${lang}: header "Programs" link not found`);
+  const to = `<a href="/#programs" class="inline-flex min-h-11 items-center text-mist hover:text-ink" hreflang="en">${esc(label)}</a>`;
+  return html.split(from).join(to);
+}
+
 /* ----------------------------------------------------------------- template */
 
 export function loadTemplate() {
@@ -89,7 +105,9 @@ export function loadTemplate() {
     // The zip labels the header <nav> "Site" in every language: use the page language (SITE_NAV_LABEL).
     const siteNav = shared.SITE_NAV_LABEL?.[lang];
     const rawHeader = must(/<header[\s\S]*?<\/header>/, "header")[0];
-    const header = siteNav ? rawHeader.split('<nav aria-label="Site"').join(`<nav aria-label="${esc(siteNav)}"`) : rawHeader;
+    const navHeader = siteNav ? rawHeader.split('<nav aria-label="Site"').join(`<nav aria-label="${esc(siteNav)}"`) : rawHeader;
+    // Brand once in the home-link aria-label; "Programs" in the page language (localizeHeader).
+    const header = localizeHeader(navHeader, lang, shared);
     sample[lang] = {
       prefix: h.slice(0, h.indexOf("<title>")),
       iconLinks: h.slice(h.indexOf('<link rel="icon"'), h.indexOf('<link rel="canonical"')),
@@ -408,6 +426,8 @@ export function renderIndex(T, posts, lang, ctx) {
   html = swapAll('<nav aria-label="Site"', shared.SITE_NAV_LABEL?.[lang] && `<nav aria-label="${esc(shared.SITE_NAV_LABEL[lang])}"`);
   // Footer "Read the blog" button: page language and that language's blog (FOOTER_BLOG_LABEL).
   html = localizeFooterBlogLink(html, lang, shared);
+  // Header: brand once in the home-link aria-label, "Programs" in the page language (PROGRAMS_LABEL).
+  html = localizeHeader(html, lang, shared);
   // Blog JSON-LD: add the new posts to blogPost, newest first.
   html = html.replace(/<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"Blog"[\s\S]*?)<\/script>/, (_, body) => {
     const ld = JSON.parse(body);
@@ -438,7 +458,7 @@ export function renderFatLoss(T, posts, ctx) {
     `<li><a href="${postPathFor(slug, lang)}" class="inline-flex items-start gap-2 text-lg font-semibold underline decoration-copper-2 decoration-2 underline-offset-4 hover:text-copper"><span>${esc(brief(T, posts, slug, lang).h1)}</span>${ARROW("mt-1 size-4 shrink-0 rtl:-scale-x-100")}</a></li>`;
   const re = /(<nav aria-labelledby="read"[^>]*><h2 id="read"[^>]*>[^<]*<\/h2><ul class="mt-4 space-y-3">)[\s\S]*?(<\/ul><\/nav>)/;
   if (!re.test(T.fatLoss)) throw new Error("fat-loss page: Read next list not found");
-  return T.fatLoss
+  return localizeHeader(T.fatLoss, "en", T.shared)
     .replace(re, (_, a, b) => a + picks.map(li).join("") + b)
     .replace('<script async=""', `<link rel="stylesheet" href="${ctx.extraCssHref}" data-precedence="default"/><script async=""`);
 }
