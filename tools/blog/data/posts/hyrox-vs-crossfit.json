@@ -1,7 +1,7 @@
 {
  "slug": "hyrox-vs-crossfit",
  "published": "2026-11-02",
- "modified": "2026-11-02",
+ "modified": "2026-11-20",
  "about": "HYROX versus CrossFit",
  "sources": [
   {
@@ -43,12 +43,51 @@
  ],
  "copy": {
   "en": {
-   "metaTitle": "HYROX vs CrossFit: 7 Differences Before You Choose | Online Fitness Worldwide",
-   "metaDescription": "HYROX vs CrossFit: a fixed race against the CrossFit Open, compared on format, scoring, skills, path and training. 2027 Open dates from CrossFit's site.",
-   "h1": "HYROX vs CrossFit: 7 differences that matter before you choose",
-   "dek": "HYROX is a fixed fitness race against the clock. CrossFit is a training method, and its Open is a three-week online competition. Here is how they differ, and how to train for both.",
-   "updated": "Updated 2 November 2026",
-   "byline": "By Susmit Jalan, coach at Online Fitness Worldwide.",
+   "metaTitle": "HYROX vs CrossFit: the facts side by side | Online Fitness Worldwide",
+   "metaDescription": "HYROX and the CrossFit Open compared from each organiser's pages: format, scoring, movements, venues, qualification, age groups and 2027 dates. Sources cited.",
+   "h1": "HYROX vs CrossFit: format, scoring and pathways compared",
+   "dek": "HYROX and the CrossFit Open side by side, from each organiser's own pages and rulebook: format, scoring, movements, venues, qualification and dates.",
+   "intro": [
+    "HYROX describes itself as a fitness race: 1 km of running followed by one workout station, repeated eight times, with the same format in every city.{1} CrossFit describes itself as a global fitness brand whose community shares a methodology of functional movement, relative intensity, coaching and shared effort; its annual competition season starts with the Open.{3}{4}",
+    "This page compares the HYROX race with the CrossFit Open, using each organiser's pages. The 2027 Open workouts had not been published when these pages were read.{4} It is independent and not an official publication of either brand."
+   ],
+   "items": [
+    {
+     "name": "Format",
+     "why": "HYROX: the same eight stations in the same order, with 8 km of running.{1}{2} CrossFit Open: three workouts over three weeks, released on the CrossFit Games website on Wednesdays.{4}"
+    },
+    {
+     "name": "Scoring",
+     "why": "HYROX: finish time, with time penalties in the rulebook (for example 2 minutes for using the wrong Roxzone arch).{2} CrossFit Open: scores are submitted online by Monday 5 p.m. PT, with leaderboards by affiliate, age or worldwide.{4}"
+    },
+    {
+     "name": "Movements",
+     "why": "HYROX: SkiErg, sled push, sled pull, burpee broad jumps, rowing, farmers carry, sandbag lunges and wall balls.{1}{2} CrossFit names PR snatches, thrusters, muscle-ups, toes-to-bar, handstand push-ups and double-unders as examples of firsts people achieve in the Open; these are not the 2027 workouts.{4}"
+    },
+    {
+     "name": "Where it takes place",
+     "why": "HYROX: at event venues; the race finder read for this update carried 70 event listings.{9} CrossFit Open: workouts are done at affiliates; CrossFit states it has more than 9,000 affiliate gyms worldwide.{3}{4}"
+    },
+    {
+     "name": "Qualification pathway",
+     "why": "HYROX: each race class at every qualifying event offers one World Championship qualification spot; the finder lists the World Championships in Hong Kong on 10–13 June 2027.{2}{9} CrossFit: Open, then Quarterfinals (top 25% worldwide), Semifinals (top 2,000 men and 2,000 women) and the Games (top 40 men and 40 women).{4}"
+    },
+    {
+     "name": "Age groups",
+     "why": "HYROX: minimum age 16; age groups from Under 24 (16–24) to 85–89.{2} CrossFit: teen divisions 14–15, 16–17 and 18–19, and masters from 35–39 to 70+.{4}"
+    },
+    {
+     "name": "2027 dates",
+     "why": "CrossFit Open: registration opens 7 January 2027; 27.1 on 17–22 February, 27.2 on 24 February–1 March, 27.3 on 3–8 March.{4} HYROX: entry is per event, with dates on the race finder.{9}"
+    }
+   ],
+   "enough": [
+    "A meta-analysis of 43 studies found that concurrent aerobic and strength training did not significantly change maximal strength (SMD −0.06) or muscle hypertrophy (−0.01) compared with strength training alone, and reduced explosive strength (−0.28), more so when both were done in the same session.{6}",
+    "WHO's 2020 guidelines state that adults should do 150 to 300 minutes of moderate aerobic activity (or 75 to 150 minutes vigorous) a week, and muscle-strengthening activities involving all major muscle groups on 2 or more days a week.{7}"
+   ],
+   "safety": [
+    "ACSM's 2015 screening model bases pre-exercise medical clearance on current activity, signs or symptoms and/or known cardiovascular, metabolic or renal disease, and desired intensity.{8}"
+   ],
    "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
    "labels": {
     "home": "Home",
@@ -64,95 +103,57 @@
     "skip": "Skip to content",
     "crumb": "HYROX vs CrossFit"
    },
-   "intro": [
-    "You want to know which one to try. Or whether you can do both.",
-    "They are not the same kind of thing. HYROX is a race: the same eight stations and 8 km of running, everywhere.{1} CrossFit is a training method, and its yearly competition is the Open.{3}{4}",
-    "So I compare the HYROX race with the CrossFit Open. Facts come from each organiser's own pages, read on 2 November 2026.",
-    "The 2027 Open workouts are not published yet. I won't guess them.{4}",
-    "Independent comparison. Not an official post from either brand."
-   ],
-   "listHeading": "HYROX vs CrossFit: 7 differences",
-   "items": [
-    {
-     "name": "A fixed course, or workouts you don't know yet",
-     "why": "HYROX: 1 km run, then one station, eight times. Same stations, same order, in every city.{1}",
-     "how": "CrossFit Open: three workouts over three weeks. They are released on the CrossFit Games website on Wednesdays.{4} Until then you don't know what they are.",
-     "dose": "You like to know the test and train for it: HYROX. You like a surprise: the Open."
-    },
-    {
-     "name": "How you are scored",
-     "why": "HYROX: your finish time. Two-minute penalties apply, for example for the wrong station.{1}{2}",
-     "how": "Open: you do the workout, then submit your score online by Monday 5 p.m. PT. Leaderboards show you by gym, age group or worldwide.{4}",
-     "dose": "CrossFit's pages don't say yet how each 2027 workout is scored. I won't guess.{4}"
-    },
-    {
-     "name": "The movements you need",
-     "why": "HYROX: SkiErg, sled push, sled pull, burpee broad jumps, row, farmers carry, sandbag lunges, wall balls, plus 8 km of running.{1}",
-     "how": "CrossFit's Open page lists snatches, thrusters, muscle-ups, toes-to-bar, handstand push-ups and double-unders as examples of firsts people hit in the Open.{4} These are examples. They are not the 2027 workouts. New to Olympic lifts like the snatch or clean? Don't teach yourself at home from videos. Learn them with a coach watching, starting with a PVC pipe or an empty bar. At home, train the pattern with dumbbell or kettlebell hinges and push presses instead.",
-     "dose": "Skills like muscle-ups need planned practice over time. HYROX has none of them."
-    },
-    {
-     "name": "Where you do it",
-     "why": "HYROX: at an event venue on race day. On 2 November 2026 the finder listed 66 events, with 36 country options.{9}",
-     "how": "Open: at your CrossFit gym, or wherever you can do the workout and log the score. CrossFit says it has more than 9,000 affiliate gyms worldwide.{3}",
-     "dose": "Registration for the 2027 Open opens on 7 January 2027.{4} HYROX entry is per event. Check the event page."
-    },
-    {
-     "name": "The path after the first step",
-     "why": "HYROX: age groups from 16. The rulebook gives each race class at each event one qualification spot for the World Championships, in Hong Kong, 10 to 13 June 2027.{2}{9}",
-     "how": "CrossFit: Open, then Quarterfinals (the top 25% worldwide), then Semifinals (the top 2,000 men and 2,000 women), then the Games (the top 40 men and 40 women).{4}",
-     "dose": "Both say they welcome everyone. HYROX says it is for everybody.{1} CrossFit says anyone can join the Open, whatever their fitness level.{4}"
-    },
-    {
-     "name": "What training they share",
-     "why": "Both reward strength and an engine. The WHO says adults should do 150 to 300 minutes of moderate aerobic activity a week, plus muscle-strengthening on 2 or more days.{7}",
-     "how": "A meta-analysis of 43 studies found adding aerobic work made no clear difference to maximal strength or muscle size, but explosive strength was lower, more so when both were in the same session.{6}",
-     "dose": "So I spread the hard days. Lift and run on different days when you can."
-    },
-    {
-     "name": "Doing both in one year",
-     "why": "The 2027 Open runs 17 February to 8 March.{4}{5} HYROX's finder lists events up to 10 June 2027.{9}",
-     "how": "A simple plan: use the three Open weeks as a strength and skill test. Then switch to a running base and the stations for a spring HYROX.",
-     "dose": "I can't promise a result from any plan. No client results here, and none implied."
-    }
-   ],
-   "enoughHeading": "What I won't claim",
-   "enough": [
-    "The 2027 Open workouts and how each is scored: not published yet.{4}",
-    "Injury rates: I found no figure I trust for either, so I give none.",
-    "Dates and rules change. Check the HYROX event page and CrossFit's Games site before you enter.{4}{9}",
-    "No prices. Fees are on each organiser's site. No client results, none implied."
-   ],
-   "sampleHeading": "A sample week with the Open in it",
-   "sampleLabel": "Sample only. Not a prescription. Adjust it to your body, your health and your history.",
-   "sample": [
-    "Mon: lift, squat and press, 3 sets of 5 to 8.",
-    "Tue: easy run, 30 minutes.",
-    "Wed: Open workout day. Warm up for 15 minutes first.",
-    "Thu: rest or a walk.",
-    "Fri: lift, hinge and pull, 3 sets of 8.",
-    "Sat: 5 km easy run, then 4 rounds of wall balls and a carry.",
-    "Sun: rest. Adjust it to your body and your history."
-   ],
-   "coachedHeading": "Train for it with Online Fitness Worldwide",
-   "coached": [
-    "You want to try one, or both, and arrive ready. You do the sessions. I plan the weeks around your calendar and coach each lift live.",
-    "Online Fitness Worldwide is not affiliated with HYROX and CrossFit and is not endorsed by them. This is independent coaching.",
-    "Iron Hour is 60 minutes, 1:1, live. Set-up at minute 0: camera placed so I can see your whole body. Warm-up from minute 4. The primary lift at 14. Accessories at 28. Cool-down at 50.",
-    "Lean Reset is 20 sessions a month, 1:1. Open Floor is a small group.",
-    "Coming back after a long break? Return is 45 minutes, 12 alternate-day sessions a month. We build the base first.",
-    "Coached live on Google Meet, Zoom or FaceTime. In Hindi or English. On IST. Not sure yet? Start with a 30-minute consultation. It is a conversation, not training. Booking holds a time. The fee is agreed directly."
-   ],
-   "safetyHeading": "Before you start",
-   "safety": "General information, not medical advice. ACSM's screening model says: if you are inactive, have no symptoms and no known heart, metabolic or kidney disease, you can start light to moderate exercise without medical clearance and build up gradually. If you have one of those conditions, or symptoms such as chest pain, unusual breathlessness or dizziness, get medical clearance first.{8} Race-style work is hard: heavy lifts, jumps, burpees, sprints and carries. Build up to it over weeks. Don't test a maximum lift alone or without a spotter or a coach watching. Heavy lifts, jumps, burpees and fast running are hard on knees, back and shoulders. Build up over weeks. Ask a doctor first if you have a heart, blood-pressure or joint condition."
+   "byline": "By Susmit Jalan, coach at Online Fitness Worldwide.",
+   "listHeading": "The format, as the official rules state it",
+   "enoughHeading": "Figures from official and third-party sources",
+   "safetyHeading": "What the rules and guidelines state on safety"
   },
   "ar": {
-   "metaTitle": "HYROX أم CrossFit: 7 فروق قبل أن تختار | Online Fitness Worldwide",
-   "metaDescription": "HYROX مقابل CrossFit: سباق ثابت مقابل CrossFit Open، مقارنة في الصيغة والتقييم والمهارات والمسار والتدريب، مع مواعيد Open 2027 من موقع CrossFit.",
-   "h1": "HYROX أم CrossFit: 7 فروق مهمة قبل أن تختار",
-   "dek": "HYROX سباق لياقة ثابت ضد الساعة. وCrossFit أسلوب تدريب، ومسابقته Open تُقام عبر الإنترنت على ثلاثة أسابيع. إليك الفروق وكيف تتدرب للاثنين.",
-   "updated": "تم التحديث في 2 نوفمبر 2026",
-   "byline": "بقلم سوسميت جالان، مدرب في Online Fitness Worldwide.",
+   "metaTitle": "HYROX مقابل CrossFit: الحقائق جنبًا إلى جنب | Online Fitness Worldwide",
+   "metaDescription": "مقارنة HYROX وCrossFit Open من صفحات كل منظم: الصيغة والتسجيل والحركات والأماكن والتأهل والفئات العمرية ومواعيد 2027. المصادر مذكورة.",
+   "h1": "HYROX مقابل CrossFit: مقارنة الصيغة والتسجيل ومسارات التأهل",
+   "dek": "HYROX وCrossFit Open جنبًا إلى جنب من صفحات كل منظم وكتيب قواعده: الصيغة والتسجيل والحركات والأماكن والتأهل والمواعيد.",
+   "intro": [
+    "يصف HYROX نفسه بأنه سباق لياقة: 1 كم جري تليه محطة تمرين، يتكرر ثماني مرات، بالصيغة نفسها في كل مدينة.{1} وتصف CrossFit نفسها بأنها علامة لياقة عالمية يتشارك مجتمعها منهجية من الحركة الوظيفية والشدة النسبية والتدريب والجهد المشترك، ويبدأ موسم منافساتها السنوي بـOpen.{3}{4}",
+    "تقارن هذه الصفحة سباق HYROX بـCrossFit Open اعتمادًا على صفحات كل منظم. لم تكن تمارين Open 2027 قد نُشرت عند قراءة هذه الصفحات.{4} والصفحة مستقلة وليست منشورًا رسميًا لأي من العلامتين."
+   ],
+   "items": [
+    {
+     "name": "الصيغة",
+     "why": "HYROX: المحطات الثماني نفسها بالترتيب نفسه، مع 8 كم من الجري.{1}{2} CrossFit Open: ثلاثة تمارين على ثلاثة أسابيع تُنشر على موقع CrossFit Games أيام الأربعاء.{4}"
+    },
+    {
+     "name": "التسجيل والنتائج",
+     "why": "HYROX: زمن الإنهاء، مع عقوبات زمنية في كتيب القواعد (مثل دقيقتين لاستخدام قوس Roxzone الخطأ).{2} CrossFit Open: تُرسل النتائج عبر الإنترنت حتى الاثنين 5 مساءً بتوقيت المحيط الهادئ، مع لوحات ترتيب حسب النادي أو العمر أو عالميًا.{4}"
+    },
+    {
+     "name": "الحركات",
+     "why": "HYROX: SkiErg ودفع الزلاجة وسحبها والبيربي مع الوثب الطويل والتجديف وحمل المزارع وطعنات كيس الرمل وكرات الحائط.{1}{2} وتذكر CrossFit الخطف والثرستر والـmuscle-up وtoes-to-bar والضغط على اليدين مقلوبًا والقفز المزدوج بالحبل أمثلةً على إنجازات أولى يحققها الناس في Open؛ وليست هذه تمارين 2027.{4}"
+    },
+    {
+     "name": "المكان",
+     "why": "HYROX: في أماكن الفعاليات؛ وتضمنت أداة البحث المقروءة لهذا التحديث 70 فعالية.{9} CrossFit Open: تُؤدى التمارين في الأندية المعتمدة؛ وتذكر CrossFit أن لديها أكثر من 9,000 نادٍ معتمد حول العالم.{3}{4}"
+    },
+    {
+     "name": "مسار التأهل",
+     "why": "HYROX: تقدم كل فئة سباق في كل فعالية تأهيلية مقعدًا واحدًا للتأهل لبطولة العالم؛ وتدرج أداة البحث بطولة العالم في هونغ كونغ في 10–13 يونيو 2027.{2}{9} CrossFit: ‏Open ثم ربع النهائي (أفضل 25% عالميًا) ثم نصف النهائي (أفضل 2,000 رجل و2,000 امرأة) ثم الألعاب (أفضل 40 رجلًا و40 امرأة).{4}"
+    },
+    {
+     "name": "الفئات العمرية",
+     "why": "HYROX: الحد الأدنى للعمر 16؛ الفئات من تحت 24 (16–24) إلى 85–89.{2} CrossFit: فئات المراهقين 14–15 و16–17 و18–19، وفئات الأساتذة من 35–39 إلى 70+.{4}"
+    },
+    {
+     "name": "مواعيد 2027",
+     "why": "CrossFit Open: يفتح التسجيل في 7 يناير 2027؛ ‏27.1 في 17–22 فبراير، و27.2 في 24 فبراير–1 مارس، و27.3 في 3–8 مارس.{4} HYROX: التسجيل لكل فعالية، والمواعيد في أداة البحث عن السباقات.{9}"
+    }
+   ],
+   "enough": [
+    "وجد تحليل تلوي لـ43 دراسة أن التدريب الهوائي وتدريب القوة المتزامنين لم يغيّرا القوة القصوى (SMD −0.06) أو التضخم العضلي (−0.01) بشكل دال مقارنة بتدريب القوة وحده، وخفّضا القوة الانفجارية (−0.28)، وأكثر عند أدائهما في الجلسة نفسها.{6}",
+    "تنص إرشادات منظمة الصحة العالمية لعام 2020 على أن البالغين ينبغي أن يمارسوا 150 إلى 300 دقيقة من النشاط الهوائي المتوسط (أو 75 إلى 150 دقيقة من النشاط الشديد) أسبوعيًا، وأنشطة تقوية العضلات تشمل جميع المجموعات الرئيسية يومين أو أكثر أسبوعيًا.{7}"
+   ],
+   "safety": [
+    "يبني نموذج ACSM لعام 2015 للفحص الموافقةَ الطبية قبل التمرين على النشاط الحالي، ووجود علامات أو أعراض و/أو مرض قلبي وعائي أو أيضي أو كلوي معروف، والشدة المرغوبة.{8}"
+   ],
    "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
    "labels": {
     "home": "الرئيسية",
@@ -166,97 +167,59 @@
     "whatsapp": "اسأل عبر واتساب",
     "whatsappText": "مرحباً سوسميت، قرأت مقال HYROX مقابل CrossFit وأريد حجز استشارة",
     "skip": "انتقل إلى المحتوى",
-    "crumb": "HYROX أم CrossFit"
+    "crumb": "HYROX مقابل CrossFit"
    },
-   "intro": [
-    "تريد أن تعرف أيهما تجرّب. أو هل يمكنك الاثنين.",
-    "هما ليسا من النوع نفسه. HYROX سباق: المحطات الثماني نفسها و8 كم جري في كل مكان.{1} وCrossFit أسلوب تدريب، ومسابقته السنوية هي Open.{3}{4}",
-    "لذلك أقارن سباق HYROX بمسابقة CrossFit Open. المعلومات من صفحات كل جهة منظمة، قُرئت في 2 نوفمبر 2026.",
-    "تمارين Open لعام 2027 لم تُنشر بعد. لن أخمّنها.{4}",
-    "مقارنة مستقلة. وليست مقالاً رسمياً من أي من العلامتين."
-   ],
-   "listHeading": "HYROX أم CrossFit: 7 فروق",
-   "items": [
-    {
-     "name": "مضمار ثابت، أو تمارين لا تعرفها بعد",
-     "why": "HYROX: جري 1 كم، ثم محطة واحدة، ثماني مرات. المحطات نفسها بالترتيب نفسه في كل مدينة.{1}",
-     "how": "CrossFit Open: ثلاثة تمارين على ثلاثة أسابيع. تُنشر على موقع CrossFit Games أيام الأربعاء.{4} وحتى ذلك الحين لا تعرف ما هي.",
-     "dose": "تحب أن تعرف الاختبار وتتدرب له: HYROX. تحب المفاجأة: Open."
-    },
-    {
-     "name": "كيف تُحتسب نتيجتك",
-     "why": "HYROX: زمن إنهائك. وتُضاف عقوبات دقيقتين، مثلاً لمحطة خاطئة.{1}{2}",
-     "how": "Open: تؤدي التمرين ثم ترسل نتيجتك عبر الإنترنت قبل الاثنين الساعة 5 مساءً بتوقيت المحيط الهادئ. وتعرض لوحات الصدارة ترتيبك حسب النادي أو الفئة العمرية أو العالم.{4}",
-     "dose": "لا تذكر صفحات CrossFit بعد كيف يُحتسب كل تمرين في 2027. لن أخمّن.{4}"
-    },
-    {
-     "name": "الحركات التي تحتاجها",
-     "why": "HYROX: SkiErg، دفع الزلاجة، سحب الزلاجة، قفزات البيربي الطويلة، التجديف، حمل المزارع، اندفاعات كيس الرمل، رمي كرة الحائط، إضافة إلى 8 كم جري.{1}",
-     "how": "تذكر صفحة Open من CrossFit السناتش والثراستر والماسل أب وتوز تو بار وضغط الوقوف على اليدين والقفز بالحبل المزدوج كأمثلة على إنجازات يحققها الناس في Open.{4} هذه أمثلة، وليست تمارين 2027. جديد على رفعات الأولمبياد مثل الخطف أو الكلين؟ لا تعلّم نفسك في البيت من الفيديوهات. تعلّمها تحت عين مدرب، بدءًا بأنبوب PVC أو بار فارغ. في البيت، درّب النمط بحركات المفصلة والدفع بالدمبل أو الكيتلبل بدلًا من ذلك.",
-     "dose": "مهارات مثل الماسل أب تحتاج تدريباً مخططاً عبر الوقت. وHYROX لا يحتاج أياً منها."
-    },
-    {
-     "name": "أين تؤديه",
-     "why": "HYROX: في قاعة الفعالية يوم السباق. في 2 نوفمبر 2026 عرض الباحث 66 فعالية، مع 36 خيار دولة.{9}",
-     "how": "Open: في ناديك لـ CrossFit، أو أي مكان تؤدي فيه التمرين وتسجل النتيجة. تقول CrossFit إن لديها أكثر من 9000 نادٍ تابع حول العالم.{3}",
-     "dose": "يفتح التسجيل في Open 2027 في 7 يناير 2027.{4} والتسجيل في HYROX لكل فعالية. راجع صفحتها."
-    },
-    {
-     "name": "المسار بعد الخطوة الأولى",
-     "why": "HYROX: فئات عمرية من 16 سنة. ويمنح الدليل كل فئة سباق في كل فعالية مقعداً واحداً للتأهل إلى بطولة العالم في هونغ كونغ، 10 إلى 13 يونيو 2027.{2}{9}",
-     "how": "CrossFit: Open، ثم الربع النهائي (أفضل 25% في العالم)، ثم نصف النهائي (أفضل 2000 رجل و2000 امرأة)، ثم الألعاب (أفضل 40 رجلاً و40 امرأة).{4}",
-     "dose": "كلاهما يرحّب بالجميع. تقول HYROX إنها للجميع.{1} وتقول CrossFit إن أي شخص يستطيع المشاركة في Open مهما كان مستوى لياقته.{4}"
-    },
-    {
-     "name": "ما يشتركان فيه من تدريب",
-     "why": "كلاهما يكافئ القوة والمحرّك الهوائي. تقول منظمة الصحة العالمية إن على البالغين ممارسة 150 إلى 300 دقيقة أسبوعياً من النشاط الهوائي المعتدل، إضافة إلى تقوية العضلات في يومين أو أكثر.{7}",
-     "how": "وجد تحليل جمعي لـ 43 دراسة أن إضافة العمل الهوائي لم تُحدث فرقاً واضحاً في القوة القصوى أو حجم العضلة، لكن القوة الانفجارية كانت أقل، وأكثر عند الجمع في الجلسة نفسها.{6}",
-     "dose": "لذلك أوزّع الأيام الشاقة. ارفع واجرِ في يومين مختلفين متى أمكن."
-    },
-    {
-     "name": "الجمع بينهما في سنة واحدة",
-     "why": "يُقام Open 2027 من 17 فبراير إلى 8 مارس.{4}{5} ويعرض باحث HYROX فعاليات حتى 10 يونيو 2027.{9}",
-     "how": "خطة بسيطة: استخدم أسابيع Open الثلاثة كاختبار للقوة والمهارة. ثم انتقل إلى قاعدة جري والمحطات لسباق HYROX في الربيع.",
-     "dose": "لا أستطيع أن أعد بنتيجة من أي خطة. لا نتائج عملاء هنا، ولا إيحاء بها."
-    }
-   ],
-   "enoughHeading": "ما لن أدّعيه",
-   "enough": [
-    "تمارين Open 2027 وطريقة احتساب كل منها: لم تُنشر بعد.{4}",
-    "معدلات الإصابة: لم أجد رقماً أثق به لأي منهما، فلا أذكر شيئاً.",
-    "المواعيد والقواعد تتغير. راجع صفحة فعالية HYROX وموقع CrossFit Games قبل أن تسجّل.{4}{9}",
-    "لا أسعار. الرسوم على موقع كل جهة. لا نتائج عملاء، ولا إيحاء بها."
-   ],
-   "sampleHeading": "أسبوع نموذجي يضم Open",
-   "sampleLabel": "نموذج فقط. ليس وصفة. عدّله بحسب جسمك وصحتك وتاريخك.",
-   "sample": [
-    "الإثنين: رفع، سكوات وضغط، 3 مجموعات من 5 إلى 8.",
-    "الثلاثاء: جري سهل، 30 دقيقة.",
-    "الأربعاء: يوم تمرين Open. سخّن 15 دقيقة أولاً.",
-    "الخميس: راحة أو مشي.",
-    "الجمعة: رفع، ثني الورك وسحب، 3 مجموعات من 8.",
-    "السبت: جري سهل 5 كم، ثم 4 جولات من رمي الكرة وحمل.",
-    "الأحد: راحة. عدّله بحسب جسمك وتاريخك."
-   ],
-   "coachedHeading": "تدرّب له مع Online Fitness Worldwide",
-   "coached": [
-    "تريد أن تجرّب أحدهما أو كليهما وتصل جاهزاً. أنت تؤدي الجلسات. وأنا أخطط الأسابيع حول جدولك وأدرّبك على كل رفعة مباشرة.",
-    "Online Fitness Worldwide غير تابعة لـ HYROX وCrossFit ولا مرتبطة بها، ولا تحظى بتأييدها. هذا تدريب مستقل.",
-    "Iron Hour مدته 60 دقيقة، فردياً ومباشراً. التجهيز في الدقيقة 0: الكاميرا بحيث أرى جسمك كاملاً. الإحماء من الدقيقة 4. التمرين الأساسي في الدقيقة 14. التمارين المساعدة في 28. التهدئة في 50.",
-    "Lean Reset عشرون جلسة في الشهر، فردياً. Open Floor مجموعة صغيرة.",
-    "عائد بعد انقطاع طويل؟ برنامج Return مدته 45 دقيقة، 12 جلسة في الشهر بالتناوب: يوم تمرين ويوم راحة. نبني الأساس أولاً.",
-    "تدريب مباشر عبر Google Meet أو Zoom أو FaceTime. بالهندية أو الإنجليزية. بتوقيت الهند (IST). لم تقرّر بعد؟ ابدأ باستشارة مدتها 30 دقيقة. هي محادثة، لا تدريب. الحجز يثبّت موعداً فقط. والرسوم يُتفق عليها مباشرة."
-   ],
-   "safetyHeading": "قبل أن تبدأ",
-   "safety": "معلومات عامة، وليست نصيحة طبية. يقول نموذج الفحص المسبق من ACSM: إن كنت غير نشيط، وبلا أعراض، وبلا مرض معروف في القلب أو الأيض أو الكلى، يمكنك أن تبدأ تمريناً خفيفاً إلى معتدل دون إذن طبي وأن تزيده تدريجياً. إن كانت لديك إحدى هذه الحالات، أو أعراض مثل ألم الصدر أو ضيق نفس غير معتاد أو دوار، فاحصل على إذن طبي أولاً.{8} العمل بأسلوب السباق شاق: أثقال ثقيلة، وقفزات، وبيربي، وركض سريع، وحمل. ابنِ نفسك له على مدى أسابيع. لا تختبر أقصى ثقل وحدك أو دون مراقب أو مدرب يراقبك. الأثقال الثقيلة والقفز والبيربي والجري السريع شاقة على الركبتين والظهر والكتفين. ابنِ نفسك على مدى أسابيع. اسأل طبيباً أولاً إن كانت لديك حالة في القلب أو الضغط أو المفاصل."
+   "byline": "بقلم سوسميت جالان، مدرب في Online Fitness Worldwide.",
+   "listHeading": "الصيغة كما تنص عليها القواعد الرسمية",
+   "enoughHeading": "أرقام من مصادر رسمية ومن أطراف ثالثة",
+   "safetyHeading": "ما تنص عليه القواعد والإرشادات بشأن السلامة"
   },
   "hi": {
-   "metaTitle": "HYROX बनाम CrossFit: चुनने से पहले 7 अंतर | Online Fitness Worldwide",
-   "metaDescription": "HYROX बनाम CrossFit: तय फ़ॉर्मैट की रेस बनाम CrossFit Open, फ़ॉर्मैट, स्कोरिंग, स्किल, राह और ट्रेनिंग पर तुलना। 2027 Open की तारीख़ें CrossFit की अपनी साइट से।",
-   "h1": "HYROX बनाम CrossFit: चुनने से पहले 7 ज़रूरी अंतर",
-   "dek": "HYROX घड़ी के खिलाफ़ एक तय फ़िटनेस रेस है। CrossFit एक ट्रेनिंग तरीक़ा है, और उसका Open तीन हफ़्ते की ऑनलाइन प्रतियोगिता है। अंतर यहाँ हैं, और दोनों की ट्रेनिंग कैसे करें।",
-   "updated": "अपडेट: 2 नवंबर 2026",
-   "byline": "लेखक: सुस्मित जालान, कोच, Online Fitness Worldwide।",
+   "metaTitle": "HYROX बनाम CrossFit: तथ्य साथ-साथ | Online Fitness Worldwide",
+   "metaDescription": "हर आयोजक के पेज से HYROX और CrossFit Open की तुलना: फॉर्मेट, स्कोरिंग, मूवमेंट, स्थान, क्वालिफिकेशन, आयु वर्ग और 2027 की तिथियाँ। स्रोत दिए गए हैं।",
+   "h1": "HYROX बनाम CrossFit: फॉर्मेट, स्कोरिंग और रास्तों की तुलना",
+   "dek": "हर आयोजक के अपने पेज और नियमपुस्तिका से HYROX और CrossFit Open साथ-साथ: फॉर्मेट, स्कोरिंग, मूवमेंट, स्थान, क्वालिफिकेशन और तिथियाँ।",
+   "intro": [
+    "HYROX खुद को फिटनेस रेस बताता है: 1 km दौड़ के बाद एक वर्कआउट स्टेशन, आठ बार, हर शहर में एक ही फॉर्मेट।{1} CrossFit खुद को एक वैश्विक फिटनेस ब्रांड बताता है जिसका समुदाय फंक्शनल मूवमेंट, सापेक्ष तीव्रता, कोचिंग और साझा प्रयास की पद्धति साझा करता है; इसका वार्षिक प्रतियोगिता सीज़न Open से शुरू होता है।{3}{4}",
+    "यह पेज हर आयोजक के पेजों के आधार पर HYROX रेस की तुलना CrossFit Open से करता है। ये पेज पढ़े जाने के समय 2027 Open वर्कआउट प्रकाशित नहीं हुए थे।{4} यह पेज स्वतंत्र है और किसी भी ब्रांड का आधिकारिक प्रकाशन नहीं है।"
+   ],
+   "items": [
+    {
+     "name": "फॉर्मेट",
+     "why": "HYROX: वही आठ स्टेशन, उसी क्रम में, 8 km दौड़ के साथ।{1}{2} CrossFit Open: तीन हफ्तों में तीन वर्कआउट, बुधवार को CrossFit Games वेबसाइट पर जारी।{4}"
+    },
+    {
+     "name": "स्कोरिंग",
+     "why": "HYROX: फिनिश समय, नियमपुस्तिका में समय पेनल्टी के साथ (जैसे गलत Roxzone आर्च के लिए 2 मिनट)।{2} CrossFit Open: स्कोर सोमवार शाम 5 बजे PT तक ऑनलाइन जमा, एफ़िलिएट, उम्र या दुनिया भर के अनुसार लीडरबोर्ड।{4}"
+    },
+    {
+     "name": "मूवमेंट",
+     "why": "HYROX: SkiErg, स्लेड पुश, स्लेड पुल, बर्पी ब्रॉड जंप, रोइंग, फार्मर्स कैरी, सैंडबैग लंज और वॉल बॉल।{1}{2} CrossFit, Open में लोगों की पहली उपलब्धियों के उदाहरण के रूप में स्नैच, थ्रस्टर, मसल-अप, टोज़-टू-बार, हैंडस्टैंड पुश-अप और डबल-अंडर बताता है; ये 2027 के वर्कआउट नहीं हैं।{4}"
+    },
+    {
+     "name": "कहाँ होता है",
+     "why": "HYROX: इवेंट स्थलों पर; इस अपडेट के लिए पढ़े गए रेस फाइंडर में 70 इवेंट थे।{9} CrossFit Open: वर्कआउट एफ़िलिएट पर होते हैं; CrossFit कहता है कि दुनिया भर में उसके 9,000 से अधिक एफ़िलिएट जिम हैं।{3}{4}"
+    },
+    {
+     "name": "क्वालिफिकेशन का रास्ता",
+     "why": "HYROX: हर क्वालिफाइंग इवेंट की हर रेस क्लास एक वर्ल्ड चैंपियनशिप स्थान देती है; फाइंडर वर्ल्ड चैंपियनशिप हांगकांग में 10–13 जून 2027 सूचीबद्ध करता है।{2}{9} CrossFit: Open, फिर क्वार्टरफ़ाइनल (दुनिया के शीर्ष 25%), सेमीफ़ाइनल (शीर्ष 2,000 पुरुष और 2,000 महिलाएँ) और Games (शीर्ष 40 पुरुष और 40 महिलाएँ)।{4}"
+    },
+    {
+     "name": "आयु वर्ग",
+     "why": "HYROX: न्यूनतम आयु 16; आयु वर्ग Under 24 (16–24) से 85–89 तक।{2} CrossFit: किशोर वर्ग 14–15, 16–17 और 18–19, और मास्टर्स 35–39 से 70+ तक।{4}"
+    },
+    {
+     "name": "2027 की तिथियाँ",
+     "why": "CrossFit Open: पंजीकरण 7 जनवरी 2027 से; 27.1 17–22 फरवरी, 27.2 24 फरवरी–1 मार्च, 27.3 3–8 मार्च।{4} HYROX: पंजीकरण हर इवेंट के लिए, तिथियाँ रेस फाइंडर पर।{9}"
+    }
+   ],
+   "enough": [
+    "43 अध्ययनों के मेटा-विश्लेषण में साथ-साथ एरोबिक और स्ट्रेंथ ट्रेनिंग ने केवल स्ट्रेंथ ट्रेनिंग की तुलना में अधिकतम ताकत (SMD −0.06) या मांसपेशी वृद्धि (−0.01) को महत्वपूर्ण रूप से नहीं बदला, और विस्फोटक ताकत घटाई (−0.28), एक ही सत्र में करने पर अधिक।{6}",
+    "WHO की 2020 गाइडलाइंस कहती हैं कि वयस्कों को हफ़्ते में 150 से 300 मिनट मध्यम एरोबिक गतिविधि (या 75 से 150 मिनट तेज़), और सभी प्रमुख मांसपेशी समूहों वाली मांसपेशी-मज़बूती गतिविधियाँ हफ़्ते में 2 या अधिक दिन करनी चाहिए।{7}"
+   ],
+   "safety": [
+    "ACSM का 2015 का स्क्रीनिंग मॉडल व्यायाम से पहले मेडिकल क्लियरेंस को मौजूदा गतिविधि, लक्षण और/या ज्ञात हृदय, मेटाबॉलिक या किडनी रोग, और चाहे गए स्तर पर आधारित करता है।{8}"
+   ],
    "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
    "labels": {
     "home": "होम",
@@ -272,95 +235,57 @@
     "skip": "सामग्री पर जाएँ",
     "crumb": "HYROX बनाम CrossFit"
    },
-   "intro": [
-    "आप जानना चाहते हैं कि कौन-सा आज़माएँ। या क्या दोनों हो सकते हैं।",
-    "ये एक ही तरह की चीज़ नहीं हैं। HYROX एक रेस है: हर जगह वही आठ स्टेशन और 8 किमी दौड़।{1} CrossFit ट्रेनिंग का तरीक़ा है, और उसकी सालाना प्रतियोगिता Open है।{3}{4}",
-    "इसलिए मैं HYROX रेस की तुलना CrossFit Open से करता हूँ। तथ्य हर आयोजक के अपने पेजों से हैं, 2 नवंबर 2026 को पढ़े गए।",
-    "2027 Open के वर्कआउट अभी प्रकाशित नहीं हैं। मैं अंदाज़ा नहीं लगाऊँगा।{4}",
-    "स्वतंत्र तुलना। किसी भी ब्रांड की आधिकारिक पोस्ट नहीं।"
-   ],
-   "listHeading": "HYROX बनाम CrossFit: 7 अंतर",
-   "items": [
-    {
-     "name": "तय कोर्स, या ऐसे वर्कआउट जो अभी पता नहीं",
-     "why": "HYROX: 1 किमी दौड़, फिर एक स्टेशन, आठ बार। हर शहर में वही स्टेशन, वही क्रम।{1}",
-     "how": "CrossFit Open: तीन हफ़्तों में तीन वर्कआउट। ये बुधवार को CrossFit Games की वेबसाइट पर जारी होते हैं।{4} तब तक आपको पता नहीं होता कि वे क्या हैं।",
-     "dose": "टेस्ट पहले से जानकर उसकी ट्रेनिंग पसंद है: HYROX। सरप्राइज़ पसंद है: Open।"
-    },
-    {
-     "name": "आपको स्कोर कैसे मिलता है",
-     "why": "HYROX: आपका फ़िनिश टाइम। दो मिनट की पेनल्टी लगती है, जैसे ग़लत स्टेशन पर।{1}{2}",
-     "how": "Open: आप वर्कआउट करते हैं, फिर सोमवार शाम 5 बजे PT तक ऑनलाइन स्कोर जमा करते हैं। लीडरबोर्ड जिम, आयु वर्ग या दुनिया भर में आपकी जगह दिखाते हैं।{4}",
-     "dose": "CrossFit के पेज अभी नहीं बताते कि 2027 के हर वर्कआउट का स्कोर कैसे बनेगा। मैं अंदाज़ा नहीं लगाऊँगा।{4}"
-    },
-    {
-     "name": "कौन-सी मूवमेंट चाहिए",
-     "why": "HYROX: SkiErg, स्लेड पुश, स्लेड पुल, बर्पी ब्रॉड जंप, रो, फ़ार्मर्स कैरी, सैंडबैग लंज, वॉल बॉल, और 8 किमी दौड़।{1}",
-     "how": "CrossFit के Open पेज पर स्नैच, थ्रस्टर, मसल-अप, टो-टू-बार, हैंडस्टैंड पुश-अप और डबल-अंडर उन उपलब्धियों के उदाहरण हैं जो लोग Open में पहली बार पाते हैं।{4} ये उदाहरण हैं। ये 2027 के वर्कआउट नहीं हैं। स्नैच या क्लीन जैसे ओलंपिक लिफ़्ट नए हैं? घर पर वीडियो देखकर ख़ुद न सीखें। इन्हें कोच की निगरानी में सीखें, PVC पाइप या ख़ाली बार से शुरू करके। घर पर इसकी जगह डंबल या केटलबेल से हिंज और पुश प्रेस करके पैटर्न सीखें।",
-     "dose": "मसल-अप जैसी स्किल को समय के साथ योजना से अभ्यास चाहिए। HYROX में इनमें से कोई नहीं है।"
-    },
-    {
-     "name": "आप इसे कहाँ करते हैं",
-     "why": "HYROX: रेस के दिन इवेंट वेन्यू पर। 2 नवंबर 2026 को फ़ाइंडर में 66 इवेंट थे, 36 देशों के विकल्प के साथ।{9}",
-     "how": "Open: आपके CrossFit जिम में, या कहीं भी जहाँ आप वर्कआउट करके स्कोर दर्ज कर सकें। CrossFit का कहना है कि दुनिया भर में उसके 9,000 से ज़्यादा एफ़िलिएट जिम हैं।{3}",
-     "dose": "2027 Open के लिए रजिस्ट्रेशन 7 जनवरी 2027 को खुलता है।{4} HYROX की एंट्री हर इवेंट की अलग होती है। इवेंट पेज देखें।"
-    },
-    {
-     "name": "पहले क़दम के बाद की राह",
-     "why": "HYROX: 16 साल से आयु वर्ग। रूलबुक के अनुसार हर इवेंट की हर रेस क्लास में वर्ल्ड चैंपियनशिप के लिए एक क्वालिफ़िकेशन स्पॉट है, हॉन्ग कॉन्ग में, 10 से 13 जून 2027।{2}{9}",
-     "how": "CrossFit: Open, फिर क्वार्टरफ़ाइनल (दुनिया भर के शीर्ष 25%), फिर सेमीफ़ाइनल (शीर्ष 2,000 पुरुष और 2,000 महिलाएँ), फिर गेम्स (शीर्ष 40 पुरुष और 40 महिलाएँ)।{4}",
-     "dose": "दोनों कहते हैं कि सबका स्वागत है। HYROX कहता है कि यह सबके लिए है।{1} CrossFit कहता है कि कोई भी, किसी भी फ़िटनेस स्तर पर, Open में शामिल हो सकता है।{4}"
-    },
-    {
-     "name": "ट्रेनिंग में क्या साझा है",
-     "why": "दोनों ताक़त और इंजन को इनाम देते हैं। WHO कहता है कि वयस्कों को हफ़्ते में 150 से 300 मिनट मध्यम एरोबिक गतिविधि करनी चाहिए, साथ में 2 या ज़्यादा दिन मांसपेशी मज़बूत करने वाली एक्सरसाइज़।{7}",
-     "how": "43 अध्ययनों के मेटा-विश्लेषण में पाया गया कि एरोबिक जोड़ने से अधिकतम स्ट्रेंथ या मसल साइज़ में साफ़ फ़र्क़ नहीं पड़ा, पर विस्फोटक स्ट्रेंथ कम रही, और एक ही सेशन में दोनों करने पर ज़्यादा।{6}",
-     "dose": "इसलिए मैं मुश्किल दिनों को बाँट देता हूँ। जब हो सके, लिफ़्ट और दौड़ अलग दिनों में रखें।"
-    },
-    {
-     "name": "एक साल में दोनों करना",
-     "why": "2027 का Open 17 फ़रवरी से 8 मार्च तक चलता है।{4}{5} HYROX का फ़ाइंडर 10 जून 2027 तक के इवेंट दिखाता है।{9}",
-     "how": "सीधी योजना: Open के तीन हफ़्तों को ताक़त और स्किल के टेस्ट की तरह लें। फिर वसंत की HYROX के लिए दौड़ के बेस और स्टेशनों पर आ जाएँ।",
-     "dose": "मैं किसी भी योजना से नतीजे का वादा नहीं कर सकता। यहाँ कोई क्लाइंट रिज़ल्ट नहीं, और न ही इशारा।"
-    }
-   ],
-   "enoughHeading": "जो मैं दावा नहीं करूँगा",
-   "enough": [
-    "2027 Open के वर्कआउट और हर एक का स्कोर कैसे बनेगा: अभी प्रकाशित नहीं।{4}",
-    "चोट की दरें: मुझे किसी के लिए कोई भरोसेमंद आँकड़ा नहीं मिला, इसलिए मैं कोई नहीं देता।",
-    "तारीख़ें और नियम बदलते हैं। एंट्री से पहले HYROX इवेंट पेज और CrossFit की Games साइट देखें।{4}{9}",
-    "कोई क़ीमत नहीं। फ़ीस हर आयोजक की साइट पर है। कोई क्लाइंट रिज़ल्ट नहीं, और न ही इशारा।"
-   ],
-   "sampleHeading": "Open वाला एक सैंपल हफ़्ता",
-   "sampleLabel": "सिर्फ़ सैंपल। प्रिस्क्रिप्शन नहीं। अपने शरीर, अपनी सेहत और अपने इतिहास के हिसाब से बदलें।",
-   "sample": [
-    "सोम: लिफ़्ट, स्क्वाट और प्रेस, 5 से 8 के 3 सेट।",
-    "मंगल: आसान दौड़, 30 मिनट।",
-    "बुध: Open वर्कआउट का दिन। पहले 15 मिनट वार्म-अप।",
-    "गुरु: आराम या वॉक।",
-    "शुक्र: लिफ़्ट, हिंज और पुल, 8 के 3 सेट।",
-    "शनि: 5 किमी आसान दौड़, फिर वॉल बॉल और कैरी के 4 राउंड।",
-    "रवि: आराम। इसे अपने शरीर और इतिहास के हिसाब से बदलें।"
-   ],
-   "coachedHeading": "Online Fitness Worldwide के साथ इसकी ट्रेनिंग करें",
-   "coached": [
-    "आप एक, या दोनों आज़माना चाहते हैं और तैयार होकर पहुँचना चाहते हैं। सेशन आप करते हैं। हफ़्ते मैं आपके कैलेंडर के हिसाब से बनाता हूँ और हर लिफ़्ट लाइव कोच करता हूँ।",
-    "Online Fitness Worldwide का HYROX और CrossFit से कोई संबंध नहीं है, और HYROX और CrossFit ने इसका समर्थन नहीं किया है। यह स्वतंत्र ट्रेनिंग है।",
-    "Iron Hour 60 मिनट का है, 1:1, लाइव। मिनट 0 पर सेट-अप: कैमरा ऐसे कि मुझे आपका पूरा शरीर दिखे। मिनट 4 से वार्म-अप। मिनट 14 पर मुख्य लिफ़्ट। 28 पर एक्सेसरीज़। 50 पर कूल-डाउन।",
-    "Lean Reset महीने में 20 सेशन, 1:1। Open Floor एक छोटा ग्रुप है।",
-    "लंबे ब्रेक के बाद लौट रहे हैं? Return 45 मिनट का है, महीने में 12 सेशन, एक दिन छोड़कर। पहले बेस बनाते हैं।",
-    "Google Meet, Zoom या FaceTime पर लाइव कोचिंग। हिंदी या अंग्रेज़ी में। IST पर। अभी तय नहीं? 30 मिनट के कंसल्टेशन से शुरू करें। यह बातचीत है, ट्रेनिंग नहीं। बुकिंग सिर्फ़ समय रोकती है। फ़ीस सीधे तय होती है।"
-   ],
-   "safetyHeading": "शुरू करने से पहले",
-   "safety": "सामान्य जानकारी, मेडिकल सलाह नहीं। ACSM का स्क्रीनिंग मॉडल कहता है: अगर आप एक्टिव नहीं हैं, कोई लक्षण नहीं है और दिल, मेटाबॉलिक या किडनी की कोई ज्ञात बीमारी नहीं है, तो आप बिना मेडिकल क्लियरेंस के हल्की से मध्यम एक्सरसाइज़ शुरू करके धीरे-धीरे बढ़ा सकते हैं। अगर इनमें से कोई बीमारी है, या सीने में दर्द, असामान्य साँस फूलना या चक्कर जैसे लक्षण हैं, तो पहले मेडिकल क्लियरेंस लें।{8} रेस-स्टाइल काम कठिन है: भारी लिफ़्ट, जंप, बर्पी, स्प्रिंट और कैरी। इसके लिए हफ़्तों में तैयारी करें। अकेले या बिना स्पॉटर या कोच के मैक्स लिफ़्ट टेस्ट न करें। भारी लिफ़्ट, जंप, बर्पी और तेज़ दौड़ घुटनों, पीठ और कंधों पर भारी पड़ते हैं। हफ़्तों में तैयारी करें। दिल, ब्लड प्रेशर या जोड़ों की समस्या हो तो पहले डॉक्टर से पूछें।"
+   "byline": "लेखक: सुस्मित जालान, कोच, Online Fitness Worldwide।",
+   "listHeading": "फॉर्मेट, जैसा आधिकारिक नियम बताते हैं",
+   "enoughHeading": "आधिकारिक और तृतीय-पक्ष स्रोतों के आँकड़े",
+   "safetyHeading": "सुरक्षा पर नियम और दिशानिर्देश क्या कहते हैं"
   },
   "es": {
-   "metaTitle": "HYROX vs CrossFit: 7 diferencias antes de elegir | Online Fitness Worldwide",
-   "metaDescription": "HYROX vs CrossFit: carrera fija frente al CrossFit Open, comparados en formato, puntuación, habilidades y entrenamiento. Fechas del Open 2027 de CrossFit.",
-   "h1": "HYROX vs CrossFit: 7 diferencias que importan antes de elegir",
-   "dek": "HYROX es una carrera de fitness fija contra el reloj. CrossFit es un método de entrenamiento, y su Open es una competición online de tres semanas. Así se diferencian y cómo entrenar para ambos.",
-   "updated": "Actualizado el 2 de noviembre de 2026",
-   "byline": "Por Susmit Jalan, entrenador en Online Fitness Worldwide.",
+   "metaTitle": "HYROX vs CrossFit: los datos frente a frente | Online Fitness Worldwide",
+   "metaDescription": "HYROX y el CrossFit Open comparados con las páginas de cada organizador: formato, puntuación, movimientos, sedes, clasificación, edades y fechas 2027. Fuentes.",
+   "h1": "HYROX vs CrossFit: formato, puntuación y vías de clasificación",
+   "dek": "HYROX y el CrossFit Open frente a frente, según las páginas y el reglamento de cada organizador: formato, puntuación, movimientos, sedes, clasificación y fechas.",
+   "intro": [
+    "HYROX se describe como una carrera de fitness: 1 km corriendo seguido de una estación, ocho veces, con el mismo formato en todas las ciudades.{1} CrossFit se describe como una marca global de fitness cuya comunidad comparte una metodología de movimiento funcional, intensidad relativa, entrenamiento guiado y esfuerzo compartido; su temporada de competición anual empieza con el Open.{3}{4}",
+    "Esta página compara la carrera HYROX con el CrossFit Open a partir de las páginas de cada organizador. Los workouts del Open 2027 no se habían publicado cuando se consultaron.{4} Es independiente y no es una publicación oficial de ninguna de las dos marcas."
+   ],
+   "items": [
+    {
+     "name": "Formato",
+     "why": "HYROX: las mismas ocho estaciones en el mismo orden, con 8 km de carrera.{1}{2} CrossFit Open: tres workouts en tres semanas, publicados los miércoles en la web de los CrossFit Games.{4}"
+    },
+    {
+     "name": "Puntuación",
+     "why": "HYROX: tiempo final, con penalizaciones de tiempo en el reglamento (por ejemplo, 2 minutos por usar el arco equivocado de la Roxzone).{2} CrossFit Open: las puntuaciones se envían online hasta el lunes a las 17:00 PT, con clasificaciones por box, edad o mundial.{4}"
+    },
+    {
+     "name": "Movimientos",
+     "why": "HYROX: SkiErg, empuje y arrastre de trineo, burpees con salto largo, remo, paseo del granjero, zancadas con saco y wall balls.{1}{2} CrossFit cita arrancadas, thrusters, muscle-ups, toes-to-bar, flexiones en pino y dobles saltos como ejemplos de primeras veces que la gente logra en el Open; no son los workouts de 2027.{4}"
+    },
+    {
+     "name": "Dónde se hace",
+     "why": "HYROX: en sedes de eventos; el buscador consultado para esta actualización mostraba 70 eventos.{9} CrossFit Open: los workouts se hacen en los boxes afiliados; CrossFit indica que tiene más de 9.000 boxes afiliados en el mundo.{3}{4}"
+    },
+    {
+     "name": "Vía de clasificación",
+     "why": "HYROX: cada categoría de cada evento clasificatorio ofrece una plaza para el Campeonato del Mundo; el buscador lista el Mundial en Hong Kong del 10 al 13 de junio de 2027.{2}{9} CrossFit: Open, luego Cuartos de final (25% mejor del mundo), Semifinales (2.000 mejores hombres y 2.000 mujeres) y los Games (40 mejores hombres y 40 mujeres).{4}"
+    },
+    {
+     "name": "Grupos de edad",
+     "why": "HYROX: edad mínima 16; grupos desde Under 24 (16–24) hasta 85–89.{2} CrossFit: adolescentes 14–15, 16–17 y 18–19, y másters de 35–39 a 70+.{4}"
+    },
+    {
+     "name": "Fechas 2027",
+     "why": "CrossFit Open: inscripción desde el 7 de enero de 2027; 27.1 del 17 al 22 de febrero, 27.2 del 24 de febrero al 1 de marzo, 27.3 del 3 al 8 de marzo.{4} HYROX: inscripción por evento, con fechas en el buscador.{9}"
+    }
+   ],
+   "enough": [
+    "Un metaanálisis de 43 estudios halló que el entrenamiento concurrente aeróbico y de fuerza no cambió significativamente la fuerza máxima (SMD −0,06) ni la hipertrofia (−0,01) frente a la fuerza sola, y redujo la fuerza explosiva (−0,28), más cuando ambos se hacían en la misma sesión.{6}",
+    "Las directrices de la OMS de 2020 establecen que los adultos deberían realizar de 150 a 300 minutos semanales de actividad aeróbica moderada (o de 75 a 150 de vigorosa) y fortalecimiento muscular de todos los grandes grupos musculares 2 o más días por semana.{7}"
+   ],
+   "safety": [
+    "El modelo de cribado del ACSM de 2015 basa la autorización médica previa al ejercicio en la actividad actual, los signos o síntomas y/o la enfermedad cardiovascular, metabólica o renal conocida, y la intensidad deseada.{8}"
+   ],
    "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
    "labels": {
     "home": "Inicio",
@@ -376,95 +301,57 @@
     "skip": "Saltar al contenido",
     "crumb": "HYROX vs CrossFit"
    },
-   "intro": [
-    "Quieres saber cuál probar. O si puedes hacer los dos.",
-    "No son el mismo tipo de cosa. HYROX es una carrera: las mismas ocho estaciones y 8 km de carrera en todas partes.{1} CrossFit es un método de entrenamiento, y su competición anual es el Open.{3}{4}",
-    "Por eso comparo la carrera HYROX con el CrossFit Open. Los datos vienen de las páginas de cada organizador, leídas el 2 de noviembre de 2026.",
-    "Los entrenamientos del Open 2027 aún no se han publicado. No los voy a adivinar.{4}",
-    "Comparación independiente. No es una publicación oficial de ninguna de las dos marcas."
-   ],
-   "listHeading": "HYROX vs CrossFit: 7 diferencias",
-   "items": [
-    {
-     "name": "Un recorrido fijo, o entrenamientos que aún no conoces",
-     "why": "HYROX: 1 km de carrera y una estación, ocho veces. Mismas estaciones, mismo orden, en todas las ciudades.{1}",
-     "how": "CrossFit Open: tres entrenamientos en tres semanas. Se publican en la web de CrossFit Games los miércoles.{4} Hasta entonces no sabes cuáles son.",
-     "dose": "Te gusta conocer la prueba y entrenarla: HYROX. Te gusta la sorpresa: el Open."
-    },
-    {
-     "name": "Cómo te puntúan",
-     "why": "HYROX: tu tiempo final. Hay penalizaciones de dos minutos, por ejemplo por usar la estación equivocada.{1}{2}",
-     "how": "Open: haces el entrenamiento y envías tu puntuación online antes del lunes a las 17:00 PT. Las clasificaciones te muestran por gimnasio, grupo de edad o en todo el mundo.{4}",
-     "dose": "Las páginas de CrossFit aún no dicen cómo se puntúa cada entrenamiento de 2027. No lo voy a adivinar.{4}"
-    },
-    {
-     "name": "Los movimientos que necesitas",
-     "why": "HYROX: SkiErg, empuje de trineo, arrastre de trineo, burpees con salto largo, remo, paseo del granjero, zancadas con saco, wall balls, más 8 km de carrera.{1}",
-     "how": "La página del Open de CrossFit cita arrancadas, thrusters, muscle-ups, toes-to-bar, flexiones en pino y dobles saltos de comba como ejemplos de primeras veces que la gente logra en el Open.{4} Son ejemplos. No son los entrenamientos de 2027. ¿Nuevo en levantamientos olímpicos como la arrancada o la cargada? No aprendas solo en casa con vídeos. Apréndelos con un entrenador delante, empezando con un tubo de PVC o una barra vacía. En casa, entrena el patrón con bisagras de cadera y push press con mancuerna o kettlebell.",
-     "dose": "Habilidades como el muscle-up necesitan práctica planificada con el tiempo. HYROX no tiene ninguna de ellas."
-    },
-    {
-     "name": "Dónde lo haces",
-     "why": "HYROX: en la sede del evento el día de la carrera. El 2 de noviembre de 2026 el buscador listaba 66 eventos, con 36 opciones de país.{9}",
-     "how": "Open: en tu gimnasio de CrossFit, o donde puedas hacer el entrenamiento y registrar la puntuación. CrossFit dice tener más de 9.000 gimnasios afiliados en todo el mundo.{3}",
-     "dose": "La inscripción al Open 2027 abre el 7 de enero de 2027.{4} La de HYROX es por evento. Mira la página del evento."
-    },
-    {
-     "name": "El camino tras el primer paso",
-     "why": "HYROX: grupos de edad desde los 16. El reglamento da a cada clase de carrera de cada evento una plaza de clasificación para el Mundial, en Hong Kong, del 10 al 13 de junio de 2027.{2}{9}",
-     "how": "CrossFit: Open, luego cuartos de final (el 25 % mejor del mundo), luego semifinales (los 2.000 mejores hombres y 2.000 mejores mujeres), luego los Games (los 40 mejores hombres y 40 mejores mujeres).{4}",
-     "dose": "Ambos dicen dar la bienvenida a todos. HYROX dice que es para todo el mundo.{1} CrossFit dice que cualquiera puede unirse al Open, sea cual sea su nivel.{4}"
-    },
-    {
-     "name": "Qué entrenamiento comparten",
-     "why": "Los dos premian la fuerza y el motor aeróbico. La OMS dice que los adultos deben hacer de 150 a 300 minutos de actividad aeróbica moderada a la semana, más fortalecimiento muscular 2 o más días.{7}",
-     "how": "Un metaanálisis de 43 estudios halló que añadir trabajo aeróbico no marcó una diferencia clara en fuerza máxima ni masa muscular, pero la fuerza explosiva fue menor, más si iban en la misma sesión.{6}",
-     "dose": "Por eso reparto los días duros. Levanta y corre en días distintos cuando puedas."
-    },
-    {
-     "name": "Hacer los dos en un año",
-     "why": "El Open 2027 va del 17 de febrero al 8 de marzo.{4}{5} El buscador de HYROX lista eventos hasta el 10 de junio de 2027.{9}",
-     "how": "Un plan sencillo: usa las tres semanas del Open como prueba de fuerza y habilidad. Luego pasa a una base de carrera y a las estaciones para un HYROX de primavera.",
-     "dose": "No puedo prometer un resultado con ningún plan. Aquí no hay resultados de clientes, ni se insinúan."
-    }
-   ],
-   "enoughHeading": "Lo que no voy a afirmar",
-   "enough": [
-    "Los entrenamientos del Open 2027 y cómo se puntúa cada uno: aún no publicados.{4}",
-    "Tasas de lesiones: no encontré una cifra fiable para ninguno, así que no doy ninguna.",
-    "Las fechas y las reglas cambian. Mira la página del evento de HYROX y la web de CrossFit Games antes de inscribirte.{4}{9}",
-    "Sin precios. Las tarifas están en la web de cada organizador. Sin resultados de clientes, ni insinuados."
-   ],
-   "sampleHeading": "Una semana de ejemplo con el Open",
-   "sampleLabel": "Solo un ejemplo. No es una prescripción. Ajústalo a tu cuerpo, tu salud y tu historia.",
-   "sample": [
-    "Lun: pesas, sentadilla y press, 3 series de 5 a 8.",
-    "Mar: carrera suave, 30 minutos.",
-    "Mié: día de entrenamiento del Open. Calienta 15 minutos antes.",
-    "Jue: descanso o paseo.",
-    "Vie: pesas, bisagra y tracción, 3 series de 8.",
-    "Sáb: 5 km de carrera suave y luego 4 rondas de wall balls y un acarreo.",
-    "Dom: descanso. Ajústalo a tu cuerpo y a tu historia."
-   ],
-   "coachedHeading": "Entrena para ello con Online Fitness Worldwide",
-   "coached": [
-    "Quieres probar uno, o los dos, y llegar preparado. Tú haces las sesiones. Yo planifico las semanas según tu agenda y te entreno cada levantamiento en directo.",
-    "Online Fitness Worldwide no está afiliada a HYROX y CrossFit ni cuenta con su respaldo. Es un entrenamiento independiente.",
-    "Iron Hour son 60 minutos, 1:1, en directo. Preparación en el minuto 0: cámara colocada para que vea todo tu cuerpo. Calentamiento desde el minuto 4. El ejercicio principal en el 14. Accesorios en el 28. Vuelta a la calma en el 50.",
-    "Lean Reset son 20 sesiones al mes, 1:1. Open Floor es un grupo pequeño.",
-    "¿Vuelves tras un parón largo? Return son 45 minutos, 12 sesiones al mes en días alternos. Primero construimos la base.",
-    "En directo por Google Meet, Zoom o FaceTime. En hindi o inglés. En horario IST. ¿Aún no lo tienes claro? Empieza con una consulta de 30 minutos. Es una conversación, no un entrenamiento. La reserva solo guarda una hora. La tarifa se acuerda directamente."
-   ],
-   "safetyHeading": "Antes de empezar",
-   "safety": "Información general, no consejo médico. El modelo de cribado del ACSM dice: si eres inactivo, no tienes síntomas ni enfermedad conocida del corazón, metabólica o renal, puedes empezar con ejercicio ligero a moderado sin autorización médica e ir subiendo poco a poco. Si tienes una de esas enfermedades, o síntomas como dolor en el pecho, falta de aire inusual o mareo, consigue primero la autorización médica.{8} El trabajo de estilo carrera es duro: levantamientos pesados, saltos, burpees, sprints y acarreos. Llega a él en semanas. No pruebes un máximo a solas, ni sin ayudante o entrenador que te vea. Los levantamientos pesados, los saltos, los burpees y la carrera rápida castigan rodillas, espalda y hombros. Progresa durante semanas. Consulta antes con tu médico si tienes una afección del corazón, la tensión o las articulaciones."
+   "byline": "Por Susmit Jalan, entrenador en Online Fitness Worldwide.",
+   "listHeading": "El formato, según las reglas oficiales",
+   "enoughHeading": "Cifras de fuentes oficiales y de terceros",
+   "safetyHeading": "Qué indican las reglas y guías sobre seguridad"
   },
   "zh": {
-   "metaTitle": "HYROX与CrossFit：选择前要知道的7个区别 | Online Fitness Worldwide",
-   "metaDescription": "HYROX与CrossFit对比：固定赛制的比赛与CrossFit Open，从赛制、计分、动作、路径和训练比较，并附CrossFit官网的2027年Open日期。",
-   "h1": "HYROX与CrossFit：选择前要知道的7个区别",
-   "dek": "HYROX是与时间赛跑的固定体能赛。CrossFit是一种训练方法，其Open是为期三周的线上比赛。这里说明区别，以及如何兼顾训练。",
-   "updated": "更新于2026年11月2日",
-   "byline": "作者：Susmit Jalan，Online Fitness Worldwide 教练。",
+   "metaTitle": "HYROX与CrossFit：事实对照 | Online Fitness Worldwide",
+   "metaDescription": "依据各主办方页面对比HYROX与CrossFit Open：赛制、计分、动作、场地、晋级、年龄组和2027日期。附来源。",
+   "h1": "HYROX与CrossFit：赛制、计分和晋级路径对比",
+   "dek": "依据各主办方页面和规则手册对照HYROX与CrossFit Open：赛制、计分、动作、场地、晋级和日期。",
+   "intro": [
+    "HYROX自称是一项健身竞速：跑1公里后完成一个训练站，重复八次，各城市赛制相同。{1} CrossFit自称是全球健身品牌，其社区共享功能性动作、相对强度、教练指导和共同努力的方法论；其年度赛季从Open开始。{3}{4}",
+    "本页依据各主办方页面比较HYROX比赛与CrossFit Open。查阅这些页面时，2027年Open训练内容尚未公布。{4} 本页为独立内容，并非任一品牌的官方发布。"
+   ],
+   "items": [
+    {
+     "name": "赛制",
+     "why": "HYROX：相同的八个站点、相同顺序，加8公里跑。{1}{2} CrossFit Open：三周内三个训练，每周三在CrossFit Games网站发布。{4}"
+    },
+    {
+     "name": "计分",
+     "why": "HYROX：完赛时间，规则手册中设有罚时（例如走错Roxzone拱门罚2分钟）。{2} CrossFit Open：成绩须在太平洋时间周一下午5点前在线提交，排行榜可按附属馆、年龄或全球查看。{4}"
+    },
+    {
+     "name": "动作",
+     "why": "HYROX：SkiErg、推雪橇、拉雪橇、波比跳远、划船、农夫行走、沙袋弓步和墙球。{1}{2} CrossFit列举抓举、借力推举（thruster）、双力臂、脚尖触杠、倒立俯卧撑和双摇作为人们在Open中首次完成的例子；这些并非2027年的训练。{4}"
+    },
+    {
+     "name": "场地",
+     "why": "HYROX：在赛事场馆举行；本次更新查阅的赛事查找页面列出70场赛事。{9} CrossFit Open：在附属馆完成训练；CrossFit称全球有9,000多家附属馆。{3}{4}"
+    },
+    {
+     "name": "晋级路径",
+     "why": "HYROX：每个资格赛中每个组别提供一个世锦赛名额；查找页面列出世锦赛于2027年6月10–13日在香港举行。{2}{9} CrossFit：Open，之后为四分之一决赛（全球前25%）、半决赛（男女各前2,000名）和Games（男女各前40名）。{4}"
+    },
+    {
+     "name": "年龄组",
+     "why": "HYROX：最低年龄16岁；年龄组从Under 24（16–24）到85–89。{2} CrossFit：青少年组14–15、16–17和18–19，大师组从35–39到70+。{4}"
+    },
+    {
+     "name": "2027日期",
+     "why": "CrossFit Open：2027年1月7日开放报名；27.1为2月17–22日，27.2为2月24日–3月1日，27.3为3月3–8日。{4} HYROX：按赛事报名，日期见赛事查找页面。{9}"
+    }
+   ],
+   "enough": [
+    "一项纳入43项研究的荟萃分析发现，与单纯力量训练相比，有氧与力量同期训练未显著改变最大力量（SMD −0.06）或肌肉肥大（−0.01），但降低了爆发力（−0.28），同一训练课内进行时更明显。{6}",
+    "世卫组织2020年指南指出，成年人每周应进行150至300分钟中等强度（或75至150分钟高强度）有氧活动，并每周2天或以上进行涉及所有主要肌群的肌肉强化活动。{7}"
+   ],
+   "safety": [
+    "ACSM 2015年筛查模型根据当前活动水平、体征或症状和/或已知心血管、代谢或肾脏疾病，以及期望强度来决定运动前是否需要医学许可。{8}"
+   ],
    "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
    "labels": {
     "home": "首页",
@@ -480,95 +367,57 @@
     "skip": "跳到正文",
     "crumb": "HYROX与CrossFit"
    },
-   "intro": [
-    "你想知道先试哪一个。或者两个能不能都做。",
-    "它们不是同一类东西。HYROX是比赛：到处都是同样的八个站点和8公里跑步。{1}CrossFit是训练方法，它每年的比赛是Open。{3}{4}",
-    "所以我把HYROX比赛与CrossFit Open对比。事实来自各主办方自己的页面，于2026年11月2日阅读。",
-    "2027年Open的训练内容还没有公布。我不会猜。{4}",
-    "独立对比。不是任何一方的官方文章。"
-   ],
-   "listHeading": "HYROX与CrossFit：7个区别",
-   "items": [
-    {
-     "name": "固定赛道，还是你还不知道的训练",
-     "why": "HYROX：跑1公里，然后一个站点，共八次。每个城市站点相同，顺序相同。{1}",
-     "how": "CrossFit Open：三周三个训练。它们在周三发布在CrossFit Games网站上。{4}在那之前你不知道是什么。",
-     "dose": "喜欢先知道测试内容再训练：HYROX。喜欢惊喜：Open。"
-    },
-    {
-     "name": "怎么计分",
-     "why": "HYROX：你的完赛时间。会有两分钟的罚时，例如做错站点。{1}{2}",
-     "how": "Open：你完成训练，然后在周一太平洋时间下午5点前在线提交成绩。排行榜可按健身房、年龄组或全球查看。{4}",
-     "dose": "CrossFit的页面还没有说明2027年每个训练如何计分。我不会猜。{4}"
-    },
-    {
-     "name": "你需要的动作",
-     "why": "HYROX：SkiErg、推雪橇、拉雪橇、波比跳远、划船、农夫行走、沙袋箭步蹲、药球上墙，加8公里跑步。{1}",
-     "how": "CrossFit的Open页面列出抓举、推举深蹲、肌肉上杠、悬垂举腿触杠、倒立俯卧撑和双摇跳绳，作为人们在Open中首次完成的动作示例。{4}这些只是示例，不是2027年的训练。刚接触抓举、高翻这类奥林匹克举？不要在家看视频自学。在教练看护下学，从PVC管或空杆开始。在家可改用哑铃或壶铃的髋铰链和借力推来练动作模式。",
-     "dose": "像肌肉上杠这样的技能需要长期有计划的练习。HYROX没有这些。"
-    },
-    {
-     "name": "在哪里做",
-     "why": "HYROX：比赛日在赛事场馆。2026年11月2日，查询页列出66场赛事，有36个国家选项。{9}",
-     "how": "Open：在你的CrossFit健身房，或任何你能完成训练并记录成绩的地方。CrossFit称全球有超过9000家加盟健身房。{3}",
-     "dose": "2027年Open的报名于2027年1月7日开放。{4}HYROX按赛事报名。请查看赛事页面。"
-    },
-    {
-     "name": "第一步之后的路径",
-     "why": "HYROX：从16岁起分年龄组。规则手册规定每场赛事的每个组别有一个世锦赛资格名额，世锦赛在香港，2027年6月10至13日。{2}{9}",
-     "how": "CrossFit：Open，然后四分之一决赛（全球前25%），再半决赛（前2000名男子和2000名女子），再到Games（前40名男子和40名女子）。{4}",
-     "dose": "两者都说欢迎所有人。HYROX说它适合每个人。{1}CrossFit说无论体能水平如何，任何人都可以参加Open。{4}"
-    },
-    {
-     "name": "训练上的共同点",
-     "why": "两者都奖励力量和有氧能力。WHO说成年人每周应做150至300分钟中等强度有氧活动，加上2天或以上的肌肉力量训练。{7}",
-     "how": "一项纳入43项研究的荟萃分析发现，加入有氧训练对最大力量或肌肉量没有明显差异，但爆发力较低，放在同一次训练时更明显。{6}",
-     "dose": "所以我把高强度日分开。可能的话，举重和跑步放在不同的日子。"
-    },
-    {
-     "name": "一年里两个都做",
-     "why": "2027年Open从2月17日到3月8日。{4}{5}HYROX的查询页列出到2027年6月10日的赛事。{9}",
-     "how": "一个简单的计划：把Open的三周当作力量和技能测试。然后转向跑步基础和站点，备战春季的HYROX。",
-     "dose": "我不能保证任何计划的结果。这里没有客户成果，也不暗示任何成果。"
-    }
-   ],
-   "enoughHeading": "我不会声称的事",
-   "enough": [
-    "2027年Open的训练内容及每项计分方式：尚未公布。{4}",
-    "受伤率：我没有找到可信的数字，所以不给出。",
-    "日期和规则会变。报名前请查看HYROX赛事页面和CrossFit Games网站。{4}{9}",
-    "没有价格。费用在各主办方网站上。没有客户成果，也不暗示。"
-   ],
-   "sampleHeading": "含Open的一周示例",
-   "sampleLabel": "仅为示例，不是处方。请根据你的身体、健康状况和经历调整。",
-   "sample": [
-    "周一：力量训练，深蹲和推举，3组，每组5到8次。",
-    "周二：轻松跑，30分钟。",
-    "周三：Open训练日。先热身15分钟。",
-    "周四：休息或散步。",
-    "周五：力量训练，髋铰链和拉，3组，每组8次。",
-    "周六：5公里轻松跑，然后4轮药球上墙和负重行走。",
-    "周日：休息。请根据你的身体和经历调整。"
-   ],
-   "coachedHeading": "与Online Fitness Worldwide一起备战",
-   "coached": [
-    "你想试一个，或两个都试，并做好准备。训练由你来做。我根据你的日程安排每周计划，并实时指导每一次举重。",
-    "Online Fitness Worldwide与HYROX和CrossFit没有任何关联，也未获得其认可。这是独立的训练指导。",
-    "Iron Hour是60分钟，一对一，实时进行。第0分钟准备：摆好摄像头，让我能看到你的全身。第4分钟开始热身。第14分钟进入主项。第28分钟做辅助练习。第50分钟放松。",
-    "Lean Reset每月20次，一对一。Open Floor是小组课。",
-    "长期中断后重新开始？Return每次45分钟，每月12次，隔天一次。我们先打基础。",
-    "通过Google Meet、Zoom或FaceTime实时指导。印地语或英语。按印度标准时间（IST）。还没决定？先从30分钟的咨询开始。那是一次交谈，不是训练。预约只是保留一个时间。费用直接商定。"
-   ],
-   "safetyHeading": "开始之前",
-   "safety": "一般信息，不是医疗建议。ACSM的运动前筛查模型指出：如果你平时不运动、没有症状，也没有已知的心脏、代谢或肾脏疾病，可以在没有医疗许可的情况下从低到中等强度开始，逐步增加。如果有上述疾病，或出现胸痛、异常气短、头晕等症状，请先取得医疗许可。{8}比赛式训练强度很大：大重量、跳跃、波比、冲刺和负重行走。请用数周时间逐步过渡。不要独自测试最大重量，也不要在没有保护者或教练观察的情况下测试。 大重量举重、跳跃、波比和快速跑对膝盖、背部和肩部负担较大。请用数周逐步加量。如果有心脏、血压或关节问题，请先咨询医生。"
+   "byline": "作者：Susmit Jalan，Online Fitness Worldwide 教练。",
+   "listHeading": "官方规则所述的赛制",
+   "enoughHeading": "来自官方和第三方来源的数据",
+   "safetyHeading": "规则和指南关于安全的说明"
   },
   "ja": {
-   "metaTitle": "HYROXとCrossFit：選ぶ前に知りたい7つの違い | Online Fitness Worldwide",
-   "metaDescription": "HYROXとCrossFitの比較：固定形式のレースとCrossFit Openを、形式、採点、動き、進路、トレーニングで比べます。2027年Openの日程はCrossFit公式サイトによります。",
-   "h1": "HYROXとCrossFit：選ぶ前に知りたい7つの違い",
-   "dek": "HYROXはタイムを競う固定形式のフィットネスレースです。CrossFitはトレーニング手法で、そのOpenは3週間のオンライン大会です。違いと、両方への備え方をまとめます。",
-   "updated": "2026年11月2日更新",
-   "byline": "執筆：スシュミット・ジャラン（Online Fitness Worldwide コーチ）",
+   "metaTitle": "HYROXとCrossFit：事実の比較 | Online Fitness Worldwide",
+   "metaDescription": "各主催者のページによるHYROXとCrossFit Openの比較：形式、採点、動作、会場、予選、年齢区分、2027年の日程。出典付き。",
+   "h1": "HYROXとCrossFit：形式、採点、予選ルートの比較",
+   "dek": "各主催者のページとルールブックによるHYROXとCrossFit Openの比較：形式、採点、動作、会場、予選、日程。",
+   "intro": [
+    "HYROXは、1kmのランのあとにワークアウトステーションを1つ行い、これを8回繰り返すフィットネスレースで、どの都市でも同じ形式だと説明している。{1} CrossFitは、機能的な動作、相対的強度、コーチング、共有された努力という方法論をコミュニティが共有するグローバルなフィットネスブランドだと説明しており、年間の競技シーズンはOpenから始まる。{3}{4}",
+    "このページは、各主催者のページをもとにHYROXのレースとCrossFit Openを比較する。閲覧時点で2027年Openのワークアウトは未発表だった。{4} このページは独立したもので、どちらのブランドの公式発表でもない。"
+   ],
+   "items": [
+    {
+     "name": "形式",
+     "why": "HYROX：同じ8つのステーションを同じ順で、8kmのランとともに行う。{1}{2} CrossFit Open：3週間で3つのワークアウト。毎週水曜日にCrossFit Gamesのサイトで発表される。{4}"
+    },
+    {
+     "name": "採点",
+     "why": "HYROX：完走タイム。ルールブックにタイムペナルティがある（例：Roxzoneのアーチを間違えると2分）。{2} CrossFit Open：スコアは太平洋時間の月曜午後5時までにオンライン提出し、アフィリエイト別、年齢別、世界全体のリーダーボードがある。{4}"
+    },
+    {
+     "name": "動作",
+     "why": "HYROX：SkiErg、スレッドプッシュ、スレッドプル、バーピー・ブロードジャンプ、ロー、ファーマーズキャリー、サンドバッグランジ、ウォールボール。{1}{2} CrossFitは、Openで初めて達成されることの例としてスナッチ、スラスター、マッスルアップ、トゥー・トゥ・バー、ハンドスタンドプッシュアップ、ダブルアンダーを挙げている。これらは2027年のワークアウトではない。{4}"
+    },
+    {
+     "name": "実施場所",
+     "why": "HYROX：大会会場。今回の更新で閲覧したレース検索には70件の大会が掲載されていた。{9} CrossFit Open：アフィリエイトでワークアウトを行う。CrossFitは世界に9,000以上のアフィリエイトジムがあるとしている。{3}{4}"
+    },
+    {
+     "name": "予選ルート",
+     "why": "HYROX：各予選大会の各レースクラスに世界選手権の出場枠が1つある。レース検索には2027年6月10〜13日の香港での世界選手権が掲載されている。{2}{9} CrossFit：Open、次に準々決勝（世界の上位25%）、準決勝（男女各上位2,000人）、Games（男女各上位40人）。{4}"
+    },
+    {
+     "name": "年齢区分",
+     "why": "HYROX：最低年齢16歳。年齢区分はUnder 24（16〜24）から85〜89まで。{2} CrossFit：ティーンは14〜15、16〜17、18〜19、マスターズは35〜39から70歳以上。{4}"
+    },
+    {
+     "name": "2027年の日程",
+     "why": "CrossFit Open：登録開始は2027年1月7日。27.1は2月17〜22日、27.2は2月24日〜3月1日、27.3は3月3〜8日。{4} HYROX：大会ごとに申し込み、日程はレース検索に掲載。{9}"
+    }
+   ],
+   "enough": [
+    "43研究のメタ分析では、有酸素運動と筋力トレーニングの同時実施は、筋力トレーニング単独と比べ最大筋力（SMD −0.06）や筋肥大（−0.01）を有意に変えず、爆発的筋力を低下させ（−0.28）、同じセッションで行うとより大きかった。{6}",
+    "WHOの2020年ガイドラインは、成人は週150〜300分の中強度（または75〜150分の高強度）有酸素活動と、主要な筋群すべてを使う筋力強化活動を週2日以上行うべきだとしています。{7}"
+   ],
+   "safety": [
+    "ACSMの2015年スクリーニングモデルは、運動前の医学的許可を、現在の活動量、徴候・症状や既知の心血管・代謝・腎疾患、希望する強度に基づいて判断します。{8}"
+   ],
    "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
    "labels": {
     "home": "ホーム",
@@ -584,95 +433,57 @@
     "skip": "本文へスキップ",
     "crumb": "HYROXとCrossFit"
    },
-   "intro": [
-    "どちらを試すか知りたい。あるいは両方できるのか。",
-    "この2つは同じ種類のものではありません。HYROXはレースで、どこでも同じ8つのステーションと8kmのランです。{1}CrossFitはトレーニング手法で、毎年の大会がOpenです。{3}{4}",
-    "そこでHYROXのレースとCrossFit Openを比べます。事実は各主催者の公式ページから、2026年11月2日に読んだものです。",
-    "2027年のOpenのワークアウトはまだ公表されていません。推測はしません。{4}",
-    "独立した比較です。どちらのブランドの公式記事でもありません。"
-   ],
-   "listHeading": "HYROXとCrossFit：7つの違い",
-   "items": [
-    {
-     "name": "決まったコースか、まだ知らないワークアウトか",
-     "why": "HYROX：1km走って1ステーション、これを8回。どの都市でも同じステーション、同じ順番。{1}",
-     "how": "CrossFit Open：3週間で3つのワークアウト。水曜日にCrossFit Gamesのサイトで公開されます。{4}それまでは内容がわかりません。",
-     "dose": "内容を知って備えたい：HYROX。サプライズが好き：Open。"
-    },
-    {
-     "name": "どう採点されるか",
-     "why": "HYROX：フィニッシュタイム。たとえば違うステーションをやると2分のペナルティ。{1}{2}",
-     "how": "Open：ワークアウトをして、月曜の太平洋時間17時までにオンラインでスコアを提出します。ランキングはジム別、年齢別、世界で見られます。{4}",
-     "dose": "2027年の各ワークアウトの採点方法は、CrossFitのページにまだありません。推測はしません。{4}"
-    },
-    {
-     "name": "必要な動き",
-     "why": "HYROX：SkiErg、スレッドプッシュ、スレッドプル、バーピーブロードジャンプ、ロー、ファーマーズキャリー、サンドバッグランジ、ウォールボール、そして8kmのラン。{1}",
-     "how": "CrossFitのOpenのページは、スナッチ、スラスター、マッスルアップ、トゥ・トゥ・バー、ハンドスタンドプッシュアップ、ダブルアンダーを、Openで人々が達成する「初めて」の例として挙げています。{4}これは例であり、2027年のワークアウトではありません。スナッチやクリーンなどのオリンピックリフトは初めて？自宅で動画を見て独学しないでください。コーチに見てもらいながら、塩ビパイプか空のバーから覚えましょう。自宅では代わりに、ダンベルやケトルベルのヒップヒンジとプッシュプレスで動きのパターンを練習します。",
-     "dose": "マッスルアップのようなスキルは、時間をかけた計画的な練習が必要です。HYROXにはどれもありません。"
-    },
-    {
-     "name": "どこでやるか",
-     "why": "HYROX：レース当日にイベント会場で。2026年11月2日、検索には66大会、36か国の選択肢がありました。{9}",
-     "how": "Open：自分のCrossFitジム、またはワークアウトをしてスコアを記録できる場所で。CrossFitは世界に9,000以上の加盟ジムがあるとしています。{3}",
-     "dose": "2027年Openの登録は2027年1月7日に始まります。{4}HYROXのエントリーは大会ごとです。大会ページを確認してください。"
-    },
-    {
-     "name": "最初の一歩のあとの道",
-     "why": "HYROX：16歳から年齢別。ルールブックでは、各大会の各クラスに世界選手権への出場枠が1つあります。世界選手権は香港、2027年6月10〜13日です。{2}{9}",
-     "how": "CrossFit：Open、次にクォーターファイナル（世界の上位25%）、セミファイナル（男子上位2,000人、女子上位2,000人）、そしてGames（男子上位40人、女子上位40人）。{4}",
-     "dose": "どちらもすべての人を歓迎すると言っています。HYROXは誰のためのものだとしています。{1}CrossFitは、体力レベルに関係なく誰でもOpenに参加できるとしています。{4}"
-    },
-    {
-     "name": "共通するトレーニング",
-     "why": "どちらも筋力とエンジン（持久力）が報われます。WHOは、成人は週150〜300分の中強度の有酸素運動に加え、週2日以上の筋力運動を行うよう述べています。{7}",
-     "how": "43件の研究のメタ分析では、有酸素運動を加えても最大筋力や筋量に明確な差は出ませんでしたが、爆発的筋力は低く、同じセッションで行うほど顕著でした。{6}",
-     "dose": "そこで、きつい日を分けます。できれば挙上とランは別の日に。"
-    },
-    {
-     "name": "1年で両方に出る",
-     "why": "2027年のOpenは2月17日から3月8日まで。{4}{5}HYROXの検索には2027年6月10日までの大会があります。{9}",
-     "how": "簡単な計画：Openの3週間を筋力とスキルのテストとして使います。そのあと、春のHYROXに向けてランの土台とステーション練習に切り替えます。",
-     "dose": "どんな計画でも結果は約束できません。ここにクライアントの成果はなく、ほのめかしもありません。"
-    }
-   ],
-   "enoughHeading": "主張しないこと",
-   "enough": [
-    "2027年Openのワークアウトと各採点方法：まだ公表されていません。{4}",
-    "ケガの発生率：どちらも信頼できる数字が見つからなかったため、載せません。",
-    "日程とルールは変わります。エントリー前に、HYROXの大会ページとCrossFit Gamesのサイトを確認してください。{4}{9}",
-    "価格はなし。料金は各主催者のサイトにあります。クライアントの成果もなく、ほのめかしもありません。"
-   ],
-   "sampleHeading": "Openを含む1週間のサンプル",
-   "sampleLabel": "あくまで例です。処方ではありません。体、健康状態、これまでの経過に合わせて調整してください。",
-   "sample": [
-    "月：挙上、スクワットとプレス、5〜8回を3セット。",
-    "火：楽なラン、30分。",
-    "水：Openのワークアウトの日。先に15分ウォームアップ。",
-    "木：休みか散歩。",
-    "金：挙上、ヒンジとプル、8回を3セット。",
-    "土：5kmの楽なラン、そのあとウォールボールとキャリーを4ラウンド。",
-    "日：休み。体とこれまでの経過に合わせて調整してください。"
-   ],
-   "coachedHeading": "Online Fitness Worldwideと一緒に準備する",
-   "coached": [
-    "どちらか、あるいは両方を試して、準備万端で臨みたい。セッションはあなたがやります。私はあなたの予定に合わせて週を組み、1本1本の挙上をライブで指導します。",
-    "Online Fitness Worldwide は HYROXとCrossFit とは提携しておらず、公認も受けていません。独立したトレーニング指導です。",
-    "Iron Hour は60分、1対1、ライブ。0分にセットアップ：全身が見えるようにカメラを配置。4分からウォームアップ。14分にメイン種目。28分に補助種目。50分にクールダウン。",
-    "Lean Reset は月20回、1対1。Open Floor は少人数グループです。",
-    "長いブランクからの再開？Return は45分、月12回、1日おき。まず土台を作ります。",
-    "Google Meet、Zoom、FaceTime でライブ指導。ヒンディー語か英語で。インド標準時（IST）で。まだ迷っている？30分の相談から始めましょう。会話であって、トレーニングではありません。予約は時間を押さえるだけ。料金は直接決めます。"
-   ],
-   "safetyHeading": "始める前に",
-   "safety": "一般的な情報であり、医学的な助言ではありません。ACSMのスクリーニングモデルによると：運動習慣がなく、症状がなく、心臓・代謝・腎臓の病気が知られていなければ、医師の許可なしに軽〜中程度の運動を始め、少しずつ増やせます。これらの病気がある場合や、胸の痛み、普段と違う息切れ、めまいなどの症状がある場合は、先に医師の許可を得てください。{8}レース形式の運動はハードです。重い挙上、ジャンプ、バーピー、ダッシュ、キャリー。数週間かけて段階的に慣らしてください。最大重量のテストは、一人で、または補助者やコーチの目がない状態で行わないでください。 重い挙上、ジャンプ、バーピー、速いランは、膝、腰、肩に負担がかかります。数週間かけて慣らしてください。心臓、血圧、関節に持病がある場合は、先に医師に相談を。"
+   "byline": "執筆：スシュミット・ジャラン（Online Fitness Worldwide コーチ）",
+   "listHeading": "公式ルールが定める形式",
+   "enoughHeading": "公式および第三者の情報源による数字",
+   "safetyHeading": "安全についてルールとガイドラインが示すこと"
   },
   "gu": {
-   "metaTitle": "HYROX વિ CrossFit: પસંદ કરતાં પહેલાં 7 તફાવતો | Online Fitness Worldwide",
-   "metaDescription": "HYROX વિ CrossFit: નક્કી ફોર્મેટની રેસ અને CrossFit Open, ફોર્મેટ, સ્કોરિંગ, સ્કિલ અને ટ્રેનિંગ પર સરખામણી. 2027 Open ની તારીખો CrossFit ની સાઇટથી.",
-   "h1": "HYROX વિ CrossFit: પસંદ કરતાં પહેલાં 7 મહત્ત્વના તફાવતો",
-   "dek": "HYROX ઘડિયાળ સામેની નક્કી ફિટનેસ રેસ છે. CrossFit ટ્રેનિંગની રીત છે, અને તેનું Open ત્રણ અઠવાડિયાની ઑનલાઇન સ્પર્ધા છે. તફાવતો અહીં છે, અને બંને માટે ટ્રેનિંગ કેવી રીતે કરવી.",
-   "updated": "અપડેટ: 2 નવેમ્બર 2026",
-   "byline": "લેખક: સુસ્મિત જાલાન, કોચ, Online Fitness Worldwide.",
+   "metaTitle": "HYROX વિરુદ્ધ CrossFit: તથ્યો સાથે-સાથે | Online Fitness Worldwide",
+   "metaDescription": "દરેક આયોજકના પેજમાંથી HYROX અને CrossFit Openની સરખામણી: ફોર્મેટ, સ્કોરિંગ, મૂવમેન્ટ, સ્થળ, ક્વૉલિફિકેશન, વય જૂથ અને 2027ની તારીખો. સ્રોત આપેલ છે.",
+   "h1": "HYROX વિરુદ્ધ CrossFit: ફોર્મેટ, સ્કોરિંગ અને માર્ગોની સરખામણી",
+   "dek": "દરેક આયોજકનાં પોતાનાં પેજ અને નિયમપુસ્તિકામાંથી HYROX અને CrossFit Open સાથે-સાથે: ફોર્મેટ, સ્કોરિંગ, મૂવમેન્ટ, સ્થળ, ક્વૉલિફિકેશન અને તારીખો.",
+   "intro": [
+    "HYROX પોતાને ફિટનેસ રેસ તરીકે વર્ણવે છે: 1 km દોડ પછી એક વર્કઆઉટ સ્ટેશન, આઠ વાર, દરેક શહેરમાં એક જ ફોર્મેટ.{1} CrossFit પોતાને વૈશ્વિક ફિટનેસ બ્રાન્ડ તરીકે વર્ણવે છે જેનો સમુદાય ફંક્શનલ મૂવમેન્ટ, સાપેક્ષ તીવ્રતા, કોચિંગ અને સહિયારા પ્રયત્નની પદ્ધતિ વહેંચે છે; તેની વાર્ષિક સ્પર્ધા સીઝન Openથી શરૂ થાય છે.{3}{4}",
+    "આ પેજ દરેક આયોજકનાં પેજના આધારે HYROX રેસની સરખામણી CrossFit Open સાથે કરે છે. આ પેજ વાંચ્યાં ત્યારે 2027 Open વર્કઆઉટ પ્રકાશિત થયા નહોતા.{4} આ પેજ સ્વતંત્ર છે અને કોઈ પણ બ્રાન્ડનું સત્તાવાર પ્રકાશન નથી."
+   ],
+   "items": [
+    {
+     "name": "ફોર્મેટ",
+     "why": "HYROX: એ જ આઠ સ્ટેશન, એ જ ક્રમમાં, 8 km દોડ સાથે.{1}{2} CrossFit Open: ત્રણ અઠવાડિયામાં ત્રણ વર્કઆઉટ, બુધવારે CrossFit Games વેબસાઇટ પર જાહેર.{4}"
+    },
+    {
+     "name": "સ્કોરિંગ",
+     "why": "HYROX: ફિનિશ સમય, નિયમપુસ્તિકામાં સમય પેનલ્ટી સાથે (જેમ કે ખોટી Roxzone કમાન માટે 2 મિનિટ).{2} CrossFit Open: સ્કોર સોમવાર સાંજે 5 વાગ્યા PT સુધી ઑનલાઇન જમા, એફિલિએટ, ઉંમર કે વિશ્વભર મુજબ લીડરબોર્ડ.{4}"
+    },
+    {
+     "name": "મૂવમેન્ટ",
+     "why": "HYROX: SkiErg, સ્લેડ પુશ, સ્લેડ પુલ, બર્પી બ્રૉડ જમ્પ, રોઇંગ, ફાર્મર્સ કૅરી, સૅન્ડબૅગ લંજ અને વૉલ બૉલ.{1}{2} CrossFit, Openમાં લોકોની પહેલી સિદ્ધિઓનાં ઉદાહરણ તરીકે સ્નૅચ, થ્રસ્ટર, મસલ-અપ, ટોઝ-ટુ-બાર, હૅન્ડસ્ટૅન્ડ પુશ-અપ અને ડબલ-અન્ડર જણાવે છે; આ 2027ના વર્કઆઉટ નથી.{4}"
+    },
+    {
+     "name": "ક્યાં થાય છે",
+     "why": "HYROX: ઇવેન્ટ સ્થળોએ; આ અપડેટ માટે વાંચેલા રેસ ફાઇન્ડરમાં 70 ઇવેન્ટ હતા.{9} CrossFit Open: વર્કઆઉટ એફિલિએટમાં થાય છે; CrossFit કહે છે કે વિશ્વભરમાં તેના 9,000થી વધુ એફિલિએટ જિમ છે.{3}{4}"
+    },
+    {
+     "name": "ક્વૉલિફિકેશનનો માર્ગ",
+     "why": "HYROX: દરેક ક્વૉલિફાઇંગ ઇવેન્ટની દરેક રેસ ક્લાસ એક વર્લ્ડ ચૅમ્પિયનશિપ સ્થાન આપે છે; ફાઇન્ડર વર્લ્ડ ચૅમ્પિયનશિપ હોંગકોંગમાં 10–13 જૂન 2027 સૂચવે છે.{2}{9} CrossFit: Open, પછી ક્વાર્ટરફાઇનલ (વિશ્વના ટોચના 25%), સેમિફાઇનલ (ટોચના 2,000 પુરુષો અને 2,000 મહિલાઓ) અને Games (ટોચના 40 પુરુષો અને 40 મહિલાઓ).{4}"
+    },
+    {
+     "name": "વય જૂથ",
+     "why": "HYROX: લઘુતમ ઉંમર 16; વય જૂથ Under 24 (16–24)થી 85–89 સુધી.{2} CrossFit: કિશોર જૂથ 14–15, 16–17 અને 18–19, અને માસ્ટર્સ 35–39થી 70+ સુધી.{4}"
+    },
+    {
+     "name": "2027ની તારીખો",
+     "why": "CrossFit Open: નોંધણી 7 જાન્યુઆરી 2027થી; 27.1 17–22 ફેબ્રુઆરી, 27.2 24 ફેબ્રુઆરી–1 માર્ચ, 27.3 3–8 માર્ચ.{4} HYROX: નોંધણી દરેક ઇવેન્ટ માટે, તારીખો રેસ ફાઇન્ડર પર.{9}"
+    }
+   ],
+   "enough": [
+    "43 અભ્યાસોના મેટા-વિશ્લેષણમાં સાથે-સાથે એરોબિક અને સ્ટ્રેન્થ ટ્રેનિંગે માત્ર સ્ટ્રેન્થ ટ્રેનિંગની સરખામણીએ મહત્તમ તાકાત (SMD −0.06) કે સ્નાયુ વૃદ્ધિ (−0.01) નોંધપાત્ર રીતે બદલી નહીં, અને વિસ્ફોટક તાકાત ઘટાડી (−0.28), એક જ સત્રમાં કરવાથી વધુ.{6}",
+    "WHOની 2020ની માર્ગદર્શિકા કહે છે કે પુખ્તોએ અઠવાડિયે 150થી 300 મિનિટ મધ્યમ એરોબિક પ્રવૃત્તિ (કે 75થી 150 મિનિટ તીવ્ર), અને બધા મુખ્ય સ્નાયુ જૂથોને સમાવતી સ્નાયુ-મજબૂતીની પ્રવૃત્તિ અઠવાડિયે 2 કે વધુ દિવસ કરવી જોઈએ.{7}"
+   ],
+   "safety": [
+    "ACSMનું 2015નું સ્ક્રીનિંગ મૉડલ કસરત પહેલાંની તબીબી મંજૂરીને હાલની પ્રવૃત્તિ, લક્ષણો અને/અથવા જાણીતા હૃદય, મેટાબોલિક કે કિડની રોગ, અને ઇચ્છિત તીવ્રતા પર આધારિત રાખે છે.{8}"
+   ],
    "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
    "labels": {
     "home": "હોમ",
@@ -686,89 +497,12 @@
     "whatsapp": "WhatsApp પર પૂછો",
     "whatsappText": "નમસ્તે સુસ્મિત, મેં HYROX વિ CrossFit નો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
     "skip": "સામગ્રી પર જાઓ",
-    "crumb": "HYROX વિ CrossFit"
+    "crumb": "HYROX વિરુદ્ધ CrossFit"
    },
-   "intro": [
-    "તમે જાણવા માગો છો કે કયું અજમાવવું. અથવા બંને થઈ શકે કે નહીં.",
-    "તે એક જ પ્રકારની વસ્તુ નથી. HYROX એક રેસ છે: દરેક જગ્યાએ એ જ આઠ સ્ટેશન અને 8 કિમી દોડ.{1} CrossFit ટ્રેનિંગની રીત છે, અને તેની વાર્ષિક સ્પર્ધા Open છે.{3}{4}",
-    "તેથી હું HYROX રેસની સરખામણી CrossFit Open સાથે કરું છું. હકીકતો દરેક આયોજકના પોતાના પેજ પરથી છે, 2 નવેમ્બર 2026 ના રોજ વાંચેલી.",
-    "2027 Open ના વર્કઆઉટ હજી પ્રકાશિત નથી. હું અંદાજ નહીં લગાવું.{4}",
-    "સ્વતંત્ર સરખામણી. કોઈ પણ બ્રાન્ડની સત્તાવાર પોસ્ટ નહીં."
-   ],
-   "listHeading": "HYROX વિ CrossFit: 7 તફાવતો",
-   "items": [
-    {
-     "name": "નક્કી કોર્સ, અથવા હજી ન જાણેલા વર્કઆઉટ",
-     "why": "HYROX: 1 કિમી દોડ, પછી એક સ્ટેશન, આઠ વાર. દરેક શહેરમાં એ જ સ્ટેશન, એ જ ક્રમ.{1}",
-     "how": "CrossFit Open: ત્રણ અઠવાડિયામાં ત્રણ વર્કઆઉટ. તે બુધવારે CrossFit Games ની વેબસાઇટ પર જાહેર થાય છે.{4} ત્યાં સુધી તમને ખબર નથી હોતી કે તે શું છે.",
-     "dose": "ટેસ્ટ જાણીને તેની ટ્રેનિંગ ગમે છે: HYROX. સરપ્રાઇઝ ગમે છે: Open."
-    },
-    {
-     "name": "તમને સ્કોર કેવી રીતે મળે છે",
-     "why": "HYROX: તમારો ફિનિશ ટાઇમ. બે મિનિટની પેનલ્ટી લાગે છે, જેમ કે ખોટા સ્ટેશન માટે.{1}{2}",
-     "how": "Open: તમે વર્કઆઉટ કરો છો, પછી સોમવારે સાંજે 5 વાગ્યા (PT) સુધીમાં ઑનલાઇન સ્કોર જમા કરો છો. લીડરબોર્ડ જિમ, વય જૂથ કે દુનિયાભરમાં તમારું સ્થાન બતાવે છે.{4}",
-     "dose": "CrossFit ના પેજ હજી જણાવતા નથી કે 2027 ના દરેક વર્કઆઉટનો સ્કોર કેવી રીતે બનશે. હું અંદાજ નહીં લગાવું.{4}"
-    },
-    {
-     "name": "કઈ મૂવમેન્ટ જોઈએ",
-     "why": "HYROX: SkiErg, સ્લેડ પુશ, સ્લેડ પુલ, બર્પી બ્રૉડ જમ્પ, રો, ફાર્મર્સ કૅરી, સૅન્ડબૅગ લંજ, વૉલ બૉલ, અને 8 કિમી દોડ.{1}",
-     "how": "CrossFit ના Open પેજ પર સ્નેચ, થ્રસ્ટર, મસલ-અપ, ટો-ટુ-બાર, હૅન્ડસ્ટૅન્ડ પુશ-અપ અને ડબલ-અંડર એ ઉપલબ્ધિઓના ઉદાહરણ છે જે લોકો Open માં પહેલી વાર મેળવે છે.{4} આ ઉદાહરણ છે. આ 2027 ના વર્કઆઉટ નથી. સ્નૅચ કે ક્લીન જેવી ઑલિમ્પિક લિફ્ટ નવી છે? ઘરે વીડિયો જોઈને જાતે ન શીખો. તે કોચની નજર હેઠળ શીખો, PVC પાઇપ કે ખાલી બારથી શરૂ કરીને. ઘરે તેને બદલે ડમ્બેલ કે કેટલબેલ વડે હિન્જ અને પુશ પ્રેસથી પૅટર્ન શીખો.",
-     "dose": "મસલ-અપ જેવી સ્કિલ માટે સમય સાથે આયોજનબદ્ધ પ્રૅક્ટિસ જોઈએ. HYROX માં તેમાંથી કોઈ નથી."
-    },
-    {
-     "name": "તમે તે ક્યાં કરો છો",
-     "why": "HYROX: રેસના દિવસે ઇવેન્ટના સ્થળે. 2 નવેમ્બર 2026 ના રોજ ફાઇન્ડરમાં 66 ઇવેન્ટ હતી, 36 દેશ વિકલ્પો સાથે.{9}",
-     "how": "Open: તમારા CrossFit જિમમાં, અથવા જ્યાં તમે વર્કઆઉટ કરીને સ્કોર નોંધી શકો. CrossFit કહે છે કે દુનિયાભરમાં તેના 9,000 થી વધુ એફિલિએટ જિમ છે.{3}",
-     "dose": "2027 Open માટે રજિસ્ટ્રેશન 7 જાન્યુઆરી 2027 ના રોજ ખૂલે છે.{4} HYROX ની એન્ટ્રી દરેક ઇવેન્ટ મુજબ છે. ઇવેન્ટ પેજ જુઓ."
-    },
-    {
-     "name": "પહેલા પગલા પછીનો માર્ગ",
-     "why": "HYROX: 16 વર્ષથી વય જૂથ. રૂલબુક મુજબ દરેક ઇવેન્ટના દરેક રેસ ક્લાસમાં વર્લ્ડ ચૅમ્પિયનશિપ માટે એક ક્વૉલિફિકેશન સ્થાન છે, હૉંગ કૉંગમાં, 10 થી 13 જૂન 2027.{2}{9}",
-     "how": "CrossFit: Open, પછી ક્વૉર્ટરફાઇનલ (દુનિયાના ટોચના 25%), પછી સેમિફાઇનલ (ટોચના 2,000 પુરુષ અને 2,000 મહિલા), પછી ગેમ્સ (ટોચના 40 પુરુષ અને 40 મહિલા).{4}",
-     "dose": "બંને કહે છે કે બધાનું સ્વાગત છે. HYROX કહે છે કે તે બધા માટે છે.{1} CrossFit કહે છે કે કોઈ પણ, કોઈ પણ ફિટનેસ સ્તરે, Open માં જોડાઈ શકે.{4}"
-    },
-    {
-     "name": "ટ્રેનિંગમાં શું સમાન છે",
-     "why": "બંને તાકાત અને એન્જિનને પુરસ્કાર આપે છે. WHO કહે છે કે પુખ્તોએ અઠવાડિયે 150 થી 300 મિનિટ મધ્યમ એરોબિક પ્રવૃત્તિ કરવી જોઈએ, સાથે 2 કે વધુ દિવસ સ્નાયુ મજબૂત કરતી કસરત.{7}",
-     "how": "43 અભ્યાસોના મેટા-વિશ્લેષણમાં જણાયું કે એરોબિક ઉમેરવાથી મહત્તમ સ્ટ્રેન્થ કે સ્નાયુના કદમાં સ્પષ્ટ ફરક પડ્યો નહીં, પણ વિસ્ફોટક સ્ટ્રેન્થ ઓછી રહી, અને એક જ સેશનમાં બંને કરતાં વધુ.{6}",
-     "dose": "તેથી હું અઘરા દિવસો અલગ રાખું છું. શક્ય હોય ત્યારે લિફ્ટ અને દોડ અલગ દિવસે કરો."
-    },
-    {
-     "name": "એક વર્ષમાં બંને કરવું",
-     "why": "2027 નું Open 17 ફેબ્રુઆરીથી 8 માર્ચ સુધી ચાલે છે.{4}{5} HYROX નું ફાઇન્ડર 10 જૂન 2027 સુધીની ઇવેન્ટ બતાવે છે.{9}",
-     "how": "સીધી યોજના: Open ના ત્રણ અઠવાડિયાને તાકાત અને સ્કિલના ટેસ્ટ તરીકે લો. પછી વસંતના HYROX માટે દોડના બેઝ અને સ્ટેશન પર આવો.",
-     "dose": "હું કોઈ પણ યોજનાથી પરિણામનું વચન આપી શકતો નથી. અહીં કોઈ ક્લાયન્ટ પરિણામ નથી, અને તેનો ઇશારો પણ નથી."
-    }
-   ],
-   "enoughHeading": "જે હું દાવો નહીં કરું",
-   "enough": [
-    "2027 Open ના વર્કઆઉટ અને દરેકનો સ્કોર કેવી રીતે બનશે: હજી પ્રકાશિત નથી.{4}",
-    "ઈજાના દર: મને કોઈ માટે ભરોસાપાત્ર આંકડો મળ્યો નથી, તેથી હું કોઈ આપતો નથી.",
-    "તારીખો અને નિયમો બદલાય છે. એન્ટ્રી પહેલાં HYROX નું ઇવેન્ટ પેજ અને CrossFit ની Games સાઇટ જુઓ.{4}{9}",
-    "કોઈ કિંમત નથી. ફી દરેક આયોજકની સાઇટ પર છે. કોઈ ક્લાયન્ટ પરિણામ નથી, અને તેનો ઇશારો પણ નથી."
-   ],
-   "sampleHeading": "Open સાથેનું એક સેમ્પલ અઠવાડિયું",
-   "sampleLabel": "માત્ર સેમ્પલ. પ્રિસ્ક્રિપ્શન નથી. તમારા શરીર, તમારા સ્વાસ્થ્ય અને તમારા ઇતિહાસ મુજબ બદલો.",
-   "sample": [
-    "સોમ: લિફ્ટ, સ્ક્વૉટ અને પ્રેસ, 5 થી 8 ના 3 સેટ.",
-    "મંગળ: સરળ દોડ, 30 મિનિટ.",
-    "બુધ: Open વર્કઆઉટનો દિવસ. પહેલાં 15 મિનિટ વૉર્મ-અપ.",
-    "ગુરુ: આરામ કે વૉક.",
-    "શુક્ર: લિફ્ટ, હિંજ અને પુલ, 8 ના 3 સેટ.",
-    "શનિ: 5 કિમી સરળ દોડ, પછી વૉલ બૉલ અને કૅરીના 4 રાઉન્ડ.",
-    "રવિ: આરામ. તમારા શરીર અને ઇતિહાસ મુજબ બદલો."
-   ],
-   "coachedHeading": "Online Fitness Worldwide સાથે તેની ટ્રેનિંગ કરો",
-   "coached": [
-    "તમે એક, કે બંને અજમાવવા માગો છો અને તૈયાર થઈને પહોંચવા માગો છો. સેશન તમે કરો છો. અઠવાડિયાં હું તમારા કૅલેન્ડર મુજબ બનાવું છું અને દરેક લિફ્ટ લાઇવ કોચ કરું છું.",
-    "Online Fitness Worldwide નો HYROX અને CrossFit સાથે કોઈ સંબંધ નથી, અને HYROX અને CrossFit એ તેને સમર્થન આપ્યું નથી. આ સ્વતંત્ર ટ્રેનિંગ છે.",
-    "Iron Hour 60 મિનિટનું છે, 1:1, લાઇવ. મિનિટ 0 પર સેટ-અપ: કૅમેરા એવી રીતે કે મને તમારું આખું શરીર દેખાય. મિનિટ 4 થી વૉર્મ-અપ. મિનિટ 14 પર મુખ્ય લિફ્ટ. 28 પર એક્સેસરીઝ. 50 પર કૂલ-ડાઉન.",
-    "Lean Reset મહિને 20 સેશન, 1:1. Open Floor નાનું ગ્રુપ છે.",
-    "લાંબા બ્રેક પછી પાછા આવો છો? Return 45 મિનિટનું છે, મહિને 12 સેશન, એકાંતરે દિવસે. પહેલાં બેઝ બનાવીએ છીએ.",
-    "Google Meet, Zoom કે FaceTime પર લાઇવ કોચિંગ. હિન્દી કે અંગ્રેજીમાં. IST પર. હજુ નક્કી નથી? 30 મિનિટના કન્સલ્ટેશનથી શરૂ કરો. એ વાતચીત છે, ટ્રેનિંગ નહીં. બુકિંગ ફક્ત સમય રોકે છે. ફી સીધી નક્કી થાય છે."
-   ],
-   "safetyHeading": "શરૂ કરતાં પહેલાં",
-   "safety": "સામાન્ય માહિતી, તબીબી સલાહ નહીં. ACSM ના સ્ક્રીનિંગ મોડલ મુજબ: જો તમે નિષ્ક્રિય છો, કોઈ લક્ષણ નથી અને હૃદય, મેટાબોલિક કે કિડનીની કોઈ જાણીતી બીમારી નથી, તો તમે તબીબી મંજૂરી વગર હળવી થી મધ્યમ કસરત શરૂ કરીને ધીમે ધીમે વધારી શકો છો. જો આમાંની કોઈ બીમારી હોય, કે છાતીમાં દુખાવો, અસામાન્ય શ્વાસ ચડવો કે ચક્કર જેવા લક્ષણો હોય, તો પહેલાં તબીબી મંજૂરી લો.{8} રેસ-સ્ટાઇલ કામ અઘરું છે: ભારે લિફ્ટ, જમ્પ, બર્પી, સ્પ્રિન્ટ અને કૅરી. અઠવાડિયાં સુધી ધીમે ધીમે તૈયારી કરો. એકલા, કે સ્પોટર કે કોચ જોતા ન હોય ત્યારે મેક્સ લિફ્ટનો ટેસ્ટ ન કરો. ભારે લિફ્ટ, જમ્પ, બર્પી અને ઝડપી દોડ ઘૂંટણ, પીઠ અને ખભા પર ભારે પડે છે. અઠવાડિયાં સુધી ધીમે ધીમે તૈયારી કરો. હૃદય, બ્લડ પ્રેશર કે સાંધાની તકલીફ હોય તો પહેલાં ડૉક્ટરને પૂછો."
+   "byline": "લેખક: સુસ્મિત જાલાન, કોચ, Online Fitness Worldwide.",
+   "listHeading": "ફોર્મેટ, સત્તાવાર નિયમો જણાવે તે મુજબ",
+   "enoughHeading": "સત્તાવાર અને તૃતીય-પક્ષ સ્રોતોના આંકડા",
+   "safetyHeading": "સલામતી પર નિયમો અને માર્ગદર્શિકા શું કહે છે"
   }
  },
  "ctaMid": true,
@@ -776,5 +510,6 @@
   "hyrox-vs-deka-vs-athx",
   "what-is-hyrox",
   "hyrox-training-plan-for-beginners"
- ]
+ ],
+ "format": "evidence"
 }
