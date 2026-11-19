@@ -49,6 +49,9 @@ for (const file of pages) {
   if (/\{\d+\}/.test(h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/g, ""))) bad(rel, "raw {n} citation");
   if (lang !== "en" && /<nav aria-label="(Site|Breadcrumb)"/.test(h)) bad(rel, "English nav aria-label on a non-English page");
   if (lang !== "en" && /<footer[\s\S]*?(href="\/blog"|>Read the blog<)[\s\S]*?<\/footer>/.test(h)) bad(rel, "footer blog button in English or pointing at the English blog");
+  if (/aria-label="Online Fitness Worldwide, Online Fitness Worldwide:/.test(h)) bad(rel, "home-link aria-label repeats the brand");
+  if (lang !== "en" && /<header[\s\S]*?>Programs<\/a>[\s\S]*?<\/header>/.test(h)) bad(rel, "header Programs link in English on a non-English page");
+  if (/<header[\s\S]*?<\/header>/.test(h) && !/<header[\s\S]*?<a href="\/#programs"[^>]*>[^<]+<\/a>[\s\S]*?<\/header>/.test(h)) bad(rel, "header Programs link missing");
   const title = h.match(/<title>([^<]*)<\/title>/)?.[1] ?? "";
   if ([...title].length > 78) bad(rel, `title over 78 characters (${[...title].length})`);
   const desc = h.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? "";
