@@ -140,12 +140,29 @@ export function loadTemplate() {
   return { shared, langs, sample, index, old, sitemap: read("template/sitemap.xml"), fatLoss: read("template/personal-trainer-for-fat-loss.html") };
 }
 
+/* Evidence format (Susmit's editorial rule, 20 November 2026): posts report only what named, cited sources found and state.
+   No advice, no instructions, no sample plans. Shared headings, the neutral service section and the disclaimer come from
+   data/shared.json EVIDENCE; a post's own copy can override any of them. Items carry only a name and a cited "why". */
+function evidenceDefaults(T, post, copy, lang) {
+  if (post.format !== "evidence") return copy;
+  const E = T.shared.EVIDENCE[lang];
+  const out = { ...copy };
+  for (const k of ["updated", "listHeading", "enoughHeading", "safetyHeading", "coachedHeading", "coached"]) if (out[k] == null) out[k] = E[k];
+  out.labels = { ...copy.labels, why: E.itemLabel };
+  out.items = out.items ?? [];
+  out.enough = out.enough ?? [];
+  out.disclaimer = E.disclaimer;
+  for (const k of ["sample", "sampleHeading", "sampleLabel"]) delete out[k];
+  for (const item of out.items) if (item.how || item.dose) throw new Error(`${post.slug} ${lang}: evidence items carry no how/dose`);
+  return out;
+}
+
 export function loadPosts(T) {
   const dir = join(here, "data/posts");
   const bySlug = {};
   for (const file of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
     const post = JSON.parse(readFileSync(join(dir, file), "utf8"));
-    for (const lang of T.langs) post.copy[lang] = rebrand(post.copy[lang], lang);
+    for (const lang of T.langs) post.copy[lang] = evidenceDefaults(T, post, rebrand(post.copy[lang], lang), lang);
     bySlug[post.slug] = post;
   }
   return bySlug;
@@ -263,7 +280,7 @@ export function postJsonLd(T, post, lang, entities) {
       { "@type": "ListItem", position: 3, name: copy.labels.crumb, item: abs(path) },
     ],
   };
-  return [article, list, crumbs].map((o) => `<script type="application/ld+json">${ldJson(o)}</script>`).join("");
+  return [article, ...(copy.items.length ? [list] : []), crumbs].map((o) => `<script type="application/ld+json">${ldJson(o)}</script>`).join("");
 }
 
 export function renderPost(T, posts, post, lang, ctx) {
@@ -323,6 +340,7 @@ export function renderPost(T, posts, post, lang, ctx) {
           ["how", item.how],
           ["dose", item.dose],
         ]
+          .filter(([, text]) => text)
           .map(
             ([key, text]) =>
               `<div><dt class="text-xs font-semibold tracking-widest text-copper uppercase">${esc(copy.labels[key])}</dt><dd class="mt-1">${cited(text, sourceLabel, rtl)}</dd></div>`,
@@ -357,7 +375,7 @@ export function renderPost(T, posts, post, lang, ctx) {
         .join("")}</ul><p class="mt-6"><a href="${blogPath}" class="btn-light inline-flex min-h-11 items-center gap-1 rounded-full px-5 text-sm font-semibold">${esc(s.blogLabel)}${ARROW("size-4 rtl:-scale-x-100")}</a></p></nav>`
     : "";
 
-  const article = `<article class="shell band max-w-3xl text-start"><nav aria-label="${esc(shared.BREADCRUMB_LABEL?.[lang] ?? "Breadcrumb")}" class="text-sm text-mist"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="underline-offset-4 hover:underline">${esc(s.homeLabel)}</a></li><li aria-hidden="true">/</li><li><a href="${blogPath}" class="underline-offset-4 hover:underline">${esc(s.blogLabel)}</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-ink">${esc(copy.labels.crumb)}</li></ol></nav><p class="eyebrow mt-8 text-xs font-semibold tracking-widest text-copper uppercase">${esc(s.blogLabel)}</p><h1 class="mt-3 font-display text-4xl leading-[1.05] sm:text-5xl">${esc(copy.h1)}</h1><p class="mt-5 text-lg leading-relaxed text-mist">${esc(copy.dek)}</p><p class="mt-4 text-sm text-mist"><span>${esc(s.byline)}</span> <time dateTime="${post.modified}">${esc(copy.updated)}</time></p><nav aria-label="${esc(copy.labels.readIn)}" class="mt-5 rounded-2xl border border-line bg-ink-2 p-4 text-sm"><p class="font-medium">${esc(copy.labels.readIn)}</p><ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2">${langNav}</ul></nav><div class="prose-links mt-8 space-y-4 text-base leading-relaxed sm:text-lg">${copy.intro.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div>${seeAlsoHtml}<h2 class="mt-12 font-display text-3xl">${esc(copy.listHeading)}</h2>${jump}${items}${post.ctaMid ? coached : ""}<h2 class="mt-12 font-display text-3xl">${esc(copy.enoughHeading)}</h2><div class="mt-4 space-y-4 text-base leading-relaxed sm:text-lg">${copy.enough.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div><h2 class="mt-12 font-display text-3xl">${esc(copy.sampleHeading)}</h2><div class="mt-4 rounded-2xl border-2 border-dashed border-copper/60 p-5"><p class="text-sm font-semibold text-copper">${esc(copy.sampleLabel)}</p><ul class="list-mark mt-3 list-disc space-y-2 ps-5 text-base leading-relaxed">${copy.sample.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></div>${post.ctaMid ? "" : coached}<h2 class="mt-12 font-display text-2xl">${esc(copy.safetyHeading)}</h2><p class="note-safety mt-3 text-base leading-relaxed text-mist">${cited(copy.safety, sourceLabel, rtl)}</p><p class="mt-6 text-sm leading-relaxed text-mist">${bidi(copy.credentialsNote, rtl)}</p><h2 class="mt-12 font-display text-2xl">${esc(copy.labels.sources)}</h2>${sources}${clusterHtml}${relatedHtml}</article>`;
+  const article = `<article class="shell band max-w-3xl text-start"><nav aria-label="${esc(shared.BREADCRUMB_LABEL?.[lang] ?? "Breadcrumb")}" class="text-sm text-mist"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="underline-offset-4 hover:underline">${esc(s.homeLabel)}</a></li><li aria-hidden="true">/</li><li><a href="${blogPath}" class="underline-offset-4 hover:underline">${esc(s.blogLabel)}</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-ink">${esc(copy.labels.crumb)}</li></ol></nav><p class="eyebrow mt-8 text-xs font-semibold tracking-widest text-copper uppercase">${esc(s.blogLabel)}</p><h1 class="mt-3 font-display text-4xl leading-[1.05] sm:text-5xl">${esc(copy.h1)}</h1><p class="mt-5 text-lg leading-relaxed text-mist">${esc(copy.dek)}</p><p class="mt-4 text-sm text-mist"><span>${esc(s.byline)}</span> <time dateTime="${post.modified}">${esc(copy.updated)}</time></p><nav aria-label="${esc(copy.labels.readIn)}" class="mt-5 rounded-2xl border border-line bg-ink-2 p-4 text-sm"><p class="font-medium">${esc(copy.labels.readIn)}</p><ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2">${langNav}</ul></nav><div class="prose-links mt-8 space-y-4 text-base leading-relaxed sm:text-lg">${copy.intro.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div>${seeAlsoHtml}${copy.items.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.listHeading)}</h2>${jump}${items}` : ""}${post.ctaMid ? coached : ""}${copy.enough.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.enoughHeading)}</h2><div class="mt-4 space-y-4 text-base leading-relaxed sm:text-lg">${copy.enough.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div>` : ""}${copy.sample?.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.sampleHeading)}</h2><div class="mt-4 rounded-2xl border-2 border-dashed border-copper/60 p-5"><p class="text-sm font-semibold text-copper">${esc(copy.sampleLabel)}</p><ul class="list-mark mt-3 list-disc space-y-2 ps-5 text-base leading-relaxed">${copy.sample.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></div>` : ""}${post.ctaMid ? "" : coached}<h2 class="mt-12 font-display text-2xl">${esc(copy.safetyHeading)}</h2>${[copy.safety].flat().map((l) => `<p class="note-safety mt-3 text-base leading-relaxed text-mist">${cited(l, sourceLabel, rtl)}</p>`).join("")}${copy.disclaimer ? `<p class="mt-3 text-base leading-relaxed text-mist">${bidi(copy.disclaimer, rtl)}</p>` : ""}<p class="mt-6 text-sm leading-relaxed text-mist">${bidi(copy.credentialsNote, rtl)}</p><h2 class="mt-12 font-display text-2xl">${esc(copy.labels.sources)}</h2>${sources}${clusterHtml}${relatedHtml}</article>`;
 
   const skip = `<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-3 focus:start-3 focus:z-50 focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-bone">${esc(s.skip)}</a>`;
   const prefix = s.prefix
