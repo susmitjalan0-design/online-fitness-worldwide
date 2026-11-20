@@ -1,0 +1,457 @@
+{
+ "slug": "patellofemoral-pain-and-exercise",
+ "published": "2026-11-20",
+ "modified": "2026-11-20",
+ "about": "Patellofemoral pain and exercise",
+ "sources": [
+  {
+   "cite": "Willy RW, Hoglund LT, Barton CJ, et al. Patellofemoral pain: clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Academy of Orthopaedic Physical Therapy of the American Physical Therapy Association. J Orthop Sports Phys Ther. 2019;49(9):CPG1–CPG95.",
+   "url": "https://doi.org/10.2519/jospt.2019.0302"
+  },
+  {
+   "cite": "Collins NJ, Barton CJ, van Middelkoop M, et al. 2018 Consensus statement on exercise therapy and physical interventions (orthoses, taping and manual therapy) to treat patellofemoral pain. Br J Sports Med. 2018;52(18):1170–1178.",
+   "url": "https://doi.org/10.1136/bjsports-2018-099397"
+  },
+  {
+   "cite": "van der Heijden RA, Lankhorst NE, van Linschoten R, Bierma-Zeinstra SMA, van Middelkoop M. Exercise for treating patellofemoral pain syndrome. Cochrane Database Syst Rev. 2015;1:CD010387.",
+   "url": "https://doi.org/10.1002/14651858.CD010387.pub2"
+  },
+  {
+   "cite": "Lack S, Barton C, Sohan O, Crossley K, Morrissey D. Proximal muscle rehabilitation is effective for patellofemoral pain: a systematic review with meta-analysis. Br J Sports Med. 2015;49(21):1365–1376.",
+   "url": "https://doi.org/10.1136/bjsports-2015-094723"
+  },
+  {
+   "cite": "Smith BE, Selfe J, Thacker D, et al. Incidence and prevalence of patellofemoral pain: a systematic review and meta-analysis. PLoS One. 2018;13(1):e0190892.",
+   "url": "https://doi.org/10.1371/journal.pone.0190892"
+  },
+  {
+   "cite": "Neal BS, Lack SD, Lankhorst NE, Raye A, Morrissey D, van Middelkoop M. Risk factors for patellofemoral pain: a systematic review and meta-analysis. Br J Sports Med. 2019;53(5):270–281.",
+   "url": "https://doi.org/10.1136/bjsports-2017-098890"
+  },
+  {
+   "cite": "Lankhorst NE, van Middelkoop M, Crossley KM, et al. Factors that predict a poor outcome 5–8 years after the diagnosis of patellofemoral pain: a multicentre observational analysis. Br J Sports Med. 2016;50(14):881–886.",
+   "url": "https://doi.org/10.1136/bjsports-2015-094664"
+  },
+  {
+   "cite": "NHS. Knee pain. NHS website; page last reviewed 21 December 2023.",
+   "url": "https://www.nhs.uk/conditions/knee-pain/"
+  },
+  {
+   "cite": "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+   "url": "https://doi.org/10.1249/MSS.0000000000000664"
+  }
+ ],
+ "seeAlso": [
+  "best-leg-exercises-for-knee-friendly-strength",
+  "best-strength-exercises-for-runners"
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "Patellofemoral (kneecap) pain: the evidence | Online Fitness Worldwide",
+   "metaDescription": "Patellofemoral (kneecap) pain: what the 2019 JOSPT guideline, the 2018 consensus, a Cochrane review and cohort data report on exercise. Sources cited.",
+   "h1": "Patellofemoral (kneecap) pain and exercise: what the research shows",
+   "dek": "What a clinical practice guideline, a consensus statement and systematic reviews report on how common kneecap pain is, exercise therapy and long-term outcomes.",
+   "intro": [
+    "The 2019 clinical practice guideline of the Academy of Orthopaedic Physical Therapy (American Physical Therapy Association) describes patellofemoral pain (PFP) as a common condition with poorly defined pain behind or around the kneecap that can worsen with loading activities such as squatting, prolonged sitting, stairs, jumping or running. Its diagnostic criteria are pain behind or around the kneecap, pain reproduced by squatting, stair climbing, prolonged sitting or other activities loading the knee in a flexed position, and exclusion of all other conditions that may cause anterior knee pain.{1}",
+    "A systematic review of 23 studies reported an annual prevalence of patellofemoral pain of 22.7% in the general population and 28.9% in adolescents; pooled point prevalence in adolescents was 7.2%.{5} The guideline states that PFP is not a self-limiting condition and that 50% to 56% of adolescents report persistent knee pain 2 years after their initial diagnosis.{1} In a long-term follow-up of two trials, 60 participants (19.3%) answered at 5 to 8 years: 57% reported unfavourable recovery, and 48 of the 50 who had knee X-rays showed no signs of radiographic knee osteoarthritis.{7}",
+    "A Cochrane review of 31 trials (1,690 participants) found very low-quality but consistent evidence that exercise therapy may result in clinically important reductions in pain and improvements in function, and in better long-term recovery. Pooled data from 5 studies (375 participants) favoured exercise over control for short-term pain during activity (mean difference −1.46 on a 0 to 10 scale). The authors rated the evidence very low quality, generally because of serious design flaws and small numbers of participants, and state that there is insufficient evidence to determine the best form of exercise therapy.{3}",
+    "In the same review, 3 studies (104 participants) favoured hip plus knee exercise over knee exercise alone for short-term pain during activity (mean difference −2.20); for function and recovery, neither approach was shown to be superior.{3} A systematic review of 14 studies found strong evidence that hip (proximal) combined with quadriceps rehabilitation decreased pain and improved function in the short term, with moderate evidence for the medium term.{4}",
+    "The 2018 consensus statement, voted on by a panel of 41 patellofemoral pain experts, supports exercise therapy (especially combined hip-focused and knee-focused exercise), combined interventions and foot orthoses to improve pain and/or function. It does not recommend patellofemoral, knee or lumbar mobilisations in isolation, or electrophysical agents.{2}",
+    "A meta-analysis of 18 prospective studies (4,818 participants, 483 of whom developed PFP) found that age, height, weight, body mass index, body fat and Q angle were not risk factors for future PFP. Quadriceps weakness was a risk factor in military recruits, and higher hip abduction strength was a risk factor in adolescents.{6}"
+   ],
+   "items": [
+    {
+     "name": "Hip-targeted exercise",
+     "why": "The 2019 guideline states that hip-targeted exercise therapy should target the posterolateral hip musculature.{1}"
+    },
+    {
+     "name": "Resisted squats",
+     "why": "Named by the 2019 guideline as weight-bearing knee-targeted exercise.{1}"
+    },
+    {
+     "name": "Resisted knee extension",
+     "why": "Named by the 2019 guideline as non-weight-bearing knee-targeted exercise.{1}"
+    },
+    {
+     "name": "Hip combined with quadriceps rehabilitation",
+     "why": "Studied in a systematic review of 14 studies{4} and in the Cochrane review's hip plus knee comparison.{3}"
+    }
+   ],
+   "enoughHeading": "What the guideline and consensus state on exercise and other treatments",
+   "enough": [
+    "The 2019 guideline (grade A, strong evidence) states that clinicians should include exercise therapy with combined hip- and knee-targeted exercises to reduce pain and improve patient-reported outcomes and functional performance in the short, medium and long term, that preference to hip-targeted exercise may be given in the early stages of treatment, and that the combination is preferred over solely knee-targeted exercises.{1}",
+    "The guideline states that clinicians may use tailored patellar taping with exercise therapy for short-term (4 weeks) pain reduction; should not prescribe patellofemoral knee orthoses, including braces, sleeves or straps; should prescribe prefabricated foot orthoses for people with greater than normal pronation, only in the short term (up to 6 weeks) and combined with exercise therapy; and should not use manual therapy in isolation or biophysical agents such as ultrasound, cryotherapy or electrical stimulation.{1}",
+    "The 2018 consensus reports uncertainty about patellar taping and bracing, acupuncture and dry needling, manual soft tissue techniques, blood flow restriction training and gait retraining.{2}"
+   ],
+   "safety": [
+    "The 2019 guideline's diagnostic criteria include exclusion of all other conditions that may cause anterior knee pain, including tibiofemoral pathologies.{1}",
+    "The NHS states to see a GP if knee pain does not improve within a few weeks, and to get advice from 111 if the knee is very painful, cannot be moved or take weight, is badly swollen or has changed shape, locks, gives way or painfully clicks (painless clicking is described as normal), or with a very high temperature and redness or heat around the knee.{8} ACSM's 2015 screening model bases pre-exercise medical clearance on current activity, signs or symptoms and/or known cardiovascular, metabolic or renal disease, and desired intensity.{9}"
+   ],
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why",
+    "how": "How",
+    "dose": "Dose",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "whatsappText": "Hi Susmit, I read the article on patellofemoral (kneecap) pain and want to book a consultation",
+    "skip": "Skip to content",
+    "crumb": "Patellofemoral (kneecap) pain"
+   },
+   "byline": "By Susmit Jalan, coach at Online Fitness Worldwide."
+  },
+  "ar": {
+   "metaTitle": "ألم الرضفة الفخذي (صابونة الركبة): الأدلة | Online Fitness Worldwide",
+   "metaDescription": "ألم الرضفة الفخذي: ما يذكره دليل JOSPT لعام 2019 وإجماع 2018 ومراجعة كوكرين وبيانات المتابعة عن التمارين. مع المصادر.",
+   "h1": "ألم الرضفة الفخذي (صابونة الركبة) والتمارين: ماذا تُظهر الأبحاث",
+   "dek": "ما يذكره دليل ممارسة سريرية وبيان إجماع ومراجعات منهجية عن مدى شيوع ألم صابونة الركبة والعلاج بالتمارين والنتائج على المدى الطويل.",
+   "intro": [
+    "يصف دليل الممارسة السريرية لعام 2019 الصادر عن Academy of Orthopaedic Physical Therapy (الجمعية الأمريكية للعلاج الطبيعي) ألمَ الرضفة الفخذي بأنه حالة شائعة بألم غير محدد خلف صابونة الركبة أو حولها، قد يزداد مع أنشطة التحميل مثل القرفصاء والجلوس الطويل والدرج والقفز والجري. ومعاييره التشخيصية هي: ألم خلف الصابونة أو حولها، وظهور الألم مع القرفصاء أو صعود الدرج أو الجلوس الطويل أو أنشطة أخرى تحمّل الركبة وهي مثنية، واستبعاد جميع الحالات الأخرى التي قد تسبب ألمًا في مقدمة الركبة.{1}",
+    "أفادت مراجعة منهجية لـ 23 دراسة بأن الانتشار السنوي لألم الرضفة الفخذي بلغ 22.7% لدى عموم السكان و28.9% لدى المراهقين، وبلغ الانتشار اللحظي المجمّع لدى المراهقين 7.2%.{5} وينص الدليل على أن هذا الألم ليس حالة تزول من تلقاء نفسها، وأن 50% إلى 56% من المراهقين يبلّغون عن ألم مستمر في الركبة بعد سنتين من التشخيص الأول.{1} وفي متابعة طويلة لتجربتين، أجاب 60 مشاركًا (19.3%) بعد 5 إلى 8 سنوات: أفاد 57% بتعافٍ غير مرضٍ، ولم تظهر لدى 48 من 50 خضعوا لأشعة الركبة علامات شعاعية لخشونة الركبة.{7}",
+    "وجدت مراجعة كوكرين لـ 31 تجربة (1,690 مشاركًا) أدلة منخفضة الجودة جدًا لكنها متسقة على أن العلاج بالتمارين قد يؤدي إلى انخفاض مهم سريريًا في الألم وتحسّن في الوظيفة وتعافٍ أفضل على المدى الطويل. ورجّحت البيانات المجمّعة من 5 دراسات (375 مشاركًا) التمارينَ على المجموعة الضابطة في الألم أثناء النشاط على المدى القصير (فرق المتوسطات −1.46 على مقياس من 0 إلى 10). وصنّف المؤلفون الأدلة بأنها منخفضة الجودة جدًا، غالبًا بسبب عيوب جسيمة في التصميم وقلة عدد المشاركين، وذكروا أن الأدلة غير كافية لتحديد أفضل شكل للعلاج بالتمارين.{3}",
+    "وفي المراجعة نفسها، رجّحت 3 دراسات (104 مشاركين) تمارين الورك مع الركبة على تمارين الركبة وحدها في الألم أثناء النشاط على المدى القصير (فرق المتوسطات −2.20)، ولم يثبت تفوق أي من النهجين في الوظيفة والتعافي.{3} ووجدت مراجعة منهجية لـ 14 دراسة أدلة قوية على أن تأهيل الورك (القريب) مع العضلة الرباعية خفّض الألم وحسّن الوظيفة على المدى القصير، مع أدلة متوسطة على المدى المتوسط.{4}",
+    "يدعم بيان الإجماع لعام 2018، الذي صوّتت عليه لجنة من 41 خبيرًا في ألم الرضفة الفخذي، العلاجَ بالتمارين (خاصة الجمع بين تمارين الورك وتمارين الركبة) والتدخلات المركّبة وتقويمات القدم لتحسين الألم و/أو الوظيفة. ولا يوصي بتحريك الرضفة أو الركبة أو أسفل الظهر وحده، ولا بالعوامل الكهروفيزيائية.{2}",
+    "وجد تحليل تلوي لـ 18 دراسة استباقية (4,818 مشاركًا، أصيب 483 منهم بألم الرضفة الفخذي) أن العمر والطول والوزن ومؤشر كتلة الجسم ودهون الجسم وزاوية Q لم تكن عوامل خطر للإصابة لاحقًا. وكان ضعف العضلة الرباعية عامل خطر لدى المجندين العسكريين، وكانت زيادة قوة تبعيد الورك عامل خطر لدى المراهقين.{6}"
+   ],
+   "items": [
+    {
+     "name": "تمارين موجّهة للورك",
+     "why": "ينص دليل 2019 على أن العلاج بالتمارين الموجّهة للورك يجب أن يستهدف العضلات الخلفية الجانبية للورك.{1}"
+    },
+    {
+     "name": "القرفصاء بمقاومة",
+     "why": "يذكرها دليل 2019 بوصفها تمرينًا للركبة مع تحميل الوزن.{1}"
+    },
+    {
+     "name": "مدّ الركبة بمقاومة",
+     "why": "يذكره دليل 2019 بوصفه تمرينًا للركبة دون تحميل الوزن.{1}"
+    },
+    {
+     "name": "تأهيل الورك مع العضلة الرباعية",
+     "why": "دُرس في مراجعة منهجية لـ 14 دراسة{4} وفي مقارنة الورك مع الركبة في مراجعة كوكرين.{3}"
+    }
+   ],
+   "enoughHeading": "ما يذكره الدليل والإجماع عن التمارين والعلاجات الأخرى",
+   "enough": [
+    "ينص دليل 2019 (الدرجة A، أدلة قوية) على أن على الأطباء والمعالجين تضمين العلاج بالتمارين التي تجمع بين تمارين الورك وتمارين الركبة لخفض الألم وتحسين النتائج التي يبلّغ عنها المريض والأداء الوظيفي على المدى القصير والمتوسط والطويل، وأنه يمكن إعطاء الأفضلية لتمارين الورك في المراحل الأولى من العلاج، وأن الجمع بينهما مفضّل على تمارين الركبة وحدها.{1}",
+    "وينص الدليل على أنه يجوز للمعالجين استخدام شريط لاصق للرضفة مفصّل مع التمارين لخفض الألم على المدى القصير (4 أسابيع)، وأنه لا ينبغي وصف دعامات الرضفة والركبة بما فيها الأربطة والأكمام والأحزمة، وأنه ينبغي وصف تقويمات قدم جاهزة لمن لديهم كبّ أكبر من الطبيعي على المدى القصير فقط (حتى 6 أسابيع) ومع برنامج تمارين، وأنه لا ينبغي استخدام العلاج اليدوي وحده أو العوامل الفيزيائية الحيوية مثل الموجات فوق الصوتية والعلاج بالتبريد والتحفيز الكهربائي.{1}",
+    "ويذكر إجماع 2018 وجود عدم يقين بشأن الشريط اللاصق ودعامات الرضفة، والوخز بالإبر والإبر الجافة، وتقنيات الأنسجة الرخوة اليدوية، والتدريب مع تقييد تدفق الدم، وإعادة تدريب المشي.{2}"
+   ],
+   "safety": [
+    "تشمل المعايير التشخيصية في دليل 2019 استبعاد جميع الحالات الأخرى التي قد تسبب ألمًا في مقدمة الركبة، بما فيها أمراض المفصل الظنبوبي الفخذي.{1}",
+    "تنص NHS على مراجعة الطبيب العام إذا لم يتحسن ألم الركبة خلال أسابيع قليلة، وعلى طلب المشورة من 111 إذا كانت الركبة مؤلمة جدًا، أو لا يمكن تحريكها أو تحميل الوزن عليها، أو متورمة بشدة أو تغيّر شكلها، أو تنغلق أو تنثني أو تطقطق بألم (الطقطقة دون ألم توصف بأنها طبيعية)، أو مع حرارة مرتفعة جدًا واحمرار أو سخونة حول الركبة.{8} ويبني نموذج ACSM لعام 2015 الموافقةَ الطبية قبل التمرين على النشاط الحالي والعلامات أو الأعراض و/أو أمراض القلب والأوعية أو الأيض أو الكلى المعروفة، والشدة المرغوبة.{9}"
+   ],
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا",
+    "how": "كيف",
+    "dose": "الجرعة",
+    "sources": "المصادر",
+    "readIn": "اقرأ بلغة أخرى",
+    "programs": "اطّلع على البرامج",
+    "whatsapp": "اسأل عبر واتساب",
+    "whatsappText": "مرحبًا سوسميت، قرأت المقال عن ألم الرضفة الفخذي (صابونة الركبة) وأريد حجز استشارة",
+    "skip": "انتقل إلى المحتوى",
+    "crumb": "ألم الرضفة الفخذي (صابونة الركبة)"
+   },
+   "byline": "بقلم سوسميت جالان، مدرب في Online Fitness Worldwide."
+  },
+  "hi": {
+   "metaTitle": "पैटेलोफ़ेमोरल (घुटने की कटोरी) दर्द: प्रमाण | Online Fitness Worldwide",
+   "metaDescription": "पैटेलोफ़ेमोरल दर्द: 2019 JOSPT गाइडलाइन, 2018 कंसेंसस, एक Cochrane समीक्षा और फ़ॉलो-अप डेटा व्यायाम के बारे में क्या बताते हैं। स्रोतों सहित।",
+   "h1": "पैटेलोफ़ेमोरल (घुटने की कटोरी) दर्द और व्यायाम: शोध क्या दिखाता है",
+   "dek": "एक क्लिनिकल प्रैक्टिस गाइडलाइन, एक कंसेंसस स्टेटमेंट और सिस्टमैटिक समीक्षाएँ घुटने की कटोरी के दर्द के प्रचलन, व्यायाम थेरेपी और लंबे समय के नतीजों के बारे में क्या बताती हैं।",
+   "intro": [
+    "Academy of Orthopaedic Physical Therapy (American Physical Therapy Association) की 2019 की क्लिनिकल प्रैक्टिस गाइडलाइन पैटेलोफ़ेमोरल दर्द (PFP) को एक आम समस्या बताती है, जिसमें घुटने की कटोरी के पीछे या आसपास अस्पष्ट दर्द होता है, जो स्क्वाट, देर तक बैठने, सीढ़ियों, कूदने या दौड़ने जैसी भार वाली गतिविधियों से बढ़ सकता है। इसके निदान मानदंड हैं: कटोरी के पीछे या आसपास दर्द; स्क्वाट, सीढ़ी चढ़ने, देर तक बैठने या मुड़े घुटने पर भार डालने वाली अन्य गतिविधियों से दर्द का उभरना; और घुटने के आगे दर्द पैदा करने वाली बाकी सभी स्थितियों को बाहर करना।{1}",
+    "23 अध्ययनों की एक सिस्टमैटिक समीक्षा ने पैटेलोफ़ेमोरल दर्द का वार्षिक प्रचलन आम आबादी में 22.7% और किशोरों में 28.9% बताया; किशोरों में संयुक्त पॉइंट प्रचलन 7.2% था।{5} गाइडलाइन कहती है कि PFP अपने आप ठीक होने वाली स्थिति नहीं है और 50% से 56% किशोर पहले निदान के 2 साल बाद भी घुटने में लगातार दर्द बताते हैं।{1} दो ट्रायल के लंबे फ़ॉलो-अप में 5 से 8 साल बाद 60 प्रतिभागियों (19.3%) ने जवाब दिया: 57% ने असंतोषजनक रिकवरी बताई, और जिन 50 का घुटने का एक्स-रे हुआ उनमें से 48 में घुटने के ऑस्टियोआर्थराइटिस के रेडियोग्राफ़िक संकेत नहीं थे।{7}",
+    "31 ट्रायल (1,690 प्रतिभागी) की एक Cochrane समीक्षा को बहुत कम गुणवत्ता के पर सुसंगत प्रमाण मिले कि व्यायाम थेरेपी से दर्द में क्लिनिकली महत्वपूर्ण कमी, कार्यक्षमता में सुधार और लंबे समय में बेहतर रिकवरी हो सकती है। 5 अध्ययनों (375 प्रतिभागी) के संयुक्त डेटा में कम अवधि में गतिविधि के दौरान दर्द पर व्यायाम कंट्रोल से बेहतर रहा (0 से 10 के पैमाने पर औसत अंतर −1.46)। लेखकों ने प्रमाण को बहुत कम गुणवत्ता का आंका, आम तौर पर डिज़ाइन की गंभीर खामियों और कम प्रतिभागियों के कारण, और कहा कि व्यायाम थेरेपी का सबसे अच्छा रूप तय करने के लिए प्रमाण पर्याप्त नहीं हैं।{3}",
+    "उसी समीक्षा में 3 अध्ययनों (104 प्रतिभागी) में कम अवधि में गतिविधि के दौरान दर्द पर कूल्हे और घुटने का व्यायाम सिर्फ़ घुटने के व्यायाम से बेहतर रहा (औसत अंतर −2.20); कार्यक्षमता और रिकवरी में कोई तरीका बेहतर साबित नहीं हुआ।{3} 14 अध्ययनों की एक सिस्टमैटिक समीक्षा को मज़बूत प्रमाण मिले कि क्वाड्रिसेप्स के साथ कूल्हे (प्रॉक्सिमल) के रिहैबिलिटेशन से कम अवधि में दर्द घटा और कार्यक्षमता सुधरी, और मध्यम अवधि के लिए मध्यम प्रमाण मिले।{4}",
+    "41 पैटेलोफ़ेमोरल दर्द विशेषज्ञों के पैनल द्वारा वोट किया गया 2018 का कंसेंसस स्टेटमेंट दर्द और/या कार्यक्षमता सुधारने के लिए व्यायाम थेरेपी (ख़ासकर कूल्हे और घुटने पर केंद्रित व्यायाम का मेल), संयुक्त उपचार और फ़ुट ऑर्थोसिस का समर्थन करता है। यह पैटेलोफ़ेमोरल, घुटने या कमर के मोबिलाइज़ेशन को अकेले, या इलेक्ट्रोफ़िज़िकल एजेंटों की सिफ़ारिश नहीं करता।{2}",
+    "18 प्रॉस्पेक्टिव अध्ययनों (4,818 प्रतिभागी, जिनमें से 483 को PFP हुआ) के एक मेटा-विश्लेषण में उम्र, लंबाई, वज़न, बॉडी मास इंडेक्स, बॉडी फ़ैट और Q कोण भविष्य के PFP के जोखिम कारक नहीं पाए गए। सैन्य रंगरूटों में क्वाड्रिसेप्स की कमज़ोरी, और किशोरों में कूल्हे की अधिक एब्डक्शन ताक़त जोखिम कारक थी।{6}"
+   ],
+   "items": [
+    {
+     "name": "कूल्हे पर केंद्रित व्यायाम",
+     "why": "2019 गाइडलाइन कहती है कि कूल्हे पर केंद्रित व्यायाम थेरेपी में कूल्हे की पोस्टेरोलेटरल मांसपेशियों को लक्ष्य किया जाना चाहिए।{1}"
+    },
+    {
+     "name": "रेज़िस्टेड स्क्वाट",
+     "why": "2019 गाइडलाइन में वज़न उठाकर (वेट-बेयरिंग) घुटने पर केंद्रित व्यायाम के रूप में नामित।{1}"
+    },
+    {
+     "name": "रेज़िस्टेड नी एक्सटेंशन",
+     "why": "2019 गाइडलाइन में बिना वज़न (नॉन-वेट-बेयरिंग) घुटने पर केंद्रित व्यायाम के रूप में नामित।{1}"
+    },
+    {
+     "name": "क्वाड्रिसेप्स के साथ कूल्हे का रिहैबिलिटेशन",
+     "why": "14 अध्ययनों की सिस्टमैटिक समीक्षा{4} और Cochrane समीक्षा की कूल्हा-और-घुटना तुलना में अध्ययन किया गया।{3}"
+    }
+   ],
+   "enoughHeading": "व्यायाम और अन्य उपचारों पर गाइडलाइन और कंसेंसस क्या कहते हैं",
+   "enough": [
+    "2019 गाइडलाइन (ग्रेड A, मज़बूत प्रमाण) कहती है कि क्लिनिशियनों को कम, मध्यम और लंबी अवधि में दर्द घटाने और मरीज़ द्वारा बताए गए नतीजों व कार्यात्मक प्रदर्शन को सुधारने के लिए कूल्हे और घुटने पर केंद्रित व्यायामों को मिलाकर व्यायाम थेरेपी शामिल करनी चाहिए; उपचार के शुरुआती चरणों में कूल्हे के व्यायाम को प्राथमिकता दी जा सकती है; और यह मेल सिर्फ़ घुटने के व्यायामों से बेहतर माना गया है।{1}",
+    "गाइडलाइन कहती है कि क्लिनिशियन कम अवधि (4 सप्ताह) में दर्द घटाने के लिए व्यायाम के साथ कस्टमाइज़्ड पटेलर टेपिंग का उपयोग कर सकते हैं; ब्रेस, स्लीव या स्ट्रैप सहित पैटेलोफ़ेमोरल नी ऑर्थोसिस नहीं लिखने चाहिए; सामान्य से अधिक प्रोनेशन वाले लोगों के लिए बने-बनाए फ़ुट ऑर्थोसिस सिर्फ़ कम अवधि (6 सप्ताह तक) और व्यायाम के साथ लिखने चाहिए; और मैनुअल थेरेपी को अकेले या अल्ट्रासाउंड, क्रायोथेरेपी या इलेक्ट्रिकल स्टिमुलेशन जैसे बायोफ़िज़िकल एजेंटों का उपयोग नहीं करना चाहिए।{1}",
+    "2018 कंसेंसस पटेलर टेपिंग और ब्रेसिंग, एक्यूपंक्चर और ड्राई नीडलिंग, मैनुअल सॉफ़्ट टिश्यू तकनीकों, ब्लड फ़्लो रेस्ट्रिक्शन ट्रेनिंग और चाल (गेट) रीट्रेनिंग के बारे में अनिश्चितता बताता है।{2}"
+   ],
+   "safety": [
+    "2019 गाइडलाइन के निदान मानदंडों में घुटने के आगे दर्द पैदा करने वाली बाकी सभी स्थितियों को, टिबियोफ़ेमोरल समस्याओं सहित, बाहर करना शामिल है।{1}",
+    "NHS कहता है कि अगर घुटने का दर्द कुछ हफ़्तों में न सुधरे तो GP को दिखाएँ, और अगर घुटना बहुत दर्द करे, हिल न सके या वज़न न ले सके, बहुत सूजा हो या आकार बदल गया हो, अटके, जवाब दे या दर्द के साथ चटके (बिना दर्द की चटक को सामान्य बताया गया है), या बहुत तेज़ बुख़ार के साथ घुटने के आसपास लाली या गर्मी हो तो 111 से सलाह लें।{8} ACSM का 2015 का स्क्रीनिंग मॉडल व्यायाम से पहले मेडिकल क्लियरेंस को मौजूदा गतिविधि, संकेतों या लक्षणों और/या ज्ञात हृदय, मेटाबोलिक या किडनी रोग, और चाही गई तीव्रता पर आधारित करता है।{9}"
+   ],
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों",
+    "how": "कैसे",
+    "dose": "डोज़",
+    "sources": "स्रोत",
+    "readIn": "इसे इस भाषा में पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "WhatsApp पर पूछें",
+    "whatsappText": "नमस्ते सुस्मित, मैंने पैटेलोफ़ेमोरल (घुटने की कटोरी) दर्द पर लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    "skip": "सामग्री पर जाएँ",
+    "crumb": "पैटेलोफ़ेमोरल (घुटने की कटोरी) दर्द"
+   },
+   "byline": "लेखक: सुस्मित जालान, कोच, Online Fitness Worldwide।"
+  },
+  "es": {
+   "metaTitle": "Dolor patelofemoral (rótula): la evidencia | Online Fitness Worldwide",
+   "metaDescription": "Dolor patelofemoral: qué informan la guía JOSPT de 2019, el consenso de 2018, una revisión Cochrane y datos de cohortes sobre el ejercicio. Con fuentes.",
+   "h1": "Dolor patelofemoral (de rótula) y ejercicio: qué muestra la investigación",
+   "dek": "Qué informan una guía de práctica clínica, una declaración de consenso y revisiones sistemáticas sobre la frecuencia del dolor de rótula, el ejercicio terapéutico y la evolución a largo plazo.",
+   "intro": [
+    "La guía de práctica clínica de 2019 de la Academy of Orthopaedic Physical Therapy (American Physical Therapy Association) describe el dolor patelofemoral (DPF) como una afección frecuente con dolor mal definido detrás o alrededor de la rótula, que puede empeorar con actividades de carga como la sentadilla, estar sentado mucho tiempo, las escaleras, saltar o correr. Sus criterios diagnósticos son dolor detrás o alrededor de la rótula, dolor reproducido al hacer sentadillas, subir escaleras, estar sentado mucho tiempo u otras actividades que cargan la rodilla flexionada, y la exclusión de todas las demás afecciones que pueden causar dolor anterior de rodilla.{1}",
+    "Una revisión sistemática de 23 estudios informó una prevalencia anual del dolor patelofemoral del 22,7% en la población general y del 28,9% en adolescentes; la prevalencia puntual agrupada en adolescentes fue del 7,2%.{5} La guía afirma que el DPF no es una afección autolimitada y que entre el 50% y el 56% de los adolescentes refieren dolor de rodilla persistente 2 años después del diagnóstico inicial.{1} En un seguimiento a largo plazo de dos ensayos, 60 participantes (19,3%) respondieron a los 5 a 8 años: el 57% refirió una recuperación desfavorable, y 48 de los 50 a quienes se hicieron radiografías de rodilla no mostraban signos radiográficos de artrosis de rodilla.{7}",
+    "Una revisión Cochrane de 31 ensayos (1.690 participantes) encontró evidencia de muy baja calidad pero consistente de que el ejercicio terapéutico puede producir reducciones clínicamente importantes del dolor, mejoras de la función y una mejor recuperación a largo plazo. Los datos agrupados de 5 estudios (375 participantes) favorecieron el ejercicio frente al control en el dolor durante la actividad a corto plazo (diferencia de medias −1,46 en una escala de 0 a 10). Los autores calificaron la evidencia como de muy baja calidad, en general por defectos graves de diseño y pocos participantes, y afirman que la evidencia es insuficiente para determinar la mejor forma de ejercicio terapéutico.{3}",
+    "En la misma revisión, 3 estudios (104 participantes) favorecieron el ejercicio de cadera más rodilla frente al ejercicio solo de rodilla en el dolor durante la actividad a corto plazo (diferencia de medias −2,20); en función y recuperación no se demostró que ninguno de los dos enfoques fuera superior.{3} Una revisión sistemática de 14 estudios encontró evidencia sólida de que la rehabilitación de cadera (proximal) combinada con la de cuádriceps redujo el dolor y mejoró la función a corto plazo, con evidencia moderada a medio plazo.{4}",
+    "La declaración de consenso de 2018, votada por un panel de 41 expertos en dolor patelofemoral, respalda el ejercicio terapéutico (sobre todo el que combina ejercicios centrados en la cadera y en la rodilla), las intervenciones combinadas y las ortesis plantares para mejorar el dolor y/o la función. No recomienda las movilizaciones patelofemorales, de rodilla o lumbares de forma aislada ni los agentes electrofísicos.{2}",
+    "Un metaanálisis de 18 estudios prospectivos (4.818 participantes, 483 de los cuales desarrollaron DPF) encontró que la edad, la estatura, el peso, el índice de masa corporal, la grasa corporal y el ángulo Q no eran factores de riesgo de DPF futuro. La debilidad del cuádriceps fue un factor de riesgo en reclutas militares, y una mayor fuerza de abducción de cadera fue un factor de riesgo en adolescentes.{6}"
+   ],
+   "items": [
+    {
+     "name": "Ejercicio centrado en la cadera",
+     "why": "La guía de 2019 afirma que el ejercicio terapéutico centrado en la cadera debe dirigirse a la musculatura posterolateral de la cadera.{1}"
+    },
+    {
+     "name": "Sentadillas con resistencia",
+     "why": "Citadas por la guía de 2019 como ejercicio de rodilla en carga.{1}"
+    },
+    {
+     "name": "Extensión de rodilla con resistencia",
+     "why": "Citada por la guía de 2019 como ejercicio de rodilla sin carga.{1}"
+    },
+    {
+     "name": "Rehabilitación de cadera combinada con cuádriceps",
+     "why": "Estudiada en una revisión sistemática de 14 estudios{4} y en la comparación cadera más rodilla de la revisión Cochrane.{3}"
+    }
+   ],
+   "enoughHeading": "Qué afirman la guía y el consenso sobre el ejercicio y otros tratamientos",
+   "enough": [
+    "La guía de 2019 (grado A, evidencia sólida) afirma que los clínicos deben incluir ejercicio terapéutico que combine ejercicios centrados en la cadera y en la rodilla para reducir el dolor y mejorar los resultados referidos por el paciente y el rendimiento funcional a corto, medio y largo plazo; que puede darse preferencia al ejercicio de cadera en las primeras fases del tratamiento; y que la combinación es preferible a los ejercicios solo de rodilla.{1}",
+    "La guía afirma que los clínicos pueden usar vendaje rotuliano adaptado junto con el ejercicio para reducir el dolor a corto plazo (4 semanas); no deben prescribir ortesis patelofemorales de rodilla, como rodilleras, mangas o cintas; deben prescribir ortesis plantares prefabricadas a personas con pronación mayor de lo normal, solo a corto plazo (hasta 6 semanas) y combinadas con ejercicio; y no deben usar la terapia manual de forma aislada ni agentes biofísicos como ultrasonido, crioterapia o estimulación eléctrica.{1}",
+    "El consenso de 2018 señala incertidumbre sobre el vendaje y las rodilleras rotulianas, la acupuntura y la punción seca, las técnicas manuales de tejidos blandos, el entrenamiento con restricción del flujo sanguíneo y la reeducación de la marcha.{2}"
+   ],
+   "safety": [
+    "Los criterios diagnósticos de la guía de 2019 incluyen la exclusión de todas las demás afecciones que pueden causar dolor anterior de rodilla, incluidas las patologías tibiofemorales.{1}",
+    "El NHS indica acudir al médico de cabecera si el dolor de rodilla no mejora en unas semanas, y pedir consejo al 111 si la rodilla duele mucho, no se puede mover ni apoyar, está muy hinchada o ha cambiado de forma, se bloquea, falla o chasquea con dolor (el chasquido sin dolor se describe como normal), o con fiebre muy alta y enrojecimiento o calor alrededor de la rodilla.{8} El modelo de cribado del ACSM de 2015 basa la autorización médica previa al ejercicio en la actividad actual, los signos o síntomas y/o la enfermedad cardiovascular, metabólica o renal conocida, y la intensidad deseada.{9}"
+   ],
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué",
+    "how": "Cómo",
+    "dose": "Dosis",
+    "sources": "Fuentes",
+    "readIn": "Leer en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "whatsappText": "Hola Susmit, leí el artículo sobre el dolor patelofemoral (de rótula) y quiero reservar una consulta",
+    "skip": "Saltar al contenido",
+    "crumb": "Dolor patelofemoral (de rótula)"
+   },
+   "byline": "Por Susmit Jalan, entrenador en Online Fitness Worldwide."
+  },
+  "zh": {
+   "metaTitle": "髌股疼痛（膝盖骨痛）：证据 | Online Fitness Worldwide",
+   "metaDescription": "髌股疼痛：2019年JOSPT指南、2018年共识声明、一项Cochrane综述和随访数据关于运动的报告。附来源。",
+   "h1": "髌股疼痛（膝盖骨痛）与运动：研究显示了什么",
+   "dek": "一份临床实践指南、一份共识声明和多项系统综述关于膝盖骨疼痛的常见程度、运动疗法和长期结局的报告。",
+   "intro": [
+    "Academy of Orthopaedic Physical Therapy（美国物理治疗协会）2019年的临床实践指南将髌股疼痛（PFP）描述为一种常见病症：髌骨后方或周围出现界定不清的疼痛，可随深蹲、久坐、上下楼梯、跳跃或跑步等负重活动加重。其诊断标准为：髌骨后方或周围疼痛；深蹲、爬楼梯、久坐或其他在屈膝位负荷膝关节的活动可诱发疼痛；并排除所有其他可能引起膝前痛的病症。{1}",
+    "一项纳入23项研究的系统综述报告，髌股疼痛的年患病率在一般人群中为22.7%，在青少年中为28.9%；青少年的合并时点患病率为7.2%。{5}该指南指出，PFP不是一种自限性疾病，50%至56%的青少年在首次诊断2年后仍报告持续膝痛。{1}在对两项试验的长期随访中，60名参与者（19.3%）在5至8年后作答：57%报告恢复不理想，在接受膝关节X光检查的50人中有48人没有膝骨关节炎的影像学征象。{7}",
+    "一项纳入31项试验（1,690名参与者）的Cochrane综述发现了质量极低但一致的证据，表明运动疗法可能带来具有临床意义的疼痛减轻、功能改善以及更好的长期恢复。5项研究（375名参与者）的合并数据显示，在短期活动时疼痛方面运动优于对照（0至10分量表上的均值差为−1.46）。作者将证据评为质量极低，主要原因是设计存在严重缺陷且参与者人数少，并指出证据不足以确定最佳的运动疗法形式。{3}",
+    "在同一综述中，3项研究（104名参与者）显示，在短期活动时疼痛方面，髋加膝训练优于单纯膝部训练（均值差−2.20）；在功能和恢复方面，未显示任何一种方法更优。{3}一项纳入14项研究的系统综述发现强证据表明，髋部（近端）结合股四头肌康复在短期内减轻了疼痛并改善了功能，中期有中等证据。{4}",
+    "2018年共识声明由41名髌股疼痛专家组成的小组投票形成，支持以运动疗法（尤其是髋部与膝部训练相结合）、综合干预和足部矫形器来改善疼痛和/或功能；不推荐单独使用髌股、膝关节或腰椎松动术，也不推荐电物理因子治疗。{2}",
+    "一项纳入18项前瞻性研究（4,818名参与者，其中483人发生PFP）的荟萃分析发现，年龄、身高、体重、体重指数、体脂和Q角不是未来发生PFP的危险因素。在新兵中，股四头肌无力是危险因素；在青少年中，较高的髋外展力量是危险因素。{6}"
+   ],
+   "items": [
+    {
+     "name": "髋部针对性训练",
+     "why": "2019年指南指出，髋部针对性运动疗法应针对髋部后外侧肌群。{1}"
+    },
+    {
+     "name": "抗阻深蹲",
+     "why": "2019年指南将其列为负重的膝部针对性训练。{1}"
+    },
+    {
+     "name": "抗阻伸膝",
+     "why": "2019年指南将其列为非负重的膝部针对性训练。{1}"
+    },
+    {
+     "name": "髋部结合股四头肌康复",
+     "why": "在一项纳入14项研究的系统综述{4}和Cochrane综述的髋加膝比较中被研究。{3}"
+    }
+   ],
+   "enoughHeading": "指南和共识关于运动及其他治疗的表述",
+   "enough": [
+    "2019年指南（A级，强证据）指出，临床医生应纳入结合髋部和膝部针对性训练的运动疗法，以在短期、中期和长期减轻疼痛、改善患者报告结局和功能表现；在治疗早期可优先进行髋部训练；与单纯膝部训练相比，更倾向于两者结合。{1}",
+    "该指南指出，临床医生可在运动疗法基础上使用个体化髌骨贴扎以短期（4周）减轻疼痛；不应开具髌股膝关节矫形器，包括护膝、护套或绑带；对于足内旋大于正常的人，应开具预制足部矫形器，仅限短期（最多6周）并与运动疗法结合；不应单独使用手法治疗，也不应使用超声、冷疗或电刺激等生物物理因子。{1}",
+    "2018年共识指出，髌骨贴扎和支具、针灸和干针、手法软组织技术、血流限制训练以及步态再训练的效果尚不确定。{2}"
+   ],
+   "safety": [
+    "2019年指南的诊断标准包括排除所有其他可能引起膝前痛的病症，包括胫股关节病变。{1}",
+    "NHS指出，如果膝痛在几周内没有好转，应去看全科医生；如果膝盖非常痛、无法活动或无法承重、严重肿胀或变形、卡住、打软或疼痛性弹响（无痛弹响被描述为正常），或伴有高烧且膝盖周围发红或发热，应立即咨询111。{8}ACSM 2015年的筛查模型以当前活动水平、体征或症状和/或已知的心血管、代谢或肾脏疾病以及期望的运动强度作为运动前医学许可的依据。{9}"
+   ],
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么",
+    "how": "怎么做",
+    "dose": "训练量",
+    "sources": "参考来源",
+    "readIn": "其他语言版本",
+    "programs": "查看课程",
+    "whatsapp": "通过WhatsApp咨询",
+    "whatsappText": "你好 Susmit，我读了关于髌股疼痛（膝盖骨痛）的文章，想预约咨询",
+    "skip": "跳到正文",
+    "crumb": "髌股疼痛（膝盖骨痛）"
+   },
+   "byline": "作者：Susmit Jalan，Online Fitness Worldwide 教练。"
+  },
+  "ja": {
+   "metaTitle": "膝蓋大腿骨痛（お皿の痛み）：エビデンス | Online Fitness Worldwide",
+   "metaDescription": "膝蓋大腿骨痛：2019年JOSPTガイドライン、2018年コンセンサス、コクランレビューと追跡データが運動について報告した内容。出典付き。",
+   "h1": "膝蓋大腿骨痛（お皿の痛み）と運動：研究が示すこと",
+   "dek": "臨床診療ガイドライン、コンセンサス声明、システマティックレビューが報告する、お皿の痛みの多さ、運動療法、長期経過。",
+   "intro": [
+    "Academy of Orthopaedic Physical Therapy（米国理学療法士協会）の2019年臨床診療ガイドラインは、膝蓋大腿骨痛（PFP）を、膝蓋骨の裏や周囲にはっきりしない痛みが生じるよくある状態で、スクワット、長時間の座位、階段、ジャンプ、ランニングなど負荷のかかる活動で悪化しうると記述している。診断基準は、膝蓋骨の裏または周囲の痛み、スクワット・階段昇り・長時間の座位など膝を曲げた状態で負荷がかかる活動で痛みが再現されること、そして膝前部の痛みを起こしうる他のすべての状態を除外することである。{1}",
+    "23件の研究のシステマティックレビューは、膝蓋大腿骨痛の年間有病率を一般集団で22.7%、青年で28.9%と報告し、青年の統合時点有病率は7.2%であった。{5}ガイドラインは、PFPは自然に治まる状態ではなく、青年の50%〜56%が最初の診断から2年後も膝の痛みが続いていると報告していると述べている。{1}2つの試験の長期追跡では、5〜8年後に60人（19.3%）が回答し、57%が回復は不良と報告した。膝のX線検査を受けた50人中48人に、X線上の変形性膝関節症の所見はなかった。{7}",
+    "31件の試験（参加者1,690人）のコクランレビューは、運動療法が臨床的に重要な痛みの軽減、機能の改善、長期的な回復の向上をもたらす可能性があるという、質は非常に低いが一貫したエビデンスを見いだした。5件の研究（375人）の統合データでは、短期の活動時痛で運動が対照を上回った（0〜10の尺度で平均差−1.46）。著者らは、主に研究デザインの重大な欠陥と参加者の少なさからエビデンスの質を非常に低いと評価し、最適な運動療法の形を決めるにはエビデンスが不十分だと述べている。{3}",
+    "同じレビューで、3件の研究（104人）は短期の活動時痛について股関節＋膝の運動が膝のみの運動を上回った（平均差−2.20）。機能と回復では、どちらの方法も優れているとは示されなかった。{3}14件の研究のシステマティックレビューは、股関節（近位）と大腿四頭筋を組み合わせたリハビリテーションが短期的に痛みを減らし機能を改善したという強いエビデンスと、中期については中程度のエビデンスを見いだした。{4}",
+    "41人の膝蓋大腿骨痛の専門家パネルの投票による2018年コンセンサス声明は、痛みや機能の改善のための運動療法（特に股関節中心と膝中心の運動の組み合わせ）、複合的介入、足底装具を支持している。膝蓋大腿関節・膝・腰椎のモビライゼーション単独や物理療法機器（電気物理的手段）は推奨していない。{2}",
+    "18件の前向き研究（参加者4,818人、うち483人がPFPを発症）のメタアナリシスでは、年齢、身長、体重、BMI、体脂肪、Q角は将来のPFPの危険因子ではなかった。新兵では大腿四頭筋の筋力低下が、青年では股関節外転筋力の高さが危険因子であった。{6}"
+   ],
+   "items": [
+    {
+     "name": "股関節を対象とした運動",
+     "why": "2019年ガイドラインは、股関節を対象とした運動療法は股関節後外側の筋群を対象とすべきだと述べている。{1}"
+    },
+    {
+     "name": "負荷をかけたスクワット",
+     "why": "2019年ガイドラインで、荷重下の膝を対象とした運動として挙げられている。{1}"
+    },
+    {
+     "name": "負荷をかけた膝伸展",
+     "why": "2019年ガイドラインで、非荷重の膝を対象とした運動として挙げられている。{1}"
+    },
+    {
+     "name": "股関節と大腿四頭筋を組み合わせたリハビリテーション",
+     "why": "14件の研究のシステマティックレビュー{4}と、コクランレビューの股関節＋膝の比較で研究された。{3}"
+    }
+   ],
+   "enoughHeading": "運動とその他の治療についてガイドラインとコンセンサスが述べていること",
+   "enough": [
+    "2019年ガイドライン（グレードA、強いエビデンス）は、臨床家は短期・中期・長期にわたり痛みを減らし、患者報告アウトカムと機能的パフォーマンスを改善するために、股関節と膝を対象とした運動を組み合わせた運動療法を含めるべきであり、治療の初期には股関節の運動を優先してよく、膝のみの運動よりも組み合わせが望ましいと述べている。{1}",
+    "同ガイドラインは、臨床家は短期（4週間）の痛みの軽減のために運動療法と併せて個別の膝蓋骨テーピングを用いてよい、ブレース・スリーブ・ストラップを含む膝蓋大腿用の膝装具を処方すべきでない、回内が正常より大きい人には既製の足底装具を短期（最大6週間）に限り運動療法と組み合わせて処方すべきである、徒手療法の単独使用や超音波・寒冷療法・電気刺激などの物理療法を用いるべきでない、と述べている。{1}",
+    "2018年コンセンサスは、膝蓋骨テーピングとブレース、鍼とドライニードリング、徒手的軟部組織テクニック、血流制限トレーニング、歩行の再教育については不確実であるとしている。{2}"
+   ],
+   "safety": [
+    "2019年ガイドラインの診断基準には、脛骨大腿関節の病変を含め、膝前部の痛みを起こしうる他のすべての状態の除外が含まれる。{1}",
+    "NHSは、膝の痛みが数週間で改善しない場合はGPを受診すること、膝がとても痛い、動かせないか体重をかけられない、ひどく腫れているか形が変わった、引っかかる・崩れる・痛みを伴って鳴る（痛みのない音は正常とされる）、または高熱があり膝の周りが赤いか熱をもつ場合は111に相談することとしている。{8}ACSMの2015年スクリーニングモデルは、運動前の医学的許可を、現在の活動量、徴候や症状および/または既知の心血管・代謝・腎疾患、希望する運動強度に基づいて判断する。{9}"
+   ],
+   "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ",
+    "how": "やり方",
+    "dose": "回数・量",
+    "sources": "出典",
+    "readIn": "他の言語で読む",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問する",
+    "whatsappText": "こんにちは Susmit さん、膝蓋大腿骨痛（お皿の痛み）の記事を読み、相談を予約したいです",
+    "skip": "本文へスキップ",
+    "crumb": "膝蓋大腿骨痛（お皿の痛み）"
+   },
+   "byline": "執筆：スシュミット・ジャラン（Online Fitness Worldwide コーチ）"
+  },
+  "gu": {
+   "metaTitle": "પેટેલોફેમોરલ (ઘૂંટણની ઢાંકણી) દુખાવો: પુરાવા | Online Fitness Worldwide",
+   "metaDescription": "પેટેલોફેમોરલ દુખાવો: 2019 JOSPT ગાઇડલાઇન, 2018 કન્સેન્સસ, એક Cochrane સમીક્ષા અને ફોલો-અપ ડેટા કસરત વિશે શું જણાવે છે. સ્રોતો સાથે.",
+   "h1": "પેટેલોફેમોરલ (ઘૂંટણની ઢાંકણી) દુખાવો અને કસરત: સંશોધન શું બતાવે છે",
+   "dek": "એક ક્લિનિકલ પ્રેક્ટિસ ગાઇડલાઇન, એક કન્સેન્સસ સ્ટેટમેન્ટ અને સિસ્ટમેટિક સમીક્ષાઓ ઘૂંટણની ઢાંકણીના દુખાવાનું પ્રમાણ, કસરત થેરાપી અને લાંબા ગાળાનાં પરિણામો વિશે શું જણાવે છે.",
+   "intro": [
+    "Academy of Orthopaedic Physical Therapy (American Physical Therapy Association)ની 2019ની ક્લિનિકલ પ્રેક્ટિસ ગાઇડલાઇન પેટેલોફેમોરલ દુખાવા (PFP)ને એક સામાન્ય સ્થિતિ તરીકે વર્ણવે છે, જેમાં ઘૂંટણની ઢાંકણીની પાછળ કે આસપાસ અસ્પષ્ટ દુખાવો થાય છે, જે સ્ક્વૉટ, લાંબો સમય બેસવું, સીડી, કૂદવું કે દોડવું જેવી ભારવાળી પ્રવૃત્તિઓથી વધી શકે છે. તેના નિદાનના માપદંડ છે: ઢાંકણીની પાછળ કે આસપાસ દુખાવો; સ્ક્વૉટ, સીડી ચઢવી, લાંબો સમય બેસવું કે વળેલા ઘૂંટણ પર ભાર આપતી અન્ય પ્રવૃત્તિઓથી દુખાવો ઊપડવો; અને ઘૂંટણના આગળના ભાગમાં દુખાવો કરી શકે તેવી બીજી બધી સ્થિતિઓને બાકાત રાખવી.{1}",
+    "23 અભ્યાસોની એક સિસ્ટમેટિક સમીક્ષાએ પેટેલોફેમોરલ દુખાવાનું વાર્ષિક પ્રમાણ સામાન્ય વસ્તીમાં 22.7% અને કિશોરોમાં 28.9% નોંધ્યું; કિશોરોમાં સંયુક્ત પોઇન્ટ પ્રમાણ 7.2% હતું.{5} ગાઇડલાઇન જણાવે છે કે PFP આપમેળે મટી જતી સ્થિતિ નથી અને 50%થી 56% કિશોરો પ્રથમ નિદાનનાં 2 વર્ષ પછી પણ ઘૂંટણમાં સતત દુખાવો જણાવે છે.{1} બે ટ્રાયલના લાંબા ફોલો-અપમાં 5થી 8 વર્ષ પછી 60 સહભાગીઓએ (19.3%) જવાબ આપ્યો: 57%એ અસંતોષકારક રિકવરી જણાવી, અને ઘૂંટણનો એક્સ-રે થયો તેવા 50માંથી 48માં ઘૂંટણના ઑસ્ટિયોઆર્થ્રાઇટિસનાં રેડિયોગ્રાફિક ચિહ્નો નહોતાં.{7}",
+    "31 ટ્રાયલ (1,690 સહભાગીઓ)ની એક Cochrane સમીક્ષાને બહુ ઓછી ગુણવત્તાના પણ સુસંગત પુરાવા મળ્યા કે કસરત થેરાપીથી દુખાવામાં ક્લિનિકલી મહત્વનો ઘટાડો, કાર્યક્ષમતામાં સુધારો અને લાંબા ગાળે વધુ સારી રિકવરી થઈ શકે છે. 5 અભ્યાસો (375 સહભાગીઓ)ના સંયુક્ત ડેટામાં ટૂંકા ગાળે પ્રવૃત્તિ દરમિયાનના દુખાવામાં કસરત કંટ્રોલ કરતાં સારી રહી (0થી 10ના માપ પર સરેરાશ તફાવત −1.46). લેખકોએ પુરાવાને બહુ ઓછી ગુણવત્તાના ગણ્યા, સામાન્ય રીતે ડિઝાઇનની ગંભીર ખામીઓ અને ઓછા સહભાગીઓને કારણે, અને જણાવ્યું કે કસરત થેરાપીનું શ્રેષ્ઠ સ્વરૂપ નક્કી કરવા પૂરતા પુરાવા નથી.{3}",
+    "એ જ સમીક્ષામાં 3 અભ્યાસો (104 સહભાગીઓ)માં ટૂંકા ગાળે પ્રવૃત્તિ દરમિયાનના દુખાવામાં થાપા અને ઘૂંટણની કસરત ફક્ત ઘૂંટણની કસરત કરતાં સારી રહી (સરેરાશ તફાવત −2.20); કાર્યક્ષમતા અને રિકવરીમાં કોઈ અભિગમ ચડિયાતો સાબિત ન થયો.{3} 14 અભ્યાસોની એક સિસ્ટમેટિક સમીક્ષાને મજબૂત પુરાવા મળ્યા કે ક્વાડ્રિસેપ્સ સાથે થાપા (પ્રૉક્સિમલ)ના રિહેબિલિટેશનથી ટૂંકા ગાળે દુખાવો ઘટ્યો અને કાર્યક્ષમતા સુધરી, અને મધ્યમ ગાળા માટે મધ્યમ પુરાવા મળ્યા.{4}",
+    "41 પેટેલોફેમોરલ દુખાવાના નિષ્ણાતોની પેનલે મત આપીને તૈયાર કરેલું 2018નું કન્સેન્સસ સ્ટેટમેન્ટ દુખાવો અને/અથવા કાર્યક્ષમતા સુધારવા માટે કસરત થેરાપી (ખાસ કરીને થાપા અને ઘૂંટણ પર કેન્દ્રિત કસરતોનું સંયોજન), સંયુક્ત સારવાર અને ફૂટ ઑર્થોસિસને સમર્થન આપે છે. તે પેટેલોફેમોરલ, ઘૂંટણ કે કમરના મોબિલાઇઝેશનને એકલા, કે ઇલેક્ટ્રોફિઝિકલ એજન્ટોની ભલામણ કરતું નથી.{2}",
+    "18 પ્રૉસ્પેક્ટિવ અભ્યાસો (4,818 સહભાગીઓ, જેમાંથી 483ને PFP થયો)ના એક મેટા-વિશ્લેષણમાં ઉંમર, ઊંચાઈ, વજન, બૉડી માસ ઇન્ડેક્સ, બૉડી ફેટ અને Q કોણ ભવિષ્યના PFPના જોખમ પરિબળો ન જણાયા. લશ્કરી ભરતીઓમાં ક્વાડ્રિસેપ્સની નબળાઈ, અને કિશોરોમાં થાપાની વધુ એબ્ડક્શન તાકાત જોખમ પરિબળ હતી.{6}"
+   ],
+   "items": [
+    {
+     "name": "થાપા પર કેન્દ્રિત કસરત",
+     "why": "2019 ગાઇડલાઇન જણાવે છે કે થાપા પર કેન્દ્રિત કસરત થેરાપીએ થાપાના પોસ્ટેરોલેટરલ સ્નાયુઓને લક્ષ્ય બનાવવા જોઈએ.{1}"
+    },
+    {
+     "name": "રેઝિસ્ટેડ સ્ક્વૉટ",
+     "why": "2019 ગાઇડલાઇનમાં વજન ઝીલતી (વેઇટ-બેરિંગ) ઘૂંટણ પર કેન્દ્રિત કસરત તરીકે નામ અપાયું છે.{1}"
+    },
+    {
+     "name": "રેઝિસ્ટેડ ની એક્સ્ટેન્શન",
+     "why": "2019 ગાઇડલાઇનમાં વજન વગરની (નૉન-વેઇટ-બેરિંગ) ઘૂંટણ પર કેન્દ્રિત કસરત તરીકે નામ અપાયું છે.{1}"
+    },
+    {
+     "name": "ક્વાડ્રિસેપ્સ સાથે થાપાનું રિહેબિલિટેશન",
+     "why": "14 અભ્યાસોની સિસ્ટમેટિક સમીક્ષામાં{4} અને Cochrane સમીક્ષાની થાપા-અને-ઘૂંટણ સરખામણીમાં અભ્યાસ થયો.{3}"
+    }
+   ],
+   "enoughHeading": "કસરત અને અન્ય સારવાર વિશે ગાઇડલાઇન અને કન્સેન્સસ શું જણાવે છે",
+   "enough": [
+    "2019 ગાઇડલાઇન (ગ્રેડ A, મજબૂત પુરાવા) જણાવે છે કે ક્લિનિશિયનોએ ટૂંકા, મધ્યમ અને લાંબા ગાળે દુખાવો ઘટાડવા અને દર્દીએ જણાવેલાં પરિણામો તથા કાર્યાત્મક પ્રદર્શન સુધારવા થાપા અને ઘૂંટણ પર કેન્દ્રિત કસરતોને જોડતી કસરત થેરાપી સામેલ કરવી જોઈએ; સારવારના શરૂઆતના તબક્કામાં થાપાની કસરતને પ્રાધાન્ય આપી શકાય; અને આ સંયોજન ફક્ત ઘૂંટણની કસરતો કરતાં વધુ પસંદગીપાત્ર છે.{1}",
+    "ગાઇડલાઇન જણાવે છે કે ક્લિનિશિયનો ટૂંકા ગાળે (4 અઠવાડિયાં) દુખાવો ઘટાડવા કસરત સાથે કસ્ટમાઇઝ્ડ પટેલર ટેપિંગ વાપરી શકે; બ્રેસ, સ્લીવ કે સ્ટ્રૅપ સહિત પેટેલોફેમોરલ ની ઑર્થોસિસ લખવી ન જોઈએ; સામાન્ય કરતાં વધુ પ્રોનેશન ધરાવતા લોકો માટે તૈયાર ફૂટ ઑર્થોસિસ ફક્ત ટૂંકા ગાળા (6 અઠવાડિયાં સુધી) માટે અને કસરત સાથે લખવી જોઈએ; અને મૅન્યુઅલ થેરાપી એકલી કે અલ્ટ્રાસાઉન્ડ, ક્રાયોથેરાપી કે ઇલેક્ટ્રિકલ સ્ટિમ્યુલેશન જેવા બાયોફિઝિકલ એજન્ટો વાપરવા ન જોઈએ.{1}",
+    "2018 કન્સેન્સસ પટેલર ટેપિંગ અને બ્રેસિંગ, એક્યુપંક્ચર અને ડ્રાય નીડલિંગ, મૅન્યુઅલ સૉફ્ટ ટિશ્યુ તકનીકો, બ્લડ ફ્લો રિસ્ટ્રિક્શન ટ્રેનિંગ અને ચાલ (ગેઇટ) રીટ્રેનિંગ વિશે અનિશ્ચિતતા જણાવે છે.{2}"
+   ],
+   "safety": [
+    "2019 ગાઇડલાઇનના નિદાનના માપદંડમાં ઘૂંટણના આગળના ભાગમાં દુખાવો કરી શકે તેવી બીજી બધી સ્થિતિઓને, ટિબિયોફેમોરલ સમસ્યાઓ સહિત, બાકાત રાખવાનો સમાવેશ થાય છે.{1}",
+    "NHS જણાવે છે કે ઘૂંટણનો દુખાવો થોડાં અઠવાડિયાંમાં ન સુધરે તો GPને બતાવવું, અને ઘૂંટણ બહુ દુખે, હલાવી ન શકાય કે વજન ન ઝીલી શકે, બહુ સૂજી ગયો હોય કે આકાર બદલાયો હોય, અટકી જાય, જવાબ દઈ દે કે દુખાવા સાથે કટકટ થાય (દુખાવા વગરની કટકટને સામાન્ય ગણાવી છે), કે બહુ તાવ સાથે ઘૂંટણની આસપાસ લાલાશ કે ગરમી હોય તો 111ની સલાહ લેવી.{8} ACSMનું 2015નું સ્ક્રીનિંગ મૉડલ કસરત પહેલાંની મેડિકલ ક્લિયરન્સને હાલની પ્રવૃત્તિ, ચિહ્નો કે લક્ષણો અને/અથવા જાણીતા હૃદય, મેટાબોલિક કે કિડનીના રોગ, અને ઇચ્છિત તીવ્રતા પર આધારિત રાખે છે.{9}"
+   ],
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "શા માટે",
+    "how": "કેવી રીતે",
+    "dose": "ડોઝ",
+    "sources": "સ્રોતો",
+    "readIn": "આ ભાષામાં વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "WhatsApp પર પૂછો",
+    "whatsappText": "નમસ્તે સુસ્મિત, મેં પેટેલોફેમોરલ (ઘૂંટણની ઢાંકણી) દુખાવા પરનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    "skip": "સામગ્રી પર જાઓ",
+    "crumb": "પેટેલોફેમોરલ (ઘૂંટણની ઢાંકણી) દુખાવો"
+   },
+   "byline": "લેખક: સુસ્મિત જાલાન, કોચ, Online Fitness Worldwide."
+  }
+ },
+ "format": "evidence"
+}
