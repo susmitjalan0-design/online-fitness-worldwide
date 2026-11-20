@@ -29,14 +29,6 @@
    "url": "https://tickets-esdk.spartan.com/"
   },
   {
-   "cite": "Spartan Arabia. 2026 DEKA FIT Coca-Cola Arena, Dubai, 26 Sep 2026. Official event page; accessed 2 Nov 2026.",
-   "url": "https://arabia.spartan.com/en/race/detail/11253/overview"
-  },
-  {
-   "cite": "DEKA Thailand. Events (Bangkok DEKA FIT, 1 Nov 2026). Official ticketing site; accessed 2 Nov 2026.",
-   "url": "https://tickets-thdk.spartan.com/"
-  },
-  {
    "cite": "Kracey. What Is DEKA FIT? The 10 Zones, Weights and Finish Times (third-party analysis of 14,580 ranked results on the 2026 DEKA global leaderboard to 13 Sep 2026). Not an official figure; 17 Sep 2026; accessed 2 Nov 2026.",
    "url": "https://kracey.com/blog/deka-fit-guide"
   },
@@ -52,7 +44,7 @@
    "h1": "DEKA FIT, MILE and STRONG: the formats, zones and rules",
    "dek": "The 10 DEKA zones, weights, penalties and age groups from the official rulebook, with third-party 2026 leaderboard times and listed event dates.",
    "intro": [
-    "DEKA is a Spartan fitness event of 10 zones completed in a fixed order. Spartan lists STRONG as 10 zones with no running, MILE as 10 zones with 1 mile of running, FIT as 10 zones with 5K of running, Ultra as 50 zones with 25K of running, and ATLAS as 10 heavy zones with a 30-minute time cap.{2}",
+    "DEKA is a Spartan fitness event of 10 zones completed in a fixed order.{1}{3} Spartan lists STRONG as 10 zones with no running, MILE as 10 zones with 1 mile of running, FIT as 10 zones with 5K of running, Ultra as 50 zones with 25K of running, and ATLAS as 10 heavy zones with a 30-minute time cap.{2}",
     "The DEKA Rules of Competition (v20261015) state that in MILE each zone is preceded by a 160 m run or walk (1,600 m in total) and in FIT by a 500 m run or walk (5,000 m in total). DEKA FIT Ultra is the FIT course completed 5 times (25K, 50 zones) with an 8-hour cut-off.{3}",
     "The rulebook carries two standards charts: one in effect for the 2026 World Championship, and one taking effect on 16 October 2026 that does not apply to that championship. The figures below are from the World Championship chart. In that chart the female 14+ / male 65+ zone 1 load is printed as 33/35 lb and 15 kg.{3}",
     "This page is independent and is not an official Spartan or DEKA publication. Rulebook and event pages were read on the dates shown in the sources."
@@ -84,12 +76,12 @@
     }
    ],
    "enough": [
-    "A third-party analysis of 14,580 ranked results on the 2026 DEKA global leaderboard (to 13 September 2026) reported median DEKA FIT times of 48:20 for men and 54:32 for women, fastest 2026 times of 29:35 and 31:29, and 84% of men and 70% of women finishing under an hour. It states that DEKA publishes no average finish time.{9}",
+    "A third-party analysis of 14,580 ranked results on the 2026 DEKA global leaderboard (to 13 September 2026) reported median DEKA FIT times of 48:20 for men and 54:32 for women, fastest 2026 times of 29:35 and 31:29, and 84% of men and 70% of women finishing under an hour. It states that DEKA publishes no average finish time.{7}",
     "Spartan lists the 2026 DEKA World Championship in Fort Worth, Texas, on 10–13 December 2026: invite-only FIT (Thursday 10), MILE (Friday 11) and STRONG (Saturday 12) championships, and public STRONG races on 12 and 13 December.{4}",
     "Event pages read for this update list DEKA FIT in Denver (3–4 April 2027), Sacramento (1–2 May 2027) and Anaheim (1 May 2027),{5} and DEKA events in Spain from Tenerife (21–22 November 2026) to Alicante (30–31 October 2027).{6}"
    ],
    "safety": [
-    "ACSM's 2015 screening model bases pre-exercise medical clearance on current activity, signs or symptoms and/or known cardiovascular, metabolic or renal disease, and desired intensity.{10}"
+    "ACSM's 2015 screening model bases pre-exercise medical clearance on current activity, signs or symptoms and/or known cardiovascular, metabolic or renal disease, and desired intensity.{8}"
    ],
    "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
    "labels": {
@@ -117,7 +109,7 @@
    "h1": "DEKA FIT وMILE وSTRONG: الصيغ والمناطق والقواعد",
    "dek": "مناطق DEKA العشر والأوزان والعقوبات والفئات العمرية من كتيب القواعد الرسمي، مع أزمنة لوحة 2026 من طرف ثالث ومواعيد الفعاليات المدرجة.",
    "intro": [
-    "DEKA فعالية لياقة من Spartan تتكون من 10 مناطق تُنجز بترتيب ثابت. تصف Spartan صيغة STRONG بأنها 10 مناطق بلا جري، وMILE بأنها 10 مناطق مع ميل من الجري، وFIT بأنها 10 مناطق مع 5 كم من الجري، وUltra بأنها 50 منطقة مع 25 كم من الجري، وATLAS بأنها 10 مناطق ثقيلة بحد زمني 30 دقيقة.{2}",
+    "DEKA فعالية لياقة من Spartan تتكون من 10 مناطق تُنجز بترتيب ثابت.{1}{3} تصف Spartan صيغة STRONG بأنها 10 مناطق بلا جري، وMILE بأنها 10 مناطق مع ميل من الجري، وFIT بأنها 10 مناطق مع 5 كم من الجري، وUltra بأنها 50 منطقة مع 25 كم من الجري، وATLAS بأنها 10 مناطق ثقيلة بحد زمني 30 دقيقة.{2}",
     "تنص قواعد منافسة DEKA (الإصدار v20261015) على أن كل منطقة في MILE يسبقها جري أو مشي 160 م (1,600 م إجمالًا)، وفي FIT يسبقها 500 م (5,000 م إجمالًا). وDEKA FIT Ultra هو مسار FIT مكررًا 5 مرات (25 كم، 50 منطقة) بحد زمني 8 ساعات.{3}",
     "يتضمن كتيب القواعد جدولين للمعايير: واحد سارٍ لبطولة العالم 2026، وآخر يسري من 16 أكتوبر 2026 ولا ينطبق على تلك البطولة. الأرقام أدناه من جدول بطولة العالم. وفي ذلك الجدول يُطبع وزن المنطقة 1 لفئة الإناث 14+ / الذكور 65+ على أنه 33/35 رطلًا و15 كغ.{3}",
     "هذه الصفحة مستقلة وليست منشورًا رسميًا من Spartan أو DEKA. قُرئ كتيب القواعد وصفحات الفعاليات في التواريخ المبينة في المصادر."
@@ -149,12 +141,12 @@
     }
    ],
    "enough": [
-    "أفاد تحليل من طرف ثالث لـ14,580 نتيجة مصنفة على لوحة DEKA العالمية لعام 2026 (حتى 13 سبتمبر 2026) بأن الوسيط لأزمنة DEKA FIT بلغ 48:20 للرجال و54:32 للنساء، وأن أسرع أزمنة 2026 كانت 29:35 و31:29، وأن 84% من الرجال و70% من النساء أنهوا في أقل من ساعة. ويذكر أن DEKA لا تنشر متوسطًا لزمن الإنهاء.{9}",
+    "أفاد تحليل من طرف ثالث لـ14,580 نتيجة مصنفة على لوحة DEKA العالمية لعام 2026 (حتى 13 سبتمبر 2026) بأن الوسيط لأزمنة DEKA FIT بلغ 48:20 للرجال و54:32 للنساء، وأن أسرع أزمنة 2026 كانت 29:35 و31:29، وأن 84% من الرجال و70% من النساء أنهوا في أقل من ساعة. ويذكر أن DEKA لا تنشر متوسطًا لزمن الإنهاء.{7}",
     "تدرج Spartan بطولة العالم DEKA 2026 في فورت وورث بتكساس في 10–13 ديسمبر 2026: بطولات FIT (الخميس 10) وMILE (الجمعة 11) وSTRONG (السبت 12) بالدعوة فقط، وسباقات STRONG مفتوحة للجمهور في 12 و13 ديسمبر.{4}",
     "تدرج صفحات الفعاليات المقروءة لهذا التحديث DEKA FIT في دنفر (3–4 أبريل 2027) وساكرامنتو (1–2 مايو 2027) وأنهايم (1 مايو 2027)،{5} وفعاليات DEKA في إسبانيا من تينيريفي (21–22 نوفمبر 2026) إلى أليكانتي (30–31 أكتوبر 2027).{6}"
    ],
    "safety": [
-    "يبني نموذج ACSM لعام 2015 للفحص الموافقةَ الطبية قبل التمرين على النشاط الحالي، ووجود علامات أو أعراض و/أو مرض قلبي وعائي أو أيضي أو كلوي معروف، والشدة المرغوبة.{10}"
+    "يبني نموذج ACSM لعام 2015 للفحص الموافقةَ الطبية قبل التمرين على النشاط الحالي، ووجود علامات أو أعراض و/أو مرض قلبي وعائي أو أيضي أو كلوي معروف، والشدة المرغوبة.{8}"
    ],
    "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
    "labels": {
@@ -182,7 +174,7 @@
    "h1": "DEKA FIT, MILE और STRONG: फॉर्मेट, ज़ोन और नियम",
    "dek": "आधिकारिक नियमपुस्तिका से DEKA के 10 ज़ोन, वज़न, पेनल्टी और आयु वर्ग, साथ में तृतीय-पक्ष 2026 लीडरबोर्ड समय और सूचीबद्ध इवेंट तिथियाँ।",
    "intro": [
-    "DEKA, Spartan का फिटनेस इवेंट है जिसमें 10 ज़ोन तय क्रम में पूरे किए जाते हैं। Spartan के अनुसार STRONG में 10 ज़ोन बिना दौड़ के, MILE में 10 ज़ोन 1 मील दौड़ के साथ, FIT में 10 ज़ोन 5K दौड़ के साथ, Ultra में 50 ज़ोन 25K दौड़ के साथ, और ATLAS में 30 मिनट की समय सीमा वाले 10 भारी ज़ोन हैं।{2}",
+    "DEKA, Spartan का फिटनेस इवेंट है जिसमें 10 ज़ोन तय क्रम में पूरे किए जाते हैं।{1}{3} Spartan के अनुसार STRONG में 10 ज़ोन बिना दौड़ के, MILE में 10 ज़ोन 1 मील दौड़ के साथ, FIT में 10 ज़ोन 5K दौड़ के साथ, Ultra में 50 ज़ोन 25K दौड़ के साथ, और ATLAS में 30 मिनट की समय सीमा वाले 10 भारी ज़ोन हैं।{2}",
     "DEKA प्रतियोगिता नियम (v20261015) कहते हैं कि MILE में हर ज़ोन से पहले 160 मीटर दौड़ या चाल (कुल 1,600 मीटर) और FIT में 500 मीटर (कुल 5,000 मीटर) होती है। DEKA FIT Ultra, FIT कोर्स 5 बार (25K, 50 ज़ोन) है, 8 घंटे की कट-ऑफ के साथ।{3}",
     "नियमपुस्तिका में दो मानक चार्ट हैं: एक 2026 वर्ल्ड चैंपियनशिप के लिए लागू, और एक 16 अक्टूबर 2026 से लागू जो उस चैंपियनशिप पर लागू नहीं होता। नीचे के आँकड़े वर्ल्ड चैंपियनशिप चार्ट से हैं। उस चार्ट में महिला 14+ / पुरुष 65+ का ज़ोन 1 भार 33/35 lb और 15 kg छपा है।{3}",
     "यह पेज स्वतंत्र है और Spartan या DEKA का आधिकारिक प्रकाशन नहीं है। नियमपुस्तिका और इवेंट पेज स्रोतों में दी गई तिथियों पर पढ़े गए।"
@@ -214,12 +206,12 @@
     }
    ],
    "enough": [
-    "2026 DEKA ग्लोबल लीडरबोर्ड के 14,580 रैंक्ड परिणामों (13 सितंबर 2026 तक) के तृतीय-पक्ष विश्लेषण में DEKA FIT का मीडियन समय पुरुषों के लिए 48:20 और महिलाओं के लिए 54:32, 2026 के सबसे तेज़ समय 29:35 और 31:29, और 84% पुरुष व 70% महिलाएँ एक घंटे से कम में पूरा करती पाई गईं। विश्लेषण कहता है कि DEKA कोई औसत फिनिश समय प्रकाशित नहीं करता।{9}",
+    "2026 DEKA ग्लोबल लीडरबोर्ड के 14,580 रैंक्ड परिणामों (13 सितंबर 2026 तक) के तृतीय-पक्ष विश्लेषण में DEKA FIT का मीडियन समय पुरुषों के लिए 48:20 और महिलाओं के लिए 54:32, 2026 के सबसे तेज़ समय 29:35 और 31:29, और 84% पुरुष व 70% महिलाएँ एक घंटे से कम में पूरा करती पाई गईं। विश्लेषण कहता है कि DEKA कोई औसत फिनिश समय प्रकाशित नहीं करता।{7}",
     "Spartan 2026 DEKA वर्ल्ड चैंपियनशिप फोर्ट वर्थ, टेक्सास में 10–13 दिसंबर 2026 को सूचीबद्ध करता है: केवल आमंत्रण वाली FIT (गुरुवार 10), MILE (शुक्रवार 11) और STRONG (शनिवार 12) चैंपियनशिप, और 12 व 13 दिसंबर को सार्वजनिक STRONG रेस।{4}",
     "इस अपडेट के लिए पढ़े गए इवेंट पेज DEKA FIT डेनवर (3–4 अप्रैल 2027), सैक्रामेंटो (1–2 मई 2027) और अनाहाइम (1 मई 2027) में,{5} और स्पेन में DEKA इवेंट टेनेरिफ़ (21–22 नवंबर 2026) से एलिकांते (30–31 अक्टूबर 2027) तक सूचीबद्ध करते हैं।{6}"
    ],
    "safety": [
-    "ACSM का 2015 का स्क्रीनिंग मॉडल व्यायाम से पहले मेडिकल क्लियरेंस को मौजूदा गतिविधि, लक्षण और/या ज्ञात हृदय, मेटाबॉलिक या किडनी रोग, और चाहे गए स्तर पर आधारित करता है।{10}"
+    "ACSM का 2015 का स्क्रीनिंग मॉडल व्यायाम से पहले मेडिकल क्लियरेंस को मौजूदा गतिविधि, लक्षण और/या ज्ञात हृदय, मेटाबॉलिक या किडनी रोग, और चाहे गए स्तर पर आधारित करता है।{8}"
    ],
    "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
    "labels": {
@@ -247,7 +239,7 @@
    "h1": "DEKA FIT, MILE y STRONG: formatos, zonas y reglas",
    "dek": "Las 10 zonas DEKA, pesos, penalizaciones y grupos de edad según el reglamento oficial, con tiempos de 2026 de un tercero y fechas de eventos publicadas.",
    "intro": [
-    "DEKA es un evento de fitness de Spartan con 10 zonas en orden fijo. Spartan describe STRONG como 10 zonas sin carrera, MILE como 10 zonas con 1 milla de carrera, FIT como 10 zonas con 5K de carrera, Ultra como 50 zonas con 25K de carrera y ATLAS como 10 zonas pesadas con un límite de 30 minutos.{2}",
+    "DEKA es un evento de fitness de Spartan con 10 zonas en orden fijo.{1}{3} Spartan describe STRONG como 10 zonas sin carrera, MILE como 10 zonas con 1 milla de carrera, FIT como 10 zonas con 5K de carrera, Ultra como 50 zonas con 25K de carrera y ATLAS como 10 zonas pesadas con un límite de 30 minutos.{2}",
     "El reglamento de DEKA (v20261015) indica que en MILE cada zona va precedida de 160 m corriendo o caminando (1.600 m en total) y en FIT de 500 m (5.000 m en total). DEKA FIT Ultra es el recorrido FIT 5 veces (25K, 50 zonas) con un tiempo límite de 8 horas.{3}",
     "El reglamento incluye dos tablas de estándares: una vigente para el Campeonato del Mundo 2026 y otra que entra en vigor el 16 de octubre de 2026 y no se aplica a ese campeonato. Las cifras siguientes son de la tabla del Campeonato. En ella, la carga de la zona 1 para mujeres 14+ / hombres 65+ figura como 33/35 lb y 15 kg.{3}",
     "Esta página es independiente y no es una publicación oficial de Spartan ni de DEKA. El reglamento y las páginas de eventos se consultaron en las fechas indicadas en las fuentes."
@@ -279,12 +271,12 @@
     }
    ],
    "enough": [
-    "Un análisis de terceros de 14.580 resultados clasificados en la clasificación mundial DEKA 2026 (hasta el 13 de septiembre de 2026) indicó tiempos medianos de DEKA FIT de 48:20 en hombres y 54:32 en mujeres, mejores tiempos de 2026 de 29:35 y 31:29, y que el 84% de los hombres y el 70% de las mujeres terminaron en menos de una hora. Indica que DEKA no publica un tiempo medio.{9}",
+    "Un análisis de terceros de 14.580 resultados clasificados en la clasificación mundial DEKA 2026 (hasta el 13 de septiembre de 2026) indicó tiempos medianos de DEKA FIT de 48:20 en hombres y 54:32 en mujeres, mejores tiempos de 2026 de 29:35 y 31:29, y que el 84% de los hombres y el 70% de las mujeres terminaron en menos de una hora. Indica que DEKA no publica un tiempo medio.{7}",
     "Spartan anuncia el Campeonato del Mundo DEKA 2026 en Fort Worth (Texas) del 10 al 13 de diciembre de 2026: campeonatos FIT (jueves 10), MILE (viernes 11) y STRONG (sábado 12) solo por invitación, y carreras STRONG abiertas al público el 12 y el 13 de diciembre.{4}",
     "Las páginas de eventos consultadas para esta actualización listan DEKA FIT en Denver (3–4 de abril de 2027), Sacramento (1–2 de mayo de 2027) y Anaheim (1 de mayo de 2027),{5} y eventos DEKA en España desde Tenerife (21–22 de noviembre de 2026) hasta Alicante (30–31 de octubre de 2027).{6}"
    ],
    "safety": [
-    "El modelo de cribado del ACSM de 2015 basa la autorización médica previa al ejercicio en la actividad actual, los signos o síntomas y/o la enfermedad cardiovascular, metabólica o renal conocida, y la intensidad deseada.{10}"
+    "El modelo de cribado del ACSM de 2015 basa la autorización médica previa al ejercicio en la actividad actual, los signos o síntomas y/o la enfermedad cardiovascular, metabólica o renal conocida, y la intensidad deseada.{8}"
    ],
    "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
    "labels": {
@@ -312,7 +304,7 @@
    "h1": "DEKA FIT、MILE和STRONG：赛制、区域与规则",
    "dek": "官方规则手册中的DEKA 10个区域、重量、罚时和年龄组，以及第三方的2026排行榜成绩和已公布的赛事日期。",
    "intro": [
-    "DEKA是Spartan旗下的健身赛事，包含按固定顺序完成的10个区域。Spartan介绍：STRONG为10个区域、无跑步；MILE为10个区域加1英里跑；FIT为10个区域加5公里跑；Ultra为50个区域加25公里跑；ATLAS为10个重量区域、限时30分钟。{2}",
+    "DEKA是Spartan旗下的健身赛事，包含按固定顺序完成的10个区域。{1}{3}Spartan介绍：STRONG为10个区域、无跑步；MILE为10个区域加1英里跑；FIT为10个区域加5公里跑；Ultra为50个区域加25公里跑；ATLAS为10个重量区域、限时30分钟。{2}",
     "DEKA竞赛规则（v20261015）规定，MILE每个区域前跑或走160米（共1,600米），FIT每个区域前500米（共5,000米）。DEKA FIT Ultra为完成FIT赛道5次（25公里、50个区域），关门时间8小时。{3}",
     "规则手册有两张标准表：一张适用于2026年世界锦标赛，另一张自2026年10月16日起生效但不适用于该锦标赛。以下数据取自世锦赛表。该表中女子14+/男子65+的第1区负重印为33/35磅和15公斤。{3}",
     "本页为独立内容，并非Spartan或DEKA官方发布。规则手册和赛事页面的阅读日期见来源。"
@@ -344,12 +336,12 @@
     }
    ],
    "enough": [
-    "一项第三方分析统计了2026年DEKA全球排行榜上14,580个排名成绩（截至2026年9月13日），报告DEKA FIT中位成绩男子48:20、女子54:32，2026年最快成绩29:35和31:29，84%的男子和70%的女子在一小时内完成。分析指出DEKA不公布平均完赛时间。{9}",
+    "一项第三方分析统计了2026年DEKA全球排行榜上14,580个排名成绩（截至2026年9月13日），报告DEKA FIT中位成绩男子48:20、女子54:32，2026年最快成绩29:35和31:29，84%的男子和70%的女子在一小时内完成。分析指出DEKA不公布平均完赛时间。{7}",
     "Spartan公布2026年DEKA世界锦标赛于2026年12月10–13日在得克萨斯州沃斯堡举行：仅限受邀的FIT（10日周四）、MILE（11日周五）和STRONG（12日周六）锦标赛，以及12日和13日面向公众的STRONG比赛。{4}",
     "本次更新查阅的赛事页面列出：DEKA FIT丹佛（2027年4月3–4日）、萨克拉门托（2027年5月1–2日）和阿纳海姆（2027年5月1日），{5} 以及西班牙的DEKA赛事，从特内里费（2026年11月21–22日）到阿利坎特（2027年10月30–31日）。{6}"
    ],
    "safety": [
-    "ACSM 2015年筛查模型根据当前活动水平、体征或症状和/或已知心血管、代谢或肾脏疾病，以及期望强度来决定运动前是否需要医学许可。{10}"
+    "ACSM 2015年筛查模型根据当前活动水平、体征或症状和/或已知心血管、代谢或肾脏疾病，以及期望强度来决定运动前是否需要医学许可。{8}"
    ],
    "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
    "labels": {
@@ -377,7 +369,7 @@
    "h1": "DEKA FIT・MILE・STRONG：形式、ゾーン、ルール",
    "dek": "公式ルールブックによるDEKAの10ゾーン、重量、ペナルティ、年齢区分と、第三者による2026年のリーダーボードタイム、掲載された大会日程。",
    "intro": [
-    "DEKAはSpartanのフィットネス競技で、10のゾーンを決まった順に行う。SpartanはSTRONGを走行なしの10ゾーン、MILEを1マイル走行付きの10ゾーン、FITを5km走行付きの10ゾーン、Ultraを25km走行付きの50ゾーン、ATLASを30分の制限時間付きの重い10ゾーンと説明している。{2}",
+    "DEKAはSpartanのフィットネス競技で、10のゾーンを決まった順に行う。{1}{3}SpartanはSTRONGを走行なしの10ゾーン、MILEを1マイル走行付きの10ゾーン、FITを5km走行付きの10ゾーン、Ultraを25km走行付きの50ゾーン、ATLASを30分の制限時間付きの重い10ゾーンと説明している。{2}",
     "DEKA競技規則（v20261015）では、MILEは各ゾーンの前に160mのラン/ウォーク（計1,600m）、FITは500m（計5,000m）。DEKA FIT UltraはFITコースを5回（25km、50ゾーン）行い、制限時間は8時間。{3}",
     "ルールブックには基準表が2つある：2026年世界選手権に適用されるものと、2026年10月16日から有効だが同選手権には適用されないもの。以下の数字は世界選手権の表による。その表では女子14歳以上／男子65歳以上のゾーン1の重量が33/35 lbおよび15 kgと記載されている。{3}",
     "このページは独立したもので、SpartanやDEKAの公式発表ではない。ルールブックと大会ページは出典に示した日付に閲覧した。"
@@ -409,12 +401,12 @@
     }
    ],
    "enough": [
-    "2026年DEKAグローバルリーダーボードの順位付き結果14,580件（2026年9月13日まで）を分析した第三者の報告では、DEKA FITの中央値は男性48:20、女性54:32、2026年の最速タイムは29:35と31:29、1時間未満で完走したのは男性の84%、女性の70%だった。DEKAは平均完走タイムを公表していないとしている。{9}",
+    "2026年DEKAグローバルリーダーボードの順位付き結果14,580件（2026年9月13日まで）を分析した第三者の報告では、DEKA FITの中央値は男性48:20、女性54:32、2026年の最速タイムは29:35と31:29、1時間未満で完走したのは男性の84%、女性の70%だった。DEKAは平均完走タイムを公表していないとしている。{7}",
     "Spartanは2026年DEKA世界選手権を2026年12月10〜13日にテキサス州フォートワースで開催すると掲載している：招待制のFIT（10日木曜）、MILE（11日金曜）、STRONG（12日土曜）の選手権と、12日・13日の一般参加のSTRONGレース。{4}",
     "今回の更新で閲覧した大会ページには、DEKA FITのデンバー（2027年4月3〜4日）、サクラメント（2027年5月1〜2日）、アナハイム（2027年5月1日）、{5} スペインのテネリフェ（2026年11月21〜22日）からアリカンテ（2027年10月30〜31日）までのDEKA大会が掲載されている。{6}"
    ],
    "safety": [
-    "ACSMの2015年スクリーニングモデルは、運動前の医学的許可を、現在の活動量、徴候・症状や既知の心血管・代謝・腎疾患、希望する強度に基づいて判断します。{10}"
+    "ACSMの2015年スクリーニングモデルは、運動前の医学的許可を、現在の活動量、徴候・症状や既知の心血管・代謝・腎疾患、希望する強度に基づいて判断します。{8}"
    ],
    "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
    "labels": {
@@ -442,7 +434,7 @@
    "h1": "DEKA FIT, MILE અને STRONG: ફોર્મેટ, ઝોન અને નિયમો",
    "dek": "સત્તાવાર નિયમપુસ્તિકામાંથી DEKAના 10 ઝોન, વજન, પેનલ્ટી અને વય જૂથ, સાથે તૃતીય-પક્ષ 2026 લીડરબોર્ડ સમય અને સૂચિબદ્ધ ઇવેન્ટ તારીખો.",
    "intro": [
-    "DEKA, Spartanનો ફિટનેસ ઇવેન્ટ છે જેમાં 10 ઝોન નિશ્ચિત ક્રમમાં પૂરા કરાય છે. Spartan મુજબ STRONGમાં 10 ઝોન દોડ વિના, MILEમાં 10 ઝોન 1 માઇલ દોડ સાથે, FITમાં 10 ઝોન 5K દોડ સાથે, Ultraમાં 50 ઝોન 25K દોડ સાથે, અને ATLASમાં 30 મિનિટની સમય મર્યાદાવાળા 10 ભારે ઝોન છે.{2}",
+    "DEKA, Spartanનો ફિટનેસ ઇવેન્ટ છે જેમાં 10 ઝોન નિશ્ચિત ક્રમમાં પૂરા કરાય છે.{1}{3} Spartan મુજબ STRONGમાં 10 ઝોન દોડ વિના, MILEમાં 10 ઝોન 1 માઇલ દોડ સાથે, FITમાં 10 ઝોન 5K દોડ સાથે, Ultraમાં 50 ઝોન 25K દોડ સાથે, અને ATLASમાં 30 મિનિટની સમય મર્યાદાવાળા 10 ભારે ઝોન છે.{2}",
     "DEKA સ્પર્ધા નિયમો (v20261015) કહે છે કે MILEમાં દરેક ઝોન પહેલાં 160 મીટર દોડ કે ચાલ (કુલ 1,600 મીટર) અને FITમાં 500 મીટર (કુલ 5,000 મીટર) હોય છે. DEKA FIT Ultra એટલે FIT કોર્સ 5 વાર (25K, 50 ઝોન), 8 કલાકની કટ-ઑફ સાથે.{3}",
     "નિયમપુસ્તિકામાં બે માનક ચાર્ટ છે: એક 2026 વર્લ્ડ ચૅમ્પિયનશિપ માટે લાગુ, અને એક 16 ઑક્ટોબર 2026થી લાગુ જે તે ચૅમ્પિયનશિપને લાગુ પડતો નથી. નીચેના આંકડા વર્લ્ડ ચૅમ્પિયનશિપ ચાર્ટમાંથી છે. તે ચાર્ટમાં મહિલા 14+ / પુરુષ 65+નો ઝોન 1 ભાર 33/35 lb અને 15 kg છપાયેલો છે.{3}",
     "આ પેજ સ્વતંત્ર છે અને Spartan કે DEKAનું સત્તાવાર પ્રકાશન નથી. નિયમપુસ્તિકા અને ઇવેન્ટ પેજ સ્રોતોમાં આપેલી તારીખોએ વાંચવામાં આવ્યાં."
@@ -474,12 +466,12 @@
     }
    ],
    "enough": [
-    "2026 DEKA ગ્લોબલ લીડરબોર્ડનાં 14,580 રૅન્ક્ડ પરિણામો (13 સપ્ટેમ્બર 2026 સુધી)ના તૃતીય-પક્ષ વિશ્લેષણમાં DEKA FITનો મીડિયન સમય પુરુષો માટે 48:20 અને મહિલાઓ માટે 54:32, 2026ના સૌથી ઝડપી સમય 29:35 અને 31:29, અને 84% પુરુષો તથા 70% મહિલાઓ એક કલાકથી ઓછામાં પૂરું કરતાં જણાયાં. વિશ્લેષણ કહે છે કે DEKA કોઈ સરેરાશ ફિનિશ સમય પ્રકાશિત કરતું નથી.{9}",
+    "2026 DEKA ગ્લોબલ લીડરબોર્ડનાં 14,580 રૅન્ક્ડ પરિણામો (13 સપ્ટેમ્બર 2026 સુધી)ના તૃતીય-પક્ષ વિશ્લેષણમાં DEKA FITનો મીડિયન સમય પુરુષો માટે 48:20 અને મહિલાઓ માટે 54:32, 2026ના સૌથી ઝડપી સમય 29:35 અને 31:29, અને 84% પુરુષો તથા 70% મહિલાઓ એક કલાકથી ઓછામાં પૂરું કરતાં જણાયાં. વિશ્લેષણ કહે છે કે DEKA કોઈ સરેરાશ ફિનિશ સમય પ્રકાશિત કરતું નથી.{7}",
     "Spartan 2026 DEKA વર્લ્ડ ચૅમ્પિયનશિપ ફોર્ટ વર્થ, ટેક્સાસમાં 10–13 ડિસેમ્બર 2026ના રોજ સૂચવે છે: ફક્ત આમંત્રણવાળી FIT (ગુરુવાર 10), MILE (શુક્રવાર 11) અને STRONG (શનિવાર 12) ચૅમ્પિયનશિપ, અને 12 તથા 13 ડિસેમ્બરે જાહેર STRONG રેસ.{4}",
     "આ અપડેટ માટે વાંચેલાં ઇવેન્ટ પેજ DEKA FIT ડેન્વર (3–4 એપ્રિલ 2027), સૅક્રામેન્ટો (1–2 મે 2027) અને અનાહાઇમ (1 મે 2027)માં,{5} અને સ્પેનમાં DEKA ઇવેન્ટ ટેનેરિફ (21–22 નવેમ્બર 2026)થી એલિકાન્ટે (30–31 ઑક્ટોબર 2027) સુધી સૂચવે છે.{6}"
    ],
    "safety": [
-    "ACSMનું 2015નું સ્ક્રીનિંગ મૉડલ કસરત પહેલાંની તબીબી મંજૂરીને હાલની પ્રવૃત્તિ, લક્ષણો અને/અથવા જાણીતા હૃદય, મેટાબોલિક કે કિડની રોગ, અને ઇચ્છિત તીવ્રતા પર આધારિત રાખે છે.{10}"
+    "ACSMનું 2015નું સ્ક્રીનિંગ મૉડલ કસરત પહેલાંની તબીબી મંજૂરીને હાલની પ્રવૃત્તિ, લક્ષણો અને/અથવા જાણીતા હૃદય, મેટાબોલિક કે કિડની રોગ, અને ઇચ્છિત તીવ્રતા પર આધારિત રાખે છે.{8}"
    ],
    "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
    "labels": {
