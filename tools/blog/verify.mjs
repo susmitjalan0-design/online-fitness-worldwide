@@ -1,7 +1,7 @@
 // Checks the generated output: one title/description/h1/canonical per page, canonical == sitemap URL, 8 hreflang links,
 // JSON-LD parses, citations resolve, internal links resolve, no prices, no old brand or location, RTL on Arabic,
 // header and breadcrumb <nav> labels and the footer blog button in the page language on non-English pages,
-// <title> at most 78 characters, meta description at most 160, and no English advice phrases (data-only rule) in the
+// FAQPage JSON-LD that mirrors the visible FAQ, <title> at most 78 characters, meta description at most 160, and no English advice phrases (data-only rule) in the
 // <article> of English posts or the <main> of the fat-loss page.
 //   node verify.mjs [path to a merged public_html (zip contents + cpanel-overlay)]
 // Without a path it checks cpanel-overlay alone and accepts links to the 6 posts that live only in the zip.
@@ -46,6 +46,14 @@ for (const file of pages) {
     } catch {
       bad(rel, "JSON-LD does not parse");
     }
+  }
+  // FAQPage JSON-LD must mirror the visible FAQ: same number of questions, same question text, in order.
+  const faqLd = [...h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => { try { return JSON.parse(m[1]); } catch { return null; } }).find((o) => o?.["@type"] === "FAQPage");
+  const faqVisible = [...h.matchAll(/<div id="faq-\d+" class="faq-item[^"]*"><h3[^>]*>([\s\S]*?)<\/h3>/g)].map((m) => m[1].replace(/<[^>]+>/g, "").replace(/&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&"));
+  if (rel.includes("/blog/") && (faqLd || faqVisible.length)) {
+    const qs = (faqLd?.mainEntity ?? []).map((q) => q.name);
+    if (qs.length !== faqVisible.length || qs.some((q, i) => q !== faqVisible[i])) bad(rel, "FAQPage JSON-LD does not match the visible FAQ");
+    if ((faqLd?.mainEntity ?? []).some((q) => !q.acceptedAnswer?.text || /\{\d+\}/.test(q.acceptedAnswer.text))) bad(rel, "FAQPage answer missing or has a raw citation");
   }
   const lang = rel.match(/^\/(ar|hi|es|zh|ja|gu)(\/|$)/)?.[1] ?? "en";
   if (!h.includes(`<html lang="${lang}" dir="${lang === "ar" ? "rtl" : "ltr"}">`)) bad(rel, "html lang/dir");

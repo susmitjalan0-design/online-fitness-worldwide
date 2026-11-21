@@ -236,6 +236,9 @@ function entityLd(T) {
   return { author: article.author, publisher: article.publisher };
 }
 
+/** FAQ answer text without its "{n}" citation marks, as it reads on the page. */
+export const plainAnswer = (a) => a.replace(/\{\d+\}/g, "").replace(/\s+([.,;:])/g, "$1").trim();
+
 export function postJsonLd(T, post, lang, entities) {
   const copy = post.copy[lang];
   const path = postPathFor(post.slug, lang);
@@ -280,7 +283,17 @@ export function postJsonLd(T, post, lang, entities) {
       { "@type": "ListItem", position: 3, name: copy.labels.crumb, item: abs(path) },
     ],
   };
-  return [article, ...(copy.items.length ? [list] : []), crumbs].map((o) => `<script type="application/ld+json">${ldJson(o)}</script>`).join("");
+  /* Optional FAQ (copy.faq: [{ q, a }]): FAQPage JSON-LD that mirrors the visible FAQ section word for word, citation marks removed. */
+  const faq = copy.faq?.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": `${abs(path)}#faq`,
+        inLanguage: lang,
+        mainEntity: copy.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: plainAnswer(f.a) } })),
+      }
+    : null;
+  return [article, ...(copy.items.length ? [list] : []), ...(faq ? [faq] : []), crumbs].map((o) => `<script type="application/ld+json">${ldJson(o)}</script>`).join("");
 }
 
 export function renderPost(T, posts, post, lang, ctx) {
@@ -356,6 +369,15 @@ export function renderPost(T, posts, post, lang, ctx) {
     )
     .join("")}</ol>`;
 
+  const faqHtml = copy.faq?.length
+    ? `<section aria-labelledby="faq" class="mt-12"><h2 id="faq" class="font-display text-3xl">${esc(copy.faqHeading ?? shared.FAQ_HEADING[lang])}</h2><div class="mt-4 space-y-4">${copy.faq
+        .map(
+          (f, i) =>
+            `<div id="faq-${i + 1}" class="faq-item scroll-mt-24 rounded-2xl border border-line bg-ink-2 p-5"><h3 class="font-display text-xl">${bidi(f.q, rtl)}</h3><p class="mt-2 text-base leading-relaxed">${cited(f.a, sourceLabel, rtl)}</p></div>`,
+        )
+        .join("")}</div></section>`
+    : "";
+
   const clusterHtml = clusterPosts.length
     ? `<nav aria-labelledby="cluster" class="mt-12 rounded-2xl border border-line bg-ink-2 p-5"><h2 id="cluster" class="font-display text-2xl">${esc(shared.CLUSTER_HEADING[lang])}</h2><ul class="mt-4 space-y-3">${clusterPosts
         .map((slug) =>
@@ -375,7 +397,7 @@ export function renderPost(T, posts, post, lang, ctx) {
         .join("")}</ul><p class="mt-6"><a href="${blogPath}" class="btn-light inline-flex min-h-11 items-center gap-1 rounded-full px-5 text-sm font-semibold">${esc(s.blogLabel)}${ARROW("size-4 rtl:-scale-x-100")}</a></p></nav>`
     : "";
 
-  const article = `<article class="shell band max-w-3xl text-start"><nav aria-label="${esc(shared.BREADCRUMB_LABEL?.[lang] ?? "Breadcrumb")}" class="text-sm text-mist"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="underline-offset-4 hover:underline">${esc(s.homeLabel)}</a></li><li aria-hidden="true">/</li><li><a href="${blogPath}" class="underline-offset-4 hover:underline">${esc(s.blogLabel)}</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-ink">${esc(copy.labels.crumb)}</li></ol></nav><p class="eyebrow mt-8 text-xs font-semibold tracking-widest text-copper uppercase">${esc(s.blogLabel)}</p><h1 class="mt-3 font-display text-4xl leading-[1.05] sm:text-5xl">${esc(copy.h1)}</h1><p class="mt-5 text-lg leading-relaxed text-mist">${esc(copy.dek)}</p><p class="mt-4 text-sm text-mist"><span>${esc(s.byline)}</span> <time dateTime="${post.modified}">${esc(copy.updated)}</time></p><nav aria-label="${esc(copy.labels.readIn)}" class="mt-5 rounded-2xl border border-line bg-ink-2 p-4 text-sm"><p class="font-medium">${esc(copy.labels.readIn)}</p><ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2">${langNav}</ul></nav><div class="prose-links mt-8 space-y-4 text-base leading-relaxed sm:text-lg">${copy.intro.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div>${seeAlsoHtml}${copy.items.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.listHeading)}</h2>${jump}${items}` : ""}${post.ctaMid ? coached : ""}${copy.enough.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.enoughHeading)}</h2><div class="mt-4 space-y-4 text-base leading-relaxed sm:text-lg">${copy.enough.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div>` : ""}${copy.sample?.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.sampleHeading)}</h2><div class="mt-4 rounded-2xl border-2 border-dashed border-copper/60 p-5"><p class="text-sm font-semibold text-copper">${esc(copy.sampleLabel)}</p><ul class="list-mark mt-3 list-disc space-y-2 ps-5 text-base leading-relaxed">${copy.sample.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></div>` : ""}${post.ctaMid ? "" : coached}<h2 class="mt-12 font-display text-2xl">${esc(copy.safetyHeading)}</h2>${[copy.safety].flat().map((l) => `<p class="note-safety mt-3 text-base leading-relaxed text-mist">${cited(l, sourceLabel, rtl)}</p>`).join("")}${copy.disclaimer ? `<p class="mt-3 text-base leading-relaxed text-mist">${bidi(copy.disclaimer, rtl)}</p>` : ""}<p class="mt-6 text-sm leading-relaxed text-mist">${bidi(copy.credentialsNote, rtl)}</p><h2 class="mt-12 font-display text-2xl">${esc(copy.labels.sources)}</h2>${sources}${clusterHtml}${relatedHtml}</article>`;
+  const article = `<article class="shell band max-w-3xl text-start"><nav aria-label="${esc(shared.BREADCRUMB_LABEL?.[lang] ?? "Breadcrumb")}" class="text-sm text-mist"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="underline-offset-4 hover:underline">${esc(s.homeLabel)}</a></li><li aria-hidden="true">/</li><li><a href="${blogPath}" class="underline-offset-4 hover:underline">${esc(s.blogLabel)}</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-ink">${esc(copy.labels.crumb)}</li></ol></nav><p class="eyebrow mt-8 text-xs font-semibold tracking-widest text-copper uppercase">${esc(s.blogLabel)}</p><h1 class="mt-3 font-display text-4xl leading-[1.05] sm:text-5xl">${esc(copy.h1)}</h1><p class="mt-5 text-lg leading-relaxed text-mist">${esc(copy.dek)}</p><p class="mt-4 text-sm text-mist"><span>${esc(s.byline)}</span> <time dateTime="${post.modified}">${esc(copy.updated)}</time></p><nav aria-label="${esc(copy.labels.readIn)}" class="mt-5 rounded-2xl border border-line bg-ink-2 p-4 text-sm"><p class="font-medium">${esc(copy.labels.readIn)}</p><ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2">${langNav}</ul></nav><div class="prose-links mt-8 space-y-4 text-base leading-relaxed sm:text-lg">${copy.intro.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div>${seeAlsoHtml}${copy.items.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.listHeading)}</h2>${jump}${items}` : ""}${post.ctaMid ? coached : ""}${copy.enough.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.enoughHeading)}</h2><div class="mt-4 space-y-4 text-base leading-relaxed sm:text-lg">${copy.enough.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div>` : ""}${copy.sample?.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.sampleHeading)}</h2><div class="mt-4 rounded-2xl border-2 border-dashed border-copper/60 p-5"><p class="text-sm font-semibold text-copper">${esc(copy.sampleLabel)}</p><ul class="list-mark mt-3 list-disc space-y-2 ps-5 text-base leading-relaxed">${copy.sample.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></div>` : ""}${post.ctaMid ? "" : coached}<h2 class="mt-12 font-display text-2xl">${esc(copy.safetyHeading)}</h2>${[copy.safety].flat().map((l) => `<p class="note-safety mt-3 text-base leading-relaxed text-mist">${cited(l, sourceLabel, rtl)}</p>`).join("")}${copy.disclaimer ? `<p class="mt-3 text-base leading-relaxed text-mist">${bidi(copy.disclaimer, rtl)}</p>` : ""}<p class="mt-6 text-sm leading-relaxed text-mist">${bidi(copy.credentialsNote, rtl)}</p>${faqHtml}<h2 class="mt-12 font-display text-2xl">${esc(copy.labels.sources)}</h2>${sources}${clusterHtml}${relatedHtml}</article>`;
 
   const skip = `<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-3 focus:start-3 focus:z-50 focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-bone">${esc(s.skip)}</a>`;
   const prefix = s.prefix
