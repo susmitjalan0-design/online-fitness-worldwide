@@ -1,0 +1,555 @@
+{
+ "slug": "kettlebell-training-for-hyrox",
+ "published": "2026-11-21",
+ "modified": "2026-11-21",
+ "about": "Kettlebell training and the HYROX farmers carry",
+ "sources": [
+  {
+   "cite": "HYROX. Singles Rulebook, 2026/27 season (workout stations, weights by division, farmers carry standards, penalties). Official rulebook linked from hyrox.com/rulebook; accessed 21 Nov 2026.",
+   "url": "https://maintain.hyrox.com/rulebooks/HYROX_RulebookSingles_EN.pdf"
+  },
+  {
+   "cite": "Lake JP, Lauder MA. Kettlebell swing training improves maximal and explosive strength. J Strength Cond Res. 2012;26(8):2228–2233.",
+   "url": "https://doi.org/10.1519/JSC.0b013e31825c2c9b"
+  },
+  {
+   "cite": "Otto WH 3rd, Coburn JW, Brown LE, Spiering BA. Effects of weightlifting vs. kettlebell training on vertical jump, strength, and body composition. J Strength Cond Res. 2012;26(5):1199–1202.",
+   "url": "https://doi.org/10.1519/JSC.0b013e31824f233e"
+  },
+  {
+   "cite": "Falatic JA, Plato PA, Holder C, et al. Effects of kettlebell training on aerobic capacity. J Strength Cond Res. 2015;29(7):1943–1947.",
+   "url": "https://doi.org/10.1519/JSC.0000000000000845"
+  },
+  {
+   "cite": "Meigh NJ, Keogh JWL, Schram B, Hing WA. Kettlebell training in clinical practice: a scoping review. BMC Sports Sci Med Rehabil. 2019;11:19.",
+   "url": "https://doi.org/10.1186/s13102-019-0130-z"
+  },
+  {
+   "cite": "Brandt T, Ebel C, Lebahn C, et al. Acute physiological responses and performance determinants in Hyrox© – a new running-focused high intensity functional fitness trend. Front Physiol. 2025;16:1519240.",
+   "url": "https://doi.org/10.3389/fphys.2025.1519240"
+  },
+  {
+   "cite": "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+   "url": "https://doi.org/10.1249/MSS.0000000000000664"
+  }
+ ],
+ "seeAlso": [
+  "what-is-hyrox",
+  "how-to-train-for-hyrox-at-home",
+  "best-exercises-for-grip-strength"
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "Kettlebells and HYROX: the evidence | Online Fitness Worldwide",
+   "metaDescription": "Where kettlebells appear in HYROX under the official 2026/27 rulebook, and what kettlebell training studies report on strength, power and aerobic capacity.",
+   "h1": "Kettlebells and HYROX: what the rulebook and research show",
+   "dek": "The kettlebell station in the official HYROX singles rulebook, its weights and standards, and what published kettlebell training studies measured.",
+   "intro": [
+    "In HYROX, kettlebells are used at one station: the 200 m farmers carry. The official 2026/27 singles rulebook sets 2 × 16 kg for Women Open, 2 × 24 kg for Men Open and Women Pro, and 2 × 32 kg for Men Pro.{1}",
+    "Kettlebell training studies report gains in strength and power. Six weeks of twice-weekly kettlebell swings improved half-squat one-repetition maximum and vertical jump in 21 men, with no significant difference from jump-squat training.{2} In a 6-week comparison, weightlifting produced greater strength gains than kettlebell training, and neither changed body composition.{3}",
+    "A 2025 study of a simulated HYROX race reported that faster finish times correlated with higher maximal oxygen uptake, more endurance training volume and lower body fat.{6}"
+   ],
+   "listHeading": "What the rulebook and studies report",
+   "items": [
+    {
+     "name": "Kettlebell farmers carry: the standard",
+     "why": "Both kettlebells are carried at all times while moving, with arms extended by the sides; putting them down to rest is permitted if they do not move forward.{1}"
+    },
+    {
+     "name": "Kettlebell swing",
+     "why": "6 weeks, twice a week, 12 rounds of 30 seconds of swings with 30 seconds' rest: half-squat 1RM and jump height increased.{2}"
+    },
+    {
+     "name": "Kettlebell snatch intervals",
+     "why": "In 17 female collegiate soccer players, 4 weeks of 20-minute sessions of 15-second snatch and rest intervals raised maximal oxygen uptake by about 6% in the kettlebell group; a circuit weight-training group did not change.{4}"
+    },
+    {
+     "name": "Kettlebell versus weightlifting",
+     "why": "Weightlifting produced greater back-squat strength gains over 6 weeks; vertical jump did not differ between groups.{3}"
+    }
+   ],
+   "enoughHeading": "Rules, penalties and study limits",
+   "enough": [
+    "The rulebook states that each missing farmers carry lap brings a 3-minute penalty, kettlebells not returned upright to the correct area bring a 30-second penalty, and completing the station with the incorrect weight requires repeating it, with disqualification if not repeated. Chalk is permitted only at the sled pull and farmers carry.{1}",
+    "A 2019 scoping review of 99 kettlebell publications rated confidence in reported effects as low to very low, with effect sizes typically trivial to small and longitudinal studies largely underpowered.{5}"
+   ],
+   "safety": [
+    "ACSM's 2015 screening model bases pre-exercise medical clearance on current activity, signs or symptoms and/or known cardiovascular, metabolic or renal disease, and desired intensity.{7}"
+   ],
+   "faq": [
+    {
+     "q": "Which HYROX station uses kettlebells?",
+     "a": "The farmers carry, over 200 m, according to the official 2026/27 singles rulebook.{1}"
+    },
+    {
+     "q": "What kettlebell weights are used at HYROX?",
+     "a": "The 2026/27 singles rulebook sets 2 × 16 kg for Women Open, 2 × 24 kg for Men Open and Women Pro, and 2 × 32 kg for Men Pro.{1}"
+    },
+    {
+     "q": "What have kettlebell training studies found?",
+     "a": "Swing training improved maximal and explosive strength in 21 men;{2} weightlifting produced greater strength gains than kettlebell training;{3} and snatch intervals raised maximal oxygen uptake in female soccer players.{4}"
+    },
+    {
+     "q": "How strong is the kettlebell research?",
+     "a": "A 2019 scoping review rated confidence in reported effects as low to very low and described most longitudinal studies as underpowered.{5}"
+    }
+   ],
+   "updated": "Updated 21 November 2026",
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why",
+    "how": "How",
+    "dose": "Dose",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "whatsappText": "Hi Susmit, I read the article on kettlebells and HYROX and want to book a consultation",
+    "skip": "Skip to content",
+    "crumb": "Kettlebells and HYROX"
+   },
+   "authorLine": "By Susmit Jalan, strength and conditioning coach at Online Fitness Worldwide."
+  },
+  "ar": {
+   "metaTitle": "الكيتلبل وسباق HYROX: الأدلة | Online Fitness Worldwide",
+   "metaDescription": "أين يُستخدم الكيتلبل في HYROX وفق كتاب القواعد الرسمي لموسم 2026/27، وما تذكره دراسات تدريب الكيتلبل عن القوة والقدرة الانفجارية والقدرة الهوائية.",
+   "h1": "الكيتلبل وسباق HYROX: ما يُظهره كتاب القواعد والأبحاث",
+   "dek": "محطة الكيتلبل في كتاب قواعد HYROX الرسمي للفردي، وأوزانها ومعاييرها، وما قاسته دراسات تدريب الكيتلبل المنشورة.",
+   "intro": [
+    "في HYROX، يُستخدم الكيتلبل في محطة واحدة: حمل المزارع لمسافة 200 م. يحدد كتاب القواعد الرسمي للفردي لموسم 2026/27 وزن 2 × 16 كغ لفئة Women Open، و2 × 24 كغ لفئتي Men Open وWomen Pro، و2 × 32 كغ لفئة Men Pro.{1}",
+    "تذكر دراسات تدريب الكيتلبل مكاسب في القوة والقدرة الانفجارية. حسّنت ستة أسابيع من أرجحة الكيتلبل مرتين أسبوعيًا الحد الأقصى لتكرار واحد في نصف القرفصاء والوثب العمودي لدى 21 رجلًا، دون فرق ملحوظ عن تدريب القرفصاء بالوثب.{2} وفي مقارنة لمدة 6 أسابيع، أنتج رفع الأثقال الأولمبي مكاسب قوة أكبر من تدريب الكيتلبل، ولم يغيّر أيٌّ منهما تكوين الجسم.{3}",
+    "ذكرت دراسة من عام 2025 لسباق HYROX محاكى أن أزمنة الإنهاء الأسرع ارتبطت بحد أقصى أعلى لاستهلاك الأكسجين، وحجم أكبر من تدريب التحمل، ونسبة دهون أقل.{6}"
+   ],
+   "listHeading": "ما يذكره كتاب القواعد والدراسات",
+   "items": [
+    {
+     "name": "حمل المزارع بالكيتلبل: المعيار",
+     "why": "يُحمل الكيتلبلان طوال الوقت أثناء الحركة، مع مدّ الذراعين بجانب الجسم؛ ويُسمح بوضعهما للراحة إذا لم يتقدما إلى الأمام.{1}"
+    },
+    {
+     "name": "أرجحة الكيتلبل",
+     "why": "6 أسابيع، مرتين أسبوعيًا، 12 جولة من 30 ثانية أرجحة مع 30 ثانية راحة: زاد الحد الأقصى لتكرار واحد في نصف القرفصاء وارتفاع الوثب.{2}"
+    },
+    {
+     "name": "فترات خطف الكيتلبل",
+     "why": "لدى 17 لاعبة كرة قدم جامعية، رفعت 4 أسابيع من جلسات مدتها 20 دقيقة بفترات خطف وراحة كل منها 15 ثانية الحد الأقصى لاستهلاك الأكسجين بنحو 6% في مجموعة الكيتلبل، ولم تتغير مجموعة تدريب الأوزان الدائري.{4}"
+    },
+    {
+     "name": "الكيتلبل مقابل رفع الأثقال",
+     "why": "أنتج رفع الأثقال مكاسب أكبر في قوة القرفصاء الخلفية خلال 6 أسابيع، ولم يختلف الوثب العمودي بين المجموعتين.{3}"
+    }
+   ],
+   "enoughHeading": "القواعد والعقوبات وحدود الدراسات",
+   "enough": [
+    "ينص كتاب القواعد على أن كل لفة ناقصة في حمل المزارع تُعاقَب بـ3 دقائق، وأن عدم إعادة الكيتلبل قائمًا إلى المكان الصحيح يُعاقَب بـ30 ثانية، وأن إكمال المحطة بوزن خاطئ يستلزم إعادتها، مع الاستبعاد إذا لم تُعَد. ويُسمح بالطباشير فقط في سحب الزلاجة وحمل المزارع.{1}",
+    "قيّمت مراجعة استكشافية من عام 2019 شملت 99 منشورًا عن الكيتلبل الثقة في الآثار المذكورة بأنها منخفضة إلى منخفضة جدًا، مع أحجام أثر ضئيلة إلى صغيرة عادةً ودراسات طولية تفتقر في معظمها إلى القوة الإحصائية الكافية.{5}"
+   ],
+   "safety": [
+    "يعتمد نموذج الفحص الذي وضعته ACSM عام 2015 في تحديد الحاجة إلى إذن طبي قبل التمرين على مستوى النشاط الحالي، ووجود علامات أو أعراض و/أو مرض قلبي وعائي أو أيضي أو كلوي معروف، والشدة المرغوبة.{7}"
+   ],
+   "faq": [
+    {
+     "q": "أي محطة في HYROX تستخدم الكيتلبل؟",
+     "a": "حمل المزارع لمسافة 200 م، وفق كتاب القواعد الرسمي للفردي لموسم 2026/27.{1}"
+    },
+    {
+     "q": "ما أوزان الكيتلبل المستخدمة في HYROX؟",
+     "a": "يحدد كتاب قواعد الفردي لموسم 2026/27 وزن 2 × 16 كغ لفئة Women Open، و2 × 24 كغ لفئتي Men Open وWomen Pro، و2 × 32 كغ لفئة Men Pro.{1}"
+    },
+    {
+     "q": "ماذا وجدت دراسات تدريب الكيتلبل؟",
+     "a": "حسّن تدريب الأرجحة القوة القصوى والانفجارية لدى 21 رجلًا؛{2} وأنتج رفع الأثقال مكاسب قوة أكبر من تدريب الكيتلبل؛{3} ورفعت فترات الخطف الحد الأقصى لاستهلاك الأكسجين لدى لاعبات كرة قدم.{4}"
+    },
+    {
+     "q": "ما مدى قوة أبحاث الكيتلبل؟",
+     "a": "قيّمت مراجعة استكشافية من عام 2019 الثقة في الآثار المذكورة بأنها منخفضة إلى منخفضة جدًا، ووصفت معظم الدراسات الطولية بأنها تفتقر إلى القوة الإحصائية الكافية.{5}"
+    }
+   ],
+   "updated": "حدّث في 21 نوفمبر 2026",
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا",
+    "how": "كيف",
+    "dose": "الجرعة",
+    "sources": "المصادر",
+    "readIn": "اقرأ بلغة أخرى",
+    "programs": "اطّلع على البرامج",
+    "whatsapp": "اسأل عبر واتساب",
+    "whatsappText": "مرحبًا سوسميت، قرأت المقال عن الكيتلبل وسباق HYROX وأريد حجز استشارة",
+    "skip": "انتقل إلى المحتوى",
+    "crumb": "الكيتلبل وسباق HYROX"
+   },
+   "authorLine": "بقلم سوسميت جالان، مدرب القوة والتكييف البدني في Online Fitness Worldwide."
+  },
+  "hi": {
+   "metaTitle": "केटलबेल और HYROX: प्रमाण | Online Fitness Worldwide",
+   "metaDescription": "आधिकारिक 2026/27 रूलबुक के अनुसार HYROX में केटलबेल कहाँ आते हैं, और केटलबेल ट्रेनिंग अध्ययन ताकत, पावर और एरोबिक क्षमता पर क्या बताते हैं।",
+   "h1": "केटलबेल और HYROX: रूलबुक और शोध क्या दिखाते हैं",
+   "dek": "HYROX की आधिकारिक सिंगल्स रूलबुक में केटलबेल स्टेशन, उसके वज़न और मानक, और प्रकाशित केटलबेल ट्रेनिंग अध्ययनों ने क्या मापा।",
+   "intro": [
+    "HYROX में केटलबेल एक स्टेशन पर इस्तेमाल होते हैं: 200 m फ़ार्मर्स कैरी। 2026/27 सीज़न की आधिकारिक सिंगल्स रूलबुक Women Open के लिए 2 × 16 kg, Men Open और Women Pro के लिए 2 × 24 kg, और Men Pro के लिए 2 × 32 kg तय करती है।{1}",
+    "केटलबेल ट्रेनिंग अध्ययन ताकत और पावर में बढ़त बताते हैं। हफ़्ते में दो बार छह हफ़्तों के केटलबेल स्विंग से 21 पुरुषों में हाफ़-स्क्वॉट वन-रेपिटिशन मैक्सिमम और वर्टिकल जंप सुधरे, जंप-स्क्वॉट ट्रेनिंग से कोई महत्वपूर्ण अंतर नहीं था।{2} 6 हफ़्ते की एक तुलना में वेटलिफ़्टिंग से केटलबेल ट्रेनिंग की तुलना में ताकत की ज़्यादा बढ़त हुई, और किसी से भी शरीर की संरचना नहीं बदली।{3}",
+    "सिम्युलेटेड HYROX रेस के 2025 के एक अध्ययन ने बताया कि तेज़ फ़िनिश समय का संबंध अधिक अधिकतम ऑक्सीजन ग्रहण, अधिक एंड्यूरेंस ट्रेनिंग वॉल्यूम और कम बॉडी फ़ैट से था।{6}"
+   ],
+   "listHeading": "रूलबुक और अध्ययन क्या बताते हैं",
+   "items": [
+    {
+     "name": "केटलबेल फ़ार्मर्स कैरी: मानक",
+     "why": "चलते समय दोनों केटलबेल हर समय उठाए रखने हैं, बाँहें शरीर के बगल में सीधी; आराम के लिए नीचे रखना तब तक अनुमत है जब तक वे आगे न खिसकें।{1}"
+    },
+    {
+     "name": "केटलबेल स्विंग",
+     "why": "6 हफ़्ते, हफ़्ते में दो बार, 30 सेकंड स्विंग और 30 सेकंड आराम के 12 राउंड: हाफ़-स्क्वॉट 1RM और जंप की ऊँचाई बढ़ी।{2}"
+    },
+    {
+     "name": "केटलबेल स्नैच इंटरवल",
+     "why": "17 महिला कॉलेज फ़ुटबॉल खिलाड़ियों में, 15-सेकंड स्नैच और आराम वाले 20-मिनट के सत्रों के 4 हफ़्तों से केटलबेल समूह में अधिकतम ऑक्सीजन ग्रहण लगभग 6% बढ़ा; सर्किट वेट-ट्रेनिंग समूह में बदलाव नहीं हुआ।{4}"
+    },
+    {
+     "name": "केटलबेल बनाम वेटलिफ़्टिंग",
+     "why": "6 हफ़्तों में वेटलिफ़्टिंग से बैक-स्क्वॉट ताकत में ज़्यादा बढ़त हुई; वर्टिकल जंप में समूहों के बीच अंतर नहीं था।{3}"
+    }
+   ],
+   "enoughHeading": "नियम, पेनल्टी और अध्ययनों की सीमाएँ",
+   "enough": [
+    "रूलबुक बताती है कि फ़ार्मर्स कैरी का हर छूटा लैप 3 मिनट की पेनल्टी लाता है, केटलबेल को सही जगह सीधा न लौटाने पर 30 सेकंड की पेनल्टी है, और ग़लत वज़न से स्टेशन पूरा करने पर उसे दोहराना होता है, न दोहराने पर डिसक्वालिफ़िकेशन। चॉक केवल स्लेज पुल और फ़ार्मर्स कैरी पर अनुमत है।{1}",
+    "99 केटलबेल प्रकाशनों की 2019 की एक स्कोपिंग समीक्षा ने बताए गए असर में भरोसे को कम से बहुत कम आँका; इफ़ेक्ट साइज़ आम तौर पर नगण्य से छोटे थे और ज़्यादातर लंबी अवधि के अध्ययनों में सांख्यिकीय शक्ति कम थी।{5}"
+   ],
+   "safety": [
+    "ACSM का 2015 का स्क्रीनिंग मॉडल व्यायाम से पहले मेडिकल क्लीयरेंस को मौजूदा गतिविधि, संकेतों या लक्षणों और/या ज्ञात हृदय-संबंधी, मेटाबॉलिक या किडनी रोग, और चाही गई तीव्रता पर आधारित करता है।{7}"
+   ],
+   "faq": [
+    {
+     "q": "HYROX का कौन सा स्टेशन केटलबेल इस्तेमाल करता है?",
+     "a": "आधिकारिक 2026/27 सिंगल्स रूलबुक के अनुसार 200 m का फ़ार्मर्स कैरी।{1}"
+    },
+    {
+     "q": "HYROX में केटलबेल के कौन से वज़न इस्तेमाल होते हैं?",
+     "a": "2026/27 सिंगल्स रूलबुक Women Open के लिए 2 × 16 kg, Men Open और Women Pro के लिए 2 × 24 kg, और Men Pro के लिए 2 × 32 kg तय करती है।{1}"
+    },
+    {
+     "q": "केटलबेल ट्रेनिंग अध्ययनों ने क्या पाया?",
+     "a": "स्विंग ट्रेनिंग से 21 पुरुषों में अधिकतम और विस्फोटक ताकत सुधरी;{2} वेटलिफ़्टिंग से केटलबेल ट्रेनिंग की तुलना में ताकत की ज़्यादा बढ़त हुई;{3} और स्नैच इंटरवल से महिला फ़ुटबॉल खिलाड़ियों में अधिकतम ऑक्सीजन ग्रहण बढ़ा।{4}"
+    },
+    {
+     "q": "केटलबेल शोध कितना मज़बूत है?",
+     "a": "2019 की एक स्कोपिंग समीक्षा ने बताए गए असर में भरोसे को कम से बहुत कम आँका और ज़्यादातर लंबी अवधि के अध्ययनों को कम सांख्यिकीय शक्ति वाला बताया।{5}"
+    }
+   ],
+   "updated": "अपडेट 21 नवंबर 2026",
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों",
+    "how": "कैसे",
+    "dose": "डोज़",
+    "sources": "स्रोत",
+    "readIn": "इसे इस भाषा में पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "WhatsApp पर पूछें",
+    "whatsappText": "नमस्ते सुस्मित, मैंने केटलबेल और HYROX वाला लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    "skip": "सामग्री पर जाएँ",
+    "crumb": "केटलबेल और HYROX"
+   },
+   "authorLine": "लेखक: सुस्मित जालान, स्ट्रेंथ एंड कंडीशनिंग कोच, Online Fitness Worldwide।"
+  },
+  "es": {
+   "metaTitle": "Kettlebells y HYROX: la evidencia | Online Fitness Worldwide",
+   "metaDescription": "Dónde se usan kettlebells en HYROX según el reglamento oficial 2026/27 y qué informan los estudios sobre fuerza, potencia y capacidad aeróbica.",
+   "h1": "Kettlebells y HYROX: qué muestran el reglamento y la investigación",
+   "dek": "La estación con kettlebells del reglamento oficial individual de HYROX, sus pesos y normas, y lo que midieron los estudios publicados sobre entrenamiento con kettlebell.",
+   "intro": [
+    "En HYROX, las kettlebells se usan en una estación: el farmers carry de 200 m. El reglamento oficial individual de la temporada 2026/27 fija 2 × 16 kg para Women Open, 2 × 24 kg para Men Open y Women Pro, y 2 × 32 kg para Men Pro.{1}",
+    "Los estudios de entrenamiento con kettlebell informan ganancias de fuerza y potencia. Seis semanas de swings con kettlebell dos veces por semana mejoraron la repetición máxima en media sentadilla y el salto vertical en 21 hombres, sin diferencia significativa con el entrenamiento de sentadilla con salto.{2} En una comparación de 6 semanas, la halterofilia produjo mayores ganancias de fuerza que el entrenamiento con kettlebell, y ninguno cambió la composición corporal.{3}",
+    "Un estudio de 2025 de una carrera HYROX simulada informó que los tiempos más rápidos se correlacionaron con mayor consumo máximo de oxígeno, más volumen de entrenamiento de resistencia y menos grasa corporal.{6}"
+   ],
+   "listHeading": "Qué informan el reglamento y los estudios",
+   "items": [
+    {
+     "name": "Farmers carry con kettlebell: la norma",
+     "why": "Ambas kettlebells se llevan en todo momento al desplazarse, con los brazos extendidos a los lados; se permite dejarlas para descansar si no avanzan.{1}"
+    },
+    {
+     "name": "Swing con kettlebell",
+     "why": "6 semanas, dos veces por semana, 12 rondas de 30 segundos de swings con 30 segundos de descanso: aumentaron la repetición máxima en media sentadilla y la altura de salto.{2}"
+    },
+    {
+     "name": "Intervalos de arrancada con kettlebell",
+     "why": "En 17 futbolistas universitarias, 4 semanas de sesiones de 20 minutos con intervalos de 15 segundos de arrancada y descanso aumentaron el consumo máximo de oxígeno alrededor de un 6% en el grupo de kettlebell; un grupo de circuito con pesas no cambió.{4}"
+    },
+    {
+     "name": "Kettlebell frente a halterofilia",
+     "why": "La halterofilia produjo mayores ganancias de fuerza en sentadilla trasera en 6 semanas; el salto vertical no difirió entre grupos.{3}"
+    }
+   ],
+   "enoughHeading": "Reglas, penalizaciones y límites de los estudios",
+   "enough": [
+    "El reglamento establece que cada vuelta que falte en el farmers carry supone 3 minutos de penalización, que las kettlebells no devueltas en posición vertical a la zona correcta suponen 30 segundos, y que completar la estación con el peso incorrecto obliga a repetirla, con descalificación si no se repite. El magnesio solo se permite en el sled pull y el farmers carry.{1}",
+    "Una revisión de alcance de 2019 de 99 publicaciones sobre kettlebell calificó la confianza en los efectos informados como baja a muy baja, con tamaños del efecto normalmente triviales a pequeños y estudios longitudinales en su mayoría con poca potencia estadística.{5}"
+   ],
+   "safety": [
+    "El modelo de cribado del ACSM de 2015 basa la autorización médica previa al ejercicio en la actividad actual, los signos o síntomas y/o la enfermedad cardiovascular, metabólica o renal conocida, y la intensidad deseada.{7}"
+   ],
+   "faq": [
+    {
+     "q": "¿Qué estación de HYROX usa kettlebells?",
+     "a": "El farmers carry, de 200 m, según el reglamento oficial individual 2026/27.{1}"
+    },
+    {
+     "q": "¿Qué pesos de kettlebell se usan en HYROX?",
+     "a": "El reglamento individual 2026/27 fija 2 × 16 kg para Women Open, 2 × 24 kg para Men Open y Women Pro, y 2 × 32 kg para Men Pro.{1}"
+    },
+    {
+     "q": "¿Qué han encontrado los estudios con kettlebell?",
+     "a": "El entrenamiento con swings mejoró la fuerza máxima y explosiva en 21 hombres;{2} la halterofilia produjo mayores ganancias de fuerza que la kettlebell;{3} y los intervalos de arrancada aumentaron el consumo máximo de oxígeno en futbolistas.{4}"
+    },
+    {
+     "q": "¿Qué solidez tiene la investigación con kettlebell?",
+     "a": "Una revisión de alcance de 2019 calificó la confianza en los efectos informados como baja a muy baja y describió la mayoría de los estudios longitudinales con poca potencia estadística.{5}"
+    }
+   ],
+   "updated": "Actualizado el 21 de noviembre de 2026",
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué",
+    "how": "Cómo",
+    "dose": "Dosis",
+    "sources": "Fuentes",
+    "readIn": "Leer en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "whatsappText": "Hola Susmit, leí el artículo sobre kettlebells y HYROX y quiero reservar una consulta",
+    "skip": "Saltar al contenido",
+    "crumb": "Kettlebells y HYROX"
+   },
+   "authorLine": "Por Susmit Jalan, entrenador de fuerza y acondicionamiento en Online Fitness Worldwide."
+  },
+  "zh": {
+   "metaTitle": "壶铃与HYROX：证据 | Online Fitness Worldwide",
+   "metaDescription": "根据官方2026/27规则手册，壶铃在HYROX中用于哪一站，以及壶铃训练研究对力量、爆发力和有氧能力的报告。",
+   "h1": "壶铃与HYROX：规则手册和研究显示了什么",
+   "dek": "HYROX官方单人规则手册中的壶铃站点、重量和标准，以及已发表的壶铃训练研究测量了什么。",
+   "intro": [
+    "在HYROX中，壶铃只用于一个站点：200米农夫行走。官方2026/27赛季单人规则手册规定，Women Open为2 × 16公斤，Men Open和Women Pro为2 × 24公斤，Men Pro为2 × 32公斤。{1}",
+    "壶铃训练研究报告了力量和爆发力的增长。在21名男性中，每周两次、为期六周的壶铃摆荡提高了半蹲一次最大重复和纵跳，与跳蹲训练没有显著差异。{2}在一项为期6周的比较中，举重训练的力量增长大于壶铃训练，两者都没有改变身体成分。{3}",
+    "一项2025年的模拟HYROX比赛研究报告，完赛时间越快，与更高的最大摄氧量、更多的耐力训练量和更低的体脂相关。{6}"
+   ],
+   "listHeading": "规则手册和研究报告了什么",
+   "items": [
+    {
+     "name": "壶铃农夫行走：标准",
+     "why": "移动时必须始终拿着两只壶铃，双臂伸直垂于身体两侧；只要壶铃不向前移动，可以放下休息。{1}"
+    },
+    {
+     "name": "壶铃摆荡",
+     "why": "6周，每周两次，12轮30秒摆荡、30秒休息：半蹲1RM和跳跃高度提高。{2}"
+    },
+    {
+     "name": "壶铃抓举间歇",
+     "why": "在17名大学女足球运动员中，4周每次20分钟、15秒抓举与15秒休息交替的训练使壶铃组最大摄氧量提高约6%；循环力量训练组没有变化。{4}"
+    },
+    {
+     "name": "壶铃与举重对比",
+     "why": "6周内举重训练的后蹲力量增长更大；两组的纵跳没有差异。{3}"
+    }
+   ],
+   "enoughHeading": "规则、处罚与研究局限",
+   "enough": [
+    "规则手册规定，农夫行走每少一圈罚3分钟；壶铃未直立放回正确区域罚30秒；用错误重量完成该站须重做，不重做则取消资格。只有雪橇拉和农夫行走允许使用镁粉。{1}",
+    "一篇2019年涵盖99篇壶铃文献的范围综述把对所报告效果的信心评为低至极低，效应量通常为微小至小，纵向研究大多统计效能不足。{5}"
+   ],
+   "safety": [
+    "ACSM 2015年的筛查模型根据当前活动水平、体征或症状和/或已知的心血管、代谢或肾脏疾病以及期望的运动强度来决定运动前是否需要医学许可。{7}"
+   ],
+   "faq": [
+    {
+     "q": "HYROX哪一站使用壶铃？",
+     "a": "根据官方2026/27单人规则手册，是200米农夫行走。{1}"
+    },
+    {
+     "q": "HYROX使用多重的壶铃？",
+     "a": "2026/27单人规则手册规定，Women Open为2 × 16公斤，Men Open和Women Pro为2 × 24公斤，Men Pro为2 × 32公斤。{1}"
+    },
+    {
+     "q": "壶铃训练研究发现了什么？",
+     "a": "摆荡训练提高了21名男性的最大力量和爆发力；{2}举重训练的力量增长大于壶铃训练；{3}抓举间歇提高了女足球运动员的最大摄氧量。{4}"
+    },
+    {
+     "q": "壶铃研究的证据有多强？",
+     "a": "一篇2019年的范围综述把对所报告效果的信心评为低至极低，并指出大多数纵向研究统计效能不足。{5}"
+    }
+   ],
+   "updated": "更新于2026年11月21日",
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么",
+    "how": "怎么做",
+    "dose": "训练量",
+    "sources": "参考来源",
+    "readIn": "其他语言版本",
+    "programs": "查看课程",
+    "whatsapp": "通过WhatsApp咨询",
+    "whatsappText": "你好 Susmit，我读了关于壶铃与HYROX的文章，想预约咨询",
+    "skip": "跳到正文",
+    "crumb": "壶铃与HYROX"
+   },
+   "authorLine": "作者：Susmit Jalan，Online Fitness Worldwide 力量与体能教练。"
+  },
+  "ja": {
+   "metaTitle": "ケトルベルとHYROX：エビデンス | Online Fitness Worldwide",
+   "metaDescription": "公式2026/27ルールブックでHYROXのどこにケトルベルが使われるか、そしてケトルベルトレーニングの研究が筋力、パワー、有酸素能力について報告していること。",
+   "h1": "ケトルベルとHYROX：ルールブックと研究が示すこと",
+   "dek": "HYROX公式シングルスルールブックにあるケトルベルのステーション、その重量と基準、そして発表されたケトルベルトレーニング研究が測定したこと。",
+   "intro": [
+    "HYROXでケトルベルが使われるのは1つのステーション、200 mのファーマーズキャリーです。2026/27シーズンの公式シングルスルールブックは、Women Openに2 × 16 kg、Men OpenとWomen Proに2 × 24 kg、Men Proに2 × 32 kgを定めています。{1}",
+    "ケトルベルトレーニングの研究は筋力とパワーの向上を報告しています。週2回・6週間のケトルベルスイングで、21人の男性のハーフスクワット1回最大挙上重量と垂直跳びが向上し、ジャンプスクワットトレーニングとの有意差はありませんでした。{2}6週間の比較では、ウエイトリフティングのほうがケトルベルトレーニングより筋力の向上が大きく、どちらも体組成は変わりませんでした。{3}",
+    "模擬HYROXレースを対象とした2025年の研究は、速いフィニッシュタイムが、高い最大酸素摂取量、多い持久的トレーニング量、低い体脂肪と相関したと報告しています。{6}"
+   ],
+   "listHeading": "ルールブックと研究が報告していること",
+   "items": [
+    {
+     "name": "ケトルベル・ファーマーズキャリー：基準",
+     "why": "移動中は常に両方のケトルベルを持ち、腕は体の横で伸ばします。前に進まなければ、休むために置くことは認められています。{1}"
+    },
+    {
+     "name": "ケトルベルスイング",
+     "why": "6週間・週2回、30秒のスイングと30秒の休息を12ラウンド：ハーフスクワット1RMと跳躍高が向上。{2}"
+    },
+    {
+     "name": "ケトルベルスナッチのインターバル",
+     "why": "大学女子サッカー選手17人で、15秒のスナッチと休息を繰り返す20分のセッションを4週間行うと、ケトルベル群の最大酸素摂取量が約6%上昇し、サーキットウエイトトレーニング群は変化しませんでした。{4}"
+    },
+    {
+     "name": "ケトルベルとウエイトリフティングの比較",
+     "why": "6週間でウエイトリフティングのほうがバックスクワットの筋力向上が大きく、垂直跳びは群間で差がありませんでした。{3}"
+    }
+   ],
+   "enoughHeading": "ルール、ペナルティ、研究の限界",
+   "enough": [
+    "ルールブックは、ファーマーズキャリーの周回不足1周ごとに3分のペナルティ、ケトルベルを正しい場所に直立で戻さない場合は30秒のペナルティ、誤った重量でステーションを完了した場合はやり直しが必要で、やり直さなければ失格と定めています。チョークはスレッドプルとファーマーズキャリーでのみ使用できます。{1}",
+    "ケトルベルに関する99件の文献をまとめた2019年のスコーピングレビューは、報告された効果への確信度を低〜非常に低いと評価し、効果量は通常ごく小〜小で、縦断研究の多くは検出力が不足していたとしています。{5}"
+   ],
+   "safety": [
+    "ACSMの2015年のスクリーニングモデルは、運動前の医学的許可の要否を、現在の活動量、徴候や症状、および／または既知の心血管・代謝・腎疾患、そして希望する運動強度に基づいて判断します。{7}"
+   ],
+   "faq": [
+    {
+     "q": "HYROXのどのステーションでケトルベルを使いますか？",
+     "a": "公式2026/27シングルスルールブックによると、200 mのファーマーズキャリーです。{1}"
+    },
+    {
+     "q": "HYROXではどの重さのケトルベルを使いますか？",
+     "a": "2026/27シングルスルールブックは、Women Openに2 × 16 kg、Men OpenとWomen Proに2 × 24 kg、Men Proに2 × 32 kgを定めています。{1}"
+    },
+    {
+     "q": "ケトルベルトレーニングの研究は何を見いだしましたか？",
+     "a": "スイングのトレーニングで21人の男性の最大筋力と爆発的筋力が向上し、{2}ウエイトリフティングはケトルベルより筋力の向上が大きく、{3}スナッチのインターバルで女子サッカー選手の最大酸素摂取量が上昇しました。{4}"
+    },
+    {
+     "q": "ケトルベル研究の確かさはどの程度ですか？",
+     "a": "2019年のスコーピングレビューは、報告された効果への確信度を低〜非常に低いと評価し、縦断研究の多くは検出力が不足しているとしています。{5}"
+    }
+   ],
+   "updated": "2026年11月21日更新",
+   "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ",
+    "how": "やり方",
+    "dose": "回数・量",
+    "sources": "出典",
+    "readIn": "他の言語で読む",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問する",
+    "whatsappText": "こんにちは Susmit さん、ケトルベルとHYROXの記事を読み、相談を予約したいです",
+    "skip": "本文へスキップ",
+    "crumb": "ケトルベルとHYROX"
+   },
+   "authorLine": "執筆：スシュミット・ジャラン（Online Fitness Worldwide ストレングス＆コンディショニングコーチ）"
+  },
+  "gu": {
+   "metaTitle": "કેટલબેલ અને HYROX: પુરાવા | Online Fitness Worldwide",
+   "metaDescription": "સત્તાવાર 2026/27 રૂલબુક મુજબ HYROX માં કેટલબેલ ક્યાં આવે છે, અને કેટલબેલ ટ્રેનિંગ અભ્યાસો તાકાત, પાવર અને એરોબિક ક્ષમતા વિશે શું કહે છે.",
+   "h1": "કેટલબેલ અને HYROX: રૂલબુક અને સંશોધન શું બતાવે છે",
+   "dek": "HYROX ની સત્તાવાર સિંગલ્સ રૂલબુકમાં કેટલબેલ સ્ટેશન, તેના વજન અને ધોરણો, અને પ્રકાશિત કેટલબેલ ટ્રેનિંગ અભ્યાસોએ શું માપ્યું.",
+   "intro": [
+    "HYROX માં કેટલબેલ એક સ્ટેશન પર વપરાય છે: 200 m ફાર્મર્સ કેરી. 2026/27 સીઝનની સત્તાવાર સિંગલ્સ રૂલબુક Women Open માટે 2 × 16 kg, Men Open અને Women Pro માટે 2 × 24 kg, અને Men Pro માટે 2 × 32 kg નક્કી કરે છે.{1}",
+    "કેટલબેલ ટ્રેનિંગ અભ્યાસો તાકાત અને પાવરમાં વધારો જણાવે છે. અઠવાડિયામાં બે વાર છ અઠવાડિયાના કેટલબેલ સ્વિંગથી 21 પુરુષોમાં હાફ-સ્ક્વોટ વન-રેપિટિશન મેક્સિમમ અને વર્ટિકલ જમ્પ સુધર્યા, જમ્પ-સ્ક્વોટ ટ્રેનિંગથી કોઈ નોંધપાત્ર તફાવત નહોતો.{2} 6 અઠવાડિયાની એક સરખામણીમાં વેઇટલિફ્ટિંગથી કેટલબેલ ટ્રેનિંગ કરતાં તાકાતનો વધુ વધારો થયો, અને કોઈથી પણ શરીરની રચના બદલાઈ નહીં.{3}",
+    "સિમ્યુલેટેડ HYROX રેસના 2025 ના એક અભ્યાસે જણાવ્યું કે ઝડપી ફિનિશ સમયનો સંબંધ વધુ મહત્તમ ઓક્સિજન ગ્રહણ, વધુ એન્ડ્યુરન્સ ટ્રેનિંગ વોલ્યુમ અને ઓછી બોડી ફેટ સાથે હતો.{6}"
+   ],
+   "listHeading": "રૂલબુક અને અભ્યાસો શું જણાવે છે",
+   "items": [
+    {
+     "name": "કેટલબેલ ફાર્મર્સ કેરી: ધોરણ",
+     "why": "ચાલતી વખતે બંને કેટલબેલ હંમેશાં ઉપાડેલા રાખવાના, હાથ શરીરની બાજુમાં સીધા; આરામ માટે નીચે મૂકવાની છૂટ છે જ્યાં સુધી તે આગળ ન ખસે.{1}"
+    },
+    {
+     "name": "કેટલબેલ સ્વિંગ",
+     "why": "6 અઠવાડિયા, અઠવાડિયામાં બે વાર, 30 સેકન્ડ સ્વિંગ અને 30 સેકન્ડ આરામના 12 રાઉન્ડ: હાફ-સ્ક્વોટ 1RM અને જમ્પની ઊંચાઈ વધી.{2}"
+    },
+    {
+     "name": "કેટલબેલ સ્નેચ ઇન્ટરવલ",
+     "why": "17 મહિલા કોલેજ ફૂટબોલ ખેલાડીઓમાં, 15-સેકન્ડ સ્નેચ અને આરામવાળા 20-મિનિટના સત્રોના 4 અઠવાડિયાથી કેટલબેલ જૂથમાં મહત્તમ ઓક્સિજન ગ્રહણ લગભગ 6% વધ્યું; સર્કિટ વેઇટ-ટ્રેનિંગ જૂથમાં ફેરફાર થયો નહીં.{4}"
+    },
+    {
+     "name": "કેટલબેલ વિરુદ્ધ વેઇટલિફ્ટિંગ",
+     "why": "6 અઠવાડિયામાં વેઇટલિફ્ટિંગથી બેક-સ્ક્વોટ તાકાતમાં વધુ વધારો થયો; વર્ટિકલ જમ્પમાં જૂથો વચ્ચે તફાવત નહોતો.{3}"
+    }
+   ],
+   "enoughHeading": "નિયમો, પેનલ્ટી અને અભ્યાસોની મર્યાદાઓ",
+   "enough": [
+    "રૂલબુક જણાવે છે કે ફાર્મર્સ કેરીનો દરેક છૂટેલો લેપ 3 મિનિટની પેનલ્ટી લાવે છે, કેટલબેલ સાચી જગ્યાએ સીધા પાછા ન મૂકવા પર 30 સેકન્ડની પેનલ્ટી છે, અને ખોટા વજનથી સ્ટેશન પૂરું કરવા પર તેને ફરી કરવું પડે છે, ન કરવા પર ડિસ્ક્વોલિફિકેશન. ચોક ફક્ત સ્લેજ પુલ અને ફાર્મર્સ કેરી પર માન્ય છે.{1}",
+    "99 કેટલબેલ પ્રકાશનોની 2019 ની એક સ્કોપિંગ સમીક્ષાએ જણાવાયેલી અસરોમાં વિશ્વાસને ઓછાથી બહુ ઓછો આંક્યો; ઇફેક્ટ સાઇઝ સામાન્ય રીતે નજીવાથી નાના હતા અને મોટા ભાગના લાંબા ગાળાના અભ્યાસોમાં આંકડાકીય શક્તિ ઓછી હતી.{5}"
+   ],
+   "safety": [
+    "ACSM નું 2015 નું સ્ક્રીનિંગ મોડેલ કસરત પહેલાંની મેડિકલ મંજૂરીને વર્તમાન પ્રવૃત્તિ, સંકેતો કે લક્ષણો અને/અથવા જાણીતા હૃદય-સંબંધી, મેટાબોલિક કે કિડની રોગ, અને ઇચ્છિત તીવ્રતા પર આધારિત રાખે છે.{7}"
+   ],
+   "faq": [
+    {
+     "q": "HYROX નું કયું સ્ટેશન કેટલબેલ વાપરે છે?",
+     "a": "સત્તાવાર 2026/27 સિંગલ્સ રૂલબુક મુજબ 200 m નું ફાર્મર્સ કેરી.{1}"
+    },
+    {
+     "q": "HYROX માં કેટલબેલના કયા વજન વપરાય છે?",
+     "a": "2026/27 સિંગલ્સ રૂલબુક Women Open માટે 2 × 16 kg, Men Open અને Women Pro માટે 2 × 24 kg, અને Men Pro માટે 2 × 32 kg નક્કી કરે છે.{1}"
+    },
+    {
+     "q": "કેટલબેલ ટ્રેનિંગ અભ્યાસોમાં શું મળ્યું?",
+     "a": "સ્વિંગ ટ્રેનિંગથી 21 પુરુષોમાં મહત્તમ અને વિસ્ફોટક તાકાત સુધરી;{2} વેઇટલિફ્ટિંગથી કેટલબેલ ટ્રેનિંગ કરતાં તાકાતનો વધુ વધારો થયો;{3} અને સ્નેચ ઇન્ટરવલથી મહિલા ફૂટબોલ ખેલાડીઓમાં મહત્તમ ઓક્સિજન ગ્રહણ વધ્યું.{4}"
+    },
+    {
+     "q": "કેટલબેલ સંશોધન કેટલું મજબૂત છે?",
+     "a": "2019 ની એક સ્કોપિંગ સમીક્ષાએ જણાવાયેલી અસરોમાં વિશ્વાસને ઓછાથી બહુ ઓછો આંક્યો અને મોટા ભાગના લાંબા ગાળાના અભ્યાસોને ઓછી આંકડાકીય શક્તિવાળા ગણાવ્યા.{5}"
+    }
+   ],
+   "updated": "અપડેટ 21 નવેમ્બર 2026",
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "શા માટે",
+    "how": "કેવી રીતે",
+    "dose": "ડોઝ",
+    "sources": "સ્રોતો",
+    "readIn": "આ ભાષામાં વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "WhatsApp પર પૂછો",
+    "whatsappText": "નમસ્તે સુસ્મિત, મેં કેટલબેલ અને HYROX પરનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    "skip": "સામગ્રી પર જાઓ",
+    "crumb": "કેટલબેલ અને HYROX"
+   },
+   "authorLine": "લેખક: સુસ્મિત જાલાન, સ્ટ્રેન્થ એન્ડ કન્ડિશનિંગ કોચ, Online Fitness Worldwide."
+  }
+ },
+ "format": "evidence"
+}
