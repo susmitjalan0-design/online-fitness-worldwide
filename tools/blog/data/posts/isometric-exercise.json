@@ -1,0 +1,551 @@
+{
+ "slug": "isometric-exercise",
+ "published": "2026-11-21",
+ "modified": "2026-11-21",
+ "about": "Isometric exercise training",
+ "sources": [
+  {
+   "cite": "Oranchuk DJ, Storey AG, Nelson AR, Cronin JB. Isometric training and long-term adaptations: effects of muscle length, intensity, and intent: a systematic review. Scand J Med Sci Sports. 2019;29(4):484–503.",
+   "url": "https://doi.org/10.1111/sms.13375"
+  },
+  {
+   "cite": "Lum D, Barbosa TM. Brief review: effects of isometric strength training on strength and dynamic performance. Int J Sports Med. 2019;40(6):363–375.",
+   "url": "https://doi.org/10.1055/a-0863-4539"
+  },
+  {
+   "cite": "Kubo K, Kanehisa H, Ito M, Fukunaga T. Effects of isometric training on the elasticity of human tendon structures in vivo. J Appl Physiol. 2001;91(1):26–32.",
+   "url": "https://doi.org/10.1152/jappl.2001.91.1.26"
+  },
+  {
+   "cite": "Bohm S, Mersmann F, Arampatzis A. Human tendon adaptation in response to mechanical loading: a systematic review and meta-analysis of exercise intervention studies on healthy adults. Sports Med Open. 2015;1(1):7.",
+   "url": "https://doi.org/10.1186/s40798-015-0009-9"
+  },
+  {
+   "cite": "Edwards JJ, Deenmamode AHP, Griffiths M, et al. Exercise training and resting blood pressure: a large-scale pairwise and network meta-analysis of randomised controlled trials. Br J Sports Med. 2023;57(20):1317–1326.",
+   "url": "https://doi.org/10.1136/bjsports-2022-106503"
+  },
+  {
+   "cite": "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+   "url": "https://doi.org/10.1249/MSS.0000000000000664"
+  }
+ ],
+ "seeAlso": [
+  "best-strength-exercises-for-high-blood-pressure",
+  "best-exercises-for-grip-strength",
+  "does-yoga-count-as-strength-training"
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "Isometric exercise: the evidence | Online Fitness Worldwide",
+   "metaDescription": "What reviews and trials report on isometric (static) training: strength, muscle size, tendon stiffness and resting blood pressure, with the doses studied.",
+   "h1": "Isometric exercise: what the research shows",
+   "dek": "What systematic reviews and trials report on holding a muscle contraction without movement, such as a wall squat or a static knee extension, in healthy adults.",
+   "intro": [
+    "Reviews of isometric (static) training report gains in strength and muscle size. A 2019 systematic review of 26 studies found substantial improvements in muscle size and maximal force regardless of training intensity, greater muscle growth when holds were done at longer muscle lengths, and tendon changes only with high-intensity contractions (70% of maximum or more).{1}",
+    "A 12-week trial in 8 adults found that isometric knee extensions at 70% of maximal contraction increased quadriceps volume by 7.6%, maximal torque by 33.9% and tendon stiffness from 67.5 to 106.2 N/mm.{3} A 2023 network meta-analysis of 270 randomised trials reported the largest mean reductions in resting blood pressure after isometric exercise training (−8.24/−4.00 mmHg) among the training modes compared.{5}",
+    "The studies cited here were in healthy adults or, for blood pressure, mixed groups. This page makes no claim about treating any injury or condition."
+   ],
+   "listHeading": "What the cited studies measured",
+   "items": [
+    {
+     "name": "Maximal strength",
+     "why": "A 2019 review found substantial gains in maximal force regardless of intensity; a narrative review links 80 to 100% of maximum with 1 to 5 second holds to maximal strength.{1}{2}"
+    },
+    {
+     "name": "Muscle size",
+     "why": "Holds at longer muscle lengths produced more growth than equal volumes at shorter lengths.{1}"
+    },
+    {
+     "name": "Tendon stiffness",
+     "why": "A meta-analysis of 27 studies found tendon stiffness adaptation depended on loading intensity, not contraction type.{4}"
+    },
+    {
+     "name": "Resting blood pressure",
+     "why": "Isometric training ranked first for systolic reduction in a 270-trial network meta-analysis; the isometric wall squat ranked first among submodes.{5}"
+    }
+   ],
+   "enoughHeading": "Doses the studies used",
+   "enough": [
+    "The tendon trial used unilateral knee extension at 70% of maximal voluntary contraction, held for 20 seconds per set, 4 sets a day, 4 days a week for 12 weeks.{3} A narrative review reports hypertrophy protocols at 70 to 75% of maximum with 3 to 30 second holds and more than 80 to 150 seconds of total contraction in a session, and maximal-strength protocols at 80 to 100% with 1 to 5 second holds and 30 to 90 seconds in a session.{2}",
+    "The same review states that isometric training produced superior strength at the trained joint angle compared with dynamic training, and less fatigue.{2} The 2019 review reports that training at long muscle lengths transferred more to dynamic performance.{1}"
+   ],
+   "safety": [
+    "ACSM's 2015 screening model bases pre-exercise medical clearance on current activity, signs or symptoms and/or known cardiovascular, metabolic or renal disease, and desired intensity.{6}"
+   ],
+   "faq": [
+    {
+     "q": "What is isometric exercise?",
+     "a": "A muscle contraction held without the joint moving, such as a wall squat or a static knee extension. Reviews report gains in strength and muscle size from training this way.{1}"
+    },
+    {
+     "q": "Does isometric training build muscle?",
+     "a": "A 2019 systematic review of 26 studies found substantial improvements in muscle size, with more growth when holds were done at longer muscle lengths.{1}"
+    },
+    {
+     "q": "What intensity changed tendons in the studies?",
+     "a": "The 2019 review states that contractions of 70% of maximum or more were required to improve tendon structure and function.{1} A meta-analysis found tendon stiffness adaptation depended on loading intensity.{4}"
+    },
+    {
+     "q": "What did research find on isometric exercise and blood pressure?",
+     "a": "A 2023 network meta-analysis of 270 randomised trials reported mean reductions of 8.24/4.00 mmHg in resting blood pressure after isometric training, ranked first among the modes compared for systolic pressure.{5}"
+    }
+   ],
+   "updated": "Updated 21 November 2026",
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why",
+    "how": "How",
+    "dose": "Dose",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "whatsappText": "Hi Susmit, I read the article on isometric exercise and want to book a consultation",
+    "skip": "Skip to content",
+    "crumb": "Isometric exercise"
+   },
+   "authorLine": "By Susmit Jalan, strength and conditioning coach at Online Fitness Worldwide."
+  },
+  "ar": {
+   "metaTitle": "التمارين الثابتة (الإيزومترية): الأدلة | Online Fitness Worldwide",
+   "metaDescription": "ما تذكره المراجعات والتجارب عن التدريب الثابت (الإيزومتري): القوة وحجم العضلات وصلابة الأوتار وضغط الدم أثناء الراحة، مع الجرعات المدروسة.",
+   "h1": "التمارين الثابتة (الإيزومترية): ما تُظهره الأبحاث",
+   "dek": "ما تذكره المراجعات المنهجية والتجارب عن الحفاظ على انقباض العضلة دون حركة، مثل القرفصاء على الحائط أو مدّ الركبة الثابت، لدى البالغين الأصحاء.",
+   "intro": [
+    "تذكر مراجعات التدريب الثابت (الإيزومتري) مكاسب في القوة وحجم العضلات. وجدت مراجعة منهجية من عام 2019 شملت 26 دراسة تحسنًا كبيرًا في حجم العضلات والقوة القصوى بغض النظر عن شدة التدريب، ونموًا عضليًا أكبر عند الثبات بأطوال عضلية أطول، وتغيرات في الأوتار مع الانقباضات عالية الشدة فقط (70% من الحد الأقصى أو أكثر).{1}",
+    "وجدت تجربة لمدة 12 أسبوعًا على 8 بالغين أن مدّ الركبة الثابت بنسبة 70% من الانقباض الأقصى زاد حجم عضلة الفخذ الرباعية 7.6% وعزم الدوران الأقصى 33.9% وصلابة الوتر من 67.5 إلى 106.2 نيوتن/مم.{3} وذكر تحليل شبكي تلوي من عام 2023 شمل 270 تجربة عشوائية أكبر متوسط انخفاض في ضغط الدم أثناء الراحة بعد التدريب الثابت (−8.24/−4.00 ملم زئبق) بين أنماط التدريب المقارنة.{5}",
+    "أُجريت الدراسات المذكورة هنا على بالغين أصحاء أو، بالنسبة لضغط الدم، على مجموعات مختلطة. لا تقدّم هذه الصفحة أي ادعاء بشأن علاج أي إصابة أو حالة."
+   ],
+   "listHeading": "ما قاسته الدراسات المذكورة",
+   "items": [
+    {
+     "name": "القوة القصوى",
+     "why": "وجدت مراجعة 2019 مكاسب كبيرة في القوة القصوى بغض النظر عن الشدة، وتربط مراجعة سردية بين 80 إلى 100% من الحد الأقصى مع ثبات من 1 إلى 5 ثوانٍ والقوة القصوى.{1}{2}"
+    },
+    {
+     "name": "حجم العضلات",
+     "why": "أنتج الثبات بأطوال عضلية أطول نموًا أكبر من الأحجام المتساوية بأطوال أقصر.{1}"
+    },
+    {
+     "name": "صلابة الأوتار",
+     "why": "وجد تحليل تلوي لـ27 دراسة أن تكيّف صلابة الوتر اعتمد على شدة التحميل، لا على نوع الانقباض.{4}"
+    },
+    {
+     "name": "ضغط الدم أثناء الراحة",
+     "why": "جاء التدريب الثابت في المرتبة الأولى لخفض الضغط الانقباضي في تحليل شبكي تلوي لـ270 تجربة، وجاءت القرفصاء الثابتة على الحائط في المرتبة الأولى بين الأنماط الفرعية.{5}"
+    }
+   ],
+   "enoughHeading": "الجرعات التي استخدمتها الدراسات",
+   "enough": [
+    "استخدمت تجربة الوتر مدّ الركبة بساق واحدة بنسبة 70% من الانقباض الإرادي الأقصى، مع ثبات 20 ثانية لكل مجموعة، و4 مجموعات يوميًا، و4 أيام أسبوعيًا لمدة 12 أسبوعًا.{3} وتذكر مراجعة سردية بروتوكولات للتضخم بنسبة 70 إلى 75% من الحد الأقصى مع ثبات من 3 إلى 30 ثانية وأكثر من 80 إلى 150 ثانية من الانقباض الكلي في الجلسة، وبروتوكولات للقوة القصوى بنسبة 80 إلى 100% مع ثبات من 1 إلى 5 ثوانٍ ومن 30 إلى 90 ثانية في الجلسة.{2}",
+    "تذكر المراجعة نفسها أن التدريب الثابت أنتج قوة أعلى عند زاوية المفصل المدرّبة مقارنة بالتدريب الديناميكي، وإرهاقًا أقل.{2} وتذكر مراجعة 2019 أن التدريب بأطوال عضلية طويلة انتقل أكثر إلى الأداء الديناميكي.{1}"
+   ],
+   "safety": [
+    "يعتمد نموذج الفحص الذي وضعته ACSM عام 2015 في تحديد الحاجة إلى إذن طبي قبل التمرين على مستوى النشاط الحالي، ووجود علامات أو أعراض و/أو مرض قلبي وعائي أو أيضي أو كلوي معروف، والشدة المرغوبة.{6}"
+   ],
+   "faq": [
+    {
+     "q": "ما هي التمارين الثابتة (الإيزومترية)؟",
+     "a": "انقباض عضلي يُحافَظ عليه دون أن يتحرك المفصل، مثل القرفصاء على الحائط أو مدّ الركبة الثابت. تذكر المراجعات مكاسب في القوة وحجم العضلات من هذا النوع من التدريب.{1}"
+    },
+    {
+     "q": "هل يبني التدريب الثابت العضلات؟",
+     "a": "وجدت مراجعة منهجية من عام 2019 شملت 26 دراسة تحسنًا كبيرًا في حجم العضلات، مع نمو أكبر عند الثبات بأطوال عضلية أطول.{1}"
+    },
+    {
+     "q": "ما الشدة التي غيّرت الأوتار في الدراسات؟",
+     "a": "تذكر مراجعة 2019 أن انقباضات بنسبة 70% من الحد الأقصى أو أكثر كانت مطلوبة لتحسين بنية الوتر ووظيفته.{1} ووجد تحليل تلوي أن تكيّف صلابة الوتر اعتمد على شدة التحميل.{4}"
+    },
+    {
+     "q": "ماذا وجدت الأبحاث عن التمارين الثابتة وضغط الدم؟",
+     "a": "ذكر تحليل شبكي تلوي من عام 2023 شمل 270 تجربة عشوائية متوسط انخفاض قدره 8.24/4.00 ملم زئبق في ضغط الدم أثناء الراحة بعد التدريب الثابت، وجاء في المرتبة الأولى بين الأنماط المقارنة للضغط الانقباضي.{5}"
+    }
+   ],
+   "updated": "حدّث في 21 نوفمبر 2026",
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا",
+    "how": "كيف",
+    "dose": "الجرعة",
+    "sources": "المصادر",
+    "readIn": "اقرأ بلغة أخرى",
+    "programs": "اطّلع على البرامج",
+    "whatsapp": "اسأل عبر واتساب",
+    "whatsappText": "مرحبًا سوسميت، قرأت المقال عن التمارين الثابتة وأريد حجز استشارة",
+    "skip": "انتقل إلى المحتوى",
+    "crumb": "التمارين الثابتة (الإيزومترية)"
+   },
+   "authorLine": "بقلم سوسميت جالان، مدرب القوة والتكييف البدني في Online Fitness Worldwide."
+  },
+  "hi": {
+   "metaTitle": "आइसोमेट्रिक एक्सरसाइज़: प्रमाण | Online Fitness Worldwide",
+   "metaDescription": "आइसोमेट्रिक (स्थिर) ट्रेनिंग पर समीक्षाएँ और ट्रायल क्या बताते हैं: ताकत, मांसपेशी आकार, टेंडन की कठोरता और आराम का ब्लड प्रेशर, अध्ययन की डोज़ के साथ।",
+   "h1": "आइसोमेट्रिक एक्सरसाइज़: शोध क्या दिखाता है",
+   "dek": "स्वस्थ वयस्कों में बिना हलचल के मांसपेशी संकुचन रोके रखने, जैसे वॉल स्क्वॉट या स्थिर नी एक्सटेंशन, पर सिस्टमैटिक समीक्षाएँ और ट्रायल क्या बताते हैं।",
+   "intro": [
+    "आइसोमेट्रिक (स्थिर) ट्रेनिंग की समीक्षाएँ ताकत और मांसपेशी आकार में बढ़त बताती हैं। 26 अध्ययनों की 2019 की एक सिस्टमैटिक समीक्षा में ट्रेनिंग तीव्रता चाहे जो हो, मांसपेशी आकार और अधिकतम बल में बड़ा सुधार मिला; लंबी मांसपेशी लंबाई पर होल्ड करने से ज़्यादा मांसपेशी वृद्धि हुई; और टेंडन में बदलाव केवल उच्च-तीव्रता संकुचन (अधिकतम का 70% या अधिक) से हुए।{1}",
+    "8 वयस्कों में 12 हफ़्ते के एक ट्रायल में अधिकतम संकुचन के 70% पर आइसोमेट्रिक नी एक्सटेंशन से क्वाड्रिसेप्स का आयतन 7.6%, अधिकतम टॉर्क 33.9% और टेंडन की कठोरता 67.5 से 106.2 N/mm तक बढ़ी।{3} 270 रैंडमाइज़्ड ट्रायल के 2023 के एक नेटवर्क मेटा-विश्लेषण ने तुलना किए गए ट्रेनिंग प्रकारों में आइसोमेट्रिक एक्सरसाइज़ ट्रेनिंग के बाद आराम के ब्लड प्रेशर में सबसे बड़ी औसत कमी (−8.24/−4.00 mmHg) बताई।{5}",
+    "यहाँ उद्धृत अध्ययन स्वस्थ वयस्कों में, या ब्लड प्रेशर के मामले में मिश्रित समूहों में, हुए थे। यह पेज किसी चोट या स्थिति के इलाज के बारे में कोई दावा नहीं करता।"
+   ],
+   "listHeading": "उद्धृत अध्ययनों ने क्या मापा",
+   "items": [
+    {
+     "name": "अधिकतम ताकत",
+     "why": "2019 की समीक्षा में तीव्रता चाहे जो हो, अधिकतम बल में बड़ी बढ़त मिली; एक नैरेटिव समीक्षा अधिकतम के 80 से 100% पर 1 से 5 सेकंड के होल्ड को अधिकतम ताकत से जोड़ती है।{1}{2}"
+    },
+    {
+     "name": "मांसपेशी आकार",
+     "why": "लंबी मांसपेशी लंबाई पर होल्ड से छोटी लंबाई के बराबर वॉल्यूम की तुलना में ज़्यादा वृद्धि हुई।{1}"
+    },
+    {
+     "name": "टेंडन की कठोरता",
+     "why": "27 अध्ययनों के एक मेटा-विश्लेषण में टेंडन कठोरता का अनुकूलन लोड की तीव्रता पर निर्भर था, संकुचन के प्रकार पर नहीं।{4}"
+    },
+    {
+     "name": "आराम का ब्लड प्रेशर",
+     "why": "270 ट्रायल के नेटवर्क मेटा-विश्लेषण में सिस्टोलिक कमी के लिए आइसोमेट्रिक ट्रेनिंग पहले स्थान पर रही; उप-प्रकारों में आइसोमेट्रिक वॉल स्क्वॉट पहले स्थान पर रहा।{5}"
+    }
+   ],
+   "enoughHeading": "अध्ययनों में इस्तेमाल डोज़",
+   "enough": [
+    "टेंडन ट्रायल में अधिकतम स्वैच्छिक संकुचन के 70% पर एक पैर का नी एक्सटेंशन, हर सेट में 20 सेकंड होल्ड, दिन में 4 सेट, हफ़्ते में 4 दिन, 12 हफ़्ते तक इस्तेमाल हुआ।{3} एक नैरेटिव समीक्षा हाइपरट्रॉफ़ी के लिए अधिकतम के 70 से 75% पर 3 से 30 सेकंड के होल्ड और प्रति सत्र 80 से 150 सेकंड से अधिक कुल संकुचन, और अधिकतम ताकत के लिए 80 से 100% पर 1 से 5 सेकंड के होल्ड और प्रति सत्र 30 से 90 सेकंड वाले प्रोटोकॉल बताती है।{2}",
+    "वही समीक्षा बताती है कि आइसोमेट्रिक ट्रेनिंग से डायनेमिक ट्रेनिंग की तुलना में ट्रेन किए गए जोड़ कोण पर ज़्यादा ताकत और कम थकान हुई।{2} 2019 की समीक्षा बताती है कि लंबी मांसपेशी लंबाई पर ट्रेनिंग का डायनेमिक प्रदर्शन में ज़्यादा स्थानांतरण हुआ।{1}"
+   ],
+   "safety": [
+    "ACSM का 2015 का स्क्रीनिंग मॉडल व्यायाम से पहले मेडिकल क्लीयरेंस को मौजूदा गतिविधि, संकेतों या लक्षणों और/या ज्ञात हृदय-संबंधी, मेटाबॉलिक या किडनी रोग, और चाही गई तीव्रता पर आधारित करता है।{6}"
+   ],
+   "faq": [
+    {
+     "q": "आइसोमेट्रिक एक्सरसाइज़ क्या है?",
+     "a": "ऐसा मांसपेशी संकुचन जिसे जोड़ हिलाए बिना रोके रखा जाता है, जैसे वॉल स्क्वॉट या स्थिर नी एक्सटेंशन। समीक्षाएँ इस तरह की ट्रेनिंग से ताकत और मांसपेशी आकार में बढ़त बताती हैं।{1}"
+    },
+    {
+     "q": "क्या आइसोमेट्रिक ट्रेनिंग से मांसपेशी बनती है?",
+     "a": "26 अध्ययनों की 2019 की एक सिस्टमैटिक समीक्षा में मांसपेशी आकार में बड़ा सुधार मिला, और लंबी मांसपेशी लंबाई पर होल्ड से ज़्यादा वृद्धि हुई।{1}"
+    },
+    {
+     "q": "अध्ययनों में किस तीव्रता से टेंडन बदले?",
+     "a": "2019 की समीक्षा बताती है कि टेंडन की संरचना और कार्य सुधारने के लिए अधिकतम के 70% या अधिक संकुचन ज़रूरी थे।{1} एक मेटा-विश्लेषण में टेंडन कठोरता का अनुकूलन लोड की तीव्रता पर निर्भर था।{4}"
+    },
+    {
+     "q": "आइसोमेट्रिक एक्सरसाइज़ और ब्लड प्रेशर पर शोध ने क्या पाया?",
+     "a": "270 रैंडमाइज़्ड ट्रायल के 2023 के एक नेटवर्क मेटा-विश्लेषण ने आइसोमेट्रिक ट्रेनिंग के बाद आराम के ब्लड प्रेशर में 8.24/4.00 mmHg की औसत कमी बताई, जो सिस्टोलिक प्रेशर के लिए तुलना किए गए प्रकारों में पहले स्थान पर थी।{5}"
+    }
+   ],
+   "updated": "अपडेट 21 नवंबर 2026",
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों",
+    "how": "कैसे",
+    "dose": "डोज़",
+    "sources": "स्रोत",
+    "readIn": "इसे इस भाषा में पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "WhatsApp पर पूछें",
+    "whatsappText": "नमस्ते सुस्मित, मैंने आइसोमेट्रिक एक्सरसाइज़ वाला लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    "skip": "सामग्री पर जाएँ",
+    "crumb": "आइसोमेट्रिक एक्सरसाइज़"
+   },
+   "authorLine": "लेखक: सुस्मित जालान, स्ट्रेंथ एंड कंडीशनिंग कोच, Online Fitness Worldwide।"
+  },
+  "es": {
+   "metaTitle": "Ejercicio isométrico: la evidencia | Online Fitness Worldwide",
+   "metaDescription": "Qué informan revisiones y ensayos sobre el entrenamiento isométrico: fuerza, tamaño muscular, rigidez del tendón y presión arterial en reposo, con las dosis.",
+   "h1": "Ejercicio isométrico: qué muestra la investigación",
+   "dek": "Qué informan revisiones sistemáticas y ensayos sobre mantener una contracción muscular sin movimiento, como la sentadilla en pared o la extensión de rodilla estática, en adultos sanos.",
+   "intro": [
+    "Las revisiones del entrenamiento isométrico (estático) informan ganancias de fuerza y tamaño muscular. Una revisión sistemática de 2019 de 26 estudios encontró mejoras sustanciales del tamaño muscular y la fuerza máxima con independencia de la intensidad, más crecimiento muscular con contracciones a mayor longitud muscular y cambios en el tendón solo con contracciones de alta intensidad (70% del máximo o más).{1}",
+    "Un ensayo de 12 semanas en 8 adultos encontró que las extensiones de rodilla isométricas al 70% de la contracción máxima aumentaron el volumen del cuádriceps un 7,6%, el par máximo un 33,9% y la rigidez del tendón de 67,5 a 106,2 N/mm.{3} Un metaanálisis en red de 2023 de 270 ensayos aleatorizados informó las mayores reducciones medias de la presión arterial en reposo tras el entrenamiento isométrico (−8,24/−4,00 mmHg) entre las modalidades comparadas.{5}",
+    "Los estudios citados aquí se hicieron en adultos sanos o, en el caso de la presión arterial, en grupos mixtos. Esta página no afirma nada sobre el tratamiento de ninguna lesión o afección."
+   ],
+   "listHeading": "Qué midieron los estudios citados",
+   "items": [
+    {
+     "name": "Fuerza máxima",
+     "why": "Una revisión de 2019 encontró ganancias sustanciales de fuerza máxima con independencia de la intensidad; una revisión narrativa asocia el 80 al 100% del máximo con contracciones de 1 a 5 segundos a la fuerza máxima.{1}{2}"
+    },
+    {
+     "name": "Tamaño muscular",
+     "why": "Las contracciones a mayor longitud muscular produjeron más crecimiento que volúmenes iguales a menor longitud.{1}"
+    },
+    {
+     "name": "Rigidez del tendón",
+     "why": "Un metaanálisis de 27 estudios encontró que la adaptación de la rigidez del tendón dependía de la intensidad de la carga, no del tipo de contracción.{4}"
+    },
+    {
+     "name": "Presión arterial en reposo",
+     "why": "El entrenamiento isométrico quedó primero en reducción sistólica en un metaanálisis en red de 270 ensayos; la sentadilla isométrica en pared quedó primera entre las submodalidades.{5}"
+    }
+   ],
+   "enoughHeading": "Dosis que usaron los estudios",
+   "enough": [
+    "El ensayo del tendón usó extensión de rodilla unilateral al 70% de la contracción voluntaria máxima, mantenida 20 segundos por serie, 4 series al día, 4 días por semana durante 12 semanas.{3} Una revisión narrativa informa protocolos de hipertrofia al 70-75% del máximo con contracciones de 3 a 30 segundos y más de 80 a 150 segundos de contracción total por sesión, y protocolos de fuerza máxima al 80-100% con contracciones de 1 a 5 segundos y 30 a 90 segundos por sesión.{2}",
+    "La misma revisión indica que el entrenamiento isométrico produjo más fuerza en el ángulo articular entrenado que el entrenamiento dinámico, y menos fatiga.{2} La revisión de 2019 informa que entrenar a mayor longitud muscular se transfirió más al rendimiento dinámico.{1}"
+   ],
+   "safety": [
+    "El modelo de cribado del ACSM de 2015 basa la autorización médica previa al ejercicio en la actividad actual, los signos o síntomas y/o la enfermedad cardiovascular, metabólica o renal conocida, y la intensidad deseada.{6}"
+   ],
+   "faq": [
+    {
+     "q": "¿Qué es el ejercicio isométrico?",
+     "a": "Una contracción muscular mantenida sin que la articulación se mueva, como la sentadilla en pared o la extensión de rodilla estática. Las revisiones informan ganancias de fuerza y tamaño muscular con este tipo de entrenamiento.{1}"
+    },
+    {
+     "q": "¿El entrenamiento isométrico desarrolla músculo?",
+     "a": "Una revisión sistemática de 2019 de 26 estudios encontró mejoras sustanciales del tamaño muscular, con más crecimiento a mayor longitud muscular.{1}"
+    },
+    {
+     "q": "¿Qué intensidad cambió los tendones en los estudios?",
+     "a": "La revisión de 2019 indica que hacían falta contracciones del 70% del máximo o más para mejorar la estructura y la función del tendón.{1} Un metaanálisis encontró que la adaptación de la rigidez del tendón dependía de la intensidad de la carga.{4}"
+    },
+    {
+     "q": "¿Qué encontró la investigación sobre ejercicio isométrico y presión arterial?",
+     "a": "Un metaanálisis en red de 2023 de 270 ensayos aleatorizados informó reducciones medias de 8,24/4,00 mmHg en la presión arterial en reposo tras el entrenamiento isométrico, primero entre las modalidades comparadas para la presión sistólica.{5}"
+    }
+   ],
+   "updated": "Actualizado el 21 de noviembre de 2026",
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué",
+    "how": "Cómo",
+    "dose": "Dosis",
+    "sources": "Fuentes",
+    "readIn": "Leer en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "whatsappText": "Hola Susmit, leí el artículo sobre el ejercicio isométrico y quiero reservar una consulta",
+    "skip": "Saltar al contenido",
+    "crumb": "Ejercicio isométrico"
+   },
+   "authorLine": "Por Susmit Jalan, entrenador de fuerza y acondicionamiento en Online Fitness Worldwide."
+  },
+  "zh": {
+   "metaTitle": "等长训练：证据 | Online Fitness Worldwide",
+   "metaDescription": "综述和试验对等长（静态）训练的报告：力量、肌肉体积、肌腱刚度和静息血压，以及所研究的训练剂量。",
+   "h1": "等长训练：研究显示了什么",
+   "dek": "系统综述和试验对健康成人保持肌肉收缩而关节不动（如靠墙静蹲或静态伸膝）的报告。",
+   "intro": [
+    "等长（静态）训练的综述报告了力量和肌肉体积的增长。一篇2019年纳入26项研究的系统综述发现，无论训练强度如何，肌肉体积和最大力量都有显著提高；在较长肌肉长度下保持时肌肉增长更多；只有高强度收缩（最大值的70%或以上）才带来肌腱变化。{1}",
+    "一项在8名成人中进行的12周试验发现，以最大收缩70%进行的等长伸膝使股四头肌体积增加7.6%，最大扭矩增加33.9%，肌腱刚度从67.5升至106.2 N/mm。{3}一项2023年纳入270项随机试验的网络荟萃分析报告，在所比较的训练方式中，等长训练后静息血压的平均降幅最大（−8.24/−4.00 mmHg）。{5}",
+    "此处引用的研究对象为健康成人，血压研究则为混合人群。本页不对任何损伤或疾病的治疗作出声明。"
+   ],
+   "listHeading": "所引用研究测量了什么",
+   "items": [
+    {
+     "name": "最大力量",
+     "why": "2019年综述发现无论强度如何最大力量都显著增长；一篇叙述性综述将最大值80%至100%、保持1至5秒与最大力量联系起来。{1}{2}"
+    },
+    {
+     "name": "肌肉体积",
+     "why": "在较长肌肉长度下保持，比在较短长度下同等训练量带来更多增长。{1}"
+    },
+    {
+     "name": "肌腱刚度",
+     "why": "一项纳入27项研究的荟萃分析发现，肌腱刚度的适应取决于负荷强度，而不是收缩类型。{4}"
+    },
+    {
+     "name": "静息血压",
+     "why": "在270项试验的网络荟萃分析中，等长训练在降低收缩压方面排名第一；在子类型中，等长靠墙静蹲排名第一。{5}"
+    }
+   ],
+   "enoughHeading": "研究使用的剂量",
+   "enough": [
+    "肌腱试验采用单腿伸膝，强度为最大自主收缩的70%，每组保持20秒，每天4组，每周4天，共12周。{3}一篇叙述性综述报告，增肌方案为最大值的70%至75%、每次保持3至30秒、每次训练总收缩时间超过80至150秒；最大力量方案为80%至100%、保持1至5秒、每次训练30至90秒。{2}",
+    "同一综述指出，与动态训练相比，等长训练在所训练的关节角度上产生更大的力量，疲劳更少。{2}2019年综述报告，在较长肌肉长度下训练对动态表现的迁移更多。{1}"
+   ],
+   "safety": [
+    "ACSM 2015年的筛查模型根据当前活动水平、体征或症状和/或已知的心血管、代谢或肾脏疾病以及期望的运动强度来决定运动前是否需要医学许可。{6}"
+   ],
+   "faq": [
+    {
+     "q": "什么是等长训练？",
+     "a": "关节不动、保持住的肌肉收缩，例如靠墙静蹲或静态伸膝。综述报告这种训练能带来力量和肌肉体积的增长。{1}"
+    },
+    {
+     "q": "等长训练能增肌吗？",
+     "a": "一篇2019年纳入26项研究的系统综述发现肌肉体积显著提高，在较长肌肉长度下保持时增长更多。{1}"
+    },
+    {
+     "q": "研究中什么强度改变了肌腱？",
+     "a": "2019年综述指出，需要最大值70%或以上的收缩才能改善肌腱结构和功能。{1}一项荟萃分析发现肌腱刚度的适应取决于负荷强度。{4}"
+    },
+    {
+     "q": "关于等长训练和血压，研究发现了什么？",
+     "a": "一项2023年纳入270项随机试验的网络荟萃分析报告，等长训练后静息血压平均下降8.24/4.00 mmHg，在所比较方式中收缩压降幅排名第一。{5}"
+    }
+   ],
+   "updated": "更新于2026年11月21日",
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么",
+    "how": "怎么做",
+    "dose": "训练量",
+    "sources": "参考来源",
+    "readIn": "其他语言版本",
+    "programs": "查看课程",
+    "whatsapp": "通过WhatsApp咨询",
+    "whatsappText": "你好 Susmit，我读了关于等长训练的文章，想预约咨询",
+    "skip": "跳到正文",
+    "crumb": "等长训练"
+   },
+   "authorLine": "作者：Susmit Jalan，Online Fitness Worldwide 力量与体能教练。"
+  },
+  "ja": {
+   "metaTitle": "アイソメトリック運動：エビデンス | Online Fitness Worldwide",
+   "metaDescription": "アイソメトリック（静的）トレーニングについてレビューと試験が報告していること：筋力、筋肉量、腱の硬さ、安静時血圧、そして研究された用量。",
+   "h1": "アイソメトリック運動：研究が示すこと",
+   "dek": "健康な成人が、ウォールスクワットや静的な膝伸展のように、関節を動かさずに筋収縮を保持することについて、システマティックレビューと試験が報告していること。",
+   "intro": [
+    "アイソメトリック（静的）トレーニングのレビューは、筋力と筋肉量の向上を報告しています。26件の研究をまとめた2019年のシステマティックレビューでは、トレーニング強度にかかわらず筋肉量と最大筋力が大きく向上し、長い筋長で保持したほうが筋肥大が大きく、腱の変化は高強度の収縮（最大の70%以上）でのみ見られました。{1}",
+    "8人の成人を対象とした12週間の試験では、最大収縮の70%でのアイソメトリック膝伸展により、大腿四頭筋の体積が7.6%、最大トルクが33.9%増加し、腱の硬さは67.5から106.2 N/mmに上昇しました。{3}270件のランダム化試験をまとめた2023年のネットワークメタ分析は、比較したトレーニング様式の中で、アイソメトリック運動トレーニング後の安静時血圧の平均低下が最も大きかった（−8.24/−4.00 mmHg）と報告しています。{5}",
+    "ここで引用した研究の対象は健康な成人、血圧については混合した集団です。このページは、いかなるけがや疾患の治療についても主張しません。"
+   ],
+   "listHeading": "引用した研究が測定したこと",
+   "items": [
+    {
+     "name": "最大筋力",
+     "why": "2019年のレビューは強度にかかわらず最大筋力の大きな向上を見いだし、ナラティブレビューは最大の80〜100%・1〜5秒の保持を最大筋力と結びつけています。{1}{2}"
+    },
+    {
+     "name": "筋肉量",
+     "why": "長い筋長での保持は、短い筋長での同じ量よりも大きな筋肥大をもたらしました。{1}"
+    },
+    {
+     "name": "腱の硬さ",
+     "why": "27件の研究のメタ分析では、腱の硬さの適応は収縮様式ではなく負荷強度に依存していました。{4}"
+    },
+    {
+     "name": "安静時血圧",
+     "why": "270件の試験のネットワークメタ分析で、アイソメトリックトレーニングは収縮期血圧の低下で1位、下位様式ではアイソメトリック・ウォールスクワットが1位でした。{5}"
+    }
+   ],
+   "enoughHeading": "研究で用いられた用量",
+   "enough": [
+    "腱の試験では、最大随意収縮の70%での片脚膝伸展を1セット20秒保持、1日4セット、週4日、12週間行いました。{3}ナラティブレビューは、筋肥大のプロトコルとして最大の70〜75%・3〜30秒の保持・1回あたり総収縮時間80〜150秒超、最大筋力のプロトコルとして80〜100%・1〜5秒の保持・1回あたり30〜90秒を報告しています。{2}",
+    "同じレビューは、アイソメトリックトレーニングが動的トレーニングと比べてトレーニングした関節角度でより大きな筋力を生み、疲労が少なかったと述べています。{2}2019年のレビューは、長い筋長でのトレーニングが動的パフォーマンスにより多く転移したと報告しています。{1}"
+   ],
+   "safety": [
+    "ACSMの2015年のスクリーニングモデルは、運動前の医学的許可の要否を、現在の活動量、徴候や症状、および／または既知の心血管・代謝・腎疾患、そして希望する運動強度に基づいて判断します。{6}"
+   ],
+   "faq": [
+    {
+     "q": "アイソメトリック運動とは何ですか？",
+     "a": "ウォールスクワットや静的な膝伸展のように、関節を動かさずに保持する筋収縮です。レビューは、この方法のトレーニングで筋力と筋肉量が向上すると報告しています。{1}"
+    },
+    {
+     "q": "アイソメトリックトレーニングで筋肉はつきますか？",
+     "a": "26件の研究をまとめた2019年のシステマティックレビューでは筋肉量が大きく向上し、長い筋長で保持したほうが筋肥大が大きくなりました。{1}"
+    },
+    {
+     "q": "研究ではどの強度で腱が変化しましたか？",
+     "a": "2019年のレビューは、腱の構造と機能の改善には最大の70%以上の収縮が必要だったと述べています。{1}メタ分析では、腱の硬さの適応は負荷強度に依存していました。{4}"
+    },
+    {
+     "q": "アイソメトリック運動と血圧について研究は何を見いだしましたか？",
+     "a": "270件のランダム化試験をまとめた2023年のネットワークメタ分析は、アイソメトリックトレーニング後に安静時血圧が平均8.24/4.00 mmHg低下し、収縮期血圧では比較した様式の中で1位だったと報告しています。{5}"
+    }
+   ],
+   "updated": "2026年11月21日更新",
+   "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ",
+    "how": "やり方",
+    "dose": "回数・量",
+    "sources": "出典",
+    "readIn": "他の言語で読む",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問する",
+    "whatsappText": "こんにちは Susmit さん、アイソメトリック運動の記事を読み、相談を予約したいです",
+    "skip": "本文へスキップ",
+    "crumb": "アイソメトリック運動"
+   },
+   "authorLine": "執筆：スシュミット・ジャラン（Online Fitness Worldwide ストレングス＆コンディショニングコーチ）"
+  },
+  "gu": {
+   "metaTitle": "આઇસોમેટ્રિક એક્સરસાઇઝ: પુરાવા | Online Fitness Worldwide",
+   "metaDescription": "આઇસોમેટ્રિક (સ્થિર) ટ્રેનિંગ વિશે સમીક્ષાઓ અને ટ્રાયલ શું કહે છે: તાકાત, સ્નાયુ કદ, ટેન્ડનની કઠોરતા અને આરામ સમયનું બ્લડ પ્રેશર, અભ્યાસના ડોઝ સાથે.",
+   "h1": "આઇસોમેટ્રિક એક્સરસાઇઝ: સંશોધન શું બતાવે છે",
+   "dek": "સ્વસ્થ પુખ્તોમાં હલનચલન વિના સ્નાયુ સંકોચન પકડી રાખવા, જેમ કે વોલ સ્ક્વોટ કે સ્થિર ની એક્સટેન્શન, વિશે સિસ્ટમેટિક સમીક્ષાઓ અને ટ્રાયલ શું જણાવે છે.",
+   "intro": [
+    "આઇસોમેટ્રિક (સ્થિર) ટ્રેનિંગની સમીક્ષાઓ તાકાત અને સ્નાયુ કદમાં વધારો જણાવે છે. 26 અભ્યાસોની 2019 ની એક સિસ્ટમેટિક સમીક્ષામાં ટ્રેનિંગની તીવ્રતા ગમે તે હોય, સ્નાયુ કદ અને મહત્તમ બળમાં મોટો સુધારો મળ્યો; લાંબી સ્નાયુ લંબાઈએ હોલ્ડ કરવાથી વધુ સ્નાયુ વૃદ્ધિ થઈ; અને ટેન્ડનમાં ફેરફાર ફક્ત ઊંચી તીવ્રતાના સંકોચન (મહત્તમના 70% કે વધુ) થી થયા.{1}",
+    "8 પુખ્તોમાં 12 અઠવાડિયાના એક ટ્રાયલમાં મહત્તમ સંકોચનના 70% પર આઇસોમેટ્રિક ની એક્સટેન્શનથી ક્વાડ્રિસેપ્સનું કદ 7.6%, મહત્તમ ટોર્ક 33.9% અને ટેન્ડનની કઠોરતા 67.5 થી 106.2 N/mm સુધી વધી.{3} 270 રેન્ડમાઇઝ્ડ ટ્રાયલના 2023 ના એક નેટવર્ક મેટા-વિશ્લેષણે સરખામણી કરાયેલા ટ્રેનિંગ પ્રકારોમાં આઇસોમેટ્રિક એક્સરસાઇઝ ટ્રેનિંગ પછી આરામ સમયના બ્લડ પ્રેશરમાં સૌથી મોટો સરેરાશ ઘટાડો (−8.24/−4.00 mmHg) જણાવ્યો.{5}",
+    "અહીં ઉલ્લેખિત અભ્યાસો સ્વસ્થ પુખ્તોમાં, અથવા બ્લડ પ્રેશરના કિસ્સામાં મિશ્ર જૂથોમાં, થયા હતા. આ પેજ કોઈ ઈજા કે સ્થિતિની સારવાર વિશે કોઈ દાવો કરતું નથી."
+   ],
+   "listHeading": "ઉલ્લેખિત અભ્યાસોએ શું માપ્યું",
+   "items": [
+    {
+     "name": "મહત્તમ તાકાત",
+     "why": "2019 ની સમીક્ષામાં તીવ્રતા ગમે તે હોય, મહત્તમ બળમાં મોટો વધારો મળ્યો; એક નેરેટિવ સમીક્ષા મહત્તમના 80 થી 100% પર 1 થી 5 સેકન્ડના હોલ્ડને મહત્તમ તાકાત સાથે જોડે છે.{1}{2}"
+    },
+    {
+     "name": "સ્નાયુ કદ",
+     "why": "લાંબી સ્નાયુ લંબાઈએ હોલ્ડથી ટૂંકી લંબાઈના સમાન વોલ્યુમની સરખામણીમાં વધુ વૃદ્ધિ થઈ.{1}"
+    },
+    {
+     "name": "ટેન્ડનની કઠોરતા",
+     "why": "27 અભ્યાસોના એક મેટા-વિશ્લેષણમાં ટેન્ડન કઠોરતાનું અનુકૂલન લોડની તીવ્રતા પર આધારિત હતું, સંકોચનના પ્રકાર પર નહીં.{4}"
+    },
+    {
+     "name": "આરામ સમયનું બ્લડ પ્રેશર",
+     "why": "270 ટ્રાયલના નેટવર્ક મેટા-વિશ્લેષણમાં સિસ્ટોલિક ઘટાડા માટે આઇસોમેટ્રિક ટ્રેનિંગ પ્રથમ સ્થાને રહી; પેટાપ્રકારોમાં આઇસોમેટ્રિક વોલ સ્ક્વોટ પ્રથમ સ્થાને રહ્યો.{5}"
+    }
+   ],
+   "enoughHeading": "અભ્યાસોમાં વપરાયેલા ડોઝ",
+   "enough": [
+    "ટેન્ડન ટ્રાયલમાં મહત્તમ સ્વૈચ્છિક સંકોચનના 70% પર એક પગનું ની એક્સટેન્શન, દરેક સેટમાં 20 સેકન્ડ હોલ્ડ, દિવસમાં 4 સેટ, અઠવાડિયામાં 4 દિવસ, 12 અઠવાડિયા સુધી વપરાયું.{3} એક નેરેટિવ સમીક્ષા હાઇપરટ્રોફી માટે મહત્તમના 70 થી 75% પર 3 થી 30 સેકન્ડના હોલ્ડ અને સત્ર દીઠ 80 થી 150 સેકન્ડથી વધુ કુલ સંકોચન, અને મહત્તમ તાકાત માટે 80 થી 100% પર 1 થી 5 સેકન્ડના હોલ્ડ અને સત્ર દીઠ 30 થી 90 સેકન્ડવાળા પ્રોટોકોલ જણાવે છે.{2}",
+    "એ જ સમીક્ષા જણાવે છે કે આઇસોમેટ્રિક ટ્રેનિંગથી ડાયનેમિક ટ્રેનિંગની સરખામણીમાં ટ્રેન કરેલા સાંધાના ખૂણે વધુ તાકાત અને ઓછો થાક થયો.{2} 2019 ની સમીક્ષા જણાવે છે કે લાંબી સ્નાયુ લંબાઈએ ટ્રેનિંગનું ડાયનેમિક પ્રદર્શનમાં વધુ સ્થાનાંતરણ થયું.{1}"
+   ],
+   "safety": [
+    "ACSM નું 2015 નું સ્ક્રીનિંગ મોડેલ કસરત પહેલાંની મેડિકલ મંજૂરીને વર્તમાન પ્રવૃત્તિ, સંકેતો કે લક્ષણો અને/અથવા જાણીતા હૃદય-સંબંધી, મેટાબોલિક કે કિડની રોગ, અને ઇચ્છિત તીવ્રતા પર આધારિત રાખે છે.{6}"
+   ],
+   "faq": [
+    {
+     "q": "આઇસોમેટ્રિક એક્સરસાઇઝ શું છે?",
+     "a": "એવું સ્નાયુ સંકોચન જેને સાંધો હલાવ્યા વિના પકડી રાખવામાં આવે છે, જેમ કે વોલ સ્ક્વોટ કે સ્થિર ની એક્સટેન્શન. સમીક્ષાઓ આ પ્રકારની ટ્રેનિંગથી તાકાત અને સ્નાયુ કદમાં વધારો જણાવે છે.{1}"
+    },
+    {
+     "q": "શું આઇસોમેટ્રિક ટ્રેનિંગથી સ્નાયુ બને છે?",
+     "a": "26 અભ્યાસોની 2019 ની એક સિસ્ટમેટિક સમીક્ષામાં સ્નાયુ કદમાં મોટો સુધારો મળ્યો, અને લાંબી સ્નાયુ લંબાઈએ હોલ્ડથી વધુ વૃદ્ધિ થઈ.{1}"
+    },
+    {
+     "q": "અભ્યાસોમાં કઈ તીવ્રતાથી ટેન્ડન બદલાયા?",
+     "a": "2019 ની સમીક્ષા જણાવે છે કે ટેન્ડનની રચના અને કાર્ય સુધારવા માટે મહત્તમના 70% કે વધુ સંકોચન જરૂરી હતા.{1} એક મેટા-વિશ્લેષણમાં ટેન્ડન કઠોરતાનું અનુકૂલન લોડની તીવ્રતા પર આધારિત હતું.{4}"
+    },
+    {
+     "q": "આઇસોમેટ્રિક એક્સરસાઇઝ અને બ્લડ પ્રેશર વિશે સંશોધનમાં શું મળ્યું?",
+     "a": "270 રેન્ડમાઇઝ્ડ ટ્રાયલના 2023 ના એક નેટવર્ક મેટા-વિશ્લેષણે આઇસોમેટ્રિક ટ્રેનિંગ પછી આરામ સમયના બ્લડ પ્રેશરમાં 8.24/4.00 mmHg નો સરેરાશ ઘટાડો જણાવ્યો, જે સિસ્ટોલિક પ્રેશર માટે સરખામણી કરાયેલા પ્રકારોમાં પ્રથમ સ્થાને હતો.{5}"
+    }
+   ],
+   "updated": "અપડેટ 21 નવેમ્બર 2026",
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "શા માટે",
+    "how": "કેવી રીતે",
+    "dose": "ડોઝ",
+    "sources": "સ્રોતો",
+    "readIn": "આ ભાષામાં વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "WhatsApp પર પૂછો",
+    "whatsappText": "નમસ્તે સુસ્મિત, મેં આઇસોમેટ્રિક એક્સરસાઇઝ પરનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    "skip": "સામગ્રી પર જાઓ",
+    "crumb": "આઇસોમેટ્રિક એક્સરસાઇઝ"
+   },
+   "authorLine": "લેખક: સુસ્મિત જાલાન, સ્ટ્રેન્થ એન્ડ કન્ડિશનિંગ કોચ, Online Fitness Worldwide."
+  }
+ },
+ "format": "evidence"
+}
