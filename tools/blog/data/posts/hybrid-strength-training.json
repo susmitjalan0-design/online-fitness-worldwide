@@ -1,0 +1,555 @@
+{
+ "slug": "hybrid-strength-training",
+ "published": "2026-11-21",
+ "modified": "2026-11-21",
+ "about": "Concurrent strength and endurance training",
+ "sources": [
+  {
+   "cite": "Hickson RC. Interference of strength development by simultaneously training for strength and endurance. Eur J Appl Physiol Occup Physiol. 1980;45(2–3):255–263.",
+   "url": "https://doi.org/10.1007/BF00421333"
+  },
+  {
+   "cite": "Wilson JM, Marin PJ, Rhea MR, et al. Concurrent training: a meta-analysis examining interference of aerobic and resistance exercises. J Strength Cond Res. 2012;26(8):2293–2307.",
+   "url": "https://doi.org/10.1519/JSC.0b013e31823a3e2d"
+  },
+  {
+   "cite": "Schumann M, Feuerbacher JF, Sünkeler M, et al. Compatibility of concurrent aerobic and strength training for skeletal muscle size and function: an updated systematic review and meta-analysis. Sports Med. 2022;52(3):601–612.",
+   "url": "https://doi.org/10.1007/s40279-021-01587-7"
+  },
+  {
+   "cite": "Petré H, Hemmingsson E, Rosdahl H, Psilander N. Development of maximal dynamic strength during concurrent resistance and endurance training in untrained, moderately trained, and trained individuals: a systematic review and meta-analysis. Sports Med. 2021;51(5):991–1010.",
+   "url": "https://doi.org/10.1007/s40279-021-01426-9"
+  },
+  {
+   "cite": "Murlasits Z, Kneffel Z, Thalib L. The physiological effects of concurrent strength and endurance training sequence: a systematic review and meta-analysis. J Sports Sci. 2018;36(11):1212–1219.",
+   "url": "https://doi.org/10.1080/02640414.2017.1364405"
+  },
+  {
+   "cite": "Bull FC, Al-Ansari SS, Biddle S, et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med. 2020;54(24):1451–1462.",
+   "url": "https://doi.org/10.1136/bjsports-2020-102955"
+  },
+  {
+   "cite": "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+   "url": "https://doi.org/10.1249/MSS.0000000000000664"
+  }
+ ],
+ "seeAlso": [
+  "hyrox-vs-deka-vs-athx",
+  "best-strength-exercises-for-runners",
+  "best-strength-exercises-for-cyclists"
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "Hybrid strength training: the evidence | Online Fitness Worldwide",
+   "metaDescription": "What concurrent-training research reports on combining strength and endurance work: strength, muscle size, power, exercise order and same-day sessions.",
+   "h1": "Hybrid strength training: what the concurrent-training research shows",
+   "dek": "What studies report when strength and endurance training are combined in the same programme, outside any race preparation: effects on strength, muscle size, power and endurance.",
+   "intro": [
+    "Researchers call combined strength and endurance training concurrent training. A 2022 meta-analysis of 43 studies found that adding aerobic training to an identical strength programme did not compromise maximal strength or muscle growth, but attenuated explosive strength, more so when both were done in the same session.{3}",
+    "Earlier work reported interference. A 2012 meta-analysis of 21 studies found larger effect sizes for strength, muscle size and power with strength training alone than with concurrent training, and linked the interference to the type, frequency and duration of endurance work.{2} In a 1980 study, strength in a combined group rose like the strength-only group for 7 weeks, then levelled off and declined in weeks 9 and 10, while the rise in maximal oxygen uptake was unaffected.{1}",
+    "WHO's 2020 guidelines recommend both aerobic activity and muscle-strengthening activities on 2 or more days a week for adults.{6}"
+   ],
+   "listHeading": "Variables the studies examined",
+   "items": [
+    {
+     "name": "Running or cycling",
+     "why": "In the 2012 meta-analysis, concurrent training with running, but not cycling, decreased muscle growth and strength.{2} The 2022 meta-analysis found no difference between cycling and running.{3}"
+    },
+    {
+     "name": "Same session or separate sessions",
+     "why": "In trained individuals, concurrent training reduced lower-body one-repetition maximum only when both were done in the same session.{4}"
+    },
+    {
+     "name": "Order within a session",
+     "why": "A 2018 meta-analysis found lower-body one-repetition maximum 3.96 kg higher when strength preceded endurance; order did not affect aerobic capacity.{5}"
+    },
+    {
+     "name": "Training status",
+     "why": "Concurrent training reduced lower-body strength gains in trained individuals, not in untrained or moderately trained ones.{4}"
+    }
+   ],
+   "enoughHeading": "Effect sizes and protocols reported",
+   "enough": [
+    "The 2012 meta-analysis reported mean effect sizes for strength of 1.76 with strength training, 1.44 with concurrent training and 0.78 with endurance training; for muscle size, 1.23, 0.85 and 0.27. Frequency and duration of endurance training were negatively correlated with gains in muscle size, strength and power.{2}",
+    "In the 1980 study, the strength group trained 30 to 40 minutes a day, 5 days a week, and the endurance group 40 minutes a day, 6 days a week, for 10 weeks; the combined group did both. Maximal oxygen uptake rose by about 20 to 25% in both endurance groups.{1}"
+   ],
+   "safety": [
+    "ACSM's 2015 screening model bases pre-exercise medical clearance on current activity, signs or symptoms and/or known cardiovascular, metabolic or renal disease, and desired intensity.{7}"
+   ],
+   "faq": [
+    {
+     "q": "What is concurrent training?",
+     "a": "The research term for combining strength and endurance training in one programme. A 2022 meta-analysis of 43 studies compared it with an identical strength programme alone.{3}"
+    },
+    {
+     "q": "Does cardio reduce strength gains?",
+     "a": "A 2022 meta-analysis found no compromise to maximal strength or muscle growth, but attenuated explosive strength.{3} A 2021 meta-analysis found reduced lower-body strength gains in trained individuals when both were done in the same session.{4}"
+    },
+    {
+     "q": "Does the order of strength and endurance work matter?",
+     "a": "A 2018 meta-analysis found lower-body one-repetition maximum 3.96 kg higher when strength came first in the session, with no effect of order on aerobic capacity.{5}"
+    },
+    {
+     "q": "Does running interfere more than cycling?",
+     "a": "The 2012 meta-analysis found running, but not cycling, decreased muscle growth and strength;{2} the 2022 meta-analysis found no difference between the two.{3}"
+    }
+   ],
+   "updated": "Updated 21 November 2026",
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why",
+    "how": "How",
+    "dose": "Dose",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "whatsappText": "Hi Susmit, I read the article on hybrid strength training and want to book a consultation",
+    "skip": "Skip to content",
+    "crumb": "Hybrid strength training"
+   },
+   "authorLine": "By Susmit Jalan, strength and conditioning coach at Online Fitness Worldwide."
+  },
+  "ar": {
+   "metaTitle": "التدريب الهجين للقوة: الأدلة | Online Fitness Worldwide",
+   "metaDescription": "ما تذكره أبحاث التدريب المتزامن عن الجمع بين تمارين القوة والتحمل: القوة وحجم العضلات والقدرة الانفجارية وترتيب التمارين والجلسات في اليوم نفسه.",
+   "h1": "التدريب الهجين للقوة: ما تُظهره أبحاث التدريب المتزامن",
+   "dek": "ما تذكره الدراسات عند الجمع بين تمارين القوة والتحمل في البرنامج نفسه، خارج أي تحضير لسباق: الآثار على القوة وحجم العضلات والقدرة الانفجارية والتحمل.",
+   "intro": [
+    "يسمّي الباحثون الجمع بين تمارين القوة والتحمل التدريب المتزامن. وجد تحليل تلوي من عام 2022 شمل 43 دراسة أن إضافة التدريب الهوائي إلى برنامج قوة مماثل لم تُضعف القوة القصوى أو نمو العضلات، لكنها خفّفت مكاسب القوة الانفجارية، وبدرجة أكبر عند أداء النوعين في الجلسة نفسها.{3}",
+    "ذكرت أعمال سابقة وجود تداخل. وجد تحليل تلوي من عام 2012 شمل 21 دراسة أحجام أثر أكبر للقوة وحجم العضلات والقدرة مع تدريب القوة وحده مقارنة بالتدريب المتزامن، وربط التداخل بنوع تمارين التحمل وتكرارها ومدتها.{2} وفي دراسة من عام 1980، ارتفعت القوة لدى مجموعة الجمع مثل مجموعة القوة وحدها لمدة 7 أسابيع، ثم استقرت وانخفضت في الأسبوعين 9 و10، بينما لم يتأثر ارتفاع الحد الأقصى لاستهلاك الأكسجين.{1}",
+    "توصي إرشادات منظمة الصحة العالمية لعام 2020 البالغين بالنشاط الهوائي وبأنشطة تقوية العضلات في يومين أو أكثر أسبوعيًا.{6}"
+   ],
+   "listHeading": "المتغيرات التي درستها الأبحاث",
+   "items": [
+    {
+     "name": "الجري أو ركوب الدراجة",
+     "why": "في تحليل 2012، خفّض التدريب المتزامن مع الجري، لا مع ركوب الدراجة، نمو العضلات والقوة.{2} ولم يجد تحليل 2022 فرقًا بين ركوب الدراجة والجري.{3}"
+    },
+    {
+     "name": "الجلسة نفسها أو جلسات منفصلة",
+     "why": "لدى الأفراد المتدربين، خفّض التدريب المتزامن الحد الأقصى لتكرار واحد للجزء السفلي فقط عند أداء النوعين في الجلسة نفسها.{4}"
+    },
+    {
+     "name": "الترتيب داخل الجلسة",
+     "why": "وجد تحليل تلوي من عام 2018 أن الحد الأقصى لتكرار واحد للجزء السفلي كان أعلى بـ3.96 كغ عندما سبقت القوة التحمل، ولم يؤثر الترتيب على القدرة الهوائية.{5}"
+    },
+    {
+     "name": "مستوى التدريب",
+     "why": "خفّض التدريب المتزامن مكاسب قوة الجزء السفلي لدى الأفراد المتدربين، لا لدى غير المتدربين أو المتدربين بدرجة متوسطة.{4}"
+    }
+   ],
+   "enoughHeading": "أحجام الأثر والبروتوكولات المذكورة",
+   "enough": [
+    "ذكر تحليل 2012 متوسط أحجام أثر للقوة قدره 1.76 مع تدريب القوة و1.44 مع التدريب المتزامن و0.78 مع تدريب التحمل، ولحجم العضلات 1.23 و0.85 و0.27. وارتبط تكرار تدريب التحمل ومدته ارتباطًا سلبيًا بمكاسب حجم العضلات والقوة والقدرة.{2}",
+    "في دراسة 1980، تدرّبت مجموعة القوة 30 إلى 40 دقيقة يوميًا، 5 أيام أسبوعيًا، ومجموعة التحمل 40 دقيقة يوميًا، 6 أيام أسبوعيًا، لمدة 10 أسابيع، وأدّت مجموعة الجمع الاثنين. وارتفع الحد الأقصى لاستهلاك الأكسجين بنحو 20 إلى 25% في مجموعتي التحمل.{1}"
+   ],
+   "safety": [
+    "يعتمد نموذج الفحص الذي وضعته ACSM عام 2015 في تحديد الحاجة إلى إذن طبي قبل التمرين على مستوى النشاط الحالي، ووجود علامات أو أعراض و/أو مرض قلبي وعائي أو أيضي أو كلوي معروف، والشدة المرغوبة.{7}"
+   ],
+   "faq": [
+    {
+     "q": "ما هو التدريب المتزامن؟",
+     "a": "المصطلح البحثي للجمع بين تمارين القوة والتحمل في برنامج واحد. قارنه تحليل تلوي من عام 2022 شمل 43 دراسة ببرنامج قوة مماثل وحده.{3}"
+    },
+    {
+     "q": "هل تقلل تمارين الكارديو مكاسب القوة؟",
+     "a": "لم يجد تحليل تلوي من عام 2022 إضعافًا للقوة القصوى أو نمو العضلات، لكنه وجد تخفيفًا لمكاسب القوة الانفجارية.{3} ووجد تحليل تلوي من عام 2021 انخفاضًا في مكاسب قوة الجزء السفلي لدى الأفراد المتدربين عند أداء النوعين في الجلسة نفسها.{4}"
+    },
+    {
+     "q": "هل يهم ترتيب تمارين القوة والتحمل؟",
+     "a": "وجد تحليل تلوي من عام 2018 أن الحد الأقصى لتكرار واحد للجزء السفلي كان أعلى بـ3.96 كغ عندما جاءت القوة أولًا في الجلسة، دون أثر للترتيب على القدرة الهوائية.{5}"
+    },
+    {
+     "q": "هل يتداخل الجري أكثر من ركوب الدراجة؟",
+     "a": "وجد تحليل 2012 أن الجري، لا ركوب الدراجة، خفّض نمو العضلات والقوة،{2} ولم يجد تحليل 2022 فرقًا بين الاثنين.{3}"
+    }
+   ],
+   "updated": "حدّث في 21 نوفمبر 2026",
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا",
+    "how": "كيف",
+    "dose": "الجرعة",
+    "sources": "المصادر",
+    "readIn": "اقرأ بلغة أخرى",
+    "programs": "اطّلع على البرامج",
+    "whatsapp": "اسأل عبر واتساب",
+    "whatsappText": "مرحبًا سوسميت، قرأت المقال عن التدريب الهجين للقوة وأريد حجز استشارة",
+    "skip": "انتقل إلى المحتوى",
+    "crumb": "التدريب الهجين للقوة"
+   },
+   "authorLine": "بقلم سوسميت جالان، مدرب القوة والتكييف البدني في Online Fitness Worldwide."
+  },
+  "hi": {
+   "metaTitle": "हाइब्रिड स्ट्रेंथ ट्रेनिंग: प्रमाण | Online Fitness Worldwide",
+   "metaDescription": "स्ट्रेंथ और एंड्यूरेंस ट्रेनिंग साथ करने पर कॉन्करेंट ट्रेनिंग शोध क्या बताता है: ताकत, मांसपेशी आकार, पावर, क्रम और एक ही दिन के सत्र।",
+   "h1": "हाइब्रिड स्ट्रेंथ ट्रेनिंग: कॉन्करेंट ट्रेनिंग शोध क्या दिखाता है",
+   "dek": "किसी रेस की तैयारी से अलग, एक ही प्रोग्राम में स्ट्रेंथ और एंड्यूरेंस ट्रेनिंग मिलाने पर अध्ययन क्या बताते हैं: ताकत, मांसपेशी आकार, पावर और एंड्यूरेंस पर असर।",
+   "intro": [
+    "शोधकर्ता स्ट्रेंथ और एंड्यूरेंस ट्रेनिंग के मेल को कॉन्करेंट ट्रेनिंग कहते हैं। 43 अध्ययनों के 2022 के एक मेटा-विश्लेषण में पाया गया कि एक जैसे स्ट्रेंथ प्रोग्राम में एरोबिक ट्रेनिंग जोड़ने से अधिकतम ताकत या मांसपेशी वृद्धि पर असर नहीं पड़ा, लेकिन विस्फोटक ताकत की बढ़त कम हुई, ख़ासकर जब दोनों एक ही सत्र में किए गए।{3}",
+    "पहले के काम में हस्तक्षेप बताया गया था। 21 अध्ययनों के 2012 के एक मेटा-विश्लेषण में कॉन्करेंट ट्रेनिंग की तुलना में केवल स्ट्रेंथ ट्रेनिंग से ताकत, मांसपेशी आकार और पावर के बड़े इफ़ेक्ट साइज़ मिले, और हस्तक्षेप को एंड्यूरेंस ट्रेनिंग के प्रकार, आवृत्ति और अवधि से जोड़ा गया।{2} 1980 के एक अध्ययन में संयुक्त समूह की ताकत 7 हफ़्तों तक केवल-स्ट्रेंथ समूह की तरह बढ़ी, फिर 9वें और 10वें हफ़्ते में रुकी और घटी, जबकि अधिकतम ऑक्सीजन ग्रहण की बढ़त पर असर नहीं पड़ा।{1}",
+    "WHO की 2020 की गाइडलाइंस वयस्कों के लिए एरोबिक गतिविधि और हफ़्ते में 2 या अधिक दिन मांसपेशी मज़बूत करने वाली गतिविधियों, दोनों की सिफ़ारिश करती हैं।{6}"
+   ],
+   "listHeading": "अध्ययनों ने किन बातों की जाँच की",
+   "items": [
+    {
+     "name": "दौड़ना या साइकिल चलाना",
+     "why": "2012 के मेटा-विश्लेषण में दौड़ के साथ कॉन्करेंट ट्रेनिंग से, साइकिल के साथ नहीं, मांसपेशी वृद्धि और ताकत घटी।{2} 2022 के मेटा-विश्लेषण में साइकिल और दौड़ के बीच कोई अंतर नहीं मिला।{3}"
+    },
+    {
+     "name": "एक ही सत्र या अलग सत्र",
+     "why": "ट्रेंड लोगों में कॉन्करेंट ट्रेनिंग से निचले शरीर का वन-रेपिटिशन मैक्सिमम केवल तब घटा जब दोनों एक ही सत्र में किए गए।{4}"
+    },
+    {
+     "name": "सत्र के भीतर क्रम",
+     "why": "2018 के एक मेटा-विश्लेषण में स्ट्रेंथ को एंड्यूरेंस से पहले करने पर निचले शरीर का वन-रेपिटिशन मैक्सिमम 3.96 kg अधिक मिला; क्रम से एरोबिक क्षमता पर असर नहीं पड़ा।{5}"
+    },
+    {
+     "name": "ट्रेनिंग स्तर",
+     "why": "कॉन्करेंट ट्रेनिंग से ट्रेंड लोगों में निचले शरीर की ताकत की बढ़त घटी, अनट्रेंड या मध्यम ट्रेंड लोगों में नहीं।{4}"
+    }
+   ],
+   "enoughHeading": "बताए गए इफ़ेक्ट साइज़ और प्रोटोकॉल",
+   "enough": [
+    "2012 के मेटा-विश्लेषण ने ताकत के लिए औसत इफ़ेक्ट साइज़ स्ट्रेंथ ट्रेनिंग से 1.76, कॉन्करेंट से 1.44 और एंड्यूरेंस से 0.78 बताए; मांसपेशी आकार के लिए 1.23, 0.85 और 0.27। एंड्यूरेंस ट्रेनिंग की आवृत्ति और अवधि का मांसपेशी आकार, ताकत और पावर की बढ़त से नकारात्मक सहसंबंध था।{2}",
+    "1980 के अध्ययन में स्ट्रेंथ समूह ने 10 हफ़्तों तक दिन में 30 से 40 मिनट, हफ़्ते में 5 दिन, और एंड्यूरेंस समूह ने दिन में 40 मिनट, हफ़्ते में 6 दिन ट्रेनिंग की; संयुक्त समूह ने दोनों किए। दोनों एंड्यूरेंस वाले समूहों में अधिकतम ऑक्सीजन ग्रहण लगभग 20 से 25% बढ़ा।{1}"
+   ],
+   "safety": [
+    "ACSM का 2015 का स्क्रीनिंग मॉडल व्यायाम से पहले मेडिकल क्लीयरेंस को मौजूदा गतिविधि, संकेतों या लक्षणों और/या ज्ञात हृदय-संबंधी, मेटाबॉलिक या किडनी रोग, और चाही गई तीव्रता पर आधारित करता है।{7}"
+   ],
+   "faq": [
+    {
+     "q": "कॉन्करेंट ट्रेनिंग क्या है?",
+     "a": "एक प्रोग्राम में स्ट्रेंथ और एंड्यूरेंस ट्रेनिंग मिलाने के लिए शोध का शब्द। 43 अध्ययनों के 2022 के एक मेटा-विश्लेषण ने इसकी तुलना केवल उसी स्ट्रेंथ प्रोग्राम से की।{3}"
+    },
+    {
+     "q": "क्या कार्डियो से ताकत की बढ़त घटती है?",
+     "a": "2022 के एक मेटा-विश्लेषण में अधिकतम ताकत या मांसपेशी वृद्धि पर असर नहीं मिला, लेकिन विस्फोटक ताकत की बढ़त कम मिली।{3} 2021 के एक मेटा-विश्लेषण में दोनों एक ही सत्र में करने पर ट्रेंड लोगों में निचले शरीर की ताकत की बढ़त कम मिली।{4}"
+    },
+    {
+     "q": "क्या स्ट्रेंथ और एंड्यूरेंस का क्रम मायने रखता है?",
+     "a": "2018 के एक मेटा-विश्लेषण में सत्र में स्ट्रेंथ पहले करने पर निचले शरीर का वन-रेपिटिशन मैक्सिमम 3.96 kg अधिक मिला, और क्रम का एरोबिक क्षमता पर असर नहीं था।{5}"
+    },
+    {
+     "q": "क्या दौड़ना साइकिल से ज़्यादा हस्तक्षेप करता है?",
+     "a": "2012 के मेटा-विश्लेषण में दौड़ से, साइकिल से नहीं, मांसपेशी वृद्धि और ताकत घटी;{2} 2022 के मेटा-विश्लेषण में दोनों में कोई अंतर नहीं मिला।{3}"
+    }
+   ],
+   "updated": "अपडेट 21 नवंबर 2026",
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों",
+    "how": "कैसे",
+    "dose": "डोज़",
+    "sources": "स्रोत",
+    "readIn": "इसे इस भाषा में पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "WhatsApp पर पूछें",
+    "whatsappText": "नमस्ते सुस्मित, मैंने हाइब्रिड स्ट्रेंथ ट्रेनिंग वाला लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    "skip": "सामग्री पर जाएँ",
+    "crumb": "हाइब्रिड स्ट्रेंथ ट्रेनिंग"
+   },
+   "authorLine": "लेखक: सुस्मित जालान, स्ट्रेंथ एंड कंडीशनिंग कोच, Online Fitness Worldwide।"
+  },
+  "es": {
+   "metaTitle": "Entrenamiento híbrido de fuerza: la evidencia | Online Fitness Worldwide",
+   "metaDescription": "Qué informa la investigación sobre entrenamiento concurrente al combinar fuerza y resistencia: fuerza, masa muscular, potencia, orden y sesiones el mismo día.",
+   "h1": "Entrenamiento híbrido de fuerza: qué muestra la investigación sobre entrenamiento concurrente",
+   "dek": "Qué informan los estudios cuando se combinan entrenamiento de fuerza y de resistencia en un mismo programa, fuera de la preparación para una carrera: efectos sobre fuerza, tamaño muscular, potencia y resistencia.",
+   "intro": [
+    "Los investigadores llaman entrenamiento concurrente a combinar fuerza y resistencia. Un metaanálisis de 2022 de 43 estudios encontró que añadir entrenamiento aeróbico a un programa de fuerza idéntico no comprometió la fuerza máxima ni el crecimiento muscular, pero atenuó la fuerza explosiva, más cuando ambos se hacían en la misma sesión.{3}",
+    "Trabajos anteriores informaron interferencia. Un metaanálisis de 2012 de 21 estudios encontró tamaños del efecto mayores en fuerza, tamaño muscular y potencia con solo entrenamiento de fuerza que con entrenamiento concurrente, y vinculó la interferencia al tipo, la frecuencia y la duración del trabajo de resistencia.{2} En un estudio de 1980, la fuerza de un grupo combinado subió igual que la del grupo solo de fuerza durante 7 semanas, luego se estancó y bajó en las semanas 9 y 10, mientras que el aumento del consumo máximo de oxígeno no se vio afectado.{1}",
+    "Las guías de la OMS de 2020 recomiendan a los adultos tanto actividad aeróbica como actividades de fortalecimiento muscular 2 o más días por semana.{6}"
+   ],
+   "listHeading": "Variables que examinaron los estudios",
+   "items": [
+    {
+     "name": "Correr o pedalear",
+     "why": "En el metaanálisis de 2012, el entrenamiento concurrente con carrera, pero no con ciclismo, redujo el crecimiento muscular y la fuerza.{2} El metaanálisis de 2022 no encontró diferencias entre ciclismo y carrera.{3}"
+    },
+    {
+     "name": "Misma sesión o sesiones separadas",
+     "why": "En personas entrenadas, el entrenamiento concurrente redujo la repetición máxima del tren inferior solo cuando ambos se hacían en la misma sesión.{4}"
+    },
+    {
+     "name": "Orden dentro de la sesión",
+     "why": "Un metaanálisis de 2018 encontró una repetición máxima del tren inferior 3,96 kg mayor cuando la fuerza precedía a la resistencia; el orden no afectó la capacidad aeróbica.{5}"
+    },
+    {
+     "name": "Nivel de entrenamiento",
+     "why": "El entrenamiento concurrente redujo las ganancias de fuerza del tren inferior en personas entrenadas, no en no entrenadas ni moderadamente entrenadas.{4}"
+    }
+   ],
+   "enoughHeading": "Tamaños del efecto y protocolos informados",
+   "enough": [
+    "El metaanálisis de 2012 informó tamaños del efecto medios para la fuerza de 1,76 con entrenamiento de fuerza, 1,44 con concurrente y 0,78 con resistencia; para el tamaño muscular, 1,23, 0,85 y 0,27. La frecuencia y la duración del entrenamiento de resistencia se correlacionaron negativamente con las ganancias de tamaño muscular, fuerza y potencia.{2}",
+    "En el estudio de 1980, el grupo de fuerza entrenó de 30 a 40 minutos al día, 5 días por semana, y el de resistencia 40 minutos al día, 6 días por semana, durante 10 semanas; el grupo combinado hizo ambos. El consumo máximo de oxígeno subió alrededor de un 20 a 25% en ambos grupos con resistencia.{1}"
+   ],
+   "safety": [
+    "El modelo de cribado del ACSM de 2015 basa la autorización médica previa al ejercicio en la actividad actual, los signos o síntomas y/o la enfermedad cardiovascular, metabólica o renal conocida, y la intensidad deseada.{7}"
+   ],
+   "faq": [
+    {
+     "q": "¿Qué es el entrenamiento concurrente?",
+     "a": "El término de investigación para combinar entrenamiento de fuerza y de resistencia en un mismo programa. Un metaanálisis de 2022 de 43 estudios lo comparó con un programa de fuerza idéntico por sí solo.{3}"
+    },
+    {
+     "q": "¿El cardio reduce las ganancias de fuerza?",
+     "a": "Un metaanálisis de 2022 no encontró que comprometiera la fuerza máxima ni el crecimiento muscular, pero sí una atenuación de la fuerza explosiva.{3} Un metaanálisis de 2021 encontró menores ganancias de fuerza del tren inferior en personas entrenadas cuando ambos se hacían en la misma sesión.{4}"
+    },
+    {
+     "q": "¿Importa el orden entre fuerza y resistencia?",
+     "a": "Un metaanálisis de 2018 encontró una repetición máxima del tren inferior 3,96 kg mayor cuando la fuerza iba primero en la sesión, sin efecto del orden sobre la capacidad aeróbica.{5}"
+    },
+    {
+     "q": "¿Interfiere más correr que pedalear?",
+     "a": "El metaanálisis de 2012 encontró que correr, pero no pedalear, redujo el crecimiento muscular y la fuerza;{2} el metaanálisis de 2022 no encontró diferencias entre ambos.{3}"
+    }
+   ],
+   "updated": "Actualizado el 21 de noviembre de 2026",
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué",
+    "how": "Cómo",
+    "dose": "Dosis",
+    "sources": "Fuentes",
+    "readIn": "Leer en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "whatsappText": "Hola Susmit, leí el artículo sobre entrenamiento híbrido de fuerza y quiero reservar una consulta",
+    "skip": "Saltar al contenido",
+    "crumb": "Entrenamiento híbrido de fuerza"
+   },
+   "authorLine": "Por Susmit Jalan, entrenador de fuerza y acondicionamiento en Online Fitness Worldwide."
+  },
+  "zh": {
+   "metaTitle": "混合力量训练：证据 | Online Fitness Worldwide",
+   "metaDescription": "同步训练研究对力量与耐力结合训练的报告：力量、肌肉体积、爆发力、训练顺序以及同日训练。",
+   "h1": "混合力量训练：同步训练研究显示了什么",
+   "dek": "在任何比赛备战之外，把力量训练和耐力训练放在同一计划中时，研究对力量、肌肉体积、爆发力和耐力的报告。",
+   "intro": [
+    "研究人员把力量与耐力结合的训练称为同步训练。一项2022年纳入43项研究的荟萃分析发现，在相同的力量计划中加入有氧训练不会影响最大力量或肌肉增长，但会削弱爆发力的增长，在同一次训练中进行两者时更明显。{3}",
+    "早期研究报告了干扰。一项2012年纳入21项研究的荟萃分析发现，单纯力量训练在力量、肌肉体积和爆发力上的效应量大于同步训练，并把干扰与耐力训练的方式、频率和时长联系起来。{2}在一项1980年的研究中，联合组的力量在7周内与单纯力量组同样上升，随后在第9和第10周停滞并下降，而最大摄氧量的提高未受影响。{1}",
+    "世卫组织2020年指南建议成人既进行有氧活动，又在每周2天或以上进行增强肌肉的活动。{6}"
+   ],
+   "listHeading": "研究考察的变量",
+   "items": [
+    {
+     "name": "跑步还是骑车",
+     "why": "在2012年的荟萃分析中，结合跑步而非骑车的同步训练降低了肌肉增长和力量。{2}2022年的荟萃分析发现骑车和跑步之间没有差异。{3}"
+    },
+    {
+     "name": "同一次训练还是分开训练",
+     "why": "在有训练经验的人中，只有两者在同一次训练中进行时，同步训练才降低下肢一次最大重复。{4}"
+    },
+    {
+     "name": "训练内的顺序",
+     "why": "一项2018年的荟萃分析发现，力量训练在耐力训练之前时下肢一次最大重复高3.96公斤；顺序不影响有氧能力。{5}"
+    },
+    {
+     "name": "训练水平",
+     "why": "同步训练降低了有训练经验者的下肢力量增长，未训练或中等训练者则没有。{4}"
+    }
+   ],
+   "enoughHeading": "报告的效应量和方案",
+   "enough": [
+    "2012年的荟萃分析报告，力量的平均效应量为：力量训练1.76、同步训练1.44、耐力训练0.78；肌肉体积为1.23、0.85和0.27。耐力训练的频率和时长与肌肉体积、力量和爆发力的增长呈负相关。{2}",
+    "在1980年的研究中，力量组每天训练30至40分钟、每周5天，耐力组每天40分钟、每周6天，共10周；联合组两者都做。两个包含耐力训练的组最大摄氧量都提高了约20%至25%。{1}"
+   ],
+   "safety": [
+    "ACSM 2015年的筛查模型根据当前活动水平、体征或症状和/或已知的心血管、代谢或肾脏疾病以及期望的运动强度来决定运动前是否需要医学许可。{7}"
+   ],
+   "faq": [
+    {
+     "q": "什么是同步训练？",
+     "a": "在一个计划中结合力量训练和耐力训练的研究术语。一项2022年纳入43项研究的荟萃分析把它与单独的相同力量计划进行了比较。{3}"
+    },
+    {
+     "q": "有氧训练会减少力量增长吗？",
+     "a": "一项2022年的荟萃分析发现最大力量和肌肉增长未受影响，但爆发力增长被削弱。{3}一项2021年的荟萃分析发现，两者在同一次训练中进行时，有训练经验者的下肢力量增长较少。{4}"
+    },
+    {
+     "q": "力量和耐力训练的顺序重要吗？",
+     "a": "一项2018年的荟萃分析发现，训练中先做力量时下肢一次最大重复高3.96公斤，顺序对有氧能力没有影响。{5}"
+    },
+    {
+     "q": "跑步的干扰比骑车大吗？",
+     "a": "2012年的荟萃分析发现跑步而非骑车降低了肌肉增长和力量；{2}2022年的荟萃分析发现两者没有差异。{3}"
+    }
+   ],
+   "updated": "更新于2026年11月21日",
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么",
+    "how": "怎么做",
+    "dose": "训练量",
+    "sources": "参考来源",
+    "readIn": "其他语言版本",
+    "programs": "查看课程",
+    "whatsapp": "通过WhatsApp咨询",
+    "whatsappText": "你好 Susmit，我读了关于混合力量训练的文章，想预约咨询",
+    "skip": "跳到正文",
+    "crumb": "混合力量训练"
+   },
+   "authorLine": "作者：Susmit Jalan，Online Fitness Worldwide 力量与体能教练。"
+  },
+  "ja": {
+   "metaTitle": "ハイブリッド筋力トレーニング：エビデンス | Online Fitness Worldwide",
+   "metaDescription": "筋力と持久力を組み合わせるコンカレントトレーニングの研究が報告していること：筋力、筋肉量、パワー、順序、同日のセッション。",
+   "h1": "ハイブリッド筋力トレーニング：コンカレントトレーニング研究が示すこと",
+   "dek": "レースの準備とは別に、筋力トレーニングと持久的トレーニングを同じプログラムで組み合わせたとき、筋力、筋肉量、パワー、持久力への影響について研究が報告していること。",
+   "intro": [
+    "研究者は筋力と持久力を組み合わせたトレーニングをコンカレントトレーニングと呼びます。43件の研究をまとめた2022年のメタ分析では、同一の筋力プログラムに有酸素トレーニングを加えても最大筋力や筋肥大は損なわれませんでしたが、爆発的筋力の向上は弱まり、同じセッションで両方を行った場合により顕著でした。{3}",
+    "以前の研究は干渉を報告していました。21件の研究をまとめた2012年のメタ分析では、筋力、筋肉量、パワーの効果量は、コンカレントトレーニングより筋力トレーニングのみのほうが大きく、干渉は持久的トレーニングの種類、頻度、時間と関連していました。{2}1980年の研究では、組み合わせ群の筋力は7週間は筋力のみの群と同様に向上し、その後9〜10週目に頭打ちとなって低下しましたが、最大酸素摂取量の向上は影響を受けませんでした。{1}",
+    "WHOの2020年ガイドラインは、成人に有酸素性の身体活動と週2日以上の筋力強化活動の両方を推奨しています。{6}"
+   ],
+   "listHeading": "研究が検討した変数",
+   "items": [
+    {
+     "name": "ランニングかサイクリングか",
+     "why": "2012年のメタ分析では、サイクリングではなくランニングとのコンカレントトレーニングで筋肥大と筋力が低下しました。{2}2022年のメタ分析ではサイクリングとランニングに差はありませんでした。{3}"
+    },
+    {
+     "name": "同じセッションか別のセッションか",
+     "why": "トレーニング経験者では、両方を同じセッションで行った場合にのみ、コンカレントトレーニングで下半身の1回最大挙上重量が低下しました。{4}"
+    },
+    {
+     "name": "セッション内の順序",
+     "why": "2018年のメタ分析では、筋力を持久力より先に行うと下半身の1回最大挙上重量が3.96 kg高く、順序は有酸素能力に影響しませんでした。{5}"
+    },
+    {
+     "name": "トレーニング歴",
+     "why": "コンカレントトレーニングで下半身の筋力向上が低下したのはトレーニング経験者で、未経験者や中程度の経験者では見られませんでした。{4}"
+    }
+   ],
+   "enoughHeading": "報告された効果量とプロトコル",
+   "enough": [
+    "2012年のメタ分析は、筋力の平均効果量を筋力トレーニング1.76、コンカレント1.44、持久的トレーニング0.78、筋肉量を1.23、0.85、0.27と報告しています。持久的トレーニングの頻度と時間は、筋肉量、筋力、パワーの向上と負の相関を示しました。{2}",
+    "1980年の研究では、筋力群が1日30〜40分・週5日、持久群が1日40分・週6日を10週間行い、組み合わせ群は両方を行いました。持久的トレーニングを含む2群とも最大酸素摂取量が約20〜25%上昇しました。{1}"
+   ],
+   "safety": [
+    "ACSMの2015年のスクリーニングモデルは、運動前の医学的許可の要否を、現在の活動量、徴候や症状、および／または既知の心血管・代謝・腎疾患、そして希望する運動強度に基づいて判断します。{7}"
+   ],
+   "faq": [
+    {
+     "q": "コンカレントトレーニングとは何ですか？",
+     "a": "筋力トレーニングと持久的トレーニングを1つのプログラムで組み合わせることを指す研究用語です。43件の研究をまとめた2022年のメタ分析は、それを同一の筋力プログラム単独と比較しました。{3}"
+    },
+    {
+     "q": "有酸素運動は筋力の向上を減らしますか？",
+     "a": "2022年のメタ分析では最大筋力や筋肥大は損なわれませんでしたが、爆発的筋力の向上は弱まりました。{3}2021年のメタ分析では、両方を同じセッションで行うと、トレーニング経験者の下半身の筋力向上が小さくなりました。{4}"
+    },
+    {
+     "q": "筋力と持久力の順序は関係しますか？",
+     "a": "2018年のメタ分析では、セッションで筋力を先に行うと下半身の1回最大挙上重量が3.96 kg高く、順序は有酸素能力に影響しませんでした。{5}"
+    },
+    {
+     "q": "ランニングはサイクリングより干渉が大きいですか？",
+     "a": "2012年のメタ分析ではサイクリングではなくランニングで筋肥大と筋力が低下し、{2}2022年のメタ分析では両者に差はありませんでした。{3}"
+    }
+   ],
+   "updated": "2026年11月21日更新",
+   "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ",
+    "how": "やり方",
+    "dose": "回数・量",
+    "sources": "出典",
+    "readIn": "他の言語で読む",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問する",
+    "whatsappText": "こんにちは Susmit さん、ハイブリッド筋力トレーニングの記事を読み、相談を予約したいです",
+    "skip": "本文へスキップ",
+    "crumb": "ハイブリッド筋力トレーニング"
+   },
+   "authorLine": "執筆：スシュミット・ジャラン（Online Fitness Worldwide ストレングス＆コンディショニングコーチ）"
+  },
+  "gu": {
+   "metaTitle": "હાઇબ્રિડ સ્ટ્રેન્થ ટ્રેનિંગ: પુરાવા | Online Fitness Worldwide",
+   "metaDescription": "સ્ટ્રેન્થ અને એન્ડ્યુરન્સ ટ્રેનિંગ સાથે કરવા વિશે કોન્કરન્ટ ટ્રેનિંગ સંશોધન શું કહે છે: તાકાત, સ્નાયુ કદ, પાવર, ક્રમ અને એક જ દિવસના સત્રો.",
+   "h1": "હાઇબ્રિડ સ્ટ્રેન્થ ટ્રેનિંગ: કોન્કરન્ટ ટ્રેનિંગ સંશોધન શું બતાવે છે",
+   "dek": "કોઈ રેસની તૈયારીથી અલગ, એક જ પ્રોગ્રામમાં સ્ટ્રેન્થ અને એન્ડ્યુરન્સ ટ્રેનિંગ જોડવા વિશે અભ્યાસો શું જણાવે છે: તાકાત, સ્નાયુ કદ, પાવર અને એન્ડ્યુરન્સ પર અસર.",
+   "intro": [
+    "સંશોધકો સ્ટ્રેન્થ અને એન્ડ્યુરન્સ ટ્રેનિંગના જોડાણને કોન્કરન્ટ ટ્રેનિંગ કહે છે. 43 અભ્યાસોના 2022 ના એક મેટા-વિશ્લેષણમાં જણાયું કે એકસરખા સ્ટ્રેન્થ પ્રોગ્રામમાં એરોબિક ટ્રેનિંગ ઉમેરવાથી મહત્તમ તાકાત કે સ્નાયુ વૃદ્ધિ પર અસર થઈ નહીં, પણ વિસ્ફોટક તાકાતનો વધારો ઘટ્યો, ખાસ કરીને જ્યારે બંને એક જ સત્રમાં કરાયા.{3}",
+    "અગાઉના કામમાં દખલ જણાવાઈ હતી. 21 અભ્યાસોના 2012 ના એક મેટા-વિશ્લેષણમાં કોન્કરન્ટ ટ્રેનિંગની સરખામણીમાં ફક્ત સ્ટ્રેન્થ ટ્રેનિંગથી તાકાત, સ્નાયુ કદ અને પાવરના મોટા ઇફેક્ટ સાઇઝ મળ્યા, અને દખલને એન્ડ્યુરન્સ ટ્રેનિંગના પ્રકાર, આવર્તન અને અવધિ સાથે જોડી.{2} 1980 ના એક અભ્યાસમાં સંયુક્ત જૂથની તાકાત 7 અઠવાડિયા સુધી ફક્ત-સ્ટ્રેન્થ જૂથની જેમ વધી, પછી 9મા અને 10મા અઠવાડિયે અટકી અને ઘટી, જ્યારે મહત્તમ ઓક્સિજન ગ્રહણના વધારા પર અસર થઈ નહીં.{1}",
+    "WHO ની 2020 ની માર્ગદર્શિકા પુખ્તો માટે એરોબિક પ્રવૃત્તિ અને અઠવાડિયામાં 2 કે વધુ દિવસ સ્નાયુ મજબૂત કરતી પ્રવૃત્તિઓ, બંનેની ભલામણ કરે છે.{6}"
+   ],
+   "listHeading": "અભ્યાસોએ કઈ બાબતો તપાસી",
+   "items": [
+    {
+     "name": "દોડવું કે સાઇકલ ચલાવવી",
+     "why": "2012 ના મેટા-વિશ્લેષણમાં દોડ સાથે કોન્કરન્ટ ટ્રેનિંગથી, સાઇકલ સાથે નહીં, સ્નાયુ વૃદ્ધિ અને તાકાત ઘટી.{2} 2022 ના મેટા-વિશ્લેષણમાં સાઇકલ અને દોડ વચ્ચે કોઈ તફાવત મળ્યો નહીં.{3}"
+    },
+    {
+     "name": "એક જ સત્ર કે અલગ સત્રો",
+     "why": "ટ્રેન્ડ લોકોમાં કોન્કરન્ટ ટ્રેનિંગથી નીચલા શરીરનું વન-રેપિટિશન મેક્સિમમ ફક્ત ત્યારે ઘટ્યું જ્યારે બંને એક જ સત્રમાં કરાયા.{4}"
+    },
+    {
+     "name": "સત્રની અંદર ક્રમ",
+     "why": "2018 ના એક મેટા-વિશ્લેષણમાં સ્ટ્રેન્થ એન્ડ્યુરન્સ પહેલાં કરવાથી નીચલા શરીરનું વન-રેપિટિશન મેક્સિમમ 3.96 kg વધુ મળ્યું; ક્રમથી એરોબિક ક્ષમતા પર અસર થઈ નહીં.{5}"
+    },
+    {
+     "name": "ટ્રેનિંગ સ્તર",
+     "why": "કોન્કરન્ટ ટ્રેનિંગથી ટ્રેન્ડ લોકોમાં નીચલા શરીરની તાકાતનો વધારો ઘટ્યો, અનટ્રેન્ડ કે મધ્યમ ટ્રેન્ડ લોકોમાં નહીં.{4}"
+    }
+   ],
+   "enoughHeading": "જણાવાયેલા ઇફેક્ટ સાઇઝ અને પ્રોટોકોલ",
+   "enough": [
+    "2012 ના મેટા-વિશ્લેષણે તાકાત માટે સરેરાશ ઇફેક્ટ સાઇઝ સ્ટ્રેન્થ ટ્રેનિંગથી 1.76, કોન્કરન્ટથી 1.44 અને એન્ડ્યુરન્સથી 0.78 જણાવ્યા; સ્નાયુ કદ માટે 1.23, 0.85 અને 0.27. એન્ડ્યુરન્સ ટ્રેનિંગની આવર્તન અને અવધિનો સ્નાયુ કદ, તાકાત અને પાવરના વધારા સાથે નકારાત્મક સહસંબંધ હતો.{2}",
+    "1980 ના અભ્યાસમાં સ્ટ્રેન્થ જૂથે 10 અઠવાડિયા સુધી દિવસમાં 30 થી 40 મિનિટ, અઠવાડિયામાં 5 દિવસ, અને એન્ડ્યુરન્સ જૂથે દિવસમાં 40 મિનિટ, અઠવાડિયામાં 6 દિવસ ટ્રેનિંગ કરી; સંયુક્ત જૂથે બંને કર્યા. બંને એન્ડ્યુરન્સવાળા જૂથોમાં મહત્તમ ઓક્સિજન ગ્રહણ લગભગ 20 થી 25% વધ્યું.{1}"
+   ],
+   "safety": [
+    "ACSM નું 2015 નું સ્ક્રીનિંગ મોડેલ કસરત પહેલાંની મેડિકલ મંજૂરીને વર્તમાન પ્રવૃત્તિ, સંકેતો કે લક્ષણો અને/અથવા જાણીતા હૃદય-સંબંધી, મેટાબોલિક કે કિડની રોગ, અને ઇચ્છિત તીવ્રતા પર આધારિત રાખે છે.{7}"
+   ],
+   "faq": [
+    {
+     "q": "કોન્કરન્ટ ટ્રેનિંગ શું છે?",
+     "a": "એક પ્રોગ્રામમાં સ્ટ્રેન્થ અને એન્ડ્યુરન્સ ટ્રેનિંગ જોડવા માટેનો સંશોધનનો શબ્દ. 43 અભ્યાસોના 2022 ના એક મેટા-વિશ્લેષણે તેની સરખામણી ફક્ત એ જ સ્ટ્રેન્થ પ્રોગ્રામ સાથે કરી.{3}"
+    },
+    {
+     "q": "શું કાર્ડિયોથી તાકાતનો વધારો ઘટે છે?",
+     "a": "2022 ના એક મેટા-વિશ્લેષણમાં મહત્તમ તાકાત કે સ્નાયુ વૃદ્ધિ પર અસર મળી નહીં, પણ વિસ્ફોટક તાકાતનો વધારો ઓછો મળ્યો.{3} 2021 ના એક મેટા-વિશ્લેષણમાં બંને એક જ સત્રમાં કરવાથી ટ્રેન્ડ લોકોમાં નીચલા શરીરની તાકાતનો વધારો ઓછો મળ્યો.{4}"
+    },
+    {
+     "q": "શું સ્ટ્રેન્થ અને એન્ડ્યુરન્સનો ક્રમ મહત્વનો છે?",
+     "a": "2018 ના એક મેટા-વિશ્લેષણમાં સત્રમાં સ્ટ્રેન્થ પહેલાં કરવાથી નીચલા શરીરનું વન-રેપિટિશન મેક્સિમમ 3.96 kg વધુ મળ્યું, અને ક્રમની એરોબિક ક્ષમતા પર અસર નહોતી.{5}"
+    },
+    {
+     "q": "શું દોડવું સાઇકલ કરતાં વધુ દખલ કરે છે?",
+     "a": "2012 ના મેટા-વિશ્લેષણમાં દોડથી, સાઇકલથી નહીં, સ્નાયુ વૃદ્ધિ અને તાકાત ઘટી;{2} 2022 ના મેટા-વિશ્લેષણમાં બંનેમાં કોઈ તફાવત મળ્યો નહીં.{3}"
+    }
+   ],
+   "updated": "અપડેટ 21 નવેમ્બર 2026",
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "શા માટે",
+    "how": "કેવી રીતે",
+    "dose": "ડોઝ",
+    "sources": "સ્રોતો",
+    "readIn": "આ ભાષામાં વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "WhatsApp પર પૂછો",
+    "whatsappText": "નમસ્તે સુસ્મિત, મેં હાઇબ્રિડ સ્ટ્રેન્થ ટ્રેનિંગ પરનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    "skip": "સામગ્રી પર જાઓ",
+    "crumb": "હાઇબ્રિડ સ્ટ્રેન્થ ટ્રેનિંગ"
+   },
+   "authorLine": "લેખક: સુસ્મિત જાલાન, સ્ટ્રેન્થ એન્ડ કન્ડિશનિંગ કોચ, Online Fitness Worldwide."
+  }
+ },
+ "format": "evidence"
+}
