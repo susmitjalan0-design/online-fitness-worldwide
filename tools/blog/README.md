@@ -13,9 +13,9 @@ This generator writes the same kind of pages directly and leaves the zip's own f
 
 - 6 posts already in the zip stay exactly as they are: cool-down, strength and conditioning for beginners, warm-up, women over 40,
   getting back after a long break, desk workers.
-- 34 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **238 new pages**, written to `cpanel-overlay/`.
-- The 7 blog indexes list all 40 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD. Their meta/Open Graph/Twitter description is replaced with a short, current one from `INDEX_DESCRIPTION` in `data/shared.json` (the zip's lists only its 6 posts and runs past 160 characters); `INDEX_TITLE` shortens an over-long `<title>` (Spanish). `BREADCRUMB_LABEL` gives the breadcrumb `<nav>` an `aria-label` in the page language on the indexes and on every generated post (the zip's template says "Breadcrumb" in all languages). `SITE_NAV_LABEL` does the same for the header `<nav>` (the zip says "Site" in all languages); `verify.mjs` fails if a non-English page still carries either English label. `FOOTER_BLOG_LABEL` localises the footer "Read the blog" button and points it at the page language's blog index (the zip's button is English and links to `/blog` in every language); `verify.mjs` fails on an English footer button on a non-English page, a `<title>` over 78 characters or a meta description over 160. `localizeHeader` (in `build.mjs`) fixes two header issues from the zip on every generated page, the indexes and the fat-loss page: the logo link's `aria-label` said the brand twice ("Online Fitness Worldwide, Online Fitness Worldwide: Home") and now says it once; on non-English pages the "Programs" link (English, `lang="en"`) uses `PROGRAMS_LABEL` in the page language, with `hreflang="en"` because it still points at the English home section (`/#programs`; there are no language homes). `verify.mjs` fails on a repeated brand in that label, an English "Programs" link on a non-English page, or a missing Programs link.
-- `sitemap.xml` has 289 URLs (51 before, plus 238), each with reciprocal `hreflang` and `x-default`.
+- 43 new posts × 7 languages (en, ar RTL, hi, es, zh, ja, gu) = **301 new pages**, written to `cpanel-overlay/`.
+- The 7 blog indexes list all 49 posts (new first, the 6 existing cards unchanged), with the new posts added to their JSON-LD. Their meta/Open Graph/Twitter description is replaced with a short, current one from `INDEX_DESCRIPTION` in `data/shared.json` (the zip's lists only its 6 posts and runs past 160 characters); `INDEX_TITLE` shortens an over-long `<title>` (Spanish). `BREADCRUMB_LABEL` gives the breadcrumb `<nav>` an `aria-label` in the page language on the indexes and on every generated post (the zip's template says "Breadcrumb" in all languages). `SITE_NAV_LABEL` does the same for the header `<nav>` (the zip says "Site" in all languages); `verify.mjs` fails if a non-English page still carries either English label. `FOOTER_BLOG_LABEL` localises the footer "Read the blog" button and points it at the page language's blog index (the zip's button is English and links to `/blog` in every language); `verify.mjs` fails on an English footer button on a non-English page, a `<title>` over 78 characters or a meta description over 160. `localizeHeader` (in `build.mjs`) fixes two header issues from the zip on every generated page, the indexes and the fat-loss page: the logo link's `aria-label` said the brand twice ("Online Fitness Worldwide, Online Fitness Worldwide: Home") and now says it once; on non-English pages the "Programs" link (English, `lang="en"`) uses `PROGRAMS_LABEL` in the page language, with `hreflang="en"` because it still points at the English home section (`/#programs`; there are no language homes). `verify.mjs` fails on a repeated brand in that label, an English "Programs" link on a non-English page, or a missing Programs link.
+- `sitemap.xml` has 352 URLs (51 before, plus 301), each with reciprocal `hreflang` and `x-default`.
 - "More from the blog" on each post lists the 6 posts published just before it (then the nearest newer ones), skipping its race cluster and its "See also" posts. It is anchored to the post's own place in `data/order.json`, so adding a new post at the top changes only the new pages, the indexes, the fat-loss page and the sitemap, not every older post.
 - The fat-loss page's "Read next" shows five posts: the type 2 diabetes post, the beginners post, then the newest posts outside the race cluster.
 
@@ -60,7 +60,7 @@ Nothing here deploys anything. To publish:
 1. Restore and extract the zip from `cpanel-white-theme` into `public_html` as usual
    (`node scripts/restore-binaries.mjs` writes it; the zip on this branch is the older one from `main`, so use the `cpanel-white-theme` zip).
 2. Copy the **contents** of `cpanel-overlay/` over `public_html`, replacing files when asked.
-   It adds `assets/blog-extra-<hash>.css`, the 238 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
+   It adds `assets/blog-extra-<hash>.css`, the 301 post pages, and replaces the 7 blog indexes, `personal-trainer-for-fat-loss/index.html` and `sitemap.xml`.
    It touches none of the six existing posts or any other file. The existing `.htaccess` already serves each folder's `index.html` at its slash-less URL.
 
 ## What is in this folder
@@ -68,9 +68,9 @@ Nothing here deploys anything. To publish:
 | File | What it is |
 | --- | --- |
 | `build.mjs` | the generator |
-| `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic, no English advice phrases in the `<article>` of English posts or the `<main>` of the fat-loss page, FAQPage JSON-LD = visible FAQ, no time-zone claim ("On IST" or a translation), ebook block at most once per page with `rel="sponsored nofollow noopener"` Amazon links, no placeholder ebook value, no price or rating in the block |
+| `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic, no English advice phrases in the `<article>` of English posts or the `<main>` of the fat-loss page, FAQPage JSON-LD = visible FAQ, no time-zone claim ("On IST" or a translation), ebook block at most once per page with `rel="sponsored nofollow noopener"` Amazon links, no placeholder ebook value, no price or rating in the block, header and footer logo `<img>` sized to the file's ratio (184 × 33) |
 | `export-posts.mjs` | turns the TypeScript posts into `data/` (needs esbuild) |
-| `data/` | the 34 posts (copy in 7 languages, sources), the post order, shared labels, the ebook map |
+| `data/` | the 43 posts (copy in 7 languages, sources), the post order, shared labels, the ebook map |
 | `template/` | pages copied from the zip: 7 blog indexes, one existing post per language (head, header, footer, byline), the fat-loss page, `sitemap.xml` |
 | `blog-extra.css` | the few rules the zip's compiled stylesheet lacks (jump chips, highlighted source, "Before you start" rule, `font-normal`) in the zip's blue |
 | `existing-posts.json` | the 6 posts that are already in the zip and are not re-rendered |
@@ -239,4 +239,18 @@ The sentence and its translations are gone from the generator data and from ever
   (`TIMEZONE_CLAIM`).
 - Not covered: the 6 posts that live only in the zip (42 pages) and the zip's home page are not generated here, so they still carry
   the old wording until the zip itself is rebuilt.
+
+## Achilles and patellar tendon pain post and logo size fix (21 November 2026)
+
+Added `achilles-and-patellar-tendon-pain` in 7 languages, data-only (`"format": "evidence"`), with 14 sources: Cook & Purdam 2009
+(BJSM, continuum model), Cook et al. 2016 (BJSM, continuum revisited), the 2024 JOSPT midportion Achilles tendinopathy clinical
+practice guideline (Chimenti et al., Academy of Orthopaedic Physical Therapy, APTA; revision of Martin et al. 2018), de Jonge 2011,
+van der Vlist 2021, Beyer 2015, Silbernagel 2007, Lian 2005, Kongsgaard 2009, Breda 2021, Rio 2015, Challoumas 2021, Challoumas 2023
+and the NHS tendonitis page (page last reviewed 9 June 2023, accessed 21 November 2026). Medical topic: needs clinician review.
+
+`fixLogoSize` (in `build.mjs`): the zip's header logo `<img>` says `width="160" height="44"` (ratio 3.6) and the footer logo has no
+size, but `ofw-logo-Dh5_mZHL.png` is 1840 × 330 px (ratio 5.6). Browsers reserve space from these attributes before the image loads,
+so the header shifted when the logo arrived and the footer logo had no reserved box (cumulative layout shift). Both now carry
+`width="184" height="33"` (the file's ratio; CSS still sets the displayed height), and the footer copy is `loading="lazy"`. Applied to
+every generated post, the 7 indexes and the fat-loss page. `verify.mjs` fails on a logo `<img>` without those dimensions.
 

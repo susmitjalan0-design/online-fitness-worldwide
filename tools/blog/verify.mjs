@@ -93,6 +93,10 @@ for (const file of pages) {
   if (/aria-label="Online Fitness Worldwide, Online Fitness Worldwide:/.test(h)) bad(rel, "home-link aria-label repeats the brand");
   if (lang !== "en" && /<header[\s\S]*?>Programs<\/a>[\s\S]*?<\/header>/.test(h)) bad(rel, "header Programs link in English on a non-English page");
   if (/<header[\s\S]*?<\/header>/.test(h) && !/<header[\s\S]*?<a href="\/#programs"[^>]*>[^<]+<\/a>[\s\S]*?<\/header>/.test(h)) bad(rel, "header Programs link missing");
+  // Logo <img>: width/height must match the file's ratio (1840 x 330), or the page shifts when it loads (fixLogoSize in build.mjs).
+  const logos = h.match(/<img src="\/assets\/ofw-logo-[^"]*"[^>]*>/g) ?? [];
+  if (logos.length < 2) bad(rel, `expected header and footer logo <img>, found ${logos.length}`);
+  for (const img of logos) if (!img.includes('width="184" height="33"')) bad(rel, `logo <img> without width="184" height="33": ${img.slice(0, 90)}`);
   const title = h.match(/<title>([^<]*)<\/title>/)?.[1] ?? "";
   if ([...title].length > 78) bad(rel, `title over 78 characters (${[...title].length})`);
   const desc = h.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? "";
