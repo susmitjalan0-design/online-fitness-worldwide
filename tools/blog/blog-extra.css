@@ -49,3 +49,29 @@
 .font-normal {
   font-weight: 400;
 }
+
+/* Ebook block halfway through a post: set apart from the article by a blue start edge; cover beside the text from 640px up. Mirrors in RTL. */
+.ebook-block {
+  border-inline-start: 4px solid #0050f8;
+}
+.ebook-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+@media (min-width: 640px) {
+  .ebook-row {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+.ebook-cover {
+  width: 7.5rem;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0 1px #e5e5e5, 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+.ebook-body {
+  min-width: 0;
+}

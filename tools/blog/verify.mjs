@@ -1,8 +1,10 @@
 // Checks the generated output: one title/description/h1/canonical per page, canonical == sitemap URL, 8 hreflang links,
 // JSON-LD parses, citations resolve, internal links resolve, no prices, no old brand or location, RTL on Arabic,
 // header and breadcrumb <nav> labels and the footer blog button in the page language on non-English pages,
-// FAQPage JSON-LD that mirrors the visible FAQ, <title> at most 78 characters, meta description at most 160, and no English advice phrases (data-only rule) in the
-// <article> of English posts or the <main> of the fat-loss page.
+// FAQPage JSON-LD that mirrors the visible FAQ, <title> at most 78 characters, meta description at most 160, no English advice phrases (data-only rule) in the
+// <article> of English posts or the <main> of the fat-loss page, no time-zone claim ("On IST" or a translation), and the ebook block: at most once per page,
+// every Amazon link rel="sponsored nofollow noopener" target="_blank", no placeholder value from data/ebooks.json, no price or rating in the block,
+// cover and sample PDF files present.
 //   node verify.mjs [path to a merged public_html (zip contents + cpanel-overlay)]
 // Without a path it checks cpanel-overlay alone and accepts links to the 6 posts that live only in the zip.
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
@@ -22,6 +24,15 @@ const problems = [];
 // Data-only rule: posts report what named sources found and state; they give no advice, instructions or recommendations.
 const ADVICE = /\b(you should|you can|you need|you must|try |aim for|we recommend|i recommend|recommend you|stop if|make sure|don't|do not lift|start with|start light|keep (1|it|your)|our take|best for you|consult your|talk to your|see your|ask your|get medical|i'm a coach|i coach)/i;
 const bad = (page, msg) => problems.push(`${page}: ${msg}`);
+// Copy scrub: "In Hindi or English. On IST." and its translations must not come back (same pattern as TIMEZONE_CLAIM in build.mjs).
+const TIMEZONE_CLAIM = /\bIST\b|India Standard Time|Indian Standard Time|印度标准时间|インド標準時|भारतीय मानक समय|ભારતીય માનક સમય|توقيت الهند/;
+// Ebook placeholders: every value of an ebook marked "placeholder", and any value containing PLACEHOLDER, must never reach a page.
+const ebooksFile = join(here, "data/ebooks.json");
+const ebookData = existsSync(ebooksFile) ? JSON.parse(readFileSync(ebooksFile, "utf8")) : { ebooks: {} };
+const strings = (v) => (typeof v === "string" ? [v] : v && typeof v === "object" ? Object.values(v).flatMap(strings) : []);
+const placeholderValues = Object.entries(ebookData.ebooks ?? {})
+  .flatMap(([id, b]) => [...(b.placeholder ? [id] : []), ...strings({ t: b.title, d: b.description, a: b.amazonUrl, c: b.coverPath, p: b.samplePdfPath }).filter((v) => b.placeholder || /placeholder/i.test(v))])
+  .filter((v) => v.trim().length >= 6);
 let checked = 0;
 const pages = walk(overlay).filter((f) => f.endsWith("index.html"));
 for (const file of pages) {
@@ -56,6 +67,25 @@ for (const file of pages) {
     if ((faqLd?.mainEntity ?? []).some((q) => !q.acceptedAnswer?.text || /\{\d+\}/.test(q.acceptedAnswer.text))) bad(rel, "FAQPage answer missing or has a raw citation");
   }
   const lang = rel.match(/^\/(ar|hi|es|zh|ja|gu)(\/|$)/)?.[1] ?? "en";
+  const tz = h.match(TIMEZONE_CLAIM);
+  if (tz) bad(rel, `time-zone claim "${tz[0]}" (copy scrub)`);
+  // Ebook block.
+  const ebookBlocks = (h.match(/data-ebook-block=/g) || []).length;
+  if (ebookBlocks > 1) bad(rel, `ebook block appears ${ebookBlocks} times`);
+  if (ebookBlocks && !/<article[\s\S]*data-ebook-block=[\s\S]*<\/article>/.test(h)) bad(rel, "ebook block outside the article");
+  for (const m of h.matchAll(/<a\b[^>]*\bhref="https?:\/\/(?:[a-z0-9-]+\.)*(?:amazon\.[a-z.]+|amzn\.[a-z]+)[\/"?][^>]*>/gi)) {
+    const relTokens = (m[0].match(/\brel="([^"]*)"/)?.[1] ?? "").split(/\s+/);
+    if (!relTokens.includes("sponsored")) bad(rel, "Amazon link without rel=sponsored");
+    if (!relTokens.includes("nofollow") || !relTokens.includes("noopener") || !/\btarget="_blank"/.test(m[0])) bad(rel, "Amazon link without nofollow, noopener or target=_blank");
+  }
+  if (/placeholder/i.test(h.replace(/<style[\s\S]*?<\/style>/g, ""))) bad(rel, "PLACEHOLDER text in page");
+  for (const v of placeholderValues) if (h.includes(v)) bad(rel, `placeholder ebook value in page: ${v.slice(0, 40)}`);
+  const block = h.match(/<aside[^>]*data-ebook-block=[\s\S]*?<\/aside>/)?.[0];
+  if (block) {
+    const blockText = block.replace(/<[^>]+>/g, " ");
+    if (/[$€£₹¥★☆]|\b(rating|ratings|rated|reviews?|stars?|bestseller|best-selling|price|free shipping)\b|\d(\.\d)? out of 5/i.test(blockText)) bad(rel, "price, rating or review wording in the ebook block");
+    for (const m of block.matchAll(/(?:src|href)="(\/ebooks\/[^"]+)"/g)) if (!existsSync(join(root, m[1]))) bad(rel, `ebook file missing: ${m[1]}`);
+  }
   if (!h.includes(`<html lang="${lang}" dir="${lang === "ar" ? "rtl" : "ltr"}">`)) bad(rel, "html lang/dir");
   if (/\{\d+\}/.test(h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/g, ""))) bad(rel, "raw {n} citation");
   if (lang !== "en" && /<nav aria-label="(Site|Breadcrumb)"/.test(h)) bad(rel, "English nav aria-label on a non-English page");
@@ -86,7 +116,7 @@ for (const file of pages) {
   for (const m of h.matchAll(/<a [^>]*href="(\/[^"#?]*)/g)) {
     const p = m[1];
     if (existing.includes(p.split("/").pop()) && /\/blog\//.test(p)) continue; // already in the zip, not in this folder
-    if (p === "/" || p.startsWith("/assets/") || p.startsWith("/__grok")) continue;
+    if (p === "/" || p.startsWith("/assets/") || p.startsWith("/__grok") || p.startsWith("/ebooks/")) continue; // ebook files: checked with the block
     const dir = p.replace(/\/$/, "");
     if (!existsSync(join(root, dir, "index.html"))) bad(rel, `broken internal link ${p}`);
   }

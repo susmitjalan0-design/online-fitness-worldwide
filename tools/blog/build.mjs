@@ -5,14 +5,15 @@
 // Inputs, all in this folder:
 //   data/posts/*.json   the posts (copy in 7 languages, sources), exported from the TypeScript sources by export-posts.mjs
 //   data/order.json     every post, newest first (blog index order, "More from the blog")
-//   data/shared.json    language names, "Source"/"Jump to" labels, the hybrid-race cluster
+//   data/shared.json    language names, "Source"/"Jump to" labels, the hybrid-race cluster, ebook block labels
+//   data/ebooks.json    which ebook each post shows halfway through (ebook block); ebooks/ holds their covers and sample PDFs
 //   template/           pages taken from the live cPanel zip: the 7 blog indexes, one existing post per language
 //                       (head, header, footer, byline), the fat-loss page and sitemap.xml
 //
 // Nothing is fetched and nothing outside this repo is touched. No dependencies, Node 18 or newer.
-import { mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync, existsSync } from "node:fs";
+import { copyFileSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
-import { dirname, join } from "node:path";
+import { dirname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -61,6 +62,91 @@ export function rebrand(value, lang) {
 }
 /** Strings that must not survive in any page: the old brand and the old location. */
 export const FORBIDDEN = /Jalan PT|jalan-pt|Pune|पुणे|بونه|浦那|プネー|પુણે/;
+
+/* Copy scrub (21 November 2026): the zip's templates tie the service to one language pair and one time zone
+   ("In Hindi or English. On IST."). Every page built from them gets neutral wording that makes no claim about hours or time
+   zones. The templates stay byte-for-byte copies of the zip; the replacement happens here, so a template refresh can't bring the
+   old sentence back unnoticed (build throws on TIMEZONE_CLAIM, verify.mjs fails on it). */
+export const ZIP_COPY_NEUTRAL = [
+  [
+    "1:1 and small-group sessions on Google Meet, Zoom or FaceTime, in Hindi or English, on IST.",
+    "1:1 and small-group sessions, live online by video call (Google Meet, Zoom or FaceTime). Session times are agreed when you book.",
+  ],
+  ["planned week by week. Hindi or English, on IST.", "planned week by week. Session times are agreed when you book."],
+  ["On Google Meet, Zoom or FaceTime. In Hindi or English. On IST.", "Live online by video call (Meet, Zoom or FaceTime). Session times are agreed when you book."],
+];
+export const neutralZipCopy = (html) => ZIP_COPY_NEUTRAL.reduce((h, [from, to]) => h.split(from).join(to), html);
+/** "On IST" and the translations used in the zip and the data (IST in every language, India Standard Time spelled out). */
+export const TIMEZONE_CLAIM = /\bIST\b|India Standard Time|Indian Standard Time|印度标准时间|インド標準時|भारतीय मानक समय|ભારતીય માનક સમય|توقيت الهند/;
+
+/* ------------------------------------------------------------- ebook block */
+
+/* One ebook block halfway through a post (after the item list, before the "enough" section), from data/ebooks.json and the
+   EBOOK_LABELS in data/shared.json. Placeholders never render: an ebook marked "placeholder": true, or any value that is empty
+   or contains PLACEHOLDER, is dropped. Piece by piece: no real amazonUrl, no Kindle button; no sample PDF file, no PDF link;
+   no cover file, no image. With neither a button nor a PDF link (or no real title), the block is not rendered at all. */
+export const isPlaceholderValue = (v) => typeof v !== "string" || !v.trim() || /placeholder/i.test(v);
+const AMAZON_HOST =
+  /^(www\.)?(amazon\.(com|ca|com\.mx|com\.br|co\.uk|de|fr|es|it|nl|se|pl|com\.be|com\.tr|ae|sa|eg|in|co\.jp|sg|com\.au)|amzn\.(to|eu|asia))$/;
+
+export function loadEbooks(file = process.env.EBOOKS_FILE ?? join(here, "data/ebooks.json"), assetDir = process.env.EBOOKS_ASSETS ?? join(here, "ebooks")) {
+  if (!existsSync(file)) return { posts: {}, ebooks: {}, assetDir };
+  const d = JSON.parse(readFileSync(file, "utf8"));
+  return { posts: d.posts ?? {}, ebooks: d.ebooks ?? {}, assetDir };
+}
+
+/** What the block can show for one post in one language, or null for no block. Throws on an unknown id, a bad Amazon URL or a path outside ebooks/. */
+export function ebookFor(EB, slug, lang) {
+  const id = EB.posts[slug];
+  if (!id) return null;
+  const b = EB.ebooks[id];
+  if (!b) throw new Error(`data/ebooks.json: ${slug} maps to unknown ebook "${id}"`);
+  if (b.placeholder) return null;
+  const pick = (m) => {
+    if (!m) return null;
+    if (!isPlaceholderValue(m[lang])) return { text: m[lang], lang };
+    if (!isPlaceholderValue(m.en)) return { text: m.en, lang: "en" };
+    return null;
+  };
+  const title = pick(b.title);
+  if (!title) return null;
+  let amazonUrl = null;
+  if (!isPlaceholderValue(b.amazonUrl)) {
+    let u = null;
+    try {
+      u = new URL(b.amazonUrl);
+    } catch {}
+    if (!u || u.protocol !== "https:" || !AMAZON_HOST.test(u.hostname)) throw new Error(`data/ebooks.json: ${id}: amazonUrl is not an https Amazon URL: ${b.amazonUrl}`);
+    amazonUrl = u.toString();
+  }
+  const asset = (p) => {
+    if (isPlaceholderValue(p)) return null;
+    const rel = normalize(p).replace(/^\/+/, "");
+    if (rel.startsWith("..")) throw new Error(`data/ebooks.json: ${id}: ${p} is outside tools/blog/ebooks/`);
+    return existsSync(join(EB.assetDir, rel)) ? rel : null;
+  };
+  const samplePdf = asset(b.samplePdfPath);
+  if (!amazonUrl && !samplePdf) return null;
+  return { id, title, description: pick(b.description), amazonUrl, cover: asset(b.coverPath), samplePdf };
+}
+
+/** The block's markup. Labelled as coming from OnlineFitnessWorldwide; no price, rating or review count; Amazon link rel="sponsored nofollow noopener". */
+export function ebookBlockHtml(T, e, lang) {
+  const L = T.shared.EBOOK_LABELS[lang];
+  const newTab = T.shared.NEW_TAB_LABEL[lang];
+  const other = (x) => (x.lang !== lang ? ` lang="${x.lang}" dir="ltr"` : "");
+  const cover = e.cover
+    ? `<img src="/ebooks/${esc(e.cover)}" alt="${esc(L.coverAlt.replace("{title}", e.title.text))}" loading="lazy" decoding="async" class="ebook-cover"/>`
+    : "";
+  const desc = e.description ? `<p class="mt-2 text-base leading-relaxed text-mist"${other(e.description)}>${esc(e.description.text)}</p>` : "";
+  const kindle = e.amazonUrl
+    ? `<a href="${esc(e.amazonUrl)}" target="_blank" rel="sponsored nofollow noopener" class="btn-accent inline-flex min-h-12 items-center gap-1 rounded-full px-6 text-sm font-semibold">${esc(L.button)}<span class="sr-only"> (${esc(newTab)})</span></a>`
+    : "";
+  const pdf = e.samplePdf
+    ? `<a href="/ebooks/${esc(e.samplePdf)}" type="application/pdf" class="inline-flex min-h-11 items-center text-sm font-semibold text-copper underline underline-offset-4">${esc(L.sample)}</a>`
+    : "";
+  return `<aside aria-labelledby="ebook-title" data-ebook-block="${esc(e.id)}" class="ebook-block mt-12 rounded-3xl border border-line bg-ink-2 p-6 sm:p-8"><p class="eyebrow text-sm font-semibold text-copper">${esc(L.from)} · ${esc(L.kind)}</p><div class="ebook-row mt-4">${cover}<div class="ebook-body"><p id="ebook-title" class="font-display text-2xl"${other(e.title)}>${esc(e.title.text)}</p>${desc}<div class="mt-5 flex flex-wrap items-center gap-4">${kindle}${pdf}</div></div></div></aside>`;
+}
 /** The zip's footer button says "Read the blog" and links to the English blog on every page: use the page language
  *  (FOOTER_BLOG_LABEL) and that language's blog index. Throws if the button is missing, so a template change can't slip by. */
 export function localizeFooterBlogLink(html, lang, shared) {
@@ -324,6 +410,10 @@ export function renderPost(T, posts, post, lang, ctx) {
       : ""
   }</div><div class="mt-6 flex flex-wrap gap-3"><a href="${PROGRAMS_PATH}" class="btn-accent inline-flex min-h-12 items-center gap-1 rounded-full px-6 text-sm font-semibold">${esc(copy.labels.programs)}${ARROW("size-4 rtl:-scale-x-100")}</a><a href="${wa}" target="_blank" rel="noopener noreferrer" class="btn-wa inline-flex min-h-12 items-center rounded-full px-6 text-sm font-semibold">${esc(copy.labels.whatsapp)}<span class="sr-only"> (${esc(newTab)})</span></a></div></section>`;
 
+  const ebook = ctx.ebooks ? ebookFor(ctx.ebooks, post.slug, lang) : null;
+  if (ebook) ctx.ebookAssets?.add(ebook.cover).add(ebook.samplePdf);
+  const ebookHtml = ebook ? ebookBlockHtml(T, ebook, lang) : "";
+
   const langNav = T.langs
     .map((l) =>
       l === lang
@@ -397,7 +487,7 @@ export function renderPost(T, posts, post, lang, ctx) {
         .join("")}</ul><p class="mt-6"><a href="${blogPath}" class="btn-light inline-flex min-h-11 items-center gap-1 rounded-full px-5 text-sm font-semibold">${esc(s.blogLabel)}${ARROW("size-4 rtl:-scale-x-100")}</a></p></nav>`
     : "";
 
-  const article = `<article class="shell band max-w-3xl text-start"><nav aria-label="${esc(shared.BREADCRUMB_LABEL?.[lang] ?? "Breadcrumb")}" class="text-sm text-mist"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="underline-offset-4 hover:underline">${esc(s.homeLabel)}</a></li><li aria-hidden="true">/</li><li><a href="${blogPath}" class="underline-offset-4 hover:underline">${esc(s.blogLabel)}</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-ink">${esc(copy.labels.crumb)}</li></ol></nav><p class="eyebrow mt-8 text-xs font-semibold tracking-widest text-copper uppercase">${esc(s.blogLabel)}</p><h1 class="mt-3 font-display text-4xl leading-[1.05] sm:text-5xl">${esc(copy.h1)}</h1><p class="mt-5 text-lg leading-relaxed text-mist">${esc(copy.dek)}</p><p class="mt-4 text-sm text-mist"><span>${esc(s.byline)}</span> <time dateTime="${post.modified}">${esc(copy.updated)}</time></p><nav aria-label="${esc(copy.labels.readIn)}" class="mt-5 rounded-2xl border border-line bg-ink-2 p-4 text-sm"><p class="font-medium">${esc(copy.labels.readIn)}</p><ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2">${langNav}</ul></nav><div class="prose-links mt-8 space-y-4 text-base leading-relaxed sm:text-lg">${copy.intro.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div>${seeAlsoHtml}${copy.items.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.listHeading)}</h2>${jump}${items}` : ""}${post.ctaMid ? coached : ""}${copy.enough.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.enoughHeading)}</h2><div class="mt-4 space-y-4 text-base leading-relaxed sm:text-lg">${copy.enough.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div>` : ""}${copy.sample?.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.sampleHeading)}</h2><div class="mt-4 rounded-2xl border-2 border-dashed border-copper/60 p-5"><p class="text-sm font-semibold text-copper">${esc(copy.sampleLabel)}</p><ul class="list-mark mt-3 list-disc space-y-2 ps-5 text-base leading-relaxed">${copy.sample.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></div>` : ""}${post.ctaMid ? "" : coached}<h2 class="mt-12 font-display text-2xl">${esc(copy.safetyHeading)}</h2>${[copy.safety].flat().map((l) => `<p class="note-safety mt-3 text-base leading-relaxed text-mist">${cited(l, sourceLabel, rtl)}</p>`).join("")}${copy.disclaimer ? `<p class="mt-3 text-base leading-relaxed text-mist">${bidi(copy.disclaimer, rtl)}</p>` : ""}<p class="mt-6 text-sm leading-relaxed text-mist">${bidi(copy.credentialsNote, rtl)}</p>${faqHtml}<h2 class="mt-12 font-display text-2xl">${esc(copy.labels.sources)}</h2>${sources}${clusterHtml}${relatedHtml}</article>`;
+  const article = `<article class="shell band max-w-3xl text-start"><nav aria-label="${esc(shared.BREADCRUMB_LABEL?.[lang] ?? "Breadcrumb")}" class="text-sm text-mist"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="underline-offset-4 hover:underline">${esc(s.homeLabel)}</a></li><li aria-hidden="true">/</li><li><a href="${blogPath}" class="underline-offset-4 hover:underline">${esc(s.blogLabel)}</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-ink">${esc(copy.labels.crumb)}</li></ol></nav><p class="eyebrow mt-8 text-xs font-semibold tracking-widest text-copper uppercase">${esc(s.blogLabel)}</p><h1 class="mt-3 font-display text-4xl leading-[1.05] sm:text-5xl">${esc(copy.h1)}</h1><p class="mt-5 text-lg leading-relaxed text-mist">${esc(copy.dek)}</p><p class="mt-4 text-sm text-mist"><span>${esc(s.byline)}</span> <time dateTime="${post.modified}">${esc(copy.updated)}</time></p><nav aria-label="${esc(copy.labels.readIn)}" class="mt-5 rounded-2xl border border-line bg-ink-2 p-4 text-sm"><p class="font-medium">${esc(copy.labels.readIn)}</p><ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2">${langNav}</ul></nav><div class="prose-links mt-8 space-y-4 text-base leading-relaxed sm:text-lg">${copy.intro.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div>${seeAlsoHtml}${copy.items.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.listHeading)}</h2>${jump}${items}` : ""}${post.ctaMid ? coached : ""}${ebookHtml}${copy.enough.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.enoughHeading)}</h2><div class="mt-4 space-y-4 text-base leading-relaxed sm:text-lg">${copy.enough.map((l) => `<p>${cited(l, sourceLabel, rtl)}</p>`).join("")}</div>` : ""}${copy.sample?.length ? `<h2 class="mt-12 font-display text-3xl">${esc(copy.sampleHeading)}</h2><div class="mt-4 rounded-2xl border-2 border-dashed border-copper/60 p-5"><p class="text-sm font-semibold text-copper">${esc(copy.sampleLabel)}</p><ul class="list-mark mt-3 list-disc space-y-2 ps-5 text-base leading-relaxed">${copy.sample.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></div>` : ""}${post.ctaMid ? "" : coached}<h2 class="mt-12 font-display text-2xl">${esc(copy.safetyHeading)}</h2>${[copy.safety].flat().map((l) => `<p class="note-safety mt-3 text-base leading-relaxed text-mist">${cited(l, sourceLabel, rtl)}</p>`).join("")}${copy.disclaimer ? `<p class="mt-3 text-base leading-relaxed text-mist">${bidi(copy.disclaimer, rtl)}</p>` : ""}<p class="mt-6 text-sm leading-relaxed text-mist">${bidi(copy.credentialsNote, rtl)}</p>${faqHtml}<h2 class="mt-12 font-display text-2xl">${esc(copy.labels.sources)}</h2>${sources}${clusterHtml}${relatedHtml}</article>`;
 
   const skip = `<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-3 focus:start-3 focus:z-50 focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-bone">${esc(s.skip)}</a>`;
   const prefix = s.prefix
@@ -559,12 +649,20 @@ async function main() {
   const extraCssName = `blog-extra-${hash}.css`;
   // Landing pages that exist on the live site (from its sitemap). A post's optional "program page" link is dropped when its target is not one of them.
   const sitePaths = new Set([...T.sitemap.matchAll(/<loc>https:\/\/onlinefitnessworldwide\.com(\/[^<]*)<\/loc>/g)].map((m) => m[1]));
-  const ctx = { order, newOrder, sitePaths, entities: entityLd(T), extraCssHref: `/assets/${extraCssName}` };
+  const ebooks = loadEbooks();
+  const ctx = { order, newOrder, sitePaths, entities: entityLd(T), extraCssHref: `/assets/${extraCssName}`, ebooks, ebookAssets: new Set() };
+  // The 6 posts that live only in the zip are not rendered here, so they cannot carry the block yet: refuse rather than drop it silently.
+  for (const slug of Object.keys(T.old)) for (const lang of T.langs) if (ebookFor(ebooks, slug, lang)) throw new Error(`data/ebooks.json: ${slug} is a zip post (existing-posts.json); the generator does not render it, so its ebook block cannot be shown. Map it to null or bring the post into data/posts/.`);
 
   const out = join(here, "../../cpanel-overlay");
   rmSync(out, { recursive: true, force: true });
   const put = (rel, content) => {
     const file = join(out, rel);
+    if (rel.endsWith(".html")) {
+      content = neutralZipCopy(content);
+      const tz = content.match(TIMEZONE_CLAIM);
+      if (tz) throw new Error(`${rel}: time-zone claim "${tz[0]}" (copy scrub; see ZIP_COPY_NEUTRAL)`);
+    }
     mkdirSync(dirname(file), { recursive: true });
     writeFileSync(file, content);
   };
@@ -583,7 +681,12 @@ async function main() {
   for (const lang of T.langs) put(`${blogIndexPathFor(lang).slice(1)}/index.html`, renderIndex(T, posts, lang, ctx));
   put("personal-trainer-for-fat-loss/index.html", renderFatLoss(T, posts, ctx));
   put("sitemap.xml", renderSitemap(T, posts, ctx));
-  console.log(`${newOrder.length} posts x ${T.langs.length} languages = ${pages} post pages, ${T.langs.length} blog indexes, fat-loss page, sitemap, ${extraCssName}`);
+  ctx.ebookAssets.delete(null);
+  for (const rel of ctx.ebookAssets) {
+    mkdirSync(dirname(join(out, "ebooks", rel)), { recursive: true });
+    copyFileSync(join(ebooks.assetDir, rel), join(out, "ebooks", rel));
+  }
+  console.log(`${newOrder.length} posts x ${T.langs.length} languages = ${pages} post pages, ${T.langs.length} blog indexes, fat-loss page, sitemap, ${extraCssName}, ${ctx.ebookAssets.size} ebook files`);
   console.log(`Wrote ${out}`);
 }
 
