@@ -1,0 +1,551 @@
+{
+ "slug": "circuit-training-vs-strength-training",
+ "published": "2026-11-21",
+ "modified": "2026-11-21",
+ "about": "Resistance circuit training and traditional strength training",
+ "sources": [
+  {
+   "cite": "Muñoz-Martínez FA, Rubio-Arias JÁ, Ramos-Campo DJ, Alcaraz PE. Effectiveness of resistance circuit-based training for maximum oxygen uptake and upper-body one-repetition maximum improvements: a systematic review and meta-analysis. Sports Med. 2017;47(12):2553–2568.",
+   "url": "https://doi.org/10.1007/s40279-017-0773-4"
+  },
+  {
+   "cite": "Ramos-Campo DJ, Andreu Caravaca L, Martínez-Rodríguez A, Rubio-Arias JÁ. Effects of resistance circuit-based training on body composition, strength and cardiorespiratory fitness: a systematic review and meta-analysis. Biology (Basel). 2021;10(5):377.",
+   "url": "https://doi.org/10.3390/biology10050377"
+  },
+  {
+   "cite": "Alcaraz PE, Perez-Gomez J, Chavarrias M, Blazevich AJ. Similarity in adaptations to high-resistance circuit vs. traditional strength training in resistance-trained men. J Strength Cond Res. 2011;25(9):2519–2527.",
+   "url": "https://doi.org/10.1519/JSC.0b013e3182023a51"
+  },
+  {
+   "cite": "Schoenfeld BJ, Pope ZK, Benik FM, et al. Longer interset rest periods enhance muscle strength and hypertrophy in resistance-trained men. J Strength Cond Res. 2016;30(7):1805–1812.",
+   "url": "https://doi.org/10.1519/JSC.0000000000001272"
+  },
+  {
+   "cite": "Currier BS, D'Souza AC, Singh MAF, et al. American College of Sports Medicine position stand. Resistance training prescription for muscle function, hypertrophy, and physical performance in healthy adults: an overview of reviews. Med Sci Sports Exerc. 2026;58(4):851–872.",
+   "url": "https://doi.org/10.1249/MSS.0000000000003897"
+  },
+  {
+   "cite": "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+   "url": "https://doi.org/10.1249/MSS.0000000000000664"
+  }
+ ],
+ "seeAlso": [
+  "hybrid-strength-training",
+  "best-strength-exercises-for-fat-loss",
+  "four-minute-strength-training"
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "Circuit training vs strength training: the evidence | Online Fitness Worldwide",
+   "metaDescription": "What trials and meta-analyses report for resistance circuit training and traditional strength training: strength, muscle, fat mass and aerobic fitness.",
+   "h1": "Circuit training vs strength training: what the research shows",
+   "dek": "What studies report when the same kind of resistance exercise is done as a circuit with short rests or as traditional sets with longer rests.",
+   "intro": [
+    "Meta-analyses report that resistance circuit training improves both strength and aerobic fitness. A 2021 meta-analysis of 45 studies found increases in muscle mass (1.9%) and maximal oxygen uptake (6.3%), a decrease in fat mass (4.3%), and increased upper- and lower-body strength.{2}",
+    "Head-to-head trials report mixed results. In 33 resistance-trained men, 8 weeks of high-resistance circuits with about 35 seconds between sets and traditional sets with 3 minutes' rest gave equal gains in one-repetition maximum and lean mass; body fat fell only in the circuit group and cycling peak power rose only in the traditional group.{3} In a separate 8-week trial, 3-minute rests produced greater strength and muscle thickness gains than 1-minute rests.{4}",
+    "A 2026 ACSM position stand reports that voluntary strength was enhanced by heavier loads, 2 to 3 sets and 2 or more sessions a week, and that set structure did not consistently affect outcomes.{5}"
+   ],
+   "listHeading": "Outcomes the studies compared",
+   "items": [
+    {
+     "name": "Maximal strength",
+     "why": "Equal 1RM gains with high-resistance circuits and traditional sets in trained men;{3} greater gains with 3-minute than 1-minute rests in another trial.{4}"
+    },
+    {
+     "name": "Aerobic fitness",
+     "why": "Circuit training increased maximal oxygen uptake in two meta-analyses.{1}{2}"
+    },
+    {
+     "name": "Fat mass",
+     "why": "Decreased 4.3% with circuit training; low-to-moderate intensities and short rests increased the change.{2}"
+    },
+    {
+     "name": "Muscle size",
+     "why": "Muscle mass rose 1.9% with circuits;{2} lean mass rose equally with circuit and traditional training in one trial.{3}"
+    }
+   ],
+   "enoughHeading": "Protocols the studies used",
+   "enough": [
+    "Both groups in the head-to-head trial did 3 to 6 sets of 6 exercises at a 6-repetition maximum, 3 times a week; only the rest between sets differed.{3} The rest-interval trial used 3 sets of 8 to 12 repetitions of 7 exercises, 3 times a week, in young resistance-trained men.{4}",
+    "A 2017 meta-analysis associated large aerobic gains with about 14 to 30 circuit sessions over 6 to 12 weeks, at 60 to 90% of one-repetition maximum, and large bench-press gains with 30 to 60%; its authors note lower baseline fitness may explain the lighter optimal loads.{1}"
+   ],
+   "safety": [
+    "ACSM's 2015 screening model bases pre-exercise medical clearance on current activity, signs or symptoms and/or known cardiovascular, metabolic or renal disease, and desired intensity.{6}"
+   ],
+   "faq": [
+    {
+     "q": "What is resistance circuit training?",
+     "a": "Resistance exercises done one after another with short rests, as in the studies cited here; traditional strength training uses longer rests between sets.{2}{3}"
+    },
+    {
+     "q": "Does circuit training build strength?",
+     "a": "A 2021 meta-analysis of 45 studies found increased upper- and lower-body strength with circuit training.{2} In trained men, high-resistance circuits and traditional sets gave equal 1RM gains over 8 weeks.{3}"
+    },
+    {
+     "q": "Does rest between sets affect strength gains?",
+     "a": "In one 8-week trial, 3-minute rests produced greater strength and muscle gains than 1-minute rests.{4} The 2026 ACSM position stand reports that set structure did not consistently affect outcomes.{5}"
+    },
+    {
+     "q": "Which improved aerobic fitness?",
+     "a": "Circuit training increased maximal oxygen uptake in two meta-analyses.{1}{2} In the head-to-head trial, shuttle-run performance improved with both circuit and traditional training.{3}"
+    }
+   ],
+   "updated": "Updated 21 November 2026",
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why",
+    "how": "How",
+    "dose": "Dose",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "whatsappText": "Hi Susmit, I read the article on circuit training and strength training and want to book a consultation",
+    "skip": "Skip to content",
+    "crumb": "Circuit training vs strength training"
+   },
+   "authorLine": "By Susmit Jalan, strength and conditioning coach at Online Fitness Worldwide."
+  },
+  "ar": {
+   "metaTitle": "التمارين الدائرية مقابل تمارين القوة: الأدلة | Online Fitness Worldwide",
+   "metaDescription": "ما تذكره التجارب والتحليلات التلوية عن تمارين المقاومة الدائرية وتمارين القوة التقليدية: القوة والعضلات وكتلة الدهون واللياقة الهوائية.",
+   "h1": "التمارين الدائرية مقابل تمارين القوة: ماذا تُظهر الأبحاث",
+   "dek": "ما تذكره الدراسات عند أداء النوع نفسه من تمارين المقاومة على شكل دائرة براحة قصيرة أو على شكل مجموعات تقليدية براحة أطول.",
+   "intro": [
+    "تذكر التحليلات التلوية أن تمارين المقاومة الدائرية تحسن القوة واللياقة الهوائية معًا. وجد تحليل تلوي عام 2021 شمل 45 دراسة زيادة في الكتلة العضلية (1.9%) والحد الأقصى لاستهلاك الأكسجين (6.3%)، وانخفاضًا في كتلة الدهون (4.3%)، وزيادة في قوة الجزء العلوي والسفلي من الجسم.{2}",
+    "تذكر التجارب المباشرة نتائج متباينة. لدى 33 رجلًا متدربين على المقاومة، أعطت 8 أسابيع من الدوائر عالية المقاومة بنحو 35 ثانية بين المجموعات والمجموعات التقليدية براحة 3 دقائق زيادات متساوية في الحد الأقصى لتكرار واحد والكتلة الخالية من الدهون؛ وانخفضت دهون الجسم في مجموعة الدوائر فقط، وارتفعت القدرة القصوى على الدراجة في المجموعة التقليدية فقط.{3} وفي تجربة منفصلة لمدة 8 أسابيع، أنتجت راحة 3 دقائق زيادات أكبر في القوة وسماكة العضلات مقارنة براحة دقيقة واحدة.{4}",
+    "يذكر بيان موقف ACSM لعام 2026 أن القوة الإرادية تعززت بأحمال أثقل و2 إلى 3 مجموعات وجلستين أو أكثر أسبوعيًا، وأن بنية المجموعات لم تؤثر في النتائج بشكل ثابت.{5}"
+   ],
+   "listHeading": "النتائج التي قارنتها الدراسات",
+   "items": [
+    {
+     "name": "القوة القصوى",
+     "why": "زيادات متساوية في 1RM مع الدوائر عالية المقاومة والمجموعات التقليدية لدى رجال متدربين؛{3} وزيادات أكبر مع راحة 3 دقائق مقارنة بدقيقة واحدة في تجربة أخرى.{4}"
+    },
+    {
+     "name": "اللياقة الهوائية",
+     "why": "زادت التمارين الدائرية الحد الأقصى لاستهلاك الأكسجين في تحليلين تلويين.{1}{2}"
+    },
+    {
+     "name": "كتلة الدهون",
+     "why": "انخفضت 4.3% مع التمارين الدائرية؛ وزادت الشدات المنخفضة إلى المتوسطة والراحة القصيرة من هذا التغير.{2}"
+    },
+    {
+     "name": "حجم العضلات",
+     "why": "ارتفعت الكتلة العضلية 1.9% مع الدوائر؛{2} وارتفعت الكتلة الخالية من الدهون بالتساوي مع التمرين الدائري والتقليدي في تجربة واحدة.{3}"
+    }
+   ],
+   "enoughHeading": "البروتوكولات التي استخدمتها الدراسات",
+   "enough": [
+    "أدّت المجموعتان في التجربة المباشرة من 3 إلى 6 مجموعات من 6 تمارين بحمل أقصى لـ 6 تكرارات، 3 مرات أسبوعيًا؛ واختلفت الراحة بين المجموعات فقط.{3} واستخدمت تجربة فترات الراحة 3 مجموعات من 8 إلى 12 تكرارًا لـ 7 تمارين، 3 مرات أسبوعيًا، لدى شبان متدربين على المقاومة.{4}",
+    "ربط تحليل تلوي عام 2017 المكاسب الهوائية الكبيرة بنحو 14 إلى 30 جلسة دائرية على مدى 6 إلى 12 أسبوعًا، عند 60 إلى 90% من الحد الأقصى لتكرار واحد، والمكاسب الكبيرة في الضغط على المقعد بـ 30 إلى 60%؛ ويشير مؤلفوه إلى أن انخفاض اللياقة الأساسية قد يفسر الأحمال المثلى الأخف.{1}"
+   ],
+   "safety": [
+    "يبني نموذج الفحص لدى ACSM لعام 2015 قرار الإذن الطبي قبل التمرين على مستوى النشاط الحالي، والعلامات أو الأعراض و/أو أمراض القلب والأوعية أو الأيض أو الكلى المعروفة، والشدة المرغوبة.{6}"
+   ],
+   "faq": [
+    {
+     "q": "ما تمارين المقاومة الدائرية؟",
+     "a": "تمارين مقاومة تُؤدّى واحدًا تلو الآخر براحة قصيرة، كما في الدراسات المذكورة هنا؛ أما تمارين القوة التقليدية فتستخدم راحة أطول بين المجموعات.{2}{3}"
+    },
+    {
+     "q": "هل تبني التمارين الدائرية القوة؟",
+     "a": "وجد تحليل تلوي عام 2021 شمل 45 دراسة زيادة في قوة الجزء العلوي والسفلي من الجسم مع التمارين الدائرية.{2} ولدى رجال متدربين، أعطت الدوائر عالية المقاومة والمجموعات التقليدية زيادات متساوية في 1RM خلال 8 أسابيع.{3}"
+    },
+    {
+     "q": "هل تؤثر الراحة بين المجموعات في زيادة القوة؟",
+     "a": "في تجربة لمدة 8 أسابيع، أنتجت راحة 3 دقائق زيادات أكبر في القوة والعضلات مقارنة براحة دقيقة واحدة.{4} ويذكر بيان موقف ACSM لعام 2026 أن بنية المجموعات لم تؤثر في النتائج بشكل ثابت.{5}"
+    },
+    {
+     "q": "أيهما حسّن اللياقة الهوائية؟",
+     "a": "زادت التمارين الدائرية الحد الأقصى لاستهلاك الأكسجين في تحليلين تلويين.{1}{2} وفي التجربة المباشرة، تحسن أداء الجري المكوكي مع التمرين الدائري والتقليدي معًا.{3}"
+    }
+   ],
+   "updated": "حدّث في 21 نوفمبر 2026",
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا",
+    "how": "كيف",
+    "dose": "الجرعة",
+    "sources": "المصادر",
+    "readIn": "اقرأ بلغة أخرى",
+    "programs": "اطّلع على البرامج",
+    "whatsapp": "اسأل عبر واتساب",
+    "whatsappText": "مرحبًا Susmit، قرأت المقال عن التمارين الدائرية وتمارين القوة وأريد حجز استشارة",
+    "skip": "انتقل إلى المحتوى",
+    "crumb": "التمارين الدائرية مقابل تمارين القوة"
+   },
+   "authorLine": "بقلم سوسميت جالان، مدرب القوة والتكييف البدني في Online Fitness Worldwide."
+  },
+  "hi": {
+   "metaTitle": "सर्किट ट्रेनिंग बनाम स्ट्रेंथ ट्रेनिंग: प्रमाण | Online Fitness Worldwide",
+   "metaDescription": "रेज़िस्टेंस सर्किट ट्रेनिंग और पारंपरिक स्ट्रेंथ ट्रेनिंग पर ट्रायल और मेटा-विश्लेषण क्या बताते हैं: ताक़त, मांसपेशी, फ़ैट मास और एरोबिक फ़िटनेस।",
+   "h1": "सर्किट ट्रेनिंग बनाम स्ट्रेंथ ट्रेनिंग: शोध क्या दिखाता है",
+   "dek": "जब एक ही तरह की रेज़िस्टेंस एक्सरसाइज़ कम आराम वाले सर्किट में या लंबे आराम वाले पारंपरिक सेट में की जाती है, तो अध्ययन क्या बताते हैं।",
+   "intro": [
+    "मेटा-विश्लेषण बताते हैं कि रेज़िस्टेंस सर्किट ट्रेनिंग ताक़त और एरोबिक फ़िटनेस दोनों में सुधार करती है। 45 अध्ययनों के 2021 के मेटा-विश्लेषण में मांसपेशी द्रव्यमान (1.9%) और अधिकतम ऑक्सीजन ग्रहण (6.3%) में वृद्धि, फ़ैट मास (4.3%) में कमी, और ऊपरी व निचले शरीर की ताक़त में वृद्धि पाई गई।{2}",
+    "सीधी तुलना वाले ट्रायल मिले-जुले परिणाम बताते हैं। 33 रेज़िस्टेंस-प्रशिक्षित पुरुषों में, सेटों के बीच लगभग 35 सेकंड वाले हाई-रेज़िस्टेंस सर्किट और 3 मिनट आराम वाले पारंपरिक सेट के 8 सप्ताह से वन-रिपीटिशन मैक्सिमम और लीन मास में बराबर बढ़त हुई; बॉडी फ़ैट केवल सर्किट समूह में घटा और साइक्लिंग पीक पावर केवल पारंपरिक समूह में बढ़ी।{3} एक अलग 8-सप्ताह ट्रायल में, 1 मिनट की तुलना में 3 मिनट के आराम से ताक़त और मांसपेशी मोटाई में अधिक बढ़त हुई।{4}",
+    "ACSM का 2026 का पोज़िशन स्टैंड बताता है कि भारी लोड, 2 से 3 सेट और हफ़्ते में 2 या अधिक सत्रों से स्वैच्छिक ताक़त बढ़ी, और सेट संरचना ने परिणामों को लगातार प्रभावित नहीं किया।{5}"
+   ],
+   "listHeading": "अध्ययनों ने किन परिणामों की तुलना की",
+   "items": [
+    {
+     "name": "अधिकतम ताक़त",
+     "why": "प्रशिक्षित पुरुषों में हाई-रेज़िस्टेंस सर्किट और पारंपरिक सेट से 1RM में बराबर बढ़त;{3} एक अन्य ट्रायल में 1 मिनट की तुलना में 3 मिनट आराम से अधिक बढ़त।{4}"
+    },
+    {
+     "name": "एरोबिक फ़िटनेस",
+     "why": "दो मेटा-विश्लेषणों में सर्किट ट्रेनिंग से अधिकतम ऑक्सीजन ग्रहण बढ़ा।{1}{2}"
+    },
+    {
+     "name": "फ़ैट मास",
+     "why": "सर्किट ट्रेनिंग से 4.3% घटा; कम से मध्यम तीव्रता और कम आराम से यह बदलाव बढ़ा।{2}"
+    },
+    {
+     "name": "मांसपेशी का आकार",
+     "why": "सर्किट से मांसपेशी द्रव्यमान 1.9% बढ़ा;{2} एक ट्रायल में सर्किट और पारंपरिक ट्रेनिंग से लीन मास बराबर बढ़ा।{3}"
+    }
+   ],
+   "enoughHeading": "अध्ययनों में इस्तेमाल प्रोटोकॉल",
+   "enough": [
+    "सीधी तुलना वाले ट्रायल में दोनों समूहों ने हफ़्ते में 3 बार, 6-रिपीटिशन मैक्सिमम पर 6 एक्सरसाइज़ के 3 से 6 सेट किए; केवल सेटों के बीच आराम अलग था।{3} आराम-अंतराल ट्रायल में युवा रेज़िस्टेंस-प्रशिक्षित पुरुषों ने हफ़्ते में 3 बार 7 एक्सरसाइज़ के 8 से 12 रिपीटिशन के 3 सेट किए।{4}",
+    "2017 के एक मेटा-विश्लेषण ने बड़े एरोबिक लाभ को 6 से 12 सप्ताह में लगभग 14 से 30 सर्किट सत्रों और वन-रिपीटिशन मैक्सिमम के 60 से 90% से, और बेंच प्रेस में बड़े लाभ को 30 से 60% से जोड़ा; इसके लेखक बताते हैं कि कम आरंभिक फ़िटनेस हल्के इष्टतम लोड की व्याख्या कर सकती है।{1}"
+   ],
+   "safety": [
+    "ACSM का 2015 स्क्रीनिंग मॉडल व्यायाम से पहले मेडिकल क्लियरेंस को वर्तमान गतिविधि, संकेतों या लक्षणों और/या ज्ञात हृदय, मेटाबॉलिक या किडनी रोग, तथा वांछित तीव्रता पर आधारित करता है।{6}"
+   ],
+   "faq": [
+    {
+     "q": "रेज़िस्टेंस सर्किट ट्रेनिंग क्या है?",
+     "a": "कम आराम के साथ एक के बाद एक की जाने वाली रेज़िस्टेंस एक्सरसाइज़, जैसा यहाँ उद्धृत अध्ययनों में है; पारंपरिक स्ट्रेंथ ट्रेनिंग में सेटों के बीच लंबा आराम होता है।{2}{3}"
+    },
+    {
+     "q": "क्या सर्किट ट्रेनिंग से ताक़त बढ़ती है?",
+     "a": "45 अध्ययनों के 2021 के मेटा-विश्लेषण में सर्किट ट्रेनिंग से ऊपरी और निचले शरीर की ताक़त बढ़ी पाई गई।{2} प्रशिक्षित पुरुषों में 8 सप्ताह में हाई-रेज़िस्टेंस सर्किट और पारंपरिक सेट से 1RM में बराबर बढ़त हुई।{3}"
+    },
+    {
+     "q": "क्या सेटों के बीच आराम ताक़त की बढ़त को प्रभावित करता है?",
+     "a": "एक 8-सप्ताह ट्रायल में 1 मिनट की तुलना में 3 मिनट आराम से ताक़त और मांसपेशी में अधिक बढ़त हुई।{4} ACSM का 2026 का पोज़िशन स्टैंड बताता है कि सेट संरचना ने परिणामों को लगातार प्रभावित नहीं किया।{5}"
+    },
+    {
+     "q": "एरोबिक फ़िटनेस किससे बेहतर हुई?",
+     "a": "दो मेटा-विश्लेषणों में सर्किट ट्रेनिंग से अधिकतम ऑक्सीजन ग्रहण बढ़ा।{1}{2} सीधी तुलना वाले ट्रायल में सर्किट और पारंपरिक दोनों ट्रेनिंग से शटल-रन प्रदर्शन सुधरा।{3}"
+    }
+   ],
+   "updated": "अपडेट 21 नवंबर 2026",
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों",
+    "how": "कैसे",
+    "dose": "डोज़",
+    "sources": "स्रोत",
+    "readIn": "इसे इस भाषा में पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "WhatsApp पर पूछें",
+    "whatsappText": "नमस्ते Susmit, मैंने सर्किट ट्रेनिंग और स्ट्रेंथ ट्रेनिंग वाला लेख पढ़ा और परामर्श बुक करना चाहता हूँ",
+    "skip": "सामग्री पर जाएँ",
+    "crumb": "सर्किट बनाम स्ट्रेंथ ट्रेनिंग"
+   },
+   "authorLine": "लेखक: सुस्मित जालान, स्ट्रेंथ एंड कंडीशनिंग कोच, Online Fitness Worldwide।"
+  },
+  "es": {
+   "metaTitle": "Circuitos vs entrenamiento de fuerza: la evidencia | Online Fitness Worldwide",
+   "metaDescription": "Lo que reportan ensayos y metaanálisis sobre circuitos de fuerza y entrenamiento de fuerza tradicional: fuerza, músculo, masa grasa y capacidad aeróbica.",
+   "h1": "Circuitos vs entrenamiento de fuerza: lo que muestra la investigación",
+   "dek": "Lo que reportan los estudios cuando el mismo tipo de ejercicio de fuerza se hace en circuito con descansos cortos o en series tradicionales con descansos más largos.",
+   "intro": [
+    "Los metaanálisis reportan que el entrenamiento en circuito de fuerza mejora tanto la fuerza como la capacidad aeróbica. Un metaanálisis de 2021 con 45 estudios halló aumentos de masa muscular (1,9%) y consumo máximo de oxígeno (6,3%), una reducción de la masa grasa (4,3%) y mayor fuerza del tren superior e inferior.{2}",
+    "Los ensayos directos reportan resultados mixtos. En 33 hombres entrenados, 8 semanas de circuitos de alta resistencia con unos 35 segundos entre series y de series tradicionales con 3 minutos de descanso dieron ganancias iguales de repetición máxima y masa magra; la grasa corporal bajó solo en el grupo de circuito y la potencia máxima en bicicleta subió solo en el grupo tradicional.{3} En otro ensayo de 8 semanas, los descansos de 3 minutos produjeron mayores ganancias de fuerza y grosor muscular que los de 1 minuto.{4}",
+    "Un posicionamiento del ACSM de 2026 reporta que la fuerza voluntaria aumentó con cargas más pesadas, 2 a 3 series y 2 o más sesiones por semana, y que la estructura de las series no afectó de forma constante a los resultados.{5}"
+   ],
+   "listHeading": "Resultados que compararon los estudios",
+   "items": [
+    {
+     "name": "Fuerza máxima",
+     "why": "Ganancias iguales de 1RM con circuitos de alta resistencia y series tradicionales en hombres entrenados;{3} mayores ganancias con 3 minutos que con 1 minuto de descanso en otro ensayo.{4}"
+    },
+    {
+     "name": "Capacidad aeróbica",
+     "why": "El entrenamiento en circuito aumentó el consumo máximo de oxígeno en dos metaanálisis.{1}{2}"
+    },
+    {
+     "name": "Masa grasa",
+     "why": "Bajó un 4,3% con circuitos; las intensidades bajas a moderadas y los descansos cortos aumentaron el cambio.{2}"
+    },
+    {
+     "name": "Tamaño muscular",
+     "why": "La masa muscular subió un 1,9% con circuitos;{2} la masa magra subió por igual con circuito y entrenamiento tradicional en un ensayo.{3}"
+    }
+   ],
+   "enoughHeading": "Protocolos que usaron los estudios",
+   "enough": [
+    "Ambos grupos del ensayo directo hicieron de 3 a 6 series de 6 ejercicios con un máximo de 6 repeticiones, 3 veces por semana; solo cambiaba el descanso entre series.{3} El ensayo de intervalos de descanso usó 3 series de 8 a 12 repeticiones de 7 ejercicios, 3 veces por semana, en hombres jóvenes entrenados.{4}",
+    "Un metaanálisis de 2017 asoció grandes mejoras aeróbicas con unas 14 a 30 sesiones de circuito en 6 a 12 semanas, al 60–90% de la repetición máxima, y grandes mejoras en press de banca con el 30–60%; sus autores señalan que una menor condición física inicial puede explicar las cargas óptimas más ligeras.{1}"
+   ],
+   "safety": [
+    "El modelo de cribado del ACSM de 2015 basa la autorización médica previa al ejercicio en la actividad actual, los signos o síntomas y/o la enfermedad cardiovascular, metabólica o renal conocida, y la intensidad deseada.{6}"
+   ],
+   "faq": [
+    {
+     "q": "¿Qué es el entrenamiento en circuito de fuerza?",
+     "a": "Ejercicios de fuerza hechos uno tras otro con descansos cortos, como en los estudios citados aquí; el entrenamiento de fuerza tradicional usa descansos más largos entre series.{2}{3}"
+    },
+    {
+     "q": "¿El entrenamiento en circuito desarrolla fuerza?",
+     "a": "Un metaanálisis de 2021 con 45 estudios halló mayor fuerza del tren superior e inferior con circuitos.{2} En hombres entrenados, los circuitos de alta resistencia y las series tradicionales dieron ganancias iguales de 1RM en 8 semanas.{3}"
+    },
+    {
+     "q": "¿El descanso entre series afecta a las ganancias de fuerza?",
+     "a": "En un ensayo de 8 semanas, los descansos de 3 minutos produjeron mayores ganancias de fuerza y músculo que los de 1 minuto.{4} El posicionamiento del ACSM de 2026 reporta que la estructura de las series no afectó de forma constante a los resultados.{5}"
+    },
+    {
+     "q": "¿Cuál mejoró la capacidad aeróbica?",
+     "a": "El entrenamiento en circuito aumentó el consumo máximo de oxígeno en dos metaanálisis.{1}{2} En el ensayo directo, el rendimiento en carrera de ida y vuelta mejoró con ambos entrenamientos.{3}"
+    }
+   ],
+   "updated": "Actualizado el 21 de noviembre de 2026",
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué",
+    "how": "Cómo",
+    "dose": "Dosis",
+    "sources": "Fuentes",
+    "readIn": "Leer en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "whatsappText": "Hola Susmit, leí el artículo sobre circuitos y entrenamiento de fuerza y quiero reservar una consulta",
+    "skip": "Saltar al contenido",
+    "crumb": "Circuitos vs fuerza"
+   },
+   "authorLine": "Por Susmit Jalan, entrenador de fuerza y acondicionamiento en Online Fitness Worldwide."
+  },
+  "zh": {
+   "metaTitle": "循环训练与力量训练：证据 | Online Fitness Worldwide",
+   "metaDescription": "试验和荟萃分析对抗阻循环训练与传统力量训练的报告：力量、肌肉、脂肪量和有氧能力。",
+   "h1": "循环训练与力量训练：研究显示了什么",
+   "dek": "同一类抗阻练习以短休息的循环方式或以长休息的传统组数方式进行时，研究报告了什么。",
+   "intro": [
+    "荟萃分析报告，抗阻循环训练能同时改善力量和有氧能力。一项2021年涵盖45项研究的荟萃分析发现，肌肉量（1.9%）和最大摄氧量（6.3%）增加，脂肪量（4.3%）减少，上下肢力量增加。{2}",
+    "直接比较的试验结果不一。在33名受过抗阻训练的男性中，组间休息约35秒的高阻力循环与休息3分钟的传统组数训练8周后，一次最大重复和瘦体重增长相同；体脂只在循环组下降，骑行峰值功率只在传统组上升。{3}在另一项8周试验中，休息3分钟比休息1分钟带来更大的力量和肌肉厚度增长。{4}",
+    "ACSM 2026年立场声明报告，更重的负荷、2至3组和每周2次或以上能提高自主力量，而组的结构并未一致地影响结果。{5}"
+   ],
+   "listHeading": "研究比较的结果",
+   "items": [
+    {
+     "name": "最大力量",
+     "why": "受训男性中高阻力循环与传统组数的1RM增长相同；{3}另一项试验中休息3分钟比1分钟增长更大。{4}"
+    },
+    {
+     "name": "有氧能力",
+     "why": "两项荟萃分析中循环训练提高了最大摄氧量。{1}{2}"
+    },
+    {
+     "name": "脂肪量",
+     "why": "循环训练使其下降4.3%；低至中等强度和短休息使变化更大。{2}"
+    },
+    {
+     "name": "肌肉大小",
+     "why": "循环训练使肌肉量增加1.9%；{2}一项试验中循环和传统训练的瘦体重增长相同。{3}"
+    }
+   ],
+   "enoughHeading": "研究使用的方案",
+   "enough": [
+    "直接比较试验的两组都以6次最大重复负荷做6个动作、每个3至6组，每周3次；只有组间休息不同。{3}休息间隔试验中，年轻的受训男性做7个动作、每个3组、每组8至12次，每周3次。{4}",
+    "一项2017年的荟萃分析把较大的有氧增益与6至12周内约14至30次循环训练、60%至90%一次最大重复的负荷联系起来，把较大的卧推增益与30%至60%联系起来；作者指出，较低的基线体能可能解释了较轻的最佳负荷。{1}"
+   ],
+   "safety": [
+    "ACSM 2015年的筛查模型根据当前活动水平、体征或症状和/或已知的心血管、代谢或肾脏疾病以及期望的运动强度来决定运动前是否需要医学许可。{6}"
+   ],
+   "faq": [
+    {
+     "q": "什么是抗阻循环训练？",
+     "a": "如本文引用的研究所示，抗阻练习一个接一个进行，中间休息很短；传统力量训练在组间休息更长。{2}{3}"
+    },
+    {
+     "q": "循环训练能增加力量吗？",
+     "a": "一项2021年涵盖45项研究的荟萃分析发现循环训练使上下肢力量增加。{2}受训男性中，高阻力循环和传统组数训练8周的1RM增长相同。{3}"
+    },
+    {
+     "q": "组间休息会影响力量增长吗？",
+     "a": "一项8周试验中，休息3分钟比1分钟带来更大的力量和肌肉增长。{4}ACSM 2026年立场声明报告组的结构并未一致地影响结果。{5}"
+    },
+    {
+     "q": "哪种方式改善了有氧能力？",
+     "a": "两项荟萃分析中循环训练提高了最大摄氧量。{1}{2}在直接比较试验中，循环和传统训练都改善了折返跑成绩。{3}"
+    }
+   ],
+   "updated": "更新于2026年11月21日",
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么",
+    "how": "怎么做",
+    "dose": "训练量",
+    "sources": "参考来源",
+    "readIn": "其他语言版本",
+    "programs": "查看课程",
+    "whatsapp": "通过WhatsApp咨询",
+    "whatsappText": "你好 Susmit，我读了关于循环训练与力量训练的文章，想预约咨询",
+    "skip": "跳到正文",
+    "crumb": "循环训练与力量训练"
+   },
+   "authorLine": "作者：Susmit Jalan，Online Fitness Worldwide 力量与体能教练。"
+  },
+  "ja": {
+   "metaTitle": "サーキットと筋力トレーニング：エビデンス | Online Fitness Worldwide",
+   "metaDescription": "レジスタンスサーキットトレーニングと従来型の筋力トレーニングについて試験とメタ分析が報告していること：筋力、筋肉、脂肪量、有酸素能力。",
+   "h1": "サーキットトレーニングと筋力トレーニング：研究が示すこと",
+   "dek": "同じ種類のレジスタンス運動を、短い休息のサーキットで行う場合と、長い休息の従来型セットで行う場合に、研究が報告していること。",
+   "intro": [
+    "メタ分析は、レジスタンスサーキットトレーニングが筋力と有酸素能力の両方を改善すると報告しています。45件の研究を対象とした2021年のメタ分析では、筋量（1.9%）と最大酸素摂取量（6.3%）の増加、脂肪量（4.3%）の減少、上半身と下半身の筋力向上が見られました。{2}",
+    "直接比較した試験の結果はまちまちです。筋力トレーニング経験のある男性33人で、セット間約35秒の高負荷サーキットと3分休息の従来型セットを8週間行うと、1回最大挙上重量と除脂肪量は同等に増え、体脂肪はサーキット群でのみ減り、自転車のピークパワーは従来型群でのみ上がりました。{3}別の8週間の試験では、3分の休息のほうが1分より筋力と筋厚の向上が大きくなりました。{4}",
+    "2026年のACSMポジションスタンドは、重い負荷、2〜3セット、週2回以上で随意筋力が向上し、セットの構成は結果に一貫した影響を与えなかったと報告しています。{5}"
+   ],
+   "listHeading": "研究が比較した結果",
+   "items": [
+    {
+     "name": "最大筋力",
+     "why": "トレーニング経験のある男性で、高負荷サーキットと従来型セットの1RM向上は同等。{3}別の試験では3分休息のほうが1分より向上が大きい。{4}"
+    },
+    {
+     "name": "有酸素能力",
+     "why": "2つのメタ分析で、サーキットトレーニングにより最大酸素摂取量が上昇。{1}{2}"
+    },
+    {
+     "name": "脂肪量",
+     "why": "サーキットで4.3%減少。低〜中強度と短い休息で変化が大きくなりました。{2}"
+    },
+    {
+     "name": "筋肉の大きさ",
+     "why": "サーキットで筋量が1.9%増加。{2}ある試験ではサーキットと従来型で除脂肪量が同等に増加。{3}"
+    }
+   ],
+   "enoughHeading": "研究で使われたプロトコル",
+   "enough": [
+    "直接比較の試験では、両群とも6回最大挙上の負荷で6種目を3〜6セット、週3回行い、セット間の休息だけが異なりました。{3}休息時間の試験では、筋力トレーニング経験のある若い男性が7種目を8〜12回×3セット、週3回行いました。{4}",
+    "2017年のメタ分析は、大きな有酸素能力の向上を6〜12週間で約14〜30回のサーキットセッション、1回最大挙上の60〜90%と結びつけ、ベンチプレスの大きな向上を30〜60%と結びつけました。著者らは、開始時の体力が低いことが軽い最適負荷を説明しうると述べています。{1}"
+   ],
+   "safety": [
+    "ACSMの2015年のスクリーニングモデルは、運動前の医学的許可の要否を、現在の活動量、徴候や症状、および／または既知の心血管・代謝・腎疾患、そして希望する運動強度に基づいて判断します。{6}"
+   ],
+   "faq": [
+    {
+     "q": "レジスタンスサーキットトレーニングとは？",
+     "a": "ここで引用した研究のように、レジスタンス運動を短い休息で次々に行う方法です。従来型の筋力トレーニングではセット間の休息が長くなります。{2}{3}"
+    },
+    {
+     "q": "サーキットトレーニングで筋力はつきますか？",
+     "a": "45件の研究を対象とした2021年のメタ分析で、サーキットトレーニングにより上半身と下半身の筋力が向上しました。{2}トレーニング経験のある男性では、8週間の高負荷サーキットと従来型セットで1RM向上は同等でした。{3}"
+    },
+    {
+     "q": "セット間の休息は筋力向上に影響しますか？",
+     "a": "8週間の試験で、3分の休息は1分より筋力と筋肉の向上が大きくなりました。{4}2026年のACSMポジションスタンドは、セットの構成は結果に一貫した影響を与えなかったと報告しています。{5}"
+    },
+    {
+     "q": "有酸素能力が改善したのはどちらですか？",
+     "a": "2つのメタ分析で、サーキットトレーニングにより最大酸素摂取量が上昇しました。{1}{2}直接比較の試験では、シャトルランの成績はサーキットと従来型の両方で向上しました。{3}"
+    }
+   ],
+   "updated": "2026年11月21日更新",
+   "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ",
+    "how": "やり方",
+    "dose": "回数・量",
+    "sources": "出典",
+    "readIn": "他の言語で読む",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問する",
+    "whatsappText": "こんにちは Susmit さん、サーキットトレーニングと筋力トレーニングの記事を読み、相談を予約したいです",
+    "skip": "本文へスキップ",
+    "crumb": "サーキットと筋力トレーニング"
+   },
+   "authorLine": "執筆：スシュミット・ジャラン（Online Fitness Worldwide ストレングス＆コンディショニングコーチ）"
+  },
+  "gu": {
+   "metaTitle": "સર્કિટ ટ્રેનિંગ વિ. સ્ટ્રેન્થ ટ્રેનિંગ: પુરાવા | Online Fitness Worldwide",
+   "metaDescription": "રેઝિસ્ટન્સ સર્કિટ ટ્રેનિંગ અને પરંપરાગત સ્ટ્રેન્થ ટ્રેનિંગ વિશે ટ્રાયલ અને મેટા-વિશ્લેષણ શું જણાવે છે: તાકાત, સ્નાયુ, ફેટ માસ અને એરોબિક ફિટનેસ.",
+   "h1": "સર્કિટ ટ્રેનિંગ વિ. સ્ટ્રેન્થ ટ્રેનિંગ: સંશોધન શું દર્શાવે છે",
+   "dek": "જ્યારે એક જ પ્રકારની રેઝિસ્ટન્સ કસરત ટૂંકા આરામવાળા સર્કિટમાં કે લાંબા આરામવાળા પરંપરાગત સેટમાં કરવામાં આવે, ત્યારે અભ્યાસો શું જણાવે છે.",
+   "intro": [
+    "મેટા-વિશ્લેષણો જણાવે છે કે રેઝિસ્ટન્સ સર્કિટ ટ્રેનિંગ તાકાત અને એરોબિક ફિટનેસ બંનેમાં સુધારો કરે છે. 45 અભ્યાસોના 2021 ના મેટા-વિશ્લેષણમાં સ્નાયુ દ્રવ્યમાન (1.9%) અને મહત્તમ ઓક્સિજન ગ્રહણ (6.3%) માં વધારો, ફેટ માસ (4.3%) માં ઘટાડો, અને ઉપલા તથા નીચલા શરીરની તાકાતમાં વધારો જોવા મળ્યો.{2}",
+    "સીધી તુલનાવાળા ટ્રાયલ મિશ્ર પરિણામો જણાવે છે. 33 રેઝિસ્ટન્સ-પ્રશિક્ષિત પુરુષોમાં, સેટ વચ્ચે લગભગ 35 સેકન્ડવાળા હાઇ-રેઝિસ્ટન્સ સર્કિટ અને 3 મિનિટ આરામવાળા પરંપરાગત સેટના 8 અઠવાડિયાથી વન-રિપીટિશન મેક્સિમમ અને લીન માસમાં સમાન વધારો થયો; બોડી ફેટ ફક્ત સર્કિટ જૂથમાં ઘટ્યું અને સાયકલિંગ પીક પાવર ફક્ત પરંપરાગત જૂથમાં વધ્યો.{3} એક અલગ 8-અઠવાડિયાના ટ્રાયલમાં, 1 મિનિટની તુલનામાં 3 મિનિટના આરામથી તાકાત અને સ્નાયુ જાડાઈમાં વધુ વધારો થયો.{4}",
+    "ACSM નું 2026 નું પોઝિશન સ્ટેન્ડ જણાવે છે કે ભારે લોડ, 2 થી 3 સેટ અને અઠવાડિયે 2 કે વધુ સત્રોથી સ્વૈચ્છિક તાકાત વધી, અને સેટ રચનાએ પરિણામોને સતત અસર કરી ન હતી.{5}"
+   ],
+   "listHeading": "અભ્યાસોએ કયા પરિણામોની તુલના કરી",
+   "items": [
+    {
+     "name": "મહત્તમ તાકાત",
+     "why": "પ્રશિક્ષિત પુરુષોમાં હાઇ-રેઝિસ્ટન્સ સર્કિટ અને પરંપરાગત સેટથી 1RM માં સમાન વધારો;{3} બીજા ટ્રાયલમાં 1 મિનિટની તુલનામાં 3 મિનિટ આરામથી વધુ વધારો.{4}"
+    },
+    {
+     "name": "એરોબિક ફિટનેસ",
+     "why": "બે મેટા-વિશ્લેષણોમાં સર્કિટ ટ્રેનિંગથી મહત્તમ ઓક્સિજન ગ્રહણ વધ્યું.{1}{2}"
+    },
+    {
+     "name": "ફેટ માસ",
+     "why": "સર્કિટ ટ્રેનિંગથી 4.3% ઘટ્યું; ઓછીથી મધ્યમ તીવ્રતા અને ટૂંકા આરામથી આ ફેરફાર વધ્યો.{2}"
+    },
+    {
+     "name": "સ્નાયુનું કદ",
+     "why": "સર્કિટથી સ્નાયુ દ્રવ્યમાન 1.9% વધ્યું;{2} એક ટ્રાયલમાં સર્કિટ અને પરંપરાગત ટ્રેનિંગથી લીન માસ સમાન રીતે વધ્યું.{3}"
+    }
+   ],
+   "enoughHeading": "અભ્યાસોમાં વપરાયેલા પ્રોટોકોલ",
+   "enough": [
+    "સીધી તુલનાવાળા ટ્રાયલમાં બંને જૂથોએ અઠવાડિયે 3 વખત, 6-રિપીટિશન મેક્સિમમ પર 6 કસરતના 3 થી 6 સેટ કર્યા; ફક્ત સેટ વચ્ચેનો આરામ અલગ હતો.{3} આરામ-અંતરાલ ટ્રાયલમાં યુવાન રેઝિસ્ટન્સ-પ્રશિક્ષિત પુરુષોએ અઠવાડિયે 3 વખત 7 કસરતના 8 થી 12 રિપીટિશનના 3 સેટ કર્યા.{4}",
+    "2017 ના એક મેટા-વિશ્લેષણે મોટા એરોબિક લાભને 6 થી 12 અઠવાડિયામાં લગભગ 14 થી 30 સર્કિટ સત્રો અને વન-રિપીટિશન મેક્સિમમના 60 થી 90% સાથે, અને બેન્ચ પ્રેસમાં મોટા લાભને 30 થી 60% સાથે જોડ્યા; તેના લેખકો નોંધે છે કે ઓછી પ્રારંભિક ફિટનેસ હળવા શ્રેષ્ઠ લોડને સમજાવી શકે છે.{1}"
+   ],
+   "safety": [
+    "ACSM નું 2015 સ્ક્રીનિંગ મોડેલ કસરત પહેલાંની મેડિકલ મંજૂરીને વર્તમાન પ્રવૃત્તિ, સંકેતો કે લક્ષણો અને/અથવા જાણીતા હૃદય, મેટાબોલિક કે કિડની રોગ, તથા ઇચ્છિત તીવ્રતા પર આધારિત રાખે છે.{6}"
+   ],
+   "faq": [
+    {
+     "q": "રેઝિસ્ટન્સ સર્કિટ ટ્રેનિંગ શું છે?",
+     "a": "ટૂંકા આરામ સાથે એક પછી એક કરવામાં આવતી રેઝિસ્ટન્સ કસરતો, જેમ કે અહીં ટાંકેલા અભ્યાસોમાં; પરંપરાગત સ્ટ્રેન્થ ટ્રેનિંગમાં સેટ વચ્ચે લાંબો આરામ હોય છે.{2}{3}"
+    },
+    {
+     "q": "શું સર્કિટ ટ્રેનિંગથી તાકાત વધે છે?",
+     "a": "45 અભ્યાસોના 2021 ના મેટા-વિશ્લેષણમાં સર્કિટ ટ્રેનિંગથી ઉપલા અને નીચલા શરીરની તાકાત વધેલી જોવા મળી.{2} પ્રશિક્ષિત પુરુષોમાં 8 અઠવાડિયામાં હાઇ-રેઝિસ્ટન્સ સર્કિટ અને પરંપરાગત સેટથી 1RM માં સમાન વધારો થયો.{3}"
+    },
+    {
+     "q": "શું સેટ વચ્ચેનો આરામ તાકાતના વધારાને અસર કરે છે?",
+     "a": "એક 8-અઠવાડિયાના ટ્રાયલમાં 1 મિનિટની તુલનામાં 3 મિનિટ આરામથી તાકાત અને સ્નાયુમાં વધુ વધારો થયો.{4} ACSM નું 2026 નું પોઝિશન સ્ટેન્ડ જણાવે છે કે સેટ રચનાએ પરિણામોને સતત અસર કરી ન હતી.{5}"
+    },
+    {
+     "q": "એરોબિક ફિટનેસ શેનાથી સુધરી?",
+     "a": "બે મેટા-વિશ્લેષણોમાં સર્કિટ ટ્રેનિંગથી મહત્તમ ઓક્સિજન ગ્રહણ વધ્યું.{1}{2} સીધી તુલનાવાળા ટ્રાયલમાં સર્કિટ અને પરંપરાગત બંને ટ્રેનિંગથી શટલ-રન પ્રદર્શન સુધર્યું.{3}"
+    }
+   ],
+   "updated": "અપડેટ 21 નવેમ્બર 2026",
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "શા માટે",
+    "how": "કેવી રીતે",
+    "dose": "ડોઝ",
+    "sources": "સ્રોતો",
+    "readIn": "આ ભાષામાં વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "WhatsApp પર પૂછો",
+    "whatsappText": "નમસ્તે Susmit, મેં સર્કિટ ટ્રેનિંગ અને સ્ટ્રેન્થ ટ્રેનિંગ વિશેનો લેખ વાંચ્યો અને પરામર્શ બુક કરવા માંગું છું",
+    "skip": "સામગ્રી પર જાઓ",
+    "crumb": "સર્કિટ વિ. સ્ટ્રેન્થ ટ્રેનિંગ"
+   },
+   "authorLine": "લેખક: સુસ્મિત જાલાન, સ્ટ્રેન્થ એન્ડ કન્ડિશનિંગ કોચ, Online Fitness Worldwide."
+  }
+ },
+ "format": "evidence"
+}
