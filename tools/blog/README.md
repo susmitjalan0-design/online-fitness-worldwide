@@ -68,12 +68,14 @@ Nothing here deploys anything. To publish:
 | File | What it is |
 | --- | --- |
 | `build.mjs` | the generator |
-| `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic, no English advice phrases in the `<article>` of English posts or the `<main>` of the fat-loss page |
+| `verify.mjs` | per-page checks: title, description, h1, canonical = sitemap URL, 8 hreflang links, JSON-LD parses, citations and internal links resolve, no prices, no old brand or location, `dir="rtl"` on Arabic, no English advice phrases in the `<article>` of English posts or the `<main>` of the fat-loss page, FAQPage JSON-LD = visible FAQ, no time-zone claim ("On IST" or a translation), ebook block at most once per page with `rel="sponsored nofollow noopener"` Amazon links, no placeholder ebook value, no price or rating in the block |
 | `export-posts.mjs` | turns the TypeScript posts into `data/` (needs esbuild) |
-| `data/` | the 31 posts (copy in 7 languages, sources), the post order, shared labels |
+| `data/` | the 34 posts (copy in 7 languages, sources), the post order, shared labels, the ebook map |
 | `template/` | pages copied from the zip: 7 blog indexes, one existing post per language (head, header, footer, byline), the fat-loss page, `sitemap.xml` |
 | `blog-extra.css` | the few rules the zip's compiled stylesheet lacks (jump chips, highlighted source, "Before you start" rule, `font-normal`) in the zip's blue |
 | `existing-posts.json` | the 6 posts that are already in the zip and are not re-rendered |
+| `data/ebooks.json` | which ebook each post shows in the ebook block, and the ebooks (placeholders until real ebooks exist) |
+| `ebooks/` | ebook covers and sample-chapter PDFs, copied to `/ebooks/` on the site when a block uses them |
 
 ## Copy rules applied while rendering
 
@@ -162,4 +164,79 @@ Added `patellofemoral-pain-and-exercise` in 7 languages, data-only (`"format": "
   fluids), `fitness-during-a-lockdown` (COVID-19 lockdown studies on activity, sitting and mood, a live-streamed home-exercise trial, WHO's
   home-activity guidance). The first two link to each other under "See also" (and name each other in an FAQ answer) and use different titles, H1s, metas and FAQ
   questions so they do not compete. Each has a safety section attributed to the CDC, Ready.gov, NHS, WHO and ACSM (Riebe 2015).
+
+## Ebook block (21 November 2026)
+
+A reusable block halfway through every generated post, in all 7 languages, on the current design: it sits after the item list (and
+after the mid-article "About OnlineFitnessWorldwide" box on the race posts that have one), before the "enough" section. It is an
+`<aside data-ebook-block="<id>">` inside the `<article>`, set apart by a border, the card background and a blue start edge (mirrors
+in RTL), and headed "From OnlineFitnessWorldwide · Ebook" in the page language.
+
+It shows: the cover (`.ebook-cover`), the title, a one- or two-line description, a "Get the Kindle ebook" button to Amazon
+(`target="_blank" rel="sponsored nofollow noopener"`, with the localised "opens in a new tab" for screen readers) and an optional
+"Free sample chapter (PDF)" link. Labels are `EBOOK_LABELS` in `data/shared.json` (from, kind, button, sample, coverAlt). No price,
+rating or review count is ever rendered.
+
+**Data.** `data/ebooks.json`:
+
+```json
+{
+ "posts": { "fitness-during-a-power-outage": "home-strength", "what-is-hyrox": "hyrox-guide", "best-exercises-for-desk-workers": null },
+ "ebooks": {
+  "home-strength": {
+   "title": { "en": "…", "ar": "…", "hi": "…", "es": "…", "zh": "…", "ja": "…", "gu": "…" },
+   "description": { "en": "One or two factual lines: what the ebook contains.", "ar": "…" },
+   "amazonUrl": "https://www.amazon.com/dp/XXXXXXXXXX",
+   "coverPath": "covers/home-strength.jpg",
+   "samplePdfPath": "samples/home-strength.pdf"
+  }
+ }
+}
+```
+
+- `posts` maps a post slug to an ebook id; `null` or a missing slug means no block. Several posts can share one ebook.
+- `title` / `description`: per language; a missing language falls back to English, marked `lang="en" dir="ltr"`.
+- `amazonUrl`: the full `https://` Amazon product URL (amazon.com, .co.uk, .in, .de, .co.jp and the other Amazon stores, or amzn.to).
+  Anything else that is not a placeholder stops the build.
+- `coverPath`, `samplePdfPath`: paths inside `tools/blog/ebooks/`; the build copies the used files to `cpanel-overlay/ebooks/`
+  (served as `/ebooks/...`). A path outside that folder stops the build.
+
+**What renders.** An ebook marked `"placeholder": true`, and any value that is empty or contains `PLACEHOLDER`, is ignored.
+Then, piece by piece: no real `amazonUrl`, no Kindle button; no sample PDF file on disk, no PDF link; no cover file on disk, no image;
+no real description, no description line. With no real title, or with neither a Kindle button nor a PDF link, the block is not
+rendered at all, so the page is byte-for-byte what it was without the block.
+
+**Today.** No ebook exists yet: `data/ebooks.json` maps every generated post to one entry, `PLACEHOLDER-ebook`, marked
+`"placeholder": true`, so no page shows a block. The 6 posts that live only in the zip (`existing-posts.json`) are listed as `null`:
+the generator does not render those pages, so it cannot put a block in them; the build stops with an error if one of them is mapped to a
+real ebook (bring the post into `data/posts/` first).
+
+**To add a real ebook.**
+1. Put the cover (JPG/PNG/WebP, about 2:3, at least 600 px wide) in `tools/blog/ebooks/covers/` and, if there is one, the sample
+   chapter PDF in `tools/blog/ebooks/samples/`. Binary files can't go through the GitHub connector used for this branch; add them with
+   git or the GitHub web upload.
+2. In `data/ebooks.json`, add an entry under `ebooks` (or rename `PLACEHOLDER-ebook`), fill in the fields above, and delete
+   `"placeholder": true` and every `PLACEHOLDER` value.
+3. Point the posts at it in `posts`.
+4. `node build.mjs && node verify.mjs`. `verify.mjs` fails on: more than one block on a page, a block outside the `<article>`, any Amazon
+   link without `rel="sponsored"` (or without `nofollow`, `noopener`, `target="_blank"`), the word PLACEHOLDER or any placeholder value
+   from `data/ebooks.json` in a page, price/rating/review wording in the block, a missing cover or PDF file.
+
+To preview with dummy data without touching `data/`: `EBOOKS_FILE=/path/to/dummy.json EBOOKS_ASSETS=/path/to/dummy-ebooks node build.mjs`
+(run it in a copy of the repo, since it rewrites `cpanel-overlay/`).
+
+## Copy scrub: "In Hindi or English. On IST." (21 November 2026)
+
+The sentence and its translations are gone from the generator data and from every page in `cpanel-overlay/`:
+
+- `data/shared.json` `EVIDENCE.coached[0]` (the "About OnlineFitnessWorldwide" box on every post), 7 languages, and the lockdown
+  post's FAQ answer "Does OnlineFitnessWorldwide run live online sessions?", 7 languages, now say: live online by video call (Google
+  Meet, Zoom or FaceTime); session times are agreed when you book. No language pair, no hours, no time zone.
+- The zip's templates carry it in the Organization JSON-LD of every page, and in the fat-loss page's meta, Open Graph and Twitter
+  descriptions and its "On Google Meet, Zoom or FaceTime. In Hindi or English. On IST." line. The templates stay exact zip copies;
+  `ZIP_COPY_NEUTRAL` in `build.mjs` replaces those strings on every page it writes.
+- `build.mjs` stops and `verify.mjs` fails if `IST`, "India(n) Standard Time" or its zh, ja, hi, gu, ar forms reach a page
+  (`TIMEZONE_CLAIM`).
+- Not covered: the 6 posts that live only in the zip (42 pages) and the zip's home page are not generated here, so they still carry
+  the old wording until the zip itself is rebuilt.
 

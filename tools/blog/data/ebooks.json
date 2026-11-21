@@ -1,0 +1,65 @@
+{
+ "_comment": [
+  "Ebook block data. One block can appear halfway through each blog post (see README, 'Ebook block').",
+  "posts: post slug -> ebook id (every post in data/order.json). A slug that maps to null gets no block. The 6 zip posts (existing-posts.json) are null because the generator does not render them; the build stops if one is mapped to a real ebook.",
+  "ebooks: one entry per ebook. title and description per language (en is used, marked lang=en, where a language is missing). amazonUrl: the full https Amazon product URL.",
+  "coverPath and samplePdfPath: paths relative to tools/blog/ebooks/ (for example covers/my-book.jpg, samples/my-book.pdf); the build copies them to /ebooks/ on the site.",
+  "Entries with \"placeholder\": true, and any value containing PLACEHOLDER, are never rendered. Remove both when you fill in a real ebook."
+ ],
+ "posts": {
+  "fitness-during-a-power-outage": "PLACEHOLDER-ebook",
+  "fitness-during-a-blackout": "PLACEHOLDER-ebook",
+  "fitness-during-a-lockdown": "PLACEHOLDER-ebook",
+  "patellofemoral-pain-and-exercise": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-cyclists": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-teenagers": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-cancer-survivors": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-postpartum-recovery": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-fatty-liver": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-pcos": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-fat-loss": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-knee-and-hip-osteoarthritis": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-menopause": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-mood-stress-and-sleep": "PLACEHOLDER-ebook",
+  "best-exercises-for-balance-and-fall-prevention": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-high-blood-pressure": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-desk-neck-and-shoulders": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-bone-density": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-type-2-diabetes": "PLACEHOLDER-ebook",
+  "best-leg-exercises-for-knee-friendly-strength": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-busy-parents": "PLACEHOLDER-ebook",
+  "what-is-athx": "PLACEHOLDER-ebook",
+  "deka-fit-mile-strong-guide": "PLACEHOLDER-ebook",
+  "hyrox-vs-deka-vs-athx": "PLACEHOLDER-ebook",
+  "hyrox-vs-crossfit": "PLACEHOLDER-ebook",
+  "how-to-train-for-hyrox-at-home": "PLACEHOLDER-ebook",
+  "what-is-hyrox": "PLACEHOLDER-ebook",
+  "hyrox-training-plan-for-beginners": "PLACEHOLDER-ebook",
+  "best-exercises-for-grip-strength": "PLACEHOLDER-ebook",
+  "best-core-exercises-for-lower-back-health": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-over-60s": "PLACEHOLDER-ebook",
+  "best-strength-exercises-for-runners": "PLACEHOLDER-ebook",
+  "best-bodyweight-exercises-for-travel": "PLACEHOLDER-ebook",
+  "best-home-workouts-with-one-dumbbell": "PLACEHOLDER-ebook",
+  "best-cool-down-stretches-after-strength-training": null,
+  "best-strength-and-conditioning-exercises-for-beginners": null,
+  "best-warm-up-exercises-before-strength-training": null,
+  "best-strength-exercises-for-women-over-40": null,
+  "best-exercises-after-a-long-break": null,
+  "best-exercises-for-desk-workers": null
+ },
+ "ebooks": {
+  "PLACEHOLDER-ebook": {
+   "placeholder": true,
+   "title": {
+    "en": "PLACEHOLDER ebook title"
+   },
+   "description": {
+    "en": "PLACEHOLDER one- or two-line factual description: what the ebook contains. No claims about results."
+   },
+   "amazonUrl": "PLACEHOLDER-amazon-url",
+   "coverPath": "PLACEHOLDER-cover.jpg",
+   "samplePdfPath": "PLACEHOLDER-sample.pdf"
+  }
+ }
+}
