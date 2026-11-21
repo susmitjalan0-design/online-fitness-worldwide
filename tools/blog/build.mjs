@@ -158,6 +158,22 @@ export function localizeFooterBlogLink(html, lang, shared) {
   return html.split(from).join(to);
 }
 
+/** The zip's logo <img> tags give the wrong intrinsic size: the header says width="160" height="44" (ratio 3.6) and the
+ *  footer gives none, but ofw-logo-Dh5_mZHL.png is 1840 x 330 px (ratio 5.6). Browsers reserve space from these attributes
+ *  before the image loads, so the header logo shifts the nav when it arrives and the footer logo has no reserved box (layout
+ *  shift, CLS). Set both to the file's real ratio (184 x 33; CSS still sets the displayed height) and lazy-load the footer
+ *  copy. Throws if either tag is missing, so a template change can't slip by. */
+export const LOGO_DIMS = 'width="184" height="33"';
+export function fixLogoSize(html, where) {
+  const head = '<img src="/assets/ofw-logo-Dh5_mZHL.png" alt="" width="160" height="44" decoding="async" class="h-8 w-auto sm:h-10"/>';
+  const foot = '<img src="/assets/ofw-logo-Dh5_mZHL.png" alt="Online Fitness Worldwide" class="h-12 w-auto sm:h-16"/>';
+  const hasHead = html.includes(head), hasFoot = html.includes(foot);
+  if (!hasHead && !hasFoot) throw new Error(`${where}: logo <img> not found`);
+  return html
+    .split(head).join(`<img src="/assets/ofw-logo-Dh5_mZHL.png" alt="" ${LOGO_DIMS} decoding="async" class="h-8 w-auto sm:h-10"/>`)
+    .split(foot).join(`<img src="/assets/ofw-logo-Dh5_mZHL.png" alt="Online Fitness Worldwide" ${LOGO_DIMS} loading="lazy" decoding="async" class="h-12 w-auto sm:h-16"/>`);
+}
+
 /** The zip's header: the logo link's aria-label repeats the brand ("Online Fitness Worldwide, Online Fitness Worldwide: Home"),
  *  and on non-English pages the "Programs" link stays English (marked lang="en"). Say the brand once, and give the Programs
  *  link the page language (PROGRAMS_LABEL), with hreflang="en" because it still points at the English home section (there are
@@ -193,14 +209,14 @@ export function loadTemplate() {
     const rawHeader = must(/<header[\s\S]*?<\/header>/, "header")[0];
     const navHeader = siteNav ? rawHeader.split('<nav aria-label="Site"').join(`<nav aria-label="${esc(siteNav)}"`) : rawHeader;
     // Brand once in the home-link aria-label; "Programs" in the page language (localizeHeader).
-    const header = localizeHeader(navHeader, lang, shared);
+    const header = fixLogoSize(localizeHeader(navHeader, lang, shared), `template/sample/${lang}.html header`);
     sample[lang] = {
       prefix: h.slice(0, h.indexOf("<title>")),
       iconLinks: h.slice(h.indexOf('<link rel="icon"'), h.indexOf('<link rel="canonical"')),
       gtag: must(/<script>window\.dataLayer[\s\S]*?<\/script>/, "gtag")[0],
       style: must(/<style id="blog-theme">[\s\S]*?<\/style>/, "theme style")[0],
       header,
-      footer: localizeFooterBlogLink(must(/<footer[\s\S]*?<\/footer>/, "footer")[0], lang, shared),
+      footer: fixLogoSize(localizeFooterBlogLink(must(/<footer[\s\S]*?<\/footer>/, "footer")[0], lang, shared), `template/sample/${lang}.html footer`),
       skip: unesc(must(/<a href="#main"[^>]*>([^<]*)<\/a>/, "skip link")[1]),
       byline: unesc(must(/<p class="mt-4 text-sm text-mist"><span>(.*?)<\/span> <time/, "byline")[1]),
       homeLabel: unesc(must(/aria-label="Online Fitness Worldwide, Online Fitness Worldwide: ([^"]*)"/, "home label")[1]),
@@ -558,6 +574,8 @@ export function renderIndex(T, posts, lang, ctx) {
   html = localizeFooterBlogLink(html, lang, shared);
   // Header: brand once in the home-link aria-label, "Programs" in the page language (PROGRAMS_LABEL).
   html = localizeHeader(html, lang, shared);
+  // Logo <img> width/height: the file's real ratio, so nothing shifts when it loads (fixLogoSize).
+  html = fixLogoSize(html, `${lang} blog index`);
   // Blog JSON-LD: add the new posts to blogPost, newest first.
   html = html.replace(/<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"Blog"[\s\S]*?)<\/script>/, (_, body) => {
     const ld = JSON.parse(body);
@@ -604,7 +622,7 @@ export function renderFatLoss(T, posts, ctx) {
     if (!page.includes(from)) throw new Error(`fat-loss page: text to neutralise not found: ${from.slice(0, 40)}`);
     page = page.split(from).join(to);
   }
-  return localizeHeader(page, "en", T.shared)
+  return fixLogoSize(localizeHeader(page, "en", T.shared), "fat-loss page")
     .replace(re, (_, a, b) => a + picks.map(li).join("") + b)
     .replace('<script async=""', `<link rel="stylesheet" href="${ctx.extraCssHref}" data-precedence="default"/><script async=""`);
 }

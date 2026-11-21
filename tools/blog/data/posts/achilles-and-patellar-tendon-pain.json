@@ -1,0 +1,653 @@
+{
+ "slug": "achilles-and-patellar-tendon-pain",
+ "published": "2026-11-21",
+ "modified": "2026-11-21",
+ "about": "Achilles and patellar tendinopathy and exercise",
+ "sources": [
+  {
+   "cite": "Cook JL, Purdam CR. Is tendon pathology a continuum? A pathology model to explain the clinical presentation of load-induced tendinopathy. Br J Sports Med. 2009;43(6):409–416.",
+   "url": "https://doi.org/10.1136/bjsm.2008.051193"
+  },
+  {
+   "cite": "Cook JL, Rio E, Purdam CR, Docking SI. Revisiting the continuum model of tendon pathology: what is its merit in clinical practice and research? Br J Sports Med. 2016;50(19):1187–1191.",
+   "url": "https://doi.org/10.1136/bjsports-2015-095422"
+  },
+  {
+   "cite": "Chimenti RL, Neville C, Houck J, et al. Achilles pain, stiffness, and muscle power deficits: midportion Achilles tendinopathy revision – 2024. Clinical practice guidelines linked to the International Classification of Functioning, Disability, and Health from the Academy of Orthopaedic Physical Therapy of the American Physical Therapy Association. J Orthop Sports Phys Ther. 2024;54(12):CPG1–CPG32. (Revision of the 2018 guideline by Martin RL et al.)",
+   "url": "https://doi.org/10.2519/jospt.2024.0302"
+  },
+  {
+   "cite": "de Jonge S, van den Berg C, de Vos RJ, et al. Incidence of midportion Achilles tendinopathy in the general population. Br J Sports Med. 2011;45(13):1026–1028.",
+   "url": "https://doi.org/10.1136/bjsports-2011-090342"
+  },
+  {
+   "cite": "van der Vlist AC, Winters M, Weir A, et al. Which treatment is most effective for patients with Achilles tendinopathy? A living systematic review with network meta-analysis of 29 randomised controlled trials. Br J Sports Med. 2021;55(5):249–256.",
+   "url": "https://doi.org/10.1136/bjsports-2019-101872"
+  },
+  {
+   "cite": "Beyer R, Kongsgaard M, Hougs Kjær B, et al. Heavy slow resistance versus eccentric training as treatment for Achilles tendinopathy: a randomized controlled trial. Am J Sports Med. 2015;43(7):1704–1711.",
+   "url": "https://doi.org/10.1177/0363546515584760"
+  },
+  {
+   "cite": "Silbernagel KG, Thomeé R, Eriksson BI, Karlsson J. Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study. Am J Sports Med. 2007;35(6):897–906.",
+   "url": "https://doi.org/10.1177/0363546506298279"
+  },
+  {
+   "cite": "Lian ØB, Engebretsen L, Bahr R. Prevalence of jumper's knee among elite athletes from different sports: a cross-sectional study. Am J Sports Med. 2005;33(4):561–567.",
+   "url": "https://doi.org/10.1177/0363546504270454"
+  },
+  {
+   "cite": "Kongsgaard M, Kovanen V, Aagaard P, et al. Corticosteroid injections, eccentric decline squat training and heavy slow resistance training in patellar tendinopathy. Scand J Med Sci Sports. 2009;19(6):790–802.",
+   "url": "https://doi.org/10.1111/j.1600-0838.2009.00949.x"
+  },
+  {
+   "cite": "Breda SJ, Oei EHG, Zwerver J, et al. Effectiveness of progressive tendon-loading exercise therapy in patients with patellar tendinopathy: a randomised clinical trial. Br J Sports Med. 2021;55(9):501–509.",
+   "url": "https://doi.org/10.1136/bjsports-2020-103403"
+  },
+  {
+   "cite": "Rio E, Kidgell D, Purdam C, et al. Isometric exercise induces analgesia and reduces inhibition in patellar tendinopathy. Br J Sports Med. 2015;49(19):1277–1283.",
+   "url": "https://doi.org/10.1136/bjsports-2014-094386"
+  },
+  {
+   "cite": "Challoumas D, Pedret C, Biddle M, et al. Management of patellar tendinopathy: a systematic review and network meta-analysis of randomised studies. BMJ Open Sport Exerc Med. 2021;7(4):e001110.",
+   "url": "https://doi.org/10.1136/bmjsem-2021-001110"
+  },
+  {
+   "cite": "Challoumas D, Crosbie G, O'Neill S, Pedret C, Millar NL. Effectiveness of exercise treatments with or without adjuncts for common lower limb tendinopathies: a living systematic review and network meta-analysis. Sports Med Open. 2023;9(1):71.",
+   "url": "https://doi.org/10.1186/s40798-023-00616-1"
+  },
+  {
+   "cite": "NHS. Tendonitis. NHS website; page last reviewed 9 June 2023; accessed 21 November 2026.",
+   "url": "https://www.nhs.uk/conditions/tendonitis/"
+  }
+ ],
+ "seeAlso": [
+  "patellofemoral-pain-and-exercise",
+  "isometric-exercise",
+  "best-strength-exercises-for-runners"
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "Achilles and patellar tendon pain: the evidence | Online Fitness Worldwide",
+   "metaDescription": "Achilles and patellar tendinopathy: the 2009 continuum model, the 2024 JOSPT guideline, trials and network meta-analyses on exercise. Sources cited.",
+   "h1": "Achilles and patellar tendon pain (tendinopathy): what the research shows",
+   "dek": "What a pathology model, a clinical practice guideline, randomised trials and network meta-analyses report on how common tendon pain is and on exercise-based treatment.",
+   "intro": [
+    "In 2009, Cook and Purdam proposed a continuum model of load-induced tendon pathology with three stages: reactive tendinopathy, tendon dysrepair (failed healing) and degenerative tendinopathy. The authors describe the stages as continuous, state that adding or removing load is the primary stimulus that moves a tendon forward or back along the continuum, especially in the early stages, and state that reversibility of pathology is unlikely in the degenerative stage. They presented the model for evaluation by clinicians and researchers.{1}",
+    "The same paper describes reactive tendinopathy as a non-inflammatory response to acute overload, usually a burst of unaccustomed physical activity, seen more often in younger people, and describes the classic degenerative presentation as a middle-aged recreational athlete with focal Achilles tendon swelling and pain.{1} A 2016 follow-up by the same group notes that classifying tendinopathy by structure, in what is primarily a pain condition, has been challenged, and that the interplay between structure, pain and function is not yet fully understood.{2}",
+    "The 2024 clinical practice guideline of the Academy of Orthopaedic Physical Therapy (American Physical Therapy Association) reports an overall prevalence of midportion Achilles tendinopathy of 4% to 7% in a recent meta-analysis, higher with increasing age and athletic involvement, and a reported 40% to 52% lifetime chance of an Achilles tendon injury in runners.{3} In a Dutch general-practice cohort of 57,725 registered patients, the incidence of midportion Achilles tendinopathy was 1.85 per 1,000 (2.35 per 1,000 in adults aged 21 to 60), and a relationship with sports activity was recorded in 35% of cases.{4}",
+    "In a cross-sectional study of 613 Norwegian elite athletes from 9 sports, 14.2% had current jumper's knee (patellar tendinopathy). Prevalence was 44.6% in volleyball and 31.9% in basketball, with no cases in cycling or orienteering, and lower in women (5.6%) than in men (13.5%).{8}",
+    "A living network meta-analysis of 29 randomised trials (42 treatments) of Achilles tendinopathy found that every active treatment class seemed superior to wait-and-see for midportion tendinopathy at 3 months, with no clinically relevant difference between active treatments at 3 or 12 months. 22 trials (76%) were at high risk of bias, and the certainty of evidence was very low to low.{5} A 2023 living network meta-analysis of 68 trials in Achilles tendinopathy, patellar tendinopathy and greater trochanteric pain syndrome found no convincing evidence that any adjunct, alone or added to exercise, was more effective than exercise alone.{13}"
+   ],
+   "listHeading": "Exercise approaches compared in the cited trials",
+   "items": [
+    {
+     "name": "Heavy slow resistance (Achilles)",
+     "why": "In 58 people with chronic midportion Achilles tendinopathy, 12 weeks of heavy slow resistance or eccentric training gave equally good improvements that were maintained at 52 weeks; session compliance was 92% and 78% respectively.{6}"
+    },
+    {
+     "name": "Continued running and jumping with pain monitoring (Achilles)",
+     "why": "In 38 people, continuing tendon-loading activity with a pain-monitoring model showed no negative effects compared with stopping those activities for 6 weeks; both groups improved at 12 months.{7}"
+    },
+    {
+     "name": "Heavy slow resistance and eccentric decline squats (patellar)",
+     "why": "In 39 men, improvements after 12 weeks were maintained at the half-year follow-up with eccentric decline squats and heavy slow resistance but deteriorated after corticosteroid injections; satisfaction was highest with heavy slow resistance.{9}"
+    },
+    {
+     "name": "Progressive tendon-loading exercise (patellar)",
+     "why": "In 76 patients, progressive tendon-loading exercise improved the VISA-P score more than eccentric exercise therapy after 24 weeks (28 vs 18 points).{10}"
+    },
+    {
+     "name": "Isometric holds (patellar)",
+     "why": "In 6 volleyball players, one bout of isometric contractions reduced tendon pain more than isotonic contractions for at least 45 minutes.{11} A pairwise meta-analysis of 3 trials found isometric exercise as effective as isotonic exercise for immediate pain relief.{12}"
+    }
+   ],
+   "enoughHeading": "What the guideline states and what the trials measured",
+   "enough": [
+    "The 2024 guideline (grade A, strong evidence) states that clinicians should use tendon loading exercise, with loads as high as tolerated, as a first-line treatment to improve function and decrease pain for individuals with midportion Achilles tendinopathy who do not have presumed frailty of the tendon structure. It describes tendon loading as eccentric, concentric, isometric, isotonic and plyometric use of the plantar flexor (calf) muscles, and reports improvements of 18 to 21 points on the VISA-A scale by 12 weeks in the studies it reviewed.{3}",
+    "The guideline also states (grade E, theoretical or foundational evidence) that individuals using tendon loading exercise should exercise at least 3 times a week at an intensity as high as tolerated, and (grade B) that clinicians should advise that complete rest is not indicated and that individuals should continue their activities within their pain tolerance. It states that exercise frequency (once a day to 3 times a week), number of sessions (24 to 168) and duration of care (6 weeks to 6 months) did not seem to influence outcomes, and that the most commonly reported harm of exercise was temporary symptom aggravation.{3}",
+    "Among other interventions, the guideline states that clinicians may use heel lifts (grade C), should not use low-level laser therapy (grade C) and should not use therapeutic ultrasound alone (grade C), and that no recommendation can be made on orthoses because evidence is contradictory (grade D).{3}",
+    "For patellar tendinopathy, a 2021 network meta-analysis of 37 randomised trials assessing 33 interventions rated the evidence for the highest-ranked options as low or very low strength, and its authors concluded that eccentric loading, with or without adjuncts, should remain the first-line treatment.{12} The 2021 trial of progressive tendon-loading exercise concluded that it was superior to eccentric exercise therapy; the return-to-sport rate was 43% vs 27% (not statistically significant), and exercise adherence was 40% vs 49% after 24 weeks.{10} These are group results from trials, not a prediction for any individual."
+   ],
+   "safety": [
+    "The 2024 guideline lists conditions to consider in the differential diagnosis of non-traumatic pain at the back of the ankle, including a partial tear of the Achilles tendon, bursitis, posterior ankle impingement, sural nerve irritation, stress fractures, systemic inflammatory disease and insertional Achilles tendinopathy. It states that imaging is not required to diagnose Achilles tendinopathy but is recommended when the diagnosis is uncertain, when response to care is delayed or when invasive treatments are being considered.{3}",
+    "The NHS states that pain that is sudden and severe and happened during an accident or activity may mean a torn (ruptured) tendon, sometimes with a popping or snapping sound. It states to see a GP if symptoms after a joint injury do not improve within a few weeks, and to get help from NHS 111 for a lot of pain or a suspected ruptured tendon.{14}",
+    "This page does not diagnose, treat, or clear any condition."
+   ],
+   "faq": [
+    {
+     "q": "What is the tendon pathology continuum?",
+     "a": "A model proposed by Cook and Purdam in 2009 with three stages (reactive tendinopathy, tendon dysrepair and degenerative tendinopathy), in which load is the primary stimulus that moves a tendon along the continuum.{1}"
+    },
+    {
+     "q": "What does the 2024 Achilles tendinopathy guideline state about exercise?",
+     "a": "It states (grade A) that clinicians should use tendon loading exercise, with loads as high as tolerated, as a first-line treatment for midportion Achilles tendinopathy without presumed frailty of the tendon structure.{3}"
+    },
+    {
+     "q": "Did heavy slow resistance and eccentric training differ in Achilles tendinopathy?",
+     "a": "In a 12-week randomised trial of 58 patients, both gave equally good improvements that lasted to 52 weeks; compliance was higher with heavy slow resistance (92% vs 78%).{6}"
+    },
+    {
+     "q": "How common is jumper's knee in elite athletes?",
+     "a": "A study of 613 Norwegian elite athletes found current jumper's knee in 14.2%, ranging from none in cycling and orienteering to 44.6% in volleyball.{8}"
+    }
+   ],
+   "updated": "Updated 21 November 2026",
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article. The Academy of Orthopaedic Physical Therapy, the NHS and the other organisations cited on this page are cited only as sources and do not endorse OnlineFitnessWorldwide or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why",
+    "how": "How",
+    "dose": "Dose",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "whatsappText": "Hi Susmit, I read the article on Achilles and patellar tendon pain and want to book a consultation",
+    "skip": "Skip to content",
+    "crumb": "Achilles and patellar tendon pain"
+   },
+   "authorLine": "By Susmit Jalan, strength and conditioning coach at Online Fitness Worldwide."
+  },
+  "ar": {
+   "metaTitle": "ألم وتر العرقوب (أخيل) والوتر الرضفي: الأدلة | Online Fitness Worldwide",
+   "metaDescription": "اعتلال وتر العرقوب والوتر الرضفي: نموذج الاستمرارية 2009، وإرشادات JOSPT لعام 2024، وتجارب وتحليلات تلوية شبكية عن التمارين. مع المصادر.",
+   "h1": "ألم وتر العرقوب (أخيل) والوتر الرضفي (اعتلال الوتر): ماذا تُظهر الأبحاث",
+   "dek": "ما يذكره نموذج مرضي وإرشادات ممارسة سريرية وتجارب عشوائية وتحليلات تلوية شبكية عن مدى شيوع ألم الأوتار وعن العلاج القائم على التمارين.",
+   "intro": [
+    "في عام 2009 اقترح كوك وبوردام نموذج استمرارية لاعتلال الأوتار الناتج عن الحمل، بثلاث مراحل: اعتلال الوتر التفاعلي، وخلل إصلاح الوتر (فشل الالتئام)، واعتلال الوتر التنكّسي. يصف المؤلفان المراحل بأنها متصلة، ويذكران أن إضافة الحمل أو إزالته هي المحفّز الرئيسي الذي يدفع الوتر إلى الأمام أو الخلف على هذا المسار، خصوصًا في المراحل المبكرة، ويذكران أن انعكاس الاعتلال غير مرجّح في المرحلة التنكّسية. وقد قدّما النموذج لتقييمه من قِبل الأطباء والباحثين.{1}",
+    "وتصف الورقة نفسها اعتلال الوتر التفاعلي بأنه استجابة غير التهابية لحمل زائد حاد، عادةً زيادة مفاجئة في نشاط بدني غير معتاد، وأنه أكثر شيوعًا لدى الأصغر سنًا، وتصف الصورة التنكّسية النموذجية بأنها رياضي هاوٍ في منتصف العمر لديه تورّم موضعي وألم في وتر العرقوب.{1} وتشير متابعة نشرها الفريق نفسه عام 2016 إلى أن تصنيف اعتلال الوتر حسب البنية، في حالة يغلب عليها الألم، قد تعرّض للتشكيك، وأن العلاقة بين البنية والألم والوظيفة لم تُفهم بالكامل بعد.{2}",
+    "تذكر إرشادات الممارسة السريرية لعام 2024 الصادرة عن أكاديمية العلاج الطبيعي لجراحة العظام (الجمعية الأمريكية للعلاج الطبيعي) أن الانتشار الإجمالي لاعتلال الجزء الأوسط من وتر العرقوب بلغ 4% إلى 7% في تحليل تلوي حديث، ويزداد مع التقدّم في العمر وارتفاع مستوى المشاركة الرياضية، وأن احتمال إصابة وتر العرقوب لدى العدّائين خلال حياتهم يبلغ 40% إلى 52%.{3} وفي مجموعة من 57,725 مريضًا مسجّلين لدى أطباء عامّين في هولندا، بلغ معدل حدوث اعتلال الجزء الأوسط من وتر العرقوب 1.85 لكل 1,000 (2.35 لكل 1,000 لدى البالغين من 21 إلى 60 عامًا)، وسُجّلت علاقة بالنشاط الرياضي في 35% من الحالات.{4}",
+    "في دراسة مقطعية شملت 613 رياضيًا نرويجيًا من النخبة في 9 رياضات، كان لدى 14.2% منهم ركبة القافز (اعتلال الوتر الرضفي) وقت الدراسة. وبلغ الانتشار 44.6% في الكرة الطائرة و31.9% في كرة السلة، مع عدم وجود حالات في ركوب الدراجات أو سباق التوجيه، وكان أقل لدى النساء (5.6%) منه لدى الرجال (13.5%).{8}",
+    "وجد تحليل تلوي شبكي «حيّ» شمل 29 تجربة عشوائية (42 علاجًا) لاعتلال وتر العرقوب أن كل فئات العلاج الفعّال بدت أفضل من الانتظار والمراقبة في اعتلال الجزء الأوسط عند 3 أشهر، دون فرق ذي أهمية سريرية بين العلاجات الفعّالة عند 3 أو 12 شهرًا. وكانت 22 تجربة (76%) عالية خطر التحيّز، ودرجة يقين الأدلة منخفضة جدًا إلى منخفضة.{5} ولم يجد تحليل تلوي شبكي حيّ عام 2023 شمل 68 تجربة في اعتلال وتر العرقوب واعتلال الوتر الرضفي ومتلازمة ألم المدوّر الكبير دليلًا مقنعًا على أن أي علاج مساعد، منفردًا أو مضافًا إلى التمارين، أكثر فاعلية من التمارين وحدها.{13}"
+   ],
+   "listHeading": "أساليب التمارين التي قارنتها التجارب المذكورة",
+   "items": [
+    {
+     "name": "المقاومة الثقيلة البطيئة (العرقوب)",
+     "why": "لدى 58 شخصًا مصابين باعتلال مزمن في الجزء الأوسط من وتر العرقوب، أدّت 12 أسبوعًا من المقاومة الثقيلة البطيئة أو التدريب اللامركزي إلى تحسّن جيد ومتساوٍ استمر حتى الأسبوع 52؛ وبلغ الالتزام بالجلسات 92% و78% على التوالي.{6}"
+    },
+    {
+     "name": "مواصلة الجري والقفز مع مراقبة الألم (العرقوب)",
+     "why": "لدى 38 شخصًا، لم تظهر آثار سلبية لمواصلة النشاط الذي يحمّل الوتر باستخدام نموذج لمراقبة الألم مقارنةً بإيقاف هذه الأنشطة لمدة 6 أسابيع؛ وتحسّنت المجموعتان عند 12 شهرًا.{7}"
+    },
+    {
+     "name": "المقاومة الثقيلة البطيئة والقرفصاء اللامركزي على سطح مائل (الرضفي)",
+     "why": "لدى 39 رجلًا، استمر التحسّن بعد 12 أسبوعًا حتى متابعة نصف العام مع القرفصاء اللامركزي على سطح مائل ومع المقاومة الثقيلة البطيئة، لكنه تراجع بعد حقن الكورتيكوستيرويد؛ وكان الرضا أعلى مع المقاومة الثقيلة البطيئة.{9}"
+    },
+    {
+     "name": "تمارين تحميل الوتر التدريجية (الرضفي)",
+     "why": "لدى 76 مريضًا، حسّنت تمارين تحميل الوتر التدريجية درجة VISA-P أكثر من العلاج بالتمارين اللامركزية بعد 24 أسبوعًا (28 مقابل 18 نقطة).{10}"
+    },
+    {
+     "name": "الثبات الإيزومتري (الرضفي)",
+     "why": "لدى 6 لاعبي كرة طائرة، خفّضت جلسة واحدة من الانقباضات الإيزومترية ألم الوتر أكثر من الانقباضات الأيزوتونية لمدة 45 دقيقة على الأقل.{11} ووجد تحليل تلوي زوجي لثلاث تجارب أن التمارين الإيزومترية بفاعلية التمارين الأيزوتونية نفسها في تخفيف الألم الفوري.{12}"
+    }
+   ],
+   "enoughHeading": "ما تنص عليه الإرشادات وما قاسته التجارب",
+   "enough": [
+    "تنص إرشادات 2024 (الدرجة A، أدلة قوية) على أن على الأطباء استخدام تمارين تحميل الوتر، بأحمال عالية بقدر ما يُحتمل، علاجًا أولًا لتحسين الوظيفة وتقليل الألم لدى المصابين باعتلال الجزء الأوسط من وتر العرقوب الذين لا يُفترض لديهم ضعف في بنية الوتر. وتصف تحميل الوتر بأنه استخدام لامركزي ومركزي وإيزومتري وأيزوتوني وبليومتري للعضلات القابضة الأخمصية (عضلات ربلة الساق)، وتذكر تحسّنًا بمقدار 18 إلى 21 نقطة على مقياس VISA-A بحلول الأسبوع 12 في الدراسات التي راجعتها.{3}",
+    "وتنص الإرشادات أيضًا (الدرجة E، أدلة نظرية أو أساسية) على أن من يستخدمون تمارين تحميل الوتر ينبغي أن يتمرّنوا 3 مرات أسبوعيًا على الأقل بشدة عالية بقدر ما يُحتمل، و(الدرجة B) على أن على الأطباء إبلاغهم بأن الراحة التامة غير مستطبّة وأن عليهم مواصلة أنشطتهم ضمن حدود تحمّلهم للألم. وتذكر أن تكرار التمرين (من مرة يوميًا إلى 3 مرات أسبوعيًا) وعدد الجلسات (24 إلى 168) ومدة الرعاية (6 أسابيع إلى 6 أشهر) لم تبدُ مؤثرة في النتائج، وأن الضرر الأكثر ذكرًا للتمارين كان تفاقمًا مؤقتًا في الأعراض.{3}",
+    "ومن بين التدخلات الأخرى، تنص الإرشادات على أنه يجوز للأطباء استخدام رافعات الكعب (الدرجة C)، وألا يستخدموا العلاج بالليزر منخفض المستوى (الدرجة C)، وألا يستخدموا الموجات فوق الصوتية العلاجية وحدها (الدرجة C)، وعلى أنه لا يمكن تقديم توصية بشأن الأجهزة التقويمية لأن الأدلة متناقضة (الدرجة D).{3}",
+    "بالنسبة لاعتلال الوتر الرضفي، قيّم تحليل تلوي شبكي عام 2021 شمل 37 تجربة عشوائية قيّمت 33 تدخلًا أدلةَ الخيارات الأعلى ترتيبًا بأنها منخفضة أو منخفضة جدًا القوة، وخلص مؤلفوه إلى أن التحميل اللامركزي، مع علاجات مساعدة أو بدونها، ينبغي أن يبقى العلاج الأول.{12} وخلصت تجربة 2021 لتمارين تحميل الوتر التدريجية إلى أنها أفضل من العلاج بالتمارين اللامركزية؛ وبلغ معدل العودة إلى الرياضة 43% مقابل 27% (غير دال إحصائيًا)، والالتزام بالتمارين 40% مقابل 49% بعد 24 أسبوعًا.{10} هذه نتائج جماعية من تجارب، وليست تنبؤًا لأي فرد."
+   ],
+   "safety": [
+    "تذكر إرشادات 2024 حالات يُنظر فيها عند التشخيص التفريقي لألم خلف الكاحل غير الناتج عن إصابة، منها التمزّق الجزئي لوتر العرقوب، والتهاب الجراب، والانحشار الخلفي للكاحل، وتهيّج العصب الربلي، وكسور الإجهاد، والأمراض الالتهابية الجهازية، واعتلال وتر العرقوب عند موضع الارتكاز. وتذكر أن التصوير غير مطلوب لتشخيص اعتلال وتر العرقوب، لكنه يُوصى به عندما يكون التشخيص غير مؤكد، أو تتأخر الاستجابة للرعاية، أو يُنظر في علاجات تدخّلية.{3}",
+    "تذكر NHS أن الألم المفاجئ والشديد الذي يحدث أثناء حادث أو نشاط قد يعني تمزّق الوتر، وقد يصاحبه صوت فرقعة أو طقطقة. وتنص على مراجعة الطبيب العام إذا لم تتحسن الأعراض بعد إصابة مفصل خلال أسابيع قليلة، وعلى طلب المساعدة من NHS 111 عند الألم الشديد أو الاشتباه بتمزّق الوتر.{14}",
+    "لا تشخّص هذه الصفحة أي حالة ولا تعالجها ولا تمنح إذنًا بشأنها."
+   ],
+   "faq": [
+    {
+     "q": "ما استمرارية اعتلال الأوتار؟",
+     "a": "نموذج اقترحه كوك وبوردام عام 2009 بثلاث مراحل (اعتلال الوتر التفاعلي، وخلل إصلاح الوتر، واعتلال الوتر التنكّسي)، يكون فيه الحمل المحفّز الرئيسي الذي يحرّك الوتر على هذا المسار.{1}"
+    },
+    {
+     "q": "ماذا تنص إرشادات 2024 لاعتلال وتر العرقوب بشأن التمارين؟",
+     "a": "تنص (الدرجة A) على أن على الأطباء استخدام تمارين تحميل الوتر، بأحمال عالية بقدر ما يُحتمل، علاجًا أولًا لاعتلال الجزء الأوسط من وتر العرقوب دون ضعف مفترض في بنية الوتر.{3}"
+    },
+    {
+     "q": "هل اختلفت المقاومة الثقيلة البطيئة عن التدريب اللامركزي في اعتلال وتر العرقوب؟",
+     "a": "في تجربة عشوائية مدتها 12 أسبوعًا شملت 58 مريضًا، أدّى كلاهما إلى تحسّن جيد ومتساوٍ استمر حتى الأسبوع 52؛ وكان الالتزام أعلى مع المقاومة الثقيلة البطيئة (92% مقابل 78%).{6}"
+    },
+    {
+     "q": "ما مدى شيوع ركبة القافز لدى رياضيي النخبة؟",
+     "a": "وجدت دراسة على 613 رياضيًا نرويجيًا من النخبة ركبة القافز الحالية لدى 14.2%، من صفر في ركوب الدراجات وسباق التوجيه إلى 44.6% في الكرة الطائرة.{8}"
+    }
+   ],
+   "updated": "حدّث في 21 نوفمبر 2026",
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال. تُذكر أكاديمية العلاج الطبيعي لجراحة العظام وNHS والمنظمات الأخرى المذكورة في هذه الصفحة بوصفها مصادر فقط، ولا تؤيد OnlineFitnessWorldwide أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا",
+    "how": "كيف",
+    "dose": "الجرعة",
+    "sources": "المصادر",
+    "readIn": "اقرأ بلغة أخرى",
+    "programs": "اطّلع على البرامج",
+    "whatsapp": "اسأل عبر واتساب",
+    "whatsappText": "مرحبًا سوسميت، قرأت المقال عن ألم وتر العرقوب والوتر الرضفي وأريد حجز استشارة",
+    "skip": "انتقل إلى المحتوى",
+    "crumb": "ألم وتر العرقوب والوتر الرضفي"
+   },
+   "authorLine": "بقلم سوسميت جالان، مدرب القوة والتكييف البدني في Online Fitness Worldwide."
+  },
+  "hi": {
+   "metaTitle": "एकिलीज़ और पटेलर टेंडन दर्द: प्रमाण | Online Fitness Worldwide",
+   "metaDescription": "एकिलीज़ और पटेलर टेंडिनोपैथी: 2009 का कंटिन्यूअम मॉडल, 2024 की JOSPT गाइडलाइन, ट्रायल और व्यायाम पर नेटवर्क मेटा-विश्लेषण। स्रोत सहित।",
+   "h1": "एकिलीज़ और पटेलर टेंडन दर्द (टेंडिनोपैथी): शोध क्या दिखाता है",
+   "dek": "एक पैथोलॉजी मॉडल, एक क्लिनिकल प्रैक्टिस गाइडलाइन, रैंडमाइज़्ड ट्रायल और नेटवर्क मेटा-विश्लेषण टेंडन दर्द कितना आम है और व्यायाम-आधारित उपचार के बारे में क्या बताते हैं।",
+   "intro": [
+    "2009 में कुक और पर्डम ने लोड से होने वाली टेंडन पैथोलॉजी का एक कंटिन्यूअम (निरंतरता) मॉडल प्रस्तावित किया, जिसके तीन चरण हैं: रिएक्टिव टेंडिनोपैथी, टेंडन डिसरिपेयर (असफल हीलिंग) और डीजेनेरेटिव टेंडिनोपैथी। लेखक इन चरणों को निरंतर बताते हैं, कहते हैं कि लोड जोड़ना या घटाना वह मुख्य उत्तेजना है जो टेंडन को इस निरंतरता पर आगे या पीछे ले जाती है, ख़ासकर शुरुआती चरणों में, और कहते हैं कि डीजेनेरेटिव चरण में पैथोलॉजी के पलटने की संभावना कम है। उन्होंने यह मॉडल क्लिनिशियनों और शोधकर्ताओं के मूल्यांकन के लिए प्रस्तुत किया।{1}",
+    "यही लेख रिएक्टिव टेंडिनोपैथी को अचानक ओवरलोड, आमतौर पर असामान्य शारीरिक गतिविधि में अचानक बढ़ोतरी, के प्रति एक नॉन-इन्फ़्लेमेटरी प्रतिक्रिया बताता है, जो कम उम्र के लोगों में अधिक दिखती है, और डीजेनेरेटिव चरण की क्लासिक प्रस्तुति को एकिलीज़ टेंडन में स्थानीय सूजन और दर्द वाले मध्यम आयु के मनोरंजक खिलाड़ी के रूप में बताता है।{1} इसी समूह का 2016 का एक अनुवर्ती लेख बताता है कि मुख्यतः दर्द वाली स्थिति में टेंडिनोपैथी को संरचना के आधार पर वर्गीकृत करने पर सवाल उठाए गए हैं, और संरचना, दर्द और कार्य के आपसी संबंध को अभी पूरी तरह नहीं समझा गया है।{2}",
+    "अकैडमी ऑफ़ ऑर्थोपेडिक फ़िज़िकल थेरेपी (अमेरिकन फ़िज़िकल थेरेपी एसोसिएशन) की 2024 की क्लिनिकल प्रैक्टिस गाइडलाइन एक हालिया मेटा-विश्लेषण के आधार पर मिडपोर्शन एकिलीज़ टेंडिनोपैथी की कुल व्यापकता 4% से 7% बताती है, जो बढ़ती उम्र और अधिक खेल भागीदारी के साथ अधिक है, और धावकों में जीवनकाल में एकिलीज़ टेंडन चोट की 40% से 52% संभावना बताती है।{3} 57,725 पंजीकृत मरीज़ों वाले एक डच जनरल-प्रैक्टिस समूह में मिडपोर्शन एकिलीज़ टेंडिनोपैथी की घटना दर 1.85 प्रति 1,000 थी (21 से 60 वर्ष के वयस्कों में 2.35 प्रति 1,000), और 35% मामलों में खेल गतिविधि से संबंध दर्ज किया गया।{4}",
+    "9 खेलों के 613 नॉर्वेजियन एलीट खिलाड़ियों के एक क्रॉस-सेक्शनल अध्ययन में 14.2% को उस समय जंपर्स नी (पटेलर टेंडिनोपैथी) थी। वॉलीबॉल में व्यापकता 44.6% और बास्केटबॉल में 31.9% थी, साइक्लिंग और ओरिएंटियरिंग में कोई मामला नहीं था, और महिलाओं में (5.6%) पुरुषों (13.5%) से कम थी।{8}",
+    "एकिलीज़ टेंडिनोपैथी पर 29 रैंडमाइज़्ड ट्रायल (42 उपचार) के एक लिविंग नेटवर्क मेटा-विश्लेषण में पाया गया कि मिडपोर्शन टेंडिनोपैथी में 3 महीने पर हर सक्रिय उपचार वर्ग 'इंतज़ार करो और देखो' से बेहतर लगा, और 3 या 12 महीने पर सक्रिय उपचारों के बीच क्लिनिकली प्रासंगिक अंतर नहीं था। 22 ट्रायल (76%) में पक्षपात का उच्च जोखिम था, और प्रमाण की निश्चितता बहुत कम से कम थी।{5} एकिलीज़ टेंडिनोपैथी, पटेलर टेंडिनोपैथी और ग्रेटर ट्रोकैन्टेरिक पेन सिंड्रोम पर 68 ट्रायल के 2023 के एक लिविंग नेटवर्क मेटा-विश्लेषण में कोई ठोस प्रमाण नहीं मिला कि कोई सहायक उपचार, अकेले या व्यायाम के साथ, केवल व्यायाम से अधिक प्रभावी था।{13}"
+   ],
+   "listHeading": "उद्धृत ट्रायल में तुलना किए गए व्यायाम तरीके",
+   "items": [
+    {
+     "name": "हेवी स्लो रेज़िस्टेंस (एकिलीज़)",
+     "why": "क्रॉनिक मिडपोर्शन एकिलीज़ टेंडिनोपैथी वाले 58 लोगों में 12 सप्ताह के हेवी स्लो रेज़िस्टेंस या एक्सेंट्रिक ट्रेनिंग से बराबर अच्छे सुधार हुए जो 52 सप्ताह तक बने रहे; सत्र अनुपालन क्रमशः 92% और 78% था।{6}"
+    },
+    {
+     "name": "दर्द निगरानी के साथ दौड़ना और कूदना जारी रखना (एकिलीज़)",
+     "why": "38 लोगों में, दर्द-निगरानी मॉडल के साथ टेंडन पर लोड डालने वाली गतिविधि जारी रखने से, इन गतिविधियों को 6 सप्ताह रोकने की तुलना में, कोई नकारात्मक प्रभाव नहीं दिखा; दोनों समूहों में 12 महीने पर सुधार हुआ।{7}"
+    },
+    {
+     "name": "हेवी स्लो रेज़िस्टेंस और एक्सेंट्रिक डिक्लाइन स्क्वॉट (पटेलर)",
+     "why": "39 पुरुषों में 12 सप्ताह बाद के सुधार एक्सेंट्रिक डिक्लाइन स्क्वॉट और हेवी स्लो रेज़िस्टेंस के साथ छह महीने के फ़ॉलो-अप तक बने रहे, लेकिन कॉर्टिकोस्टेरॉइड इंजेक्शन के बाद घट गए; संतुष्टि हेवी स्लो रेज़िस्टेंस के साथ सबसे अधिक थी।{9}"
+    },
+    {
+     "name": "प्रोग्रेसिव टेंडन-लोडिंग व्यायाम (पटेलर)",
+     "why": "76 मरीज़ों में प्रोग्रेसिव टेंडन-लोडिंग व्यायाम ने 24 सप्ताह बाद VISA-P स्कोर को एक्सेंट्रिक व्यायाम थेरेपी से अधिक सुधारा (28 बनाम 18 अंक)।{10}"
+    },
+    {
+     "name": "आइसोमेट्रिक होल्ड (पटेलर)",
+     "why": "6 वॉलीबॉल खिलाड़ियों में आइसोमेट्रिक संकुचन के एक सत्र ने आइसोटोनिक संकुचन की तुलना में टेंडन दर्द को कम से कम 45 मिनट तक अधिक घटाया।{11} 3 ट्रायल के एक पेयरवाइज़ मेटा-विश्लेषण में तुरंत दर्द राहत के लिए आइसोमेट्रिक व्यायाम आइसोटोनिक जितना ही प्रभावी पाया गया।{12}"
+    }
+   ],
+   "enoughHeading": "गाइडलाइन क्या कहती है और ट्रायल ने क्या मापा",
+   "enough": [
+    "2024 की गाइडलाइन (ग्रेड A, मज़बूत प्रमाण) कहती है कि क्लिनिशियनों को मिडपोर्शन एकिलीज़ टेंडिनोपैथी वाले उन लोगों में, जिनकी टेंडन संरचना में कमज़ोरी (फ़्रेल्टी) अनुमानित नहीं है, कार्य सुधारने और दर्द घटाने के लिए पहली पंक्ति के उपचार के रूप में टेंडन-लोडिंग व्यायाम, जितना सहन हो उतने अधिक लोड के साथ, उपयोग करना चाहिए। यह टेंडन लोडिंग को प्लांटर फ़्लेक्सर (पिंडली) मांसपेशियों के एक्सेंट्रिक, कॉन्सेंट्रिक, आइसोमेट्रिक, आइसोटोनिक और प्लायोमेट्रिक उपयोग के रूप में बताती है, और समीक्षा किए गए अध्ययनों में 12 सप्ताह तक VISA-A स्केल पर 18 से 21 अंकों के सुधार बताती है।{3}",
+    "गाइडलाइन यह भी कहती है (ग्रेड E, सैद्धांतिक या बुनियादी प्रमाण) कि टेंडन-लोडिंग व्यायाम करने वाले लोगों को सप्ताह में कम से कम 3 बार, जितनी सहन हो उतनी तीव्रता पर, व्यायाम करना चाहिए, और (ग्रेड B) कि क्लिनिशियनों को बताना चाहिए कि पूर्ण आराम का संकेत नहीं है और लोगों को अपनी दर्द सहनशीलता के भीतर गतिविधियाँ जारी रखनी चाहिए। यह कहती है कि व्यायाम की आवृत्ति (दिन में एक बार से सप्ताह में 3 बार), सत्रों की संख्या (24 से 168) और देखभाल की अवधि (6 सप्ताह से 6 महीने) परिणामों को प्रभावित करती नहीं दिखी, और व्यायाम का सबसे अधिक बताया गया नुकसान लक्षणों का अस्थायी रूप से बढ़ना था।{3}",
+    "अन्य उपचारों में, गाइडलाइन कहती है कि क्लिनिशियन हील लिफ़्ट उपयोग कर सकते हैं (ग्रेड C), लो-लेवल लेज़र थेरेपी उपयोग नहीं करनी चाहिए (ग्रेड C) और केवल थेरेप्यूटिक अल्ट्रासाउंड उपयोग नहीं करना चाहिए (ग्रेड C), और ऑर्थोसिस पर कोई सिफ़ारिश नहीं की जा सकती क्योंकि प्रमाण विरोधाभासी हैं (ग्रेड D)।{3}",
+    "पटेलर टेंडिनोपैथी के लिए, 33 उपचारों का आकलन करने वाले 37 रैंडमाइज़्ड ट्रायल के 2021 के एक नेटवर्क मेटा-विश्लेषण ने सबसे ऊँचे क्रम वाले विकल्पों के प्रमाण को कम या बहुत कम मज़बूती का आँका, और इसके लेखकों ने निष्कर्ष निकाला कि एक्सेंट्रिक लोडिंग, सहायक उपचारों के साथ या बिना, पहली पंक्ति का उपचार बनी रहनी चाहिए।{12} प्रोग्रेसिव टेंडन-लोडिंग व्यायाम के 2021 के ट्रायल ने निष्कर्ष निकाला कि यह एक्सेंट्रिक व्यायाम थेरेपी से बेहतर था; 24 सप्ताह बाद खेल में वापसी की दर 43% बनाम 27% थी (सांख्यिकीय रूप से महत्वपूर्ण नहीं), और व्यायाम पालन 40% बनाम 49% था।{10} ये ट्रायल के समूह परिणाम हैं, किसी व्यक्ति के लिए भविष्यवाणी नहीं।"
+   ],
+   "safety": [
+    "2024 की गाइडलाइन टखने के पीछे बिना चोट वाले दर्द के विभेदक निदान में विचार की जाने वाली स्थितियाँ सूचीबद्ध करती है, जिनमें एकिलीज़ टेंडन का आंशिक फटना, बर्साइटिस, पोस्टीरियर एंकल इम्पिंजमेंट, सुरल नस में जलन, स्ट्रेस फ़्रैक्चर, सिस्टमिक इन्फ़्लेमेटरी रोग और इंसर्शनल एकिलीज़ टेंडिनोपैथी शामिल हैं। यह कहती है कि एकिलीज़ टेंडिनोपैथी के निदान के लिए इमेजिंग ज़रूरी नहीं है, लेकिन जब निदान अनिश्चित हो, देखभाल का असर देर से दिखे या इनवेसिव उपचारों पर विचार हो रहा हो, तब इसकी सिफ़ारिश की जाती है।{3}",
+    "NHS कहता है कि किसी दुर्घटना या गतिविधि के दौरान अचानक और तेज़ दर्द का मतलब टेंडन का फटना (रप्चर) हो सकता है, कभी-कभी पॉप या चटकने की आवाज़ के साथ। यह कहता है कि जोड़ की चोट के बाद लक्षण कुछ हफ़्तों में न सुधरें तो GP को दिखाएँ, और बहुत दर्द या टेंडन फटने के संदेह पर NHS 111 से मदद लें।{14}",
+    "यह पेज किसी स्थिति का निदान, उपचार या उसके लिए अनुमति नहीं देता।"
+   ],
+   "faq": [
+    {
+     "q": "टेंडन पैथोलॉजी कंटिन्यूअम क्या है?",
+     "a": "कुक और पर्डम द्वारा 2009 में प्रस्तावित एक मॉडल, जिसके तीन चरण हैं (रिएक्टिव टेंडिनोपैथी, टेंडन डिसरिपेयर और डीजेनेरेटिव टेंडिनोपैथी), और जिसमें लोड वह मुख्य उत्तेजना है जो टेंडन को इस निरंतरता पर आगे-पीछे ले जाती है।{1}"
+    },
+    {
+     "q": "2024 की एकिलीज़ टेंडिनोपैथी गाइडलाइन व्यायाम के बारे में क्या कहती है?",
+     "a": "यह कहती है (ग्रेड A) कि क्लिनिशियनों को टेंडन संरचना की अनुमानित कमज़ोरी के बिना मिडपोर्शन एकिलीज़ टेंडिनोपैथी में पहली पंक्ति के उपचार के रूप में टेंडन-लोडिंग व्यायाम, जितना सहन हो उतने अधिक लोड के साथ, उपयोग करना चाहिए।{3}"
+    },
+    {
+     "q": "क्या एकिलीज़ टेंडिनोपैथी में हेवी स्लो रेज़िस्टेंस और एक्सेंट्रिक ट्रेनिंग में अंतर था?",
+     "a": "58 मरीज़ों के 12 सप्ताह के एक रैंडमाइज़्ड ट्रायल में दोनों से बराबर अच्छे सुधार हुए जो 52 सप्ताह तक रहे; अनुपालन हेवी स्लो रेज़िस्टेंस के साथ अधिक था (92% बनाम 78%)।{6}"
+    },
+    {
+     "q": "एलीट खिलाड़ियों में जंपर्स नी कितना आम है?",
+     "a": "613 नॉर्वेजियन एलीट खिलाड़ियों के एक अध्ययन में 14.2% में वर्तमान जंपर्स नी मिला, जो साइक्लिंग और ओरिएंटियरिंग में शून्य से लेकर वॉलीबॉल में 44.6% तक था।{8}"
+    }
+   ],
+   "updated": "अपडेट 21 नवंबर 2026",
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती। अकैडमी ऑफ़ ऑर्थोपेडिक फ़िज़िकल थेरेपी, NHS और इस पेज पर उद्धृत अन्य संगठन केवल स्रोत के रूप में उद्धृत हैं और OnlineFitnessWorldwide या इस लेख का समर्थन नहीं करते।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों",
+    "how": "कैसे",
+    "dose": "डोज़",
+    "sources": "स्रोत",
+    "readIn": "इसे इस भाषा में पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "WhatsApp पर पूछें",
+    "whatsappText": "नमस्ते सुस्मित, मैंने एकिलीज़ और पटेलर टेंडन दर्द पर लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    "skip": "सामग्री पर जाएँ",
+    "crumb": "एकिलीज़ और पटेलर टेंडन दर्द"
+   },
+   "authorLine": "लेखक: सुस्मित जालान, स्ट्रेंथ एंड कंडीशनिंग कोच, Online Fitness Worldwide।"
+  },
+  "es": {
+   "metaTitle": "Tendinopatía aquílea y rotuliana: la evidencia | Online Fitness Worldwide",
+   "metaDescription": "Tendinopatía aquílea y rotuliana: el modelo continuo de 2009, la guía JOSPT de 2024, ensayos y metaanálisis en red sobre ejercicio. Con fuentes.",
+   "h1": "Dolor de tendón de Aquiles y rotuliano (tendinopatía): qué muestra la investigación",
+   "dek": "Qué informan un modelo de patología, una guía de práctica clínica, ensayos aleatorizados y metaanálisis en red sobre la frecuencia del dolor tendinoso y el tratamiento basado en ejercicio.",
+   "intro": [
+    "En 2009, Cook y Purdam propusieron un modelo continuo de la patología tendinosa inducida por carga con tres fases: tendinopatía reactiva, desestructuración tendinosa (curación fallida) y tendinopatía degenerativa. Los autores describen las fases como continuas, afirman que añadir o retirar carga es el estímulo principal que hace avanzar o retroceder un tendón en el continuo, sobre todo en las primeras fases, y que la reversibilidad de la patología es improbable en la fase degenerativa. Presentaron el modelo para su evaluación por clínicos e investigadores.{1}",
+    "El mismo artículo describe la tendinopatía reactiva como una respuesta no inflamatoria a una sobrecarga aguda, normalmente un aumento brusco de actividad física no habitual, más frecuente en personas jóvenes, y describe la presentación degenerativa típica como un deportista recreativo de mediana edad con hinchazón focal y dolor en el tendón de Aquiles.{1} Un seguimiento de 2016 del mismo grupo señala que clasificar la tendinopatía por su estructura, en lo que es sobre todo una afección dolorosa, ha sido cuestionado, y que la relación entre estructura, dolor y función aún no se comprende del todo.{2}",
+    "La guía de práctica clínica de 2024 de la Academy of Orthopaedic Physical Therapy (American Physical Therapy Association) informa una prevalencia global de la tendinopatía aquílea de porción media del 4% al 7% en un metaanálisis reciente, mayor con la edad y con el nivel de participación deportiva, y una probabilidad a lo largo de la vida del 40% al 52% de lesión del tendón de Aquiles en corredores.{3} En una cohorte neerlandesa de atención primaria de 57.725 pacientes registrados, la incidencia de tendinopatía aquílea de porción media fue de 1,85 por 1.000 (2,35 por 1.000 en adultos de 21 a 60 años), y en el 35% de los casos se registró relación con la actividad deportiva.{4}",
+    "En un estudio transversal de 613 deportistas noruegos de élite de 9 deportes, el 14,2% tenía rodilla de saltador (tendinopatía rotuliana) en ese momento. La prevalencia fue del 44,6% en voleibol y del 31,9% en baloncesto, sin casos en ciclismo ni orientación, y menor en mujeres (5,6%) que en hombres (13,5%).{8}",
+    "Un metaanálisis en red «vivo» de 29 ensayos aleatorizados (42 tratamientos) sobre tendinopatía aquílea halló que todas las clases de tratamiento activo parecían superiores a esperar y observar en la tendinopatía de porción media a los 3 meses, sin diferencias clínicamente relevantes entre tratamientos activos a los 3 ni a los 12 meses. 22 ensayos (76%) tenían alto riesgo de sesgo y la certeza de la evidencia fue muy baja a baja.{5} Un metaanálisis en red vivo de 2023 con 68 ensayos en tendinopatía aquílea, tendinopatía rotuliana y síndrome de dolor trocantéreo mayor no halló evidencia convincente de que ningún complemento, solo o añadido al ejercicio, fuera más eficaz que el ejercicio solo.{13}"
+   ],
+   "listHeading": "Enfoques de ejercicio comparados en los ensayos citados",
+   "items": [
+    {
+     "name": "Resistencia pesada y lenta (Aquiles)",
+     "why": "En 58 personas con tendinopatía aquílea crónica de porción media, 12 semanas de resistencia pesada y lenta o de entrenamiento excéntrico dieron mejoras igual de buenas que se mantuvieron a las 52 semanas; el cumplimiento de sesiones fue del 92% y del 78%, respectivamente.{6}"
+    },
+    {
+     "name": "Seguir corriendo y saltando con control del dolor (Aquiles)",
+     "why": "En 38 personas, continuar la actividad que carga el tendón con un modelo de control del dolor no mostró efectos negativos frente a suspender esas actividades durante 6 semanas; ambos grupos mejoraron a los 12 meses.{7}"
+    },
+    {
+     "name": "Resistencia pesada y lenta y sentadillas excéntricas en plano declinado (rotuliano)",
+     "why": "En 39 hombres, las mejoras tras 12 semanas se mantuvieron a los seis meses con sentadillas excéntricas declinadas y con resistencia pesada y lenta, pero empeoraron tras inyecciones de corticoides; la satisfacción fue mayor con resistencia pesada y lenta.{9}"
+    },
+    {
+     "name": "Ejercicio progresivo de carga tendinosa (rotuliano)",
+     "why": "En 76 pacientes, el ejercicio progresivo de carga tendinosa mejoró la puntuación VISA-P más que la terapia de ejercicio excéntrico a las 24 semanas (28 frente a 18 puntos).{10}"
+    },
+    {
+     "name": "Contracciones isométricas (rotuliano)",
+     "why": "En 6 jugadores de voleibol, una sesión de contracciones isométricas redujo el dolor tendinoso más que las contracciones isotónicas durante al menos 45 minutos.{11} Un metaanálisis por pares de 3 ensayos halló el ejercicio isométrico tan eficaz como el isotónico para el alivio inmediato del dolor.{12}"
+    }
+   ],
+   "enoughHeading": "Qué establece la guía y qué midieron los ensayos",
+   "enough": [
+    "La guía de 2024 (grado A, evidencia sólida) establece que los clínicos deben usar ejercicio de carga tendinosa, con cargas tan altas como se toleren, como tratamiento de primera línea para mejorar la función y reducir el dolor en personas con tendinopatía aquílea de porción media sin fragilidad presunta de la estructura del tendón. Describe la carga tendinosa como uso excéntrico, concéntrico, isométrico, isotónico y pliométrico de los flexores plantares (músculos de la pantorrilla), e informa mejoras de 18 a 21 puntos en la escala VISA-A a las 12 semanas en los estudios revisados.{3}",
+    "La guía también establece (grado E, evidencia teórica o básica) que las personas que usan ejercicio de carga tendinosa deben ejercitarse al menos 3 veces por semana con una intensidad tan alta como se tolere, y (grado B) que los clínicos deben indicar que el reposo completo no está indicado y que las personas deben continuar sus actividades dentro de su tolerancia al dolor. Afirma que la frecuencia del ejercicio (de una vez al día a 3 veces por semana), el número de sesiones (24 a 168) y la duración de la atención (6 semanas a 6 meses) no parecían influir en los resultados, y que el daño más comunicado del ejercicio fue el empeoramiento temporal de los síntomas.{3}",
+    "Entre otras intervenciones, la guía establece que los clínicos pueden usar alzas de talón (grado C), no deben usar láser de baja intensidad (grado C) ni ultrasonido terapéutico como único tratamiento (grado C), y que no puede hacerse una recomendación sobre ortesis porque la evidencia es contradictoria (grado D).{3}",
+    "Para la tendinopatía rotuliana, un metaanálisis en red de 2021 con 37 ensayos aleatorizados que evaluaron 33 intervenciones calificó la evidencia de las opciones mejor clasificadas como de fuerza baja o muy baja, y sus autores concluyeron que la carga excéntrica, con o sin complementos, debe seguir siendo el tratamiento de primera línea.{12} El ensayo de 2021 sobre ejercicio progresivo de carga tendinosa concluyó que era superior a la terapia de ejercicio excéntrico; la tasa de vuelta al deporte fue del 43% frente al 27% (sin significación estadística) y la adherencia al ejercicio del 40% frente al 49% a las 24 semanas.{10} Son resultados de grupo de ensayos, no una predicción para ninguna persona concreta."
+   ],
+   "safety": [
+    "La guía de 2024 enumera afecciones a considerar en el diagnóstico diferencial del dolor no traumático en la parte posterior del tobillo, entre ellas la rotura parcial del tendón de Aquiles, la bursitis, el pinzamiento posterior del tobillo, la irritación del nervio sural, las fracturas por estrés, la enfermedad inflamatoria sistémica y la tendinopatía aquílea insercional. Afirma que la imagen no es necesaria para diagnosticar la tendinopatía aquílea, pero se recomienda cuando el diagnóstico es incierto, la respuesta a la atención se retrasa o se valoran tratamientos invasivos.{3}",
+    "El NHS indica que un dolor repentino e intenso que aparece durante un accidente o una actividad puede significar un tendón roto, a veces con un chasquido o un sonido de rotura. Indica acudir al médico de cabecera si los síntomas tras una lesión articular no mejoran en unas semanas, y pedir ayuda al NHS 111 ante mucho dolor o sospecha de rotura del tendón.{14}",
+    "Esta página no diagnostica, trata ni da el alta para ninguna afección."
+   ],
+   "faq": [
+    {
+     "q": "¿Qué es el continuo de la patología tendinosa?",
+     "a": "Un modelo propuesto por Cook y Purdam en 2009 con tres fases (tendinopatía reactiva, desestructuración tendinosa y tendinopatía degenerativa), en el que la carga es el estímulo principal que desplaza un tendón a lo largo del continuo.{1}"
+    },
+    {
+     "q": "¿Qué establece la guía de 2024 sobre tendinopatía aquílea respecto al ejercicio?",
+     "a": "Establece (grado A) que los clínicos deben usar ejercicio de carga tendinosa, con cargas tan altas como se toleren, como tratamiento de primera línea en la tendinopatía aquílea de porción media sin fragilidad presunta de la estructura del tendón.{3}"
+    },
+    {
+     "q": "¿Difirieron la resistencia pesada y lenta y el entrenamiento excéntrico en la tendinopatía aquílea?",
+     "a": "En un ensayo aleatorizado de 12 semanas con 58 pacientes, ambos dieron mejoras igual de buenas que duraron hasta las 52 semanas; el cumplimiento fue mayor con resistencia pesada y lenta (92% frente a 78%).{6}"
+    },
+    {
+     "q": "¿Qué frecuencia tiene la rodilla de saltador en deportistas de élite?",
+     "a": "Un estudio de 613 deportistas noruegos de élite halló rodilla de saltador actual en el 14,2%, desde ningún caso en ciclismo y orientación hasta el 44,6% en voleibol.{8}"
+    }
+   ],
+   "updated": "Actualizado el 21 de noviembre de 2026",
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo. La Academy of Orthopaedic Physical Therapy, el NHS y las demás organizaciones citadas en esta página se citan solo como fuentes y no respaldan a OnlineFitnessWorldwide ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué",
+    "how": "Cómo",
+    "dose": "Dosis",
+    "sources": "Fuentes",
+    "readIn": "Leer en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "whatsappText": "Hola Susmit, leí el artículo sobre el dolor de tendón de Aquiles y rotuliano y quiero reservar una consulta",
+    "skip": "Saltar al contenido",
+    "crumb": "Dolor de tendón de Aquiles y rotuliano"
+   },
+   "authorLine": "Por Susmit Jalan, entrenador de fuerza y acondicionamiento en Online Fitness Worldwide."
+  },
+  "zh": {
+   "metaTitle": "跟腱与髌腱疼痛：证据 | Online Fitness Worldwide",
+   "metaDescription": "跟腱和髌腱病：2009年连续体模型、2024年JOSPT指南、关于运动的试验和网状荟萃分析。附来源。",
+   "h1": "跟腱与髌腱疼痛（肌腱病）：研究显示了什么",
+   "dek": "一个病理模型、一部临床实践指南、随机试验和网状荟萃分析关于肌腱疼痛有多常见以及基于运动的治疗的报告。",
+   "intro": [
+    "2009年，Cook和Purdam提出了负荷诱发肌腱病理的连续体模型，分为三个阶段：反应性肌腱病、肌腱修复失调（愈合失败）和退行性肌腱病。作者将这些阶段描述为连续的，指出增加或减少负荷是推动肌腱在连续体上前进或后退的主要刺激，尤其是在早期阶段，并指出退行性阶段的病理不太可能逆转。他们将该模型提交给临床医生和研究人员评估。{1}",
+    "同一论文将反应性肌腱病描述为对急性过度负荷（通常是突然增加不习惯的体力活动）的非炎症性反应，多见于较年轻的人；并将退行性阶段的典型表现描述为跟腱局部肿胀和疼痛的中年业余运动者。{1}该团队2016年的后续文章指出，在一种以疼痛为主的病症中按结构对肌腱病分类受到了质疑，结构、疼痛与功能之间的相互作用尚未被完全理解。{2}",
+    "美国物理治疗协会骨科物理治疗学会2024年的临床实践指南报告，近期一项荟萃分析中跟腱中段肌腱病的总体患病率为4%至7%，随年龄增长和运动参与程度提高而升高；并报告跑者一生中发生跟腱损伤的概率为40%至52%。{3}在一个有57,725名登记患者的荷兰全科医疗队列中，跟腱中段肌腱病的发病率为每1,000人1.85例（21至60岁成年人中为每1,000人2.35例），35%的病例记录了与体育活动有关。{4}",
+    "在一项对9个项目613名挪威精英运动员的横断面研究中，14.2%当时患有跳跃膝（髌腱病）。患病率在排球中为44.6%，篮球中为31.9%，自行车和定向越野中没有病例；女性（5.6%）低于男性（13.5%）。{8}",
+    "一项纳入29项随机试验（42种治疗）的跟腱病“活”网状荟萃分析发现，对跟腱中段肌腱病，所有主动治疗类别在3个月时似乎都优于观察等待，3个月或12个月时主动治疗之间没有临床相关差异。22项试验（76%）偏倚风险高，证据确定性为极低至低。{5}2023年一项纳入68项试验、涵盖跟腱病、髌腱病和大转子疼痛综合征的活网状荟萃分析，未发现令人信服的证据表明任何辅助疗法（单用或与运动合用）比单纯运动更有效。{13}"
+   ],
+   "listHeading": "所引试验中比较的运动方式",
+   "items": [
+    {
+     "name": "大负荷慢速抗阻训练（跟腱）",
+     "why": "在58名慢性跟腱中段肌腱病患者中，12周的大负荷慢速抗阻训练或离心训练带来同样好的改善，并维持到第52周；训练依从率分别为92%和78%。{6}"
+    },
+    {
+     "name": "在疼痛监测下继续跑跳（跟腱）",
+     "why": "在38人中，借助疼痛监测模型继续进行加载肌腱的活动，与前6周停止这些活动相比，未显示负面影响；两组在12个月时均有改善。{7}"
+    },
+    {
+     "name": "大负荷慢速抗阻训练与离心斜板深蹲（髌腱）",
+     "why": "在39名男性中，12周后的改善在离心斜板深蹲组和大负荷慢速抗阻组维持到半年随访，而注射皮质类固醇组则出现恶化；大负荷慢速抗阻组满意度最高。{9}"
+    },
+    {
+     "name": "渐进式肌腱负荷训练（髌腱）",
+     "why": "在76名患者中，24周后渐进式肌腱负荷训练对VISA-P评分的改善大于离心训练疗法（28分对18分）。{10}"
+    },
+    {
+     "name": "等长保持（髌腱）",
+     "why": "在6名排球运动员中，一次等长收缩比等张收缩更能减轻肌腱疼痛，效果至少持续45分钟。{11}一项纳入3项试验的成对荟萃分析发现，在即时止痛方面等长运动与等张运动同样有效。{12}"
+    }
+   ],
+   "enoughHeading": "指南的表述与试验的测量内容",
+   "enough": [
+    "2024年指南（A级，强证据）指出，对于未推定存在肌腱结构脆弱的跟腱中段肌腱病患者，临床医生应采用肌腱负荷训练，负荷在可耐受范围内尽可能高，作为改善功能和减轻疼痛的一线治疗。指南将肌腱负荷描述为跖屈肌（小腿肌肉）的离心、向心、等长、等张和增强式运用，并报告所审查的研究中至12周时VISA-A评分改善18至21分。{3}",
+    "指南还指出（E级，理论或基础证据），采用肌腱负荷训练的人应每周至少训练3次，强度在可耐受范围内尽可能高；并指出（B级）临床医生应告知完全休息并非适应证，患者应在疼痛耐受范围内继续活动。指南指出，训练频率（每天一次至每周3次）、训练次数（24至168次）和治疗时长（6周至6个月）似乎不影响结果，运动最常报告的不良反应是症状暂时加重。{3}",
+    "在其他干预方面，指南指出临床医生可以使用足跟垫（C级），不应使用低能量激光疗法（C级），不应单独使用治疗性超声（C级），并因证据相互矛盾而无法就矫形器作出建议（D级）。{3}",
+    "关于髌腱病，2021年一项纳入37项随机试验、评估33种干预的网状荟萃分析将排名最高选项的证据评为低或极低强度，其作者得出结论：离心负荷（无论是否联合辅助疗法）应仍为一线治疗。{12}2021年渐进式肌腱负荷训练试验得出结论，该方法优于离心训练疗法；24周时重返运动率为43%对27%（无统计学显著性），训练依从率为40%对49%。{10}这些是试验的群体结果，并非对任何个人的预测。"
+   ],
+   "safety": [
+    "2024年指南列出了踝关节后方非外伤性疼痛鉴别诊断中需考虑的病症，包括跟腱部分撕裂、滑囊炎、踝关节后方撞击、腓肠神经刺激、应力性骨折、系统性炎症性疾病和止点性跟腱病。指南指出，诊断跟腱病不需要影像学检查，但在诊断不确定、治疗反应延迟或考虑侵入性治疗时建议进行。{3}",
+    "NHS指出，在事故或活动中突然出现的剧烈疼痛可能意味着肌腱断裂，有时伴有“啪”的一声或断裂声。NHS指出，如果关节受伤后症状在几周内没有好转，应去看全科医生；如果非常疼痛或怀疑肌腱断裂，应向NHS 111求助。{14}",
+    "本页不对任何病症作出诊断、治疗或许可。"
+   ],
+   "faq": [
+    {
+     "q": "什么是肌腱病理连续体？",
+     "a": "Cook和Purdam于2009年提出的模型，分为三个阶段（反应性肌腱病、肌腱修复失调和退行性肌腱病），其中负荷是推动肌腱在连续体上移动的主要刺激。{1}"
+    },
+    {
+     "q": "2024年跟腱病指南对运动有何表述？",
+     "a": "指南指出（A级），对于未推定存在肌腱结构脆弱的跟腱中段肌腱病，临床医生应采用肌腱负荷训练，负荷在可耐受范围内尽可能高，作为一线治疗。{3}"
+    },
+    {
+     "q": "在跟腱病中，大负荷慢速抗阻训练与离心训练有差别吗？",
+     "a": "在一项58名患者的12周随机试验中，两者带来同样好的改善并持续到第52周；大负荷慢速抗阻训练的依从率更高（92%对78%）。{6}"
+    },
+    {
+     "q": "跳跃膝在精英运动员中有多常见？",
+     "a": "一项对613名挪威精英运动员的研究发现，14.2%当前患有跳跃膝，从自行车和定向越野的零例到排球的44.6%不等。{8}"
+    }
+   ],
+   "updated": "更新于2026年11月21日",
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。美国物理治疗协会骨科物理治疗学会、NHS及本页引用的其他机构仅作为来源被引用，并不为OnlineFitnessWorldwide或本文背书。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么",
+    "how": "怎么做",
+    "dose": "训练量",
+    "sources": "参考来源",
+    "readIn": "其他语言版本",
+    "programs": "查看课程",
+    "whatsapp": "通过WhatsApp咨询",
+    "whatsappText": "你好 Susmit，我读了关于跟腱与髌腱疼痛的文章，想预约咨询",
+    "skip": "跳到正文",
+    "crumb": "跟腱与髌腱疼痛"
+   },
+   "authorLine": "作者：Susmit Jalan，Online Fitness Worldwide 力量与体能教练。"
+  },
+  "ja": {
+   "metaTitle": "アキレス腱・膝蓋腱の痛み：エビデンス | Online Fitness Worldwide",
+   "metaDescription": "アキレス腱症と膝蓋腱症：2009年の連続体モデル、2024年JOSPTガイドライン、運動に関する試験とネットワークメタ解析。出典付き。",
+   "h1": "アキレス腱・膝蓋腱の痛み（腱障害）：研究が示すこと",
+   "dek": "病理モデル、臨床診療ガイドライン、ランダム化試験、ネットワークメタ解析が、腱の痛みの頻度と運動を中心とした治療について報告していること。",
+   "intro": [
+    "2009年、CookとPurdamは負荷によって生じる腱の病理について、反応性腱障害、腱の修復不全（治癒の失敗）、変性腱障害の3段階からなる連続体モデルを提唱した。著者らは各段階を連続したものとし、負荷を加えることや減らすことが、特に初期段階において腱を連続体の上で前後に動かす主な刺激であると述べ、変性段階では病理が可逆的である可能性は低いと述べている。このモデルは臨床家と研究者による評価のために提示された。{1}",
+    "同じ論文は、反応性腱障害を急性の過負荷（通常は慣れない身体活動の急増）に対する非炎症性の反応とし、若い人に多いとしている。また変性段階の典型例を、アキレス腱に限局した腫れと痛みのある中年のレクリエーション競技者としている。{1}同じグループによる2016年の続報は、主に痛みの病態である腱障害を構造で分類することには異論が出ており、構造・痛み・機能の相互関係はまだ十分に理解されていないと指摘している。{2}",
+    "米国理学療法士協会整形外科理学療法アカデミーの2024年臨床診療ガイドラインは、最近のメタ解析によるアキレス腱中央部腱障害の全体の有病率を4%〜7%とし、年齢の上昇と競技参加度の高さに伴って高くなると報告している。またランナーが生涯にアキレス腱を損傷する確率は40%〜52%と報告している。{3}登録患者57,725人のオランダのプライマリケアのコホートでは、アキレス腱中央部腱障害の発生率は1,000人あたり1.85（21〜60歳の成人では1,000人あたり2.35）で、35%の症例でスポーツ活動との関連が記録された。{4}",
+    "9競技のノルウェーのエリート選手613人を対象とした横断研究では、14.2%がその時点でジャンパー膝（膝蓋腱症）を有していた。有病率はバレーボールで44.6%、バスケットボールで31.9%で、自転車競技とオリエンテーリングでは症例がなく、女性（5.6%）は男性（13.5%）より低かった。{8}",
+    "アキレス腱症に関する29件のランダム化試験（42種類の治療）を対象としたリビング・ネットワークメタ解析では、中央部腱障害において、すべての能動的治療クラスが3か月時点で経過観察より優れているようであり、3か月・12か月時点で能動的治療の間に臨床的に意味のある差はなかった。22件（76%）の試験はバイアスのリスクが高く、エビデンスの確実性は非常に低い〜低いであった。{5}アキレス腱症、膝蓋腱症、大転子疼痛症候群に関する68件の試験を対象とした2023年のリビング・ネットワークメタ解析では、補助療法を単独で、あるいは運動に加えて用いても、運動単独より有効であるという説得力のあるエビデンスは見つからなかった。{13}"
+   ],
+   "listHeading": "引用した試験で比較された運動アプローチ",
+   "items": [
+    {
+     "name": "高負荷低速レジスタンス（アキレス腱）",
+     "why": "慢性アキレス腱中央部腱障害の58人で、12週間の高負荷低速レジスタンストレーニングまたはエキセントリックトレーニングは同等に良好な改善をもたらし、52週まで維持された。セッション遵守率はそれぞれ92%と78%であった。{6}"
+    },
+    {
+     "name": "痛みのモニタリング下でランニングとジャンプを継続（アキレス腱）",
+     "why": "38人で、痛みのモニタリングモデルを用いて腱に負荷をかける活動を続けても、最初の6週間それらの活動を中止した場合と比べて悪影響は認められず、両群とも12か月時点で改善した。{7}"
+    },
+    {
+     "name": "高負荷低速レジスタンスとエキセントリック・デクラインスクワット（膝蓋腱）",
+     "why": "男性39人で、12週後の改善はエキセントリック・デクラインスクワット群と高負荷低速レジスタンス群では半年後の追跡まで維持されたが、副腎皮質ステロイド注射群では悪化した。満足度は高負荷低速レジスタンス群が最も高かった。{9}"
+    },
+    {
+     "name": "漸進的腱負荷運動（膝蓋腱）",
+     "why": "患者76人で、漸進的腱負荷運動は24週後のVISA-Pスコアをエキセントリック運動療法より大きく改善した（28点対18点）。{10}"
+    },
+    {
+     "name": "アイソメトリック保持（膝蓋腱）",
+     "why": "バレーボール選手6人で、1回のアイソメトリック収縮はアイソトニック収縮より腱の痛みを大きく軽減し、効果は少なくとも45分続いた。{11}3件の試験の対比較メタ解析では、即時の痛みの軽減についてアイソメトリック運動はアイソトニック運動と同等に有効であった。{12}"
+    }
+   ],
+   "enoughHeading": "ガイドラインの記述と試験が測定したこと",
+   "enough": [
+    "2024年ガイドライン（グレードA、強いエビデンス）は、腱構造の脆弱性が推定されないアキレス腱中央部腱障害の人に対し、機能の改善と痛みの軽減のための第一選択の治療として、臨床家は耐えられる限り高い負荷での腱負荷運動を用いるべきであると述べている。腱負荷を足関節底屈筋（ふくらはぎの筋肉）のエキセントリック、コンセントリック、アイソメトリック、アイソトニック、プライオメトリックな使用と説明し、検討した研究では12週までにVISA-Aスコアが18〜21点改善したと報告している。{3}",
+    "ガイドラインはまた（グレードE、理論的・基礎的エビデンス）、腱負荷運動を行う人は耐えられる限り高い強度で週3回以上運動すべきであるとし、（グレードB）臨床家は完全な安静は適応ではなく、痛みの許容範囲内で活動を続けるべきであると伝えるべきであるとしている。運動頻度（1日1回〜週3回）、セッション数（24〜168回）、治療期間（6週間〜6か月）は結果に影響しないようであり、運動で最も多く報告された有害事象は症状の一時的な悪化であったと述べている。{3}",
+    "その他の介入について、ガイドラインは、臨床家はヒールリフトを用いてもよい（グレードC）、低出力レーザー療法を用いるべきではない（グレードC）、治療的超音波を単独で用いるべきではない（グレードC）とし、装具についてはエビデンスが矛盾しているため推奨できない（グレードD）としている。{3}",
+    "膝蓋腱症については、33の介入を評価した37件のランダム化試験による2021年のネットワークメタ解析が、上位の選択肢のエビデンスの強さを低いまたは非常に低いと評価し、著者らは補助療法の有無にかかわらずエキセントリック負荷を第一選択の治療とし続けるべきであると結論づけた。{12}漸進的腱負荷運動の2021年の試験は、これがエキセントリック運動療法より優れていると結論づけた。24週時点の競技復帰率は43%対27%（統計的に有意ではない）、運動の遵守率は40%対49%であった。{10}これらは試験の集団としての結果であり、個人についての予測ではない。"
+   ],
+   "safety": [
+    "2024年ガイドラインは、足首後方の非外傷性の痛みの鑑別診断で考慮すべき状態として、アキレス腱の部分断裂、滑液包炎、足関節後方インピンジメント、腓腹神経の刺激、疲労骨折、全身性炎症性疾患、付着部アキレス腱症などを挙げている。アキレス腱症の診断に画像検査は必須ではないが、診断が不確かな場合、治療への反応が遅い場合、侵襲的治療を検討する場合には推奨されると述べている。{3}",
+    "NHSは、事故や活動中に起きた突然の激しい痛みは腱の断裂を意味することがあり、ポンという音やパチンという音を伴うことがあるとしている。関節のけがの後、症状が数週間で改善しない場合はGPを受診すること、強い痛みがある場合や腱の断裂が疑われる場合はNHS 111に助けを求めることとしている。{14}",
+    "このページはいかなる状態についても診断、治療、許可を行うものではありません。"
+   ],
+   "faq": [
+    {
+     "q": "腱の病理の連続体とは何ですか？",
+     "a": "CookとPurdamが2009年に提唱したモデルで、3つの段階（反応性腱障害、腱の修復不全、変性腱障害）からなり、負荷が腱を連続体の上で動かす主な刺激とされる。{1}"
+    },
+    {
+     "q": "2024年のアキレス腱症ガイドラインは運動について何と述べていますか？",
+     "a": "腱構造の脆弱性が推定されないアキレス腱中央部腱障害に対し、臨床家は耐えられる限り高い負荷での腱負荷運動を第一選択の治療として用いるべきであると述べている（グレードA）。{3}"
+    },
+    {
+     "q": "アキレス腱症で高負荷低速レジスタンスとエキセントリックトレーニングに差はありましたか？",
+     "a": "患者58人の12週間のランダム化試験では、両者は同等に良好な改善をもたらし52週まで続いた。遵守率は高負荷低速レジスタンスの方が高かった（92%対78%）。{6}"
+    },
+    {
+     "q": "エリート選手でジャンパー膝はどのくらい多いですか？",
+     "a": "ノルウェーのエリート選手613人の研究では14.2%が現在ジャンパー膝を有しており、自転車競技とオリエンテーリングの0%からバレーボールの44.6%まで幅があった。{8}"
+    }
+   ],
+   "updated": "2026年11月21日更新",
+   "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。米国理学療法士協会整形外科理学療法アカデミー、NHS、およびこのページで引用したその他の組織は出典として引用しているのみであり、OnlineFitnessWorldwide および本記事を推奨するものではありません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ",
+    "how": "やり方",
+    "dose": "回数・量",
+    "sources": "出典",
+    "readIn": "他の言語で読む",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問する",
+    "whatsappText": "こんにちは Susmit さん、アキレス腱・膝蓋腱の痛みの記事を読み、相談を予約したいです",
+    "skip": "本文へスキップ",
+    "crumb": "アキレス腱・膝蓋腱の痛み"
+   },
+   "authorLine": "執筆：スシュミット・ジャラン（Online Fitness Worldwide ストレングス＆コンディショニングコーチ）"
+  },
+  "gu": {
+   "metaTitle": "એકિલીઝ અને પેટેલર ટેન્ડન દુખાવો: પુરાવા | Online Fitness Worldwide",
+   "metaDescription": "એકિલીઝ અને પેટેલર ટેન્ડિનોપથી: 2009નું કન્ટિન્યુઅમ મોડેલ, 2024ની JOSPT ગાઇડલાઇન, ટ્રાયલ અને કસરત પર નેટવર્ક મેટા-વિશ્લેષણ. સ્રોત સાથે.",
+   "h1": "એકિલીઝ અને પેટેલર ટેન્ડન દુખાવો (ટેન્ડિનોપથી): સંશોધન શું બતાવે છે",
+   "dek": "એક પેથોલોજી મોડેલ, એક ક્લિનિકલ પ્રેક્ટિસ ગાઇડલાઇન, રેન્ડમાઇઝ્ડ ટ્રાયલ અને નેટવર્ક મેટા-વિશ્લેષણ ટેન્ડન દુખાવો કેટલો સામાન્ય છે અને કસરત-આધારિત સારવાર વિશે શું જણાવે છે.",
+   "intro": [
+    "2009માં કૂક અને પર્ડમે લોડથી થતી ટેન્ડન પેથોલોજીનું એક કન્ટિન્યુઅમ (સાતત્ય) મોડેલ રજૂ કર્યું, જેના ત્રણ તબક્કા છે: રિએક્ટિવ ટેન્ડિનોપથી, ટેન્ડન ડિસરિપેર (નિષ્ફળ હીલિંગ) અને ડીજનરેટિવ ટેન્ડિનોપથી. લેખકો આ તબક્કાઓને સતત ગણાવે છે, જણાવે છે કે લોડ ઉમેરવો કે ઘટાડવો એ મુખ્ય ઉત્તેજના છે જે ટેન્ડનને આ સાતત્ય પર આગળ કે પાછળ લઈ જાય છે, ખાસ કરીને શરૂઆતના તબક્કાઓમાં, અને જણાવે છે કે ડીજનરેટિવ તબક્કામાં પેથોલોજી પાછી ફરવાની શક્યતા ઓછી છે. તેમણે આ મોડેલ ક્લિનિશિયનો અને સંશોધકોના મૂલ્યાંકન માટે રજૂ કર્યું.{1}",
+    "આ જ લેખ રિએક્ટિવ ટેન્ડિનોપથીને અચાનક ઓવરલોડ, સામાન્ય રીતે અસામાન્ય શારીરિક પ્રવૃત્તિમાં અચાનક વધારો, પ્રત્યેની નોન-ઇન્ફ્લેમેટરી પ્રતિક્રિયા ગણાવે છે, જે નાની ઉંમરના લોકોમાં વધુ જોવા મળે છે, અને ડીજનરેટિવ તબક્કાની ક્લાસિક રજૂઆતને એકિલીઝ ટેન્ડનમાં સ્થાનિક સોજો અને દુખાવો ધરાવતા મધ્યમ વયના મનોરંજક ખેલાડી તરીકે વર્ણવે છે.{1} આ જ જૂથનો 2016નો એક અનુવર્તી લેખ નોંધે છે કે મુખ્યત્વે દુખાવાની સ્થિતિમાં ટેન્ડિનોપથીને રચનાના આધારે વર્ગીકૃત કરવા સામે પ્રશ્નો ઉઠ્યા છે, અને રચના, દુખાવો અને કાર્ય વચ્ચેનો સંબંધ હજુ પૂરેપૂરો સમજાયો નથી.{2}",
+    "અકેડમી ઑફ ઑર્થોપેડિક ફિઝિકલ થેરાપી (અમેરિકન ફિઝિકલ થેરાપી એસોસિએશન)ની 2024ની ક્લિનિકલ પ્રેક્ટિસ ગાઇડલાઇન એક તાજેતરના મેટા-વિશ્લેષણના આધારે મિડપોર્શન એકિલીઝ ટેન્ડિનોપથીનો કુલ વ્યાપ 4% થી 7% જણાવે છે, જે વધતી ઉંમર અને વધુ રમત ભાગીદારી સાથે વધુ છે, અને દોડવીરોમાં જીવનકાળમાં એકિલીઝ ટેન્ડન ઈજાની 40% થી 52% શક્યતા જણાવે છે.{3} 57,725 નોંધાયેલા દર્દીઓના એક ડચ જનરલ-પ્રેક્ટિસ જૂથમાં મિડપોર્શન એકિલીઝ ટેન્ડિનોપથીનો બનાવ દર 1,000 દીઠ 1.85 હતો (21 થી 60 વર્ષના પુખ્તોમાં 1,000 દીઠ 2.35), અને 35% કેસમાં રમત પ્રવૃત્તિ સાથે સંબંધ નોંધાયો.{4}",
+    "9 રમતોના 613 નોર્વેજિયન એલીટ ખેલાડીઓના એક ક્રોસ-સેક્શનલ અભ્યાસમાં 14.2%ને તે સમયે જમ્પર્સ ની (પેટેલર ટેન્ડિનોપથી) હતો. વૉલીબૉલમાં વ્યાપ 44.6% અને બાસ્કેટબૉલમાં 31.9% હતો, સાઇક્લિંગ અને ઓરિએન્ટિયરિંગમાં એક પણ કેસ ન હતો, અને સ્ત્રીઓમાં (5.6%) પુરુષો (13.5%) કરતાં ઓછો હતો.{8}",
+    "એકિલીઝ ટેન્ડિનોપથી પર 29 રેન્ડમાઇઝ્ડ ટ્રાયલ (42 સારવાર)ના એક લિવિંગ નેટવર્ક મેટા-વિશ્લેષણમાં જણાયું કે મિડપોર્શન ટેન્ડિનોપથીમાં 3 મહિને દરેક સક્રિય સારવાર વર્ગ 'રાહ જુઓ અને જુઓ' કરતાં બહેતર લાગ્યો, અને 3 કે 12 મહિને સક્રિય સારવારો વચ્ચે ક્લિનિકલી પ્રાસંગિક તફાવત ન હતો. 22 ટ્રાયલ (76%)માં પક્ષપાતનું ઊંચું જોખમ હતું, અને પુરાવાની નિશ્ચિતતા બહુ ઓછીથી ઓછી હતી.{5} એકિલીઝ ટેન્ડિનોપથી, પેટેલર ટેન્ડિનોપથી અને ગ્રેટર ટ્રોકેન્ટેરિક પેઇન સિન્ડ્રોમ પર 68 ટ્રાયલના 2023ના એક લિવિંગ નેટવર્ક મેટા-વિશ્લેષણમાં કોઈ સહાયક સારવાર, એકલી કે કસરત સાથે, ફક્ત કસરત કરતાં વધુ અસરકારક હોવાના કોઈ નક્કર પુરાવા મળ્યા નહીં.{13}"
+   ],
+   "listHeading": "ઉદ્ધૃત ટ્રાયલમાં સરખાવેલી કસરત પદ્ધતિઓ",
+   "items": [
+    {
+     "name": "હેવી સ્લો રેઝિસ્ટન્સ (એકિલીઝ)",
+     "why": "ક્રોનિક મિડપોર્શન એકિલીઝ ટેન્ડિનોપથી ધરાવતા 58 લોકોમાં 12 અઠવાડિયાંની હેવી સ્લો રેઝિસ્ટન્સ કે એક્સેન્ટ્રિક ટ્રેનિંગથી સરખા સારા સુધારા થયા જે 52 અઠવાડિયાં સુધી ટક્યા; સત્ર અનુપાલન અનુક્રમે 92% અને 78% હતું.{6}"
+    },
+    {
+     "name": "દુખાવાની દેખરેખ સાથે દોડવું અને કૂદવું ચાલુ રાખવું (એકિલીઝ)",
+     "why": "38 લોકોમાં, દુખાવા-દેખરેખ મોડેલ સાથે ટેન્ડન પર લોડ નાખતી પ્રવૃત્તિ ચાલુ રાખવાથી, આ પ્રવૃત્તિઓ 6 અઠવાડિયાં બંધ રાખવાની સરખામણીએ, કોઈ નકારાત્મક અસર જોવા મળી નહીં; બંને જૂથોમાં 12 મહિને સુધારો થયો.{7}"
+    },
+    {
+     "name": "હેવી સ્લો રેઝિસ્ટન્સ અને એક્સેન્ટ્રિક ડિક્લાઇન સ્ક્વૉટ (પેટેલર)",
+     "why": "39 પુરુષોમાં 12 અઠવાડિયાં પછીના સુધારા એક્સેન્ટ્રિક ડિક્લાઇન સ્ક્વૉટ અને હેવી સ્લો રેઝિસ્ટન્સ સાથે છ મહિનાના ફૉલો-અપ સુધી ટક્યા, પરંતુ કોર્ટિકોસ્ટેરોઇડ ઇન્જેક્શન પછી ઘટ્યા; સંતોષ હેવી સ્લો રેઝિસ્ટન્સ સાથે સૌથી વધુ હતો.{9}"
+    },
+    {
+     "name": "પ્રોગ્રેસિવ ટેન્ડન-લોડિંગ કસરત (પેટેલર)",
+     "why": "76 દર્દીઓમાં પ્રોગ્રેસિવ ટેન્ડન-લોડિંગ કસરતે 24 અઠવાડિયાં પછી VISA-P સ્કોર એક્સેન્ટ્રિક કસરત થેરાપી કરતાં વધુ સુધાર્યો (28 વિરુદ્ધ 18 અંક).{10}"
+    },
+    {
+     "name": "આઇસોમેટ્રિક હોલ્ડ (પેટેલર)",
+     "why": "6 વૉલીબૉલ ખેલાડીઓમાં આઇસોમેટ્રિક સંકોચનના એક સત્રે આઇસોટોનિક સંકોચન કરતાં ટેન્ડન દુખાવો ઓછામાં ઓછી 45 મિનિટ સુધી વધુ ઘટાડ્યો.{11} 3 ટ્રાયલના એક પેરવાઇઝ મેટા-વિશ્લેષણમાં તાત્કાલિક દુખાવા રાહત માટે આઇસોમેટ્રિક કસરત આઇસોટોનિક જેટલી જ અસરકારક જણાઈ.{12}"
+    }
+   ],
+   "enoughHeading": "ગાઇડલાઇન શું જણાવે છે અને ટ્રાયલે શું માપ્યું",
+   "enough": [
+    "2024ની ગાઇડલાઇન (ગ્રેડ A, મજબૂત પુરાવા) જણાવે છે કે ક્લિનિશિયનોએ મિડપોર્શન એકિલીઝ ટેન્ડિનોપથી ધરાવતા એવા લોકોમાં, જેમની ટેન્ડન રચનામાં નબળાઈ (ફ્રેલ્ટી) અનુમાનિત નથી, કાર્ય સુધારવા અને દુખાવો ઘટાડવા પ્રથમ હરોળની સારવાર તરીકે ટેન્ડન-લોડિંગ કસરત, સહન થાય તેટલા વધુ લોડ સાથે, વાપરવી જોઈએ. તે ટેન્ડન લોડિંગને પ્લાન્ટર ફ્લેક્સર (પિંડી) સ્નાયુઓના એક્સેન્ટ્રિક, કોન્સેન્ટ્રિક, આઇસોમેટ્રિક, આઇસોટોનિક અને પ્લાયોમેટ્રિક ઉપયોગ તરીકે વર્ણવે છે, અને સમીક્ષા કરેલા અભ્યાસોમાં 12 અઠવાડિયાં સુધીમાં VISA-A સ્કેલ પર 18 થી 21 અંકના સુધારા જણાવે છે.{3}",
+    "ગાઇડલાઇન એ પણ જણાવે છે (ગ્રેડ E, સૈદ્ધાંતિક કે પાયાના પુરાવા) કે ટેન્ડન-લોડિંગ કસરત કરતા લોકોએ અઠવાડિયામાં ઓછામાં ઓછી 3 વાર, સહન થાય તેટલી તીવ્રતાએ, કસરત કરવી જોઈએ, અને (ગ્રેડ B) કે ક્લિનિશિયનોએ જણાવવું જોઈએ કે સંપૂર્ણ આરામ સૂચવાયેલો નથી અને લોકોએ પોતાની દુખાવા સહનશીલતાની અંદર પ્રવૃત્તિઓ ચાલુ રાખવી જોઈએ. તે જણાવે છે કે કસરતની આવૃત્તિ (દિવસમાં એક વારથી અઠવાડિયામાં 3 વાર), સત્રોની સંખ્યા (24 થી 168) અને સંભાળનો સમયગાળો (6 અઠવાડિયાંથી 6 મહિના) પરિણામોને અસર કરતાં જણાયાં નહીં, અને કસરતનું સૌથી વધુ નોંધાયેલું નુકસાન લક્ષણોમાં કામચલાઉ વધારો હતું.{3}",
+    "અન્ય સારવારોમાં, ગાઇડલાઇન જણાવે છે કે ક્લિનિશિયનો હીલ લિફ્ટ વાપરી શકે (ગ્રેડ C), લો-લેવલ લેસર થેરાપી ન વાપરવી જોઈએ (ગ્રેડ C) અને ફક્ત થેરાપ્યુટિક અલ્ટ્રાસાઉન્ડ ન વાપરવું જોઈએ (ગ્રેડ C), અને ઑર્થોસિસ પર કોઈ ભલામણ થઈ શકતી નથી કારણ કે પુરાવા વિરોધાભાસી છે (ગ્રેડ D).{3}",
+    "પેટેલર ટેન્ડિનોપથી માટે, 33 સારવારોનું મૂલ્યાંકન કરતા 37 રેન્ડમાઇઝ્ડ ટ્રાયલના 2021ના એક નેટવર્ક મેટા-વિશ્લેષણે સૌથી ઊંચા ક્રમના વિકલ્પોના પુરાવાને ઓછી કે બહુ ઓછી મજબૂતીના આંક્યા, અને તેના લેખકોએ નિષ્કર્ષ કાઢ્યો કે એક્સેન્ટ્રિક લોડિંગ, સહાયક સારવાર સાથે કે વગર, પ્રથમ હરોળની સારવાર રહેવી જોઈએ.{12} પ્રોગ્રેસિવ ટેન્ડન-લોડિંગ કસરતના 2021ના ટ્રાયલે નિષ્કર્ષ કાઢ્યો કે તે એક્સેન્ટ્રિક કસરત થેરાપી કરતાં ચડિયાતી હતી; 24 અઠવાડિયાં પછી રમતમાં પાછા ફરવાનો દર 43% વિરુદ્ધ 27% હતો (આંકડાકીય રીતે મહત્વપૂર્ણ નહીં), અને કસરત પાલન 40% વિરુદ્ધ 49% હતું.{10} આ ટ્રાયલનાં જૂથ પરિણામો છે, કોઈ વ્યક્તિ માટે આગાહી નથી."
+   ],
+   "safety": [
+    "2024ની ગાઇડલાઇન પગની ઘૂંટીની પાછળ ઈજા વગરના દુખાવાના વિભેદક નિદાનમાં ધ્યાનમાં લેવાની સ્થિતિઓ સૂચિબદ્ધ કરે છે, જેમાં એકિલીઝ ટેન્ડનનું આંશિક ફાટવું, બર્સાઇટિસ, પોસ્ટીરિયર એન્કલ ઇમ્પિન્જમેન્ટ, સુરલ ચેતામાં બળતરા, સ્ટ્રેસ ફ્રેક્ચર, સિસ્ટમિક ઇન્ફ્લેમેટરી રોગ અને ઇન્સર્શનલ એકિલીઝ ટેન્ડિનોપથીનો સમાવેશ થાય છે. તે જણાવે છે કે એકિલીઝ ટેન્ડિનોપથીના નિદાન માટે ઇમેજિંગ જરૂરી નથી, પરંતુ નિદાન અનિશ્ચિત હોય, સંભાળની અસર મોડી દેખાય કે ઇન્વેસિવ સારવારનો વિચાર થતો હોય ત્યારે તેની ભલામણ થાય છે.{3}",
+    "NHS જણાવે છે કે કોઈ અકસ્માત કે પ્રવૃત્તિ દરમિયાન અચાનક અને તીવ્ર દુખાવાનો અર્થ ટેન્ડન ફાટવું (રપ્ચર) હોઈ શકે, ક્યારેક પૉપ કે તડાકાના અવાજ સાથે. તે જણાવે છે કે સાંધાની ઈજા પછી લક્ષણો થોડાં અઠવાડિયાંમાં ન સુધરે તો GPને બતાવવું, અને બહુ દુખાવો કે ટેન્ડન ફાટ્યાની શંકા હોય તો NHS 111 પાસેથી મદદ લેવી.{14}",
+    "આ પેજ કોઈ સ્થિતિનું નિદાન, સારવાર કે તેના માટે મંજૂરી આપતું નથી."
+   ],
+   "faq": [
+    {
+     "q": "ટેન્ડન પેથોલોજી કન્ટિન્યુઅમ શું છે?",
+     "a": "કૂક અને પર્ડમે 2009માં રજૂ કરેલું એક મોડેલ, જેના ત્રણ તબક્કા છે (રિએક્ટિવ ટેન્ડિનોપથી, ટેન્ડન ડિસરિપેર અને ડીજનરેટિવ ટેન્ડિનોપથી), અને જેમાં લોડ એ મુખ્ય ઉત્તેજના છે જે ટેન્ડનને આ સાતત્ય પર આગળ-પાછળ લઈ જાય છે.{1}"
+    },
+    {
+     "q": "2024ની એકિલીઝ ટેન્ડિનોપથી ગાઇડલાઇન કસરત વિશે શું જણાવે છે?",
+     "a": "તે જણાવે છે (ગ્રેડ A) કે ક્લિનિશિયનોએ ટેન્ડન રચનાની અનુમાનિત નબળાઈ વગરની મિડપોર્શન એકિલીઝ ટેન્ડિનોપથીમાં પ્રથમ હરોળની સારવાર તરીકે ટેન્ડન-લોડિંગ કસરત, સહન થાય તેટલા વધુ લોડ સાથે, વાપરવી જોઈએ.{3}"
+    },
+    {
+     "q": "એકિલીઝ ટેન્ડિનોપથીમાં હેવી સ્લો રેઝિસ્ટન્સ અને એક્સેન્ટ્રિક ટ્રેનિંગમાં તફાવત હતો?",
+     "a": "58 દર્દીઓના 12 અઠવાડિયાંના એક રેન્ડમાઇઝ્ડ ટ્રાયલમાં બંનેથી સરખા સારા સુધારા થયા જે 52 અઠવાડિયાં સુધી ટક્યા; અનુપાલન હેવી સ્લો રેઝિસ્ટન્સ સાથે વધુ હતું (92% વિરુદ્ધ 78%).{6}"
+    },
+    {
+     "q": "એલીટ ખેલાડીઓમાં જમ્પર્સ ની કેટલો સામાન્ય છે?",
+     "a": "613 નોર્વેજિયન એલીટ ખેલાડીઓના એક અભ્યાસમાં 14.2%માં વર્તમાન જમ્પર્સ ની જણાયો, જે સાઇક્લિંગ અને ઓરિએન્ટિયરિંગમાં શૂન્યથી લઈને વૉલીબૉલમાં 44.6% સુધી હતો.{8}"
+    }
+   ],
+   "updated": "અપડેટ 21 નવેમ્બર 2026",
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી. અકેડમી ઑફ ઑર્થોપેડિક ફિઝિકલ થેરાપી, NHS અને આ પેજ પર ઉદ્ધૃત અન્ય સંસ્થાઓ ફક્ત સ્રોત તરીકે ઉદ્ધૃત છે અને OnlineFitnessWorldwide કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "શા માટે",
+    "how": "કેવી રીતે",
+    "dose": "ડોઝ",
+    "sources": "સ્રોતો",
+    "readIn": "આ ભાષામાં વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "WhatsApp પર પૂછો",
+    "whatsappText": "નમસ્તે સુસ્મિત, મેં એકિલીઝ અને પેટેલર ટેન્ડન દુખાવા પરનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    "skip": "સામગ્રી પર જાઓ",
+    "crumb": "એકિલીઝ અને પેટેલર ટેન્ડન દુખાવો"
+   },
+   "authorLine": "લેખક: સુસ્મિત જાલાન, સ્ટ્રેન્થ એન્ડ કન્ડિશનિંગ કોચ, Online Fitness Worldwide."
+  }
+ },
+ "format": "evidence"
+}
