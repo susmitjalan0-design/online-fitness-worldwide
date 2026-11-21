@@ -1,0 +1,555 @@
+{
+ "slug": "does-yoga-count-as-strength-training",
+ "published": "2026-11-21",
+ "modified": "2026-11-21",
+ "about": "Yoga and muscle-strengthening activity",
+ "sources": [
+  {
+   "cite": "NHS. Physical activity guidelines for adults aged 19 to 64. nhs.uk; page last reviewed 22 May 2024.",
+   "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/"
+  },
+  {
+   "cite": "Bull FC, Al-Ansari SS, Biddle S, et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med. 2020;54(24):1451–1462.",
+   "url": "https://doi.org/10.1136/bjsports-2020-102955"
+  },
+  {
+   "cite": "Sivaramakrishnan D, Fitzsimons C, Kelly P, et al. The effects of yoga compared to active and inactive controls on physical function and health related quality of life in older adults – systematic review and meta-analysis of randomised controlled trials. Int J Behav Nutr Phys Act. 2019;16(1):33.",
+   "url": "https://doi.org/10.1186/s12966-019-0789-2"
+  },
+  {
+   "cite": "Lau C, Yu R, Woo J. Effects of a 12-week hatha yoga intervention on cardiorespiratory endurance, muscular strength and endurance, and flexibility in Hong Kong Chinese adults: a controlled clinical trial. Evid Based Complement Alternat Med. 2015;2015:958727.",
+   "url": "https://doi.org/10.1155/2015/958727"
+  },
+  {
+   "cite": "Currier BS, D'Souza AC, Singh MAF, et al. American College of Sports Medicine position stand. Resistance training prescription for muscle function, hypertrophy, and physical performance in healthy adults: an overview of reviews. Med Sci Sports Exerc. 2026;58(4):851–872.",
+   "url": "https://doi.org/10.1249/MSS.0000000000003897"
+  },
+  {
+   "cite": "Youkhana S, Dean CM, Wolff M, et al. Yoga-based exercise improves balance and mobility in people aged 60 and over: a systematic review and meta-analysis. Age Ageing. 2016;45(1):21–29.",
+   "url": "https://doi.org/10.1093/ageing/afv175"
+  },
+  {
+   "cite": "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+   "url": "https://doi.org/10.1249/MSS.0000000000000664"
+  }
+ ],
+ "seeAlso": [
+  "best-exercises-for-balance-and-fall-prevention",
+  "best-strength-exercises-for-over-60s",
+  "best-bodyweight-exercises-for-travel"
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "Yoga as strength training: the evidence | Online Fitness Worldwide",
+   "metaDescription": "What the NHS, WHO and yoga trials report on yoga and muscle strength: guideline wording, strength results against controls, and how yoga differs from lifting.",
+   "h1": "Does yoga count as strength training? What guidelines and trials show",
+   "dek": "How official activity guidance classes yoga, what controlled trials measured for strength, and how those results sit next to the research on progressive resistance training.",
+   "intro": [
+    "The NHS lists yoga among its examples of muscle-strengthening activities for adults, alongside pilates, lifting weights and bodyweight exercises.{1} WHO's 2020 guidelines recommend muscle-strengthening activities on 2 or more days a week.{2}",
+    "In trials, yoga improved measured strength against controls. A 2019 meta-analysis of randomised trials in adults aged 60 and over found effects favouring yoga for lower-limb strength compared with inactive controls (effect size 0.45) and active controls such as walking (0.49).{3} A 12-week hatha yoga trial in 173 adults reported significant gains in push-up and curl-up tests against a waitlist group.{4}",
+    "The research on progressive resistance training reports separate findings: a 2026 ACSM position stand reports that strength gains were enhanced by heavier loads (80% of one-repetition maximum or more). None of the cited yoga trials compared yoga with progressive weight training directly.{5}"
+   ],
+   "listHeading": "What the cited sources report",
+   "items": [
+    {
+     "name": "Yoga in official guidance",
+     "why": "The NHS names yoga as a muscle-strengthening activity; WHO's guidelines set muscle-strengthening on 2 or more days a week.{1}{2}"
+    },
+    {
+     "name": "Lower-limb strength in adults aged 60 and over",
+     "why": "22 randomised trials: effects favouring yoga on lower-limb strength against inactive (0.45) and active (0.49) controls.{3}"
+    },
+    {
+     "name": "Push-up and curl-up tests",
+     "why": "12 weeks of hatha yoga in adults averaging 52 years: significant gains against a waitlist group.{4}"
+    },
+    {
+     "name": "Balance and mobility",
+     "why": "In people aged 60 and over, yoga had a small effect on balance and a medium effect on physical mobility.{6}"
+    }
+   ],
+   "enoughHeading": "Doses, comparisons and limits",
+   "enough": [
+    "In the hatha yoga trial, 87 adults were assigned to yoga and 86 to a waitlist; 19 dropped out. The yoga group also improved maximal oxygen uptake and sit-and-reach flexibility; the older subgroup did not improve the curl-up test compared with controls.{4}",
+    "The balance meta-analysis pooled 6 trials with 307 participants and states that further research is required to determine whether the improvements translate to fall prevention.{6} The ACSM position stand pooled 137 systematic reviews of resistance training in healthy adults; it reports strength enhanced by loads of 80% of one-repetition maximum or more, a full range of motion, 2 to 3 sets and 2 or more sessions a week.{5}"
+   ],
+   "safety": [
+    "ACSM's 2015 screening model bases pre-exercise medical clearance on current activity, signs or symptoms and/or known cardiovascular, metabolic or renal disease, and desired intensity.{7}"
+   ],
+   "faq": [
+    {
+     "q": "Is yoga listed as a muscle-strengthening activity?",
+     "a": "Yes. The NHS lists yoga among examples of muscle-strengthening activities for adults, with pilates, tai chi, lifting weights and bodyweight exercises.{1}"
+    },
+    {
+     "q": "Has yoga improved strength in trials?",
+     "a": "A meta-analysis in adults aged 60 and over found effects favouring yoga for lower-limb strength against inactive and active controls.{3} A 12-week hatha yoga trial reported significant gains in push-up and curl-up tests against a waitlist group.{4}"
+    },
+    {
+     "q": "Has yoga been compared with weight training?",
+     "a": "None of the trials cited here compared yoga with progressive weight training. A 2026 ACSM position stand reports that strength gains in resistance training were enhanced by loads of 80% of one-repetition maximum or more.{5}"
+    },
+    {
+     "q": "What did studies find for balance?",
+     "a": "A meta-analysis of 6 trials in people aged 60 and over found a small effect of yoga on balance and a medium effect on physical mobility.{6}"
+    }
+   ],
+   "updated": "Updated 21 November 2026",
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why",
+    "how": "How",
+    "dose": "Dose",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "whatsappText": "Hi Susmit, I read the article on yoga as strength training and want to book a consultation",
+    "skip": "Skip to content",
+    "crumb": "Yoga as strength training"
+   },
+   "authorLine": "By Susmit Jalan, strength and conditioning coach at Online Fitness Worldwide."
+  },
+  "ar": {
+   "metaTitle": "اليوغا كتمارين قوة: الأدلة | Online Fitness Worldwide",
+   "metaDescription": "ما تذكره NHS وWHO وتجارب اليوغا عن اليوغا وقوة العضلات: صياغة الإرشادات، ونتائج القوة مقارنة بمجموعات المقارنة، وكيف تختلف اليوغا عن رفع الأثقال.",
+   "h1": "هل تُعدّ اليوغا تمارين قوة؟ ما تُظهره الإرشادات والتجارب",
+   "dek": "كيف تصنّف إرشادات النشاط الرسمية اليوغا، وما قاسته التجارب المضبوطة للقوة، وكيف تقع هذه النتائج بجانب أبحاث تمارين المقاومة المتدرّجة.",
+   "intro": [
+    "تُدرج هيئة NHS اليوغا ضمن أمثلتها على أنشطة تقوية العضلات للبالغين، إلى جانب البيلاتس ورفع الأثقال وتمارين وزن الجسم.{1} وتوصي إرشادات منظمة الصحة العالمية لعام 2020 بأنشطة تقوية العضلات في يومين أو أكثر أسبوعيًا.{2}",
+    "في التجارب، حسّنت اليوغا القوة المقيسة مقارنة بمجموعات المقارنة. وجد تحليل تلوي من عام 2019 لتجارب عشوائية على بالغين في سن 60 فأكثر آثارًا لصالح اليوغا في قوة الأطراف السفلية مقارنة بمجموعات غير نشطة (حجم الأثر 0.45) ومجموعات نشطة مثل المشي (0.49).{3} وذكرت تجربة يوغا هاثا لمدة 12 أسبوعًا على 173 بالغًا تحسنًا ملحوظًا في اختباري الضغط والجلوس من الاستلقاء مقارنة بمجموعة الانتظار.{4}",
+    "تذكر أبحاث تمارين المقاومة المتدرّجة نتائج منفصلة: يذكر بيان موقف ACSM لعام 2026 أن مكاسب القوة تعززت بالأحمال الأثقل (80% من الحد الأقصى لتكرار واحد أو أكثر). لم تقارن أي من تجارب اليوغا المذكورة اليوغا بتمارين الأثقال المتدرّجة مباشرة.{5}"
+   ],
+   "listHeading": "ما تذكره المصادر المذكورة",
+   "items": [
+    {
+     "name": "اليوغا في الإرشادات الرسمية",
+     "why": "تسمّي NHS اليوغا نشاطًا لتقوية العضلات، وتحدد إرشادات منظمة الصحة العالمية تقوية العضلات في يومين أو أكثر أسبوعيًا.{1}{2}"
+    },
+    {
+     "name": "قوة الأطراف السفلية لدى البالغين في سن 60 فأكثر",
+     "why": "22 تجربة عشوائية: آثار لصالح اليوغا في قوة الأطراف السفلية مقارنة بمجموعات غير نشطة (0.45) ونشطة (0.49).{3}"
+    },
+    {
+     "name": "اختبارا الضغط والجلوس من الاستلقاء",
+     "why": "12 أسبوعًا من يوغا هاثا لدى بالغين متوسط أعمارهم 52 عامًا: تحسن ملحوظ مقارنة بمجموعة الانتظار.{4}"
+    },
+    {
+     "name": "التوازن والحركة",
+     "why": "لدى من هم في سن 60 فأكثر، كان لليوغا أثر صغير على التوازن وأثر متوسط على الحركة البدنية.{6}"
+    }
+   ],
+   "enoughHeading": "الجرعات والمقارنات والحدود",
+   "enough": [
+    "في تجربة يوغا هاثا، خُصص 87 بالغًا لليوغا و86 لقائمة الانتظار، وانسحب 19. وحسّنت مجموعة اليوغا أيضًا الحد الأقصى لاستهلاك الأكسجين ومرونة اختبار الجلوس والوصول، ولم تحسّن المجموعة الفرعية الأكبر سنًا اختبار الجلوس من الاستلقاء مقارنة بمجموعة المقارنة.{4}",
+    "جمع التحليل التلوي الخاص بالتوازن 6 تجارب شملت 307 مشاركين، ويذكر أن المزيد من البحث مطلوب لتحديد ما إذا كانت التحسينات تترجم إلى الوقاية من السقوط.{6} وجمع بيان موقف ACSM نتائج 137 مراجعة منهجية لتمارين المقاومة لدى بالغين أصحاء، ويذكر أن القوة تعززت بأحمال 80% من الحد الأقصى لتكرار واحد أو أكثر، ومدى حركة كامل، ومن 2 إلى 3 مجموعات، وجلستين أو أكثر أسبوعيًا.{5}"
+   ],
+   "safety": [
+    "يعتمد نموذج الفحص الذي وضعته ACSM عام 2015 في تحديد الحاجة إلى إذن طبي قبل التمرين على مستوى النشاط الحالي، ووجود علامات أو أعراض و/أو مرض قلبي وعائي أو أيضي أو كلوي معروف، والشدة المرغوبة.{7}"
+   ],
+   "faq": [
+    {
+     "q": "هل تُدرج اليوغا ضمن أنشطة تقوية العضلات؟",
+     "a": "نعم. تُدرج NHS اليوغا ضمن أمثلة أنشطة تقوية العضلات للبالغين، مع البيلاتس والتاي تشي ورفع الأثقال وتمارين وزن الجسم.{1}"
+    },
+    {
+     "q": "هل حسّنت اليوغا القوة في التجارب؟",
+     "a": "وجد تحليل تلوي لدى بالغين في سن 60 فأكثر آثارًا لصالح اليوغا في قوة الأطراف السفلية مقارنة بمجموعات غير نشطة ونشطة.{3} وذكرت تجربة يوغا هاثا لمدة 12 أسبوعًا تحسنًا ملحوظًا في اختباري الضغط والجلوس من الاستلقاء مقارنة بمجموعة الانتظار.{4}"
+    },
+    {
+     "q": "هل قورنت اليوغا بتمارين الأثقال؟",
+     "a": "لم تقارن أي من التجارب المذكورة هنا اليوغا بتمارين الأثقال المتدرّجة. ويذكر بيان موقف ACSM لعام 2026 أن مكاسب القوة في تمارين المقاومة تعززت بأحمال 80% من الحد الأقصى لتكرار واحد أو أكثر.{5}"
+    },
+    {
+     "q": "ماذا وجدت الدراسات بشأن التوازن؟",
+     "a": "وجد تحليل تلوي لـ6 تجارب لدى من هم في سن 60 فأكثر أثرًا صغيرًا لليوغا على التوازن وأثرًا متوسطًا على الحركة البدنية.{6}"
+    }
+   ],
+   "updated": "حدّث في 21 نوفمبر 2026",
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا",
+    "how": "كيف",
+    "dose": "الجرعة",
+    "sources": "المصادر",
+    "readIn": "اقرأ بلغة أخرى",
+    "programs": "اطّلع على البرامج",
+    "whatsapp": "اسأل عبر واتساب",
+    "whatsappText": "مرحبًا سوسميت، قرأت المقال عن اليوغا كتمارين قوة وأريد حجز استشارة",
+    "skip": "انتقل إلى المحتوى",
+    "crumb": "اليوغا كتمارين قوة"
+   },
+   "authorLine": "بقلم سوسميت جالان، مدرب القوة والتكييف البدني في Online Fitness Worldwide."
+  },
+  "hi": {
+   "metaTitle": "स्ट्रेंथ ट्रेनिंग के रूप में योग: प्रमाण | Online Fitness Worldwide",
+   "metaDescription": "योग और मांसपेशियों की ताकत पर NHS, WHO और योग ट्रायल क्या बताते हैं: गाइडलाइंस की भाषा, कंट्रोल समूहों से तुलना में ताकत, और वज़न उठाने से अंतर।",
+   "h1": "क्या योग स्ट्रेंथ ट्रेनिंग गिना जाता है? गाइडलाइंस और ट्रायल क्या दिखाते हैं",
+   "dek": "आधिकारिक गतिविधि मार्गदर्शन योग को किस श्रेणी में रखता है, नियंत्रित ट्रायल ने ताकत के लिए क्या मापा, और ये नतीजे प्रोग्रेसिव रेज़िस्टेंस ट्रेनिंग के शोध के साथ कैसे दिखते हैं।",
+   "intro": [
+    "NHS वयस्कों के लिए मांसपेशी मज़बूत करने वाली गतिविधियों के उदाहरणों में योग को पिलाटेस, वज़न उठाने और बॉडीवेट एक्सरसाइज़ के साथ रखता है।{1} WHO की 2020 की गाइडलाइंस हफ़्ते में 2 या अधिक दिन मांसपेशी मज़बूत करने वाली गतिविधियों की सिफ़ारिश करती हैं।{2}",
+    "ट्रायल में योग ने कंट्रोल समूहों की तुलना में मापी गई ताकत बढ़ाई। 60 और उससे अधिक उम्र के वयस्कों में रैंडमाइज़्ड ट्रायल के 2019 के एक मेटा-विश्लेषण में निचले अंगों की ताकत पर योग के पक्ष में असर मिला, निष्क्रिय कंट्रोल (इफ़ेक्ट साइज़ 0.45) और चलने जैसे सक्रिय कंट्रोल (0.49) दोनों की तुलना में।{3} 173 वयस्कों में 12 हफ़्ते के हठ योग ट्रायल ने वेटलिस्ट समूह की तुलना में पुश-अप और कर्ल-अप टेस्ट में महत्वपूर्ण सुधार बताया।{4}",
+    "प्रोग्रेसिव रेज़िस्टेंस ट्रेनिंग का शोध अलग नतीजे बताता है: ACSM का 2026 का पोज़ीशन स्टैंड बताता है कि ताकत की बढ़त भारी लोड (वन-रेपिटिशन मैक्सिमम का 80% या अधिक) से बढ़ी। उद्धृत योग ट्रायल में से किसी ने योग की सीधी तुलना प्रोग्रेसिव वेट ट्रेनिंग से नहीं की।{5}"
+   ],
+   "listHeading": "उद्धृत स्रोत क्या बताते हैं",
+   "items": [
+    {
+     "name": "आधिकारिक मार्गदर्शन में योग",
+     "why": "NHS योग को मांसपेशी मज़बूत करने वाली गतिविधि बताता है; WHO की गाइडलाइंस हफ़्ते में 2 या अधिक दिन मांसपेशी मज़बूती तय करती हैं।{1}{2}"
+    },
+    {
+     "name": "60 और उससे अधिक उम्र के वयस्कों में निचले अंगों की ताकत",
+     "why": "22 रैंडमाइज़्ड ट्रायल: निष्क्रिय (0.45) और सक्रिय (0.49) कंट्रोल की तुलना में निचले अंगों की ताकत पर योग के पक्ष में असर।{3}"
+    },
+    {
+     "name": "पुश-अप और कर्ल-अप टेस्ट",
+     "why": "औसतन 52 वर्ष के वयस्कों में 12 हफ़्ते का हठ योग: वेटलिस्ट समूह की तुलना में महत्वपूर्ण सुधार।{4}"
+    },
+    {
+     "name": "संतुलन और गतिशीलता",
+     "why": "60 और उससे अधिक उम्र के लोगों में योग का संतुलन पर छोटा और शारीरिक गतिशीलता पर मध्यम असर था।{6}"
+    }
+   ],
+   "enoughHeading": "डोज़, तुलनाएँ और सीमाएँ",
+   "enough": [
+    "हठ योग ट्रायल में 87 वयस्क योग और 86 वेटलिस्ट समूह में रखे गए; 19 ने बीच में छोड़ा। योग समूह में अधिकतम ऑक्सीजन ग्रहण और सिट-एंड-रीच लचीलापन भी सुधरा; बड़ी उम्र के उपसमूह में कंट्रोल की तुलना में कर्ल-अप टेस्ट नहीं सुधरा।{4}",
+    "संतुलन वाले मेटा-विश्लेषण ने 307 प्रतिभागियों वाले 6 ट्रायल मिलाए और बताया कि सुधार गिरने की रोकथाम में बदलते हैं या नहीं, यह तय करने के लिए और शोध ज़रूरी है।{6} ACSM पोज़ीशन स्टैंड ने स्वस्थ वयस्कों में रेज़िस्टेंस ट्रेनिंग की 137 सिस्टमैटिक समीक्षाएँ मिलाईं; वह बताता है कि ताकत वन-रेपिटिशन मैक्सिमम के 80% या अधिक लोड, पूरी रेंज ऑफ़ मोशन, 2 से 3 सेट और हफ़्ते में 2 या अधिक सत्रों से बढ़ी।{5}"
+   ],
+   "safety": [
+    "ACSM का 2015 का स्क्रीनिंग मॉडल व्यायाम से पहले मेडिकल क्लीयरेंस को मौजूदा गतिविधि, संकेतों या लक्षणों और/या ज्ञात हृदय-संबंधी, मेटाबॉलिक या किडनी रोग, और चाही गई तीव्रता पर आधारित करता है।{7}"
+   ],
+   "faq": [
+    {
+     "q": "क्या योग मांसपेशी मज़बूत करने वाली गतिविधि के रूप में सूचीबद्ध है?",
+     "a": "हाँ। NHS वयस्कों के लिए मांसपेशी मज़बूत करने वाली गतिविधियों के उदाहरणों में योग को पिलाटेस, ताई ची, वज़न उठाने और बॉडीवेट एक्सरसाइज़ के साथ रखता है।{1}"
+    },
+    {
+     "q": "क्या ट्रायल में योग से ताकत बढ़ी?",
+     "a": "60 और उससे अधिक उम्र के वयस्कों पर एक मेटा-विश्लेषण में निष्क्रिय और सक्रिय कंट्रोल की तुलना में निचले अंगों की ताकत पर योग के पक्ष में असर मिला।{3} 12 हफ़्ते के हठ योग ट्रायल ने वेटलिस्ट समूह की तुलना में पुश-अप और कर्ल-अप टेस्ट में महत्वपूर्ण सुधार बताया।{4}"
+    },
+    {
+     "q": "क्या योग की तुलना वेट ट्रेनिंग से की गई है?",
+     "a": "यहाँ उद्धृत किसी भी ट्रायल ने योग की तुलना प्रोग्रेसिव वेट ट्रेनिंग से नहीं की। ACSM का 2026 का पोज़ीशन स्टैंड बताता है कि रेज़िस्टेंस ट्रेनिंग में ताकत की बढ़त वन-रेपिटिशन मैक्सिमम के 80% या अधिक लोड से बढ़ी।{5}"
+    },
+    {
+     "q": "संतुलन के बारे में अध्ययनों ने क्या पाया?",
+     "a": "60 और उससे अधिक उम्र के लोगों में 6 ट्रायल के एक मेटा-विश्लेषण में योग का संतुलन पर छोटा और शारीरिक गतिशीलता पर मध्यम असर मिला।{6}"
+    }
+   ],
+   "updated": "अपडेट 21 नवंबर 2026",
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों",
+    "how": "कैसे",
+    "dose": "डोज़",
+    "sources": "स्रोत",
+    "readIn": "इसे इस भाषा में पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "WhatsApp पर पूछें",
+    "whatsappText": "नमस्ते सुस्मित, मैंने स्ट्रेंथ ट्रेनिंग के रूप में योग वाला लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    "skip": "सामग्री पर जाएँ",
+    "crumb": "स्ट्रेंथ ट्रेनिंग के रूप में योग"
+   },
+   "authorLine": "लेखक: सुस्मित जालान, स्ट्रेंथ एंड कंडीशनिंग कोच, Online Fitness Worldwide।"
+  },
+  "es": {
+   "metaTitle": "El yoga como entrenamiento de fuerza: la evidencia | Online Fitness Worldwide",
+   "metaDescription": "Qué informan el NHS, la OMS y los ensayos sobre yoga y fuerza: lo que dicen las guías, resultados frente a controles y en qué se diferencia de las pesas.",
+   "h1": "¿Cuenta el yoga como entrenamiento de fuerza? Qué muestran las guías y los ensayos",
+   "dek": "Cómo clasifica el yoga la guía oficial de actividad física, qué midieron los ensayos controlados sobre fuerza y cómo se sitúan esos resultados junto a la investigación sobre entrenamiento de fuerza progresivo.",
+   "intro": [
+    "El NHS incluye el yoga entre sus ejemplos de actividades de fortalecimiento muscular para adultos, junto con el pilates, levantar pesas y los ejercicios con el propio peso.{1} Las guías de la OMS de 2020 recomiendan actividades de fortalecimiento muscular 2 o más días por semana.{2}",
+    "En los ensayos, el yoga mejoró la fuerza medida frente a los grupos control. Un metaanálisis de 2019 de ensayos aleatorizados en adultos de 60 años o más encontró efectos a favor del yoga en la fuerza de las extremidades inferiores frente a controles inactivos (tamaño del efecto 0,45) y frente a controles activos como caminar (0,49).{3} Un ensayo de 12 semanas de hatha yoga en 173 adultos informó mejoras significativas en las pruebas de flexiones y abdominales frente a un grupo en lista de espera.{4}",
+    "La investigación sobre entrenamiento de fuerza progresivo informa hallazgos aparte: una declaración de posición del ACSM de 2026 informa que las ganancias de fuerza aumentaron con cargas más pesadas (80% o más de una repetición máxima). Ninguno de los ensayos de yoga citados comparó directamente el yoga con el entrenamiento progresivo con pesas.{5}"
+   ],
+   "listHeading": "Qué informan las fuentes citadas",
+   "items": [
+    {
+     "name": "El yoga en la guía oficial",
+     "why": "El NHS nombra el yoga como actividad de fortalecimiento muscular; las guías de la OMS fijan el fortalecimiento muscular 2 o más días por semana.{1}{2}"
+    },
+    {
+     "name": "Fuerza de las extremidades inferiores en mayores de 60",
+     "why": "22 ensayos aleatorizados: efectos a favor del yoga en fuerza de las extremidades inferiores frente a controles inactivos (0,45) y activos (0,49).{3}"
+    },
+    {
+     "name": "Pruebas de flexiones y abdominales",
+     "why": "12 semanas de hatha yoga en adultos con una media de 52 años: mejoras significativas frente a lista de espera.{4}"
+    },
+    {
+     "name": "Equilibrio y movilidad",
+     "why": "En personas de 60 años o más, el yoga tuvo un efecto pequeño sobre el equilibrio y un efecto moderado sobre la movilidad física.{6}"
+    }
+   ],
+   "enoughHeading": "Dosis, comparaciones y límites",
+   "enough": [
+    "En el ensayo de hatha yoga, 87 adultos fueron asignados al yoga y 86 a lista de espera; 19 abandonaron. El grupo de yoga también mejoró el consumo máximo de oxígeno y la flexibilidad en la prueba de sentarse y alcanzar; el subgrupo de mayor edad no mejoró la prueba de abdominales frente a los controles.{4}",
+    "El metaanálisis de equilibrio combinó 6 ensayos con 307 participantes y señala que hace falta más investigación para saber si las mejoras se traducen en prevención de caídas.{6} La declaración de posición del ACSM combinó 137 revisiones sistemáticas de entrenamiento de fuerza en adultos sanos; informa que la fuerza aumentó con cargas del 80% o más de una repetición máxima, rango de movimiento completo, 2 a 3 series y 2 o más sesiones por semana.{5}"
+   ],
+   "safety": [
+    "El modelo de cribado del ACSM de 2015 basa la autorización médica previa al ejercicio en la actividad actual, los signos o síntomas y/o la enfermedad cardiovascular, metabólica o renal conocida, y la intensidad deseada.{7}"
+   ],
+   "faq": [
+    {
+     "q": "¿Figura el yoga como actividad de fortalecimiento muscular?",
+     "a": "Sí. El NHS incluye el yoga entre los ejemplos de actividades de fortalecimiento muscular para adultos, con el pilates, el taichí, levantar pesas y los ejercicios con el propio peso.{1}"
+    },
+    {
+     "q": "¿Ha mejorado el yoga la fuerza en ensayos?",
+     "a": "Un metaanálisis en adultos de 60 años o más encontró efectos a favor del yoga en la fuerza de las extremidades inferiores frente a controles inactivos y activos.{3} Un ensayo de 12 semanas de hatha yoga informó mejoras significativas en flexiones y abdominales frente a lista de espera.{4}"
+    },
+    {
+     "q": "¿Se ha comparado el yoga con el entrenamiento con pesas?",
+     "a": "Ninguno de los ensayos citados aquí comparó el yoga con el entrenamiento progresivo con pesas. Una declaración de posición del ACSM de 2026 informa que las ganancias de fuerza aumentaron con cargas del 80% o más de una repetición máxima.{5}"
+    },
+    {
+     "q": "¿Qué encontraron los estudios sobre el equilibrio?",
+     "a": "Un metaanálisis de 6 ensayos en personas de 60 años o más encontró un efecto pequeño del yoga sobre el equilibrio y un efecto moderado sobre la movilidad física.{6}"
+    }
+   ],
+   "updated": "Actualizado el 21 de noviembre de 2026",
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué",
+    "how": "Cómo",
+    "dose": "Dosis",
+    "sources": "Fuentes",
+    "readIn": "Leer en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "whatsappText": "Hola Susmit, leí el artículo sobre el yoga como entrenamiento de fuerza y quiero reservar una consulta",
+    "skip": "Saltar al contenido",
+    "crumb": "El yoga como entrenamiento de fuerza"
+   },
+   "authorLine": "Por Susmit Jalan, entrenador de fuerza y acondicionamiento en Online Fitness Worldwide."
+  },
+  "zh": {
+   "metaTitle": "瑜伽作为力量训练：证据 | Online Fitness Worldwide",
+   "metaDescription": "NHS、世卫组织和瑜伽试验对瑜伽与肌肉力量的报告：指南的表述、与对照组相比的力量结果，以及瑜伽与举重的区别。",
+   "h1": "瑜伽算力量训练吗？指南和试验显示了什么",
+   "dek": "官方身体活动指南如何归类瑜伽，对照试验测量了哪些力量指标，以及这些结果与渐进式抗阻训练研究的对照。",
+   "intro": [
+    "NHS把瑜伽列为成人增强肌肉活动的示例之一，与普拉提、举重和自重练习并列。{1}世卫组织2020年指南建议每周有2天或以上进行增强肌肉的活动。{2}",
+    "在试验中，与对照组相比，瑜伽提高了测得的力量。一项2019年针对60岁及以上成人随机试验的荟萃分析发现，与不活动对照组（效应量0.45）和步行等活动对照组（0.49）相比，瑜伽在下肢力量上有优势。{3}一项在173名成人中进行的12周哈他瑜伽试验报告，与候补对照组相比，俯卧撑和卷腹测试有显著提高。{4}",
+    "渐进式抗阻训练的研究报告了另外的结果：ACSM 2026年立场声明报告，较重负荷（一次最大重复的80%或以上）能增强力量增长。所引用的瑜伽试验都没有把瑜伽与渐进式负重训练直接比较。{5}"
+   ],
+   "listHeading": "所引用的来源报告了什么",
+   "items": [
+    {
+     "name": "官方指南中的瑜伽",
+     "why": "NHS把瑜伽列为增强肌肉的活动；世卫组织指南规定每周2天或以上进行增强肌肉的活动。{1}{2}"
+    },
+    {
+     "name": "60岁及以上成人的下肢力量",
+     "why": "22项随机试验：与不活动对照组（0.45）和活动对照组（0.49）相比，瑜伽在下肢力量上有优势。{3}"
+    },
+    {
+     "name": "俯卧撑和卷腹测试",
+     "why": "平均52岁的成人进行12周哈他瑜伽：与候补对照组相比显著提高。{4}"
+    },
+    {
+     "name": "平衡与活动能力",
+     "why": "在60岁及以上人群中，瑜伽对平衡有小幅影响，对身体活动能力有中等影响。{6}"
+    }
+   ],
+   "enoughHeading": "剂量、比较与局限",
+   "enough": [
+    "在哈他瑜伽试验中，87名成人被分到瑜伽组，86名分到候补组，19人退出。瑜伽组的最大摄氧量和坐位体前伸柔韧性也有提高；与对照组相比，年龄较大的亚组卷腹测试没有提高。{4}",
+    "平衡荟萃分析合并了6项试验、307名参与者，并指出需要更多研究来确定这些改善能否转化为预防跌倒。{6}ACSM立场声明汇总了137篇关于健康成人抗阻训练的系统综述，报告力量在负荷达到一次最大重复的80%或以上、完整动作幅度、2至3组以及每周2次或以上训练时得到增强。{5}"
+   ],
+   "safety": [
+    "ACSM 2015年的筛查模型根据当前活动水平、体征或症状和/或已知的心血管、代谢或肾脏疾病以及期望的运动强度来决定运动前是否需要医学许可。{7}"
+   ],
+   "faq": [
+    {
+     "q": "瑜伽被列为增强肌肉的活动吗？",
+     "a": "是的。NHS把瑜伽列为成人增强肌肉活动的示例之一，与普拉提、太极、举重和自重练习并列。{1}"
+    },
+    {
+     "q": "瑜伽在试验中提高了力量吗？",
+     "a": "一项针对60岁及以上成人的荟萃分析发现，与不活动和活动对照组相比，瑜伽在下肢力量上有优势。{3}一项12周哈他瑜伽试验报告，与候补对照组相比，俯卧撑和卷腹测试显著提高。{4}"
+    },
+    {
+     "q": "瑜伽和负重训练比较过吗？",
+     "a": "这里引用的试验都没有把瑜伽与渐进式负重训练比较。ACSM 2026年立场声明报告，抗阻训练中负荷达到一次最大重复的80%或以上时力量增长得到增强。{5}"
+    },
+    {
+     "q": "研究对平衡有什么发现？",
+     "a": "一项纳入6项试验、针对60岁及以上人群的荟萃分析发现，瑜伽对平衡有小幅影响，对身体活动能力有中等影响。{6}"
+    }
+   ],
+   "updated": "更新于2026年11月21日",
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么",
+    "how": "怎么做",
+    "dose": "训练量",
+    "sources": "参考来源",
+    "readIn": "其他语言版本",
+    "programs": "查看课程",
+    "whatsapp": "通过WhatsApp咨询",
+    "whatsappText": "你好 Susmit，我读了关于瑜伽作为力量训练的文章，想预约咨询",
+    "skip": "跳到正文",
+    "crumb": "瑜伽作为力量训练"
+   },
+   "authorLine": "作者：Susmit Jalan，Online Fitness Worldwide 力量与体能教练。"
+  },
+  "ja": {
+   "metaTitle": "筋力トレーニングとしてのヨガ：エビデンス | Online Fitness Worldwide",
+   "metaDescription": "ヨガと筋力についてNHS、WHO、ヨガの試験が報告していること：ガイドラインの記述、対照群と比べた筋力の結果、ウエイトトレーニングとの違い。",
+   "h1": "ヨガは筋力トレーニングに数えられるか：ガイドラインと試験が示すこと",
+   "dek": "公式の身体活動ガイドがヨガをどう分類しているか、対照試験が筋力について何を測定したか、そしてその結果が漸進的レジスタンストレーニングの研究とどう並ぶか。",
+   "intro": [
+    "NHSは成人向けの筋力強化活動の例として、ピラティス、ウエイトリフティング、自重運動とともにヨガを挙げています。{1}WHOの2020年ガイドラインは、週2日以上の筋力強化活動を推奨しています。{2}",
+    "試験では、ヨガは対照群と比べて測定された筋力を向上させました。60歳以上の成人を対象としたランダム化試験の2019年メタ分析では、不活動の対照群（効果量0.45）およびウォーキングなどの活動的な対照群（0.49）と比べて、下肢筋力でヨガに有利な効果が見られました。{3}173人の成人を対象とした12週間のハタヨガ試験では、待機群と比べて腕立て伏せと上体起こしのテストで有意な向上が報告されました。{4}",
+    "漸進的レジスタンストレーニングの研究は別の知見を報告しています。ACSMの2026年のポジションスタンドは、より重い負荷（1回最大挙上重量の80%以上）で筋力の向上が高まったと報告しています。引用したヨガの試験のいずれも、ヨガと漸進的なウエイトトレーニングを直接比較していません。{5}"
+   ],
+   "listHeading": "引用した資料が報告していること",
+   "items": [
+    {
+     "name": "公式ガイドにおけるヨガ",
+     "why": "NHSはヨガを筋力強化活動として挙げ、WHOのガイドラインは週2日以上の筋力強化活動を定めています。{1}{2}"
+    },
+    {
+     "name": "60歳以上の成人の下肢筋力",
+     "why": "ランダム化試験22件：不活動（0.45）および活動的（0.49）な対照群と比べ、下肢筋力でヨガに有利な効果。{3}"
+    },
+    {
+     "name": "腕立て伏せと上体起こしのテスト",
+     "why": "平均52歳の成人が12週間ハタヨガを実施：待機群と比べて有意な向上。{4}"
+    },
+    {
+     "name": "バランスと移動能力",
+     "why": "60歳以上の人では、ヨガはバランスに小さな効果、身体的な移動能力に中程度の効果がありました。{6}"
+    }
+   ],
+   "enoughHeading": "用量、比較、限界",
+   "enough": [
+    "ハタヨガ試験では87人がヨガ群、86人が待機群に割り付けられ、19人が脱落しました。ヨガ群は最大酸素摂取量と長座体前屈の柔軟性も向上しましたが、高齢のサブグループでは対照群と比べて上体起こしのテストは向上しませんでした。{4}",
+    "バランスのメタ分析は307人を含む6件の試験をまとめ、改善が転倒予防につながるかを明らかにするにはさらなる研究が必要だとしています。{6}ACSMのポジションスタンドは健康な成人のレジスタンストレーニングに関する137件のシステマティックレビューをまとめ、1回最大挙上重量の80%以上の負荷、完全な可動域、2〜3セット、週2回以上のセッションで筋力が高まったと報告しています。{5}"
+   ],
+   "safety": [
+    "ACSMの2015年のスクリーニングモデルは、運動前の医学的許可の要否を、現在の活動量、徴候や症状、および／または既知の心血管・代謝・腎疾患、そして希望する運動強度に基づいて判断します。{7}"
+   ],
+   "faq": [
+    {
+     "q": "ヨガは筋力強化活動に含まれていますか？",
+     "a": "はい。NHSは成人向けの筋力強化活動の例として、ピラティス、太極拳、ウエイトリフティング、自重運動とともにヨガを挙げています。{1}"
+    },
+    {
+     "q": "試験でヨガは筋力を向上させましたか？",
+     "a": "60歳以上の成人を対象としたメタ分析では、不活動および活動的な対照群と比べて下肢筋力でヨガに有利な効果が見られました。{3}12週間のハタヨガ試験では、待機群と比べて腕立て伏せと上体起こしで有意な向上が報告されました。{4}"
+    },
+    {
+     "q": "ヨガはウエイトトレーニングと比較されていますか？",
+     "a": "ここで引用した試験のいずれも、ヨガと漸進的なウエイトトレーニングを比較していません。ACSMの2026年のポジションスタンドは、1回最大挙上重量の80%以上の負荷でレジスタンストレーニングの筋力向上が高まったと報告しています。{5}"
+    },
+    {
+     "q": "バランスについて研究は何を見いだしましたか？",
+     "a": "60歳以上を対象とした6件の試験のメタ分析で、ヨガはバランスに小さな効果、身体的な移動能力に中程度の効果がありました。{6}"
+    }
+   ],
+   "updated": "2026年11月21日更新",
+   "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ",
+    "how": "やり方",
+    "dose": "回数・量",
+    "sources": "出典",
+    "readIn": "他の言語で読む",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問する",
+    "whatsappText": "こんにちは Susmit さん、筋力トレーニングとしてのヨガの記事を読み、相談を予約したいです",
+    "skip": "本文へスキップ",
+    "crumb": "筋力トレーニングとしてのヨガ"
+   },
+   "authorLine": "執筆：スシュミット・ジャラン（Online Fitness Worldwide ストレングス＆コンディショニングコーチ）"
+  },
+  "gu": {
+   "metaTitle": "સ્ટ્રેન્થ ટ્રેનિંગ તરીકે યોગ: પુરાવા | Online Fitness Worldwide",
+   "metaDescription": "યોગ અને સ્નાયુની તાકાત પર NHS, WHO અને યોગ ટ્રાયલ શું કહે છે: માર્ગદર્શિકાની ભાષા, કંટ્રોલ જૂથો સાથે સરખામણીમાં તાકાત, અને વજન ઉપાડવાથી તફાવત.",
+   "h1": "શું યોગ સ્ટ્રેન્થ ટ્રેનિંગ ગણાય? માર્ગદર્શિકા અને ટ્રાયલ શું બતાવે છે",
+   "dek": "સત્તાવાર પ્રવૃત્તિ માર્ગદર્શન યોગને કઈ શ્રેણીમાં મૂકે છે, નિયંત્રિત ટ્રાયલોએ તાકાત માટે શું માપ્યું, અને આ પરિણામો પ્રોગ્રેસિવ રેઝિસ્ટન્સ ટ્રેનિંગના સંશોધન સાથે કેવા દેખાય છે.",
+   "intro": [
+    "NHS પુખ્તો માટે સ્નાયુ મજબૂત કરતી પ્રવૃત્તિઓનાં ઉદાહરણોમાં યોગને પિલાટેસ, વજન ઉપાડવા અને બોડીવેટ એક્સરસાઇઝ સાથે મૂકે છે.{1} WHO ની 2020 ની માર્ગદર્શિકા અઠવાડિયામાં 2 કે વધુ દિવસ સ્નાયુ મજબૂત કરતી પ્રવૃત્તિઓની ભલામણ કરે છે.{2}",
+    "ટ્રાયલોમાં યોગે કંટ્રોલ જૂથોની સરખામણીમાં માપેલી તાકાત વધારી. 60 અને તેથી વધુ ઉંમરના પુખ્તોમાં રેન્ડમાઇઝ્ડ ટ્રાયલોના 2019 ના એક મેટા-વિશ્લેષણમાં નીચલા અંગોની તાકાત પર યોગની તરફેણમાં અસર મળી, નિષ્ક્રિય કંટ્રોલ (ઇફેક્ટ સાઇઝ 0.45) અને ચાલવા જેવા સક્રિય કંટ્રોલ (0.49) બંનેની સરખામણીમાં.{3} 173 પુખ્તોમાં 12 અઠવાડિયાના હઠ યોગ ટ્રાયલે વેઇટલિસ્ટ જૂથની સરખામણીમાં પુશ-અપ અને કર્લ-અપ ટેસ્ટમાં નોંધપાત્ર સુધારો જણાવ્યો.{4}",
+    "પ્રોગ્રેસિવ રેઝિસ્ટન્સ ટ્રેનિંગનું સંશોધન અલગ પરિણામો જણાવે છે: ACSM નું 2026 નું પોઝિશન સ્ટેન્ડ જણાવે છે કે તાકાતનો વધારો ભારે લોડ (વન-રેપિટિશન મેક્સિમમના 80% કે વધુ) થી વધ્યો. ઉલ્લેખિત યોગ ટ્રાયલોમાંથી કોઈએ યોગની સીધી સરખામણી પ્રોગ્રેસિવ વેઇટ ટ્રેનિંગ સાથે કરી નથી.{5}"
+   ],
+   "listHeading": "ઉલ્લેખિત સ્રોતો શું જણાવે છે",
+   "items": [
+    {
+     "name": "સત્તાવાર માર્ગદર્શનમાં યોગ",
+     "why": "NHS યોગને સ્નાયુ મજબૂત કરતી પ્રવૃત્તિ ગણાવે છે; WHO ની માર્ગદર્શિકા અઠવાડિયામાં 2 કે વધુ દિવસ સ્નાયુ મજબૂતી નક્કી કરે છે.{1}{2}"
+    },
+    {
+     "name": "60 અને તેથી વધુ ઉંમરના પુખ્તોમાં નીચલા અંગોની તાકાત",
+     "why": "22 રેન્ડમાઇઝ્ડ ટ્રાયલ: નિષ્ક્રિય (0.45) અને સક્રિય (0.49) કંટ્રોલની સરખામણીમાં નીચલા અંગોની તાકાત પર યોગની તરફેણમાં અસર.{3}"
+    },
+    {
+     "name": "પુશ-અપ અને કર્લ-અપ ટેસ્ટ",
+     "why": "સરેરાશ 52 વર્ષના પુખ્તોમાં 12 અઠવાડિયાનો હઠ યોગ: વેઇટલિસ્ટ જૂથની સરખામણીમાં નોંધપાત્ર સુધારો.{4}"
+    },
+    {
+     "name": "સંતુલન અને ગતિશીલતા",
+     "why": "60 અને તેથી વધુ ઉંમરના લોકોમાં યોગની સંતુલન પર નાની અને શારીરિક ગતિશીલતા પર મધ્યમ અસર હતી.{6}"
+    }
+   ],
+   "enoughHeading": "ડોઝ, સરખામણીઓ અને મર્યાદાઓ",
+   "enough": [
+    "હઠ યોગ ટ્રાયલમાં 87 પુખ્તોને યોગ અને 86 ને વેઇટલિસ્ટ જૂથમાં મૂકાયા; 19 એ અધવચ્ચે છોડ્યું. યોગ જૂથમાં મહત્તમ ઓક્સિજન ગ્રહણ અને સિટ-એન્ડ-રીચ લવચીકતા પણ સુધરી; મોટી ઉંમરના પેટાજૂથમાં કંટ્રોલની સરખામણીમાં કર્લ-અપ ટેસ્ટ સુધર્યો નહીં.{4}",
+    "સંતુલનના મેટા-વિશ્લેષણે 307 સહભાગીઓવાળા 6 ટ્રાયલ જોડ્યા અને જણાવ્યું કે સુધારા પડવાની રોકથામમાં બદલાય છે કે નહીં તે નક્કી કરવા વધુ સંશોધન જરૂરી છે.{6} ACSM પોઝિશન સ્ટેન્ડે સ્વસ્થ પુખ્તોમાં રેઝિસ્ટન્સ ટ્રેનિંગની 137 સિસ્ટમેટિક સમીક્ષાઓ જોડી; તે જણાવે છે કે તાકાત વન-રેપિટિશન મેક્સિમમના 80% કે વધુ લોડ, પૂરી રેન્જ ઓફ મોશન, 2 થી 3 સેટ અને અઠવાડિયામાં 2 કે વધુ સત્રોથી વધી.{5}"
+   ],
+   "safety": [
+    "ACSM નું 2015 નું સ્ક્રીનિંગ મોડેલ કસરત પહેલાંની મેડિકલ મંજૂરીને વર્તમાન પ્રવૃત્તિ, સંકેતો કે લક્ષણો અને/અથવા જાણીતા હૃદય-સંબંધી, મેટાબોલિક કે કિડની રોગ, અને ઇચ્છિત તીવ્રતા પર આધારિત રાખે છે.{7}"
+   ],
+   "faq": [
+    {
+     "q": "શું યોગ સ્નાયુ મજબૂત કરતી પ્રવૃત્તિ તરીકે સૂચિબદ્ધ છે?",
+     "a": "હા. NHS પુખ્તો માટે સ્નાયુ મજબૂત કરતી પ્રવૃત્તિઓનાં ઉદાહરણોમાં યોગને પિલાટેસ, તાઈ ચી, વજન ઉપાડવા અને બોડીવેટ એક્સરસાઇઝ સાથે મૂકે છે.{1}"
+    },
+    {
+     "q": "શું ટ્રાયલોમાં યોગથી તાકાત વધી?",
+     "a": "60 અને તેથી વધુ ઉંમરના પુખ્તો પરના એક મેટા-વિશ્લેષણમાં નિષ્ક્રિય અને સક્રિય કંટ્રોલની સરખામણીમાં નીચલા અંગોની તાકાત પર યોગની તરફેણમાં અસર મળી.{3} 12 અઠવાડિયાના હઠ યોગ ટ્રાયલે વેઇટલિસ્ટ જૂથની સરખામણીમાં પુશ-અપ અને કર્લ-અપ ટેસ્ટમાં નોંધપાત્ર સુધારો જણાવ્યો.{4}"
+    },
+    {
+     "q": "શું યોગની સરખામણી વેઇટ ટ્રેનિંગ સાથે થઈ છે?",
+     "a": "અહીં ઉલ્લેખિત કોઈ પણ ટ્રાયલે યોગની સરખામણી પ્રોગ્રેસિવ વેઇટ ટ્રેનિંગ સાથે કરી નથી. ACSM નું 2026 નું પોઝિશન સ્ટેન્ડ જણાવે છે કે રેઝિસ્ટન્સ ટ્રેનિંગમાં તાકાતનો વધારો વન-રેપિટિશન મેક્સિમમના 80% કે વધુ લોડથી વધ્યો.{5}"
+    },
+    {
+     "q": "સંતુલન વિશે અભ્યાસોમાં શું મળ્યું?",
+     "a": "60 અને તેથી વધુ ઉંમરના લોકોમાં 6 ટ્રાયલના એક મેટા-વિશ્લેષણમાં યોગની સંતુલન પર નાની અને શારીરિક ગતિશીલતા પર મધ્યમ અસર મળી.{6}"
+    }
+   ],
+   "updated": "અપડેટ 21 નવેમ્બર 2026",
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "શા માટે",
+    "how": "કેવી રીતે",
+    "dose": "ડોઝ",
+    "sources": "સ્રોતો",
+    "readIn": "આ ભાષામાં વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "WhatsApp પર પૂછો",
+    "whatsappText": "નમસ્તે સુસ્મિત, મેં સ્ટ્રેન્થ ટ્રેનિંગ તરીકે યોગ પરનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    "skip": "સામગ્રી પર જાઓ",
+    "crumb": "સ્ટ્રેન્થ ટ્રેનિંગ તરીકે યોગ"
+   },
+   "authorLine": "લેખક: સુસ્મિત જાલાન, સ્ટ્રેન્થ એન્ડ કન્ડિશનિંગ કોચ, Online Fitness Worldwide."
+  }
+ },
+ "format": "evidence"
+}
