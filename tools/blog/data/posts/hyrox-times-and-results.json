@@ -1,0 +1,555 @@
+{
+ "slug": "hyrox-times-and-results",
+ "published": "2026-11-21",
+ "modified": "2026-11-21",
+ "about": "HYROX race times and results",
+ "sources": [
+  {
+   "cite": "Rappelt L, Wiedenmann T, Held S, et al. Longitudinal performance development in PRO and ELITE HYROX competitions across the first seven competitive seasons. Front Physiol. 2026;17:1847569.",
+   "url": "https://doi.org/10.3389/fphys.2026.1847569"
+  },
+  {
+   "cite": "Fernández-Navarrete I, Ruiz-Alias SA, García-Pinillos F. Where am I struggling? Detailed benchmarks for every workout and category in Hyrox© competition. J Sports Med Phys Fitness. 2026;66(10):1087–1094.",
+   "url": "https://doi.org/10.23736/S0022-4707.26.17926-2"
+  },
+  {
+   "cite": "Gutiérrez-Hellín J, Alonso-Domínguez S, Gil-Cabrera J, et al. Relative running intensity and pacing during an official HYROX PRO MEN competition: the HYScience study. Int J Sports Physiol Perform. 2026 (published online ahead of print).",
+   "url": "https://doi.org/10.1123/ijspp.2026-0098"
+  },
+  {
+   "cite": "Fernández-Navarrete I, Ruiz-Alias SA, Gómez-García M, et al. Hyrox©: a descriptive analysis of participation trends among over 275,000 athletes in the new fitness modality. Res Q Exerc Sport. 2026;97(2):266–272.",
+   "url": "https://doi.org/10.1080/02701367.2025.2584226"
+  },
+  {
+   "cite": "Brandt T, Ebel C, Lebahn C, et al. Acute physiological responses and performance determinants in Hyrox© – a new running-focused high intensity functional fitness trend. Front Physiol. 2025;16:1519240.",
+   "url": "https://doi.org/10.3389/fphys.2025.1519240"
+  },
+  {
+   "cite": "HYROX. Results & Rankings (official results site, linked from hyrox.com). Accessed 21 Nov 2026.",
+   "url": "https://hyroxresults.com/"
+  },
+  {
+   "cite": "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+   "url": "https://doi.org/10.1249/MSS.0000000000000664"
+  }
+ ],
+ "seeAlso": [
+  "what-is-hyrox",
+  "hyrox-training-plan-for-beginners",
+  "kettlebell-training-for-hyrox"
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "HYROX times and results: the evidence | Online Fitness Worldwide",
+   "metaDescription": "What published analyses of official HYROX results report: finish times, running share, pacing across the 8 runs and changes over seven seasons.",
+   "h1": "HYROX times and results: what published result data show",
+   "dek": "What peer-reviewed analyses of official HYROX results, and a simulated-race study, report on finish times, splits and pacing.",
+   "intro": [
+    "An analysis of 39,696 individual PRO and ELITE results from HYROX's first seven seasons (2018/19 to 2024/25) found that running accounted for about 50% of total race time. ELITE median times improved from 1:06:24 to 0:57:17 for men and from 1:11:09 to 1:03:22 for women.{1}",
+    "A separate study extracted 186,411 results from the official HYROX ranking database up to the 2023/24 season and published mean and 10th-to-90th percentile tables for each category and each segment.{2} In a simulated Open race, 11 recreational athletes had a median time of 86.5 minutes, 51.2 on the runs and 32.8 on the stations.{5}",
+    "HYROX publishes race results on its official results site.{6}"
+   ],
+   "listHeading": "What the result analyses report",
+   "items": [
+    {
+     "name": "Running share of race time",
+     "why": "About 50% of total race time in PRO and ELITE results across seven seasons.{1}"
+    },
+    {
+     "name": "Changes across seasons",
+     "why": "Between seasons 4 and 7, median PRO times improved by about 8 to 10 minutes for men and women.{1}"
+    },
+    {
+     "name": "Strength-based stations",
+     "why": "Showed greater rank reshuffling and larger increases in total time among slower performers.{1}"
+    },
+    {
+     "name": "Pacing across the 8 runs",
+     "why": "In 24 PRO men at HYROX Madrid 2025, running speed fell from 16.13 km/h in run 1 to 13.58 km/h in run 8, lowest in the Roxzone (10.52 km/h).{3}"
+    }
+   ],
+   "enoughHeading": "Data sets and methods",
+   "enough": [
+    "The seven-season analysis used publicly available results from 11,842 women and 27,854 men. In the top 100 results per season, total time improved by about 13 minutes (about 19%) for men and 17 minutes (about 21%) for women between seasons 1 and 7.{1}",
+    "The Madrid study measured the 24 athletes in a laboratory within 10 days of the race; their race time averaged 69:58, and mean running intensity was 84% of the second ventilatory threshold.{3} A participation analysis counted 278,063 participants across 145 races and 5 seasons, with 22 host countries in total.{4}"
+   ],
+   "safety": [
+    "ACSM's 2015 screening model bases pre-exercise medical clearance on current activity, signs or symptoms and/or known cardiovascular, metabolic or renal disease, and desired intensity.{7}"
+   ],
+   "faq": [
+    {
+     "q": "What is a typical HYROX finish time?",
+     "a": "A study of 186,411 official results published percentile tables by category and segment.{2} In a simulated Open race, 11 recreational athletes had a median of 86.5 minutes.{5}"
+    },
+    {
+     "q": "How fast are ELITE HYROX times?",
+     "a": "Across seven seasons, ELITE median times improved from 1:06:24 to 0:57:17 for men and from 1:11:09 to 1:03:22 for women.{1}"
+    },
+    {
+     "q": "How much of a HYROX race is running?",
+     "a": "About 50% of total race time in PRO and ELITE results;{1} in the simulated Open race, 51.2 of 86.5 minutes.{5}"
+    },
+    {
+     "q": "How does pace change across the runs?",
+     "a": "In 24 PRO men at HYROX Madrid 2025, running speed declined from run 1 to run 8, with the lowest speed in the Roxzone.{3}"
+    }
+   ],
+   "updated": "Updated 21 November 2026",
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why",
+    "how": "How",
+    "dose": "Dose",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "whatsappText": "Hi Susmit, I read the article on HYROX times and results and want to book a consultation",
+    "skip": "Skip to content",
+    "crumb": "HYROX times and results"
+   },
+   "authorLine": "By Susmit Jalan, strength and conditioning coach at Online Fitness Worldwide."
+  },
+  "ar": {
+   "metaTitle": "أزمنة ونتائج HYROX: الأدلة | Online Fitness Worldwide",
+   "metaDescription": "ما تذكره التحليلات المنشورة لنتائج HYROX الرسمية: أزمنة الإنهاء، وحصة الجري، والإيقاع عبر الجريات الثماني، والتغيرات على مدى سبعة مواسم.",
+   "h1": "أزمنة ونتائج HYROX: ما تُظهره بيانات النتائج المنشورة",
+   "dek": "ما تذكره التحليلات المحكّمة لنتائج HYROX الرسمية، ودراسة لسباق محاكى، عن أزمنة الإنهاء والأزمنة الجزئية والإيقاع.",
+   "intro": [
+    "وجد تحليل لـ39,696 نتيجة فردية في فئتي PRO وELITE من أول سبعة مواسم لـHYROX (من 2018/19 إلى 2024/25) أن الجري شكّل نحو 50% من زمن السباق الكلي. وتحسّن الزمن الوسيط في فئة ELITE من 1:06:24 إلى 0:57:17 للرجال ومن 1:11:09 إلى 1:03:22 للنساء.{1}",
+    "استخرجت دراسة منفصلة 186,411 نتيجة من قاعدة بيانات التصنيف الرسمية لـHYROX حتى موسم 2023/24، ونشرت جداول بالمتوسطات والمئينات من العاشر إلى التسعين لكل فئة وكل جزء.{2} وفي سباق Open محاكى، بلغ الزمن الوسيط لـ11 رياضيًا هاويًا 86.5 دقيقة، منها 51.2 في الجري و32.8 في المحطات.{5}",
+    "تنشر HYROX نتائج السباقات على موقع النتائج الرسمي.{6}"
+   ],
+   "listHeading": "ما تذكره تحليلات النتائج",
+   "items": [
+    {
+     "name": "حصة الجري من زمن السباق",
+     "why": "نحو 50% من زمن السباق الكلي في نتائج PRO وELITE عبر سبعة مواسم.{1}"
+    },
+    {
+     "name": "التغيرات عبر المواسم",
+     "why": "بين الموسمين 4 و7، تحسّن الزمن الوسيط في فئة PRO بنحو 8 إلى 10 دقائق للرجال والنساء.{1}"
+    },
+    {
+     "name": "المحطات المعتمدة على القوة",
+     "why": "أظهرت تبدلًا أكبر في الترتيب وزيادات أكبر في الزمن الكلي لدى الأبطأ أداءً.{1}"
+    },
+    {
+     "name": "الإيقاع عبر الجريات الثماني",
+     "why": "لدى 24 رجلًا في فئة PRO في HYROX مدريد 2025، انخفضت سرعة الجري من 16.13 كم/س في الجرية الأولى إلى 13.58 كم/س في الثامنة، وكانت الأدنى في منطقة Roxzone (10.52 كم/س).{3}"
+    }
+   ],
+   "enoughHeading": "مجموعات البيانات والطرق",
+   "enough": [
+    "استخدم تحليل المواسم السبعة نتائج متاحة للعموم لـ11,842 امرأة و27,854 رجلًا. وفي أفضل 100 نتيجة في كل موسم، تحسّن الزمن الكلي بنحو 13 دقيقة (نحو 19%) للرجال و17 دقيقة (نحو 21%) للنساء بين الموسمين 1 و7.{1}",
+    "قاست دراسة مدريد الرياضيين الـ24 في المختبر خلال 10 أيام من السباق؛ وبلغ متوسط زمن سباقهم 69:58، وكان متوسط شدة الجري 84% من العتبة التهوية الثانية.{3} وأحصى تحليل للمشاركة 278,063 مشاركًا في 145 سباقًا عبر 5 مواسم، في 22 دولة مضيفة إجمالًا.{4}"
+   ],
+   "safety": [
+    "يعتمد نموذج الفحص الذي وضعته ACSM عام 2015 في تحديد الحاجة إلى إذن طبي قبل التمرين على مستوى النشاط الحالي، ووجود علامات أو أعراض و/أو مرض قلبي وعائي أو أيضي أو كلوي معروف، والشدة المرغوبة.{7}"
+   ],
+   "faq": [
+    {
+     "q": "ما زمن الإنهاء المعتاد في HYROX؟",
+     "a": "نشرت دراسة لـ186,411 نتيجة رسمية جداول مئينات حسب الفئة والجزء.{2} وفي سباق Open محاكى، بلغ الزمن الوسيط لـ11 رياضيًا هاويًا 86.5 دقيقة.{5}"
+    },
+    {
+     "q": "ما مدى سرعة أزمنة فئة ELITE في HYROX؟",
+     "a": "عبر سبعة مواسم، تحسّن الزمن الوسيط في فئة ELITE من 1:06:24 إلى 0:57:17 للرجال ومن 1:11:09 إلى 1:03:22 للنساء.{1}"
+    },
+    {
+     "q": "كم يشكّل الجري من سباق HYROX؟",
+     "a": "نحو 50% من زمن السباق الكلي في نتائج PRO وELITE؛{1} وفي سباق Open المحاكى، 51.2 من 86.5 دقيقة.{5}"
+    },
+    {
+     "q": "كيف يتغير الإيقاع عبر الجريات؟",
+     "a": "لدى 24 رجلًا في فئة PRO في HYROX مدريد 2025، انخفضت سرعة الجري من الجرية الأولى إلى الثامنة، وكانت الأدنى في منطقة Roxzone.{3}"
+    }
+   ],
+   "updated": "حدّث في 21 نوفمبر 2026",
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا",
+    "how": "كيف",
+    "dose": "الجرعة",
+    "sources": "المصادر",
+    "readIn": "اقرأ بلغة أخرى",
+    "programs": "اطّلع على البرامج",
+    "whatsapp": "اسأل عبر واتساب",
+    "whatsappText": "مرحبًا سوسميت، قرأت المقال عن أزمنة ونتائج HYROX وأريد حجز استشارة",
+    "skip": "انتقل إلى المحتوى",
+    "crumb": "أزمنة ونتائج HYROX"
+   },
+   "authorLine": "بقلم سوسميت جالان، مدرب القوة والتكييف البدني في Online Fitness Worldwide."
+  },
+  "hi": {
+   "metaTitle": "HYROX समय और नतीजे: प्रमाण | Online Fitness Worldwide",
+   "metaDescription": "आधिकारिक HYROX नतीजों के प्रकाशित विश्लेषण क्या बताते हैं: फ़िनिश समय, दौड़ का हिस्सा, 8 रनों में पेसिंग और सात सीज़न में बदलाव।",
+   "h1": "HYROX समय और नतीजे: प्रकाशित नतीजों का डेटा क्या दिखाता है",
+   "dek": "आधिकारिक HYROX नतीजों के पीयर-रिव्यूड विश्लेषण, और एक सिम्युलेटेड रेस अध्ययन, फ़िनिश समय, स्प्लिट और पेसिंग पर क्या बताते हैं।",
+   "intro": [
+    "HYROX के पहले सात सीज़न (2018/19 से 2024/25) के 39,696 व्यक्तिगत PRO और ELITE नतीजों के विश्लेषण में दौड़ कुल रेस समय का लगभग 50% थी। ELITE का मीडियन समय पुरुषों में 1:06:24 से 0:57:17 और महिलाओं में 1:11:09 से 1:03:22 तक सुधरा।{1}",
+    "एक अलग अध्ययन ने 2023/24 सीज़न तक के आधिकारिक HYROX रैंकिंग डेटाबेस से 186,411 नतीजे निकाले और हर कैटेगरी व हर हिस्से के लिए औसत और 10वें से 90वें पर्सेंटाइल की तालिकाएँ प्रकाशित कीं।{2} एक सिम्युलेटेड Open रेस में 11 शौकिया एथलीटों का मीडियन समय 86.5 मिनट था: 51.2 दौड़ में और 32.8 स्टेशनों पर।{5}",
+    "HYROX अपनी आधिकारिक नतीजों की साइट पर रेस के नतीजे प्रकाशित करता है।{6}"
+   ],
+   "listHeading": "नतीजों के विश्लेषण क्या बताते हैं",
+   "items": [
+    {
+     "name": "रेस समय में दौड़ का हिस्सा",
+     "why": "सात सीज़न के PRO और ELITE नतीजों में कुल रेस समय का लगभग 50%।{1}"
+    },
+    {
+     "name": "सीज़न दर सीज़न बदलाव",
+     "why": "सीज़न 4 और 7 के बीच PRO का मीडियन समय पुरुषों और महिलाओं में लगभग 8 से 10 मिनट सुधरा।{1}"
+    },
+    {
+     "name": "ताकत-आधारित स्टेशन",
+     "why": "इनमें रैंक में ज़्यादा उलटफेर और धीमे प्रतिभागियों में कुल समय में ज़्यादा बढ़ोतरी दिखी।{1}"
+    },
+    {
+     "name": "8 रनों में पेसिंग",
+     "why": "HYROX मैड्रिड 2025 में 24 PRO पुरुषों में दौड़ की गति रन 1 में 16.13 km/h से रन 8 में 13.58 km/h तक गिरी, और Roxzone में सबसे कम (10.52 km/h) थी।{3}"
+    }
+   ],
+   "enoughHeading": "डेटा सेट और तरीके",
+   "enough": [
+    "सात सीज़न वाले विश्लेषण ने 11,842 महिलाओं और 27,854 पुरुषों के सार्वजनिक नतीजे इस्तेमाल किए। हर सीज़न के शीर्ष 100 नतीजों में सीज़न 1 और 7 के बीच कुल समय पुरुषों में लगभग 13 मिनट (लगभग 19%) और महिलाओं में 17 मिनट (लगभग 21%) सुधरा।{1}",
+    "मैड्रिड अध्ययन ने 24 एथलीटों को रेस से 10 दिन के भीतर प्रयोगशाला में मापा; उनका औसत रेस समय 69:58 था, और दौड़ की औसत तीव्रता दूसरे वेंटिलेटरी थ्रेशोल्ड का 84% थी।{3} एक भागीदारी विश्लेषण ने 5 सीज़न की 145 रेसों में 278,063 प्रतिभागी गिने, कुल 22 मेज़बान देशों में।{4}"
+   ],
+   "safety": [
+    "ACSM का 2015 का स्क्रीनिंग मॉडल व्यायाम से पहले मेडिकल क्लीयरेंस को मौजूदा गतिविधि, संकेतों या लक्षणों और/या ज्ञात हृदय-संबंधी, मेटाबॉलिक या किडनी रोग, और चाही गई तीव्रता पर आधारित करता है।{7}"
+   ],
+   "faq": [
+    {
+     "q": "HYROX का सामान्य फ़िनिश समय क्या है?",
+     "a": "186,411 आधिकारिक नतीजों के एक अध्ययन ने कैटेगरी और हिस्से के अनुसार पर्सेंटाइल तालिकाएँ प्रकाशित कीं।{2} एक सिम्युलेटेड Open रेस में 11 शौकिया एथलीटों का मीडियन 86.5 मिनट था।{5}"
+    },
+    {
+     "q": "HYROX में ELITE समय कितने तेज़ हैं?",
+     "a": "सात सीज़न में ELITE का मीडियन समय पुरुषों में 1:06:24 से 0:57:17 और महिलाओं में 1:11:09 से 1:03:22 तक सुधरा।{1}"
+    },
+    {
+     "q": "HYROX रेस का कितना हिस्सा दौड़ है?",
+     "a": "PRO और ELITE नतीजों में कुल रेस समय का लगभग 50%;{1} सिम्युलेटेड Open रेस में 86.5 में से 51.2 मिनट।{5}"
+    },
+    {
+     "q": "रनों के दौरान पेस कैसे बदलती है?",
+     "a": "HYROX मैड्रिड 2025 में 24 PRO पुरुषों में दौड़ की गति रन 1 से रन 8 तक घटी, और Roxzone में सबसे कम थी।{3}"
+    }
+   ],
+   "updated": "अपडेट 21 नवंबर 2026",
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों",
+    "how": "कैसे",
+    "dose": "डोज़",
+    "sources": "स्रोत",
+    "readIn": "इसे इस भाषा में पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "WhatsApp पर पूछें",
+    "whatsappText": "नमस्ते सुस्मित, मैंने HYROX समय और नतीजों वाला लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    "skip": "सामग्री पर जाएँ",
+    "crumb": "HYROX समय और नतीजे"
+   },
+   "authorLine": "लेखक: सुस्मित जालान, स्ट्रेंथ एंड कंडीशनिंग कोच, Online Fitness Worldwide।"
+  },
+  "es": {
+   "metaTitle": "Tiempos y resultados de HYROX: la evidencia | Online Fitness Worldwide",
+   "metaDescription": "Qué informan los análisis publicados de resultados oficiales de HYROX: tiempos, peso de la carrera a pie, ritmo en las 8 carreras y cambios en siete temporadas.",
+   "h1": "Tiempos y resultados de HYROX: qué muestran los datos de resultados publicados",
+   "dek": "Qué informan los análisis revisados por pares de resultados oficiales de HYROX, y un estudio de carrera simulada, sobre tiempos finales, parciales y ritmo.",
+   "intro": [
+    "Un análisis de 39.696 resultados individuales PRO y ELITE de las siete primeras temporadas de HYROX (2018/19 a 2024/25) encontró que la carrera a pie supuso alrededor del 50% del tiempo total. Las medianas ELITE mejoraron de 1:06:24 a 0:57:17 en hombres y de 1:11:09 a 1:03:22 en mujeres.{1}",
+    "Otro estudio extrajo 186.411 resultados de la base de datos oficial de clasificaciones de HYROX hasta la temporada 2023/24 y publicó tablas de medias y percentiles del 10 al 90 por categoría y segmento.{2} En una carrera Open simulada, 11 deportistas recreativos tuvieron una mediana de 86,5 minutos: 51,2 corriendo y 32,8 en las estaciones.{5}",
+    "HYROX publica los resultados de sus carreras en su web oficial de resultados.{6}"
+   ],
+   "listHeading": "Qué informan los análisis de resultados",
+   "items": [
+    {
+     "name": "Peso de la carrera a pie en el tiempo total",
+     "why": "Alrededor del 50% del tiempo total en resultados PRO y ELITE a lo largo de siete temporadas.{1}"
+    },
+    {
+     "name": "Cambios entre temporadas",
+     "why": "Entre las temporadas 4 y 7, las medianas PRO mejoraron unos 8 a 10 minutos en hombres y mujeres.{1}"
+    },
+    {
+     "name": "Estaciones de fuerza",
+     "why": "Mostraron más reordenación de posiciones y mayores aumentos del tiempo total en los participantes más lentos.{1}"
+    },
+    {
+     "name": "Ritmo en las 8 carreras",
+     "why": "En 24 hombres PRO en HYROX Madrid 2025, la velocidad bajó de 16,13 km/h en la carrera 1 a 13,58 km/h en la 8, y fue mínima en la Roxzone (10,52 km/h).{3}"
+    }
+   ],
+   "enoughHeading": "Conjuntos de datos y métodos",
+   "enough": [
+    "El análisis de siete temporadas usó resultados públicos de 11.842 mujeres y 27.854 hombres. En los 100 mejores resultados de cada temporada, el tiempo total mejoró unos 13 minutos (alrededor del 19%) en hombres y 17 minutos (alrededor del 21%) en mujeres entre las temporadas 1 y 7.{1}",
+    "El estudio de Madrid evaluó a los 24 deportistas en laboratorio en los 10 días previos a la carrera; su tiempo medio fue de 69:58 y la intensidad media de carrera fue del 84% del segundo umbral ventilatorio.{3} Un análisis de participación contó 278.063 participantes en 145 carreras y 5 temporadas, con 22 países anfitriones en total.{4}"
+   ],
+   "safety": [
+    "El modelo de cribado del ACSM de 2015 basa la autorización médica previa al ejercicio en la actividad actual, los signos o síntomas y/o la enfermedad cardiovascular, metabólica o renal conocida, y la intensidad deseada.{7}"
+   ],
+   "faq": [
+    {
+     "q": "¿Cuál es un tiempo típico en HYROX?",
+     "a": "Un estudio de 186.411 resultados oficiales publicó tablas de percentiles por categoría y segmento.{2} En una carrera Open simulada, 11 deportistas recreativos tuvieron una mediana de 86,5 minutos.{5}"
+    },
+    {
+     "q": "¿Qué tan rápidos son los tiempos ELITE de HYROX?",
+     "a": "A lo largo de siete temporadas, las medianas ELITE mejoraron de 1:06:24 a 0:57:17 en hombres y de 1:11:09 a 1:03:22 en mujeres.{1}"
+    },
+    {
+     "q": "¿Cuánto de una carrera HYROX es correr?",
+     "a": "Alrededor del 50% del tiempo total en resultados PRO y ELITE;{1} en la carrera Open simulada, 51,2 de 86,5 minutos.{5}"
+    },
+    {
+     "q": "¿Cómo cambia el ritmo a lo largo de las carreras?",
+     "a": "En 24 hombres PRO en HYROX Madrid 2025, la velocidad bajó de la carrera 1 a la 8, con la menor velocidad en la Roxzone.{3}"
+    }
+   ],
+   "updated": "Actualizado el 21 de noviembre de 2026",
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué",
+    "how": "Cómo",
+    "dose": "Dosis",
+    "sources": "Fuentes",
+    "readIn": "Leer en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "whatsappText": "Hola Susmit, leí el artículo sobre tiempos y resultados de HYROX y quiero reservar una consulta",
+    "skip": "Saltar al contenido",
+    "crumb": "Tiempos y resultados de HYROX"
+   },
+   "authorLine": "Por Susmit Jalan, entrenador de fuerza y acondicionamiento en Online Fitness Worldwide."
+  },
+  "zh": {
+   "metaTitle": "HYROX成绩与结果：证据 | Online Fitness Worldwide",
+   "metaDescription": "已发表的HYROX官方成绩分析报告了什么：完赛时间、跑步占比、8段跑步的配速以及七个赛季的变化。",
+   "h1": "HYROX成绩与结果：已发表的成绩数据显示了什么",
+   "dek": "同行评审的HYROX官方成绩分析，以及一项模拟比赛研究，对完赛时间、分段时间和配速的报告。",
+   "intro": [
+    "一项对HYROX前七个赛季（2018/19至2024/25）39,696条PRO和ELITE个人成绩的分析发现，跑步约占总比赛时间的50%。ELITE组中位时间男子从1:06:24提高到0:57:17，女子从1:11:09提高到1:03:22。{1}",
+    "另一项研究从HYROX官方排名数据库中提取了截至2023/24赛季的186,411条成绩，并按组别和分段发布了平均值及第10至第90百分位表格。{2}在一次模拟Open比赛中，11名业余运动员的中位时间为86.5分钟，其中跑步51.2分钟，站点32.8分钟。{5}",
+    "HYROX在其官方成绩网站上公布比赛成绩。{6}"
+   ],
+   "listHeading": "成绩分析报告了什么",
+   "items": [
+    {
+     "name": "跑步在比赛时间中的占比",
+     "why": "七个赛季的PRO和ELITE成绩中约占总比赛时间的50%。{1}"
+    },
+    {
+     "name": "各赛季的变化",
+     "why": "第4至第7赛季之间，PRO组男女中位时间提高约8至10分钟。{1}"
+    },
+    {
+     "name": "力量型站点",
+     "why": "名次变动更大，较慢选手的总时间增加更多。{1}"
+    },
+    {
+     "name": "8段跑步的配速",
+     "why": "在HYROX马德里2025的24名PRO男子中，跑速从第1段的16.13公里/小时降至第8段的13.58公里/小时，在Roxzone最低（10.52公里/小时）。{3}"
+    }
+   ],
+   "enoughHeading": "数据集与方法",
+   "enough": [
+    "七个赛季分析使用了11,842名女性和27,854名男性的公开成绩。在每个赛季前100名成绩中，第1至第7赛季之间男子总时间提高约13分钟（约19%），女子提高17分钟（约21%）。{1}",
+    "马德里研究在比赛前10天内于实验室测试了这24名运动员；他们的平均比赛时间为69:58，平均跑步强度为第二通气阈的84%。{3}一项参与情况分析统计了5个赛季145场比赛的278,063名参与者，共有22个主办国家。{4}"
+   ],
+   "safety": [
+    "ACSM 2015年的筛查模型根据当前活动水平、体征或症状和/或已知的心血管、代谢或肾脏疾病以及期望的运动强度来决定运动前是否需要医学许可。{7}"
+   ],
+   "faq": [
+    {
+     "q": "HYROX的典型完赛时间是多少？",
+     "a": "一项基于186,411条官方成绩的研究按组别和分段发布了百分位表格。{2}在一次模拟Open比赛中，11名业余运动员的中位时间为86.5分钟。{5}"
+    },
+    {
+     "q": "HYROX ELITE组成绩有多快？",
+     "a": "七个赛季中，ELITE组中位时间男子从1:06:24提高到0:57:17，女子从1:11:09提高到1:03:22。{1}"
+    },
+    {
+     "q": "HYROX比赛中跑步占多少？",
+     "a": "在PRO和ELITE成绩中约占总比赛时间的50%；{1}在模拟Open比赛中为86.5分钟中的51.2分钟。{5}"
+    },
+    {
+     "q": "各段跑步的配速如何变化？",
+     "a": "在HYROX马德里2025的24名PRO男子中，跑速从第1段到第8段逐段下降，在Roxzone最低。{3}"
+    }
+   ],
+   "updated": "更新于2026年11月21日",
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么",
+    "how": "怎么做",
+    "dose": "训练量",
+    "sources": "参考来源",
+    "readIn": "其他语言版本",
+    "programs": "查看课程",
+    "whatsapp": "通过WhatsApp咨询",
+    "whatsappText": "你好 Susmit，我读了关于HYROX成绩与结果的文章，想预约咨询",
+    "skip": "跳到正文",
+    "crumb": "HYROX成绩与结果"
+   },
+   "authorLine": "作者：Susmit Jalan，Online Fitness Worldwide 力量与体能教练。"
+  },
+  "ja": {
+   "metaTitle": "HYROXのタイムと結果：エビデンス | Online Fitness Worldwide",
+   "metaDescription": "HYROX公式結果を分析した発表論文が報告していること：フィニッシュタイム、ランの割合、8本のランのペース、7シーズンの変化。",
+   "h1": "HYROXのタイムと結果：発表された結果データが示すこと",
+   "dek": "HYROX公式結果を分析した査読論文と模擬レースの研究が、フィニッシュタイム、スプリット、ペースについて報告していること。",
+   "intro": [
+    "HYROXの最初の7シーズン（2018/19〜2024/25）のPROとELITEの個人結果39,696件を分析した研究では、ランが総レース時間の約50%を占めていました。ELITEの中央値は男子で1:06:24から0:57:17、女子で1:11:09から1:03:22に短縮しました。{1}",
+    "別の研究は2023/24シーズンまでのHYROX公式ランキングデータベースから186,411件の結果を抽出し、カテゴリーとセグメントごとの平均値と10〜90パーセンタイルの表を公表しました。{2}模擬Openレースでは、愛好家アスリート11人の中央値は86.5分で、ランが51.2分、ステーションが32.8分でした。{5}",
+    "HYROXは公式結果サイトでレース結果を公開しています。{6}"
+   ],
+   "listHeading": "結果の分析が報告していること",
+   "items": [
+    {
+     "name": "レース時間に占めるランの割合",
+     "why": "7シーズンのPROとELITEの結果で総レース時間の約50%。{1}"
+    },
+    {
+     "name": "シーズンごとの変化",
+     "why": "第4〜第7シーズンの間に、PROの中央値は男女とも約8〜10分短縮しました。{1}"
+    },
+    {
+     "name": "筋力系のステーション",
+     "why": "順位の入れ替わりが大きく、遅い選手ほど総時間の増加が大きくなりました。{1}"
+    },
+    {
+     "name": "8本のランのペース",
+     "why": "HYROXマドリード2025のPRO男子24人で、ランの速度は1本目の16.13 km/hから8本目の13.58 km/hに低下し、Roxzoneで最も遅くなりました（10.52 km/h）。{3}"
+    }
+   ],
+   "enoughHeading": "データセットと方法",
+   "enough": [
+    "7シーズンの分析は、女性11,842人と男性27,854人の公開結果を使用しました。各シーズン上位100件の結果では、第1〜第7シーズンの間に総時間が男子で約13分（約19%）、女子で約17分（約21%）短縮しました。{1}",
+    "マドリードの研究はレース前10日以内に24人のアスリートを実験室で測定しました。平均レースタイムは69:58で、ランの平均強度は第2換気閾値の84%でした。{3}参加状況の分析では、5シーズン145レースで278,063人の参加者、開催国は計22か国でした。{4}"
+   ],
+   "safety": [
+    "ACSMの2015年のスクリーニングモデルは、運動前の医学的許可の要否を、現在の活動量、徴候や症状、および／または既知の心血管・代謝・腎疾患、そして希望する運動強度に基づいて判断します。{7}"
+   ],
+   "faq": [
+    {
+     "q": "HYROXの典型的なフィニッシュタイムは？",
+     "a": "186,411件の公式結果を用いた研究が、カテゴリーとセグメントごとのパーセンタイル表を公表しています。{2}模擬Openレースでは、愛好家アスリート11人の中央値は86.5分でした。{5}"
+    },
+    {
+     "q": "HYROXのELITEのタイムはどのくらい速いですか？",
+     "a": "7シーズンで、ELITEの中央値は男子で1:06:24から0:57:17、女子で1:11:09から1:03:22に短縮しました。{1}"
+    },
+    {
+     "q": "HYROXのレースのうちランはどれくらいですか？",
+     "a": "PROとELITEの結果で総レース時間の約50%、{1}模擬Openレースでは86.5分のうち51.2分でした。{5}"
+    },
+    {
+     "q": "ランのペースはどう変わりますか？",
+     "a": "HYROXマドリード2025のPRO男子24人では、ランの速度は1本目から8本目にかけて低下し、Roxzoneで最も遅くなりました。{3}"
+    }
+   ],
+   "updated": "2026年11月21日更新",
+   "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ",
+    "how": "やり方",
+    "dose": "回数・量",
+    "sources": "出典",
+    "readIn": "他の言語で読む",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問する",
+    "whatsappText": "こんにちは Susmit さん、HYROXのタイムと結果の記事を読み、相談を予約したいです",
+    "skip": "本文へスキップ",
+    "crumb": "HYROXのタイムと結果"
+   },
+   "authorLine": "執筆：スシュミット・ジャラン（Online Fitness Worldwide ストレングス＆コンディショニングコーチ）"
+  },
+  "gu": {
+   "metaTitle": "HYROX સમય અને પરિણામો: પુરાવા | Online Fitness Worldwide",
+   "metaDescription": "સત્તાવાર HYROX પરિણામોના પ્રકાશિત વિશ્લેષણો શું કહે છે: ફિનિશ સમય, દોડનો હિસ્સો, 8 રનમાં પેસિંગ અને સાત સીઝનમાં ફેરફાર.",
+   "h1": "HYROX સમય અને પરિણામો: પ્રકાશિત પરિણામોનો ડેટા શું બતાવે છે",
+   "dek": "સત્તાવાર HYROX પરિણામોના પીઅર-રિવ્યુડ વિશ્લેષણો, અને એક સિમ્યુલેટેડ રેસ અભ્યાસ, ફિનિશ સમય, સ્પ્લિટ અને પેસિંગ વિશે શું જણાવે છે.",
+   "intro": [
+    "HYROX ની પ્રથમ સાત સીઝન (2018/19 થી 2024/25) ના 39,696 વ્યક્તિગત PRO અને ELITE પરિણામોના વિશ્લેષણમાં દોડ કુલ રેસ સમયનો લગભગ 50% હતી. ELITE નો મીડિયન સમય પુરુષોમાં 1:06:24 થી 0:57:17 અને મહિલાઓમાં 1:11:09 થી 1:03:22 સુધી સુધર્યો.{1}",
+    "એક અલગ અભ્યાસે 2023/24 સીઝન સુધીના સત્તાવાર HYROX રેન્કિંગ ડેટાબેઝમાંથી 186,411 પરિણામો કાઢ્યા અને દરેક કેટેગરી અને દરેક હિસ્સા માટે સરેરાશ અને 10મા થી 90મા પર્સેન્ટાઇલની કોષ્ટકો પ્રકાશિત કરી.{2} એક સિમ્યુલેટેડ Open રેસમાં 11 શોખીન એથ્લીટોનો મીડિયન સમય 86.5 મિનિટ હતો: 51.2 દોડમાં અને 32.8 સ્ટેશનો પર.{5}",
+    "HYROX તેની સત્તાવાર પરિણામોની સાઇટ પર રેસનાં પરિણામો પ્રકાશિત કરે છે.{6}"
+   ],
+   "listHeading": "પરિણામોનાં વિશ્લેષણો શું જણાવે છે",
+   "items": [
+    {
+     "name": "રેસ સમયમાં દોડનો હિસ્સો",
+     "why": "સાત સીઝનનાં PRO અને ELITE પરિણામોમાં કુલ રેસ સમયનો લગભગ 50%.{1}"
+    },
+    {
+     "name": "સીઝન દર સીઝન ફેરફાર",
+     "why": "સીઝન 4 અને 7 વચ્ચે PRO નો મીડિયન સમય પુરુષો અને મહિલાઓમાં લગભગ 8 થી 10 મિનિટ સુધર્યો.{1}"
+    },
+    {
+     "name": "તાકાત-આધારિત સ્ટેશનો",
+     "why": "આમાં રેન્કમાં વધુ ઉથલપાથલ અને ધીમા સહભાગીઓમાં કુલ સમયમાં વધુ વધારો દેખાયો.{1}"
+    },
+    {
+     "name": "8 રનમાં પેસિંગ",
+     "why": "HYROX મેડ્રિડ 2025 માં 24 PRO પુરુષોમાં દોડની ઝડપ રન 1 માં 16.13 km/h થી રન 8 માં 13.58 km/h સુધી ઘટી, અને Roxzone માં સૌથી ઓછી (10.52 km/h) હતી.{3}"
+    }
+   ],
+   "enoughHeading": "ડેટા સેટ અને પદ્ધતિઓ",
+   "enough": [
+    "સાત સીઝનવાળા વિશ્લેષણે 11,842 મહિલાઓ અને 27,854 પુરુષોનાં જાહેર પરિણામો વાપર્યાં. દરેક સીઝનનાં ટોચનાં 100 પરિણામોમાં સીઝન 1 અને 7 વચ્ચે કુલ સમય પુરુષોમાં લગભગ 13 મિનિટ (લગભગ 19%) અને મહિલાઓમાં 17 મિનિટ (લગભગ 21%) સુધર્યો.{1}",
+    "મેડ્રિડ અભ્યાસે 24 એથ્લીટોને રેસના 10 દિવસની અંદર પ્રયોગશાળામાં માપ્યા; તેમનો સરેરાશ રેસ સમય 69:58 હતો, અને દોડની સરેરાશ તીવ્રતા બીજા વેન્ટિલેટરી થ્રેશોલ્ડના 84% હતી.{3} એક ભાગીદારી વિશ્લેષણે 5 સીઝનની 145 રેસમાં 278,063 સહભાગીઓ ગણ્યા, કુલ 22 યજમાન દેશોમાં.{4}"
+   ],
+   "safety": [
+    "ACSM નું 2015 નું સ્ક્રીનિંગ મોડેલ કસરત પહેલાંની મેડિકલ મંજૂરીને વર્તમાન પ્રવૃત્તિ, સંકેતો કે લક્ષણો અને/અથવા જાણીતા હૃદય-સંબંધી, મેટાબોલિક કે કિડની રોગ, અને ઇચ્છિત તીવ્રતા પર આધારિત રાખે છે.{7}"
+   ],
+   "faq": [
+    {
+     "q": "HYROX નો સામાન્ય ફિનિશ સમય શું છે?",
+     "a": "186,411 સત્તાવાર પરિણામોના એક અભ્યાસે કેટેગરી અને હિસ્સા મુજબ પર્સેન્ટાઇલ કોષ્ટકો પ્રકાશિત કરી.{2} એક સિમ્યુલેટેડ Open રેસમાં 11 શોખીન એથ્લીટોનો મીડિયન 86.5 મિનિટ હતો.{5}"
+    },
+    {
+     "q": "HYROX માં ELITE સમય કેટલા ઝડપી છે?",
+     "a": "સાત સીઝનમાં ELITE નો મીડિયન સમય પુરુષોમાં 1:06:24 થી 0:57:17 અને મહિલાઓમાં 1:11:09 થી 1:03:22 સુધી સુધર્યો.{1}"
+    },
+    {
+     "q": "HYROX રેસનો કેટલો હિસ્સો દોડ છે?",
+     "a": "PRO અને ELITE પરિણામોમાં કુલ રેસ સમયનો લગભગ 50%;{1} સિમ્યુલેટેડ Open રેસમાં 86.5 માંથી 51.2 મિનિટ.{5}"
+    },
+    {
+     "q": "રન દરમિયાન પેસ કેવી રીતે બદલાય છે?",
+     "a": "HYROX મેડ્રિડ 2025 માં 24 PRO પુરુષોમાં દોડની ઝડપ રન 1 થી રન 8 સુધી ઘટી, અને Roxzone માં સૌથી ઓછી હતી.{3}"
+    }
+   ],
+   "updated": "અપડેટ 21 નવેમ્બર 2026",
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "શા માટે",
+    "how": "કેવી રીતે",
+    "dose": "ડોઝ",
+    "sources": "સ્રોતો",
+    "readIn": "આ ભાષામાં વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "WhatsApp પર પૂછો",
+    "whatsappText": "નમસ્તે સુસ્મિત, મેં HYROX સમય અને પરિણામો પરનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    "skip": "સામગ્રી પર જાઓ",
+    "crumb": "HYROX સમય અને પરિણામો"
+   },
+   "authorLine": "લેખક: સુસ્મિત જાલાન, સ્ટ્રેન્થ એન્ડ કન્ડિશનિંગ કોચ, Online Fitness Worldwide."
+  }
+ },
+ "format": "evidence"
+}
