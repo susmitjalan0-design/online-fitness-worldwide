@@ -1,0 +1,674 @@
+{
+ "slug": "fitness-during-a-lockdown",
+ "published": "2026-11-21",
+ "modified": "2026-11-21",
+ "about": "Physical activity during COVID-19 lockdowns",
+ "sources": [
+  {
+   "cite": "Stockwell S, Trott M, Tully M, et al. Changes in physical activity and sedentary behaviours from before to during the COVID-19 pandemic lockdown: a systematic review. BMJ Open Sport Exerc Med. 2021;7(1):e000960.",
+   "url": "https://doi.org/10.1136/bmjsem-2020-000960"
+  },
+  {
+   "cite": "Tison GH, Avram R, Kuhar P, et al. Worldwide effect of COVID-19 on physical activity: a descriptive study. Ann Intern Med. 2020;173(9):767–770.",
+   "url": "https://doi.org/10.7326/M20-2665"
+  },
+  {
+   "cite": "Ammar A, Brach M, Trabelsi K, et al. Effects of COVID-19 home confinement on eating behaviour and physical activity: results of the ECLB-COVID19 international online survey. Nutrients. 2020;12(6):1583.",
+   "url": "https://doi.org/10.3390/nu12061583"
+  },
+  {
+   "cite": "Wolf S, Seiffer B, Zeibig JM, et al. Is physical activity associated with less depression and anxiety during the COVID-19 pandemic? A rapid systematic review. Sports Med. 2021;51(8):1771–1783.",
+   "url": "https://doi.org/10.1007/s40279-021-01468-z"
+  },
+  {
+   "cite": "Wilke J, Mohr L, Yuki G, et al. Train at home, but not alone: a randomised controlled multicentre trial assessing the effects of live-streamed tele-exercise during COVID-19-related lockdowns. Br J Sports Med. 2022;56(12):667–675.",
+   "url": "https://doi.org/10.1136/bjsports-2021-104994"
+  },
+  {
+   "cite": "Yuki G, Hespanhol L, Mohr L, et al. Predictors of dropping out from a home tele-exercise programme: a cohort study derived from a randomised controlled trial. Health Promot Perspect. 2024;14(3):238–247.",
+   "url": "https://doi.org/10.34172/hpp.42935"
+  },
+  {
+   "cite": "World Health Organization. Coronavirus disease (COVID-19): Staying active. Questions and answers; 27 March 2020 (marked by WHO as no longer updated, kept for reference).",
+   "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-staying-active"
+  },
+  {
+   "cite": "Bull FC, Al-Ansari SS, Biddle S, et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med. 2020;54(24):1451–1462.",
+   "url": "https://doi.org/10.1136/bjsports-2020-102955"
+  },
+  {
+   "cite": "Fyfe JJ, Hamilton DL, Daly RM. Minimal-dose resistance training for improving muscle mass, strength, and function: a narrative review of current evidence and practical considerations. Sports Med. 2022;52(3):463–479.",
+   "url": "https://doi.org/10.1007/s40279-021-01605-8"
+  },
+  {
+   "cite": "Centers for Disease Control and Prevention. Carbon monoxide (CO) poisoning basics. cdc.gov; updated and reviewed 26 October 2026.",
+   "url": "https://www.cdc.gov/carbon-monoxide/about/index.html"
+  },
+  {
+   "cite": "World Health Organization. Falls. Fact sheet; 21 October 2026.",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/falls"
+  },
+  {
+   "cite": "World Health Organization. Heat and health. Fact sheet; 31 July 2026.",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health"
+  },
+  {
+   "cite": "NHS. Winter vaccinations and winter health (section: Keep warm and get help with heating). nhs.uk; page last reviewed 16 November 2022.",
+   "url": "https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/"
+  },
+  {
+   "cite": "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+   "url": "https://doi.org/10.1249/MSS.0000000000000664"
+  }
+ ],
+ "seeAlso": [
+  "best-home-workouts-with-one-dumbbell",
+  "best-strength-exercises-for-mood-stress-and-sleep",
+  "best-bodyweight-exercises-for-travel"
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "Fitness during a lockdown: the evidence | Online Fitness Worldwide",
+   "metaDescription": "Lockdown fitness: what COVID-19 studies found on activity, sitting and mood, WHO's home-activity guidance, and a trial of live-streamed home exercise.",
+   "h1": "Fitness during a lockdown: what the research shows",
+   "dek": "What studies from the COVID-19 lockdowns report on activity, sitting time, mood and live-streamed home exercise, and what WHO states about staying active at home.",
+   "intro": [
+    "Studies from the COVID-19 lockdowns mostly report less physical activity and more sitting. In a randomised trial in nine countries, live-streamed home exercise increased self-reported moderate and vigorous activity, with effects that decreased over time. WHO's COVID-19 guidance on staying active at home lists short activity breaks, online exercise classes and bodyweight exercises.{1}{5}{7}",
+    "A systematic review of 66 studies (86,981 participants) found that most studies reported decreases in physical activity and increases in sedentary behaviour during COVID-19 lockdowns, across several populations including children and patients with a variety of medical conditions.{1}",
+    "Step-count data from 455,404 users of a smartphone app in 187 countries showed a 5.5% fall in mean daily steps within 10 days of WHO's pandemic declaration on 11 March 2020, and a 27.3% fall (1,432 steps) within 30 days. Italy, which declared a nationwide lockdown on 9 March 2020, showed a 48.7% maximal decrease; Sweden showed 6.9%. The authors describe the data as a non-representative convenience sample.{2} In an international online survey of 1,047 people in April 2020, home confinement had a negative effect on all physical-activity intensity levels, and daily sitting time rose from 5 to 8 hours.{3}",
+    "A rapid review of 21 observational studies (42,293 participants) found that people who were physically active regularly, with higher volume and frequency and stable routines, showed fewer symptoms of depression and anxiety during the pandemic. For example, more time in moderate-to-vigorous activity was associated with 12 to 32% lower chances of depressive symptoms and 15 to 34% lower chances of anxiety. These are associations, mostly from cross-sectional studies.{4}",
+    "A multicentre randomised trial in 763 healthy adults from nine countries compared 4 weeks of live-streamed multicomponent home exercise with an inactive control during government lockdowns. The live-streamed group did more moderate activity (week 1: 1.65 times more minutes a week) and vigorous activity (1.31 times), with effects decreasing over time. Exercise motivation, sleep quality and anxiety improved slightly; mental well-being improved during the live-streaming weeks but showed an inverted trend once pre-recorded workouts replaced the live sessions.{5} An analysis of 760 participants from the same trial reported that 53.8% dropped out over 8 weeks.{6}"
+   ],
+   "items": [
+    {
+     "name": "Live-streamed multicomponent home exercise",
+     "why": "The intervention in a randomised trial in nine countries during lockdowns.{5}"
+    },
+    {
+     "name": "Press-ups, sit-ups and squats",
+     "why": "Named by WHO for muscle strengthening at home, with full water bottles as improvised weights.{7}"
+    },
+    {
+     "name": "Stair climbing and walking around the home",
+     "why": "Listed in WHO's COVID-19 guidance on staying active at home.{7}"
+    },
+    {
+     "name": "Short movement breaks",
+     "why": "WHO lists 3 to 5 minute breaks every 20 to 30 minutes to cut long periods of sitting.{7}"
+    },
+    {
+     "name": "Resistance exercise snacking",
+     "why": "Short, frequent bouts with little or no equipment, described in a review of minimal-dose resistance training.{9}"
+    }
+   ],
+   "enoughHeading": "What WHO states on amounts and routine at home",
+   "enough": [
+    "WHO's 2020 guidelines state that adults should do 150 to 300 minutes of moderate-intensity or 75 to 150 minutes of vigorous-intensity aerobic activity a week, plus muscle-strengthening activities on 2 or more days, that bouts of any duration count, and that some physical activity is better than none.{8}",
+    "WHO's COVID-19 guidance states that regular physical activity can help give the day a routine and be a way of staying in contact with family and friends. It lists planning a daily activity break alone, in an online class, or online with friends or colleagues. For people who are not regularly active, it describes beginning with 5 to 10 minutes and building up to 30 minutes or more over a few weeks. WHO marks the page as no longer updated and kept for reference.{7}",
+    "A narrative review of minimal-dose resistance training states that short sessions, or short, frequent bouts with little or no equipment, can improve strength and functional ability in younger and older adults.{9}"
+   ],
+   "safety": [
+    "Illness: WHO's COVID-19 guidance states that people with a fever, cough and difficulty breathing do not exercise, and stay home and rest.{7}",
+    "Warning symptoms: ACSM's 2015 screening recommendations list signs and symptoms that include pain or discomfort in the chest, neck, jaw or arms, shortness of breath at rest or with mild exertion, dizziness or fainting, palpitations, and unusual fatigue. They state that physically active people who develop such signs or symptoms discontinue exercise and seek medical clearance before resuming exercise of any intensity.{14}",
+    "Carbon monoxide indoors: the CDC states that charcoal is never burned indoors, a portable gas camp stove is never used indoors, a house is never heated with a gas oven, and a generator is never used inside a home or garage, even with doors and windows open. It lists the most common symptoms as headache, dizziness, weakness, upset stomach, vomiting, chest pain and confusion.{10}",
+    "Space, heat and cold: WHO lists unsafe stairs, lighting or walking surfaces among the risk factors for falls.{11} WHO's heat guidance lists avoiding strenuous activity during the hottest time of day and keeping the home cool with night air and covered windows.{12} The NHS states that homes are heated, if possible, to at least 18°C in rooms used regularly.{13}"
+   ],
+   "faq": [
+    {
+     "q": "How did COVID-19 lockdowns change physical activity?",
+     "a": "A systematic review of 66 studies found that most reported less physical activity and more sedentary behaviour during lockdowns.{1} App data from 187 countries showed mean daily steps 27.3% lower within 30 days of the pandemic declaration.{2}"
+    },
+    {
+     "q": "Does live-streamed home exercise make a difference?",
+     "a": "In a randomised trial of 763 adults in nine countries, 4 weeks of live-streamed home exercise increased self-reported moderate and vigorous activity compared with an inactive control, with effects that decreased over time.{5} In the same trial, 53.8% of participants dropped out over 8 weeks.{6}"
+    },
+    {
+     "q": "What did WHO list for staying active at home during COVID-19?",
+     "a": "WHO listed short 3 to 5 minute breaks from sitting every 20 to 30 minutes, walking around the home and on stairs, online exercise classes, dancing, household chores, and muscle strengthening with body weight (press-ups, sit-ups, squats) or full water bottles.{7}"
+    },
+    {
+     "q": "Is physical activity linked to mood during lockdowns?",
+     "a": "A rapid review of 21 observational studies found that more moderate-to-vigorous activity was associated with 12 to 32% lower chances of depressive symptoms and 15 to 34% lower chances of anxiety during the pandemic. These are associations, not proof of cause.{4}"
+    },
+    {
+     "q": "Does OnlineFitnessWorldwide run live online sessions?",
+     "a": "OnlineFitnessWorldwide runs live 1:1 and small-group strength and conditioning sessions on Google Meet, Zoom and FaceTime, in Hindi and English, on IST. None of the studies on this page tested its sessions."
+    }
+   ],
+   "updated": "Updated 21 November 2026",
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why",
+    "how": "How",
+    "dose": "Dose",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "whatsappText": "Hi Susmit, I read the article on fitness during a lockdown and want to book a consultation",
+    "skip": "Skip to content",
+    "crumb": "Fitness during a lockdown"
+   },
+   "byline": "By Susmit Jalan, coach at Online Fitness Worldwide."
+  },
+  "ar": {
+   "metaTitle": "اللياقة أثناء الإغلاق: الأدلة | Online Fitness Worldwide",
+   "metaDescription": "اللياقة أثناء الإغلاق: ما وجدته دراسات COVID-19 عن النشاط والجلوس والمزاج، وإرشادات WHO للنشاط في المنزل، وتجربة على التمرين المنزلي المباشر.",
+   "h1": "اللياقة أثناء الإغلاق: ما تُظهره الأبحاث",
+   "dek": "ما تذكره دراسات فترات الإغلاق بسبب COVID-19 عن النشاط ووقت الجلوس والمزاج والتمرين المنزلي المبثوث مباشرة، وما تذكره منظمة الصحة العالمية عن البقاء نشطًا في المنزل.",
+   "intro": [
+    "تذكر دراسات فترات الإغلاق بسبب COVID-19 في الغالب نشاطًا بدنيًا أقل وجلوسًا أكثر. وفي تجربة عشوائية في تسع دول، زاد التمرين المنزلي المبثوث مباشرة النشاط المتوسط والشديد المُبلَّغ عنه ذاتيًا، مع آثار تراجعت بمرور الوقت. ويدرج دليل منظمة الصحة العالمية عن البقاء نشطًا في المنزل خلال COVID-19 استراحات نشاط قصيرة وحصص تمرين عبر الإنترنت وتمارين بوزن الجسم.{1}{5}{7}",
+    "وجدت مراجعة منهجية لـ 66 دراسة (86,981 مشاركًا) أن معظم الدراسات أبلغت عن انخفاض النشاط البدني وزيادة السلوك الخامل أثناء فترات الإغلاق بسبب COVID-19، في فئات عدة منها الأطفال والمرضى المصابون بحالات طبية متنوعة.{1}",
+    "أظهرت بيانات عدد الخطوات لـ 455,404 مستخدمين لتطبيق هاتف في 187 دولة انخفاضًا بنسبة 5.5% في متوسط الخطوات اليومية خلال 10 أيام من إعلان منظمة الصحة العالمية الجائحة في 11 مارس 2020، وانخفاضًا بنسبة 27.3% (1,432 خطوة) خلال 30 يومًا. وأظهرت إيطاليا، التي أعلنت إغلاقًا وطنيًا في 9 مارس 2020، انخفاضًا أقصى بنسبة 48.7%؛ والسويد 6.9%. ويصف الباحثون البيانات بأنها عينة ملائمة غير تمثيلية.{2} وفي استطلاع دولي عبر الإنترنت شمل 1,047 شخصًا في أبريل 2020، كان للبقاء في المنزل أثر سلبي على جميع مستويات شدة النشاط البدني، وارتفع وقت الجلوس اليومي من 5 إلى 8 ساعات.{3}",
+    "وجدت مراجعة سريعة لـ 21 دراسة رصدية (42,293 مشاركًا) أن الأشخاص النشطين بانتظام، بحجم وتكرار أعلى وروتين ثابت، أظهروا أعراض اكتئاب وقلق أقل أثناء الجائحة. فعلى سبيل المثال، ارتبط قضاء وقت أطول في النشاط المتوسط إلى الشديد باحتمال أقل بنسبة 12 إلى 32% لأعراض الاكتئاب وأقل بنسبة 15 إلى 34% للقلق. وهذه ارتباطات، معظمها من دراسات مقطعية.{4}",
+    "قارنت تجربة عشوائية متعددة المراكز على 763 بالغًا سليمًا من تسع دول 4 أسابيع من التمرين المنزلي متعدد المكونات المبثوث مباشرة بمجموعة ضابطة غير نشطة أثناء الإغلاق الحكومي. مارست مجموعة البث المباشر نشاطًا متوسطًا أكثر (الأسبوع 1: دقائق أسبوعية أكثر بـ 1.65 مرة) ونشاطًا شديدًا أكثر (1.31 مرة)، مع آثار تراجعت بمرور الوقت. وتحسنت دافعية التمرين وجودة النوم والقلق قليلًا؛ وتحسنت الصحة النفسية خلال أسابيع البث المباشر، لكنها أظهرت اتجاهًا معاكسًا حين حلت تمارين مسجلة مسبقًا محل الجلسات المباشرة.{5} وأفاد تحليل لـ 760 مشاركًا من التجربة نفسها بأن 53.8% انسحبوا خلال 8 أسابيع.{6}"
+   ],
+   "items": [
+    {
+     "name": "تمرين منزلي متعدد المكونات مبثوث مباشرة",
+     "why": "التدخل في تجربة عشوائية في تسع دول أثناء فترات الإغلاق.{5}"
+    },
+    {
+     "name": "الضغط والجلوس من الاستلقاء والقرفصاء",
+     "why": "ذكرتها منظمة الصحة العالمية لتقوية العضلات في المنزل، مع زجاجات ماء ممتلئة كأوزان مرتجلة.{7}"
+    },
+    {
+     "name": "صعود الدرج والمشي داخل المنزل",
+     "why": "مدرجة في دليل منظمة الصحة العالمية عن البقاء نشطًا في المنزل خلال COVID-19.{7}"
+    },
+    {
+     "name": "استراحات حركة قصيرة",
+     "why": "تدرج منظمة الصحة العالمية استراحات من 3 إلى 5 دقائق كل 20 إلى 30 دقيقة لتقليل فترات الجلوس الطويلة.{7}"
+    },
+    {
+     "name": "\"exercise snacking\" للمقاومة",
+     "why": "فترات قصيرة متكررة بمعدات قليلة أو دونها، موصوفة في مراجعة عن تدريب المقاومة بالحد الأدنى من الجرعة.{9}"
+    }
+   ],
+   "enoughHeading": "ما تذكره منظمة الصحة العالمية عن الكميات والروتين في المنزل",
+   "enough": [
+    "تنص إرشادات منظمة الصحة العالمية لعام 2020 على أن البالغين ينبغي أن يمارسوا من 150 إلى 300 دقيقة من النشاط الهوائي متوسط الشدة أو من 75 إلى 150 دقيقة من النشاط الشديد أسبوعيًا، إضافةً إلى أنشطة تقوية العضلات يومين أو أكثر، وأن الفترات من أي مدة تُحتسب، وأن بعض النشاط البدني أفضل من لا شيء.{8}",
+    "يذكر دليل منظمة الصحة العالمية عن COVID-19 أن النشاط البدني المنتظم قد يساعد على إعطاء اليوم روتينًا وأن يكون وسيلة للبقاء على تواصل مع العائلة والأصدقاء. ويدرج التخطيط لاستراحة نشاط يومية بشكل فردي، أو في حصة عبر الإنترنت، أو عبر الإنترنت مع الأصدقاء أو الزملاء. ولمن لا يمارسون النشاط بانتظام، يصف البدء بـ 5 إلى 10 دقائق والوصول تدريجيًا إلى 30 دقيقة أو أكثر خلال بضعة أسابيع. وتشير المنظمة إلى أن الصفحة لم تعد تُحدَّث وتبقى للرجوع إليها.{7}",
+    "تذكر مراجعة سردية عن تدريب المقاومة بالحد الأدنى من الجرعة أن الجلسات القصيرة، أو الفترات القصيرة المتكررة بمعدات قليلة أو دونها، يمكن أن تحسّن القوة والقدرة الوظيفية لدى البالغين الأصغر والأكبر سنًا.{9}"
+   ],
+   "safety": [
+    "المرض: يذكر دليل منظمة الصحة العالمية عن COVID-19 أن من يعانون من الحمى والسعال وصعوبة التنفس لا يمارسون التمرين، ويبقون في المنزل للراحة.{7}",
+    "الأعراض التحذيرية: تدرج توصيات الفحص لدى ACSM لعام 2015 علامات وأعراضًا تشمل ألمًا أو انزعاجًا في الصدر أو الرقبة أو الفك أو الذراعين، وضيق التنفس أثناء الراحة أو مع جهد خفيف، والدوخة أو الإغماء، والخفقان، والتعب غير المعتاد. وتنص على أن الأشخاص النشطين بدنيًا الذين تظهر عليهم هذه العلامات أو الأعراض يتوقفون عن التمرين ويحصلون على إذن طبي قبل استئناف التمرين بأي شدة.{14}",
+    "أول أكسيد الكربون داخل المنزل: يذكر CDC أن الفحم لا يُحرق أبدًا داخل المنزل، وأن موقد التخييم الغازي المحمول لا يُستخدم أبدًا في الداخل، وأن المنزل لا يُدفأ أبدًا بفرن الغاز، وأن المولد لا يُستخدم أبدًا داخل المنزل أو المرآب حتى مع فتح الأبواب والنوافذ. ويذكر أن الأعراض الأكثر شيوعًا هي الصداع والدوخة والضعف واضطراب المعدة والقيء وألم الصدر والارتباك.{10}",
+    "المساحة والحر والبرد: تدرج منظمة الصحة العالمية السلالم أو الإضاءة أو أسطح المشي غير الآمنة ضمن عوامل خطر السقوط.{11} ويدرج دليل المنظمة عن الحر تجنّب النشاط الشاق في أشد ساعات اليوم حرًا وتبريد المنزل بهواء الليل والنوافذ المغطاة.{12} وتذكر NHS أن الغرف المستخدمة بانتظام تُدفأ، إن أمكن، إلى 18°C على الأقل.{13}"
+   ],
+   "faq": [
+    {
+     "q": "كيف غيّرت فترات الإغلاق بسبب COVID-19 النشاط البدني؟",
+     "a": "وجدت مراجعة منهجية لـ 66 دراسة أن معظمها أبلغ عن نشاط بدني أقل وسلوك خامل أكثر أثناء الإغلاق.{1} وأظهرت بيانات تطبيق من 187 دولة أن متوسط الخطوات اليومية انخفض 27.3% خلال 30 يومًا من إعلان الجائحة.{2}"
+    },
+    {
+     "q": "هل يُحدث التمرين المنزلي المبثوث مباشرة فرقًا؟",
+     "a": "في تجربة عشوائية على 763 بالغًا من تسع دول، زادت 4 أسابيع من التمرين المنزلي المباشر النشاط المتوسط والشديد المُبلَّغ عنه ذاتيًا مقارنةً بمجموعة ضابطة غير نشطة، مع آثار تراجعت بمرور الوقت.{5} وفي التجربة نفسها انسحب 53.8% من المشاركين خلال 8 أسابيع.{6}"
+    },
+    {
+     "q": "ماذا أدرجت منظمة الصحة العالمية للبقاء نشطًا في المنزل خلال COVID-19؟",
+     "a": "أدرجت المنظمة استراحات قصيرة من الجلوس مدتها 3 إلى 5 دقائق كل 20 إلى 30 دقيقة، والمشي داخل المنزل وصعود الدرج، وحصص التمرين عبر الإنترنت، والرقص، والأعمال المنزلية، وتقوية العضلات بوزن الجسم (الضغط، الجلوس من الاستلقاء، القرفصاء) أو بزجاجات ماء ممتلئة.{7}"
+    },
+    {
+     "q": "هل يرتبط النشاط البدني بالمزاج أثناء الإغلاق؟",
+     "a": "وجدت مراجعة سريعة لـ 21 دراسة رصدية أن النشاط المتوسط إلى الشديد الأكثر ارتبط باحتمال أقل بنسبة 12 إلى 32% لأعراض الاكتئاب وأقل بنسبة 15 إلى 34% للقلق أثناء الجائحة. وهذه ارتباطات، لا دليل على السببية.{4}"
+    },
+    {
+     "q": "هل يقدّم OnlineFitnessWorldwide جلسات مباشرة عبر الإنترنت؟",
+     "a": "يقدّم OnlineFitnessWorldwide جلسات مباشرة للقوة والتكييف البدني، فردية 1:1 وفي مجموعات صغيرة، عبر Google Meet وZoom وFaceTime، بالهندية والإنجليزية، بتوقيت IST. لم تختبر أي من الدراسات في هذه الصفحة جلساته."
+    }
+   ],
+   "updated": "حدّث في 21 نوفمبر 2026",
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا",
+    "how": "كيف",
+    "dose": "الجرعة",
+    "sources": "المصادر",
+    "readIn": "اقرأ بلغة أخرى",
+    "programs": "اطّلع على البرامج",
+    "whatsapp": "اسأل عبر واتساب",
+    "whatsappText": "مرحبًا سوسميت، قرأت المقال عن اللياقة أثناء الإغلاق وأريد حجز استشارة",
+    "skip": "انتقل إلى المحتوى",
+    "crumb": "اللياقة أثناء الإغلاق"
+   },
+   "byline": "بقلم سوسميت جالان، مدرب في Online Fitness Worldwide."
+  },
+  "hi": {
+   "metaTitle": "लॉकडाउन के दौरान फ़िटनेस: प्रमाण | Online Fitness Worldwide",
+   "metaDescription": "लॉकडाउन फ़िटनेस: COVID-19 अध्ययनों में गतिविधि, बैठने और मूड पर क्या मिला, घर पर सक्रिय रहने पर WHO का मार्गदर्शन, और लाइव होम एक्सरसाइज़ का एक ट्रायल।",
+   "h1": "लॉकडाउन के दौरान फ़िटनेस: शोध क्या दिखाता है",
+   "dek": "COVID-19 लॉकडाउन के अध्ययन गतिविधि, बैठने के समय, मूड और लाइव-स्ट्रीम होम एक्सरसाइज़ के बारे में क्या बताते हैं, और घर पर सक्रिय रहने पर WHO क्या कहता है।",
+   "intro": [
+    "COVID-19 लॉकडाउन के अध्ययन ज़्यादातर कम शारीरिक गतिविधि और ज़्यादा बैठने की बात बताते हैं। नौ देशों के एक रैंडमाइज़्ड ट्रायल में लाइव-स्ट्रीम होम एक्सरसाइज़ से खुद बताई गई मध्यम और तीव्र गतिविधि बढ़ी, पर असर समय के साथ घटता गया। घर पर सक्रिय रहने पर WHO का COVID-19 मार्गदर्शन छोटे सक्रिय ब्रेक, ऑनलाइन एक्सरसाइज़ क्लास और शरीर के वज़न वाले व्यायाम गिनाता है।{1}{5}{7}",
+    "66 अध्ययनों (86,981 प्रतिभागी) की एक सिस्टमैटिक समीक्षा में पाया गया कि ज़्यादातर अध्ययनों ने COVID-19 लॉकडाउन के दौरान शारीरिक गतिविधि में कमी और निष्क्रिय व्यवहार में बढ़ोतरी बताई, बच्चों और कई तरह की बीमारियों वाले मरीज़ों समेत कई आबादियों में।{1}",
+    "187 देशों में एक स्मार्टफ़ोन ऐप के 4,55,404 उपयोगकर्ताओं के स्टेप-काउंट डेटा में 11 मार्च 2020 को WHO की महामारी घोषणा के 10 दिनों के भीतर औसत दैनिक कदमों में 5.5% और 30 दिनों के भीतर 27.3% (1,432 कदम) की गिरावट दिखी। 9 मार्च 2020 को राष्ट्रीय लॉकडाउन घोषित करने वाले इटली में अधिकतम गिरावट 48.7% थी; स्वीडन में 6.9%। लेखक डेटा को एक गैर-प्रतिनिधि सुविधाजनक नमूना बताते हैं।{2} अप्रैल 2020 में 1,047 लोगों के एक अंतरराष्ट्रीय ऑनलाइन सर्वे में घर में बंद रहने का शारीरिक गतिविधि की सभी तीव्रताओं पर नकारात्मक असर पड़ा, और रोज़ बैठने का समय 5 से बढ़कर 8 घंटे हो गया।{3}",
+    "21 ऑब्ज़र्वेशनल अध्ययनों (42,293 प्रतिभागी) की एक रैपिड समीक्षा में पाया गया कि जो लोग नियमित रूप से, ज़्यादा मात्रा और आवृत्ति के साथ और स्थिर दिनचर्या में सक्रिय थे, उनमें महामारी के दौरान डिप्रेशन और एंग्ज़ायटी के कम लक्षण दिखे। उदाहरण के लिए, मध्यम से तीव्र गतिविधि में ज़्यादा समय डिप्रेशन के लक्षणों की 12 से 32% कम और एंग्ज़ायटी की 15 से 34% कम संभावना से जुड़ा था। ये संबंध हैं, ज़्यादातर क्रॉस-सेक्शनल अध्ययनों से।{4}",
+    "नौ देशों के 763 स्वस्थ वयस्कों पर एक मल्टीसेंटर रैंडमाइज़्ड ट्रायल ने सरकारी लॉकडाउन के दौरान 4 हफ़्ते की लाइव-स्ट्रीम मल्टीकंपोनेंट होम एक्सरसाइज़ की तुलना एक निष्क्रिय कंट्रोल समूह से की। लाइव-स्ट्रीम समूह ने ज़्यादा मध्यम गतिविधि (पहला हफ़्ता: हर हफ़्ते 1.65 गुना ज़्यादा मिनट) और तीव्र गतिविधि (1.31 गुना) की, पर असर समय के साथ घटा। व्यायाम की प्रेरणा, नींद की गुणवत्ता और एंग्ज़ायटी में थोड़ा सुधार हुआ; लाइव-स्ट्रीमिंग वाले हफ़्तों में मानसिक भलाई सुधरी, पर लाइव सत्रों की जगह पहले से रिकॉर्ड किए वर्कआउट आने पर उलटा रुझान दिखा।{5} उसी ट्रायल के 760 प्रतिभागियों के एक विश्लेषण ने बताया कि 8 हफ़्तों में 53.8% ने बीच में छोड़ दिया।{6}"
+   ],
+   "items": [
+    {
+     "name": "लाइव-स्ट्रीम मल्टीकंपोनेंट होम एक्सरसाइज़",
+     "why": "लॉकडाउन के दौरान नौ देशों के एक रैंडमाइज़्ड ट्रायल का इंटरवेंशन।{5}"
+    },
+    {
+     "name": "पुश-अप, सिट-अप और स्क्वाट",
+     "why": "घर पर मांसपेशियाँ मज़बूत करने के लिए WHO ने इनका नाम लिया, पानी से भरी बोतलों को जुगाड़ू वज़न के रूप में।{7}"
+    },
+    {
+     "name": "सीढ़ियाँ चढ़ना और घर में चलना",
+     "why": "घर पर सक्रिय रहने पर WHO के COVID-19 मार्गदर्शन में शामिल।{7}"
+    },
+    {
+     "name": "हिलने-डुलने के छोटे ब्रेक",
+     "why": "WHO लंबे समय तक बैठने को कम करने के लिए हर 20 से 30 मिनट पर 3 से 5 मिनट के ब्रेक गिनाता है।{7}"
+    },
+    {
+     "name": "रेज़िस्टेंस exercise snacking",
+     "why": "न्यूनतम-मात्रा रेज़िस्टेंस ट्रेनिंग की समीक्षा में बताए गए कम या बिना उपकरण के छोटे, बार-बार के सत्र।{9}"
+    }
+   ],
+   "enoughHeading": "घर पर मात्रा और दिनचर्या पर WHO क्या कहता है",
+   "enough": [
+    "WHO की 2020 की गाइडलाइंस कहती हैं कि वयस्कों को हर हफ़्ते 150 से 300 मिनट मध्यम तीव्रता या 75 से 150 मिनट तीव्र एरोबिक गतिविधि करनी चाहिए, साथ में 2 या अधिक दिन मांसपेशियाँ मज़बूत करने वाली गतिविधियाँ; किसी भी अवधि के सत्र गिने जाते हैं, और कुछ शारीरिक गतिविधि बिल्कुल न करने से बेहतर है।{8}",
+    "WHO का COVID-19 मार्गदर्शन कहता है कि नियमित शारीरिक गतिविधि दिन को एक दिनचर्या देने में और परिवार व दोस्तों से जुड़े रहने का एक तरीका बनने में मदद कर सकती है। वह अकेले, किसी ऑनलाइन क्लास में, या दोस्तों या सहकर्मियों के साथ ऑनलाइन रोज़ एक गतिविधि ब्रेक की योजना बनाना गिनाता है। जो लोग नियमित रूप से सक्रिय नहीं हैं, उनके लिए वह 5 से 10 मिनट से शुरू करके कुछ हफ़्तों में 30 मिनट या ज़्यादा तक बढ़ने का वर्णन करता है। WHO बताता है कि यह पेज अब अपडेट नहीं होता और संदर्भ के लिए रखा गया है।{7}",
+    "न्यूनतम-मात्रा रेज़िस्टेंस ट्रेनिंग की एक नैरेटिव समीक्षा कहती है कि छोटे सत्र, या कम या बिना उपकरण के छोटे और बार-बार किए गए सत्र, युवा और बुज़ुर्ग वयस्कों में ताक़त और कार्यक्षमता सुधार सकते हैं।{9}"
+   ],
+   "safety": [
+    "बीमारी: WHO का COVID-19 मार्गदर्शन कहता है कि बुख़ार, खाँसी और साँस लेने में तकलीफ़ वाले लोग व्यायाम नहीं करते, और घर पर रहकर आराम करते हैं।{7}",
+    "चेतावनी के लक्षण: ACSM की 2015 की स्क्रीनिंग सिफ़ारिशें ऐसे संकेत और लक्षण गिनाती हैं जिनमें सीने, गर्दन, जबड़े या बाँहों में दर्द या बेचैनी, आराम में या हल्की मेहनत पर साँस फूलना, चक्कर या बेहोशी, धड़कन तेज़ महसूस होना, और असामान्य थकान शामिल हैं। वे कहती हैं कि ऐसे संकेत या लक्षण वाले शारीरिक रूप से सक्रिय लोग व्यायाम बंद करें और किसी भी तीव्रता का व्यायाम फिर से शुरू करने से पहले मेडिकल मंज़ूरी लें।{14}",
+    "घर के अंदर कार्बन मोनोऑक्साइड: CDC कहता है कि घर के अंदर कभी चारकोल नहीं जलाया जाता, पोर्टेबल गैस कैंप स्टोव घर के अंदर कभी इस्तेमाल नहीं होता, घर को कभी गैस ओवन से गर्म नहीं किया जाता, और जनरेटर घर या गैराज के अंदर कभी इस्तेमाल नहीं होता, चाहे दरवाज़े और खिड़कियाँ खुली हों। वह सबसे आम लक्षण सिरदर्द, चक्कर, कमज़ोरी, पेट ख़राब, उल्टी, सीने में दर्द और भ्रम बताता है।{10}",
+    "जगह, गर्मी और ठंड: WHO असुरक्षित सीढ़ियों, रोशनी या चलने की सतहों को गिरने के जोखिम कारकों में गिनता है।{11} WHO का गर्मी पर मार्गदर्शन दिन के सबसे गर्म समय में कड़ी मेहनत वाली गतिविधि से बचना और रात की हवा व ढकी खिड़कियों से घर ठंडा रखना गिनाता है।{12} NHS कहता है कि संभव हो तो नियमित इस्तेमाल वाले कमरों को कम से कम 18°C तक गर्म रखा जाता है।{13}"
+   ],
+   "faq": [
+    {
+     "q": "COVID-19 लॉकडाउन ने शारीरिक गतिविधि को कैसे बदला?",
+     "a": "66 अध्ययनों की एक सिस्टमैटिक समीक्षा में पाया गया कि ज़्यादातर ने लॉकडाउन के दौरान कम शारीरिक गतिविधि और ज़्यादा निष्क्रिय व्यवहार बताया।{1} 187 देशों के ऐप डेटा में महामारी घोषणा के 30 दिनों के भीतर औसत दैनिक कदम 27.3% कम दिखे।{2}"
+    },
+    {
+     "q": "क्या लाइव-स्ट्रीम होम एक्सरसाइज़ से फ़र्क पड़ता है?",
+     "a": "नौ देशों के 763 वयस्कों के एक रैंडमाइज़्ड ट्रायल में 4 हफ़्ते की लाइव होम एक्सरसाइज़ ने निष्क्रिय कंट्रोल की तुलना में खुद बताई गई मध्यम और तीव्र गतिविधि बढ़ाई, पर असर समय के साथ घटा।{5} उसी ट्रायल में 8 हफ़्तों में 53.8% प्रतिभागियों ने बीच में छोड़ दिया।{6}"
+    },
+    {
+     "q": "COVID-19 के दौरान घर पर सक्रिय रहने के लिए WHO ने क्या गिनाया?",
+     "a": "WHO ने हर 20 से 30 मिनट पर बैठने से 3 से 5 मिनट के छोटे ब्रेक, घर में चलना और सीढ़ियाँ चढ़ना, ऑनलाइन एक्सरसाइज़ क्लास, डांस, घर के काम, और शरीर के वज़न (पुश-अप, सिट-अप, स्क्वाट) या पानी से भरी बोतलों से मांसपेशियाँ मज़बूत करना गिनाया।{7}"
+    },
+    {
+     "q": "क्या लॉकडाउन के दौरान शारीरिक गतिविधि का मूड से संबंध है?",
+     "a": "21 ऑब्ज़र्वेशनल अध्ययनों की एक रैपिड समीक्षा में पाया गया कि महामारी के दौरान ज़्यादा मध्यम से तीव्र गतिविधि डिप्रेशन के लक्षणों की 12 से 32% कम और एंग्ज़ायटी की 15 से 34% कम संभावना से जुड़ी थी। ये संबंध हैं, कारण का प्रमाण नहीं।{4}"
+    },
+    {
+     "q": "क्या OnlineFitnessWorldwide लाइव ऑनलाइन सत्र चलाता है?",
+     "a": "OnlineFitnessWorldwide Google Meet, Zoom और FaceTime पर हिंदी और अंग्रेज़ी में, IST समय पर, लाइव 1:1 और छोटे समूह के स्ट्रेंथ और कंडीशनिंग सत्र चलाता है। इस पेज के किसी भी अध्ययन ने उसके सत्रों को नहीं परखा।"
+    }
+   ],
+   "updated": "अपडेट 21 नवंबर 2026",
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों",
+    "how": "कैसे",
+    "dose": "डोज़",
+    "sources": "स्रोत",
+    "readIn": "इसे इस भाषा में पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "WhatsApp पर पूछें",
+    "whatsappText": "नमस्ते सुस्मित, मैंने लॉकडाउन के दौरान फ़िटनेस वाला लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    "skip": "सामग्री पर जाएँ",
+    "crumb": "लॉकडाउन के दौरान फ़िटनेस"
+   },
+   "byline": "लेखक: सुस्मित जालान, कोच, Online Fitness Worldwide।"
+  },
+  "es": {
+   "metaTitle": "Ejercicio durante un confinamiento: la evidencia | Online Fitness Worldwide",
+   "metaDescription": "Confinamiento: qué hallaron los estudios de la COVID-19 sobre actividad, sedentarismo y ánimo, la guía de la OMS y un ensayo de ejercicio en directo.",
+   "h1": "Ejercicio durante un confinamiento: qué muestra la investigación",
+   "dek": "Qué informan los estudios de los confinamientos por la COVID-19 sobre actividad, tiempo sentado, estado de ánimo y ejercicio en casa retransmitido en directo, y qué dice la OMS sobre mantenerse activo en casa.",
+   "intro": [
+    "Los estudios de los confinamientos por la COVID-19 informan sobre todo de menos actividad física y más tiempo sentado. En un ensayo aleatorizado en nueve países, el ejercicio en casa retransmitido en directo aumentó la actividad moderada y vigorosa declarada, con efectos que disminuyeron con el tiempo. La guía de la OMS sobre COVID-19 para mantenerse activo en casa enumera pausas activas cortas, clases de ejercicio en línea y ejercicios con el propio peso.{1}{5}{7}",
+    "Una revisión sistemática de 66 estudios (86.981 participantes) encontró que la mayoría de los estudios informaron de descensos de la actividad física y aumentos del comportamiento sedentario durante los confinamientos por la COVID-19, en varias poblaciones, incluidos niños y pacientes con diversas enfermedades.{1}",
+    "Los datos de pasos de 455.404 usuarios de una aplicación móvil en 187 países mostraron una caída del 5,5% en los pasos diarios medios en los 10 días siguientes a la declaración de pandemia de la OMS del 11 de marzo de 2020, y una caída del 27,3% (1.432 pasos) en 30 días. Italia, que decretó un confinamiento nacional el 9 de marzo de 2020, mostró una disminución máxima del 48,7%; Suecia, del 6,9%. Los autores describen los datos como una muestra de conveniencia no representativa.{2} En una encuesta internacional en línea a 1.047 personas en abril de 2020, el confinamiento domiciliario tuvo un efecto negativo en todos los niveles de intensidad de la actividad física, y el tiempo sentado diario pasó de 5 a 8 horas.{3}",
+    "Una revisión rápida de 21 estudios observacionales (42.293 participantes) encontró que las personas físicamente activas con regularidad, con mayor volumen y frecuencia y rutinas estables, mostraron menos síntomas de depresión y ansiedad durante la pandemia. Por ejemplo, más tiempo de actividad moderada a vigorosa se asoció con probabilidades entre un 12 y un 32% menores de síntomas depresivos y entre un 15 y un 34% menores de ansiedad. Son asociaciones, procedentes sobre todo de estudios transversales.{4}",
+    "Un ensayo aleatorizado multicéntrico con 763 adultos sanos de nueve países comparó 4 semanas de ejercicio multicomponente en casa retransmitido en directo con un grupo control inactivo durante confinamientos decretados por los gobiernos. El grupo en directo hizo más actividad moderada (semana 1: 1,65 veces más minutos por semana) y vigorosa (1,31 veces), con efectos que disminuyeron con el tiempo. La motivación para el ejercicio, la calidad del sueño y la ansiedad mejoraron ligeramente; el bienestar mental mejoró durante las semanas en directo, pero mostró una tendencia inversa cuando entrenamientos pregrabados sustituyeron a las sesiones en directo.{5} Un análisis de 760 participantes del mismo ensayo informó de que el 53,8% abandonó en 8 semanas.{6}"
+   ],
+   "items": [
+    {
+     "name": "Ejercicio multicomponente en casa retransmitido en directo",
+     "why": "La intervención de un ensayo aleatorizado en nueve países durante los confinamientos.{5}"
+    },
+    {
+     "name": "Flexiones, abdominales y sentadillas",
+     "why": "Mencionadas por la OMS para fortalecer los músculos en casa, con botellas de agua llenas como pesas improvisadas.{7}"
+    },
+    {
+     "name": "Subir escaleras y caminar por casa",
+     "why": "Incluidos en la guía de la OMS sobre COVID-19 para mantenerse activo en casa.{7}"
+    },
+    {
+     "name": "Pausas cortas de movimiento",
+     "why": "La OMS enumera pausas de 3 a 5 minutos cada 20 a 30 minutos para reducir los periodos largos sentado.{7}"
+    },
+    {
+     "name": "\"Exercise snacking\" de fuerza",
+     "why": "Bloques breves y frecuentes con poco o ningún material, descritos en una revisión sobre entrenamiento de fuerza de dosis mínima.{9}"
+    }
+   ],
+   "enoughHeading": "Qué dice la OMS sobre cantidades y rutina en casa",
+   "enough": [
+    "Las guías de la OMS de 2020 establecen que los adultos deberían hacer de 150 a 300 minutos de actividad aeróbica moderada o de 75 a 150 minutos de actividad vigorosa a la semana, además de actividades de fortalecimiento muscular 2 o más días, que cuentan los bloques de cualquier duración y que algo de actividad física es mejor que nada.{8}",
+    "La guía de la OMS sobre COVID-19 afirma que la actividad física regular puede ayudar a dar una rutina al día y ser una forma de mantenerse en contacto con familiares y amigos. Enumera planificar una pausa diaria de actividad en solitario, en una clase en línea o en línea con amigos o compañeros. Para quienes no son activos con regularidad, describe empezar por 5 a 10 minutos e ir aumentando hasta 30 minutos o más en unas semanas. La OMS indica que la página ya no se actualiza y se mantiene como referencia.{7}",
+    "Una revisión narrativa sobre el entrenamiento de fuerza de dosis mínima afirma que las sesiones cortas, o los bloques breves y frecuentes con poco o ningún material, pueden mejorar la fuerza y la capacidad funcional en adultos jóvenes y mayores.{9}"
+   ],
+   "safety": [
+    "Enfermedad: la guía de la OMS sobre COVID-19 afirma que las personas con fiebre, tos y dificultad para respirar no hacen ejercicio y se quedan en casa descansando.{7}",
+    "Síntomas de alarma: las recomendaciones de cribado del ACSM de 2015 enumeran signos y síntomas que incluyen dolor o molestia en el pecho, el cuello, la mandíbula o los brazos, falta de aire en reposo o con un esfuerzo leve, mareo o desmayo, palpitaciones y fatiga inusual. Establecen que las personas físicamente activas que presenten estos signos o síntomas interrumpan el ejercicio y obtengan autorización médica antes de reanudar ejercicio de cualquier intensidad.{14}",
+    "Monóxido de carbono en interiores: los CDC afirman que nunca se quema carbón en interiores, nunca se usa un hornillo de gas portátil en interiores, nunca se calienta la vivienda con un horno de gas y nunca se usa un generador dentro de una vivienda o un garaje, aunque las puertas y ventanas estén abiertas. Enumeran como síntomas más comunes el dolor de cabeza, el mareo, la debilidad, el malestar de estómago, los vómitos, el dolor en el pecho y la confusión.{10}",
+    "Espacio, calor y frío: la OMS incluye las escaleras, la iluminación o las superficies inseguras entre los factores de riesgo de caídas.{11} La guía de la OMS sobre el calor enumera evitar la actividad intensa en las horas de más calor y refrescar la vivienda con aire nocturno y ventanas cubiertas.{12} El NHS afirma que, si es posible, las estancias de uso habitual se calientan al menos a 18 °C.{13}"
+   ],
+   "faq": [
+    {
+     "q": "¿Cómo cambiaron los confinamientos por la COVID-19 la actividad física?",
+     "a": "Una revisión sistemática de 66 estudios encontró que la mayoría informó de menos actividad física y más comportamiento sedentario durante los confinamientos.{1} Datos de una aplicación en 187 países mostraron pasos diarios medios un 27,3% más bajos en los 30 días siguientes a la declaración de pandemia.{2}"
+    },
+    {
+     "q": "¿Marca alguna diferencia el ejercicio en casa retransmitido en directo?",
+     "a": "En un ensayo aleatorizado con 763 adultos de nueve países, 4 semanas de ejercicio en casa en directo aumentaron la actividad moderada y vigorosa declarada frente a un control inactivo, con efectos que disminuyeron con el tiempo.{5} En el mismo ensayo, el 53,8% de los participantes abandonó en 8 semanas.{6}"
+    },
+    {
+     "q": "¿Qué enumeró la OMS para mantenerse activo en casa durante la COVID-19?",
+     "a": "La OMS enumeró pausas cortas de 3 a 5 minutos sin estar sentado cada 20 a 30 minutos, caminar por casa y subir escaleras, clases de ejercicio en línea, bailar, las tareas domésticas y el fortalecimiento muscular con el propio peso (flexiones, abdominales, sentadillas) o con botellas de agua llenas.{7}"
+    },
+    {
+     "q": "¿Se relaciona la actividad física con el estado de ánimo durante los confinamientos?",
+     "a": "Una revisión rápida de 21 estudios observacionales encontró que más actividad moderada a vigorosa se asoció con probabilidades entre un 12 y un 32% menores de síntomas depresivos y entre un 15 y un 34% menores de ansiedad durante la pandemia. Son asociaciones, no prueba de causa.{4}"
+    },
+    {
+     "q": "¿Ofrece OnlineFitnessWorldwide sesiones en directo en línea?",
+     "a": "OnlineFitnessWorldwide ofrece sesiones en directo de fuerza y acondicionamiento, 1:1 y en grupos pequeños, por Google Meet, Zoom y FaceTime, en hindi e inglés, en horario IST. Ninguno de los estudios de esta página probó sus sesiones."
+    }
+   ],
+   "updated": "Actualizado el 21 de noviembre de 2026",
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué",
+    "how": "Cómo",
+    "dose": "Dosis",
+    "sources": "Fuentes",
+    "readIn": "Leer en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "whatsappText": "Hola Susmit, leí el artículo sobre el ejercicio durante un confinamiento y quiero reservar una consulta",
+    "skip": "Saltar al contenido",
+    "crumb": "Ejercicio durante un confinamiento"
+   },
+   "byline": "Por Susmit Jalan, entrenador en Online Fitness Worldwide."
+  },
+  "zh": {
+   "metaTitle": "封控期间的健身：证据 | Online Fitness Worldwide",
+   "metaDescription": "封控期间健身：COVID-19研究对活动、久坐和情绪的发现，WHO居家活动指南，以及一项直播居家锻炼试验。",
+   "h1": "封控期间的健身：研究显示了什么",
+   "dek": "COVID-19封控期间的研究对身体活动、久坐时间、情绪和直播居家锻炼有何报告，以及世卫组织对居家保持活跃的说明。",
+   "intro": [
+    "COVID-19封控期间的研究大多报告身体活动减少、久坐增加。在一项涉及九个国家的随机试验中，直播居家锻炼增加了自我报告的中等和剧烈活动，但效果随时间减弱。世卫组织关于COVID-19期间居家保持活跃的指南列出了短时活动休息、在线锻炼课程和自重练习。{1}{5}{7}",
+    "一项纳入66项研究（86,981名参与者）的系统综述发现，大多数研究报告在COVID-19封控期间身体活动减少、久坐行为增加，涉及包括儿童和患有各种疾病的患者在内的多个人群。{1}",
+    "来自187个国家、455,404名智能手机应用用户的计步数据显示，在世卫组织于2020年3月11日宣布大流行后10天内，日均步数下降5.5%，30天内下降27.3%（1,432步）。于2020年3月9日宣布全国封控的意大利最大降幅为48.7%；瑞典为6.9%。作者称这些数据是非代表性的便利样本。{2}在2020年4月对1,047人进行的国际在线调查中，居家隔离对所有强度的身体活动都产生了负面影响，每日久坐时间从5小时增至8小时。{3}",
+    "一项纳入21项观察性研究（42,293名参与者）的快速综述发现，定期活动、活动量和频率较高且作息稳定的人，在大流行期间抑郁和焦虑症状较少。例如，中等至剧烈活动时间较多，与出现抑郁症状的几率低12%至32%、出现焦虑的几率低15%至34%相关。这些是相关性，大多来自横断面研究。{4}",
+    "一项涉及九个国家763名健康成人的多中心随机试验，在政府封控期间将4周直播多元居家锻炼与不活动对照组进行比较。直播组的中等活动（第1周：每周分钟数为对照组的1.65倍）和剧烈活动（1.31倍）更多，但效果随时间减弱。锻炼动机、睡眠质量和焦虑略有改善；心理健康在直播周期间有所改善，但在预录课程取代直播后出现相反趋势。{5}对同一试验760名参与者的分析报告，8周内有53.8%的人退出。{6}"
+   ],
+   "items": [
+    {
+     "name": "直播多元居家锻炼",
+     "why": "封控期间一项九国随机试验中的干预措施。{5}"
+    },
+    {
+     "name": "俯卧撑、仰卧起坐和深蹲",
+     "why": "世卫组织提到的居家肌肉强化练习，可用装满水的瓶子作临时重物。{7}"
+    },
+    {
+     "name": "爬楼梯和在家中走动",
+     "why": "列于世卫组织关于COVID-19期间居家保持活跃的指南中。{7}"
+    },
+    {
+     "name": "短时活动休息",
+     "why": "世卫组织列出每20至30分钟休息3至5分钟，以减少长时间久坐。{7}"
+    },
+    {
+     "name": "抗阻exercise snacking",
+     "why": "最低剂量抗阻训练综述中描述的、使用很少或不用器械的短时频繁练习。{9}"
+    }
+   ],
+   "enoughHeading": "世卫组织对居家活动量和作息的说明",
+   "enough": [
+    "世卫组织2020年指南指出，成人每周应进行150至300分钟中等强度或75至150分钟高强度有氧活动，并在2天或以上进行肌肉强化活动；任何时长的活动都计入，有一些身体活动胜过完全没有。{8}",
+    "世卫组织的COVID-19指南指出，规律的身体活动有助于为一天建立作息，也是与家人和朋友保持联系的一种方式。它列出独自、参加在线课程或与朋友或同事在线一起安排每日活动时间。对于平时不常活动的人，它描述从5至10分钟开始，在几周内逐步增加到30分钟或以上。世卫组织标注该页面已不再更新，仅供参考。{7}",
+    "一篇关于最低剂量抗阻训练的叙述性综述指出，短时训练，或使用很少或不用器械的短时、频繁练习，可以改善年轻和年长成人的力量和功能能力。{9}"
+   ],
+   "safety": [
+    "患病：世卫组织的COVID-19指南指出，有发热、咳嗽和呼吸困难的人不运动，留在家中休息。{7}",
+    "警示症状：ACSM 2015年筛查建议列出的体征和症状包括胸部、颈部、下颌或手臂疼痛或不适，静息或轻微用力时气短，头晕或晕厥，心悸，以及异常疲劳。建议指出，出现这些体征或症状的经常运动者应停止运动，并在恢复任何强度的运动前取得医疗许可。{14}",
+    "室内一氧化碳：CDC指出，绝不在室内烧木炭，绝不在室内使用便携式燃气露营炉，绝不用燃气烤箱为住宅取暖，也绝不在住宅或车库内使用发电机，即使门窗打开。它列出最常见的症状为头痛、头晕、虚弱、胃部不适、呕吐、胸痛和意识混乱。{10}",
+    "空间、高温与寒冷：世卫组织将不安全的楼梯、照明或行走地面列为跌倒的危险因素。{11}世卫组织的高温指南列出避免在一天中最热的时段进行剧烈活动，以及利用夜间空气和遮挡窗户为住宅降温。{12}NHS指出，如有可能，经常使用的房间应至少加热到18°C。{13}"
+   ],
+   "faq": [
+    {
+     "q": "COVID-19封控如何改变了身体活动？",
+     "a": "一项纳入66项研究的系统综述发现，大多数研究报告封控期间身体活动减少、久坐行为增加。{1}来自187个国家的应用数据显示，宣布大流行后30天内日均步数下降27.3%。{2}"
+    },
+    {
+     "q": "直播居家锻炼有作用吗？",
+     "a": "在一项涉及九个国家763名成人的随机试验中，与不活动对照组相比，4周直播居家锻炼增加了自我报告的中等和剧烈活动，但效果随时间减弱。{5}在同一试验中，8周内有53.8%的参与者退出。{6}"
+    },
+    {
+     "q": "COVID-19期间世卫组织为居家保持活跃列出了什么？",
+     "a": "世卫组织列出每20至30分钟起身休息3至5分钟、在家中走动和爬楼梯、在线锻炼课程、跳舞、家务，以及利用自身体重（俯卧撑、仰卧起坐、深蹲）或装满水的瓶子进行肌肉强化。{7}"
+    },
+    {
+     "q": "封控期间身体活动与情绪有关吗？",
+     "a": "一项纳入21项观察性研究的快速综述发现，大流行期间中等至剧烈活动较多，与出现抑郁症状的几率低12%至32%、出现焦虑的几率低15%至34%相关。这些是相关性，并非因果证据。{4}"
+    },
+    {
+     "q": "OnlineFitnessWorldwide提供在线直播课程吗？",
+     "a": "OnlineFitnessWorldwide通过Google Meet、Zoom和FaceTime提供1对1和小组的力量与体能直播课程，使用印地语和英语，按IST时间进行。本页的研究均未检验其课程。"
+    }
+   ],
+   "updated": "更新于2026年11月21日",
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么",
+    "how": "怎么做",
+    "dose": "训练量",
+    "sources": "参考来源",
+    "readIn": "其他语言版本",
+    "programs": "查看课程",
+    "whatsapp": "通过WhatsApp咨询",
+    "whatsappText": "你好 Susmit，我读了关于封控期间健身的文章，想预约咨询",
+    "skip": "跳到正文",
+    "crumb": "封控期间的健身"
+   },
+   "byline": "作者：Susmit Jalan，Online Fitness Worldwide 教练。"
+  },
+  "ja": {
+   "metaTitle": "ロックダウン中のフィットネス：エビデンス | Online Fitness Worldwide",
+   "metaDescription": "ロックダウン中のフィットネス：COVID-19研究が示した活動、座位時間、気分の変化、WHOの自宅での活動ガイダンス、ライブ配信の自宅運動の試験。",
+   "h1": "ロックダウン中のフィットネス：研究が示すこと",
+   "dek": "COVID-19のロックダウン中の研究が身体活動、座位時間、気分、ライブ配信の自宅運動について報告していることと、自宅で活動的に過ごすことについてのWHOの見解。",
+   "intro": [
+    "COVID-19のロックダウン中の研究の多くは、身体活動の減少と座位時間の増加を報告しています。9か国のランダム化試験では、ライブ配信の自宅運動が自己申告の中強度・高強度活動を増やしましたが、効果は時間とともに小さくなりました。COVID-19下で自宅で活動的に過ごすためのWHOのガイダンスは、短い活動休憩、オンライン運動クラス、自重運動を挙げています。{1}{5}{7}",
+    "66研究（参加者86,981人）のシステマティックレビューでは、多くの研究がCOVID-19のロックダウン中に身体活動の減少と座りがちな行動の増加を報告しており、子どもやさまざまな病気をもつ患者を含む複数の集団で見られました。{1}",
+    "187か国のスマートフォンアプリ利用者455,404人の歩数データでは、2020年3月11日のWHOによるパンデミック宣言から10日以内に1日の平均歩数が5.5%、30日以内に27.3%（1,432歩）減少しました。2020年3月9日に全国的なロックダウンを宣言したイタリアでは最大48.7%減、スウェーデンでは6.9%減でした。著者らはデータを代表性のない便宜的標本としています。{2}2020年4月に1,047人を対象とした国際オンライン調査では、自宅待機はすべての強度の身体活動に負の影響を与え、1日の座位時間は5時間から8時間に増えました。{3}",
+    "21件の観察研究（参加者42,293人）のラピッドレビューでは、量と頻度が多く習慣が安定した形で定期的に体を動かしていた人は、パンデミック中のうつと不安の症状が少なかったと報告されています。たとえば、中高強度の活動時間が長いことは、うつ症状の可能性が12〜32%低いこと、不安の可能性が15〜34%低いことと関連していました。これらは関連であり、多くは横断研究によるものです。{4}",
+    "9か国の健康な成人763人を対象とした多施設ランダム化試験では、政府によるロックダウン中に、4週間のライブ配信の複合的な自宅運動と、運動しない対照群を比較しました。ライブ配信群は中強度の活動（1週目：週あたりの分数が1.65倍）と高強度の活動（1.31倍）が多く、効果は時間とともに小さくなりました。運動の動機づけ、睡眠の質、不安はわずかに改善し、精神的な健康はライブ配信の期間中に改善しましたが、録画のワークアウトに置き換わると逆の傾向を示しました。{5}同じ試験の参加者760人の分析では、8週間で53.8%が脱落したと報告されています。{6}"
+   ],
+   "items": [
+    {
+     "name": "ライブ配信の複合的な自宅運動",
+     "why": "ロックダウン中の9か国のランダム化試験で用いられた介入。{5}"
+    },
+    {
+     "name": "腕立て伏せ、腹筋運動、スクワット",
+     "why": "自宅での筋力向上としてWHOが挙げた運動。水を入れたボトルを即席の重りとして使う例も挙げている。{7}"
+    },
+    {
+     "name": "階段上りと家の中を歩くこと",
+     "why": "COVID-19下で自宅で活動的に過ごすためのWHOのガイダンスに記載。{7}"
+    },
+    {
+     "name": "短い動きの休憩",
+     "why": "WHOは、長時間の座位を減らすため20〜30分ごとに3〜5分の休憩を挙げている。{7}"
+    },
+    {
+     "name": "レジスタンスexercise snacking",
+     "why": "最小用量のレジスタンストレーニングのレビューで説明された、器具をほとんど使わない短く頻繁な運動。{9}"
+    }
+   ],
+   "enoughHeading": "自宅での活動量と習慣についてのWHOの見解",
+   "enough": [
+    "WHOの2020年ガイドラインは、成人は週150〜300分の中強度、または75〜150分の高強度の有酸素性活動に加え、週2日以上の筋力向上活動を行うべきで、どの長さの活動も数えられ、少しでも身体活動をすることは何もしないより良いとしています。{8}",
+    "WHOのCOVID-19ガイダンスは、定期的な身体活動は1日の生活リズムをつくり、家族や友人とつながる手段にもなりうるとしています。一人で、オンラインクラスで、または友人や同僚とオンラインで、毎日の活動時間を計画することを挙げています。普段あまり体を動かさない人については、5〜10分から始めて数週間で30分以上に増やしていく流れを示しています。WHOはこのページについて、更新を終了し参照用に残しているとしています。{7}",
+    "最小用量のレジスタンストレーニングに関するナラティブレビューは、短いセッション、または器具をほとんど、あるいはまったく使わない短く頻繁な運動が、若年および高齢の成人の筋力と機能的能力を向上させうると述べています。{9}"
+   ],
+   "safety": [
+    "体調不良：WHOのCOVID-19ガイダンスは、発熱、せき、呼吸困難がある人は運動をせず、自宅で休むとしています。{7}",
+    "警告症状：ACSMの2015年スクリーニング勧告は、胸、首、あご、腕の痛みや不快感、安静時や軽い運動での息切れ、めまいや失神、動悸、異常な疲労などの徴候と症状を挙げています。こうした徴候や症状が現れた運動習慣のある人は運動を中止し、どの強度の運動も再開する前に医療上の許可を得るとしています。{14}",
+    "屋内の一酸化炭素：CDCは、屋内で炭を決して燃やさないこと、携帯用ガスキャンプコンロを屋内で決して使わないこと、ガスオーブンで家を決して暖めないこと、ドアや窓を開けていても発電機を住宅やガレージの中で決して使わないことを述べています。最も一般的な症状として、頭痛、めまい、脱力、胃の不調、嘔吐、胸痛、錯乱を挙げています。{10}",
+    "スペース、暑さ、寒さ：WHOは、安全でない階段、照明、歩行面を転倒の危険因子に挙げています。{11}WHOの暑さに関するガイダンスは、1日で最も暑い時間帯の激しい活動を避けることと、夜の空気と窓を覆うことで家を涼しく保つことを挙げています。{12}NHSは、可能であれば普段使う部屋を少なくとも18°Cに暖めるとしています。{13}"
+   ],
+   "faq": [
+    {
+     "q": "COVID-19のロックダウンで身体活動はどう変わりましたか？",
+     "a": "66研究のシステマティックレビューでは、多くの研究がロックダウン中の身体活動の減少と座りがちな行動の増加を報告しました。{1}187か国のアプリのデータでは、パンデミック宣言から30日以内に1日の平均歩数が27.3%減少しました。{2}"
+    },
+    {
+     "q": "ライブ配信の自宅運動に効果はありますか？",
+     "a": "9か国の成人763人を対象としたランダム化試験では、4週間のライブ配信の自宅運動が、運動しない対照群と比べて自己申告の中強度・高強度活動を増やしましたが、効果は時間とともに小さくなりました。{5}同じ試験では、8週間で参加者の53.8%が脱落しました。{6}"
+    },
+    {
+     "q": "COVID-19下で自宅で活動的に過ごすために、WHOは何を挙げましたか？",
+     "a": "WHOは、20〜30分ごとに座るのをやめる3〜5分の短い休憩、家の中を歩くことと階段上り、オンライン運動クラス、ダンス、家事、自重（腕立て伏せ、腹筋運動、スクワット）や水を入れたボトルを使った筋力向上を挙げました。{7}"
+    },
+    {
+     "q": "ロックダウン中の身体活動は気分と関係がありますか？",
+     "a": "21件の観察研究のラピッドレビューでは、パンデミック中の中高強度の活動が多いことは、うつ症状の可能性が12〜32%低いこと、不安の可能性が15〜34%低いことと関連していました。これらは関連であり、因果関係の証拠ではありません。{4}"
+    },
+    {
+     "q": "OnlineFitnessWorldwideはオンラインのライブセッションを行っていますか？",
+     "a": "OnlineFitnessWorldwideは、Google Meet、Zoom、FaceTimeで、ヒンディー語と英語により、IST（インド標準時）で、1対1と少人数グループの筋力・コンディショニングのライブセッションを行っています。このページの研究で、そのセッションを検証したものはありません。"
+    }
+   ],
+   "updated": "2026年11月21日更新",
+   "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ",
+    "how": "やり方",
+    "dose": "回数・量",
+    "sources": "出典",
+    "readIn": "他の言語で読む",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問する",
+    "whatsappText": "こんにちは Susmit さん、ロックダウン中のフィットネスの記事を読み、相談を予約したいです",
+    "skip": "本文へスキップ",
+    "crumb": "ロックダウン中のフィットネス"
+   },
+   "byline": "執筆：スシュミット・ジャラン（Online Fitness Worldwide コーチ）"
+  },
+  "gu": {
+   "metaTitle": "લોકડાઉન દરમિયાન ફિટનેસ: પુરાવા | Online Fitness Worldwide",
+   "metaDescription": "લોકડાઉન ફિટનેસ: COVID-19 અભ્યાસોમાં પ્રવૃત્તિ, બેસવા અને મૂડ વિશે શું મળ્યું, ઘરમાં સક્રિય રહેવા પર WHO નું માર્ગદર્શન, અને લાઇવ હોમ કસરતની એક ટ્રાયલ.",
+   "h1": "લોકડાઉન દરમિયાન ફિટનેસ: સંશોધન શું દર્શાવે છે",
+   "dek": "COVID-19 લોકડાઉનના અભ્યાસો પ્રવૃત્તિ, બેસવાના સમય, મૂડ અને લાઇવ-સ્ટ્રીમ હોમ કસરત વિશે શું જણાવે છે, અને ઘરમાં સક્રિય રહેવા વિશે WHO શું કહે છે.",
+   "intro": [
+    "COVID-19 લોકડાઉનના અભ્યાસો મોટે ભાગે ઓછી શારીરિક પ્રવૃત્તિ અને વધુ બેસવાનું જણાવે છે. નવ દેશોની એક રેન્ડમાઇઝ્ડ ટ્રાયલમાં લાઇવ-સ્ટ્રીમ હોમ કસરતથી જાતે જણાવેલી મધ્યમ અને તીવ્ર પ્રવૃત્તિ વધી, પણ અસર સમય સાથે ઘટી. ઘરમાં સક્રિય રહેવા પરનું WHO નું COVID-19 માર્ગદર્શન ટૂંકા સક્રિય વિરામ, ઓનલાઇન કસરત ક્લાસ અને શરીરના વજનવાળી કસરતો ગણાવે છે.{1}{5}{7}",
+    "66 અભ્યાસો (86,981 સહભાગીઓ) ની એક સિસ્ટમેટિક સમીક્ષામાં જોવા મળ્યું કે મોટા ભાગના અભ્યાસોએ COVID-19 લોકડાઉન દરમિયાન શારીરિક પ્રવૃત્તિમાં ઘટાડો અને બેઠાડુ વર્તનમાં વધારો જણાવ્યો, બાળકો અને વિવિધ બીમારીવાળા દર્દીઓ સહિત અનેક વસ્તીઓમાં.{1}",
+    "187 દેશોમાં એક સ્માર્ટફોન એપના 4,55,404 વપરાશકર્તાઓના સ્ટેપ-કાઉન્ટ ડેટામાં 11 માર્ચ 2020 ના રોજ WHO ની મહામારી જાહેરાતના 10 દિવસમાં સરેરાશ દૈનિક પગલાંમાં 5.5% અને 30 દિવસમાં 27.3% (1,432 પગલાં) નો ઘટાડો દેખાયો. 9 માર્ચ 2020 ના રોજ રાષ્ટ્રીય લોકડાઉન જાહેર કરનાર ઇટાલીમાં મહત્તમ ઘટાડો 48.7% હતો; સ્વીડનમાં 6.9%. લેખકો ડેટાને બિન-પ્રતિનિધિ સગવડભર્યો નમૂનો ગણાવે છે.{2} એપ્રિલ 2020 માં 1,047 લોકોના એક આંતરરાષ્ટ્રીય ઓનલાઇન સર્વેમાં ઘરમાં બંધ રહેવાની શારીરિક પ્રવૃત્તિની બધી તીવ્રતાઓ પર નકારાત્મક અસર થઈ, અને રોજ બેસવાનો સમય 5 થી વધીને 8 કલાક થયો.{3}",
+    "21 ઓબ્ઝર્વેશનલ અભ્યાસો (42,293 સહભાગીઓ) ની એક રેપિડ સમીક્ષામાં જોવા મળ્યું કે જે લોકો નિયમિત રીતે, વધુ માત્રા અને આવર્તન સાથે અને સ્થિર દિનચર્યામાં સક્રિય હતા, તેમનામાં મહામારી દરમિયાન ડિપ્રેશન અને ચિંતાનાં ઓછાં લક્ષણો દેખાયાં. ઉદાહરણ તરીકે, મધ્યમથી તીવ્ર પ્રવૃત્તિમાં વધુ સમય ડિપ્રેશનનાં લક્ષણોની 12 થી 32% ઓછી અને ચિંતાની 15 થી 34% ઓછી શક્યતા સાથે સંકળાયેલો હતો. આ સંબંધો છે, મોટે ભાગે ક્રોસ-સેક્શનલ અભ્યાસોમાંથી.{4}",
+    "નવ દેશોના 763 સ્વસ્થ પુખ્તો પર એક મલ્ટિસેન્ટર રેન્ડમાઇઝ્ડ ટ્રાયલે સરકારી લોકડાઉન દરમિયાન 4 અઠવાડિયાની લાઇવ-સ્ટ્રીમ મલ્ટિકમ્પોનન્ટ હોમ કસરતની તુલના નિષ્ક્રિય કંટ્રોલ જૂથ સાથે કરી. લાઇવ-સ્ટ્રીમ જૂથે વધુ મધ્યમ પ્રવૃત્તિ (પ્રથમ અઠવાડિયું: દર અઠવાડિયે 1.65 ગણી વધુ મિનિટ) અને તીવ્ર પ્રવૃત્તિ (1.31 ગણી) કરી, પણ અસર સમય સાથે ઘટી. કસરતની પ્રેરણા, ઊંઘની ગુણવત્તા અને ચિંતામાં થોડો સુધારો થયો; લાઇવ-સ્ટ્રીમિંગના અઠવાડિયામાં માનસિક સુખાકારી સુધરી, પણ લાઇવ સત્રોની જગ્યાએ અગાઉથી રેકોર્ડ કરેલા વર્કઆઉટ આવતાં ઊલટો વલણ દેખાયો.{5} એ જ ટ્રાયલના 760 સહભાગીઓના એક વિશ્લેષણે જણાવ્યું કે 8 અઠવાડિયામાં 53.8% એ અધવચ્ચે છોડી દીધું.{6}"
+   ],
+   "items": [
+    {
+     "name": "લાઇવ-સ્ટ્રીમ મલ્ટિકમ્પોનન્ટ હોમ કસરત",
+     "why": "લોકડાઉન દરમિયાન નવ દેશોની એક રેન્ડમાઇઝ્ડ ટ્રાયલનું ઇન્ટરવેન્શન.{5}"
+    },
+    {
+     "name": "પુશ-અપ, સિટ-અપ અને સ્ક્વોટ",
+     "why": "ઘરમાં સ્નાયુ મજબૂત કરવા WHO એ તેનું નામ આપ્યું, પાણી ભરેલી બોટલોને કામચલાઉ વજન તરીકે.{7}"
+    },
+    {
+     "name": "સીડી ચડવી અને ઘરમાં ચાલવું",
+     "why": "ઘરમાં સક્રિય રહેવા પરના WHO ના COVID-19 માર્ગદર્શનમાં શામેલ.{7}"
+    },
+    {
+     "name": "હલનચલનના ટૂંકા વિરામ",
+     "why": "WHO લાંબો સમય બેસવાનું ઘટાડવા દર 20 થી 30 મિનિટે 3 થી 5 મિનિટના વિરામ ગણાવે છે.{7}"
+    },
+    {
+     "name": "રેઝિસ્ટન્સ exercise snacking",
+     "why": "ન્યૂનતમ-માત્રા રેઝિસ્ટન્સ તાલીમની સમીક્ષામાં વર્ણવેલા ઓછા કે સાધન વગરના ટૂંકા, વારંવારના સત્રો.{9}"
+    }
+   ],
+   "enoughHeading": "ઘરમાં માત્રા અને દિનચર્યા પર WHO શું કહે છે",
+   "enough": [
+    "WHO ની 2020 ની માર્ગદર્શિકા જણાવે છે કે પુખ્તોએ દર અઠવાડિયે 150 થી 300 મિનિટ મધ્યમ તીવ્રતાની કે 75 થી 150 મિનિટ તીવ્ર એરોબિક પ્રવૃત્તિ કરવી જોઈએ, સાથે 2 કે વધુ દિવસ સ્નાયુ મજબૂત કરતી પ્રવૃત્તિઓ; કોઈ પણ લંબાઈના સત્રો ગણાય છે, અને થોડી શારીરિક પ્રવૃત્તિ બિલકુલ ન કરવા કરતાં સારી છે.{8}",
+    "WHO નું COVID-19 માર્ગદર્શન જણાવે છે કે નિયમિત શારીરિક પ્રવૃત્તિ દિવસને એક દિનચર્યા આપવામાં અને પરિવાર તથા મિત્રો સાથે જોડાયેલા રહેવાનો એક માર્ગ બનવામાં મદદ કરી શકે છે. તે એકલા, કોઈ ઓનલાઇન ક્લાસમાં, કે મિત્રો કે સહકર્મીઓ સાથે ઓનલાઇન રોજ એક પ્રવૃત્તિ વિરામનું આયોજન ગણાવે છે. જે લોકો નિયમિત સક્રિય નથી તેમના માટે તે 5 થી 10 મિનિટથી શરૂ કરી થોડાં અઠવાડિયામાં 30 મિનિટ કે વધુ સુધી પહોંચવાનું વર્ણન કરે છે. WHO જણાવે છે કે આ પેજ હવે અપડેટ થતું નથી અને સંદર્ભ માટે રખાયું છે.{7}",
+    "ન્યૂનતમ-માત્રા રેઝિસ્ટન્સ તાલીમની એક નેરેટિવ સમીક્ષા જણાવે છે કે ટૂંકા સત્રો, અથવા ઓછા કે સાધન વગરના ટૂંકા અને વારંવારના સત્રો, યુવાન અને વૃદ્ધ પુખ્તોમાં તાકાત અને કાર્યક્ષમતા સુધારી શકે છે.{9}"
+   ],
+   "safety": [
+    "બીમારી: WHO નું COVID-19 માર્ગદર્શન જણાવે છે કે તાવ, ખાંસી અને શ્વાસ લેવામાં તકલીફવાળા લોકો કસરત કરતા નથી, અને ઘરે રહીને આરામ કરે છે.{7}",
+    "ચેતવણીના લક્ષણો: ACSM ની 2015 ની સ્ક્રીનિંગ ભલામણો એવા સંકેતો અને લક્ષણો ગણાવે છે જેમાં છાતી, ગરદન, જડબા કે હાથમાં દુખાવો કે બેચેની, આરામમાં કે હળવી મહેનતે શ્વાસ ચડવો, ચક્કર કે બેભાન થવું, ધબકારા ઝડપી લાગવા, અને અસામાન્ય થાક શામેલ છે. તેઓ જણાવે છે કે આવા સંકેતો કે લક્ષણો ધરાવતા શારીરિક રીતે સક્રિય લોકો કસરત બંધ કરે અને કોઈ પણ તીવ્રતાની કસરત ફરી શરૂ કરતા પહેલાં મેડિકલ મંજૂરી મેળવે.{14}",
+    "ઘરની અંદર કાર્બન મોનોક્સાઇડ: CDC જણાવે છે કે ઘરની અંદર ક્યારેય ચારકોલ સળગાવાતો નથી, પોર્ટેબલ ગેસ કેમ્પ સ્ટવ ઘરની અંદર ક્યારેય વપરાતો નથી, ઘરને ક્યારેય ગેસ ઓવનથી ગરમ કરાતું નથી, અને જનરેટર ઘર કે ગેરેજની અંદર ક્યારેય વપરાતું નથી, ભલે દરવાજા અને બારીઓ ખુલ્લાં હોય. તે સૌથી સામાન્ય લક્ષણો માથાનો દુખાવો, ચક્કર, નબળાઈ, પેટની તકલીફ, ઊલટી, છાતીમાં દુખાવો અને મૂંઝવણ જણાવે છે.{10}",
+    "જગ્યા, ગરમી અને ઠંડી: WHO અસુરક્ષિત સીડી, પ્રકાશ કે ચાલવાની સપાટીઓને પડવાના જોખમ પરિબળોમાં ગણે છે.{11} WHO નું ગરમી પરનું માર્ગદર્શન દિવસના સૌથી ગરમ સમયે સખત પ્રવૃત્તિ ટાળવી અને રાતની હવા તથા ઢાંકેલી બારીઓથી ઘર ઠંડું રાખવું ગણાવે છે.{12} NHS જણાવે છે કે શક્ય હોય તો નિયમિત વપરાતા ઓરડા ઓછામાં ઓછા 18°C સુધી ગરમ રખાય છે.{13}"
+   ],
+   "faq": [
+    {
+     "q": "COVID-19 લોકડાઉને શારીરિક પ્રવૃત્તિ કેવી રીતે બદલી?",
+     "a": "66 અભ્યાસોની એક સિસ્ટમેટિક સમીક્ષામાં જોવા મળ્યું કે મોટા ભાગનાએ લોકડાઉન દરમિયાન ઓછી શારીરિક પ્રવૃત્તિ અને વધુ બેઠાડુ વર્તન જણાવ્યું.{1} 187 દેશોના એપ ડેટામાં મહામારી જાહેરાતના 30 દિવસમાં સરેરાશ દૈનિક પગલાં 27.3% ઓછાં દેખાયાં.{2}"
+    },
+    {
+     "q": "શું લાઇવ-સ્ટ્રીમ હોમ કસરતથી ફરક પડે છે?",
+     "a": "નવ દેશોના 763 પુખ્તોની એક રેન્ડમાઇઝ્ડ ટ્રાયલમાં 4 અઠવાડિયાની લાઇવ હોમ કસરતે નિષ્ક્રિય કંટ્રોલની તુલનામાં જાતે જણાવેલી મધ્યમ અને તીવ્ર પ્રવૃત્તિ વધારી, પણ અસર સમય સાથે ઘટી.{5} એ જ ટ્રાયલમાં 8 અઠવાડિયામાં 53.8% સહભાગીઓએ અધવચ્ચે છોડી દીધું.{6}"
+    },
+    {
+     "q": "COVID-19 દરમિયાન ઘરમાં સક્રિય રહેવા WHO એ શું ગણાવ્યું?",
+     "a": "WHO એ દર 20 થી 30 મિનિટે બેસવામાંથી 3 થી 5 મિનિટના ટૂંકા વિરામ, ઘરમાં ચાલવું અને સીડી ચડવી, ઓનલાઇન કસરત ક્લાસ, નૃત્ય, ઘરકામ, અને શરીરના વજન (પુશ-અપ, સિટ-અપ, સ્ક્વોટ) કે પાણી ભરેલી બોટલોથી સ્નાયુ મજબૂત કરવા ગણાવ્યા.{7}"
+    },
+    {
+     "q": "શું લોકડાઉન દરમિયાન શારીરિક પ્રવૃત્તિનો મૂડ સાથે સંબંધ છે?",
+     "a": "21 ઓબ્ઝર્વેશનલ અભ્યાસોની એક રેપિડ સમીક્ષામાં જોવા મળ્યું કે મહામારી દરમિયાન વધુ મધ્યમથી તીવ્ર પ્રવૃત્તિ ડિપ્રેશનનાં લક્ષણોની 12 થી 32% ઓછી અને ચિંતાની 15 થી 34% ઓછી શક્યતા સાથે સંકળાયેલી હતી. આ સંબંધો છે, કારણનો પુરાવો નથી.{4}"
+    },
+    {
+     "q": "શું OnlineFitnessWorldwide લાઇવ ઓનલાઇન સત્રો ચલાવે છે?",
+     "a": "OnlineFitnessWorldwide Google Meet, Zoom અને FaceTime પર હિન્દી અને અંગ્રેજીમાં, IST સમય પ્રમાણે, લાઇવ 1:1 અને નાના જૂથના સ્ટ્રેન્થ અને કન્ડિશનિંગ સત્રો ચલાવે છે. આ પેજના કોઈ પણ અભ્યાસે તેનાં સત્રો ચકાસ્યાં નથી."
+    }
+   ],
+   "updated": "અપડેટ 21 નવેમ્બર 2026",
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "શા માટે",
+    "how": "કેવી રીતે",
+    "dose": "ડોઝ",
+    "sources": "સ્રોતો",
+    "readIn": "આ ભાષામાં વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "WhatsApp પર પૂછો",
+    "whatsappText": "નમસ્તે સુસ્મિત, મેં લોકડાઉન દરમિયાન ફિટનેસ પરનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    "skip": "સામગ્રી પર જાઓ",
+    "crumb": "લોકડાઉન દરમિયાન ફિટનેસ"
+   },
+   "byline": "લેખક: સુસ્મિત જાલાન, કોચ, Online Fitness Worldwide."
+  }
+ },
+ "format": "evidence"
+}

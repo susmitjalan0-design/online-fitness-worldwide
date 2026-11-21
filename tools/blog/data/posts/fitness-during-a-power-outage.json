@@ -1,0 +1,626 @@
+{
+ "slug": "fitness-during-a-power-outage",
+ "published": "2026-11-21",
+ "modified": "2026-11-21",
+ "about": "Physical activity during short or planned power outages",
+ "sources": [
+  {
+   "cite": "Bull FC, Al-Ansari SS, Biddle S, et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med. 2020;54(24):1451–1462.",
+   "url": "https://doi.org/10.1136/bjsports-2020-102955"
+  },
+  {
+   "cite": "Fyfe JJ, Hamilton DL, Daly RM. Minimal-dose resistance training for improving muscle mass, strength, and function: a narrative review of current evidence and practical considerations. Sports Med. 2022;52(3):463–479.",
+   "url": "https://doi.org/10.1007/s40279-021-01605-8"
+  },
+  {
+   "cite": "Kikuchi N, Nakazato K. Low-load bench press and push-up induce similar muscle hypertrophy and strength gain. J Exerc Sci Fit. 2017;15(1):37–42.",
+   "url": "https://doi.org/10.1016/j.jesf.2017.06.003"
+  },
+  {
+   "cite": "Jenkins EM, Nairn LN, Skelly LE, Little JP, Gibala MJ. Do stair climbing exercise \"snacks\" improve cardiorespiratory fitness? Appl Physiol Nutr Metab. 2019;44(6):681–684.",
+   "url": "https://doi.org/10.1139/apnm-2018-0675"
+  },
+  {
+   "cite": "Schoenfeld BJ, Grgic J, Ogborn D, Krieger JW. Strength and hypertrophy adaptations between low- vs. high-load resistance training: a systematic review and meta-analysis. J Strength Cond Res. 2017;31(12):3508–3523.",
+   "url": "https://doi.org/10.1519/JSC.0000000000002200"
+  },
+  {
+   "cite": "Ready.gov (US Department of Homeland Security). Power outages. Page last updated 4 June 2026.",
+   "url": "https://www.ready.gov/power-outages"
+  },
+  {
+   "cite": "Centers for Disease Control and Prevention. What to do to protect yourself during a power outage. cdc.gov; page dated 26 August 2026.",
+   "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html"
+  },
+  {
+   "cite": "World Health Organization. Falls. Fact sheet; 21 October 2026.",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/falls"
+  },
+  {
+   "cite": "Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's recommendations for exercise preparticipation health screening. Med Sci Sports Exerc. 2015;47(11):2473–2479.",
+   "url": "https://doi.org/10.1249/MSS.0000000000000664"
+  }
+ ],
+ "seeAlso": [
+  "fitness-during-a-blackout",
+  "best-bodyweight-exercises-for-travel",
+  "best-strength-exercises-for-busy-parents"
+ ],
+ "copy": {
+  "en": {
+   "metaTitle": "Fitness during a power outage: the evidence | Online Fitness Worldwide",
+   "metaDescription": "Short or planned power cuts: what WHO's guidelines, short-bout and bodyweight studies, the CDC and Ready.gov state on activity and safety. Sources cited.",
+   "h1": "Fitness during a short or planned power outage: what the research and official guidance show",
+   "dek": "What activity guidelines, short-bout and no-equipment training studies, and official outage guidance report for a few hours without electricity, such as scheduled load-shedding.",
+   "intro": [
+    "None of the cited sources studies exercise during a power outage. What they do report: WHO's 2020 guidelines count moderate-to-vigorous activity in bouts of any length towards the weekly recommendations; trials have tested training with no equipment or very little; and official outage guidance from the CDC and Ready.gov covers lighting, carbon monoxide, food storage, heat and cold.{1}{6}{7}",
+    "WHO's 2020 guidelines, published in the British Journal of Sports Medicine, state that adults should do 150 to 300 minutes of moderate-intensity or 75 to 150 minutes of vigorous-intensity aerobic activity a week, plus muscle-strengthening activities on 2 or more days. Bouts of any duration now count towards these amounts, which differs from the minimum of 10-minute bouts in the 2010 guidelines, and the guidelines restate that some physical activity is better than none.{1}",
+    "A narrative review of minimal-dose resistance training states that short sessions, or short, frequent bouts with little or no equipment (resistance \"exercise snacking\"), can improve strength and functional ability in younger and older adults.{2}",
+    "In an 8-week trial in 18 young men (9 per group, twice a week), push-ups adjusted to a load similar to 40% of one-repetition maximum (1RM) bench press, and bench press at 40% 1RM, produced comparable gains in bench-press 1RM and in triceps and chest muscle thickness.{3} A meta-analysis of 21 studies, with all sets taken to momentary muscular failure, found greater 1RM strength gains with high loads (over 60% of 1RM) than low loads, and similar changes in muscle size.{5}",
+    "In sedentary young adults (12 per group), vigorously climbing a 60-step stairwell 3 times a day, 1 to 4 hours apart, 3 days a week for 6 weeks raised peak oxygen uptake compared with a non-training group. The authors describe the absolute increase as modest.{4}"
+   ],
+   "items": [
+    {
+     "name": "Short bouts of moderate-to-vigorous activity",
+     "why": "WHO's 2020 guidelines state that bouts of any duration count towards the weekly recommendations.{1}"
+    },
+    {
+     "name": "Push-up",
+     "why": "Matched to 40% 1RM bench press in an 8-week trial in young men.{3}"
+    },
+    {
+     "name": "Stair climbing",
+     "why": "3 climbs of 60 steps a day, 3 days a week, for 6 weeks, in sedentary young adults.{4}"
+    },
+    {
+     "name": "Resistance exercise snacking",
+     "why": "Short, frequent bouts with little or no equipment, described in a review of minimal-dose resistance training.{2}"
+    }
+   ],
+   "enoughHeading": "What official outage guidance states",
+   "enough": [
+    "Ready.gov, the US government's preparedness site, states that a power outage may disrupt communications, water and transport, close shops and services, cause food spoilage and water contamination, and prevent the use of medical devices. Its preparation steps include flashlights for every household member and batteries or other power sources such as a power bank.{6}",
+    "Ready.gov states that a closed refrigerator keeps food cold for about four hours and a full freezer holds its temperature for about 48 hours.{6} The CDC gives 24 hours for a half-full freezer that stays closed, and lists perishable refrigerated food to be thrown out once the power has been off for 4 hours or more.{7}",
+    "Ready.gov lists alternate plans for refrigerated medicines and power-dependent medical devices, and checking with local officials about heating and cooling locations.{6}"
+   ],
+   "safety": [
+    "Carbon monoxide: the CDC states that a generator, pressure washer or other petrol-powered engine should never be used inside a home, basement or garage, or less than 20 feet (about 6 metres) from any window, door or vent, and that a charcoal grill, hibachi, lantern or portable camping stove should never be used inside a home, tent or camper. It lists the most common symptoms of carbon monoxide poisoning as headache, dizziness, weakness, nausea, vomiting, chest pain and confusion.{7} Ready.gov states that a gas stove or oven is not to be used to heat a home, because it increases the risk of carbon monoxide poisoning.{6}",
+    "Low light and falls: the CDC states that battery-powered flashlights and lanterns are used rather than candles or gas lanterns, to minimise the risk of fire.{7} WHO lists unsafe stairs, lighting or walking surfaces among the risk factors for falls, which it estimates caused about 842,000 deaths worldwide in 2023.{8}",
+    "Heat and cold: the CDC states that electric fans may give some comfort but will not prevent heat-related illness when it is really hot, that in heat stroke body temperature can rise to 106°F (about 41°C) or higher within 10 to 15 minutes, and that hypothermia, a body temperature below 95°F (35°C), is a medical emergency.{7}",
+    "Warning symptoms: ACSM's 2015 screening recommendations list signs and symptoms that include pain or discomfort in the chest, neck, jaw or arms, shortness of breath at rest or with mild exertion, dizziness or fainting, palpitations, and unusual fatigue. They state that physically active people who develop such signs or symptoms discontinue exercise and seek medical clearance before resuming exercise of any intensity.{9}"
+   ],
+   "faq": [
+    {
+     "q": "Do short bouts of exercise count towards activity guidelines?",
+     "a": "WHO's 2020 guidelines state that moderate-to-vigorous activity in bouts of any duration counts towards the weekly 150 to 300 minutes of moderate-intensity activity, and that some physical activity is better than none.{1}"
+    },
+    {
+     "q": "What has been studied for training without gym equipment?",
+     "a": "In an 8-week trial in 18 young men, push-ups and bench press at a similar load produced comparable gains in strength and in chest and triceps thickness.{3} In sedentary young adults, 3 short stair climbs a day, 3 days a week for 6 weeks, raised peak oxygen uptake compared with no training, by an amount the authors call modest.{4}"
+    },
+    {
+     "q": "How long does food stay cold in a fridge during a power cut?",
+     "a": "Ready.gov gives about four hours for a closed refrigerator and about 48 hours for a full freezer.{6} The CDC gives 24 hours for a half-full freezer that stays closed.{7}"
+    },
+    {
+     "q": "Can a generator be run indoors during an outage?",
+     "a": "The CDC states that a generator should never be used inside a home, basement or garage, or less than 20 feet from any window, door or vent, because carbon monoxide can build up and poison the people and animals inside.{7}"
+    },
+    {
+     "q": "How is this page different from the blackout page?",
+     "a": "This page covers short or scheduled outages of a few hours. The blackout page covers longer or unplanned outages: low light at home, carbon monoxide from alternative heating and cooking, heat, cold and fluids."
+    }
+   ],
+   "updated": "Updated 21 November 2026",
+   "credentialsNote": "ASCA Level 1 (strength and conditioning) and ACE (anatomy and biomechanics). These are credentials held by the coach. Neither body endorses this business or this article.",
+   "labels": {
+    "home": "Home",
+    "blog": "Blog",
+    "why": "Why",
+    "how": "How",
+    "dose": "Dose",
+    "sources": "Sources",
+    "readIn": "Read this in",
+    "programs": "See the programs",
+    "whatsapp": "Ask on WhatsApp",
+    "whatsappText": "Hi Susmit, I read the article on fitness during a power outage and want to book a consultation",
+    "skip": "Skip to content",
+    "crumb": "Fitness during a power outage"
+   },
+   "byline": "By Susmit Jalan, coach at Online Fitness Worldwide."
+  },
+  "ar": {
+   "metaTitle": "اللياقة أثناء انقطاع الكهرباء: الأدلة | Online Fitness Worldwide",
+   "metaDescription": "انقطاعات الكهرباء القصيرة أو المجدولة: ما تذكره إرشادات WHO ودراسات الجلسات القصيرة والتمرين دون معدات وCDC وReady.gov عن النشاط والسلامة. مع المصادر.",
+   "h1": "اللياقة أثناء انقطاع قصير أو مجدول للكهرباء: ما تُظهره الأبحاث والإرشادات الرسمية",
+   "dek": "ما تذكره إرشادات النشاط البدني، ودراسات الجلسات القصيرة والتدريب دون معدات، والإرشادات الرسمية بشأن انقطاع الكهرباء لساعات قليلة، مثل تخفيف الأحمال المجدول.",
+   "intro": [
+    "لا يدرس أيٌّ من المصادر المذكورة التمرين أثناء انقطاع الكهرباء. أما ما تذكره فهو: تحتسب إرشادات منظمة الصحة العالمية لعام 2020 النشاط المتوسط إلى الشديد في فترات من أي مدة ضمن التوصيات الأسبوعية؛ واختبرت عدة تجارب التدريب دون معدات أو بالقليل منها؛ وتغطي الإرشادات الرسمية من CDC وReady.gov الإضاءة وأول أكسيد الكربون وحفظ الطعام والحر والبرد.{1}{6}{7}",
+    "تنص إرشادات منظمة الصحة العالمية لعام 2020، المنشورة في British Journal of Sports Medicine، على أن البالغين ينبغي أن يمارسوا من 150 إلى 300 دقيقة من النشاط الهوائي متوسط الشدة أو من 75 إلى 150 دقيقة من النشاط الشديد أسبوعيًا، إضافةً إلى أنشطة تقوية العضلات يومين أو أكثر. وتُحتسب الآن الفترات من أي مدة ضمن هذه الكميات، خلافًا لحد أدنى من فترات مدتها 10 دقائق في إرشادات 2010، وتؤكد الإرشادات أن بعض النشاط البدني أفضل من لا شيء.{1}",
+    "تذكر مراجعة سردية عن تدريب المقاومة بالحد الأدنى من الجرعة أن الجلسات القصيرة، أو الفترات القصيرة المتكررة بمعدات قليلة أو دونها (\"exercise snacking\" للمقاومة)، يمكن أن تحسّن القوة والقدرة الوظيفية لدى البالغين الأصغر والأكبر سنًا.{2}",
+    "في تجربة مدتها 8 أسابيع على 18 شابًا (9 في كل مجموعة، مرتين أسبوعيًا)، أدت تمارين الضغط المعدّلة إلى حمل يقارب 40% من الحد الأقصى لتكرار واحد (1RM) في ضغط البنش، وضغط البنش عند 40% من 1RM، إلى مكاسب متقاربة في 1RM لضغط البنش وفي سماكة عضلات الصدر والعضلة ثلاثية الرؤوس.{3} ووجد تحليل تلوي لـ 21 دراسة، أُديت فيها كل المجموعات حتى الإخفاق العضلي اللحظي، مكاسب أكبر في قوة 1RM مع الأحمال العالية (أكثر من 60% من 1RM) مقارنةً بالأحمال المنخفضة، وتغيرات متشابهة في حجم العضلات.{5}",
+    "لدى بالغين شباب قليلي الحركة (12 في كل مجموعة)، أدى صعود درج من 60 درجة بقوة 3 مرات يوميًا، بفاصل 1 إلى 4 ساعات، 3 أيام أسبوعيًا لمدة 6 أسابيع، إلى رفع ذروة استهلاك الأكسجين مقارنةً بمجموعة لا تتدرب. ويصف الباحثون الزيادة المطلقة بأنها متواضعة.{4}"
+   ],
+   "items": [
+    {
+     "name": "فترات قصيرة من النشاط المتوسط إلى الشديد",
+     "why": "تنص إرشادات منظمة الصحة العالمية لعام 2020 على أن الفترات من أي مدة تُحتسب ضمن التوصيات الأسبوعية.{1}"
+    },
+    {
+     "name": "تمرين الضغط",
+     "why": "عُودل بضغط البنش عند 40% من 1RM في تجربة مدتها 8 أسابيع على شباب.{3}"
+    },
+    {
+     "name": "صعود الدرج",
+     "why": "3 صعودات من 60 درجة يوميًا، 3 أيام أسبوعيًا، لمدة 6 أسابيع، لدى بالغين شباب قليلي الحركة.{4}"
+    },
+    {
+     "name": "\"exercise snacking\" للمقاومة",
+     "why": "فترات قصيرة متكررة بمعدات قليلة أو دونها، موصوفة في مراجعة عن تدريب المقاومة بالحد الأدنى من الجرعة.{2}"
+    }
+   ],
+   "enoughHeading": "ما تذكره الإرشادات الرسمية بشأن انقطاع الكهرباء",
+   "enough": [
+    "يذكر موقع Ready.gov، موقع الحكومة الأمريكية للاستعداد للطوارئ، أن انقطاع الكهرباء قد يعطّل الاتصالات والمياه والنقل، ويغلق المتاجر والخدمات، ويفسد الطعام ويلوث المياه، ويمنع استخدام الأجهزة الطبية. وتشمل خطوات الاستعداد لديه مصباحًا يدويًا لكل فرد في المنزل وبطاريات أو مصادر طاقة أخرى مثل بنك الطاقة.{6}",
+    "يذكر Ready.gov أن الثلاجة المغلقة تحافظ على برودة الطعام نحو أربع ساعات، وأن المجمد الممتلئ يحافظ على حرارته نحو 48 ساعة.{6} ويذكر CDC مدة 24 ساعة للمجمد نصف الممتلئ إذا بقي مغلقًا، ويذكر أن الأطعمة القابلة للتلف في الثلاجة تُتلف بعد انقطاع الكهرباء 4 ساعات أو أكثر.{7}",
+    "يدرج Ready.gov خططًا بديلة للأدوية المبرّدة والأجهزة الطبية التي تعمل بالكهرباء، والاستفسار من السلطات المحلية عن أماكن التدفئة والتبريد.{6}"
+   ],
+   "safety": [
+    "أول أكسيد الكربون: يذكر CDC أن المولد أو آلة الغسل بالضغط أو أي محرك يعمل بالبنزين لا ينبغي استخدامه أبدًا داخل المنزل أو القبو أو المرآب، أو على بعد أقل من 20 قدمًا (نحو 6 أمتار) من أي نافذة أو باب أو فتحة تهوية، وأن شواية الفحم أو الهيباتشي أو الفانوس أو موقد التخييم المحمول لا ينبغي استخدامه أبدًا داخل منزل أو خيمة أو عربة تخييم. ويذكر أن الأعراض الأكثر شيوعًا للتسمم بأول أكسيد الكربون هي الصداع والدوخة والضعف والغثيان والقيء وألم الصدر والارتباك.{7} ويذكر Ready.gov أن موقد الغاز أو الفرن لا يُستخدم لتدفئة المنزل لأنه يزيد خطر التسمم بأول أكسيد الكربون.{6}",
+    "الإضاءة الضعيفة والسقوط: يذكر CDC أن المصابيح اليدوية والفوانيس العاملة بالبطاريات تُستخدم بدلًا من الشموع أو فوانيس الغاز لتقليل خطر الحريق إلى أدنى حد.{7} وتدرج منظمة الصحة العالمية السلالم أو الإضاءة أو أسطح المشي غير الآمنة ضمن عوامل خطر السقوط، الذي تقدّر أنه تسبب في نحو 842,000 وفاة حول العالم في 2023.{8}",
+    "الحر والبرد: يذكر CDC أن المراوح الكهربائية قد توفر بعض الراحة لكنها لا تمنع الأمراض المرتبطة بالحرارة عندما يكون الطقس شديد الحر، وأن حرارة الجسم في ضربة الشمس قد ترتفع إلى 106°F (نحو 41°C) أو أكثر خلال 10 إلى 15 دقيقة، وأن انخفاض حرارة الجسم، أي حرارة أقل من 95°F (35°C)، حالة طبية طارئة.{7}",
+    "الأعراض التحذيرية: تدرج توصيات الفحص لدى ACSM لعام 2015 علامات وأعراضًا تشمل ألمًا أو انزعاجًا في الصدر أو الرقبة أو الفك أو الذراعين، وضيق التنفس أثناء الراحة أو مع جهد خفيف، والدوخة أو الإغماء، والخفقان، والتعب غير المعتاد. وتنص على أن الأشخاص النشطين بدنيًا الذين تظهر عليهم هذه العلامات أو الأعراض يتوقفون عن التمرين ويحصلون على إذن طبي قبل استئناف التمرين بأي شدة.{9}"
+   ],
+   "faq": [
+    {
+     "q": "هل تُحتسب فترات التمرين القصيرة ضمن إرشادات النشاط؟",
+     "a": "تنص إرشادات منظمة الصحة العالمية لعام 2020 على أن النشاط المتوسط إلى الشديد في فترات من أي مدة يُحتسب ضمن 150 إلى 300 دقيقة أسبوعيًا من النشاط المتوسط، وأن بعض النشاط البدني أفضل من لا شيء.{1}"
+    },
+    {
+     "q": "ما الذي دُرس عن التدريب دون معدات الصالة الرياضية؟",
+     "a": "في تجربة مدتها 8 أسابيع على 18 شابًا، أدت تمارين الضغط وضغط البنش بحمل متقارب إلى مكاسب متقاربة في القوة وفي سماكة الصدر والعضلة ثلاثية الرؤوس.{3} ولدى بالغين شباب قليلي الحركة، رفعت 3 صعودات قصيرة للدرج يوميًا، 3 أيام أسبوعيًا لمدة 6 أسابيع، ذروة استهلاك الأكسجين مقارنةً بعدم التدريب، بمقدار يصفه الباحثون بالمتواضع.{4}"
+    },
+    {
+     "q": "كم يبقى الطعام باردًا في الثلاجة أثناء انقطاع الكهرباء؟",
+     "a": "يذكر Ready.gov نحو أربع ساعات للثلاجة المغلقة ونحو 48 ساعة للمجمد الممتلئ.{6} ويذكر CDC مدة 24 ساعة للمجمد نصف الممتلئ إذا بقي مغلقًا.{7}"
+    },
+    {
+     "q": "هل يمكن تشغيل مولد داخل المنزل أثناء انقطاع الكهرباء؟",
+     "a": "يذكر CDC أن المولد لا ينبغي استخدامه أبدًا داخل المنزل أو القبو أو المرآب، أو على بعد أقل من 20 قدمًا من أي نافذة أو باب أو فتحة تهوية، لأن أول أكسيد الكربون قد يتراكم ويسمم الأشخاص والحيوانات في الداخل.{7}"
+    },
+    {
+     "q": "بماذا تختلف هذه الصفحة عن صفحة الانقطاع الشامل للكهرباء؟",
+     "a": "تتناول هذه الصفحة الانقطاعات القصيرة أو المجدولة لساعات قليلة. أما صفحة الانقطاع الشامل فتتناول الانقطاعات الطويلة أو المفاجئة: الإضاءة الضعيفة في المنزل، وأول أكسيد الكربون من وسائل التدفئة والطهي البديلة، والحر والبرد والسوائل."
+    }
+   ],
+   "updated": "حدّث في 21 نوفمبر 2026",
+   "credentialsNote": "ASCA المستوى 1 (القوة والتكييف البدني) وACE (التشريح والميكانيكا الحيوية). هذه شهادات يحملها المدرب. لا تؤيد أيّ من الجهتين هذا العمل أو هذا المقال.",
+   "labels": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "why": "لماذا",
+    "how": "كيف",
+    "dose": "الجرعة",
+    "sources": "المصادر",
+    "readIn": "اقرأ بلغة أخرى",
+    "programs": "اطّلع على البرامج",
+    "whatsapp": "اسأل عبر واتساب",
+    "whatsappText": "مرحبًا سوسميت، قرأت المقال عن اللياقة أثناء انقطاع الكهرباء وأريد حجز استشارة",
+    "skip": "انتقل إلى المحتوى",
+    "crumb": "اللياقة أثناء انقطاع الكهرباء"
+   },
+   "byline": "بقلم سوسميت جالان، مدرب في Online Fitness Worldwide."
+  },
+  "hi": {
+   "metaTitle": "बिजली कटौती के दौरान फ़िटनेस: प्रमाण | Online Fitness Worldwide",
+   "metaDescription": "छोटी या तय बिजली कटौती: WHO गाइडलाइंस, छोटे सत्रों और बिना उपकरण वाले अध्ययन, CDC और Ready.gov गतिविधि और सुरक्षा पर क्या कहते हैं। स्रोतों सहित।",
+   "h1": "छोटी या पहले से तय बिजली कटौती के दौरान फ़िटनेस: शोध और आधिकारिक मार्गदर्शन क्या दिखाते हैं",
+   "dek": "कुछ घंटों तक बिजली न रहने पर, जैसे तय लोड-शेडिंग में, शारीरिक गतिविधि की गाइडलाइंस, छोटे सत्रों और बिना उपकरण वाली ट्रेनिंग के अध्ययन, और बिजली कटौती पर आधिकारिक मार्गदर्शन क्या बताते हैं।",
+   "intro": [
+    "उद्धृत स्रोतों में से कोई भी बिजली कटौती के दौरान व्यायाम का अध्ययन नहीं करता। वे जो बताते हैं: WHO की 2020 की गाइडलाइंस किसी भी अवधि के मध्यम से तीव्र गतिविधि के सत्रों को साप्ताहिक सिफ़ारिशों में गिनती हैं; कई ट्रायल ने बिना उपकरण या बहुत कम उपकरण वाली ट्रेनिंग को परखा है; और CDC तथा Ready.gov का आधिकारिक मार्गदर्शन रोशनी, कार्बन मोनोऑक्साइड, खाने के भंडारण, गर्मी और ठंड को कवर करता है।{1}{6}{7}",
+    "British Journal of Sports Medicine में प्रकाशित WHO की 2020 की गाइडलाइंस कहती हैं कि वयस्कों को हर हफ़्ते 150 से 300 मिनट मध्यम तीव्रता या 75 से 150 मिनट तीव्र एरोबिक गतिविधि करनी चाहिए, साथ में 2 या अधिक दिन मांसपेशियाँ मज़बूत करने वाली गतिविधियाँ। अब किसी भी अवधि के सत्र इन मात्राओं में गिने जाते हैं, जो 2010 की गाइडलाइंस की कम से कम 10 मिनट के सत्रों की शर्त से अलग है, और गाइडलाइंस दोहराती हैं कि कुछ शारीरिक गतिविधि बिल्कुल न करने से बेहतर है।{1}",
+    "न्यूनतम-मात्रा रेज़िस्टेंस ट्रेनिंग की एक नैरेटिव समीक्षा कहती है कि छोटे सत्र, या कम या बिना उपकरण के छोटे और बार-बार किए गए सत्र (रेज़िस्टेंस \"exercise snacking\"), युवा और बुज़ुर्ग वयस्कों में ताक़त और कार्यक्षमता सुधार सकते हैं।{2}",
+    "18 युवा पुरुषों (हर समूह में 9, हफ़्ते में दो बार) पर 8 हफ़्ते के एक ट्रायल में, बेंच प्रेस के एक-रेपिटिशन मैक्सिमम (1RM) के लगभग 40% जितने भार पर समायोजित पुश-अप, और 40% 1RM पर बेंच प्रेस ने बेंच-प्रेस 1RM और ट्राइसेप्स तथा छाती की मांसपेशियों की मोटाई में तुलनीय बढ़त दी।{3} 21 अध्ययनों के एक मेटा-विश्लेषण में, जहाँ सभी सेट क्षणिक मांसपेशी विफलता तक किए गए, भारी भार (1RM के 60% से अधिक) से हल्के भार की तुलना में 1RM ताक़त में अधिक बढ़त मिली, जबकि मांसपेशियों के आकार में बदलाव समान रहा।{5}",
+    "निष्क्रिय युवा वयस्कों (हर समूह में 12) में, 60 सीढ़ियों वाली सीढ़ी पर दिन में 3 बार, 1 से 4 घंटे के अंतर पर, हफ़्ते में 3 दिन, 6 हफ़्ते तक तेज़ी से चढ़ने से बिना ट्रेनिंग वाले समूह की तुलना में पीक ऑक्सीजन अपटेक बढ़ा। लेखक इस बढ़त को मामूली बताते हैं।{4}"
+   ],
+   "items": [
+    {
+     "name": "मध्यम से तीव्र गतिविधि के छोटे सत्र",
+     "why": "WHO की 2020 की गाइडलाइंस कहती हैं कि किसी भी अवधि के सत्र साप्ताहिक सिफ़ारिशों में गिने जाते हैं।{1}"
+    },
+    {
+     "name": "पुश-अप",
+     "why": "युवा पुरुषों पर 8 हफ़्ते के ट्रायल में 40% 1RM बेंच प्रेस के बराबर रखा गया।{3}"
+    },
+    {
+     "name": "सीढ़ियाँ चढ़ना",
+     "why": "निष्क्रिय युवा वयस्कों में दिन में 60 सीढ़ियों की 3 चढ़ाई, हफ़्ते में 3 दिन, 6 हफ़्ते तक।{4}"
+    },
+    {
+     "name": "रेज़िस्टेंस exercise snacking",
+     "why": "न्यूनतम-मात्रा रेज़िस्टेंस ट्रेनिंग की समीक्षा में बताए गए कम या बिना उपकरण के छोटे, बार-बार के सत्र।{2}"
+    }
+   ],
+   "enoughHeading": "बिजली कटौती पर आधिकारिक मार्गदर्शन क्या कहता है",
+   "enough": [
+    "अमेरिकी सरकार की आपदा-तैयारी साइट Ready.gov कहती है कि बिजली कटौती संचार, पानी और परिवहन को बाधित कर सकती है, दुकानें और सेवाएँ बंद करा सकती है, खाना ख़राब और पानी दूषित कर सकती है, और मेडिकल उपकरणों का इस्तेमाल रोक सकती है। इसकी तैयारी की सूची में घर के हर सदस्य के लिए टॉर्च और बैटरी या पावर बैंक जैसे दूसरे बिजली स्रोत शामिल हैं।{6}",
+    "Ready.gov कहती है कि बंद रखा गया फ़्रिज खाने को लगभग चार घंटे ठंडा रखता है और भरा हुआ फ़्रीज़र लगभग 48 घंटे तक अपना तापमान बनाए रखता है।{6} CDC बंद रखे गए आधे भरे फ़्रीज़र के लिए 24 घंटे बताता है, और कहता है कि बिजली 4 घंटे या उससे ज़्यादा बंद रहने पर फ़्रिज का जल्दी ख़राब होने वाला खाना फेंक दिया जाता है।{7}",
+    "Ready.gov की सूची में फ़्रिज में रखी जाने वाली दवाओं और बिजली से चलने वाले मेडिकल उपकरणों के लिए वैकल्पिक योजना, और गर्मी या ठंड से बचाव वाली जगहों के बारे में स्थानीय अधिकारियों से जानकारी लेना शामिल है।{6}"
+   ],
+   "safety": [
+    "कार्बन मोनोऑक्साइड: CDC कहता है कि जनरेटर, प्रेशर वॉशर या पेट्रोल से चलने वाला कोई भी इंजन घर, बेसमेंट या गैराज के अंदर, या किसी खिड़की, दरवाज़े या वेंट से 20 फ़ुट (लगभग 6 मीटर) से कम दूरी पर कभी इस्तेमाल नहीं होना चाहिए, और चारकोल ग्रिल, हिबाची, लालटेन या पोर्टेबल कैंपिंग स्टोव घर, टेंट या कैंपर के अंदर कभी इस्तेमाल नहीं होना चाहिए। वह कार्बन मोनोऑक्साइड विषाक्तता के सबसे आम लक्षण सिरदर्द, चक्कर, कमज़ोरी, मतली, उल्टी, सीने में दर्द और भ्रम बताता है।{7} Ready.gov कहती है कि घर गर्म करने के लिए गैस स्टोव या ओवन का इस्तेमाल नहीं होना चाहिए, क्योंकि इससे कार्बन मोनोऑक्साइड विषाक्तता का जोखिम बढ़ता है।{6}",
+    "कम रोशनी और गिरना: CDC कहता है कि आग के जोखिम को कम से कम रखने के लिए मोमबत्ती या गैस लालटेन के बजाय बैटरी वाली टॉर्च और लालटेन इस्तेमाल की जाती हैं।{7} WHO असुरक्षित सीढ़ियों, रोशनी या चलने की सतहों को गिरने के जोखिम कारकों में गिनता है; उसके अनुमान के अनुसार 2023 में दुनिया भर में गिरने से लगभग 8,42,000 मौतें हुईं।{8}",
+    "गर्मी और ठंड: CDC कहता है कि बिजली के पंखे कुछ राहत दे सकते हैं, पर बहुत गर्मी में गर्मी से होने वाली बीमारी को नहीं रोकते; हीट स्ट्रोक में शरीर का तापमान 10 से 15 मिनट में 106°F (लगभग 41°C) या उससे ज़्यादा हो सकता है; और हाइपोथर्मिया, यानी 95°F (35°C) से कम शरीर का तापमान, एक मेडिकल इमरजेंसी है।{7}",
+    "चेतावनी के लक्षण: ACSM की 2015 की स्क्रीनिंग सिफ़ारिशें ऐसे संकेत और लक्षण गिनाती हैं जिनमें सीने, गर्दन, जबड़े या बाँहों में दर्द या बेचैनी, आराम में या हल्की मेहनत पर साँस फूलना, चक्कर या बेहोशी, धड़कन तेज़ महसूस होना, और असामान्य थकान शामिल हैं। वे कहती हैं कि ऐसे संकेत या लक्षण वाले शारीरिक रूप से सक्रिय लोग व्यायाम बंद करें और किसी भी तीव्रता का व्यायाम फिर से शुरू करने से पहले मेडिकल मंज़ूरी लें।{9}"
+   ],
+   "faq": [
+    {
+     "q": "क्या व्यायाम के छोटे सत्र गतिविधि की गाइडलाइंस में गिने जाते हैं?",
+     "a": "WHO की 2020 की गाइडलाइंस कहती हैं कि किसी भी अवधि के सत्रों में की गई मध्यम से तीव्र गतिविधि हफ़्ते के 150 से 300 मिनट की मध्यम गतिविधि में गिनी जाती है, और कुछ शारीरिक गतिविधि बिल्कुल न करने से बेहतर है।{1}"
+    },
+    {
+     "q": "बिना जिम उपकरण के ट्रेनिंग पर क्या अध्ययन हुआ है?",
+     "a": "18 युवा पुरुषों पर 8 हफ़्ते के ट्रायल में समान भार पर पुश-अप और बेंच प्रेस ने ताक़त और छाती व ट्राइसेप्स की मोटाई में तुलनीय बढ़त दी।{3} निष्क्रिय युवा वयस्कों में दिन में 3 छोटी सीढ़ी-चढ़ाई, हफ़्ते में 3 दिन, 6 हफ़्ते तक, ने बिना ट्रेनिंग की तुलना में पीक ऑक्सीजन अपटेक बढ़ाया, जिसे लेखक मामूली बढ़त बताते हैं।{4}"
+    },
+    {
+     "q": "बिजली कटौती में फ़्रिज में खाना कितनी देर ठंडा रहता है?",
+     "a": "Ready.gov बंद फ़्रिज के लिए लगभग चार घंटे और भरे फ़्रीज़र के लिए लगभग 48 घंटे बताती है।{6} CDC बंद रखे गए आधे भरे फ़्रीज़र के लिए 24 घंटे बताता है।{7}"
+    },
+    {
+     "q": "क्या बिजली कटौती में जनरेटर घर के अंदर चलाया जा सकता है?",
+     "a": "CDC कहता है कि जनरेटर घर, बेसमेंट या गैराज के अंदर, या किसी खिड़की, दरवाज़े या वेंट से 20 फ़ुट से कम दूरी पर कभी इस्तेमाल नहीं होना चाहिए, क्योंकि कार्बन मोनोऑक्साइड जमा होकर अंदर मौजूद लोगों और जानवरों को ज़हर दे सकती है।{7}"
+    },
+    {
+     "q": "यह पेज ब्लैकआउट वाले पेज से कैसे अलग है?",
+     "a": "यह पेज कुछ घंटों की छोटी या तय बिजली कटौती के बारे में है। ब्लैकआउट वाला पेज लंबी या अचानक कटौती के बारे में है: घर में कम रोशनी, वैकल्पिक हीटिंग और खाना पकाने से कार्बन मोनोऑक्साइड, गर्मी, ठंड और पानी।"
+    }
+   ],
+   "updated": "अपडेट 21 नवंबर 2026",
+   "credentialsNote": "ASCA लेवल 1 (स्ट्रेंथ और कंडीशनिंग) और ACE (एनाटॉमी और बायोमैकेनिक्स)। ये कोच के क्रेडेंशियल हैं। इनमें से कोई भी संस्था इस व्यवसाय या इस लेख का समर्थन नहीं करती।",
+   "labels": {
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "why": "क्यों",
+    "how": "कैसे",
+    "dose": "डोज़",
+    "sources": "स्रोत",
+    "readIn": "इसे इस भाषा में पढ़ें",
+    "programs": "प्रोग्राम देखें",
+    "whatsapp": "WhatsApp पर पूछें",
+    "whatsappText": "नमस्ते सुस्मित, मैंने बिजली कटौती के दौरान फ़िटनेस वाला लेख पढ़ा और कंसल्टेशन बुक करना चाहता/चाहती हूँ",
+    "skip": "सामग्री पर जाएँ",
+    "crumb": "बिजली कटौती के दौरान फ़िटनेस"
+   },
+   "byline": "लेखक: सुस्मित जालान, कोच, Online Fitness Worldwide।"
+  },
+  "es": {
+   "metaTitle": "Ejercicio durante un corte de luz: la evidencia | Online Fitness Worldwide",
+   "metaDescription": "Cortes de luz breves o programados: qué dicen la OMS, estudios de sesiones cortas y sin material, los CDC y Ready.gov sobre actividad y seguridad.",
+   "h1": "Ejercicio durante un corte de luz breve o programado: qué muestran la investigación y las guías oficiales",
+   "dek": "Qué informan las guías de actividad física, los estudios de sesiones cortas y sin material, y las guías oficiales sobre cortes de luz para unas horas sin electricidad, como los cortes programados.",
+   "intro": [
+    "Ninguna de las fuentes citadas estudia el ejercicio durante un corte de luz. Lo que sí informan: las guías de la OMS de 2020 cuentan la actividad moderada a vigorosa en bloques de cualquier duración para las recomendaciones semanales; varios ensayos han probado entrenamiento sin material o con muy poco; y las guías oficiales de los CDC y Ready.gov sobre cortes de luz tratan la iluminación, el monóxido de carbono, la conservación de alimentos, el calor y el frío.{1}{6}{7}",
+    "Las guías de la OMS de 2020, publicadas en el British Journal of Sports Medicine, establecen que los adultos deberían hacer de 150 a 300 minutos de actividad aeróbica moderada o de 75 a 150 minutos de actividad vigorosa a la semana, además de actividades de fortalecimiento muscular 2 o más días. Los bloques de cualquier duración cuentan ahora para esas cantidades, a diferencia del mínimo de bloques de 10 minutos de las guías de 2010, y las guías reiteran que algo de actividad física es mejor que nada.{1}",
+    "Una revisión narrativa sobre el entrenamiento de fuerza de dosis mínima afirma que las sesiones cortas, o los bloques breves y frecuentes con poco o ningún material (\"exercise snacking\" de fuerza), pueden mejorar la fuerza y la capacidad funcional en adultos jóvenes y mayores.{2}",
+    "En un ensayo de 8 semanas con 18 hombres jóvenes (9 por grupo, dos veces por semana), las flexiones ajustadas a una carga similar al 40% de una repetición máxima (1RM) en press de banca, y el press de banca al 40% de 1RM, produjeron mejoras comparables en el 1RM de press de banca y en el grosor muscular del tríceps y el pecho.{3} Un metaanálisis de 21 estudios, con todas las series llevadas al fallo muscular momentáneo, encontró mayores ganancias de fuerza 1RM con cargas altas (más del 60% de 1RM) que con cargas bajas, y cambios similares en el tamaño muscular.{5}",
+    "En adultos jóvenes sedentarios (12 por grupo), subir con intensidad una escalera de 60 peldaños 3 veces al día, con 1 a 4 horas entre subidas, 3 días a la semana durante 6 semanas, aumentó el consumo máximo de oxígeno frente a un grupo sin entrenamiento. Los autores describen el aumento absoluto como modesto.{4}"
+   ],
+   "items": [
+    {
+     "name": "Bloques cortos de actividad moderada a vigorosa",
+     "why": "Las guías de la OMS de 2020 establecen que los bloques de cualquier duración cuentan para las recomendaciones semanales.{1}"
+    },
+    {
+     "name": "Flexión de brazos",
+     "why": "Igualada al 40% de 1RM en press de banca en un ensayo de 8 semanas con hombres jóvenes.{3}"
+    },
+    {
+     "name": "Subir escaleras",
+     "why": "3 subidas de 60 peldaños al día, 3 días a la semana, durante 6 semanas, en adultos jóvenes sedentarios.{4}"
+    },
+    {
+     "name": "\"Exercise snacking\" de fuerza",
+     "why": "Bloques breves y frecuentes con poco o ningún material, descritos en una revisión sobre entrenamiento de fuerza de dosis mínima.{2}"
+    }
+   ],
+   "enoughHeading": "Qué dicen las guías oficiales sobre cortes de luz",
+   "enough": [
+    "Ready.gov, el sitio de preparación para emergencias del Gobierno de EE. UU., afirma que un corte de luz puede interrumpir las comunicaciones, el agua y el transporte, cerrar comercios y servicios, estropear alimentos, contaminar el agua e impedir el uso de dispositivos médicos. Sus pasos de preparación incluyen linternas para cada miembro del hogar y pilas u otras fuentes de energía, como una batería externa.{6}",
+    "Ready.gov afirma que un frigorífico cerrado mantiene los alimentos fríos unas cuatro horas y que un congelador lleno mantiene su temperatura unas 48 horas.{6} Los CDC indican 24 horas para un congelador medio lleno que permanezca cerrado, y señalan que los alimentos perecederos refrigerados se desechan cuando la luz lleva cortada 4 horas o más.{7}",
+    "Ready.gov incluye planes alternativos para medicamentos refrigerados y dispositivos médicos eléctricos, y consultar a las autoridades locales sobre lugares con calefacción o refrigeración.{6}"
+   ],
+   "safety": [
+    "Monóxido de carbono: los CDC afirman que un generador, una hidrolimpiadora u otro motor de gasolina nunca debe usarse dentro de una vivienda, un sótano o un garaje, ni a menos de 20 pies (unos 6 metros) de una ventana, puerta o rejilla de ventilación, y que una parrilla de carbón, un hibachi, un farol o un hornillo de camping nunca debe usarse dentro de una vivienda, una tienda de campaña o una caravana. Enumeran como síntomas más comunes de la intoxicación por monóxido de carbono el dolor de cabeza, el mareo, la debilidad, las náuseas, los vómitos, el dolor en el pecho y la confusión.{7} Ready.gov afirma que una cocina u horno de gas no debe usarse para calentar la vivienda, porque aumenta el riesgo de intoxicación por monóxido de carbono.{6}",
+    "Poca luz y caídas: los CDC afirman que se usan linternas y faroles a pilas en lugar de velas o faroles de gas, para reducir al mínimo el riesgo de incendio.{7} La OMS incluye las escaleras, la iluminación o las superficies inseguras entre los factores de riesgo de caídas, que según sus estimaciones causaron unas 842.000 muertes en el mundo en 2023.{8}",
+    "Calor y frío: los CDC afirman que los ventiladores eléctricos pueden dar algo de alivio pero no evitan las enfermedades por calor cuando hace mucho calor, que en un golpe de calor la temperatura corporal puede subir a 106 °F (unos 41 °C) o más en 10 a 15 minutos, y que la hipotermia, una temperatura corporal inferior a 95 °F (35 °C), es una urgencia médica.{7}",
+    "Síntomas de alarma: las recomendaciones de cribado del ACSM de 2015 enumeran signos y síntomas que incluyen dolor o molestia en el pecho, el cuello, la mandíbula o los brazos, falta de aire en reposo o con un esfuerzo leve, mareo o desmayo, palpitaciones y fatiga inusual. Establecen que las personas físicamente activas que presenten estos signos o síntomas interrumpan el ejercicio y obtengan autorización médica antes de reanudar ejercicio de cualquier intensidad.{9}"
+   ],
+   "faq": [
+    {
+     "q": "¿Cuentan los bloques cortos de ejercicio para las recomendaciones de actividad?",
+     "a": "Las guías de la OMS de 2020 establecen que la actividad moderada a vigorosa en bloques de cualquier duración cuenta para los 150 a 300 minutos semanales de actividad moderada, y que algo de actividad física es mejor que nada.{1}"
+    },
+    {
+     "q": "¿Qué se ha estudiado sobre entrenar sin material de gimnasio?",
+     "a": "En un ensayo de 8 semanas con 18 hombres jóvenes, las flexiones y el press de banca con una carga similar produjeron mejoras comparables en fuerza y en el grosor del pecho y del tríceps.{3} En adultos jóvenes sedentarios, 3 subidas cortas de escaleras al día, 3 días a la semana durante 6 semanas, aumentaron el consumo máximo de oxígeno frente a no entrenar, en una cantidad que los autores califican de modesta.{4}"
+    },
+    {
+     "q": "¿Cuánto tiempo se mantienen fríos los alimentos en el frigorífico durante un apagón corto?",
+     "a": "Ready.gov indica unas cuatro horas para un frigorífico cerrado y unas 48 horas para un congelador lleno.{6} Los CDC indican 24 horas para un congelador medio lleno que permanezca cerrado.{7}"
+    },
+    {
+     "q": "¿Puede usarse un generador dentro de casa durante un corte de luz?",
+     "a": "Los CDC afirman que un generador nunca debe usarse dentro de una vivienda, un sótano o un garaje, ni a menos de 20 pies de una ventana, puerta o rejilla, porque el monóxido de carbono puede acumularse e intoxicar a las personas y animales del interior.{7}"
+    },
+    {
+     "q": "¿En qué se diferencia esta página de la del apagón?",
+     "a": "Esta página trata cortes breves o programados de unas horas. La página del apagón trata cortes largos o imprevistos: poca luz en casa, monóxido de carbono por calefacción y cocina alternativas, calor, frío y líquidos."
+    }
+   ],
+   "updated": "Actualizado el 21 de noviembre de 2026",
+   "credentialsNote": "ASCA Nivel 1 (fuerza y acondicionamiento) y ACE (anatomía y biomecánica). Son credenciales del entrenador. Ninguna de las dos entidades respalda este negocio ni este artículo.",
+   "labels": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "why": "Por qué",
+    "how": "Cómo",
+    "dose": "Dosis",
+    "sources": "Fuentes",
+    "readIn": "Leer en",
+    "programs": "Ver los programas",
+    "whatsapp": "Pregunta por WhatsApp",
+    "whatsappText": "Hola Susmit, leí el artículo sobre el ejercicio durante un corte de luz y quiero reservar una consulta",
+    "skip": "Saltar al contenido",
+    "crumb": "Ejercicio durante un corte de luz"
+   },
+   "byline": "Por Susmit Jalan, entrenador en Online Fitness Worldwide."
+  },
+  "zh": {
+   "metaTitle": "停电期间的健身：证据 | Online Fitness Worldwide",
+   "metaDescription": "短时或计划停电：WHO指南、短时段与徒手训练研究、CDC和Ready.gov对身体活动与安全的说明。附来源。",
+   "h1": "短时或计划停电期间的健身：研究与官方指南显示了什么",
+   "dek": "在停电数小时（如计划限电）期间，身体活动指南、短时段与无器械训练研究以及官方停电指南分别报告了什么。",
+   "intro": [
+    "所引来源中没有一项研究停电期间的运动。它们报告的是：世卫组织2020年指南将任何时长的中等至剧烈活动计入每周建议量；多项试验检验了无器械或极少器械的训练；CDC和Ready.gov的官方停电指南涵盖照明、一氧化碳、食物储存以及高温和寒冷。{1}{6}{7}",
+    "发表于British Journal of Sports Medicine的世卫组织2020年指南指出，成人每周应进行150至300分钟中等强度或75至150分钟高强度有氧活动，并在2天或以上进行肌肉强化活动。任何时长的活动现在都计入这些量，这与2010年指南至少10分钟一段的要求不同；指南重申，有一些身体活动胜过完全没有。{1}",
+    "一篇关于最低剂量抗阻训练的叙述性综述指出，短时训练，或使用很少或不用器械的短时、频繁练习（抗阻\"exercise snacking\"），可以改善年轻和年长成人的力量和功能能力。{2}",
+    "在一项针对18名年轻男性（每组9人，每周两次）的8周试验中，调整到约相当于卧推一次最大重复（1RM）40%负荷的俯卧撑，与40% 1RM的卧推，在卧推1RM以及肱三头肌和胸肌厚度上带来相当的增长。{3}一项纳入21项研究、所有组均做到瞬时肌肉力竭的荟萃分析发现，高负荷（超过1RM的60%）比低负荷带来更大的1RM力量增长，而肌肉体积变化相似。{5}",
+    "在久坐的年轻成人中（每组12人），每天3次、间隔1至4小时用力爬60级楼梯，每周3天、持续6周，与不训练组相比提高了峰值摄氧量。作者称绝对增幅不大。{4}"
+   ],
+   "items": [
+    {
+     "name": "短时段的中等至剧烈活动",
+     "why": "世卫组织2020年指南指出，任何时长的活动都计入每周建议量。{1}"
+    },
+    {
+     "name": "俯卧撑",
+     "why": "在一项针对年轻男性的8周试验中与40% 1RM卧推相匹配。{3}"
+    },
+    {
+     "name": "爬楼梯",
+     "why": "久坐的年轻成人每天爬3次60级台阶，每周3天，持续6周。{4}"
+    },
+    {
+     "name": "抗阻exercise snacking",
+     "why": "最低剂量抗阻训练综述中描述的、使用很少或不用器械的短时频繁练习。{2}"
+    }
+   ],
+   "enoughHeading": "官方停电指南怎么说",
+   "enough": [
+    "美国政府的防灾网站Ready.gov指出，停电可能中断通信、供水和交通，导致商店和服务关闭，造成食物变质和水污染，并使医疗设备无法使用。其准备清单包括每位家庭成员一支手电筒，以及电池或充电宝等其他电源。{6}",
+    "Ready.gov指出，关闭的冰箱可使食物保持低温约四小时，装满的冰柜可保持温度约48小时。{6}CDC给出半满且保持关闭的冰柜为24小时，并列出停电4小时或以上后应丢弃冰箱中的易腐食品。{7}",
+    "Ready.gov列出为需冷藏的药品和依赖电力的医疗设备准备替代方案，以及向当地官方了解供暖和降温场所。{6}"
+   ],
+   "safety": [
+    "一氧化碳：CDC指出，发电机、高压清洗机或其他汽油发动机绝不应在住宅、地下室或车库内使用，也不应在距任何窗户、门或通风口不足20英尺（约6米）处使用；木炭烤炉、日式炭炉、燃气灯或便携式露营炉绝不应在住宅、帐篷或露营车内使用。它列出一氧化碳中毒最常见的症状为头痛、头晕、虚弱、恶心、呕吐、胸痛和意识混乱。{7}Ready.gov指出，不应使用燃气灶或烤箱为住宅取暖，因为这会增加一氧化碳中毒风险。{6}",
+    "光线不足与跌倒：CDC指出，应使用电池手电筒和提灯而不是蜡烛或燃气灯，以将火灾风险降到最低。{7}世卫组织将不安全的楼梯、照明或行走地面列为跌倒的危险因素；据其估计，2023年全球约有842,000人死于跌倒。{8}",
+    "高温与寒冷：CDC指出，电风扇可能带来一些舒适感，但在非常炎热时不能预防热相关疾病；中暑时体温可在10至15分钟内升至106°F（约41°C）或更高；体温低于95°F（35°C）的低体温症属于医疗急症。{7}",
+    "警示症状：ACSM 2015年筛查建议列出的体征和症状包括胸部、颈部、下颌或手臂疼痛或不适，静息或轻微用力时气短，头晕或晕厥，心悸，以及异常疲劳。建议指出，出现这些体征或症状的经常运动者应停止运动，并在恢复任何强度的运动前取得医疗许可。{9}"
+   ],
+   "faq": [
+    {
+     "q": "短时段运动计入活动指南吗？",
+     "a": "世卫组织2020年指南指出，任何时长的中等至剧烈活动都计入每周150至300分钟的中等强度活动，并且有一些身体活动胜过完全没有。{1}"
+    },
+    {
+     "q": "关于不用健身器械的训练，有哪些研究？",
+     "a": "在一项针对18名年轻男性的8周试验中，负荷相近的俯卧撑和卧推在力量以及胸肌和肱三头肌厚度上带来相当的增长。{3}在久坐的年轻成人中，每天3次短时爬楼梯，每周3天、持续6周，与不训练相比提高了峰值摄氧量，作者称增幅不大。{4}"
+    },
+    {
+     "q": "停电时冰箱里的食物能保持低温多久？",
+     "a": "Ready.gov给出关闭的冰箱约四小时、装满的冰柜约48小时。{6}CDC给出半满且保持关闭的冰柜为24小时。{7}"
+    },
+    {
+     "q": "停电时可以在室内使用发电机吗？",
+     "a": "CDC指出，发电机绝不应在住宅、地下室或车库内使用，也不应在距任何窗户、门或通风口不足20英尺处使用，因为一氧化碳可能积聚并使室内的人和动物中毒。{7}"
+    },
+    {
+     "q": "本页与大停电页面有何不同？",
+     "a": "本页涉及持续数小时的短时或计划停电。大停电页面涉及较长或意外的停电：家中光线不足、替代取暖和烹饪产生的一氧化碳、高温、寒冷和饮水。"
+    }
+   ],
+   "updated": "更新于2026年11月21日",
+   "credentialsNote": "ASCA一级（力量与体能）和ACE（解剖学与生物力学）。这些是教练持有的资质证书。两家机构均不为本业务或本文背书。",
+   "labels": {
+    "home": "首页",
+    "blog": "博客",
+    "why": "为什么",
+    "how": "怎么做",
+    "dose": "训练量",
+    "sources": "参考来源",
+    "readIn": "其他语言版本",
+    "programs": "查看课程",
+    "whatsapp": "通过WhatsApp咨询",
+    "whatsappText": "你好 Susmit，我读了关于停电期间健身的文章，想预约咨询",
+    "skip": "跳到正文",
+    "crumb": "停电期间的健身"
+   },
+   "byline": "作者：Susmit Jalan，Online Fitness Worldwide 教练。"
+  },
+  "ja": {
+   "metaTitle": "停電中のフィットネス：エビデンス | Online Fitness Worldwide",
+   "metaDescription": "短時間・計画停電：WHOガイドライン、短時間・器具なしトレーニングの研究、CDCとReady.govが身体活動と安全について示す内容。出典付き。",
+   "h1": "短時間または計画停電中のフィットネス：研究と公的ガイダンスが示すこと",
+   "dek": "計画停電など数時間電気が使えないときについて、身体活動ガイドライン、短時間・器具なしトレーニングの研究、停電に関する公的ガイダンスが報告している内容。",
+   "intro": [
+    "引用した情報源のなかに、停電中の運動を調べたものはありません。報告されているのは次の点です。WHOの2020年ガイドラインは、どの長さの中高強度活動も週の推奨量に数える。器具なし、またはごく少ない器具でのトレーニングを検証した試験がある。CDCとReady.govの停電に関する公的ガイダンスは、照明、一酸化炭素、食品の保存、暑さと寒さを扱っている。{1}{6}{7}",
+    "British Journal of Sports Medicineに掲載されたWHOの2020年ガイドラインは、成人は週150〜300分の中強度、または75〜150分の高強度の有酸素性活動に加え、週2日以上の筋力向上活動を行うべきだとしています。現在はどの長さの活動もこれらの量に数えられ、2010年ガイドラインの「1回10分以上」という条件とは異なります。また、少しでも身体活動をすることは何もしないより良いと改めて述べています。{1}",
+    "最小用量のレジスタンストレーニングに関するナラティブレビューは、短いセッション、または器具をほとんど、あるいはまったく使わない短く頻繁な運動（レジスタンス\"exercise snacking\"）が、若年および高齢の成人の筋力と機能的能力を向上させうると述べています。{2}",
+    "若い男性18人（各群9人、週2回）を対象とした8週間の試験では、ベンチプレスの最大挙上重量（1RM）の約40%に相当する負荷に調整した腕立て伏せと、40% 1RMのベンチプレスが、ベンチプレス1RMおよび上腕三頭筋と胸の筋厚で同程度の増加をもたらしました。{3}全セットを一時的な筋疲労まで行った21研究のメタ分析では、高負荷（1RMの60%超）のほうが低負荷より1RM筋力の増加が大きく、筋の大きさの変化は同程度でした。{5}",
+    "座りがちな若年成人（各群12人）で、60段の階段を1日3回、1〜4時間あけて力強く上ることを週3日、6週間続けたところ、トレーニングなしの群と比べて最大酸素摂取量が上がりました。著者らは絶対的な増加をわずかと述べています。{4}"
+   ],
+   "items": [
+    {
+     "name": "短時間の中高強度活動",
+     "why": "WHOの2020年ガイドラインは、どの長さの活動も週の推奨量に数えるとしています。{1}"
+    },
+    {
+     "name": "腕立て伏せ",
+     "why": "若い男性を対象とした8週間の試験で40% 1RMのベンチプレスと負荷をそろえた。{3}"
+    },
+    {
+     "name": "階段上り",
+     "why": "座りがちな若年成人で、60段を1日3回、週3日、6週間。{4}"
+    },
+    {
+     "name": "レジスタンスexercise snacking",
+     "why": "最小用量のレジスタンストレーニングのレビューで説明された、器具をほとんど使わない短く頻繁な運動。{2}"
+    }
+   ],
+   "enoughHeading": "停電に関する公的ガイダンスの内容",
+   "enough": [
+    "米国政府の防災サイトReady.govは、停電によって通信、水道、交通が乱れ、店舗やサービスが閉まり、食品が傷んだり水が汚染されたりし、医療機器が使えなくなることがあるとしています。準備項目には、家族一人ひとりの懐中電灯と、電池やモバイルバッテリーなどの代替電源が含まれます。{6}",
+    "Ready.govは、閉めたままの冷蔵庫は約4時間食品を冷たく保ち、満杯の冷凍庫は約48時間温度を保つとしています。{6}CDCは、閉めたままの半分の量の冷凍庫で24時間とし、停電が4時間以上続いた場合は冷蔵庫内の傷みやすい食品を廃棄するとしています。{7}",
+    "Ready.govは、冷蔵が必要な薬や電気で動く医療機器のための代替計画と、冷暖房のある場所について地元当局に確認することを挙げています。{6}"
+   ],
+   "safety": [
+    "一酸化炭素：CDCは、発電機、高圧洗浄機その他のガソリンエンジンを、住宅、地下室、ガレージの中や、窓、ドア、換気口から20フィート（約6メートル）未満の場所で決して使ってはならず、炭火グリル、七輪、ランタン、携帯用キャンプコンロを住宅、テント、キャンピングカーの中で決して使ってはならないとしています。一酸化炭素中毒の最も一般的な症状として、頭痛、めまい、脱力、吐き気、嘔吐、胸痛、錯乱を挙げています。{7}Ready.govは、一酸化炭素中毒のリスクが高まるため、ガスコンロやオーブンを暖房に使わないとしています。{6}",
+    "暗さと転倒：CDCは、火災のリスクを最小限にするため、ろうそくやガスランタンではなく電池式の懐中電灯やランタンを使うとしています。{7}WHOは、安全でない階段、照明、歩行面を転倒の危険因子に挙げており、2023年の転倒による死亡は世界で約842,000人と推計しています。{8}",
+    "暑さと寒さ：CDCは、扇風機は多少の快適さをもたらすことはあっても、非常に暑いときは熱中症を防げないこと、熱射病では体温が10〜15分で106°F（約41°C）以上に上がりうること、体温が95°F（35°C）未満になる低体温症は医療上の緊急事態であることを述べています。{7}",
+    "警告症状：ACSMの2015年スクリーニング勧告は、胸、首、あご、腕の痛みや不快感、安静時や軽い運動での息切れ、めまいや失神、動悸、異常な疲労などの徴候と症状を挙げています。こうした徴候や症状が現れた運動習慣のある人は運動を中止し、どの強度の運動も再開する前に医療上の許可を得るとしています。{9}"
+   ],
+   "faq": [
+    {
+     "q": "短時間の運動も活動ガイドラインに数えられますか？",
+     "a": "WHOの2020年ガイドラインは、どの長さの中高強度活動も週150〜300分の中強度活動に数えられ、少しでも身体活動をすることは何もしないより良いとしています。{1}"
+    },
+    {
+     "q": "ジムの器具を使わないトレーニングについて、何が研究されていますか？",
+     "a": "若い男性18人を対象とした8週間の試験では、同程度の負荷の腕立て伏せとベンチプレスが、筋力と胸・上腕三頭筋の厚さで同程度の増加をもたらしました。{3}座りがちな若年成人では、1日3回の短い階段上りを週3日、6週間続けると、トレーニングなしと比べて最大酸素摂取量が上がり、著者らはその増加をわずかとしています。{4}"
+    },
+    {
+     "q": "停電時、冷蔵庫の食品はどのくらい冷たく保たれますか？",
+     "a": "Ready.govは、閉めた冷蔵庫で約4時間、満杯の冷凍庫で約48時間としています。{6}CDCは、閉めたままの半分の量の冷凍庫で24時間としています。{7}"
+    },
+    {
+     "q": "停電中に発電機を屋内で使ってもよいですか？",
+     "a": "CDCは、一酸化炭素がたまり、中にいる人や動物が中毒を起こしうるため、発電機を住宅、地下室、ガレージの中や、窓、ドア、換気口から20フィート未満の場所で決して使ってはならないとしています。{7}"
+    },
+    {
+     "q": "このページは大規模停電のページとどう違いますか？",
+     "a": "このページは数時間の短時間または計画停電を扱います。大規模停電のページは長時間または予期しない停電を扱い、家の中の暗さ、代替の暖房や調理による一酸化炭素、暑さ、寒さ、水分を取り上げています。"
+    }
+   ],
+   "updated": "2026年11月21日更新",
+   "credentialsNote": "ASCA レベル1（ストレングス＆コンディショニング）と ACE（解剖学とバイオメカニクス）。これらはコーチが保有する資格です。いずれの団体も本事業および本記事を推奨するものではありません。",
+   "labels": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "why": "なぜ",
+    "how": "やり方",
+    "dose": "回数・量",
+    "sources": "出典",
+    "readIn": "他の言語で読む",
+    "programs": "プログラムを見る",
+    "whatsapp": "WhatsAppで質問する",
+    "whatsappText": "こんにちは Susmit さん、停電中のフィットネスの記事を読み、相談を予約したいです",
+    "skip": "本文へスキップ",
+    "crumb": "停電中のフィットネス"
+   },
+   "byline": "執筆：スシュミット・ジャラン（Online Fitness Worldwide コーチ）"
+  },
+  "gu": {
+   "metaTitle": "વીજળી કાપ દરમિયાન ફિટનેસ: પુરાવા | Online Fitness Worldwide",
+   "metaDescription": "ટૂંકો કે નક્કી વીજળી કાપ: WHO માર્ગદર્શિકા, ટૂંકા સત્રો અને સાધન વગરના અભ્યાસો, CDC અને Ready.gov પ્રવૃત્તિ અને સલામતી વિશે શું કહે છે. સ્રોતો સાથે.",
+   "h1": "ટૂંકા કે અગાઉથી નક્કી વીજળી કાપ દરમિયાન ફિટનેસ: સંશોધન અને સત્તાવાર માર્ગદર્શન શું દર્શાવે છે",
+   "dek": "થોડા કલાક વીજળી ન હોય ત્યારે, જેમ કે નક્કી લોડ-શેડિંગમાં, શારીરિક પ્રવૃત્તિની માર્ગદર્શિકાઓ, ટૂંકા સત્રો અને સાધન વગરની તાલીમના અભ્યાસો, અને વીજળી કાપ પરનું સત્તાવાર માર્ગદર્શન શું જણાવે છે.",
+   "intro": [
+    "ટાંકેલા સ્રોતોમાંથી કોઈ પણ વીજળી કાપ દરમિયાન કસરતનો અભ્યાસ કરતો નથી. તેઓ જે જણાવે છે તે આ છે: WHO ની 2020 ની માર્ગદર્શિકા કોઈ પણ લંબાઈના મધ્યમથી તીવ્ર પ્રવૃત્તિના સત્રોને સાપ્તાહિક ભલામણોમાં ગણે છે; અનેક ટ્રાયલોએ સાધન વગર કે બહુ ઓછા સાધન સાથેની તાલીમ ચકાસી છે; અને CDC તથા Ready.gov નું સત્તાવાર માર્ગદર્શન પ્રકાશ, કાર્બન મોનોક્સાઇડ, ખોરાકનો સંગ્રહ, ગરમી અને ઠંડી આવરી લે છે.{1}{6}{7}",
+    "British Journal of Sports Medicine માં પ્રકાશિત WHO ની 2020 ની માર્ગદર્શિકા જણાવે છે કે પુખ્ત વયના લોકોએ દર અઠવાડિયે 150 થી 300 મિનિટ મધ્યમ તીવ્રતાની કે 75 થી 150 મિનિટ તીવ્ર એરોબિક પ્રવૃત્તિ કરવી જોઈએ, સાથે 2 કે વધુ દિવસ સ્નાયુ મજબૂત કરતી પ્રવૃત્તિઓ. હવે કોઈ પણ લંબાઈના સત્રો આ માત્રામાં ગણાય છે, જે 2010 ની માર્ગદર્શિકાની ઓછામાં ઓછા 10 મિનિટના સત્રોની શરતથી અલગ છે, અને માર્ગદર્શિકા ફરી કહે છે કે થોડી શારીરિક પ્રવૃત્તિ બિલકુલ ન કરવા કરતાં સારી છે.{1}",
+    "ન્યૂનતમ-માત્રા રેઝિસ્ટન્સ તાલીમની એક નેરેટિવ સમીક્ષા જણાવે છે કે ટૂંકા સત્રો, અથવા ઓછા કે સાધન વગરના ટૂંકા અને વારંવારના સત્રો (રેઝિસ્ટન્સ \"exercise snacking\"), યુવાન અને વૃદ્ધ પુખ્તોમાં તાકાત અને કાર્યક્ષમતા સુધારી શકે છે.{2}",
+    "18 યુવાન પુરુષો (દરેક જૂથમાં 9, અઠવાડિયે બે વાર) પર 8 અઠવાડિયાની એક ટ્રાયલમાં, બેન્ચ પ્રેસના એક-રેપિટિશન મેક્સિમમ (1RM) ના આશરે 40% જેટલા ભાર પર ગોઠવેલા પુશ-અપ, અને 40% 1RM પર બેન્ચ પ્રેસથી બેન્ચ-પ્રેસ 1RM અને ટ્રાઇસેપ્સ તથા છાતીના સ્નાયુની જાડાઈમાં તુલનાત્મક વધારો થયો.{3} 21 અભ્યાસોના એક મેટા-વિશ્લેષણમાં, જ્યાં બધા સેટ ક્ષણિક સ્નાયુ નિષ્ફળતા સુધી કરાયા, ભારે ભાર (1RM ના 60% થી વધુ) થી હળવા ભારની તુલનામાં 1RM તાકાતમાં વધુ વધારો મળ્યો, જ્યારે સ્નાયુના કદમાં ફેરફાર સમાન રહ્યો.{5}",
+    "બેઠાડુ યુવાન પુખ્તોમાં (દરેક જૂથમાં 12), 60 પગથિયાંની સીડી દિવસમાં 3 વાર, 1 થી 4 કલાકના અંતરે, અઠવાડિયે 3 દિવસ, 6 અઠવાડિયા સુધી જોરથી ચડવાથી તાલીમ ન લેનાર જૂથની તુલનામાં પીક ઓક્સિજન અપટેક વધ્યો. લેખકો આ વધારાને સાધારણ ગણાવે છે.{4}"
+   ],
+   "items": [
+    {
+     "name": "મધ્યમથી તીવ્ર પ્રવૃત્તિના ટૂંકા સત્રો",
+     "why": "WHO ની 2020 ની માર્ગદર્શિકા જણાવે છે કે કોઈ પણ લંબાઈના સત્રો સાપ્તાહિક ભલામણોમાં ગણાય છે.{1}"
+    },
+    {
+     "name": "પુશ-અપ",
+     "why": "યુવાન પુરુષો પર 8 અઠવાડિયાની ટ્રાયલમાં 40% 1RM બેન્ચ પ્રેસ જેટલો રખાયો.{3}"
+    },
+    {
+     "name": "સીડી ચડવી",
+     "why": "બેઠાડુ યુવાન પુખ્તોમાં દિવસમાં 60 પગથિયાંની 3 ચડાઈ, અઠવાડિયે 3 દિવસ, 6 અઠવાડિયા સુધી.{4}"
+    },
+    {
+     "name": "રેઝિસ્ટન્સ exercise snacking",
+     "why": "ન્યૂનતમ-માત્રા રેઝિસ્ટન્સ તાલીમની સમીક્ષામાં વર્ણવેલા ઓછા કે સાધન વગરના ટૂંકા, વારંવારના સત્રો.{2}"
+    }
+   ],
+   "enoughHeading": "વીજળી કાપ પર સત્તાવાર માર્ગદર્શન શું કહે છે",
+   "enough": [
+    "અમેરિકી સરકારની આપત્તિ-તૈયારી સાઇટ Ready.gov જણાવે છે કે વીજળી કાપ સંચાર, પાણી અને પરિવહન ખોરવી શકે છે, દુકાનો અને સેવાઓ બંધ કરાવી શકે છે, ખોરાક બગાડી અને પાણી દૂષિત કરી શકે છે, અને મેડિકલ ઉપકરણોનો ઉપયોગ અટકાવી શકે છે. તેની તૈયારીની યાદીમાં ઘરના દરેક સભ્ય માટે ટોર્ચ અને બેટરી કે પાવર બેન્ક જેવા અન્ય વીજ સ્રોતો શામેલ છે.{6}",
+    "Ready.gov જણાવે છે કે બંધ રાખેલું ફ્રિજ ખોરાકને આશરે ચાર કલાક ઠંડો રાખે છે અને ભરેલું ફ્રીઝર આશરે 48 કલાક તેનું તાપમાન જાળવે છે.{6} CDC બંધ રાખેલા અડધા ભરેલા ફ્રીઝર માટે 24 કલાક જણાવે છે, અને કહે છે કે વીજળી 4 કલાક કે વધુ બંધ રહે ત્યારે ફ્રિજનો જલદી બગડતો ખોરાક ફેંકી દેવાય છે.{7}",
+    "Ready.gov ની યાદીમાં ફ્રિજમાં રાખવાની દવાઓ અને વીજળીથી ચાલતા મેડિકલ ઉપકરણો માટે વૈકલ્પિક યોજના, અને ગરમી કે ઠંડીથી બચાવનાં સ્થળો વિશે સ્થાનિક અધિકારીઓ પાસેથી માહિતી મેળવવી શામેલ છે.{6}"
+   ],
+   "safety": [
+    "કાર્બન મોનોક્સાઇડ: CDC જણાવે છે કે જનરેટર, પ્રેશર વોશર કે પેટ્રોલથી ચાલતું કોઈ પણ એન્જિન ઘર, બેઝમેન્ટ કે ગેરેજની અંદર, અથવા કોઈ બારી, દરવાજા કે વેન્ટથી 20 ફૂટ (આશરે 6 મીટર) થી ઓછા અંતરે ક્યારેય ઉપયોગમાં ન લેવું જોઈએ, અને ચારકોલ ગ્રિલ, હિબાચી, ફાનસ કે પોર્ટેબલ કેમ્પિંગ સ્ટવ ઘર, તંબુ કે કેમ્પરની અંદર ક્યારેય ઉપયોગમાં ન લેવો જોઈએ. તે કાર્બન મોનોક્સાઇડ ઝેરના સૌથી સામાન્ય લક્ષણો માથાનો દુખાવો, ચક્કર, નબળાઈ, ઊબકા, ઊલટી, છાતીમાં દુખાવો અને મૂંઝવણ જણાવે છે.{7} Ready.gov જણાવે છે કે ઘર ગરમ કરવા ગેસ સ્ટવ કે ઓવનનો ઉપયોગ ન થવો જોઈએ, કારણ કે તેનાથી કાર્બન મોનોક્સાઇડ ઝેરનું જોખમ વધે છે.{6}",
+    "ઓછો પ્રકાશ અને પડવું: CDC જણાવે છે કે આગનું જોખમ ઓછામાં ઓછું રાખવા મીણબત્તી કે ગેસ ફાનસને બદલે બેટરીવાળી ટોર્ચ અને ફાનસ વપરાય છે.{7} WHO અસુરક્ષિત સીડી, પ્રકાશ કે ચાલવાની સપાટીઓને પડવાના જોખમ પરિબળોમાં ગણે છે; તેના અંદાજ મુજબ 2023 માં વિશ્વભરમાં પડવાથી આશરે 8,42,000 મૃત્યુ થયાં.{8}",
+    "ગરમી અને ઠંડી: CDC જણાવે છે કે વીજળીના પંખા થોડી રાહત આપી શકે, પણ ખૂબ ગરમીમાં ગરમીથી થતી બીમારી અટકાવતા નથી; હીટ સ્ટ્રોકમાં શરીરનું તાપમાન 10 થી 15 મિનિટમાં 106°F (આશરે 41°C) કે તેથી વધુ થઈ શકે છે; અને હાઇપોથર્મિયા, એટલે કે 95°F (35°C) થી ઓછું શરીરનું તાપમાન, મેડિકલ ઇમરજન્સી છે.{7}",
+    "ચેતવણીના લક્ષણો: ACSM ની 2015 ની સ્ક્રીનિંગ ભલામણો એવા સંકેતો અને લક્ષણો ગણાવે છે જેમાં છાતી, ગરદન, જડબા કે હાથમાં દુખાવો કે બેચેની, આરામમાં કે હળવી મહેનતે શ્વાસ ચડવો, ચક્કર કે બેભાન થવું, ધબકારા ઝડપી લાગવા, અને અસામાન્ય થાક શામેલ છે. તેઓ જણાવે છે કે આવા સંકેતો કે લક્ષણો ધરાવતા શારીરિક રીતે સક્રિય લોકો કસરત બંધ કરે અને કોઈ પણ તીવ્રતાની કસરત ફરી શરૂ કરતા પહેલાં મેડિકલ મંજૂરી મેળવે.{9}"
+   ],
+   "faq": [
+    {
+     "q": "શું કસરતના ટૂંકા સત્રો પ્રવૃત્તિની માર્ગદર્શિકામાં ગણાય છે?",
+     "a": "WHO ની 2020 ની માર્ગદર્શિકા જણાવે છે કે કોઈ પણ લંબાઈના સત્રોમાં કરેલી મધ્યમથી તીવ્ર પ્રવૃત્તિ અઠવાડિયાની 150 થી 300 મિનિટની મધ્યમ પ્રવૃત્તિમાં ગણાય છે, અને થોડી શારીરિક પ્રવૃત્તિ બિલકુલ ન કરવા કરતાં સારી છે.{1}"
+    },
+    {
+     "q": "જિમના સાધન વગરની તાલીમ પર શું અભ્યાસ થયો છે?",
+     "a": "18 યુવાન પુરુષો પર 8 અઠવાડિયાની ટ્રાયલમાં સમાન ભાર પર પુશ-અપ અને બેન્ચ પ્રેસથી તાકાત અને છાતી તથા ટ્રાઇસેપ્સની જાડાઈમાં તુલનાત્મક વધારો થયો.{3} બેઠાડુ યુવાન પુખ્તોમાં દિવસમાં 3 ટૂંકી સીડી-ચડાઈ, અઠવાડિયે 3 દિવસ, 6 અઠવાડિયા સુધી, તાલીમ ન લેવાની તુલનામાં પીક ઓક્સિજન અપટેક વધાર્યો, જેને લેખકો સાધારણ વધારો ગણાવે છે.{4}"
+    },
+    {
+     "q": "વીજળી કાપમાં ફ્રિજમાં ખોરાક કેટલો સમય ઠંડો રહે છે?",
+     "a": "Ready.gov બંધ ફ્રિજ માટે આશરે ચાર કલાક અને ભરેલા ફ્રીઝર માટે આશરે 48 કલાક જણાવે છે.{6} CDC બંધ રાખેલા અડધા ભરેલા ફ્રીઝર માટે 24 કલાક જણાવે છે.{7}"
+    },
+    {
+     "q": "શું વીજળી કાપમાં જનરેટર ઘરની અંદર ચલાવી શકાય?",
+     "a": "CDC જણાવે છે કે જનરેટર ઘર, બેઝમેન્ટ કે ગેરેજની અંદર, અથવા કોઈ બારી, દરવાજા કે વેન્ટથી 20 ફૂટથી ઓછા અંતરે ક્યારેય ઉપયોગમાં ન લેવું જોઈએ, કારણ કે કાર્બન મોનોક્સાઇડ જમા થઈને અંદરના લોકો અને પ્રાણીઓને ઝેર આપી શકે છે.{7}"
+    },
+    {
+     "q": "આ પેજ બ્લેકઆઉટવાળા પેજથી કેવી રીતે અલગ છે?",
+     "a": "આ પેજ થોડા કલાકના ટૂંકા કે નક્કી વીજળી કાપ વિશે છે. બ્લેકઆઉટવાળું પેજ લાંબા કે અચાનક કાપ વિશે છે: ઘરમાં ઓછો પ્રકાશ, વૈકલ્પિક હીટિંગ અને રસોઈથી કાર્બન મોનોક્સાઇડ, ગરમી, ઠંડી અને પ્રવાહી."
+    }
+   ],
+   "updated": "અપડેટ 21 નવેમ્બર 2026",
+   "credentialsNote": "ASCA લેવલ 1 (સ્ટ્રેન્થ અને કન્ડિશનિંગ) અને ACE (એનાટોમી અને બાયોમિકેનિક્સ). આ કોચ પાસેના ક્રેડેન્શિયલ છે. આમાંથી કોઈ સંસ્થા આ વ્યવસાય કે આ લેખને સમર્થન આપતી નથી.",
+   "labels": {
+    "home": "હોમ",
+    "blog": "બ્લોગ",
+    "why": "શા માટે",
+    "how": "કેવી રીતે",
+    "dose": "ડોઝ",
+    "sources": "સ્રોતો",
+    "readIn": "આ ભાષામાં વાંચો",
+    "programs": "પ્રોગ્રામ જુઓ",
+    "whatsapp": "WhatsApp પર પૂછો",
+    "whatsappText": "નમસ્તે સુસ્મિત, મેં વીજળી કાપ દરમિયાન ફિટનેસ પરનો લેખ વાંચ્યો અને કન્સલ્ટેશન બુક કરવું છે",
+    "skip": "સામગ્રી પર જાઓ",
+    "crumb": "વીજળી કાપ દરમિયાન ફિટનેસ"
+   },
+   "byline": "લેખક: સુસ્મિત જાલાન, કોચ, Online Fitness Worldwide."
+  }
+ },
+ "format": "evidence"
+}
